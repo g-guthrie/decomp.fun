@@ -48,5 +48,18 @@
    "matched_data_percent": 23.75768442622951,
    "complete_data_percent": 23.75768442622951
   }
+ },
+ {
+  "timestamp": "2026-10-18T23:30:27Z",
+  "commit_sha": "06c4bed35ec6d3938e2c2b19ed4cec8a0394f95b",
+  "commit_message": "Publish 49.3091 percent code with real helpers and typed motion data",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 49.30910442250894,
+   "matched_code_percent": 49.30910442250894,
+   "complete_code_percent": 49.30910442250894,
+   "matched_data_percent": 23.76755999407466,
+   "complete_data_percent": 23.76755999407466
+  }
  }
 ]
