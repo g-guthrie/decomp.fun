@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-09-28T09:47:23Z",
+  "commit_sha": "f1316d7590354c7b44cbc0a92f39db0e2c4173a3",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 85.67,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 85.67
+  }
+ },
+ {
+  "timestamp": "2026-10-01T01:15:11Z",
+  "commit_sha": "55e657f3bd53087e0eb46966ecc4c3ae25e3eea5",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 88.6,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 88.6
+  }
+ },
+ {
+  "timestamp": "2026-10-08T16:57:09Z",
+  "commit_sha": "9979eebe5ad758fba88040ab188c6f1ce5d3b254",
+  "commit_message": "Merge pull request #9 from Rivarux/add-recomp-json",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
+ }
+]

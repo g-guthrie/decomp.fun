@@ -1,0 +1,59 @@
+[
+ {
+  "timestamp": "2026-05-20T06:03:19Z",
+  "commit_sha": "0152372a55063f72e43f668ffbcb495dbd7ae663",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 95.04,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 95.04
+  }
+ },
+ {
+  "timestamp": "2026-07-28T07:59:31Z",
+  "commit_sha": "b03e787d305cef9cd48d0f2e857848df8bc5b187",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 95.04,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 95.04
+  }
+ },
+ {
+  "timestamp": "2026-08-24T04:24:56Z",
+  "commit_sha": "11ee0fec2143bdd636ee0e9c714a402fd8c7d9fe",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 95.64,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 95.64
+  }
+ },
+ {
+  "timestamp": "2026-08-29T03:34:45Z",
+  "commit_sha": "1978bb520be7752ff13ea70dd91694e64caab51f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 97.35,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 97.35
+  }
+ },
+ {
+  "timestamp": "2026-10-14T15:47:09Z",
+  "commit_sha": "df8815e75f3d79618466e01e0827c6165b93d11c",
+  "commit_message": "Map `.bss` data (#205)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 83.75807203508663,
+   "complete_data_percent": 0.0
+  }
+ }
+]

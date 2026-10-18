@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-08-24T12:23:52Z",
+  "commit_sha": "6784a2f5489f1f2cb239749044a430329138c5ce",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 99.99,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 99.99
+  }
+ },
+ {
+  "timestamp": "2026-09-16T17:27:55Z",
+  "commit_sha": "a1f407cb1ed0992997ace33a024e52b47001fdac",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 99.99,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 99.99
+  }
+ },
+ {
+  "timestamp": "2026-10-18T20:40:12Z",
+  "commit_sha": "e41cf1dfe15783142083b69acd7b9217c02f5e44",
+  "commit_message": "check.yml: add JAP0 build check",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 36.99421965317919,
+   "complete_data_percent": 0.0
+  }
+ }
+]

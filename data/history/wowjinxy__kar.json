@@ -1,0 +1,24 @@
+[
+ {
+  "timestamp": "2026-07-27T21:47:20Z",
+  "commit_sha": "80116d2e7ef8ce759b0ff29dd3ccd7b46ff3dc1d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 9.02,
+   "complete_code_percent": 1.49,
+   "fuzzy_match_percent": 19.6
+  }
+ },
+ {
+  "timestamp": "2026-08-16T03:23:08Z",
+  "commit_sha": "cb94b157612a1d8d187f0bd6ecb5c02aa4c77b57",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 9.02,
+   "complete_code_percent": 1.49,
+   "fuzzy_match_percent": 19.6
+  }
+ }
+]

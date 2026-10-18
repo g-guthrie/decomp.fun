@@ -1,0 +1,180 @@
+[
+ {
+  "timestamp": "2025-07-24T01:55:06Z",
+  "commit_sha": "88480bdb3eae053bdcad789c50f057574df5d849",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 76.55,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 76.55
+  }
+ },
+ {
+  "timestamp": "2025-08-04T12:35:50Z",
+  "commit_sha": "401db00a2b2a73dddf5a3a575d873803ae2b4d03",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 76.8,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 76.8
+  }
+ },
+ {
+  "timestamp": "2025-09-23T02:00:39Z",
+  "commit_sha": "565fbd3125466dad6f1a717ff32a0e5c3ffc672e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 21.85,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 21.85
+  }
+ },
+ {
+  "timestamp": "2025-10-26T01:50:07Z",
+  "commit_sha": "5979bbe6e124c327bcc728a34875bcd1679df7f6",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 22.69,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 22.69
+  }
+ },
+ {
+  "timestamp": "2025-11-29T22:04:02Z",
+  "commit_sha": "c35f5a38296fa9a39927c5fed3385eb7ddc0d3a4",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 44.72,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 44.72
+  }
+ },
+ {
+  "timestamp": "2025-12-30T10:09:41Z",
+  "commit_sha": "a9efd30ebdfb7ef60d18d51b4fe5dd7b5c8bb130",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 70.58,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 70.58
+  }
+ },
+ {
+  "timestamp": "2026-01-24T22:37:29Z",
+  "commit_sha": "a18b51d6c75669e6506e0806a168cc877e73bcec",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 77.4,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 77.4
+  }
+ },
+ {
+  "timestamp": "2026-02-25T05:14:36Z",
+  "commit_sha": "be70a3fddd926dd9dad9f2b71e3b7280d66a9b74",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 83.36,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 83.36
+  }
+ },
+ {
+  "timestamp": "2026-03-25T02:10:32Z",
+  "commit_sha": "a298387c16464864f5090a93d5a53516eeee1491",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 88.88,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 88.88
+  }
+ },
+ {
+  "timestamp": "2026-04-27T05:26:43Z",
+  "commit_sha": "674cda79588a3a24e2ecfe16baf06cbc270865d6",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 98.1,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 98.1
+  }
+ },
+ {
+  "timestamp": "2026-05-22T01:23:50Z",
+  "commit_sha": "cad4a6c99356d91ac62d0a15c4faa2dda9ff384f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-06-13T03:51:06Z",
+  "commit_sha": "e0f59c8ca60d0202ef8781810a140f1fbf21ef4c",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-07-21T04:47:44Z",
+  "commit_sha": "bdf19958c12a19f409259da884f54d0def1ec863",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-08-22T04:29:08Z",
+  "commit_sha": "bfe85905bb46ef4710bef579e37cd18221fcf743",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-09-27T17:30:22Z",
+  "commit_sha": "3b1bd5db108193528fd7dbe6facba02901218a13",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-10-17T21:43:17Z",
+  "commit_sha": "7600c79d3909fce344435dcccbb6ad3bc2aad34e",
+  "commit_message": "Trigger symbol regeneration after successful builds",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-07-16T17:16:33Z",
+  "commit_sha": "4e0fda4222f014b60551fa1bc30cefaae18dce31",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 36.55,
+   "complete_code_percent": 0.01,
+   "fuzzy_match_percent": 69.62
+  }
+ },
+ {
+  "timestamp": "2026-10-12T05:59:11Z",
+  "commit_sha": "57f44a38b12c68f6dcf9e708ca4fa86eff94aca5",
+  "commit_message": "decomp: 23 more matching functions (game, vehicle, vehsupp, nutexanm, nuvec, dvdlow, ...) (#28)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 69.645966,
+   "matched_code_percent": 36.845582539754865,
+   "complete_code_percent": 0.013669294208775686,
+   "matched_data_percent": 0.7429120745213789,
+   "complete_data_percent": 0.0
+  }
+ }
+]

@@ -1,0 +1,158 @@
+[
+ {
+  "timestamp": "2025-10-26T19:10:39Z",
+  "commit_sha": "c2be17a26712ff4bc670da62e18dca75994ca1e4",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 15.64,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 19.55
+  }
+ },
+ {
+  "timestamp": "2025-11-29T23:31:22Z",
+  "commit_sha": "f6d17d5b49634288dff17b586ab4a78ac4493035",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 21.26,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 26.7
+  }
+ },
+ {
+  "timestamp": "2025-12-30T01:21:49Z",
+  "commit_sha": "aa3899e11cb1fa0ce9efcc81be3f94e22e2c210e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 28.04,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 36.0
+  }
+ },
+ {
+  "timestamp": "2026-01-25T01:42:16Z",
+  "commit_sha": "a21368fb200df74f36aec30e9afad1b801edcf37",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 31.08,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 39.53
+  }
+ },
+ {
+  "timestamp": "2026-02-25T03:53:41Z",
+  "commit_sha": "12bc2500d5bfc2b3df6ce5e26958aabb13609c2e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 34.32,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 41.76
+  }
+ },
+ {
+  "timestamp": "2026-03-25T03:43:32Z",
+  "commit_sha": "e3f1688b65993872cc0563e5e6a90f4f948c228c",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 36.75,
+   "complete_code_percent": 1.59,
+   "fuzzy_match_percent": 43.58
+  }
+ },
+ {
+  "timestamp": "2026-04-29T03:13:01Z",
+  "commit_sha": "b0d1f9aaa113ecf1a9a8ad6eca0ffe64e8b96a17",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 38.88,
+   "complete_code_percent": 7.25,
+   "fuzzy_match_percent": 45.39
+  }
+ },
+ {
+  "timestamp": "2026-05-27T04:55:10Z",
+  "commit_sha": "18c2506092b8ea158ee5b77b3d66ba56b52ef917",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 41.49,
+   "complete_code_percent": 12.51,
+   "fuzzy_match_percent": 47.41
+  }
+ },
+ {
+  "timestamp": "2026-06-15T03:37:56Z",
+  "commit_sha": "f6546fe0835f5df84792ba0ac900603d59423803",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 42.83,
+   "complete_code_percent": 14.59,
+   "fuzzy_match_percent": 48.81
+  }
+ },
+ {
+  "timestamp": "2026-07-25T22:33:07Z",
+  "commit_sha": "1191cfb809fe9184795999f12b40cfc889a37ab7",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 44.39,
+   "complete_code_percent": 17.0,
+   "fuzzy_match_percent": 49.88
+  }
+ },
+ {
+  "timestamp": "2026-08-07T05:52:30Z",
+  "commit_sha": "d7f03bbe3d834b847fa3292ffc7905714a9a6afa",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 44.4,
+   "complete_code_percent": 17.0,
+   "fuzzy_match_percent": 49.91
+  }
+ },
+ {
+  "timestamp": "2026-09-29T04:48:45Z",
+  "commit_sha": "c47389f604678c47fcc6ea09f4b1bf6fb4cab159",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 49.64,
+   "complete_code_percent": 21.85,
+   "fuzzy_match_percent": 54.97
+  }
+ },
+ {
+  "timestamp": "2026-09-30T04:38:42Z",
+  "commit_sha": "fbf48fb884243deab3395781ea5d4a00a3dc6cf1",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 49.66,
+   "complete_code_percent": 21.85,
+   "fuzzy_match_percent": 55.0
+  }
+ },
+ {
+  "timestamp": "2026-10-18T04:33:52Z",
+  "commit_sha": "88f1ebc36ab3cc22b0c34ab9f111e68ec636d0e2",
+  "commit_message": "whoa more rnd context",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 56.03478,
+   "matched_code_percent": 51.995726824824395,
+   "complete_code_percent": 23.713664493486196,
+   "matched_data_percent": 7.645561993537445,
+   "complete_data_percent": 18.26600962390658
+  }
+ }
+]

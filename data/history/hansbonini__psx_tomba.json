@@ -1,0 +1,48 @@
+[
+ {
+  "timestamp": "2025-09-30T03:09:31Z",
+  "commit_sha": "1f14ec6c24df878042d4c610f0f14eb2d35a4170",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 13.46,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 13.68
+  }
+ },
+ {
+  "timestamp": "2025-10-22T21:03:28Z",
+  "commit_sha": "98e612d7050b1adef4ef805b2d2f9c8f82a7dc1e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 18.17,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 19.05
+  }
+ },
+ {
+  "timestamp": "2026-09-19T22:46:10Z",
+  "commit_sha": "191c3f48d2002cc697653e25df81f2ce1e35d3f5",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 23.97,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 24.91
+  }
+ },
+ {
+  "timestamp": "2026-10-18T19:35:48Z",
+  "commit_sha": "fb3b36715f6966c099be95564c155bd842003b76",
+  "commit_message": "Add `message.c` function matches",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 22.302624,
+   "matched_code_percent": 22.280575831854932,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

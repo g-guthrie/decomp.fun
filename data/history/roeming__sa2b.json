@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-20T20:28:58Z",
+  "commit_sha": "075fe6891ab177c041d97dfce0135a3980ac4520",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 4.79,
+   "complete_code_percent": 4.77,
+   "fuzzy_match_percent": 4.83
+  }
+ },
+ {
+  "timestamp": "2026-10-07T21:32:00Z",
+  "commit_sha": "874a480379260dce01e8988d6ab13c0deddcee4c",
+  "commit_message": "split more of ChaoMain",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 4.840782,
+   "matched_code_percent": 4.799921975371513,
+   "complete_code_percent": 4.781872234343568,
+   "matched_data_percent": 0.4943966698927461,
+   "complete_data_percent": 0.5565396751859414
+  }
+ }
+]

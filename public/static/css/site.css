@@ -1,0 +1,417 @@
+/* decomp.fun styles, layered on Pico CSS 2 */
+
+:root {
+  --bar-track: #dfe3ebbf;
+  --bar-stripe: #00000026;
+  --bar-code-linked: #00a66e;
+  --bar-code-matched: #00895a;
+  --bar-data-linked: #029ae8;
+  --bar-data-matched: #017fc0;
+  --card-shadow-text: 0 1px 2px #0003, 0 3px 2px #0003, 0 4px 8px #0003;
+  --badge-bg: #e7eaf0;
+  --badge-fg: #3d475c;
+}
+
+[data-theme="dark"] {
+  --pico-background-color: #181c25;
+  --pico-card-background-color: #1b1f29;
+  --bar-track: #2a3140bf;
+  --bar-stripe: #ffffff26;
+  --badge-bg: #2a3140;
+  --badge-fg: #c2c7d0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --pico-background-color: #181c25;
+    --pico-card-background-color: #1b1f29;
+    --bar-track: #2a3140bf;
+    --bar-stripe: #ffffff26;
+    --badge-bg: #2a3140;
+    --badge-fg: #c2c7d0;
+  }
+}
+
+/* ---------------------------------------------------------------- chrome */
+
+nav > ul {
+  white-space: nowrap;
+}
+nav > ul:first-child > li:first-child a {
+  color: var(--pico-contrast);
+}
+nav > ul:first-child > li + li::before {
+  content: "/";
+  padding-right: 10px;
+  color: var(--pico-muted-color);
+}
+@media (max-width: 768px) {
+  nav > ul:first-child > li:not(:first-child) {
+    display: none;
+  }
+}
+
+.brand {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.brand .tld {
+  color: var(--pico-primary);
+}
+
+#theme-toggle {
+  display: inline-flex;
+  vertical-align: middle;
+  color: var(--pico-primary);
+}
+#theme-toggle svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.intro {
+  margin-top: 0;
+}
+body > main.container {
+  padding-top: var(--pico-spacing);
+}
+.intro blockquote {
+  text-wrap: balance;
+}
+
+body > footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+@media (max-width: 768px) {
+  body > footer {
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.muted,
+.muted a {
+  color: var(--pico-muted-color);
+}
+
+pre {
+  scrollbar-width: thin;
+}
+
+/* ---------------------------------------------------------------- tooltips */
+
+#tip {
+  position: absolute;
+  z-index: 99;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--pico-border-radius);
+  background: var(--pico-contrast-background);
+  color: var(--pico-contrast-inverse);
+  font-size: 0.875rem;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+#tip.show {
+  opacity: 1;
+}
+#tip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: var(--arrow, 50%);
+  margin-left: -0.3rem;
+  border: 0.3rem solid transparent;
+  border-top-color: var(--pico-contrast-background);
+}
+#tip.below::after {
+  top: auto;
+  bottom: 100%;
+  border-top-color: transparent;
+  border-bottom-color: var(--pico-contrast-background);
+}
+[data-tip] {
+  cursor: pointer;
+}
+
+/* ---------------------------------------------------------------- progress bars */
+
+.bar {
+  display: flex;
+  height: 2rem;
+  margin-bottom: var(--pico-spacing);
+  overflow: hidden;
+  border-radius: var(--pico-border-radius);
+  background: var(--bar-track);
+  box-shadow: var(--pico-box-shadow);
+  pointer-events: auto;
+}
+.bar > span {
+  display: block;
+  height: 100%;
+}
+.bar .striped {
+  background-image: linear-gradient(
+    45deg,
+    var(--bar-stripe) 25%,
+    transparent 25%,
+    transparent 50%,
+    var(--bar-stripe) 50%,
+    var(--bar-stripe) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 1.25rem 1.25rem;
+}
+.bar.code .linked {
+  background-color: var(--bar-code-linked);
+}
+.bar.code .matched {
+  background-color: var(--bar-code-matched);
+}
+.bar.data .linked {
+  background-color: var(--bar-data-linked);
+}
+.bar.data .matched {
+  background-color: var(--bar-data-matched);
+}
+.bar .fuzzy {
+  background-color: transparent;
+}
+
+/* ---------------------------------------------------------------- platform badges */
+
+.plat {
+  flex: none;
+  align-self: start;
+  display: inline-block;
+  min-width: 2.6em;
+  padding: 0.15em 0.45em;
+  border-radius: 0.4em;
+  background: var(--badge-bg);
+  color: var(--badge-fg);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.4;
+  text-align: center;
+  text-shadow: none;
+  border-left: 3px solid var(--plat, #888);
+}
+.plat[data-p="n64"], .plat[data-p="gc"], .plat[data-p="wii"], .plat[data-p="switch"],
+.plat[data-p="gba"], .plat[data-p="nds"], .plat[data-p="3ds"] { --plat: #e4000f; }
+.plat[data-p="ps"], .plat[data-p="ps2"], .plat[data-p="psp"] { --plat: #2d64e6; }
+.plat[data-p="xbox"], .plat[data-p="xbox360"] { --plat: #2ca243; }
+.plat[data-p="win32"] { --plat: #8a8f98; }
+.plat[data-p="naomi"], .plat[data-p="dc"] { --plat: #f08a24; }
+
+.tag {
+  display: inline-block;
+  padding: 0.1em 0.55em;
+  border-radius: 1em;
+  background: var(--pico-primary-background);
+  color: var(--pico-primary-inverse);
+  font-size: 0.7rem;
+  font-weight: 600;
+  vertical-align: middle;
+  text-shadow: none;
+}
+.tag.subtle {
+  background: var(--badge-bg);
+  color: var(--badge-fg);
+}
+
+/* ---------------------------------------------------------------- listing */
+
+.filters {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--pico-grid-column-gap);
+  margin-top: calc(var(--pico-block-spacing-vertical) * -1);
+  margin-bottom: var(--pico-spacing);
+}
+.filters input[type="search"] {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+.filters details.dropdown {
+  margin: 0;
+}
+@media (max-width: 576px) {
+  .filters {
+    grid-template-columns: 1fr;
+  }
+}
+details.dropdown summary + ul {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+.plat-list li.plat-item {
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+}
+.plat-list li.plat-item label {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  margin: 0;
+  padding: 0.5rem 0 0.5rem var(--pico-spacing);
+}
+.plat-list li.plat-item input {
+  margin: 0;
+}
+.plat-list li.plat-item button {
+  margin: 0.25em var(--pico-spacing) 0.25em 0.25em;
+  padding: 0.2em 0.5em;
+  font-size: 0.8em;
+}
+.count {
+  min-width: 1.6em;
+  padding: 0 0.5em;
+  border-radius: 1em;
+  background: var(--pico-code-kbd-background-color);
+  color: var(--pico-code-kbd-color);
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.section-title {
+  margin: calc(var(--pico-spacing) * 2) 0 var(--pico-spacing);
+}
+.result-count {
+  margin-bottom: var(--pico-spacing);
+}
+
+.project {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  contain: content;
+  text-shadow: var(--card-shadow-text);
+  transition: box-shadow var(--pico-transition);
+  pointer-events: none;
+}
+.project a,
+.project [data-tip] {
+  pointer-events: auto;
+}
+.project-link {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+.project:has(> .project-link:focus-visible) {
+  box-shadow: 0 0 0 var(--pico-outline-width) var(--pico-primary-focus);
+}
+.project-art {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+.project-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.1;
+  filter: blur(3px);
+  transform: scale(1);
+  transition: all 0.5s;
+}
+.project:hover .project-art img,
+.project:focus-within .project-art img {
+  opacity: 0.3;
+  filter: none;
+  transform: scale(1.02);
+}
+.project-head {
+  display: flex;
+  align-items: center;
+  gap: var(--pico-spacing);
+  margin-bottom: var(--pico-typography-spacing-vertical);
+}
+.project-head h3 {
+  flex: auto;
+  margin: 0;
+  text-wrap: balance;
+}
+.project-head h3 .tag {
+  margin-left: 0.4em;
+}
+.project.hidden {
+  display: none;
+}
+
+/* ---------------------------------------------------------------- report */
+
+.report-actions {
+  float: right;
+  display: flex;
+  gap: 0.5rem;
+  margin-inline-start: 1em;
+}
+.report-actions a[role="button"] {
+  padding: 0.4rem 0.8rem;
+}
+.report-head h3 {
+  margin-bottom: 0.25rem;
+}
+.report-desc {
+  clear: both;
+}
+.commit-nav {
+  margin-bottom: var(--pico-spacing);
+}
+
+#treemap {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2;
+  margin-bottom: var(--pico-spacing);
+  border-radius: var(--pico-border-radius);
+  touch-action: none;
+}
+#chart {
+  min-height: 400px;
+  margin-bottom: var(--pico-spacing);
+}
+.uplot {
+  font-family: var(--pico-font-family);
+}
+.u-legend {
+  color: var(--pico-color);
+}
+
+/* ---------------------------------------------------------------- systems */
+
+.systems {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: var(--pico-grid-column-gap);
+}
+.systems article {
+  margin: 0;
+}
+.systems h4 {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.systems a {
+  text-decoration: none;
+}
+
+.notice {
+  padding: var(--pico-spacing);
+  border-left: 4px solid var(--pico-primary);
+  background: var(--pico-card-sectioning-background-color);
+  border-radius: var(--pico-border-radius);
+  margin-bottom: var(--pico-spacing);
+}

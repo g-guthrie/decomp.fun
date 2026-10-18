@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-10-01T01:02:27Z",
+  "commit_sha": "f1491da4a61b22816d21f19560b1b845b0993b58",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 74.08,
+   "complete_code_percent": 21.98,
+   "fuzzy_match_percent": 84.7
+  }
+ },
+ {
+  "timestamp": "2026-10-16T06:38:49Z",
+  "commit_sha": "198538632041411d4f6f3adf708166b2cbd09435",
+  "commit_message": "Use real world boundaries for task shifts",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 99.71842,
+   "matched_code_percent": 93.91140860581328,
+   "complete_code_percent": 62.16329284304031,
+   "matched_data_percent": 99.64112927154551,
+   "complete_data_percent": 68.8878755415075
+  }
+ }
+]

@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-09-29T10:18:15Z",
+  "commit_sha": "e6cd693e0aecb4b890e24be944e66ce43b31addd",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 27.74,
+   "complete_code_percent": 12.33,
+   "fuzzy_match_percent": 34.6
+  }
+ },
+ {
+  "timestamp": "2026-09-30T22:18:39Z",
+  "commit_sha": "0aca5d555d9825ce1f71ec68700dc59a6b3d7fcd",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 32.92,
+   "complete_code_percent": 12.8,
+   "fuzzy_match_percent": 44.26
+  }
+ },
+ {
+  "timestamp": "2026-10-18T15:54:46Z",
+  "commit_sha": "2e5a0e23935cd7c9ab8afcc9d668d4a2ffe63c38",
+  "commit_message": "link DebuggerDriver",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 62.045776,
+   "matched_code_percent": 60.13436616615881,
+   "complete_code_percent": 59.25668552967647,
+   "matched_data_percent": 43.03527472497181,
+   "complete_data_percent": 69.01293066615948
+  }
+ }
+]

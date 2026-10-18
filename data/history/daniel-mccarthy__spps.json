@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-27T18:57:36Z",
+  "commit_sha": "1a72b353b31231782d2a054e23a955952b8c30d9",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 38.34,
+   "complete_code_percent": 10.65,
+   "fuzzy_match_percent": 46.64
+  }
+ },
+ {
+  "timestamp": "2026-10-12T02:18:12Z",
+  "commit_sha": "3b483cf95c8c7ff67ee442e8018e82cc6f820531",
+  "commit_message": "Merge pull request #26 from Daniel-McCarthy/WIP",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 3.3373966,
+   "matched_code_percent": 3.3373965060383517,
+   "complete_code_percent": 3.3373965060383517,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.26357467371073834
+  }
+ }
+]

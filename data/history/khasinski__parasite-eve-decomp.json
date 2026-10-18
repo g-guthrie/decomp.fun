@@ -1,0 +1,48 @@
+[
+ {
+  "timestamp": "2026-08-18T19:36:41Z",
+  "commit_sha": "5614120a59dc356affefd56c159f2ad5845ba1a8",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 40.91,
+   "complete_code_percent": 40.03,
+   "fuzzy_match_percent": 41.35
+  }
+ },
+ {
+  "timestamp": "2026-09-29T08:44:49Z",
+  "commit_sha": "3e02145912170454740a32075b6306afaf8804bd",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 75.78,
+   "complete_code_percent": 75.78,
+   "fuzzy_match_percent": 75.78
+  }
+ },
+ {
+  "timestamp": "2026-09-29T22:02:34Z",
+  "commit_sha": "6e01482db544ba39b7a19fd2ef697da96b13d7f1",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 75.92,
+   "complete_code_percent": 75.92,
+   "fuzzy_match_percent": 75.92
+  }
+ },
+ {
+  "timestamp": "2026-10-15T18:26:07Z",
+  "commit_sha": "2f2359b1216b525b55ed4e6ba24d96d28af2c094",
+  "commit_message": "Add FieldFx VM script decompiler/compiler and export all 84 .fxs scripts",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.000084,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.77905523970311,
+   "complete_data_percent": 0.30111722016612136
+  }
+ }
+]

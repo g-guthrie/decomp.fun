@@ -1,0 +1,81 @@
+[
+ {
+  "timestamp": "2025-08-30T18:57:22Z",
+  "commit_sha": "2dd3682fdd0e176d7ad033764e9b954d8eedd1cb",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.46,
+   "complete_code_percent": 1.46,
+   "fuzzy_match_percent": 1.46
+  }
+ },
+ {
+  "timestamp": "2025-10-11T20:25:46Z",
+  "commit_sha": "919f05dcde96e2053436e05afc0ef25e97662cfc",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.46,
+   "complete_code_percent": 1.46,
+   "fuzzy_match_percent": 1.46
+  }
+ },
+ {
+  "timestamp": "2026-03-21T21:54:53Z",
+  "commit_sha": "11c1c102d04365381d5b79b144d6df0b3405a661",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.46,
+   "complete_code_percent": 1.46,
+   "fuzzy_match_percent": 1.46
+  }
+ },
+ {
+  "timestamp": "2026-07-27T08:24:57Z",
+  "commit_sha": "51350fff58432b7d9d549d13923e8c6a609399ad",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.46,
+   "complete_code_percent": 1.46,
+   "fuzzy_match_percent": 1.46
+  }
+ },
+ {
+  "timestamp": "2026-08-24T21:20:39Z",
+  "commit_sha": "aa9b897e7bc5b36e966a706ead19e4a486ce4902",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.46,
+   "complete_code_percent": 1.46,
+   "fuzzy_match_percent": 1.46
+  }
+ },
+ {
+  "timestamp": "2026-09-05T15:34:16Z",
+  "commit_sha": "d319acbd19272b907169092a307d5f60b3f7592d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.46,
+   "complete_code_percent": 1.46,
+   "fuzzy_match_percent": 1.46
+  }
+ },
+ {
+  "timestamp": "2026-10-03T19:49:27Z",
+  "commit_sha": "735b49153c27f0f52de2af87911eaa3398ef6a72",
+  "commit_message": "Got a few more symbols in",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 1.4631503,
+   "matched_code_percent": 1.4631503125459961,
+   "complete_code_percent": 1.4631503125459961,
+   "matched_data_percent": 0.41486352841871865,
+   "complete_data_percent": 0.4204068005870829
+  }
+ }
+]

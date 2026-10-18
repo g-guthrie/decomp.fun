@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-09-29T13:53:35Z",
+  "commit_sha": "7dbc250598739a2931dc1401fc7a8cb7fc9b2332",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.07,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 1.07
+  }
+ },
+ {
+  "timestamp": "2026-09-30T19:02:09Z",
+  "commit_sha": "e62c4864358f1eca30d49a435d41833a371050b7",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 7.06,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 13.11
+  }
+ },
+ {
+  "timestamp": "2026-10-15T02:04:38Z",
+  "commit_sha": "14635f5b08aa9e6ac017544c82719d290cbe6a32",
+  "commit_message": "feat(src): recover nineteen Irrlicht units with explicit partial stubs (#35)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 65.23178609696652,
+   "matched_code_percent": 49.5795493104929,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 36.21191549069637,
+   "complete_data_percent": 0.0
+  }
+ }
+]

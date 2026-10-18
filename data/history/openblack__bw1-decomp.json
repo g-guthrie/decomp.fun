@@ -1,0 +1,81 @@
+[
+ {
+  "timestamp": "2026-03-25T00:56:39Z",
+  "commit_sha": "1dcde6d65b081c0aecdc69baec162f88bf290b10",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.21,
+   "complete_code_percent": 1.93,
+   "fuzzy_match_percent": 3.15
+  }
+ },
+ {
+  "timestamp": "2026-05-12T01:14:04Z",
+  "commit_sha": "3afd16ab17557a44c8a1980cb7bdb0cd3ceeae53",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.21,
+   "complete_code_percent": 1.93,
+   "fuzzy_match_percent": 3.15
+  }
+ },
+ {
+  "timestamp": "2026-07-31T03:36:11Z",
+  "commit_sha": "5a19c1ed440f69686ba1efc8aa77c2be18a1150b",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.84,
+   "complete_code_percent": 2.69,
+   "fuzzy_match_percent": 4.32
+  }
+ },
+ {
+  "timestamp": "2026-08-14T03:04:31Z",
+  "commit_sha": "824d1e4a667b87a8403e4a5fe3f3deeb31e2a10a",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 5.53,
+   "complete_code_percent": 2.79,
+   "fuzzy_match_percent": 7.09
+  }
+ },
+ {
+  "timestamp": "2026-09-29T01:14:02Z",
+  "commit_sha": "8be17cb259f0849fcffd74c64e6adc10600e5b33",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 5.87,
+   "complete_code_percent": 2.74,
+   "fuzzy_match_percent": 7.65
+  }
+ },
+ {
+  "timestamp": "2026-09-30T13:36:33Z",
+  "commit_sha": "26d7cf838ad39461bba0e2a419f1c1cb825d34ce",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 5.93,
+   "complete_code_percent": 2.74,
+   "fuzzy_match_percent": 7.66
+  }
+ },
+ {
+  "timestamp": "2026-10-18T11:25:38Z",
+  "commit_sha": "0a3ed1c8861971ea78764b6124de56818c7737a7",
+  "commit_message": "Give trivial base-class virtuals their inline bodies (#549)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 32.827938,
+   "matched_code_percent": 25.161672156645377,
+   "complete_code_percent": 11.664375488210952,
+   "matched_data_percent": 28.285611987218363,
+   "complete_data_percent": 2.5943903383204807
+  }
+ }
+]

@@ -1,0 +1,202 @@
+[
+ {
+  "timestamp": "2025-04-21T14:10:02Z",
+  "commit_sha": "c649013db48e51cc9006bcd5a99bf632e2cc5667",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 30.42,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 30.42
+  }
+ },
+ {
+  "timestamp": "2025-05-13T19:12:29Z",
+  "commit_sha": "e15e824938ab412788f1396d9e818c53398f7e9d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 34.38,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 34.38
+  }
+ },
+ {
+  "timestamp": "2025-06-02T17:34:07Z",
+  "commit_sha": "b709c80ec6c3af00785b80a099dcf521a18fb0f4",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 40.59,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 40.59
+  }
+ },
+ {
+  "timestamp": "2025-07-19T14:27:22Z",
+  "commit_sha": "27febcad0aa591b26e00adba66c90a1676916f67",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 43.2,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 43.2
+  }
+ },
+ {
+  "timestamp": "2025-09-29T20:58:50Z",
+  "commit_sha": "ec0fe638cb26bbe4844da7e79725eae1b0015d09",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 45.84,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 45.84
+  }
+ },
+ {
+  "timestamp": "2025-10-21T20:09:31Z",
+  "commit_sha": "1211a0d906bb559e43dbb74f605bb3389a28261d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 48.88,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 48.88
+  }
+ },
+ {
+  "timestamp": "2025-11-28T17:56:48Z",
+  "commit_sha": "63536284c068cd42d0e791c1832f7d8f9dc38e5c",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 56.98,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 56.98
+  }
+ },
+ {
+  "timestamp": "2025-12-24T11:19:10Z",
+  "commit_sha": "4eb5d019e591faa0ed846b26284ef768922eb728",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 65.72,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 65.72
+  }
+ },
+ {
+  "timestamp": "2026-01-24T22:05:59Z",
+  "commit_sha": "1ff9aa012d6e7a7725ffdd436c2bc9cae9f6f3f3",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 78.78,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 78.78
+  }
+ },
+ {
+  "timestamp": "2026-02-22T10:20:25Z",
+  "commit_sha": "5347cec7d3fd88e39fbd528d2459a3b4c7ab6f34",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 86.95,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 86.95
+  }
+ },
+ {
+  "timestamp": "2026-03-24T19:02:55Z",
+  "commit_sha": "09415a3219d725f0e604a16332330e681fb4e566",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-04-28T17:18:37Z",
+  "commit_sha": "f31aa52b7896d13efaf12803199bfdafe245bc1e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 6.22,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 6.22
+  }
+ },
+ {
+  "timestamp": "2026-05-16T09:24:19Z",
+  "commit_sha": "96d2fadace86a9768e1bc964f709ca20d758471d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 16.88,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 16.88
+  }
+ },
+ {
+  "timestamp": "2026-06-07T09:26:01Z",
+  "commit_sha": "6d5f6b41f421411218bc11226d511c37e673b1f4",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 24.8,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 24.8
+  }
+ },
+ {
+  "timestamp": "2026-07-30T07:31:33Z",
+  "commit_sha": "c41a304f4ab3a6edb50359ef6bbd127413637b37",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 47.14,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 47.14
+  }
+ },
+ {
+  "timestamp": "2026-08-08T16:04:38Z",
+  "commit_sha": "2bc15795334642d6d52818616636e6f4b66f8895",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 55.21,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 55.21
+  }
+ },
+ {
+  "timestamp": "2026-09-29T15:58:12Z",
+  "commit_sha": "1f2e266a8f5dd71890c37f3a7cf92f7fe76a7047",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 68.62,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 68.62
+  }
+ },
+ {
+  "timestamp": "2026-10-18T11:04:44Z",
+  "commit_sha": "595b082aef19c329a25dc6926e4ac638d13ed75d",
+  "commit_message": "decompiled (jp) and revisited (us,eu) ingame/menu/pause.c",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-30T21:50:28Z",
+  "commit_sha": "c1882407df2dc8e2ab472ddfff506b90362825a7",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.08,
+   "complete_code_percent": 2.08,
+   "fuzzy_match_percent": 2.11
+  }
+ },
+ {
+  "timestamp": "2026-10-16T07:56:34Z",
+  "commit_sha": "360b83483bbfb01f8138bd439979fa21665c6573",
+  "commit_message": "Land 7 functions (1712 B)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 19.503199,
+   "matched_code_percent": 18.15637235181796,
+   "complete_code_percent": 18.15637235181796,
+   "matched_data_percent": 29.38611911961184,
+   "complete_data_percent": 29.38611911961184
+  }
+ }
+]

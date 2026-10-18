@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-30T23:19:04Z",
+  "commit_sha": "0c10df7d2b07dda45252134db8046b71a3cf1c7e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 71.09,
+   "complete_code_percent": 71.09,
+   "fuzzy_match_percent": 77.6
+  }
+ },
+ {
+  "timestamp": "2026-10-17T03:36:35Z",
+  "commit_sha": "2d966798b8712ee9a1a7e534980a45af9281278f",
+  "commit_message": "Finish naming sixteen preserved source units",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 85.66986,
+   "matched_code_percent": 53.134999692664806,
+   "complete_code_percent": 48.511955338773774,
+   "matched_data_percent": 94.45867894211143,
+   "complete_data_percent": 94.45867894211143
+  }
+ }
+]

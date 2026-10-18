@@ -1,0 +1,66 @@
+[
+  {
+    "id": "mvc2-naomi",
+    "owner": "g-guthrie",
+    "repo": "mvc2-naomi-decomp",
+    "name": "Marvel vs. Capcom 2: New Age of Heroes",
+    "platform": "naomi",
+    "version": "mvsc2",
+    "description": "Sega NAOMI arcade release, built with the original Hitachi SH C compiler.",
+    "source": {
+      "type": "naomi_proof",
+      "repo": "g-guthrie/mvc2-naomi-decomp",
+      "workflow": "build.yml",
+      "branch": "main",
+      "artifact": "hitachi-evidence",
+      "file": "progress.json"
+    }
+  },
+  {
+    "id": "mvc2-ps2",
+    "owner": "g-guthrie",
+    "repo": "mvc2-ps2-decomp",
+    "name": "Marvel vs. Capcom 2: New Age of Heroes",
+    "platform": "ps2",
+    "version": "SLUS_204.86",
+    "description": "PlayStation 2 port, NTSC-U executable.",
+    "source": {
+      "type": "objdiff_artifact",
+      "repo": "g-guthrie/mvc2-ps2-decomp",
+      "workflow": "report.yml",
+      "branch": "main",
+      "artifact": "ps2_report",
+      "file": "report.json"
+    }
+  },
+  {
+    "id": "topspin4",
+    "owner": "g-guthrie",
+    "repo": "topspin4-decomp",
+    "name": "Top Spin 4",
+    "platform": "xbox360",
+    "version": "54540859",
+    "description": "Clean-room reconstruction of the Xbox 360 release.",
+    "source": {
+      "type": "objdiff_file",
+      "repo": "g-guthrie/topspin4-decomp",
+      "path": "reports/54540859/report.json"
+    }
+  },
+  {
+    "id": "melee",
+    "owner": "doldecomp",
+    "repo": "melee",
+    "name": "Super Smash Bros. Melee",
+    "platform": "gc",
+    "version": "GALE01",
+    "source": {
+      "type": "objdiff_artifact",
+      "repo": "doldecomp/melee",
+      "workflow": "build.yml",
+      "branch": "master",
+      "artifact": "GALE01_report",
+      "file": "report.json"
+    }
+  }
+]

@@ -1,0 +1,59 @@
+[
+ {
+  "timestamp": "2026-07-30T21:15:19Z",
+  "commit_sha": "bd0f714fe9653e916c18ac213f24ea939924ffcc",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 9.53,
+   "complete_code_percent": 5.67,
+   "fuzzy_match_percent": 9.54
+  }
+ },
+ {
+  "timestamp": "2026-08-23T23:50:51Z",
+  "commit_sha": "a9eeccca3ba8848107af42def0ba60647eac65e9",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 14.19,
+   "complete_code_percent": 6.86,
+   "fuzzy_match_percent": 14.4
+  }
+ },
+ {
+  "timestamp": "2026-09-28T23:39:54Z",
+  "commit_sha": "675bd90d882bb694699824fe86ecca63a076ad0f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 26.06,
+   "complete_code_percent": 24.45,
+   "fuzzy_match_percent": 26.27
+  }
+ },
+ {
+  "timestamp": "2026-09-30T18:36:32Z",
+  "commit_sha": "aa3128efb906ba5bb06f667eeae133b74cb7d5b9",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 34.12,
+   "complete_code_percent": 32.13,
+   "fuzzy_match_percent": 34.31
+  }
+ },
+ {
+  "timestamp": "2026-10-18T20:04:49Z",
+  "commit_sha": "ab3676c6e3022e87d3fb3e0085beb48627687936",
+  "commit_message": "Names for the remaining struct fields",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
+ }
+]

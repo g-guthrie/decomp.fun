@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-28T01:40:10Z",
+  "commit_sha": "05d34274f708c9a0dee83fa5abcd317f03029679",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.78,
+   "complete_code_percent": 0.78,
+   "fuzzy_match_percent": 35.84
+  }
+ },
+ {
+  "timestamp": "2026-10-17T22:52:20Z",
+  "commit_sha": "b769c2b9c8c098d692ed29c35a218f2ed1a40f89",
+  "commit_message": "arm9: repair 7 verified literal-pool references",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 49.60560212878553,
+   "matched_code_percent": 3.6999629355077834,
+   "complete_code_percent": 3.6999629355077834,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

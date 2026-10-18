@@ -1,0 +1,48 @@
+[
+ {
+  "timestamp": "2026-07-31T01:37:19Z",
+  "commit_sha": "826a2b1e1e1e6ba168df0d2dd501ef158f913867",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 4.54,
+   "complete_code_percent": 4.54,
+   "fuzzy_match_percent": 4.54
+  }
+ },
+ {
+  "timestamp": "2026-08-24T23:17:52Z",
+  "commit_sha": "508395dc9a280cac20f765e20be30e3eced64512",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 7.04,
+   "complete_code_percent": 6.96,
+   "fuzzy_match_percent": 7.11
+  }
+ },
+ {
+  "timestamp": "2026-09-09T16:12:06Z",
+  "commit_sha": "4243c6c679fbd24fd1b24bcaacbda7c7f9d3d6b9",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 7.95,
+   "complete_code_percent": 7.31,
+   "fuzzy_match_percent": 9.51
+  }
+ },
+ {
+  "timestamp": "2026-10-14T02:35:56Z",
+  "commit_sha": "0a7393b8fe6a6fea1630f0f637826fd2085dd1e8",
+  "commit_message": "Merge pull request #645 from Jovinull/decomp/continuo-20261013",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 30.552631,
+   "matched_code_percent": 29.83080068655256,
+   "complete_code_percent": 29.662046190446244,
+   "matched_data_percent": 9.466004314423294,
+   "complete_data_percent": 9.792864710657117
+  }
+ }
+]

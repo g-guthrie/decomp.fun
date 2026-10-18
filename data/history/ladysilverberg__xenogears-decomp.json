@@ -1,0 +1,202 @@
+[
+ {
+  "timestamp": "2025-04-21T18:25:04Z",
+  "commit_sha": "5d230b911a54aea76ff0fd032b058d3021911e6b",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 3.66,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 4.31
+  }
+ },
+ {
+  "timestamp": "2025-05-26T18:36:27Z",
+  "commit_sha": "c6bc3f493e2276c7ac6dc39f9a8b42726b3eecae",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 7.39,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 7.69
+  }
+ },
+ {
+  "timestamp": "2025-06-16T14:46:42Z",
+  "commit_sha": "9988c45072da24678adacc7d760eb86cc8d826c4",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 7.41,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 7.72
+  }
+ },
+ {
+  "timestamp": "2025-07-27T08:28:56Z",
+  "commit_sha": "078fff34407b441be75b7b2dd9de70b08a4e38d3",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 8.4,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 8.7
+  }
+ },
+ {
+  "timestamp": "2025-08-04T17:38:02Z",
+  "commit_sha": "363ea174ecef7b987b54d7c66c15c9cdd1fcb52a",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 9.08,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 9.38
+  }
+ },
+ {
+  "timestamp": "2025-09-28T17:14:31Z",
+  "commit_sha": "d578fd82af61572961ca4c49bed10c4448ef1410",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 15.97,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 16.53
+  }
+ },
+ {
+  "timestamp": "2025-09-30T21:57:18Z",
+  "commit_sha": "2e362e4caf6f755c17a5a8a7e20ccbf5b29eb5f6",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 16.06,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 16.62
+  }
+ },
+ {
+  "timestamp": "2025-11-02T20:44:56Z",
+  "commit_sha": "463bc61df6f95abf86f34babd8c95a5fc76da838",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 17.92,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 18.48
+  }
+ },
+ {
+  "timestamp": "2025-12-05T20:47:34Z",
+  "commit_sha": "62ba536954adcf05ab1c3539aba1eaeb3e52d08c",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 19.01,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 19.57
+  }
+ },
+ {
+  "timestamp": "2026-02-14T23:42:40Z",
+  "commit_sha": "2eaff6e0ecad03575833108a71afdb1a2cc8b767",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 19.18,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 19.74
+  }
+ },
+ {
+  "timestamp": "2026-03-22T23:47:42Z",
+  "commit_sha": "2900c9b3ff8f6db018c77286ecf63a38aa64be47",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 21.64,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 22.21
+  }
+ },
+ {
+  "timestamp": "2026-04-29T10:34:23Z",
+  "commit_sha": "7397cc377ffe6ff45aff7a94e6a6991671018ed8",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 31.89,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 32.37
+  }
+ },
+ {
+  "timestamp": "2026-05-19T06:41:16Z",
+  "commit_sha": "c8ac504d1bf04bdb68f94c38acd7a31645bc4aab",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 32.12,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 32.6
+  }
+ },
+ {
+  "timestamp": "2026-06-12T17:33:36Z",
+  "commit_sha": "f27c0768b1ad10812cec776cadadb85ae70aadee",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 32.31,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 32.79
+  }
+ },
+ {
+  "timestamp": "2026-07-30T13:38:13Z",
+  "commit_sha": "a2929c79b651cfecd0feda63f6e87720454f6537",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 31.2,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 31.59
+  }
+ },
+ {
+  "timestamp": "2026-08-24T14:23:50Z",
+  "commit_sha": "c2bc01032fa852bd8269d2c2b50c7be9d6baf15e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 33.64,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 34.13
+  }
+ },
+ {
+  "timestamp": "2026-09-26T14:22:34Z",
+  "commit_sha": "00cd201ec397bc8eb2db34f63421a7226a450ec2",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 37.69,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 38.18
+  }
+ },
+ {
+  "timestamp": "2026-10-10T09:49:53Z",
+  "commit_sha": "e748b434ee4ac655add667a294726f5dd829b474",
+  "commit_message": "Merge pull request #78 from samuelpx/makefile-prefer-locally-built-Gears-if-available",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 38.182163,
+   "matched_code_percent": 37.686326885926206,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
+ }
+]

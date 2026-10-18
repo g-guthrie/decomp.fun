@@ -1,0 +1,48 @@
+[
+ {
+  "timestamp": "2026-03-25T15:13:18Z",
+  "commit_sha": "0f984fa6d9c9037519b17dbc5d109194e88208ae",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.18,
+   "complete_code_percent": 0.43,
+   "fuzzy_match_percent": 1.38
+  }
+ },
+ {
+  "timestamp": "2026-04-15T19:06:32Z",
+  "commit_sha": "f81eca3409b444d2f837380952af61dfbf8e5647",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.32,
+   "complete_code_percent": 0.88,
+   "fuzzy_match_percent": 2.73
+  }
+ },
+ {
+  "timestamp": "2026-07-24T21:11:15Z",
+  "commit_sha": "2be1c20faa215b7969c07900ae8bd112c82fef1f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 3.39,
+   "complete_code_percent": 1.24,
+   "fuzzy_match_percent": 3.92
+  }
+ },
+ {
+  "timestamp": "2026-10-11T22:07:14Z",
+  "commit_sha": "81b52d6a31b6dd671bea0268f36a874477ee2bf6",
+  "commit_message": "Merge pull request #64 from firubii/pr-staging",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 3.936757,
+   "matched_code_percent": 3.3961996392754443,
+   "complete_code_percent": 1.241728601276631,
+   "matched_data_percent": 7.35611094535548,
+   "complete_data_percent": 7.437253748323466
+  }
+ }
+]

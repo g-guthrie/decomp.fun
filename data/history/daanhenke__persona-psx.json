@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-28T02:54:05Z",
+  "commit_sha": "8466d581312d0d26874ce1fb62b8869686a5de49",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 66.59,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 73.48
+  }
+ },
+ {
+  "timestamp": "2026-10-03T02:57:35Z",
+  "commit_sha": "dfd1cd401d2c260cf2b8a91e50acb78a9e803e75",
+  "commit_message": "casino: blackjack's step machine, matched (10 routines)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 87.5996,
+   "matched_code_percent": 80.36414454886473,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 40.27504911591356,
+   "complete_data_percent": 0.0
+  }
+ }
+]

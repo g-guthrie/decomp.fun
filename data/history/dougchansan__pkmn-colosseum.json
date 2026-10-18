@@ -1,0 +1,59 @@
+[
+ {
+  "timestamp": "2026-06-15T19:15:46Z",
+  "commit_sha": "725deccc4b4130f0f0007ff9be03f126b763624d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 53.17,
+   "complete_code_percent": 53.17,
+   "fuzzy_match_percent": 84.65
+  }
+ },
+ {
+  "timestamp": "2026-07-31T03:31:34Z",
+  "commit_sha": "6cfadc274fd98dbb370c9785398e168c6236122f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 41.53,
+   "complete_code_percent": 26.15,
+   "fuzzy_match_percent": 80.0
+  }
+ },
+ {
+  "timestamp": "2026-08-23T19:55:03Z",
+  "commit_sha": "328c93e675a0e9e0ab1cd80d887b9bf9d8bb8210",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 43.15,
+   "complete_code_percent": 29.37,
+   "fuzzy_match_percent": 87.85
+  }
+ },
+ {
+  "timestamp": "2026-09-24T20:26:34Z",
+  "commit_sha": "41df4aa988add7d69dfc16c06ac4d31df96f4362",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 43.38,
+   "complete_code_percent": 29.37,
+   "fuzzy_match_percent": 87.9
+  }
+ },
+ {
+  "timestamp": "2026-10-18T11:42:14Z",
+  "commit_sha": "4e36aa0de71dff619f697aba74f798c30843ae6d",
+  "commit_message": "Merge pull request #652 from dougchansan/integrate/pr647-rebased-20261018",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 99.698326,
+   "matched_code_percent": 92.14783587630842,
+   "complete_code_percent": 91.47364807141089,
+   "matched_data_percent": 83.3001495234431,
+   "complete_data_percent": 52.95979019606304
+  }
+ }
+]

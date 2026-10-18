@@ -1,0 +1,92 @@
+[
+ {
+  "timestamp": "2025-10-12T13:44:06Z",
+  "commit_sha": "f87ed4d42c12728c2307552037f8ebf194a2fcc8",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 42.44,
+   "complete_code_percent": 37.37,
+   "fuzzy_match_percent": 43.22
+  }
+ },
+ {
+  "timestamp": "2026-01-14T10:55:22Z",
+  "commit_sha": "97e35678a4bf30b6de528969d3a7adb594ec6c5a",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 43.05,
+   "complete_code_percent": 37.76,
+   "fuzzy_match_percent": 43.84
+  }
+ },
+ {
+  "timestamp": "2026-05-26T08:23:36Z",
+  "commit_sha": "2217c603d57c4a6942f0fa84ad0bbebba33f8622",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 45.27,
+   "complete_code_percent": 39.57,
+   "fuzzy_match_percent": 46.14
+  }
+ },
+ {
+  "timestamp": "2026-06-15T12:43:02Z",
+  "commit_sha": "8a91a6b4a32834dfb689fbdcf1dea8796be9c75f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 45.72,
+   "complete_code_percent": 40.02,
+   "fuzzy_match_percent": 46.58
+  }
+ },
+ {
+  "timestamp": "2026-07-27T20:16:11Z",
+  "commit_sha": "a2f28da303042895ac03af5c0a98fb9ebdbd7ce8",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 45.86,
+   "complete_code_percent": 40.17,
+   "fuzzy_match_percent": 46.72
+  }
+ },
+ {
+  "timestamp": "2026-08-24T20:37:07Z",
+  "commit_sha": "ec2544e2190384c08bf987f730eaae0b37e6e81b",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 46.85,
+   "complete_code_percent": 41.67,
+   "fuzzy_match_percent": 47.69
+  }
+ },
+ {
+  "timestamp": "2026-09-17T20:24:21Z",
+  "commit_sha": "ffc513c5326d1a883d4b35dd7ee1634500354763",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 47.09,
+   "complete_code_percent": 41.93,
+   "fuzzy_match_percent": 47.93
+  }
+ },
+ {
+  "timestamp": "2026-10-05T11:46:59Z",
+  "commit_sha": "1d2918ca577817ba431baddb78dda24831e0e0bb",
+  "commit_message": "Merge pull request #83 from cristian64/symbol_order_skip_incomplete",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 47.93315,
+   "matched_code_percent": 47.09161249964316,
+   "complete_code_percent": 41.927820605272274,
+   "matched_data_percent": 24.887962156106063,
+   "complete_data_percent": 32.44257523920723
+  }
+ }
+]

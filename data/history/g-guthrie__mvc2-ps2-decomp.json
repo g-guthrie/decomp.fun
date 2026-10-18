@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-29T05:08:03Z",
+  "commit_sha": "d4fd9f961b98f0540489dab33507a5ace70de28a",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 12.53,
+   "complete_code_percent": 12.53,
+   "fuzzy_match_percent": 12.53
+  }
+ },
+ {
+  "timestamp": "2026-10-18T20:30:23Z",
+  "commit_sha": "7d612928a3b3d894740f1a1c4795d3bc617e2c32",
+  "commit_message": "Publish 43.0850 percent code with corrected mesh credit",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 43.08497201927561,
+   "matched_code_percent": 43.08497201927561,
+   "complete_code_percent": 43.08497201927561,
+   "matched_data_percent": 23.75768442622951,
+   "complete_data_percent": 23.75768442622951
+  }
+ }
+]

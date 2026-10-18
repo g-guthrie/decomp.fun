@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-24T17:37:13Z",
+  "commit_sha": "a1c8c22d8c8e38e74a1dd6ba6315a6b32326a140",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.64,
+   "complete_code_percent": 1.64,
+   "fuzzy_match_percent": 1.64
+  }
+ },
+ {
+  "timestamp": "2026-09-24T19:24:04Z",
+  "commit_sha": "4dfd5b100755421bac28ab9dab452b1db7a9c81f",
+  "commit_message": "session 2 wrap-up: 492 matched, merged agent notes, near-miss corpus, next-session plan",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 4.293655153043902,
+   "matched_code_percent": 4.293655153043901,
+   "complete_code_percent": 4.293655153043901,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

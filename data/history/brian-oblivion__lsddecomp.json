@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-30T18:33:04Z",
+  "commit_sha": "c811db7f62a1de12adad22493b03fdece5ea7800",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-10-17T12:49:05Z",
+  "commit_sha": "90a398e4f429b4371be05648605fc198b9efb395",
+  "commit_message": "README: shorter, written for someone building or reading the game",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
+ }
+]

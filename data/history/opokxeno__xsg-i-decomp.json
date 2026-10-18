@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-27T18:51:33Z",
+  "commit_sha": "c24caf4fc73adeb2435261e6fdb6710d1630647f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 20.5,
+   "complete_code_percent": 1.61,
+   "fuzzy_match_percent": 20.5
+  }
+ },
+ {
+  "timestamp": "2026-10-16T19:40:05Z",
+  "commit_sha": "d34e8072f8e05429bb800e209a467a7ca3b5645d",
+  "commit_message": "Merge pull request #18 from ZakyPew/codex/ov11-recovery",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 53.59073,
+   "matched_code_percent": 53.10190068854408,
+   "complete_code_percent": 19.437848827173518,
+   "matched_data_percent": 62.272236479923805,
+   "complete_data_percent": 27.600122852438737
+  }
+ }
+]

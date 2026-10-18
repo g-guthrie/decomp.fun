@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-22T23:30:29Z",
+  "commit_sha": "cd7edba2066518d833bf4c4272b7822fa56452cd",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-10-15T17:19:01Z",
+  "commit_sha": "7014607514adc97fb9abbbd6b5974f35bdb3f952",
+  "commit_message": "Update README with note on decomp.dev",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
+ }
+]

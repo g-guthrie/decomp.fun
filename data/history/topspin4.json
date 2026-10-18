@@ -1,0 +1,132 @@
+[
+ {
+  "timestamp": "2026-08-31T03:30:45Z",
+  "commit_sha": "0861fd654ca76df7ee3362cb035b26138905793b",
+  "commit_message": "Add decomp.dev progress publishing",
+  "source": "report",
+  "measures": {
+   "matched_code_percent": 0.12444724583156878,
+   "complete_code_percent": 0.12444724583156878,
+   "fuzzy_match_percent": 0.12444725,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.009212026300335088
+  }
+ },
+ {
+  "timestamp": "2026-08-31T04:35:17Z",
+  "commit_sha": "644ab97f389110b0972e9fb9783db84c02c61628",
+  "commit_message": "Add thirty-five exact Xbox 360 matches",
+  "source": "report",
+  "measures": {
+   "matched_code_percent": 0.13138067896431843,
+   "complete_code_percent": 0.13138067896431843,
+   "fuzzy_match_percent": 0.13138068,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.016121046025586405
+  }
+ },
+ {
+  "timestamp": "2026-08-31T04:44:17Z",
+  "commit_sha": "433491f5797d4f2fc30c2554bce98839228e0a6c",
+  "commit_message": "Add thirteen exact Xbox 360 matches",
+  "source": "report",
+  "measures": {
+   "matched_code_percent": 0.1344140559598964,
+   "complete_code_percent": 0.1344140559598964,
+   "fuzzy_match_percent": 0.13441406,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.01718397213716353
+  }
+ },
+ {
+  "timestamp": "2026-08-31T04:59:09Z",
+  "commit_sha": "b9c9863b58b5c6186c2bddbb41494750a945f3bc",
+  "commit_message": "Add eighteen exact Xbox 360 matches",
+  "source": "report",
+  "measures": {
+   "matched_code_percent": 0.1400080758738194,
+   "complete_code_percent": 0.1400080758738194,
+   "fuzzy_match_percent": 0.14000808,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.018778361304529218
+  }
+ },
+ {
+  "timestamp": "2026-08-31T05:18:47Z",
+  "commit_sha": "6a132907517dec7647152cf8628ece076c2b0c32",
+  "commit_message": "Add seventeen exact Xbox 360 matches",
+  "source": "report",
+  "measures": {
+   "matched_code_percent": 0.1457596738134867,
+   "complete_code_percent": 0.1457596738134867,
+   "fuzzy_match_percent": 0.14575967,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.01966413306417682
+  }
+ },
+ {
+  "timestamp": "2026-08-31T05:29:44Z",
+  "commit_sha": "da3cb6d915839d1f3f29dbb078c594da751e56f3",
+  "commit_message": "Add eight exact Xbox 360 matches",
+  "source": "report",
+  "measures": {
+   "matched_code_percent": 0.14832031673183174,
+   "complete_code_percent": 0.14832031673183174,
+   "fuzzy_match_percent": 0.14832032,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.020018441768035862
+  }
+ },
+ {
+  "timestamp": "2026-08-31T05:39:53Z",
+  "commit_sha": "eb46425437dc1ef3bdeef769bfc80a19fb4f4b5c",
+  "commit_message": "Add four exact Xbox 360 matches",
+  "source": "report",
+  "measures": {
+   "matched_code_percent": 0.14973851896353055,
+   "complete_code_percent": 0.14973851896353055,
+   "fuzzy_match_percent": 0.14973852,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.020018441768035862
+  }
+ },
+ {
+  "timestamp": "2026-08-31T05:44:26Z",
+  "commit_sha": "4c3e92b2b41aa25993d7ef0787744840541e7da4",
+  "commit_message": "Add nine exact gameplay callbacks",
+  "source": "report",
+  "measures": {
+   "matched_code_percent": 0.1538355476328826,
+   "complete_code_percent": 0.1538355476328826,
+   "fuzzy_match_percent": 0.15383555,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.02161283093540155
+  }
+ },
+ {
+  "timestamp": "2026-08-31T05:57:18Z",
+  "commit_sha": "8c1fef8ac974e840ca8d7bd0e3482c55c261f22e",
+  "commit_message": "Add twelve exact Xbox 360 matches",
+  "source": "report",
+  "measures": {
+   "matched_code_percent": 0.1578537872893625,
+   "complete_code_percent": 0.1578537872893625,
+   "fuzzy_match_percent": 0.15785378,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.022498602695049157
+  }
+ },
+ {
+  "timestamp": "2026-08-31T06:10:37Z",
+  "commit_sha": "fec85f0868466da9f46d6404568cf016858b3c9d",
+  "commit_message": "Add seven exact Xbox 360 matches",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 0.16112353,
+   "matched_code_percent": 0.16112353132355695,
+   "complete_code_percent": 0.16112353132355695,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.022852911398908198
+  }
+ }
+]

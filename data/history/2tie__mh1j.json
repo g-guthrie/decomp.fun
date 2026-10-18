@@ -1,0 +1,48 @@
+[
+ {
+  "timestamp": "2026-07-26T21:41:35Z",
+  "commit_sha": "fada40a26aa71b8570d9b69859addbdc0d3ab929",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.59,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 0.59
+  }
+ },
+ {
+  "timestamp": "2026-08-23T00:27:05Z",
+  "commit_sha": "456ab164976fe5eddf197fceb412ea55150f0588",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.62,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 0.62
+  }
+ },
+ {
+  "timestamp": "2026-09-21T20:36:48Z",
+  "commit_sha": "62d4ba27f2c485b3377a360cd3f0ae20b5ee3e6f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.67,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 0.67
+  }
+ },
+ {
+  "timestamp": "2026-10-14T01:28:31Z",
+  "commit_sha": "1da254baf02cffe6dd368f3d1f4a064249c31aec",
+  "commit_message": "camera: more Rail funcs",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 0.7495458650460337,
+   "matched_code_percent": 0.7495458650460337,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
+ }
+]

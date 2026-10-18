@@ -1,0 +1,92 @@
+[
+ {
+  "timestamp": "2026-04-28T21:02:47Z",
+  "commit_sha": "69e60bb90cdaddc5ccb142454dbd37dfbb8a5a86",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 16.6,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 16.6
+  }
+ },
+ {
+  "timestamp": "2026-05-27T18:14:23Z",
+  "commit_sha": "f1626501e23fd1ff249a50ecfbab6927443b3075",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 25.6,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 25.6
+  }
+ },
+ {
+  "timestamp": "2026-06-14T16:13:11Z",
+  "commit_sha": "4bb985a44edbed286cf7db347ad3396107e59793",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 27.97,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 27.97
+  }
+ },
+ {
+  "timestamp": "2026-07-29T16:20:35Z",
+  "commit_sha": "81cfc8f41869dc5a2612c13fcd61f32aca2af669",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 35.59,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 35.59
+  }
+ },
+ {
+  "timestamp": "2026-08-23T21:02:20Z",
+  "commit_sha": "be7b8c35572a02a64160cf7e4963dbb5cd4501c2",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 42.42,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 42.42
+  }
+ },
+ {
+  "timestamp": "2026-09-28T19:51:23Z",
+  "commit_sha": "d73e061ad5250857a782f85ade7b488055ebdb1f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 61.67,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 61.67
+  }
+ },
+ {
+  "timestamp": "2026-09-30T21:20:58Z",
+  "commit_sha": "fcd15f133079444f0c0cc8adf3c2313c3270bb9b",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 61.88,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 61.88
+  }
+ },
+ {
+  "timestamp": "2026-10-18T20:11:51Z",
+  "commit_sha": "f95bf36ce6bb0bbaab00d30f27e038184487af35",
+  "commit_message": "Merge pull request #154 from roengstrom/decomp-func_800375A0",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 67.03408,
+   "matched_code_percent": 67.03408042575202,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 71.83362793550016,
+   "complete_data_percent": 0.0
+  }
+ }
+]

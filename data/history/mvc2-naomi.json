@@ -1,0 +1,1666 @@
+[
+ {
+  "timestamp": "2026-10-05T01:31:03Z",
+  "commit_sha": "c65eaf3af217493aaa5af9534c98f2269aaad860",
+  "commit_message": "Publish continuation checkpoint and clarify current C progress",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.289,
+   "complete_code_percent": 30.289,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.751,
+   "complete_data_percent": 93.751
+  }
+ },
+ {
+  "timestamp": "2026-10-06T02:41:37Z",
+  "commit_sha": "b882325b95f996f227f638dfa7bef4ad2efac8a4",
+  "commit_message": "Match paired actor attachment family at 0c1aede8",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.313,
+   "complete_code_percent": 30.313,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.751,
+   "complete_data_percent": 93.751
+  }
+ },
+ {
+  "timestamp": "2026-10-06T02:50:41Z",
+  "commit_sha": "b64125e1e1b67c093d6cc087a8058347d7ee0ad5",
+  "commit_message": "Track complete approach-and-brake callback as an unverified candidate",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.313,
+   "complete_code_percent": 30.313,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.752,
+   "complete_data_percent": 93.752
+  }
+ },
+ {
+  "timestamp": "2026-10-06T02:55:43Z",
+  "commit_sha": "dc168c734b42b39b75d1d1220fffa5a49f96cb23",
+  "commit_message": "Refresh current verified progress and continuation status",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.313,
+   "complete_code_percent": 30.313,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.752,
+   "complete_data_percent": 93.752
+  }
+ },
+ {
+  "timestamp": "2026-10-06T03:05:34Z",
+  "commit_sha": "8564411270afa18ebf53f12231e72602d545682b",
+  "commit_message": "Match attached animation effect family at 0c1af2b8",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.345,
+   "complete_code_percent": 30.345,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.752,
+   "complete_data_percent": 93.752
+  }
+ },
+ {
+  "timestamp": "2026-10-06T03:21:34Z",
+  "commit_sha": "9844b956bc89079084b8ed2ba76dc53ff317ac3f",
+  "commit_message": "Match ballistic attachment initialization family at 0c1a5048",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.362,
+   "complete_code_percent": 30.362,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.752,
+   "complete_data_percent": 93.752
+  }
+ },
+ {
+  "timestamp": "2026-10-06T03:47:34Z",
+  "commit_sha": "1fa7e18cf3159698a26c387baeef6b646eac64bc",
+  "commit_message": "Match randomized effect velocity and lifetime callbacks",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.376,
+   "complete_code_percent": 30.376,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.752,
+   "complete_data_percent": 93.752
+  }
+ },
+ {
+  "timestamp": "2026-10-06T04:09:18Z",
+  "commit_sha": "f4a3f644fcc30b24a8694c846abe650bad8807ad",
+  "commit_message": "Match UV scrolling and admit proven frameless conditional tails",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.389,
+   "complete_code_percent": 30.389,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.753,
+   "complete_data_percent": 93.753
+  }
+ },
+ {
+  "timestamp": "2026-10-06T04:11:19Z",
+  "commit_sha": "7cfdb37206946dad451b637ae3efce2845fc6d88",
+  "commit_message": "Match timed scale growth and UV scrolling family",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.404,
+   "complete_code_percent": 30.404,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.753,
+   "complete_data_percent": 93.753
+  }
+ },
+ {
+  "timestamp": "2026-10-06T04:32:11Z",
+  "commit_sha": "1cbf96dbddf0bbd9ef0b1be77bceeb428c0f61c6",
+  "commit_message": "Match owner-driven animation effect family at 0c1b56d4",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.422,
+   "complete_code_percent": 30.422,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.753,
+   "complete_data_percent": 93.753
+  }
+ },
+ {
+  "timestamp": "2026-10-06T04:46:36Z",
+  "commit_sha": "26f63e1d8ecdf5ed1b3f8e1d24415a2cc0276901",
+  "commit_message": "Match offset-driven effect initialization and lifetime family",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.44,
+   "complete_code_percent": 30.44,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.753,
+   "complete_data_percent": 93.753
+  }
+ },
+ {
+  "timestamp": "2026-10-06T04:54:45Z",
+  "commit_sha": "004a243ddb0f5df993b27f1508e52c05c7d6eb3c",
+  "commit_message": "Match mode-selected burst allocation and motion initialization",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.459,
+   "complete_code_percent": 30.459,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.753,
+   "complete_data_percent": 93.753
+  }
+ },
+ {
+  "timestamp": "2026-10-06T05:26:48Z",
+  "commit_sha": "261f5547bbec92a76dfbe085d648fcdfd6fa6698",
+  "commit_message": "Match paired UI construction and owner event handling",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.478,
+   "complete_code_percent": 30.478,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.753,
+   "complete_data_percent": 93.753
+  }
+ },
+ {
+  "timestamp": "2026-10-06T05:33:01Z",
+  "commit_sha": "4529e3eb37326f1b2492a3e243354e4f972c90a6",
+  "commit_message": "Match selection indicator construction and scale animation",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.495,
+   "complete_code_percent": 30.495,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.754,
+   "complete_data_percent": 93.754
+  }
+ },
+ {
+  "timestamp": "2026-10-06T05:49:34Z",
+  "commit_sha": "c02941fb91aa466709532586d5ec2d6aa028f5a3",
+  "commit_message": "Match selection resource construction and completion flags",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.513,
+   "complete_code_percent": 30.513,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.754,
+   "complete_data_percent": 93.754
+  }
+ },
+ {
+  "timestamp": "2026-10-06T06:08:13Z",
+  "commit_sha": "7f7dad86f30b3153d1db197a83c7e0dc499b3406",
+  "commit_message": "Match endpoint interpolation family and correct preceding literal pool",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.533,
+   "complete_code_percent": 30.533,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.753,
+   "complete_data_percent": 93.753
+  }
+ },
+ {
+  "timestamp": "2026-10-06T06:18:17Z",
+  "commit_sha": "3652b1449049973ed2efc5d1e2ff6de9259f1fb7",
+  "commit_message": "Publish verified October 6 progress and retain CI failure evidence",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.548,
+   "complete_code_percent": 30.548,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.753,
+   "complete_data_percent": 93.753
+  }
+ },
+ {
+  "timestamp": "2026-10-06T06:27:27Z",
+  "commit_sha": "15582fceb2c2327880997ac5f57424f466467908",
+  "commit_message": "Match rotating UV callbacks and timed matrix placement",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.572,
+   "complete_code_percent": 30.572,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.753,
+   "complete_data_percent": 93.753
+  }
+ },
+ {
+  "timestamp": "2026-10-06T06:30:08Z",
+  "commit_sha": "17672f4d3e27845fe32abae979c5b852d6f70087",
+  "commit_message": "Match resource interpolation and paired scrolling family",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.607,
+   "complete_code_percent": 30.607,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.754,
+   "complete_data_percent": 93.754
+  }
+ },
+ {
+  "timestamp": "2026-10-06T06:38:18Z",
+  "commit_sha": "be2ea4a624b12d36f3aa8e946475a2e35496b200",
+  "commit_message": "Match resource group and angular keyframe interpolation",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.638,
+   "complete_code_percent": 30.638,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.755,
+   "complete_data_percent": 93.755
+  }
+ },
+ {
+  "timestamp": "2026-10-06T07:02:14Z",
+  "commit_sha": "86e404649471866e72943cbb497dfd9e71e4680f",
+  "commit_message": "Match resource construction and delayed activation",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.642,
+   "complete_code_percent": 30.642,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.755,
+   "complete_data_percent": 93.755
+  }
+ },
+ {
+  "timestamp": "2026-10-06T08:44:39Z",
+  "commit_sha": "bfce06e3ca512b6466bab8a0fd16cda683a4fd86",
+  "commit_message": "Recover animation cursor alignment and canonical copy imports",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.635,
+   "complete_code_percent": 30.635,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.737,
+   "complete_data_percent": 93.737
+  }
+ },
+ {
+  "timestamp": "2026-10-06T10:07:46Z",
+  "commit_sha": "d22647c35667ee3ded9cf368cf289f9ae57a9d10",
+  "commit_message": "Translate spline keyframes and vertex displacement as a near-exact candidate",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.652,
+   "complete_code_percent": 30.652,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.737,
+   "complete_data_percent": 93.737
+  }
+ },
+ {
+  "timestamp": "2026-10-06T12:55:35Z",
+  "commit_sha": "16c530089bb0fa4311440d2e1c8d86ca691a1d15",
+  "commit_message": "Publish current verified C progress and refresh project status",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.652,
+   "complete_code_percent": 30.652,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.737,
+   "complete_data_percent": 93.737
+  }
+ },
+ {
+  "timestamp": "2026-10-06T13:47:54Z",
+  "commit_sha": "da0958d933526a8192e518d2f977c2f37598a912",
+  "commit_message": "Match fixed resource constructor and consolidate its callback and pool",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.657,
+   "complete_code_percent": 30.657,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.737,
+   "complete_data_percent": 93.737
+  }
+ },
+ {
+  "timestamp": "2026-10-06T13:59:34Z",
+  "commit_sha": "35f6a16a2898e8155ee7891dab074ba6494b7dd7",
+  "commit_message": "Match opposing-team display visibility and preserve frame-cycle translation",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.667,
+   "complete_code_percent": 30.667,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.737,
+   "complete_data_percent": 93.737
+  }
+ },
+ {
+  "timestamp": "2026-10-07T00:10:19Z",
+  "commit_sha": "91383bb5cf0c059c9c5987043a2b3438ef44e9b3",
+  "commit_message": "Match directional child placement and animation lifecycle",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.68,
+   "complete_code_percent": 30.68,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.737,
+   "complete_data_percent": 93.737
+  }
+ },
+ {
+  "timestamp": "2026-10-07T01:10:55Z",
+  "commit_sha": "05cca340eac7e27c1ca0dff5515572e976cff535",
+  "commit_message": "Recover complete paired device eligibility scans and native extents",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.678,
+   "complete_code_percent": 30.678,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.735,
+   "complete_data_percent": 93.735
+  }
+ },
+ {
+  "timestamp": "2026-10-07T04:01:14Z",
+  "commit_sha": "1e9d1e209b47331e8255f1f17adb479dbec9b1e4",
+  "commit_message": "Publish current verified progress and preserve ranking continuation",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.678,
+   "complete_code_percent": 30.678,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.735,
+   "complete_data_percent": 93.735
+  }
+ },
+ {
+  "timestamp": "2026-10-07T04:12:38Z",
+  "commit_sha": "4dd3b83e64aebc9bb3efcb2aea5c76671a4eebbf",
+  "commit_message": "Match owner-driven attachment lifecycle and preserve landing handlers",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.695,
+   "complete_code_percent": 30.695,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.736,
+   "complete_data_percent": 93.736
+  }
+ },
+ {
+  "timestamp": "2026-10-07T04:19:35Z",
+  "commit_sha": "71b894f101b287ea03d866db13af1fffeb84a90a",
+  "commit_message": "Match paired scale transition families and recover attachment positioning",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.719,
+   "complete_code_percent": 30.719,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.736,
+   "complete_data_percent": 93.736
+  }
+ },
+ {
+  "timestamp": "2026-10-07T04:24:38Z",
+  "commit_sha": "b0b12b74f9cfbd5038e99c319aa0e30663537a44",
+  "commit_message": "Match scrolling displays and correct parent resource selection",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.734,
+   "complete_code_percent": 30.734,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.736,
+   "complete_data_percent": 93.736
+  }
+ },
+ {
+  "timestamp": "2026-10-07T04:29:27Z",
+  "commit_sha": "a748fd77555c17835d4d52e56cb2d1adc8d1293e",
+  "commit_message": "Match complete pulsing display and texture animation family",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.773,
+   "complete_code_percent": 30.773,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.737,
+   "complete_data_percent": 93.737
+  }
+ },
+ {
+  "timestamp": "2026-10-07T04:44:17Z",
+  "commit_sha": "5d9dba07f1ac5cd3ccfd104618cd174d3a0548af",
+  "commit_message": "Match selection synchronization and recover its shared mask field",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.788,
+   "complete_code_percent": 30.788,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.737,
+   "complete_data_percent": 93.737
+  }
+ },
+ {
+  "timestamp": "2026-10-07T04:50:15Z",
+  "commit_sha": "53e41d4b52b212e2fd9a527df2c8f686e88711eb",
+  "commit_message": "Match directional attachment construction and initialization",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.806,
+   "complete_code_percent": 30.806,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.737,
+   "complete_data_percent": 93.737
+  }
+ },
+ {
+  "timestamp": "2026-10-07T04:57:02Z",
+  "commit_sha": "7676c3c2f7177aa3a8eaf9d13665e80b0d585ec9",
+  "commit_message": "Match fixed-point attachment placement and render initialization",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.825,
+   "complete_code_percent": 30.825,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.738,
+   "complete_data_percent": 93.738
+  }
+ },
+ {
+  "timestamp": "2026-10-07T05:44:31Z",
+  "commit_sha": "733e1a8101781d2891f090263e27d0b638c6febe",
+  "commit_message": "Match attack-table overrides using native nested guard structure",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.856,
+   "complete_code_percent": 30.856,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.738,
+   "complete_data_percent": 93.738
+  }
+ },
+ {
+  "timestamp": "2026-10-07T05:59:39Z",
+  "commit_sha": "e3b9e4d2eccb9f03e0124165201620c28dfabe65",
+  "commit_message": "Translate animation follow-ups and graphics bank copies",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.856,
+   "complete_code_percent": 30.856,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.736,
+   "complete_data_percent": 93.736
+  }
+ },
+ {
+  "timestamp": "2026-10-07T13:45:05Z",
+  "commit_sha": "00b90a235506f720ae67945894226d0e9d32f01a",
+  "commit_message": "Consolidate 21 recovered exact sections from local Grok and agent work",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 31.154,
+   "complete_code_percent": 31.154,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.765,
+   "complete_data_percent": 93.765
+  }
+ },
+ {
+  "timestamp": "2026-10-07T13:46:31Z",
+  "commit_sha": "dc90f147be12e3f3d0c0c70d367ae0569e6a90ff",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.685,
+   "complete_code_percent": 30.685,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.752,
+   "complete_data_percent": 93.752
+  }
+ },
+ {
+  "timestamp": "2026-10-07T13:48:18Z",
+  "commit_sha": "b2c17a8969e931e6e2f060be5d2b50400c823d83",
+  "commit_message": "Document complete local audit and reconciled progress totals",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 31.161,
+   "complete_code_percent": 31.161,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.782,
+   "complete_data_percent": 93.782
+  }
+ },
+ {
+  "timestamp": "2026-10-07T13:48:53Z",
+  "commit_sha": "86bef2128e5ba9d87167b4f7709f2a32c27ec638",
+  "commit_message": "Match actor-follow effect unit and correct callback entry",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 30.704,
+   "complete_code_percent": 30.704,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.763,
+   "complete_data_percent": 93.763
+  }
+ },
+ {
+  "timestamp": "2026-10-07T13:51:42Z",
+  "commit_sha": "0d2d5542c6502920ad0d039a0d4389c8a8e43166",
+  "commit_message": "Merge remote-tracking branch 'origin/main' into codex/naomi-recovered-current-20261004",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 31.18,
+   "complete_code_percent": 31.18,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.792,
+   "complete_data_percent": 93.792
+  }
+ },
+ {
+  "timestamp": "2026-10-07T14:33:58Z",
+  "commit_sha": "55ff7085a0be0befa27872b5970e492929ece3e9",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 31.243,
+   "complete_code_percent": 31.243,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.805,
+   "complete_data_percent": 93.805
+  }
+ },
+ {
+  "timestamp": "2026-10-07T15:24:15Z",
+  "commit_sha": "d17d9e61d963b3a2ec45cfa74259afe1509f3ffc",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 31.256,
+   "complete_code_percent": 31.256,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.805,
+   "complete_data_percent": 93.805
+  }
+ },
+ {
+  "timestamp": "2026-10-07T15:31:56Z",
+  "commit_sha": "15b09ede1c31fd73b0aa2f7fc63558d13e779192",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 31.297,
+   "complete_code_percent": 31.297,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.805,
+   "complete_data_percent": 93.805
+  }
+ },
+ {
+  "timestamp": "2026-10-07T15:44:00Z",
+  "commit_sha": "e7bad61315cd4a710acc3807834713116dd56677",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 31.464,
+   "complete_code_percent": 31.464,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.801,
+   "complete_data_percent": 93.801
+  }
+ },
+ {
+  "timestamp": "2026-10-07T16:01:48Z",
+  "commit_sha": "3d5fc73a6c72c9d244d51c880bae2ce0a09369eb",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 31.75,
+   "complete_code_percent": 31.75,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.805,
+   "complete_data_percent": 93.805
+  }
+ },
+ {
+  "timestamp": "2026-10-07T16:20:44Z",
+  "commit_sha": "9d3fea957418233b2a8902f775c138a2d28cf2b2",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 32.005,
+   "complete_code_percent": 32.005,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.808,
+   "complete_data_percent": 93.808
+  }
+ },
+ {
+  "timestamp": "2026-10-07T16:35:35Z",
+  "commit_sha": "571985b0a5a4eadce7f2c95690a265de5146e645",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 32.209,
+   "complete_code_percent": 32.209,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.811,
+   "complete_data_percent": 93.811
+  }
+ },
+ {
+  "timestamp": "2026-10-07T17:11:57Z",
+  "commit_sha": "ac14e50a38d0fe7f8a4b320a3c32299bf1b37263",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 32.428,
+   "complete_code_percent": 32.428,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.797,
+   "complete_data_percent": 93.797
+  }
+ },
+ {
+  "timestamp": "2026-10-07T17:27:55Z",
+  "commit_sha": "9f0c5c12d8742c34bb01fb42cefcdc9e6523abda",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 32.477,
+   "complete_code_percent": 32.477,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.786,
+   "complete_data_percent": 93.786
+  }
+ },
+ {
+  "timestamp": "2026-10-07T17:41:15Z",
+  "commit_sha": "98a6740ac5fd73a7049ba58aceb20850363115ba",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 32.551,
+   "complete_code_percent": 32.551,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.792,
+   "complete_data_percent": 93.792
+  }
+ },
+ {
+  "timestamp": "2026-10-07T17:50:36Z",
+  "commit_sha": "a65538799552fcd09027b8007d72b529e1ca18b5",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 32.568,
+   "complete_code_percent": 32.568,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.792,
+   "complete_data_percent": 93.792
+  }
+ },
+ {
+  "timestamp": "2026-10-07T18:27:55Z",
+  "commit_sha": "dbf3350a86f3c142f632f9b53c0a8453a86934f5",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 32.867,
+   "complete_code_percent": 32.867,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.748,
+   "complete_data_percent": 93.748
+  }
+ },
+ {
+  "timestamp": "2026-10-07T18:45:55Z",
+  "commit_sha": "58d2b8efde90e221bdc102093334b50d6ce27ee6",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 32.915,
+   "complete_code_percent": 32.915,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.741,
+   "complete_data_percent": 93.741
+  }
+ },
+ {
+  "timestamp": "2026-10-07T19:05:06Z",
+  "commit_sha": "763c5589bd0054850a40da1f83fa3fa183e2904c",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 33.016,
+   "complete_code_percent": 33.016,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.728,
+   "complete_data_percent": 93.728
+  }
+ },
+ {
+  "timestamp": "2026-10-07T19:15:40Z",
+  "commit_sha": "510f8491d84743f58e74ac69925bb47feffd18f5",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 33.141,
+   "complete_code_percent": 33.141,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.732,
+   "complete_data_percent": 93.732
+  }
+ },
+ {
+  "timestamp": "2026-10-07T19:35:09Z",
+  "commit_sha": "ce73820421bf0f29c8fba119fce8681c46adc2e2",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 33.597,
+   "complete_code_percent": 33.597,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.744,
+   "complete_data_percent": 93.744
+  }
+ },
+ {
+  "timestamp": "2026-10-07T19:58:11Z",
+  "commit_sha": "161eb13e077b820ab386504a5d715c0ba985a0ed",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 33.933,
+   "complete_code_percent": 33.933,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.748,
+   "complete_data_percent": 93.748
+  }
+ },
+ {
+  "timestamp": "2026-10-07T20:38:33Z",
+  "commit_sha": "e0c759cdef37244678daec74d65b5e6b2e4463c6",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 34.533,
+   "complete_code_percent": 34.533,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.739,
+   "complete_data_percent": 93.739
+  }
+ },
+ {
+  "timestamp": "2026-10-07T20:56:09Z",
+  "commit_sha": "547e40ad4758521b1f8a88366f93760501f9c475",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 34.817,
+   "complete_code_percent": 34.817,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.734,
+   "complete_data_percent": 93.734
+  }
+ },
+ {
+  "timestamp": "2026-10-07T21:33:17Z",
+  "commit_sha": "6a90ca2dec9f1bc1b172f78c4156555dcba229fb",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 34.864,
+   "complete_code_percent": 34.864,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.734,
+   "complete_data_percent": 93.734
+  }
+ },
+ {
+  "timestamp": "2026-10-07T21:43:55Z",
+  "commit_sha": "f25a91bd7468970b10ea1400627179f14c57e1b8",
+  "commit_message": "Refresh README progress bars from the passing check",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 37.334,
+   "complete_code_percent": 37.334,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.634,
+   "complete_data_percent": 93.634
+  }
+ },
+ {
+  "timestamp": "2026-10-07T21:51:47Z",
+  "commit_sha": "fa4ce09d73d959a4cade4dec7bc2b8a3469882a6",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 34.93,
+   "complete_code_percent": 34.93,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.735,
+   "complete_data_percent": 93.735
+  }
+ },
+ {
+  "timestamp": "2026-10-07T22:08:11Z",
+  "commit_sha": "16d76976f78bf7a31a2e3c2582523e8d938f6225",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 34.987,
+   "complete_code_percent": 34.987,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.735,
+   "complete_data_percent": 93.735
+  }
+ },
+ {
+  "timestamp": "2026-10-07T22:27:16Z",
+  "commit_sha": "4fe0306b2f8b636d16843e4a5d5ca8778f9752c2",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 35.007,
+   "complete_code_percent": 35.007,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.735,
+   "complete_data_percent": 93.735
+  }
+ },
+ {
+  "timestamp": "2026-10-07T22:36:54Z",
+  "commit_sha": "246f1289ece17683c26b3e067490f9f7da194433",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 35.005,
+   "complete_code_percent": 35.005,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.732,
+   "complete_data_percent": 93.732
+  }
+ },
+ {
+  "timestamp": "2026-10-07T22:42:51Z",
+  "commit_sha": "e19318167aefcca8c5ec121cfc46f4f6bc3ca1f0",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 35.021,
+   "complete_code_percent": 35.021,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.732,
+   "complete_data_percent": 93.732
+  }
+ },
+ {
+  "timestamp": "2026-10-07T23:14:20Z",
+  "commit_sha": "68e91465f78b88468096d8a97d87b9587dc494fe",
+  "commit_message": "Round 4 batch: whole-unit swaps, label-trick matches, compiler limits",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 37.726,
+   "complete_code_percent": 37.726,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.659,
+   "complete_data_percent": 93.659
+  }
+ },
+ {
+  "timestamp": "2026-10-07T23:18:32Z",
+  "commit_sha": "5320b8a95c37b8e76d1e8ecb702c4a50782b05b6",
+  "commit_message": "Merge remote-tracking branch 'origin/main' into claude/charming-thompson-4zrnra",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 37.882,
+   "complete_code_percent": 37.882,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.657,
+   "complete_data_percent": 93.657
+  }
+ },
+ {
+  "timestamp": "2026-10-07T23:51:46Z",
+  "commit_sha": "994881e76958753e144f161be93c96164d1dded6",
+  "commit_message": "Round 5 batch: typed data region, SDK mapping, libunit long-name fix",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 37.945,
+   "complete_code_percent": 37.945,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.83,
+   "complete_data_percent": 93.83
+  }
+ },
+ {
+  "timestamp": "2026-10-08T00:00:03Z",
+  "commit_sha": "db615a6929d1176d6b56f898420a0715be704b0b",
+  "commit_message": "Register tu_0c05505c (6 KB, verified)",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 38.237,
+   "complete_code_percent": 38.237,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 93.834,
+   "complete_data_percent": 93.834
+  }
+ },
+ {
+  "timestamp": "2026-10-08T01:12:24Z",
+  "commit_sha": "7b044a2acf9e258f1bb047a30555f6d4e4d0c1c8",
+  "commit_message": "Round 7: fix unit id and LinkedActorBlock index; register tu_0c0517f8",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 39.674,
+   "complete_code_percent": 39.674,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.143,
+   "complete_data_percent": 94.143
+  }
+ },
+ {
+  "timestamp": "2026-10-08T03:10:21Z",
+  "commit_sha": "a825f2a28479170b2d07cfab38efbea8f19eb302",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 40.813,
+   "complete_code_percent": 40.813,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.156,
+   "complete_data_percent": 94.156
+  }
+ },
+ {
+  "timestamp": "2026-10-08T03:21:31Z",
+  "commit_sha": "135a2d9bc80cb3503bb1aef3185efb2067e7bd46",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 41.255,
+   "complete_code_percent": 41.255,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 85.83,
+   "complete_data_percent": 85.83
+  }
+ },
+ {
+  "timestamp": "2026-10-08T03:34:56Z",
+  "commit_sha": "6c2f26a3c6117c94fd59099290cbfccb80def89a",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 41.325,
+   "complete_code_percent": 41.325,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.699,
+   "complete_data_percent": 94.699
+  }
+ },
+ {
+  "timestamp": "2026-10-08T04:04:50Z",
+  "commit_sha": "ccc8ee610b15dcd01f4e51d972a06aaf77c1b1c2",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 41.355,
+   "complete_code_percent": 41.355,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.7,
+   "complete_data_percent": 94.7
+  }
+ },
+ {
+  "timestamp": "2026-10-08T04:20:19Z",
+  "commit_sha": "4f9b22bae5b3e318aad168f5fbc6412427d71014",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 41.51,
+   "complete_code_percent": 41.51,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.753,
+   "complete_data_percent": 94.753
+  }
+ },
+ {
+  "timestamp": "2026-10-08T04:27:02Z",
+  "commit_sha": "5e259a7614a625f41aec5716c7843342b3fe9c5f",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 41.498,
+   "complete_code_percent": 41.498,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.745,
+   "complete_data_percent": 94.745
+  }
+ },
+ {
+  "timestamp": "2026-10-08T04:48:09Z",
+  "commit_sha": "b5642b4b63aabc4a2c0e399063c8943041d00709",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 41.544,
+   "complete_code_percent": 41.544,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.745,
+   "complete_data_percent": 94.745
+  }
+ },
+ {
+  "timestamp": "2026-10-08T04:52:02Z",
+  "commit_sha": "c128b2e997f82543edcdad13ffcbe839876c48e3",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 41.57,
+   "complete_code_percent": 41.57,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.746,
+   "complete_data_percent": 94.746
+  }
+ },
+ {
+  "timestamp": "2026-10-08T04:59:09Z",
+  "commit_sha": "0638ec11403d72d8f17b27536dac7e8a78e1b112",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 41.662,
+   "complete_code_percent": 41.662,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.747,
+   "complete_data_percent": 94.747
+  }
+ },
+ {
+  "timestamp": "2026-10-08T05:14:41Z",
+  "commit_sha": "87bc95063019eeca20d484b365c63cbf5a95ab93",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 41.755,
+   "complete_code_percent": 41.755,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.748,
+   "complete_data_percent": 94.748
+  }
+ },
+ {
+  "timestamp": "2026-10-08T05:33:38Z",
+  "commit_sha": "b3bc30789256b0458fccc3e7a484fecb67cb7b56",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 41.957,
+   "complete_code_percent": 41.957,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.75,
+   "complete_data_percent": 94.75
+  }
+ },
+ {
+  "timestamp": "2026-10-08T05:38:03Z",
+  "commit_sha": "1356b1139c18bb640fdd7430da10f17f8fd16baf",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 42.004,
+   "complete_code_percent": 42.004,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.75,
+   "complete_data_percent": 94.75
+  }
+ },
+ {
+  "timestamp": "2026-10-08T05:43:29Z",
+  "commit_sha": "edca32653399ccbac7056810fe7dcb1cdbae73d6",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 42.072,
+   "complete_code_percent": 42.072,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.753,
+   "complete_data_percent": 94.753
+  }
+ },
+ {
+  "timestamp": "2026-10-08T05:54:25Z",
+  "commit_sha": "82c7b8e728f69ad711c7d30fde182f08373c2172",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 42.155,
+   "complete_code_percent": 42.155,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.754,
+   "complete_data_percent": 94.754
+  }
+ },
+ {
+  "timestamp": "2026-10-08T06:08:58Z",
+  "commit_sha": "246ef278a1b6ee814d4a164f40beec6635261f89",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 42.313,
+   "complete_code_percent": 42.313,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.659,
+   "complete_data_percent": 94.659
+  }
+ },
+ {
+  "timestamp": "2026-10-08T06:32:25Z",
+  "commit_sha": "492ac8997ee581f7f0d1cf476d6d2d541bfbd6a4",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 42.387,
+   "complete_code_percent": 42.387,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.66,
+   "complete_data_percent": 94.66
+  }
+ },
+ {
+  "timestamp": "2026-10-08T06:35:45Z",
+  "commit_sha": "de63a255d405275bbe8178ce74d559471b57a79b",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 42.409,
+   "complete_code_percent": 42.409,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.661,
+   "complete_data_percent": 94.661
+  }
+ },
+ {
+  "timestamp": "2026-10-08T06:51:12Z",
+  "commit_sha": "d61d3d0c18b9969b474938871db43fbb7265cbf4",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 42.457,
+   "complete_code_percent": 42.457,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.661,
+   "complete_data_percent": 94.661
+  }
+ },
+ {
+  "timestamp": "2026-10-08T06:57:36Z",
+  "commit_sha": "1ba674bf2dcc1c21d429f4137362d82c2cff1702",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 42.502,
+   "complete_code_percent": 42.502,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.661,
+   "complete_data_percent": 94.661
+  }
+ },
+ {
+  "timestamp": "2026-10-08T07:16:10Z",
+  "commit_sha": "fa67f532fefe519f4188e95ba0b308b0d90e11a1",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 42.629,
+   "complete_code_percent": 42.629,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.662,
+   "complete_data_percent": 94.662
+  }
+ },
+ {
+  "timestamp": "2026-10-08T07:22:59Z",
+  "commit_sha": "f46d90b37553968c4820be19793eaf623385d20f",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 42.737,
+   "complete_code_percent": 42.737,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.663,
+   "complete_data_percent": 94.663
+  }
+ },
+ {
+  "timestamp": "2026-10-08T07:38:34Z",
+  "commit_sha": "6f54c0a31c3a553b0a7b2e14864081dacd750256",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 42.868,
+   "complete_code_percent": 42.868,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.664,
+   "complete_data_percent": 94.664
+  }
+ },
+ {
+  "timestamp": "2026-10-08T07:55:40Z",
+  "commit_sha": "8e682ed97a8dfd50fe908a8a13fefc8cf011a2fa",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 42.866,
+   "complete_code_percent": 42.866,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.664,
+   "complete_data_percent": 94.664
+  }
+ },
+ {
+  "timestamp": "2026-10-08T08:11:39Z",
+  "commit_sha": "80c078751b7235dfbbd4bfe99deada40a499ce47",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 42.909,
+   "complete_code_percent": 42.909,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.665,
+   "complete_data_percent": 94.665
+  }
+ },
+ {
+  "timestamp": "2026-10-08T08:21:31Z",
+  "commit_sha": "5b5d5c5546bcdf29bf2498569070ac11f7daa467",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 42.945,
+   "complete_code_percent": 42.945,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.665,
+   "complete_data_percent": 94.665
+  }
+ },
+ {
+  "timestamp": "2026-10-08T08:28:49Z",
+  "commit_sha": "13d72a1b0ecb97660d076fd9adea39726bbc6911",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 43.043,
+   "complete_code_percent": 43.043,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.666,
+   "complete_data_percent": 94.666
+  }
+ },
+ {
+  "timestamp": "2026-10-08T08:57:10Z",
+  "commit_sha": "1b64385a57cf8adce9be79f1e50450939b3dfe50",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 43.292,
+   "complete_code_percent": 43.292,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.669,
+   "complete_data_percent": 94.669
+  }
+ },
+ {
+  "timestamp": "2026-10-08T09:01:44Z",
+  "commit_sha": "4006337e87a5522f81cb92147d940424fc6df812",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 43.382,
+   "complete_code_percent": 43.382,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.669,
+   "complete_data_percent": 94.669
+  }
+ },
+ {
+  "timestamp": "2026-10-08T09:19:50Z",
+  "commit_sha": "6777dfda5128ca6c7c8a3eb58d5327556d6434c4",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 43.498,
+   "complete_code_percent": 43.498,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.67,
+   "complete_data_percent": 94.67
+  }
+ },
+ {
+  "timestamp": "2026-10-08T09:30:14Z",
+  "commit_sha": "c816e6e224e6a5f3015c57cfb339fd024dfeb2ac",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 43.677,
+   "complete_code_percent": 43.677,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.673,
+   "complete_data_percent": 94.673
+  }
+ },
+ {
+  "timestamp": "2026-10-08T09:46:27Z",
+  "commit_sha": "33924bac8985fa715c2a2d5d8a8123555ca3357f",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 43.826,
+   "complete_code_percent": 43.826,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.674,
+   "complete_data_percent": 94.674
+  }
+ },
+ {
+  "timestamp": "2026-10-08T10:22:14Z",
+  "commit_sha": "19ea2ba0905b9a286b8a8a9a2935ed3f15ed88c1",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 44.134,
+   "complete_code_percent": 44.134,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.679,
+   "complete_data_percent": 94.679
+  }
+ },
+ {
+  "timestamp": "2026-10-08T10:31:33Z",
+  "commit_sha": "d119c8d219b9b51862de9eceaa95f72ef040d91d",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 44.181,
+   "complete_code_percent": 44.181,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.68,
+   "complete_data_percent": 94.68
+  }
+ },
+ {
+  "timestamp": "2026-10-08T10:58:05Z",
+  "commit_sha": "e1f3720010bb373c6e595061a9ad295eb2fe09f7",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 44.249,
+   "complete_code_percent": 44.249,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.68,
+   "complete_data_percent": 94.68
+  }
+ },
+ {
+  "timestamp": "2026-10-08T11:27:41Z",
+  "commit_sha": "1eebc82a7f32be6d07256143063b533aea1c5a1a",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 44.267,
+   "complete_code_percent": 44.267,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.68,
+   "complete_data_percent": 94.68
+  }
+ },
+ {
+  "timestamp": "2026-10-08T12:05:51Z",
+  "commit_sha": "65b046e22ef6ca3323766701140fdeef4694cf6e",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 44.357,
+   "complete_code_percent": 44.357,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.681,
+   "complete_data_percent": 94.681
+  }
+ },
+ {
+  "timestamp": "2026-10-08T12:16:48Z",
+  "commit_sha": "6b002d012f5f9e65f138825af720717071ce1bac",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 44.47,
+   "complete_code_percent": 44.47,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.682,
+   "complete_data_percent": 94.682
+  }
+ },
+ {
+  "timestamp": "2026-10-08T12:21:21Z",
+  "commit_sha": "7d620300b24e0192b608378fa0f9545481860666",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 44.498,
+   "complete_code_percent": 44.498,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.682,
+   "complete_data_percent": 94.682
+  }
+ },
+ {
+  "timestamp": "2026-10-08T12:43:57Z",
+  "commit_sha": "9dca8e5daee773b279c10029a0b5ae5299a5c2f5",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 44.594,
+   "complete_code_percent": 44.594,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.683,
+   "complete_data_percent": 94.683
+  }
+ },
+ {
+  "timestamp": "2026-10-08T13:19:47Z",
+  "commit_sha": "ab10467af9b41290d2ba70f4e53fd95a708324f6",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 44.699,
+   "complete_code_percent": 44.699,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.684,
+   "complete_data_percent": 94.684
+  }
+ },
+ {
+  "timestamp": "2026-10-08T14:40:50Z",
+  "commit_sha": "60653ae0b6675a8830b1765374ac7ee4356baff8",
+  "commit_message": "Switch the compiler to Hitachi SHC 5.1 Release 8",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 44.594,
+   "complete_code_percent": 44.594,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.683,
+   "complete_data_percent": 94.683
+  }
+ },
+ {
+  "timestamp": "2026-10-08T14:41:06Z",
+  "commit_sha": "71b5e6863cac6529160c581cee51e92581989448",
+  "commit_message": "Merge remote-tracking branch 'origin/main' into claude/charming-thompson-4zrnra",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 44.699,
+   "complete_code_percent": 44.699,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.684,
+   "complete_data_percent": 94.684
+  }
+ },
+ {
+  "timestamp": "2026-10-08T14:45:06Z",
+  "commit_sha": "8ac6ca95a1899073b875da9a17d97a99dea01d92",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 44.659,
+   "complete_code_percent": 44.659,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.595,
+   "complete_data_percent": 94.595
+  }
+ },
+ {
+  "timestamp": "2026-10-08T14:55:43Z",
+  "commit_sha": "61befeca1638a64be582fff866cc8f8eb879443f",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 44.659,
+   "complete_code_percent": 44.659,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.595,
+   "complete_data_percent": 94.595
+  }
+ },
+ {
+  "timestamp": "2026-10-08T16:07:03Z",
+  "commit_sha": "13eca8f5fcc11659b0ef4eec6497231dd815c830",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 45.948,
+   "complete_code_percent": 45.948,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.748,
+   "complete_data_percent": 94.748
+  }
+ },
+ {
+  "timestamp": "2026-10-08T16:16:36Z",
+  "commit_sha": "78f94fbae9d9ee24c865cf092f9955acda5394e0",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 46.441,
+   "complete_code_percent": 46.441,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.754,
+   "complete_data_percent": 94.754
+  }
+ },
+ {
+  "timestamp": "2026-10-08T16:41:52Z",
+  "commit_sha": "bd4e2117ac0b6783cb916b9a1f826daa0c47cc5b",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 46.903,
+   "complete_code_percent": 46.903,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.76,
+   "complete_data_percent": 94.76
+  }
+ },
+ {
+  "timestamp": "2026-10-08T17:07:38Z",
+  "commit_sha": "d6eb96dba19a4d18f7d451006be916f4b927f553",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 47.062,
+   "complete_code_percent": 47.062,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.762,
+   "complete_data_percent": 94.762
+  }
+ },
+ {
+  "timestamp": "2026-10-08T18:36:28Z",
+  "commit_sha": "6a369ba4271cdb7630849249cf71607d79c6651c",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 47.083,
+   "complete_code_percent": 47.083,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.762,
+   "complete_data_percent": 94.762
+  }
+ },
+ {
+  "timestamp": "2026-10-08T19:19:49Z",
+  "commit_sha": "b3ad94b4ba41aa653bab67c16bb5d842fbc9ae43",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 47.135,
+   "complete_code_percent": 47.135,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.763,
+   "complete_data_percent": 94.763
+  }
+ },
+ {
+  "timestamp": "2026-10-08T19:56:35Z",
+  "commit_sha": "be6ac5534cb07795d6a3f0305843beda6764d37e",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 47.256,
+   "complete_code_percent": 47.256,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.764,
+   "complete_data_percent": 94.764
+  }
+ },
+ {
+  "timestamp": "2026-10-08T20:23:59Z",
+  "commit_sha": "45d2192df560a0184e8098e1b18443fcc73f6a6c",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 47.467,
+   "complete_code_percent": 47.467,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.767,
+   "complete_data_percent": 94.767
+  }
+ },
+ {
+  "timestamp": "2026-10-08T20:28:10Z",
+  "commit_sha": "459135c7db30fe6447c227e2cbf068bfd53624b0",
+  "commit_message": "Merge remote-tracking branch 'origin/main' into claude/charming-thompson-4zrnra",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 55.49169308384049,
+   "matched_code_percent": 47.53573166756712,
+   "complete_code_percent": 47.53573166756712,
+   "matched_data_percent": 94.76875631985435,
+   "complete_data_percent": 94.76875631985435
+  }
+ },
+ {
+  "timestamp": "2026-10-08T20:31:59Z",
+  "commit_sha": "a19469cd93e1b2b5986a6743b8b700b5534c9ad5",
+  "commit_message": "Update canonical progress bars [skip ci]",
+  "source": "readme",
+  "measures": {
+   "matched_code_percent": 47.536,
+   "complete_code_percent": 47.536,
+   "fuzzy_match_percent": null,
+   "matched_data_percent": 94.769,
+   "complete_data_percent": 94.769
+  }
+ }
+]

@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-09-29T15:47:53Z",
+  "commit_sha": "7180158fb1de271f390e80faab33e3dce02fb369",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 64.09,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 64.09
+  }
+ },
+ {
+  "timestamp": "2026-09-30T23:29:13Z",
+  "commit_sha": "eb131ce9d65c9e8b4fc21dea24522cbc213fabb5",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 64.09,
+   "complete_code_percent": 0.01,
+   "fuzzy_match_percent": 64.09
+  }
+ },
+ {
+  "timestamp": "2026-10-18T20:30:11Z",
+  "commit_sha": "98d22a6334b29bb406c87b52d321c3a03d2e915e",
+  "commit_message": "feat(c2): trace 1.9.8's C2 9044 in priority_trace and native_slots (#794)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 7.852532049356263,
+   "matched_code_percent": 5.4801217678509,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

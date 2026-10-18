@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-09-29T14:54:54Z",
+  "commit_sha": "e24885934e9cbd77742d37320273a4a0daf17b8a",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 48.43,
+   "complete_code_percent": 48.43,
+   "fuzzy_match_percent": 80.28
+  }
+ },
+ {
+  "timestamp": "2026-09-30T19:28:55Z",
+  "commit_sha": "bdda5431115055340d0638b9138681bd81814dfa",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 11.43,
+   "complete_code_percent": 11.43,
+   "fuzzy_match_percent": 13.48
+  }
+ },
+ {
+  "timestamp": "2026-10-18T20:21:38Z",
+  "commit_sha": "1f4c0415114142bef0efa3886d690af31ca439cd",
+  "commit_message": "decomp: clarify code names and switch cases (batch 21) (#222)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 95.363608,
+   "matched_code_percent": 94.4075717176728,
+   "complete_code_percent": 94.4075717176728,
+   "matched_data_percent": 43.57753471865878,
+   "complete_data_percent": 43.57753471865878
+  }
+ }
+]

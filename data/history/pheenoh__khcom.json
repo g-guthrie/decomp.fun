@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-09-29T13:30:42Z",
+  "commit_sha": "addf92171e56e0d774525cc5f921afb489b9afff",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-10-01T01:55:14Z",
+  "commit_sha": "1d5910e821d81ff9b1b99ec0e1f5e294253f42a1",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-10-12T13:37:06Z",
+  "commit_sha": "5dc49b75068bfe24e07bdaf365570d64682680c3",
+  "commit_message": "Correct more of the original game's bug notes",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
+ }
+]

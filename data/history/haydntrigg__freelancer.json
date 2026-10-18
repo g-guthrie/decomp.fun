@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-07-04T12:48:22Z",
+  "commit_sha": "816f1806a870525975cdfa5576ebc14ee9f6acdf",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 8.6,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 8.64
+  }
+ },
+ {
+  "timestamp": "2026-10-03T19:15:18Z",
+  "commit_sha": "6f77e4276412a7e82ff7a5ebbdbba20d94edca69",
+  "commit_message": "Update shading.dll.cpp",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 12.189879,
+   "matched_code_percent": 12.156802357816353,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

@@ -1,0 +1,70 @@
+[
+ {
+  "timestamp": "2026-04-13T11:33:00Z",
+  "commit_sha": "b3b3ef68fe657b71a542c1af3af9a9f1304f7546",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.68,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 0.69
+  }
+ },
+ {
+  "timestamp": "2026-05-25T20:49:37Z",
+  "commit_sha": "83d12ca327572f741afaf48bdcaac00537f05bac",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.71,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 0.73
+  }
+ },
+ {
+  "timestamp": "2026-07-20T05:09:00Z",
+  "commit_sha": "0587b0b8578fc3d7d0f16c0623530fd528b69412",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.79,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 0.81
+  }
+ },
+ {
+  "timestamp": "2026-09-27T20:19:17Z",
+  "commit_sha": "12273d4236b2c8cb8788ad76ff69895036bddb45",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.32,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 1.35
+  }
+ },
+ {
+  "timestamp": "2026-09-29T20:27:14Z",
+  "commit_sha": "a31a4c3c59cfd26202a8ebeb66d4bc0dd0ca94fa",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.33,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 1.36
+  }
+ },
+ {
+  "timestamp": "2026-10-13T09:48:56Z",
+  "commit_sha": "7e75adfedcfeb2a3907adb3813c47ce903236dd9",
+  "commit_message": "Move `CityKrawlie`-Actions to their own folder",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 0.0,
+   "matched_code_percent": 0.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

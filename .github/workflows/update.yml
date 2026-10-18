@@ -1,0 +1,73 @@
+name: Update and deploy
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # every 6 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/history/**"
+      - "README.md"
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+permissions:
+  contents: write # commit new history points back
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Latest reports are large and can always be re-fetched, so they live in the
+      # Actions cache rather than git. History (small, irreplaceable) is committed.
+      - name: Restore reports
+        uses: actions/cache/restore@v4
+        with:
+          path: data/reports
+          key: reports-${{ github.run_id }}
+          restore-keys: reports-
+
+      - name: Fetch progress from every project's CI
+        env:
+          # A fine-grained token (public repos, read-only) gets a higher rate limit;
+          # the built-in token works too.
+          GH_TOKEN: ${{ secrets.GH_READ_TOKEN || github.token }}
+        run: python3 fetch.py
+
+      - name: Save reports
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/reports
+          key: reports-${{ github.run_id }}
+
+      - name: Build site
+        run: python3 build.py
+
+      - name: Deploy to decomp.fun
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@4 deploy
+
+      - name: Commit new history points
+        run: |
+          git config user.name "decomp.fun bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history
+          if git diff --cached --quiet; then
+            echo "No new history points"
+          else
+            git commit -m "Update progress history"
+            git push
+          fi

@@ -1,0 +1,114 @@
+[
+ {
+  "timestamp": "2026-02-24T16:05:41Z",
+  "commit_sha": "54e219006b54b615a97ac27f09a2bc6ee5acd7d2",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.95,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 7.74
+  }
+ },
+ {
+  "timestamp": "2026-03-25T04:57:24Z",
+  "commit_sha": "952f5ffdfacc6d39f90a51fe2a178391956a7e83",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 5.75,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 10.25
+  }
+ },
+ {
+  "timestamp": "2026-04-29T01:58:56Z",
+  "commit_sha": "70ca95abeae0eb21e5028b44c27549d57831e26d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.6,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 4.78
+  }
+ },
+ {
+  "timestamp": "2026-05-27T00:42:13Z",
+  "commit_sha": "400654a645e64b0f04de7c3c72aee29e22f12af4",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 5.38,
+   "complete_code_percent": 0.93,
+   "fuzzy_match_percent": 9.83
+  }
+ },
+ {
+  "timestamp": "2026-06-15T18:30:14Z",
+  "commit_sha": "206b0b9bc96a4f91db873aadc4c4bfb724841903",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 6.98,
+   "complete_code_percent": 0.93,
+   "fuzzy_match_percent": 13.63
+  }
+ },
+ {
+  "timestamp": "2026-07-31T01:43:25Z",
+  "commit_sha": "b1589ba7481638b9133833c1a6dbfe24e3618651",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 13.39,
+   "complete_code_percent": 0.91,
+   "fuzzy_match_percent": 22.61
+  }
+ },
+ {
+  "timestamp": "2026-08-24T23:05:25Z",
+  "commit_sha": "ddcf9bbd2821ba45e6ead6f93483f4f2a7fb89aa",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 33.32,
+   "complete_code_percent": 7.81,
+   "fuzzy_match_percent": 48.18
+  }
+ },
+ {
+  "timestamp": "2026-09-29T05:52:05Z",
+  "commit_sha": "056ff67e47e2e00978a7e34ec5ef68022748b94e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-09-30T23:35:10Z",
+  "commit_sha": "3df9e8582cab6861d00001a635e388023b62e386",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-10-17T00:11:29Z",
+  "commit_sha": "f09620dd8291b1acc8ffb15a1046c765827f8306",
+  "commit_message": "Replace decompilation artifacts with typed access and structured cont\u2026 (#1097)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 17.157819077934082,
+   "complete_data_percent": 100.0
+  }
+ }
+]

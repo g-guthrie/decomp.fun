@@ -1,0 +1,59 @@
+[
+ {
+  "timestamp": "2026-07-31T07:41:32Z",
+  "commit_sha": "218e18d49d4dd468e332648302ac623107ca71ee",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 13.73,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 33.75
+  }
+ },
+ {
+  "timestamp": "2026-08-24T21:19:03Z",
+  "commit_sha": "565d7fee77e263964216ce07e203b18d5e83c6a1",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 37.04,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 66.8
+  }
+ },
+ {
+  "timestamp": "2026-09-29T04:58:25Z",
+  "commit_sha": "53e6936e9f7c62076ba2414ec67198fcad43639d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 74.7,
+   "complete_code_percent": 32.11,
+   "fuzzy_match_percent": 93.89
+  }
+ },
+ {
+  "timestamp": "2026-09-30T05:11:38Z",
+  "commit_sha": "979af623e7270b83919fd0fa9e35da920a9029d6",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 74.7,
+   "complete_code_percent": 32.11,
+   "fuzzy_match_percent": 94.01
+  }
+ },
+ {
+  "timestamp": "2026-10-18T18:55:01Z",
+  "commit_sha": "71baf5b4787d0c17b7b77cb161f12e2b30ec61a3",
+  "commit_message": "Name the lift occupant slot count",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 89.6986712223057,
+   "matched_code_percent": 55.13934050334496,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

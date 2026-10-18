@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-30T23:01:19Z",
+  "commit_sha": "ae82b8a9662386f2ebbc51811ede418979de5747",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.51,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 0.54
+  }
+ },
+ {
+  "timestamp": "2026-10-13T05:22:20Z",
+  "commit_sha": "0022f3be04fa1e0b8900cb575e6113fae3d30120",
+  "commit_message": "docs: describe the one-declaration-per-class pipeline; check EH tables",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 11.802211,
+   "matched_code_percent": 11.230251998747717,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

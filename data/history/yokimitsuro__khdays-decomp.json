@@ -1,0 +1,59 @@
+[
+ {
+  "timestamp": "2026-07-31T07:36:02Z",
+  "commit_sha": "36557270c2ab921d3937a22a9a3a7cf855ebca31",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 38.09,
+   "complete_code_percent": 38.09,
+   "fuzzy_match_percent": 38.09
+  }
+ },
+ {
+  "timestamp": "2026-08-24T23:09:27Z",
+  "commit_sha": "3e4aa7190c66181428629866395ca7e5fa1b6794",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 45.4,
+   "complete_code_percent": 45.4,
+   "fuzzy_match_percent": 45.4
+  }
+ },
+ {
+  "timestamp": "2026-09-29T15:01:30Z",
+  "commit_sha": "497f599a9b9f695e41d5fbf60a20fcc11781a6d1",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-09-30T11:15:53Z",
+  "commit_sha": "ea39ead5e3c4f284bb243b9082e948847038bcd4",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-10-11T14:41:13Z",
+  "commit_sha": "261a89eaa8f65dd566ae0828b0b57c85c847a6ee",
+  "commit_message": "docs: add Discord community badge",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 0.0,
+   "matched_code_percent": 0.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

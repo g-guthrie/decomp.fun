@@ -1,0 +1,6 @@
+dist/
+work/
+__pycache__/
+.wrangler/
+node_modules/
+data/reports/

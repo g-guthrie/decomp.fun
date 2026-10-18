@@ -1,0 +1,81 @@
+[
+ {
+  "timestamp": "2026-04-26T21:48:45Z",
+  "commit_sha": "2d8dac802a03d4d18d958f5070d48429c21d4edf",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 3.18,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 3.18
+  }
+ },
+ {
+  "timestamp": "2026-06-11T21:45:36Z",
+  "commit_sha": "89e66bf79ee9c2d2f2245f8f7db51264d7e9421a",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 5.02,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 5.03
+  }
+ },
+ {
+  "timestamp": "2026-07-30T20:20:51Z",
+  "commit_sha": "1ec71ecb9698729b12f2a41a5604886de38c7e82",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 22.4,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 22.44
+  }
+ },
+ {
+  "timestamp": "2026-08-23T19:36:31Z",
+  "commit_sha": "c0a98c093ca4d013848edbc8daba2ad414fe9b36",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 62.7,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 63.64
+  }
+ },
+ {
+  "timestamp": "2026-09-26T23:46:56Z",
+  "commit_sha": "90bce4e5131e9637fa26a2d2322ec221d0b2088e",
+  "commit_message": "Name the menu label tables (#105)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
+ },
+ {
+  "timestamp": "2026-09-28T16:54:01Z",
+  "commit_sha": "ea1f4e1d91f7fe4ddd5d6a1bc0753c671ae82f51",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-09-30T20:47:31Z",
+  "commit_sha": "851b38587bb36a687e92e7319a91025d6233de3a",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ }
+]

@@ -1,0 +1,48 @@
+[
+ {
+  "timestamp": "2026-08-23T18:13:32Z",
+  "commit_sha": "8039b6cfebf24527a3bde1eeb64391888f1ebfb0",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 99.66,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 99.66
+  }
+ },
+ {
+  "timestamp": "2026-09-27T02:08:46Z",
+  "commit_sha": "d3d580c8b9909bfca85823a83e26b95acfe53e22",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 99.66,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 99.66
+  }
+ },
+ {
+  "timestamp": "2026-09-30T04:16:15Z",
+  "commit_sha": "b8f8b8da85b01486e10b7b4a12fba832612fcbb7",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-10-16T03:48:48Z",
+  "commit_sha": "a57c1f056b421ceef50d091b791efe21dad8c371",
+  "commit_message": "Extract data associated with code files",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 15.946044812787363,
+   "complete_data_percent": 0.0
+  }
+ }
+]

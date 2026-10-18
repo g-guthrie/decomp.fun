@@ -1,0 +1,92 @@
+[
+ {
+  "timestamp": "2026-03-15T04:22:57Z",
+  "commit_sha": "cff0a41359cf797bdc7a0b3098b5827e37a476c5",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 95.75,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 95.75
+  }
+ },
+ {
+  "timestamp": "2026-04-29T04:00:36Z",
+  "commit_sha": "8346d9311ddc5693507491e32830db8de7f801b9",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 96.62,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 96.62
+  }
+ },
+ {
+  "timestamp": "2026-05-27T22:13:01Z",
+  "commit_sha": "1d31ee762feae8bcd174b4697a052b28e1d21edc",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 97.25,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 97.25
+  }
+ },
+ {
+  "timestamp": "2026-06-13T01:16:29Z",
+  "commit_sha": "e6f3eee68dbe19fbac87914b613ff4ea6f29e251",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 97.25,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 97.25
+  }
+ },
+ {
+  "timestamp": "2026-07-12T19:11:32Z",
+  "commit_sha": "47648121f0e86a6dc44c17323675fd5682f5bb10",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 97.4,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 97.4
+  }
+ },
+ {
+  "timestamp": "2026-08-24T20:08:30Z",
+  "commit_sha": "4fa69a8d93ec450da6a98462845ef1581eb31414",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-09-08T01:26:12Z",
+  "commit_sha": "7a85d55c7d5bfb17b48447de948dc7406f7eedb9",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-10-15T12:15:47Z",
+  "commit_sha": "0db11633fdc3e0f08015423880ff9fc4317810f2",
+  "commit_message": "cliff_status_ga is 6 members long, remove 'unused_0x2CC'",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

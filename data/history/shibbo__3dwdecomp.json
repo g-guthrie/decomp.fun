@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-10-01T01:48:05Z",
+  "commit_sha": "638e1df57bc890828ecf601c50bea41d6de0c0cb",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 20.52,
+   "complete_code_percent": 5.89,
+   "fuzzy_match_percent": 26.1
+  }
+ },
+ {
+  "timestamp": "2026-10-18T02:38:22Z",
+  "commit_sha": "8d16e28b7a2b91ddadf473cf985b3011178ea6c6",
+  "commit_message": "Reconstruct CoinFalls setup and bounds with updated report",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 80.679146,
+   "matched_code_percent": 64.00403014675527,
+   "complete_code_percent": 24.082335059844013,
+   "matched_data_percent": 97.82514057681843,
+   "complete_data_percent": 6.100062190666217
+  }
+ }
+]

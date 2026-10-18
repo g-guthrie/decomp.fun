@@ -1,0 +1,70 @@
+[
+ {
+  "timestamp": "2026-06-15T18:29:52Z",
+  "commit_sha": "b9f636a414f94b93f8e25929378de75524d9ffcd",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 3.69,
+   "complete_code_percent": 3.06,
+   "fuzzy_match_percent": 3.69
+  }
+ },
+ {
+  "timestamp": "2026-07-24T06:29:43Z",
+  "commit_sha": "9341f8316c5e2f8abd9fe1e118ace1a47306089b",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 11.82,
+   "complete_code_percent": 11.02,
+   "fuzzy_match_percent": 11.82
+  }
+ },
+ {
+  "timestamp": "2026-08-24T02:21:28Z",
+  "commit_sha": "d53fa8a7dd54b11a67c7494c281f691db2fee428",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 22.18,
+   "complete_code_percent": 21.34,
+   "fuzzy_match_percent": 22.18
+  }
+ },
+ {
+  "timestamp": "2026-09-24T19:51:48Z",
+  "commit_sha": "28be23b52c38b2a6397d125683a447fe63b1ea6f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 35.05,
+   "complete_code_percent": 33.46,
+   "fuzzy_match_percent": 35.05
+  }
+ },
+ {
+  "timestamp": "2026-09-30T23:03:44Z",
+  "commit_sha": "0071b3cfb40794f13573e55c1e717ff09ee55226",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 38.85,
+   "complete_code_percent": 37.25,
+   "fuzzy_match_percent": 38.85
+  }
+ },
+ {
+  "timestamp": "2026-10-17T10:05:44Z",
+  "commit_sha": "7ce8e285a371ec53a1d8d9d52b8dabb5c701e8d4",
+  "commit_message": "progress: regenerate report after the rename sweep",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 46.62063,
+   "matched_code_percent": 46.62062682626894,
+   "complete_code_percent": 45.323482292947645,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
+ }
+]

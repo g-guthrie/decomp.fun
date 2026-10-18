@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-06-10T16:51:43Z",
+  "commit_sha": "022b8baa200b11ec5d85909657a12145308d9399",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 99.76,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 99.76
+  }
+ },
+ {
+  "timestamp": "2026-07-09T06:18:15Z",
+  "commit_sha": "7b47dec8da6ff7c2ff9aad2bfa9bf40cc8b07b90",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 99.76,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 99.76
+  }
+ },
+ {
+  "timestamp": "2026-10-14T15:09:08Z",
+  "commit_sha": "2eb90faab758b2efbf9863ca7667f11314dd2ca5",
+  "commit_message": "Merge branch 'FireEmblemUniverse:master' into master",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 0.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
+ }
+]

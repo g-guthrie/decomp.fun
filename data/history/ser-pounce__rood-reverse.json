@@ -1,0 +1,191 @@
+[
+ {
+  "timestamp": "2025-07-27T18:35:36Z",
+  "commit_sha": "15b7f886e6772d41a26853de9199e237cfd9aaef",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 12.67,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 12.67
+  }
+ },
+ {
+  "timestamp": "2025-08-04T06:41:27Z",
+  "commit_sha": "3303d422f0be1b0b6e9e8e011e6565b448c6e6d0",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 13.47,
+   "complete_code_percent": 5.06,
+   "fuzzy_match_percent": 13.47
+  }
+ },
+ {
+  "timestamp": "2025-09-27T14:42:23Z",
+  "commit_sha": "a7a67f355ccd3ba6bbb03515c3ae0dce1b972f7d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 16.99,
+   "complete_code_percent": 7.76,
+   "fuzzy_match_percent": 16.99
+  }
+ },
+ {
+  "timestamp": "2025-10-26T12:14:56Z",
+  "commit_sha": "651e694f2f7346706bdec88cad8e64660f4356a9",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 18.36,
+   "complete_code_percent": 9.57,
+   "fuzzy_match_percent": 18.36
+  }
+ },
+ {
+  "timestamp": "2025-11-30T09:20:44Z",
+  "commit_sha": "9313cdd7f9a0c632caec5d93ede94e4d6e26e399",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 24.87,
+   "complete_code_percent": 11.67,
+   "fuzzy_match_percent": 24.87
+  }
+ },
+ {
+  "timestamp": "2025-12-30T14:36:09Z",
+  "commit_sha": "456c29b47004ad28985190089fb8ee7f549d3cdf",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 32.17,
+   "complete_code_percent": 11.91,
+   "fuzzy_match_percent": 32.17
+  }
+ },
+ {
+  "timestamp": "2026-01-24T20:30:30Z",
+  "commit_sha": "73144c37bbb6298064cba11d37da3a0dff749130",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 35.24,
+   "complete_code_percent": 14.8,
+   "fuzzy_match_percent": 35.24
+  }
+ },
+ {
+  "timestamp": "2026-02-24T19:41:17Z",
+  "commit_sha": "f4da3ccb2c7d93886bb7f4c12dd976f0a6830f40",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 44.38,
+   "complete_code_percent": 21.36,
+   "fuzzy_match_percent": 44.38
+  }
+ },
+ {
+  "timestamp": "2026-03-24T21:31:44Z",
+  "commit_sha": "e98e0c49ea0c000625514d63c6149d3254afcf8a",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 50.01,
+   "complete_code_percent": 29.3,
+   "fuzzy_match_percent": 50.01
+  }
+ },
+ {
+  "timestamp": "2026-04-28T04:41:21Z",
+  "commit_sha": "343919b1a878153850ce3ce4d7c43735e26e209c",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 53.64,
+   "complete_code_percent": 29.76,
+   "fuzzy_match_percent": 53.64
+  }
+ },
+ {
+  "timestamp": "2026-05-27T06:22:50Z",
+  "commit_sha": "3b0d39b46f36f9eb5bbe4a1f9e8ebcc5f45e0b11",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 55.71,
+   "complete_code_percent": 29.76,
+   "fuzzy_match_percent": 55.71
+  }
+ },
+ {
+  "timestamp": "2026-06-15T20:08:11Z",
+  "commit_sha": "9d9237f32befbc94132aadf8bb18cb83e4824034",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 57.18,
+   "complete_code_percent": 29.47,
+   "fuzzy_match_percent": 57.18
+  }
+ },
+ {
+  "timestamp": "2026-07-28T20:05:32Z",
+  "commit_sha": "6366ce42adcc828fcc723f2221c188ebd4d62b4b",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 61.34,
+   "complete_code_percent": 34.38,
+   "fuzzy_match_percent": 61.34
+  }
+ },
+ {
+  "timestamp": "2026-08-22T20:31:09Z",
+  "commit_sha": "0b52f445abb5f736c2d899d71459a71933283d69",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 62.93,
+   "complete_code_percent": 34.38,
+   "fuzzy_match_percent": 62.93
+  }
+ },
+ {
+  "timestamp": "2026-09-29T15:10:27Z",
+  "commit_sha": "9b73b761eff08b5516eafb12a21bc6bb245de3e6",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 36.85,
+   "complete_code_percent": 19.29,
+   "fuzzy_match_percent": 36.85
+  }
+ },
+ {
+  "timestamp": "2026-09-30T17:58:25Z",
+  "commit_sha": "e049f34898b92719ebb7f5f4a113fbdd674a9f2d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 36.91,
+   "complete_code_percent": 19.29,
+   "fuzzy_match_percent": 36.91
+  }
+ },
+ {
+  "timestamp": "2026-10-18T19:21:10Z",
+  "commit_sha": "2a589e015cd0f980ea14fe6d01190b7dfff807ac",
+  "commit_message": "Decompile shared five-sample trail effect routines and PLG073 ring renderer (8 functions) (#258)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 73.23298,
+   "matched_code_percent": 73.2329783454646,
+   "complete_code_percent": 20.640176144484744,
+   "matched_data_percent": 41.732595882192655,
+   "complete_data_percent": 36.419458002093805
+  }
+ }
+]

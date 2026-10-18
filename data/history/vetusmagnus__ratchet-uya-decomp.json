@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-30T21:27:52Z",
+  "commit_sha": "642eb24d5d186ff0cbe3c98d96152fa892f25032",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.2,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 1.2
+  }
+ },
+ {
+  "timestamp": "2026-10-17T17:25:12Z",
+  "commit_sha": "ac0eb2a87cc1706e1d15025f8a17838d17f9175c",
+  "commit_message": "Map shared level functions to the overlays that contain them (#57)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 9.730254,
+   "matched_code_percent": 9.73025381333767,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.06806706144536316,
+   "complete_data_percent": 0.0
+  }
+ }
+]

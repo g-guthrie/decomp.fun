@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-09-29T09:43:15Z",
+  "commit_sha": "c32c79e199fac884f61e424a91b3f55d1d3ea772",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 59.08,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 59.08
+  }
+ },
+ {
+  "timestamp": "2026-09-30T19:22:42Z",
+  "commit_sha": "c9ef393cdc14032ccd73b8431dd3b3e0bccf3398",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 60.55,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 60.55
+  }
+ },
+ {
+  "timestamp": "2026-10-15T12:47:59Z",
+  "commit_sha": "7341b6b2430365c2178e2b0bad9a8411407f05e7",
+  "commit_message": "add unit tests (#411)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 60.845184,
+   "matched_code_percent": 60.84518525228735,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 68.91508404278541,
+   "complete_data_percent": 0.0
+  }
+ }
+]

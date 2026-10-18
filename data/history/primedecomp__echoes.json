@@ -1,0 +1,101 @@
+[
+ {
+  "timestamp": "2024-09-08T09:49:28Z",
+  "commit_sha": "289df2c57f501cb0bd32527d56c1a80881052c6e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.19,
+   "complete_code_percent": 0.96,
+   "fuzzy_match_percent": 1.36
+  }
+ },
+ {
+  "timestamp": "2025-01-14T15:50:11Z",
+  "commit_sha": "1d7cd590bda463f3eded0bf2a4e56059e79b7b6e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.57,
+   "complete_code_percent": 1.0,
+   "fuzzy_match_percent": 1.9
+  }
+ },
+ {
+  "timestamp": "2025-02-02T17:37:41Z",
+  "commit_sha": "8c3c2deb4a0385ccc450275d4e0bbd00a0bbe842",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.57,
+   "complete_code_percent": 1.0,
+   "fuzzy_match_percent": 1.92
+  }
+ },
+ {
+  "timestamp": "2026-02-06T14:18:03Z",
+  "commit_sha": "32790c6612e1be4d7ceb555b70b787dcd48e092f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.57,
+   "complete_code_percent": 1.0,
+   "fuzzy_match_percent": 2.09
+  }
+ },
+ {
+  "timestamp": "2026-05-09T14:37:04Z",
+  "commit_sha": "5deed2ad82f81fddd45a647bc8125e8ab5afa576",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.57,
+   "complete_code_percent": 1.0,
+   "fuzzy_match_percent": 2.1
+  }
+ },
+ {
+  "timestamp": "2026-06-06T22:46:03Z",
+  "commit_sha": "7c58bd096f22d26acb19838ba8e91a9379b09e44",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.57,
+   "complete_code_percent": 1.0,
+   "fuzzy_match_percent": 2.1
+  }
+ },
+ {
+  "timestamp": "2026-07-04T13:24:28Z",
+  "commit_sha": "e65a14744f2254008fd05ebb4b7d63b7c6e21673",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.58,
+   "complete_code_percent": 1.0,
+   "fuzzy_match_percent": 2.12
+  }
+ },
+ {
+  "timestamp": "2026-09-29T06:22:51Z",
+  "commit_sha": "750bdcaf3cb10518afa86654afafa3cc0d246f3c",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 19.82,
+   "complete_code_percent": 9.25,
+   "fuzzy_match_percent": 27.8
+  }
+ },
+ {
+  "timestamp": "2026-09-30T21:23:12Z",
+  "commit_sha": "c6a5970063ccfc522801b6cb1b77075a1e95e30a",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 20.6,
+   "complete_code_percent": 9.46,
+   "fuzzy_match_percent": 29.07
+  }
+ }
+]

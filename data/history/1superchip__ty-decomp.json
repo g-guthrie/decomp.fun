@@ -1,0 +1,136 @@
+[
+ {
+  "timestamp": "2025-05-25T21:38:46Z",
+  "commit_sha": "8f1d5b7413e37eb9f4a505d8b657650057ae34bc",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 22.15,
+   "complete_code_percent": 21.55,
+   "fuzzy_match_percent": 22.29
+  }
+ },
+ {
+  "timestamp": "2025-06-14T15:41:00Z",
+  "commit_sha": "c34daacdfade6c8b52ce85126841654206d37c22",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 22.25,
+   "complete_code_percent": 21.62,
+   "fuzzy_match_percent": 22.41
+  }
+ },
+ {
+  "timestamp": "2025-07-20T19:03:44Z",
+  "commit_sha": "0211b8fe716898a6d07c9ee84e441dcd3c62bedf",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 22.36,
+   "complete_code_percent": 21.79,
+   "fuzzy_match_percent": 22.53
+  }
+ },
+ {
+  "timestamp": "2025-09-26T18:23:07Z",
+  "commit_sha": "df8acf9ae2d0e472a5f28d6626ed0c485f34cb73",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 24.0,
+   "complete_code_percent": 22.5,
+   "fuzzy_match_percent": 24.4
+  }
+ },
+ {
+  "timestamp": "2025-10-11T18:53:24Z",
+  "commit_sha": "211ec2b5e2d9edbdea26e0ae44bc52e661dd298d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 24.55,
+   "complete_code_percent": 22.82,
+   "fuzzy_match_percent": 24.97
+  }
+ },
+ {
+  "timestamp": "2025-11-17T23:54:57Z",
+  "commit_sha": "c44bbcf0ca94d09d0717e530afc47b52d3dcd686",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 24.74,
+   "complete_code_percent": 23.01,
+   "fuzzy_match_percent": 25.17
+  }
+ },
+ {
+  "timestamp": "2026-01-24T16:48:20Z",
+  "commit_sha": "74ae21ac8c10bf95fe6ff9f2c15c3b2d312db912",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 24.79,
+   "complete_code_percent": 23.01,
+   "fuzzy_match_percent": 25.29
+  }
+ },
+ {
+  "timestamp": "2026-05-19T18:23:20Z",
+  "commit_sha": "22629400d868ee47e5996eb5eff4aa3acd69f94b",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 24.9,
+   "complete_code_percent": 23.01,
+   "fuzzy_match_percent": 25.42
+  }
+ },
+ {
+  "timestamp": "2026-08-01T17:23:51Z",
+  "commit_sha": "41bd8653afb6427181fe3769ee5bf838ee1b3dbd",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 24.95,
+   "complete_code_percent": 23.08,
+   "fuzzy_match_percent": 25.45
+  }
+ },
+ {
+  "timestamp": "2026-09-19T19:48:35Z",
+  "commit_sha": "ca8b5809a5bdc13a7cb2d85ace7624badbc0266d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 27.39,
+   "complete_code_percent": 25.48,
+   "fuzzy_match_percent": 27.89
+  }
+ },
+ {
+  "timestamp": "2026-09-30T01:32:30Z",
+  "commit_sha": "f2ce69aec6a1d12726b42ece255ff0c133fde508",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 27.57,
+   "complete_code_percent": 25.57,
+   "fuzzy_match_percent": 28.1
+  }
+ },
+ {
+  "timestamp": "2026-10-08T03:15:47Z",
+  "commit_sha": "22d5483e9b59ad40fcab924f6c7d913f3b3e09da",
+  "commit_message": "Fix more symbols and start work on DWARF",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 28.09471,
+   "matched_code_percent": 27.55379940043767,
+   "complete_code_percent": 25.570064415220926,
+   "matched_data_percent": 67.12637286699102,
+   "complete_data_percent": 68.86875706163039
+  }
+ }
+]

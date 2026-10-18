@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-09-29T15:12:34Z",
+  "commit_sha": "d115694e961fda9b35d3f31a427920f96c667b54",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-09-29T17:20:34Z",
+  "commit_sha": "7ff11052c65eb1fa8c28cc44e88feacc7dadff4d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-10-17T06:41:14Z",
+  "commit_sha": "e24cabec24de9831079982325ba832a676a7a46e",
+  "commit_message": "Merge pull request #39 from mitsevox/claude/project-thread-uf3xrs",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 79.95912332982653,
+   "complete_data_percent": 100.0
+  }
+ }
+]

@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-09-29T00:00:41Z",
+  "commit_sha": "2c1de61438ebd6b6f42a6dfd309c11b8c3f82ffc",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 3.08,
+   "complete_code_percent": 3.08,
+   "fuzzy_match_percent": 3.08
+  }
+ },
+ {
+  "timestamp": "2026-10-01T02:24:57Z",
+  "commit_sha": "36723387997457ab3c5bc3071e6f4263654b3642",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 3.31,
+   "complete_code_percent": 3.31,
+   "fuzzy_match_percent": 3.31
+  }
+ },
+ {
+  "timestamp": "2026-10-05T20:17:35Z",
+  "commit_sha": "ce0fb851082158ae4090ffdb3f94bbee8f86c674",
+  "commit_message": "Point contributors to merged repository",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 0.0,
+   "matched_code_percent": 0.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

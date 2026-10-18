@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-09-29T15:51:38Z",
+  "commit_sha": "f5b3a9e99ce349e26a20b2441db53c1ba12edc61",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 65.3,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-09-30T10:42:35Z",
+  "commit_sha": "1f417177c20de6836370ecaa0a9f266923e56bbe",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 99.66,
+   "complete_code_percent": 80.22,
+   "fuzzy_match_percent": 99.92
+  }
+ },
+ {
+  "timestamp": "2026-10-16T00:22:48Z",
+  "commit_sha": "c9e372e18a12343c7472b4cea403064eccf313de",
+  "commit_message": "Editors (#1167): the level editor, tiles, collision and palettes (#1187)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
+ }
+]

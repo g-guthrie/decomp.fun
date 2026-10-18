@@ -1,0 +1,169 @@
+[
+ {
+  "timestamp": "2024-11-26T19:22:34Z",
+  "commit_sha": "9ed8de78b0f389774651faeb576992f5ac7974e6",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 73.98,
+   "complete_code_percent": 68.84,
+   "fuzzy_match_percent": 74.86
+  }
+ },
+ {
+  "timestamp": "2024-12-28T17:20:56Z",
+  "commit_sha": "aa34d0bbf7f599b800877e3033eb947292b4d761",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 78.52,
+   "complete_code_percent": 75.65,
+   "fuzzy_match_percent": 79.15
+  }
+ },
+ {
+  "timestamp": "2025-01-29T23:26:50Z",
+  "commit_sha": "e4249beabc832703ffe2eb8129790b5628b22a37",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 97.92,
+   "complete_code_percent": 96.63,
+   "fuzzy_match_percent": 98.31
+  }
+ },
+ {
+  "timestamp": "2025-02-11T03:49:23Z",
+  "commit_sha": "23b7af3bc59782cc0d4120e3fa994caaa1c583ea",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 99.69,
+   "complete_code_percent": 98.45,
+   "fuzzy_match_percent": 99.98
+  }
+ },
+ {
+  "timestamp": "2025-03-16T20:05:13Z",
+  "commit_sha": "53f19c4f6c5e565df113a61a34806441966b665d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 99.88,
+   "complete_code_percent": 99.11,
+   "fuzzy_match_percent": 99.99
+  }
+ },
+ {
+  "timestamp": "2025-04-06T23:53:55Z",
+  "commit_sha": "086800b79a1879fd5ba92ee15245cc86761b5ec6",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 99.88,
+   "complete_code_percent": 99.11,
+   "fuzzy_match_percent": 99.99
+  }
+ },
+ {
+  "timestamp": "2025-05-23T23:14:00Z",
+  "commit_sha": "33d5984dff1a9a302d689cf766282116f0f85a03",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 99.95,
+   "complete_code_percent": 99.91,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2025-06-05T12:43:57Z",
+  "commit_sha": "d0b765280fd6ca504a888576698f15795cb43e36",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2025-07-01T02:17:48Z",
+  "commit_sha": "2e0eeb2fa1d8f6a0ff618a216431f88b0c83c849",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2025-10-09T20:04:46Z",
+  "commit_sha": "591e4e631bc2f36bd94ae9a061669d4a2ec168da",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2025-11-29T04:15:16Z",
+  "commit_sha": "413d1b0529d872cd20a05dac9de06f683726efce",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-02-23T21:15:13Z",
+  "commit_sha": "814c28a9f2745669daef04679dcc7187bf8a812e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-05-21T22:07:25Z",
+  "commit_sha": "198da1b8049961b15a072ea99a85235e936f3b18",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-06-04T03:18:46Z",
+  "commit_sha": "147b165a83187ac9e6cfdc3bf52f2e73437b1ffd",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-10-15T20:59:34Z",
+  "commit_sha": "5b01c79b4910525e3fc5aa312eddd6d014e7f337",
+  "commit_message": "Add CC0 1.0 Universal license",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.00002,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 45.43625488871227,
+   "complete_data_percent": 100.0
+  }
+ }
+]

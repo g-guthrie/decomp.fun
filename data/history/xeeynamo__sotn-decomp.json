@@ -1,0 +1,147 @@
+[
+ {
+  "timestamp": "2025-11-29T20:12:38Z",
+  "commit_sha": "d210af9b02a3c586f14abe0f9cacf47e82ce4c32",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 94.67,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 94.67
+  }
+ },
+ {
+  "timestamp": "2025-12-29T21:57:58Z",
+  "commit_sha": "0a804e6132d51de11718cda4817e34d04bda796b",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 31.35,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 31.35
+  }
+ },
+ {
+  "timestamp": "2026-01-24T22:01:01Z",
+  "commit_sha": "e729cd94b198424dd3fe8ba0a583571396fd8ce0",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 32.74,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 32.74
+  }
+ },
+ {
+  "timestamp": "2026-02-25T02:33:08Z",
+  "commit_sha": "345e12970561988de6b70bd48cbaccf41d2796e5",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 32.97,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 32.97
+  }
+ },
+ {
+  "timestamp": "2026-03-24T05:04:18Z",
+  "commit_sha": "948edb17dedc854ac991cf8b61fc779601121795",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 34.64,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 34.64
+  }
+ },
+ {
+  "timestamp": "2026-04-27T08:33:12Z",
+  "commit_sha": "34fdf04babdbafe611897fa1e875469db22f03ea",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 35.69,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 35.69
+  }
+ },
+ {
+  "timestamp": "2026-05-26T15:39:54Z",
+  "commit_sha": "d4a8cf25aa2c1992d9438c8ff24383c86868e4a8",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 35.85,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 35.85
+  }
+ },
+ {
+  "timestamp": "2026-06-14T19:16:40Z",
+  "commit_sha": "066d670cc80ff4313e52b46361497e5df5820440",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 37.12,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 37.12
+  }
+ },
+ {
+  "timestamp": "2026-07-31T05:53:04Z",
+  "commit_sha": "f6bfa3791565b92c05a9ddd0473bdffa9213046a",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 43.34,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 43.34
+  }
+ },
+ {
+  "timestamp": "2026-08-23T18:51:10Z",
+  "commit_sha": "85c3717eb4f1a8a5419b9448c5289202a815f971",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 67.09,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 67.09
+  }
+ },
+ {
+  "timestamp": "2026-09-29T11:59:33Z",
+  "commit_sha": "ea06850554ed29156cbabb1c7975c809b4cfef89",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 69.28,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 69.28
+  }
+ },
+ {
+  "timestamp": "2026-10-01T00:14:03Z",
+  "commit_sha": "9faca7c81c736a037949022237051cdd170e84e5",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 69.28,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 69.28
+  }
+ },
+ {
+  "timestamp": "2026-10-18T12:31:07Z",
+  "commit_sha": "d12b397f3611e71906187214d499c005de951290",
+  "commit_message": "Decompile `rdai` `e_sniper_of_goth` (#3751)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 6.859133,
+   "matched_code_percent": 6.859132782566261,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 67.62422099913297,
+   "complete_data_percent": 0.0
+  }
+ }
+]

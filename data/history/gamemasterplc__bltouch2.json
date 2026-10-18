@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-28T00:23:10Z",
+  "commit_sha": "a6d94c55e471107c59aa742dd3c9aee9ef195c85",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.83,
+   "complete_code_percent": 0.75,
+   "fuzzy_match_percent": 2.02
+  }
+ },
+ {
+  "timestamp": "2026-10-07T01:24:01Z",
+  "commit_sha": "4cf2e6cedaae7948b7e69c32ea923fe802aa5984",
+  "commit_message": "DWC Utility Symbols",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 2.2024422,
+   "matched_code_percent": 2.01674218940154,
+   "complete_code_percent": 0.9241058769567163,
+   "matched_data_percent": 1.5520386285169763,
+   "complete_data_percent": 1.5740836216368053
+  }
+ }
+]

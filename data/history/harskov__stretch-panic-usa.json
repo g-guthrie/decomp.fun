@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-09-29T00:08:10Z",
+  "commit_sha": "a28b87467d0539d0952dd7b80d76cfda2e41a913",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.53,
+   "complete_code_percent": 1.53,
+   "fuzzy_match_percent": 2.47
+  }
+ },
+ {
+  "timestamp": "2026-09-30T22:37:26Z",
+  "commit_sha": "a8bf4d79e74f9e39092aa96e2a1acc9003ef3f7e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.94,
+   "complete_code_percent": 1.94,
+   "fuzzy_match_percent": 2.9
+  }
+ },
+ {
+  "timestamp": "2026-10-17T21:50:05Z",
+  "commit_sha": "840f19d03d243b18614d22a54fc6c1a145fa593c",
+  "commit_message": "Update the build tools: tools/lint_c.py",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 4.1555,
+   "matched_code_percent": 2.7824547939197917,
+   "complete_code_percent": 2.7824547939197917,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

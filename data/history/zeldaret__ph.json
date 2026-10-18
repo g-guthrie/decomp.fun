@@ -1,0 +1,158 @@
+[
+ {
+  "timestamp": "2025-03-17T20:40:31Z",
+  "commit_sha": "abc53b54ecb15e06a54634ea67be9369b858e9ec",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.44,
+   "complete_code_percent": 0.11,
+   "fuzzy_match_percent": 0.58
+  }
+ },
+ {
+  "timestamp": "2025-04-20T06:28:26Z",
+  "commit_sha": "dc075c39db89c26073f1421ffe1939e6aff2449a",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.44,
+   "complete_code_percent": 0.11,
+   "fuzzy_match_percent": 0.58
+  }
+ },
+ {
+  "timestamp": "2025-05-26T19:35:20Z",
+  "commit_sha": "59a5cc5da29bd84680ceeaf2c2eeabe9effb6b6d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.83,
+   "complete_code_percent": 0.34,
+   "fuzzy_match_percent": 0.93
+  }
+ },
+ {
+  "timestamp": "2025-06-03T16:20:21Z",
+  "commit_sha": "21aaec6b40f8cb756e5ef4fff5552b980ab58d4e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.93,
+   "complete_code_percent": 0.42,
+   "fuzzy_match_percent": 1.03
+  }
+ },
+ {
+  "timestamp": "2025-07-25T13:59:54Z",
+  "commit_sha": "8ad6359c7d3c7afcbddd7d450b7fa4b9764255b6",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.7,
+   "complete_code_percent": 0.63,
+   "fuzzy_match_percent": 2.2
+  }
+ },
+ {
+  "timestamp": "2025-07-31T19:22:55Z",
+  "commit_sha": "82f54b2f075e7f6612b80edf52b37bb6377e0d49",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.79,
+   "complete_code_percent": 0.63,
+   "fuzzy_match_percent": 2.35
+  }
+ },
+ {
+  "timestamp": "2025-09-21T12:21:31Z",
+  "commit_sha": "5b15874c4d2d7c185c98f2791cf8fa6a9d86a440",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.91,
+   "complete_code_percent": 0.63,
+   "fuzzy_match_percent": 2.64
+  }
+ },
+ {
+  "timestamp": "2025-11-16T16:14:48Z",
+  "commit_sha": "fc691f4c8f76d11d6b47149fefadaca4470ab2a1",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.95,
+   "complete_code_percent": 0.63,
+   "fuzzy_match_percent": 2.81
+  }
+ },
+ {
+  "timestamp": "2025-12-29T19:12:14Z",
+  "commit_sha": "90b0175de6ef7e8aa6573e6dc4b41ef7925efc6b",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.98,
+   "complete_code_percent": 0.67,
+   "fuzzy_match_percent": 2.85
+  }
+ },
+ {
+  "timestamp": "2026-01-30T17:36:20Z",
+  "commit_sha": "98cc0af690719f10bd7b67c1c11d207bfcdbbfe7",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.04,
+   "complete_code_percent": 0.67,
+   "fuzzy_match_percent": 2.91
+  }
+ },
+ {
+  "timestamp": "2026-04-18T08:50:01Z",
+  "commit_sha": "fe6681a298f089c5bbbee077ad9c06dc801df476",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.22,
+   "complete_code_percent": 0.85,
+   "fuzzy_match_percent": 3.09
+  }
+ },
+ {
+  "timestamp": "2026-05-23T15:10:58Z",
+  "commit_sha": "51640eb100522a3986779599f057d72c8cb9e42e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.75,
+   "complete_code_percent": 1.1,
+   "fuzzy_match_percent": 3.67
+  }
+ },
+ {
+  "timestamp": "2026-08-04T17:45:49Z",
+  "commit_sha": "29e3578e388b2ff350388e2cdfe45497c4ebdae2",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.82,
+   "complete_code_percent": 1.16,
+   "fuzzy_match_percent": 3.74
+  }
+ },
+ {
+  "timestamp": "2026-10-09T16:59:14Z",
+  "commit_sha": "f0799bd6038be6858499ec68f0d03cdbbfa53d0b",
+  "commit_message": "Decompile GameModePlay (#169)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 3.8964496,
+   "matched_code_percent": 2.8440197791082618,
+   "complete_code_percent": 1.1680075794885612,
+   "matched_data_percent": 2.372545312396204,
+   "complete_data_percent": 2.2161811371661293
+  }
+ }
+]

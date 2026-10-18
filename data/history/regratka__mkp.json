@@ -1,0 +1,70 @@
+[
+ {
+  "timestamp": "2026-05-19T09:17:14Z",
+  "commit_sha": "407a4be0efc64db802a17023f04d7eaf3e760c87",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 8.25,
+   "complete_code_percent": 1.11,
+   "fuzzy_match_percent": 14.87
+  }
+ },
+ {
+  "timestamp": "2026-06-15T16:45:56Z",
+  "commit_sha": "62bab8f40b8dc2370b20153edddd688f616345d3",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 10.9,
+   "complete_code_percent": 1.59,
+   "fuzzy_match_percent": 20.59
+  }
+ },
+ {
+  "timestamp": "2026-07-27T18:36:36Z",
+  "commit_sha": "1c1c97133ef902733367a9f73c8f3078ee433a96",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 13.0,
+   "complete_code_percent": 3.4,
+   "fuzzy_match_percent": 22.79
+  }
+ },
+ {
+  "timestamp": "2026-08-23T16:50:25Z",
+  "commit_sha": "4180d7ea3f56041a79ab7a41dc07c79dea38c744",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 15.68,
+   "complete_code_percent": 4.98,
+   "fuzzy_match_percent": 26.1
+  }
+ },
+ {
+  "timestamp": "2026-09-20T16:17:37Z",
+  "commit_sha": "7adf17e833818fc57a54fc4b47b7e5c1b8e778c8",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 18.83,
+   "complete_code_percent": 8.01,
+   "fuzzy_match_percent": 28.98
+  }
+ },
+ {
+  "timestamp": "2026-10-18T18:13:29Z",
+  "commit_sha": "0517c3194dcce4c883ba0ebe5974f10347cb9207",
+  "commit_message": "matched mkp/UIButton (#39)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 29.88655,
+   "matched_code_percent": 19.778928902988433,
+   "complete_code_percent": 8.997192115140367,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

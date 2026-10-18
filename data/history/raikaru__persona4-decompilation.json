@@ -1,0 +1,48 @@
+[
+ {
+  "timestamp": "2026-08-21T21:27:06Z",
+  "commit_sha": "33dc70136d0b04e7a384de3b839dc6f72ce39670",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 26.47,
+   "complete_code_percent": 24.72,
+   "fuzzy_match_percent": 26.47
+  }
+ },
+ {
+  "timestamp": "2026-09-29T02:18:34Z",
+  "commit_sha": "a72f5154d8db831270fab5815ea3e8254fbe75c0",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 64.74,
+   "complete_code_percent": 27.77,
+   "fuzzy_match_percent": 64.74
+  }
+ },
+ {
+  "timestamp": "2026-10-01T01:08:57Z",
+  "commit_sha": "01480d7430343d1ce72abc20e336ed3bf7eedb98",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 68.18,
+   "complete_code_percent": 35.1,
+   "fuzzy_match_percent": 68.18
+  }
+ },
+ {
+  "timestamp": "2026-10-17T23:00:42Z",
+  "commit_sha": "ed632e524f46fc6aaad1322a62132cf91f0ee60a",
+  "commit_message": "docs(port): sky2hook reuse permitted by its author (issue #2)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 93.4302346326569,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

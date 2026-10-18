@@ -1,0 +1,114 @@
+[
+ {
+  "timestamp": "2026-02-25T04:31:18Z",
+  "commit_sha": "a27d4f3237ee06bfb77ba7cbf5dddf067598ed23",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.77,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 0.77
+  }
+ },
+ {
+  "timestamp": "2026-03-25T00:53:35Z",
+  "commit_sha": "435a16882c04200cfba760fd763db20077135e8f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 3.61,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 3.63
+  }
+ },
+ {
+  "timestamp": "2026-04-29T05:24:36Z",
+  "commit_sha": "90b59a1e248ecdf342857a4d8957b0680f0f2c41",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 4.76,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 4.76
+  }
+ },
+ {
+  "timestamp": "2026-05-26T07:34:55Z",
+  "commit_sha": "ac9f68c43177996c0d2c656f6c1fe43a23251d65",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 5.78,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 5.78
+  }
+ },
+ {
+  "timestamp": "2026-06-15T17:46:04Z",
+  "commit_sha": "e6ee6ec882d9636f5bf13255848870e4c86547a9",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 6.14,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 6.14
+  }
+ },
+ {
+  "timestamp": "2026-07-30T15:22:36Z",
+  "commit_sha": "2a3731d3e00f616eb0c24b8899fa903e4d973e23",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 7.22,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 7.3
+  }
+ },
+ {
+  "timestamp": "2026-08-24T23:17:58Z",
+  "commit_sha": "727525bcfc3b02c0c6283d4c70f1ad71df9d6783",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 7.21,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 7.3
+  }
+ },
+ {
+  "timestamp": "2026-09-29T06:09:06Z",
+  "commit_sha": "b1a42ee2754b6d7c8446a3c109917174c5b27cc9",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 6.63,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 7.5
+  }
+ },
+ {
+  "timestamp": "2026-09-30T03:02:06Z",
+  "commit_sha": "a1a436a9cdbd2aa1e13d01aad66205c7a5393c6f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 6.63,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 7.5
+  }
+ },
+ {
+  "timestamp": "2026-10-18T20:31:18Z",
+  "commit_sha": "398001b10954f72bff948e07e6d7d8b5011a5c6d",
+  "commit_message": "alessastruct: update `sh2.h`",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 51.494087,
+   "matched_code_percent": 49.47377069601147,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 2.250273131730499,
+   "complete_data_percent": 0.0
+  }
+ }
+]

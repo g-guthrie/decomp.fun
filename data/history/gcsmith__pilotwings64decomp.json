@@ -1,0 +1,70 @@
+[
+ {
+  "timestamp": "2026-02-24T08:27:33Z",
+  "commit_sha": "dd8c5a2f990722252f89d0d4d9edc95ede8241d5",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 26.31,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 26.31
+  }
+ },
+ {
+  "timestamp": "2026-03-24T11:16:17Z",
+  "commit_sha": "d7ed51023f4a9ef37e76fb52c9a671e365df6651",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 64.62,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 64.62
+  }
+ },
+ {
+  "timestamp": "2026-04-29T00:30:58Z",
+  "commit_sha": "3b2485817f9734a6052b6c0fd1c415753c2814df",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-05-27T18:27:36Z",
+  "commit_sha": "e572023b91f5903436570632b85cbf074fd8eb9b",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-09-28T17:36:49Z",
+  "commit_sha": "1a8558f5ceb320cce254d6da0a49a1f2bbc23e21",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-10-15T18:22:59Z",
+  "commit_sha": "cb66cb2a3b093412285d381829c8ab7787660298",
+  "commit_message": "Rename functions and variables used by ball_target (#180)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 99.99588258706858,
+   "complete_data_percent": 0.0
+  }
+ }
+]

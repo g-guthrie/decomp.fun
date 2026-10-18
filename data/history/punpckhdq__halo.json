@@ -1,0 +1,114 @@
+[
+ {
+  "timestamp": "2026-01-23T20:30:53Z",
+  "commit_sha": "10bcbbce16f245e23f5b0fc42ec5e02344f7f909",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.26,
+   "complete_code_percent": 0.5,
+   "fuzzy_match_percent": 2.1
+  }
+ },
+ {
+  "timestamp": "2026-02-17T17:02:17Z",
+  "commit_sha": "7f38d9e94fe755fa8ad6923d02326a4e66fead86",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.25,
+   "complete_code_percent": 0.6,
+   "fuzzy_match_percent": 3.43
+  }
+ },
+ {
+  "timestamp": "2026-03-12T18:17:18Z",
+  "commit_sha": "fe00b030a307f052a417e14fe767f12582fd6c8f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.26,
+   "complete_code_percent": 0.6,
+   "fuzzy_match_percent": 3.45
+  }
+ },
+ {
+  "timestamp": "2026-05-05T17:56:06Z",
+  "commit_sha": "52a0dc4c28069732b25710216e4c4ac0464cddcf",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.26,
+   "complete_code_percent": 0.6,
+   "fuzzy_match_percent": 3.46
+  }
+ },
+ {
+  "timestamp": "2026-06-08T20:55:40Z",
+  "commit_sha": "7b5b1f67f422796208d930522d71170ce9cde627",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.61,
+   "complete_code_percent": 0.83,
+   "fuzzy_match_percent": 3.85
+  }
+ },
+ {
+  "timestamp": "2026-07-30T23:21:42Z",
+  "commit_sha": "ee40e413e9f77c1bb51d61c3a4a40f1c2e224158",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 3.73,
+   "complete_code_percent": 1.08,
+   "fuzzy_match_percent": 6.64
+  }
+ },
+ {
+  "timestamp": "2026-08-18T14:05:55Z",
+  "commit_sha": "5093ac1a167b3443eef9a77facdf5f3ee40fd422",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 4.2,
+   "complete_code_percent": 1.54,
+   "fuzzy_match_percent": 7.13
+  }
+ },
+ {
+  "timestamp": "2026-09-28T23:57:55Z",
+  "commit_sha": "38e3411427e8a98e137a273ad119e58bc7953208",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 5.92,
+   "complete_code_percent": 3.31,
+   "fuzzy_match_percent": 8.86
+  }
+ },
+ {
+  "timestamp": "2026-09-30T23:30:45Z",
+  "commit_sha": "901aee16f4424b6d5921226e03a6570ccb515f06",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 9.15,
+   "complete_code_percent": 6.54,
+   "fuzzy_match_percent": 11.92
+  }
+ },
+ {
+  "timestamp": "2026-10-17T23:31:15Z",
+  "commit_sha": "8d3aedaab8480b58e21fc635ee98de5932d972a5",
+  "commit_message": "rest of hud* files (#108)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 33.423687,
+   "matched_code_percent": 32.09582009956044,
+   "complete_code_percent": 30.803718500586992,
+   "matched_data_percent": 45.142380685325726,
+   "complete_data_percent": 45.081054908720134
+  }
+ }
+]

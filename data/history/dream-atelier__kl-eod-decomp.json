@@ -1,0 +1,92 @@
+[
+ {
+  "timestamp": "2026-03-24T18:11:02Z",
+  "commit_sha": "39877552f97c720598aa1c3d1bdafd172ec2b7e2",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.36,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 1.36
+  }
+ },
+ {
+  "timestamp": "2026-04-03T12:07:12Z",
+  "commit_sha": "fe933e467ae7bd60aa044bad79dcb7b8142083f5",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.9,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 1.9
+  }
+ },
+ {
+  "timestamp": "2026-05-21T02:07:51Z",
+  "commit_sha": "0daab4fbf8ca7b496ed2aad1aed965731b0e9918",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.04,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 2.04
+  }
+ },
+ {
+  "timestamp": "2026-06-12T02:45:12Z",
+  "commit_sha": "50eadc6cd18886f763d9ec5b1e8d4589a3f53952",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 3.15,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 3.15
+  }
+ },
+ {
+  "timestamp": "2026-07-20T22:47:34Z",
+  "commit_sha": "0a3f5a04ff32717856c1f29b5e3a7e795c3db3e6",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 48.45,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 48.45
+  }
+ },
+ {
+  "timestamp": "2026-08-18T11:51:33Z",
+  "commit_sha": "eed890c8d73380d5083a382c31f343ac446cc94d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 51.3,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 51.3
+  }
+ },
+ {
+  "timestamp": "2026-09-05T00:22:23Z",
+  "commit_sha": "7f0f076352ce064ad8b0026837a8e61fe850ff28",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 51.3,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 51.3
+  }
+ },
+ {
+  "timestamp": "2026-10-05T00:47:25Z",
+  "commit_sha": "45e66dd20f55b637656bc86129b9ba3bd49a01d6",
+  "commit_message": "Meet the decomp_settings spec in decomp.yaml (#130)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 0.0,
+   "matched_code_percent": 51.3023571959884,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

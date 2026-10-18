@@ -1,0 +1,48 @@
+[
+ {
+  "timestamp": "2025-11-25T03:27:32Z",
+  "commit_sha": "fafedbc8a5df09a412d52b0f4e0b6b235a9e506a",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 5.74,
+   "complete_code_percent": 3.89,
+   "fuzzy_match_percent": 6.02
+  }
+ },
+ {
+  "timestamp": "2026-05-13T01:43:56Z",
+  "commit_sha": "94585b8a8fd7a2a52f30640ccff316e57880b6c1",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 5.76,
+   "complete_code_percent": 3.95,
+   "fuzzy_match_percent": 6.12
+  }
+ },
+ {
+  "timestamp": "2026-09-30T18:43:15Z",
+  "commit_sha": "4951b22d518c0dcd087ed3b153ea471ed57b2518",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 5.77,
+   "complete_code_percent": 3.95,
+   "fuzzy_match_percent": 6.13
+  }
+ },
+ {
+  "timestamp": "2026-10-16T01:39:58Z",
+  "commit_sha": "8b9b5ee653da28663e498039e52f5d19f929a011",
+  "commit_message": "mkw: Match several KartObjectProxy methods",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 6.129265,
+   "matched_code_percent": 5.776429568388798,
+   "complete_code_percent": 3.9453841505478695,
+   "matched_data_percent": 1.8373171601855156,
+   "complete_data_percent": 1.5718872636460934
+  }
+ }
+]

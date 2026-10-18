@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-10-01T02:25:05Z",
+  "commit_sha": "cc3f6dc2d03f1c1adfea78f37d036d22c9949b08",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 29.02,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 31.49
+  }
+ },
+ {
+  "timestamp": "2026-10-18T20:53:52Z",
+  "commit_sha": "3ea639247b3cb7edfeea087669255c83b617926f",
+  "commit_message": "billInvokeCallback passes the billboard to its callback",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 91.915342,
+   "matched_code_percent": 91.91534244121831,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
+ }
+]

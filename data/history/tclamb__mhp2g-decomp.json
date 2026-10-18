@@ -1,0 +1,70 @@
+[
+ {
+  "timestamp": "2026-03-25T01:16:17Z",
+  "commit_sha": "7c50c7a6f27f7dfef12330cbdc28f9976d60d969",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.41,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 1.41
+  }
+ },
+ {
+  "timestamp": "2026-04-25T02:06:41Z",
+  "commit_sha": "324b6966210562416c589bc3a20bf45be96eb34d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.83,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 1.83
+  }
+ },
+ {
+  "timestamp": "2026-05-13T16:31:30Z",
+  "commit_sha": "c5304e193fb03d87ab4cac70aebb7aff4e8a8977",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.22,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 2.22
+  }
+ },
+ {
+  "timestamp": "2026-08-20T14:57:27Z",
+  "commit_sha": "a8b26b6fc4109b4906bc9dac69eadc5c8d349f03",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.23,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 2.23
+  }
+ },
+ {
+  "timestamp": "2026-09-19T03:21:36Z",
+  "commit_sha": "54a72e472e731a06e726b4a56206a8e049c67315",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.81,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 2.81
+  }
+ },
+ {
+  "timestamp": "2026-10-18T19:59:44Z",
+  "commit_sha": "5a341fdf6b083e9e8ad373ea4e1d4c48affe4b9b",
+  "commit_message": "Nearly finish matching camera.cpp",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 3.1237135,
+   "matched_code_percent": 3.1237135652369385,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 83.67206667785027,
+   "complete_data_percent": 0.0
+  }
+ }
+]

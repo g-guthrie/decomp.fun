@@ -1,0 +1,59 @@
+[
+ {
+  "timestamp": "2026-07-30T21:52:31Z",
+  "commit_sha": "9b25874f387805eae8b2990798fe1618eaec5c89",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 50.63,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 63.81
+  }
+ },
+ {
+  "timestamp": "2026-08-24T22:55:35Z",
+  "commit_sha": "0e75b97a7f0e6b9223f92c3cd88509bb8615bddd",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 63.52,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 78.31
+  }
+ },
+ {
+  "timestamp": "2026-09-29T00:02:14Z",
+  "commit_sha": "37f69f7b79e10ef03565b41bfd1d4e0a67017efa",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 80.18,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 96.41
+  }
+ },
+ {
+  "timestamp": "2026-09-30T22:54:18Z",
+  "commit_sha": "fde7ef7c79e46bc5226b645b2718ef0635aaad5c",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 82.21,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 98.7
+  }
+ },
+ {
+  "timestamp": "2026-10-18T16:13:10Z",
+  "commit_sha": "3d087879f2c778b32792686e5eb8e8af6f4515a3",
+  "commit_message": "Remove gitkeep from elf folder that's no longer needed",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 99.82494,
+   "matched_code_percent": 85.95285202407807,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 99.90077445733041,
+   "complete_data_percent": 0.0
+  }
+ }
+]

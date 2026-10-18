@@ -1,0 +1,48 @@
+[
+ {
+  "timestamp": "2026-08-24T19:10:19Z",
+  "commit_sha": "5ca4b4915f8f9029257732d7792e69b6972dd006",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 3.88,
+   "complete_code_percent": 3.03,
+   "fuzzy_match_percent": 4.66
+  }
+ },
+ {
+  "timestamp": "2026-09-29T12:00:40Z",
+  "commit_sha": "a7ac953323862e75e6fb15760fa9fd693b458513",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 87.53,
+   "complete_code_percent": 64.03,
+   "fuzzy_match_percent": 95.17
+  }
+ },
+ {
+  "timestamp": "2026-09-30T22:12:55Z",
+  "commit_sha": "b1ca2d72e134cea818d1502d7d82d7b8022432f5",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 89.98,
+   "complete_code_percent": 72.81,
+   "fuzzy_match_percent": 95.41
+  }
+ },
+ {
+  "timestamp": "2026-10-18T20:30:09Z",
+  "commit_sha": "ea8a179dafae8a81bf929032a89cb92f109d592d",
+  "commit_message": "feat: match Korean SRAM and RTC",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.000046,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.32823728794641,
+   "complete_data_percent": 100.0
+  }
+ }
+]

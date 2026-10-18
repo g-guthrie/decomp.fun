@@ -1,0 +1,70 @@
+[
+ {
+  "timestamp": "2026-05-23T07:59:04Z",
+  "commit_sha": "a6a8abb595cc975dee6f1b76cc581eb5d4395785",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 15.74,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 15.74
+  }
+ },
+ {
+  "timestamp": "2026-06-13T01:13:52Z",
+  "commit_sha": "345789bad463d55d6429620356c52d3f53877b7f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 22.96,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 22.96
+  }
+ },
+ {
+  "timestamp": "2026-07-29T01:33:49Z",
+  "commit_sha": "276e56ed975f55d1b4e3b4451e9b79a4c4d5f904",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 44.7,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 44.7
+  }
+ },
+ {
+  "timestamp": "2026-08-14T23:41:50Z",
+  "commit_sha": "6adc7fcd0c6561918b23290078dd3054b453253b",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 53.52,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 53.52
+  }
+ },
+ {
+  "timestamp": "2026-09-19T13:51:27Z",
+  "commit_sha": "d57c1e8f37863c61597ecba2d956ef04318d9b31",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 53.52,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 53.52
+  }
+ },
+ {
+  "timestamp": "2026-10-09T23:56:00Z",
+  "commit_sha": "ccecff346f31f02aaa460b22705a6f18d38f4d56",
+  "commit_message": "migrate main segment data, rename some files, and various cleanup (#70)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 53.520626,
+   "matched_code_percent": 53.52062674496967,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

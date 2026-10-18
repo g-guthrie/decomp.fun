@@ -1,0 +1,92 @@
+[
+ {
+  "timestamp": "2026-04-29T05:26:48Z",
+  "commit_sha": "f07a6620290bf32a2174784a65cf9ea300d202e3",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 4.71,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 4.9
+  }
+ },
+ {
+  "timestamp": "2026-05-26T03:04:46Z",
+  "commit_sha": "8748bc48d7bd48fac400fe8bb4c01f341fe59e20",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 12.1,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 12.74
+  }
+ },
+ {
+  "timestamp": "2026-06-15T17:48:25Z",
+  "commit_sha": "0775e831d6bf53c7c52f813b69bb58caa19b7a73",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 20.23,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 20.85
+  }
+ },
+ {
+  "timestamp": "2026-07-30T15:25:09Z",
+  "commit_sha": "b98f720459ce6334fdb848e5c647d7ff3bb681f4",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 36.72,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 38.29
+  }
+ },
+ {
+  "timestamp": "2026-08-24T23:20:10Z",
+  "commit_sha": "5ec2d80fe63fd5fe43286712d70dba267aedd385",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 40.76,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 42.62
+  }
+ },
+ {
+  "timestamp": "2026-09-29T06:12:16Z",
+  "commit_sha": "afd4dfd9c1e66f55c2439feecda8afd909d8ae0c",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 44.55,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 46.72
+  }
+ },
+ {
+  "timestamp": "2026-09-30T03:05:08Z",
+  "commit_sha": "166544cd6387be15f3fb7c5b6087d67fc742d55c",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 44.81,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 46.98
+  }
+ },
+ {
+  "timestamp": "2026-10-18T17:51:26Z",
+  "commit_sha": "462ab6a34ec0ca02b2a600e63b840b0dc9f3b333",
+  "commit_message": "update progress",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 51.494087,
+   "matched_code_percent": 49.47377069601147,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 2.250273131730499,
+   "complete_data_percent": 0.0
+  }
+ }
+]

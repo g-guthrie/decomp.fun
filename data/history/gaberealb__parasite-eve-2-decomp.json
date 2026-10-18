@@ -1,0 +1,70 @@
+[
+ {
+  "timestamp": "2026-05-24T22:34:37Z",
+  "commit_sha": "10e5f5c92f1746d97aeea7f38796c07fcbbe7f56",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 3.66,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 4.19
+  }
+ },
+ {
+  "timestamp": "2026-06-06T08:46:40Z",
+  "commit_sha": "05112f251a40464c87c32ea26b0e2d26c05f65cd",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 3.82,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 4.36
+  }
+ },
+ {
+  "timestamp": "2026-08-22T07:59:56Z",
+  "commit_sha": "673ee53d78f7beff636b4308d9caff59adf54430",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 61.21,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 61.21
+  }
+ },
+ {
+  "timestamp": "2026-09-28T22:00:10Z",
+  "commit_sha": "ef9a39235a2365c10a8042d1c9fb4597af2b9039",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-09-30T22:36:17Z",
+  "commit_sha": "583dc5c3533aa55a707a6a70e3763e38c545ca17",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-10-14T00:16:55Z",
+  "commit_sha": "1c855aefa9cf7ba276b9e0ed13c3a5b5b0348676",
+  "commit_message": "README: the decompilation is complete - status as the open points, Windows prerequisites, current flags, tools and documents",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.00001,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
+ }
+]

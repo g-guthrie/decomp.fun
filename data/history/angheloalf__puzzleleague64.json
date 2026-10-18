@@ -1,0 +1,103 @@
+[
+ {
+  "timestamp": "2025-05-28T18:27:29Z",
+  "commit_sha": "6f85ec611e476014287029d3be4ae8e84e2c1c79",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 27.89,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 27.89
+  }
+ },
+ {
+  "timestamp": "2025-06-16T15:24:34Z",
+  "commit_sha": "52c085deb852dbd4083bd3192cfa0ed025216b46",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 35.09,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 35.09
+  }
+ },
+ {
+  "timestamp": "2025-07-05T21:36:18Z",
+  "commit_sha": "e6f7c1a7d112bcd740b1e5bf8b2fa2722a460337",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 43.35,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 43.35
+  }
+ },
+ {
+  "timestamp": "2025-09-08T22:13:47Z",
+  "commit_sha": "8f72d7cb35fdcdcfb46bdc9e564a7de3d6856900",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 43.46,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 43.46
+  }
+ },
+ {
+  "timestamp": "2026-04-17T01:23:24Z",
+  "commit_sha": "0257ab45c6832bf198f8550bc54bc6be2347efa0",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 43.46,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 43.46
+  }
+ },
+ {
+  "timestamp": "2026-08-24T03:17:36Z",
+  "commit_sha": "f88246433188c4149f98598555b525fbc79299aa",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 44.95,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 44.95
+  }
+ },
+ {
+  "timestamp": "2026-09-29T00:02:50Z",
+  "commit_sha": "29ead41d0874869ccd1b859da8dd5302f0297db3",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 53.73,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 53.73
+  }
+ },
+ {
+  "timestamp": "2026-10-01T01:58:31Z",
+  "commit_sha": "2ec7696a730fa3a7a1cacb06f0f7e66c9f3dad3e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 54.23,
+   "complete_code_percent": 0.0,
+   "fuzzy_match_percent": 54.23
+  }
+ },
+ {
+  "timestamp": "2026-10-13T11:27:13Z",
+  "commit_sha": "7cc4b3cba3d5a9c0639e0981d2baad72943aaa86",
+  "commit_message": "Match Draw2DMT (#17)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 57.183064,
+   "matched_code_percent": 57.18306491925844,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 65.58237321263245,
+   "complete_data_percent": 0.0
+  }
+ }
+]

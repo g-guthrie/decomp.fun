@@ -1,0 +1,92 @@
+[
+ {
+  "timestamp": "2026-04-29T11:00:43Z",
+  "commit_sha": "03036221c1dda309c5cbdb53acd373cbb12f1829",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 8.92,
+   "complete_code_percent": 7.18,
+   "fuzzy_match_percent": 11.06
+  }
+ },
+ {
+  "timestamp": "2026-05-27T22:18:26Z",
+  "commit_sha": "97871284860f75e022791b029b22dd045f55db9e",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 18.7,
+   "complete_code_percent": 8.45,
+   "fuzzy_match_percent": 37.54
+  }
+ },
+ {
+  "timestamp": "2026-06-15T22:47:21Z",
+  "commit_sha": "dfca356ddb38a6a8b584b67daeca0c10653b8213",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 46.72,
+   "complete_code_percent": 10.18,
+   "fuzzy_match_percent": 97.09
+  }
+ },
+ {
+  "timestamp": "2026-07-31T00:00:04Z",
+  "commit_sha": "29bb467f7feb82490c094937da66fafc7895bdc2",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 86.24,
+   "complete_code_percent": 50.07,
+   "fuzzy_match_percent": 99.8
+  }
+ },
+ {
+  "timestamp": "2026-08-24T03:17:42Z",
+  "commit_sha": "419429fcf7219aa433adaa1cbca3c74b32f75aa1",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 87.81,
+   "complete_code_percent": 61.37,
+   "fuzzy_match_percent": 99.81
+  }
+ },
+ {
+  "timestamp": "2026-09-29T05:09:02Z",
+  "commit_sha": "6916c05b7964e9e88b2b564ff7b132919d36a9e2",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-09-30T00:00:05Z",
+  "commit_sha": "13491b1880c8326f4acba4ca35d7e891ae78a806",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "fuzzy_match_percent": 100.0
+  }
+ },
+ {
+  "timestamp": "2026-10-07T00:00:05Z",
+  "commit_sha": "9b4063e5c363fca5173a8ef565532287dc1396d0",
+  "commit_message": "Integrate staging",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.99834683418747,
+   "complete_data_percent": 100.0
+  }
+ }
+]

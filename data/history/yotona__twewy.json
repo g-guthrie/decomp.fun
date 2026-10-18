@@ -1,0 +1,191 @@
+[
+ {
+  "timestamp": "2025-05-28T05:44:04Z",
+  "commit_sha": "56511f8c886af37b83a5faadbdcd06b0b587f14d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.53,
+   "complete_code_percent": 0.04,
+   "fuzzy_match_percent": 0.71
+  }
+ },
+ {
+  "timestamp": "2025-07-23T06:39:57Z",
+  "commit_sha": "c35bb64f6d9d71a4b292830e3dc40b8b34199655",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 0.74,
+   "complete_code_percent": 0.04,
+   "fuzzy_match_percent": 0.92
+  }
+ },
+ {
+  "timestamp": "2025-09-23T22:53:24Z",
+  "commit_sha": "a196dcb4a733e4408975b72bd1405244f644c010",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 1.75,
+   "complete_code_percent": 0.46,
+   "fuzzy_match_percent": 2.48
+  }
+ },
+ {
+  "timestamp": "2025-10-25T18:47:55Z",
+  "commit_sha": "0dfb811dd0ad78c855821beab9f9522d443e32d0",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 2.32,
+   "complete_code_percent": 0.86,
+   "fuzzy_match_percent": 2.98
+  }
+ },
+ {
+  "timestamp": "2025-11-29T22:49:39Z",
+  "commit_sha": "270b96cc6f8c4920a7c73ee9e14bec96b1aac42d",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 3.49,
+   "complete_code_percent": 1.5,
+   "fuzzy_match_percent": 4.66
+  }
+ },
+ {
+  "timestamp": "2025-12-19T19:59:25Z",
+  "commit_sha": "c534e0b135533c908c53ce12cc007f8961f48d39",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 3.64,
+   "complete_code_percent": 1.58,
+   "fuzzy_match_percent": 5.08
+  }
+ },
+ {
+  "timestamp": "2026-01-21T21:38:37Z",
+  "commit_sha": "d5e7ab2d08783dbc53dd60bbbadce0e3f020e455",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 4.14,
+   "complete_code_percent": 1.58,
+   "fuzzy_match_percent": 5.96
+  }
+ },
+ {
+  "timestamp": "2026-02-24T21:15:44Z",
+  "commit_sha": "5a334d5f04455eddb37c5c4bb4f810faef24b06a",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 5.72,
+   "complete_code_percent": 1.66,
+   "fuzzy_match_percent": 10.75
+  }
+ },
+ {
+  "timestamp": "2026-03-21T19:39:11Z",
+  "commit_sha": "5f2289dc9e31daf98c1e779061ba28a1f9cfa607",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 6.64,
+   "complete_code_percent": 1.69,
+   "fuzzy_match_percent": 11.81
+  }
+ },
+ {
+  "timestamp": "2026-04-26T22:33:04Z",
+  "commit_sha": "a72b841168828c5dba448fdefc1cf210a0819022",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 8.51,
+   "complete_code_percent": 2.25,
+   "fuzzy_match_percent": 17.32
+  }
+ },
+ {
+  "timestamp": "2026-05-21T23:44:00Z",
+  "commit_sha": "ee8a6c875389dfca084312db751adbed10151b6f",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 9.64,
+   "complete_code_percent": 2.31,
+   "fuzzy_match_percent": 23.98
+  }
+ },
+ {
+  "timestamp": "2026-06-08T05:19:41Z",
+  "commit_sha": "0415756b334c531e7c6030707065359fb2d8c9bd",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 10.17,
+   "complete_code_percent": 2.93,
+   "fuzzy_match_percent": 24.07
+  }
+ },
+ {
+  "timestamp": "2026-07-29T06:36:34Z",
+  "commit_sha": "c9657f63564b84792f68ab2cc93d6731983f7127",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 18.51,
+   "complete_code_percent": 10.76,
+   "fuzzy_match_percent": 27.59
+  }
+ },
+ {
+  "timestamp": "2026-08-07T22:18:21Z",
+  "commit_sha": "97bae0f21c5082f7b8ba53ebe33ce6ce28eb11a0",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 18.75,
+   "complete_code_percent": 10.76,
+   "fuzzy_match_percent": 27.87
+  }
+ },
+ {
+  "timestamp": "2026-09-28T21:45:04Z",
+  "commit_sha": "c6af60c7048b13a23b92fe1b677e0267aa59c6a1",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 24.52,
+   "complete_code_percent": 13.31,
+   "fuzzy_match_percent": 34.24
+  }
+ },
+ {
+  "timestamp": "2026-09-30T19:01:11Z",
+  "commit_sha": "928e7b7fd822c1200c8b6cf72ffc0b3e35d37abc",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 30.82,
+   "complete_code_percent": 17.0,
+   "fuzzy_match_percent": 41.6
+  }
+ },
+ {
+  "timestamp": "2026-10-12T18:04:34Z",
+  "commit_sha": "d6041bf476b12eaa83035d7cfc3063e366f486f8",
+  "commit_message": "Decompile Otosu, cleanup OtosuMenu (#27)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 28.57771,
+   "matched_code_percent": 20.893186173422894,
+   "complete_code_percent": 7.334298833145122,
+   "matched_data_percent": 4.438615197350418,
+   "complete_data_percent": 1.7610407093229161
+  }
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "timestamp": "2026-09-03T10:29:35Z",
+  "commit_sha": "1050a327d0a009aad70549debc99788a8900a882",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 97.61,
+   "complete_code_percent": 64.3,
+   "fuzzy_match_percent": 97.61
+  }
+ },
+ {
+  "timestamp": "2026-10-12T19:40:44Z",
+  "commit_sha": "befe4cb84cfa0831605b7d993b6aeb04772e9c54",
+  "commit_message": "Update README.md",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 97.61398450171203,
+   "matched_code_percent": 97.61398450171203,
+   "complete_code_percent": 64.29915300054064,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-09-15T04:45:06Z",
+  "commit_sha": "c476fa0a204668fbdea553b9bb11c423ea08bbe8",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 6.52,
+   "complete_code_percent": 6.52,
+   "fuzzy_match_percent": 6.52
+  }
+ },
+ {
+  "timestamp": "2026-10-01T01:49:50Z",
+  "commit_sha": "ccca995ccf2ef4e42649b44af9c092e3ff2c3e99",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 4.57,
+   "complete_code_percent": 4.57,
+   "fuzzy_match_percent": 4.57
+  }
+ },
+ {
+  "timestamp": "2026-10-08T15:29:07Z",
+  "commit_sha": "3056013eefff023e6ec3746297ea400960329237",
+  "commit_message": "tools: add isolated Ghidra bundle trial path",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 27.82087736730974,
+   "matched_code_percent": 27.820877367309745,
+   "complete_code_percent": 27.820877367309745,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
+ }
+]

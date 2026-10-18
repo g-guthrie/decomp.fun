@@ -1,0 +1,37 @@
+[
+ {
+  "timestamp": "2026-09-27T23:47:08Z",
+  "commit_sha": "dfc7c3dafcf8907d76a66886a0f1cc81a1ea4489",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 17.15,
+   "complete_code_percent": 7.79,
+   "fuzzy_match_percent": 17.43
+  }
+ },
+ {
+  "timestamp": "2026-09-30T00:37:31Z",
+  "commit_sha": "d64fd6a4ae86844da832ece8c0f4033f879f5a00",
+  "commit_message": "",
+  "source": "archive",
+  "measures": {
+   "matched_code_percent": 18.0,
+   "complete_code_percent": 7.92,
+   "fuzzy_match_percent": 18.28
+  }
+ },
+ {
+  "timestamp": "2026-10-18T09:51:47Z",
+  "commit_sha": "6251af62c288950f82f6bbef0b29eb13669de1ee",
+  "commit_message": "Merge pull request #147 from DevOldSchool/codex/deferred-game-matches-oct18",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 28.191652,
+   "matched_code_percent": 27.836896481724843,
+   "complete_code_percent": 7.365442624585546,
+   "matched_data_percent": 96.79271563466823,
+   "complete_data_percent": 96.79246993635431
+  }
+ }
+]
