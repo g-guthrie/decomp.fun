@@ -13,7 +13,7 @@
   },
   "vars": {
     // Public OAuth client ID from https://github.com/settings/developers (not a secret).
-    "GITHUB_CLIENT_ID": "SET_ME",
+    "GITHUB_CLIENT_ID": "Ov23liysnLZ25ojEYyqx",
     "SITE_REPO": "g-guthrie/decomp.fun"
   },
   // Secrets (npx wrangler secret put NAME): GITHUB_CLIENT_SECRET, SESSION_SECRET, GITHUB_DISPATCH_TOKEN
