@@ -331,6 +331,8 @@ def fetch_project(p):
         "archived": info.get("archived", False),
         "stars": info.get("stargazers_count", 0),
         "html_url": info["html_url"],
+        "fork": info.get("fork", False),
+        "parent": (info.get("parent") or {}).get("full_name"),
     }
     versions = []
     kind = src.get("type", "auto")
@@ -363,7 +365,7 @@ def fetch_project(p):
         versions = previous["versions"]  # keep last good data
     record = {"meta": meta, "versions": versions, "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
     out_path.write_text(json.dumps(record, separators=(",", ":")))
-    if versions:
+    if versions and not p.get("opt_in"):  # submissions get history once accepted
         append_history(pid, versions[0])
     return pid, len(versions)
 
@@ -393,7 +395,22 @@ def append_history(pid, v):
     path.write_text(json.dumps(hist, indent=1))
 
 
+def load_report(pid):
+    path = REPORTS / f"{pid}.json"
+    return json.loads(path.read_text()) if path.exists() else {}
+
+
 def all_projects():
+    """Inherited catalog, hand-configured entries, and accepted submissions."""
+    by_repo = base_projects()
+    subs = DATA / "submissions.json"
+    for key, s in (json.loads(subs.read_text()) if subs.exists() else {}).items():
+        if s.get("status") == "listed" and s.get("project") and key not in by_repo:
+            by_repo[key] = s["project"]
+    return list(by_repo.values())
+
+
+def base_projects():
     catalog = json.loads((DATA / "catalog.json").read_text()) if (DATA / "catalog.json").exists() else []
     ours = json.loads((DATA / "projects.json").read_text())
     by_repo = {f"{p['owner']}/{p['repo']}".lower(): p for p in catalog}
@@ -403,7 +420,7 @@ def all_projects():
         merged = {**base, **o}
         merged["id"] = base.get("id") or o["id"]
         by_repo[key] = merged
-    return list(by_repo.values())
+    return by_repo
 
 
 def main():

@@ -1,0 +1,1196 @@
+{
+ "gba:beyblade-v-force-ultimate-blader-jam": {
+  "leader": "marijnvdwerf/gba-beyblade-vforce",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gba:crash-bandicoot-2-n-tranced": {
+  "leader": "almamu/crashbandicootxs-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gba:dragon-ball-z-the-legacy-of-goku-ii": {
+  "leader": "siruiusamory-cmyk/buusfury-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gba:fire-emblem": {
+  "leader": "mokhaleee/fireemblem7j",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gba:fire-emblem-the-sacred-stones": {
+  "leader": "laqieer/fireemblem8u",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gba:frogger-s-adventures-temple-of-the-frog": {
+  "leader": "jrickey/frog-adv-temple-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gba:golden-sun": {
+  "leader": "coaltergeist/goldensun-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gba:kingdom-hearts-chain-of-memories": {
+  "leader": "pheenoh/khcom",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gba:kirby-nightmare-in-dream-land": {
+  "leader": "overjt/knidl",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gba:klonoa-empire-of-dreams": {
+  "leader": "testyourmine/kleod",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gba:sonic-battle": {
+  "leader": "cypressru/sonicbattledecomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gba:warioware-inc-mega-microgame": {
+  "leader": "shaffyswitcher/wariowareinc",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:animal-crossing": {
+  "leader": "acreteam/ac-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:crash-bandicoot-the-wrath-of-cortex": {
+  "leader": "denzi-gh/crashwoc-decomp-gc",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:crash-tag-team-racing": {
+  "leader": "bluisblu/cttr",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:digimon-world-4": {
+  "leader": "ivanno4317/dw4-gc",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:disney-s-piglet-s-big-game": {
+  "leader": "tgsm/pbg",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:doubutsu-no-mori-e": {
+  "leader": "acreteam/afe-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:eternal-darkness-sanity-s-requiem": {
+  "leader": "pattytrish/unending-occlusion",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:f-zero-gx": {
+  "leader": "rayanht/fzgx",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:final-fantasy-crystal-chronicles": {
+  "leader": "zcanann/ffcc-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:gauntlet-dark-legacy": {
+  "leader": "sabishii-bit/gauntlet-dark-legacy-decompilation",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:kirby-air-ride": {
+  "leader": "wowjinxy/kar",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:luigi-s-mansion": {
+  "leader": "theplayerrolo/lm-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:mario-party-4": {
+  "leader": "mariopartyrd/marioparty4",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:mario-party-5": {
+  "leader": "mariopartyrd/marioparty5",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:mario-superstar-baseball": {
+  "leader": "roeming/mssb-dtk",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:metroid-prime": {
+  "leader": "primedecomp/prime",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:mortal-kombat-deception": {
+  "leader": "shulkmaster/mk-deception",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:mvp-baseball-2005": {
+  "leader": "mitsevox/mvp2005",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:nickelodeon-spongebob-squarepants-battle-for-bikini-bottom": {
+  "leader": "zcanann/bfbb",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:nickelodeon-the-spongebob-squarepants-movie": {
+  "leader": "bfbbdecomp/tssm",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:nintendo-puzzle-collection": {
+  "leader": "newgbaxl/drmario64-gc",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:paper-mario-the-thousand-year-door": {
+  "leader": "doldecomp/ttyd",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:pikmin": {
+  "leader": "projectpiki/pikmin",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:pikmin-2": {
+  "leader": "projectpiki/pikmin2",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:pokemon-colosseum": {
+  "leader": "dougchansan/pkmn-colosseum",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:pokemon-xd-gale-of-darkness": {
+  "leader": "teamorre/xd-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:sonic-adventure-2-battle": {
+  "leader": "roeming/sa2b",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:sonic-heroes": {
+  "leader": "jovinull/sonicheroes",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:star-fox-adventures": {
+  "leader": "zcanann/sfa-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:summoner-a-goddess-reborn": {
+  "leader": "charlese2/sgr",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:super-mario-strikers": {
+  "leader": "yannicksuter/smstrikers-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:super-mario-sunshine": {
+  "leader": "doldecomp/sms",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:super-smash-bros-melee": {
+  "leader": "doldecomp/melee",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:the-legend-of-zelda-the-wind-waker": {
+  "leader": "zeldaret/tww",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:the-legend-of-zelda-twilight-princess": {
+  "leader": "zeldaret/tp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:the-sims-2": {
+  "leader": "natebag/sims2decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:tiger-woods-pga-tour-2004": {
+  "leader": "mitsevox/tw2004",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:ty-the-tasmanian-tiger": {
+  "leader": "1superchip/ty-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:1080-snowboarding": {
+  "leader": "bigyoshi51/1080-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:battletanx": {
+  "leader": "melalawi/battletanx-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:beetle-adventure-racing": {
+  "leader": "synamaxmusic/bar-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:chameleon-twist": {
+  "leader": "chameleontwistret/chameleontwistv1.0-jp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:conker-s-bad-fur-day": {
+  "leader": "devoldschool/conkers-bfd-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:f-zero-x": {
+  "leader": "inspectredc/fzerox",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:jet-force-gemini": {
+  "leader": "ryan-myers/jet-force-gemini",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:mischief-makers": {
+  "leader": "drahsid/mischief-makers",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:paperboy": {
+  "leader": "marijnvdwerf/paperboy-n64",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:pilotwings-64": {
+  "leader": "gcsmith/pilotwings64decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:pokemon-puzzle-league": {
+  "leader": "angheloalf/puzzleleague64",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:pokemon-snap": {
+  "leader": "ethteck/pokemonsnap",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:snowboard-kids": {
+  "leader": "cdlewis/snowboardkids-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:snowboard-kids-2": {
+  "leader": "cdlewis/snowboardkids2-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:super-smash-bros": {
+  "leader": "vetritheretri/ssb-decomp-re",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:turok-rage-wars": {
+  "leader": "melalawi/ragewars-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:wave-race-64-kawasaki-jet-ski": {
+  "leader": "llonsit/wave-race-64",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:wonder-project-j2-koruro-no-mori-no-jozet": {
+  "leader": "llonsit-glitch/wonder",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "naomi:marvel-vs-capcom-2-new-age-of-heroes": {
+  "leader": "g-guthrie/mvc2-naomi-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "nds:bomberman-land-touch-2": {
+  "leader": "gamemasterplc/bltouch2",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "nds:castlevania-order-of-ecclesia": {
+  "leader": "lagolunatic/ooe",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "nds:dragon-quest-iv-chapters-of-the-chosen": {
+  "leader": "goldielegenie/dqiv-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "nds:fire-emblem-shadow-dragon": {
+  "leader": "eebit/fe11-us",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "nds:kingdom-hearts-358-2-days": {
+  "leader": "yokimitsuro/khdays-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "nds:kingdom-hearts-re-coded": {
+  "leader": "yokimitsuro/khrecoded-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "nds:new-super-mario-bros": {
+  "leader": "nsmb-decomp/nsmb",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "nds:rhythm-heaven": {
+  "leader": "patataofcourse/rhgold",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "nds:the-legend-of-zelda-phantom-hourglass": {
+  "leader": "zeldaret/ph",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "nds:the-legend-of-zelda-spirit-tracks": {
+  "leader": "zeldaret/st",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "nds:the-world-ends-with-you": {
+  "leader": "yotona/twewy",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:crash-bandicoot-the-wrath-of-cortex": {
+  "leader": "denzi-gh/crashwoc-decomp-ps2",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:dog-s-life": {
+  "leader": "iwillcraft-m0d/dogcomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:fatal-frame": {
+  "leader": "mikompilation/himuro",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:god-hand": {
+  "leader": "lucaspicoli/god-hand-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:kuon": {
+  "leader": "weirdbeardgame/mulberry",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:marvel-vs-capcom-2-new-age-of-heroes": {
+  "leader": "g-guthrie/mvc2-ps2-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:monster-hunter": {
+  "leader": "2tie/mh1j",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:ratchet-clank": {
+  "leader": "lynder063/rac1-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:ratchet-clank-up-your-arsenal": {
+  "leader": "vetusmagnus/ratchet-uya-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:resident-evil-code-veronica-x": {
+  "leader": "ashfordfamily/recvx-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:shaun-palmer-s-pro-snowboarder": {
+  "leader": "daniel-mccarthy/spps",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:shin-megami-tensei-digital-devil-saga-2": {
+  "leader": "megami-decomps/dds-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:shin-megami-tensei-persona-4": {
+  "leader": "raikaru/persona4-decompilation",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:silent-hill-2": {
+  "leader": "dreamingmoths/mirror-of-alessa",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:silent-hill-3": {
+  "leader": "dreamingmoths/memory-of-alessa",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:sly-cooper-and-the-thievius-raccoonus": {
+  "leader": "theonlyzac/sly1",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:sonic-riders-zero-gravity": {
+  "leader": "kidwizardoftheweb/sr2",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:stretch-panic": {
+  "leader": "harskov/stretch-panic-usa",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps2:xenosaga-episode-i-der-wille-zur-macht": {
+  "leader": "opokxeno/xsg-i-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:chrono-cross": {
+  "leader": "jdperos/chrono-cross-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:digimon-world": {
+  "leader": "jype0/dw_decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:digimon-world-2": {
+  "leader": "wyrelade/digimon-world-2-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:final-fantasy-viii": {
+  "leader": "roengstrom/ff8-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:legacy-of-kain-soul-reaver": {
+  "leader": "fmil95/soul-re",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:legend-of-mana": {
+  "leader": "celophi/lom-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:lsd-dream-emulator": {
+  "leader": "brian-oblivion/lsddecomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:mega-man-x4": {
+  "leader": "sozud/mmx4",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:music-inspired-by-wild-9": {
+  "leader": "plinkr/wild9-decompilation",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:parasite-eve": {
+  "leader": "khasinski/parasite-eve-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:parasite-eve-ii": {
+  "leader": "gaberealb/parasite-eve-2-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:rage-racer": {
+  "leader": "khasinski/rage-racer-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:rittai-ninja-katsugeki-tenchu-shinobi-gaisen": {
+  "leader": "fuuzetsu/tenchu-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:serial-experiments-lain": {
+  "leader": "y0oshi/lain-psx-decompiled",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:silent-hill": {
+  "leader": "shdecompilations/silent-hill-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:tomba": {
+  "leader": "hansbonini/psx_tomba",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:vagrant-story": {
+  "leader": "ser-pounce/rood-reverse",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:xenogears": {
+  "leader": "ladysilverberg/xenogears-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "psp:monster-hunter-portable-2nd-g": {
+  "leader": "tclamb/mhp2g-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:aaaaaaaaaaway/chulip-decomp": {
+  "leader": "aaaaaaaaaaway/chulip-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:aaaaaaaaaaway/kaze-no-notam-decomp": {
+  "leader": "aaaaaaaaaaway/kaze-no-notam-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:adubbz/dcdecomp": {
+  "leader": "adubbz/dcdecomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:alebello7276/xkrnl-decomp": {
+  "leader": "alebello7276/xkrnl-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:angheloalf/drmario64": {
+  "leader": "angheloalf/drmario64",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:banteg/crimson": {
+  "leader": "banteg/crimson",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:banteg/harvest": {
+  "leader": "banteg/harvest",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:banteg/snail": {
+  "leader": "banteg/snail",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:bigyoshi51/glover-decomp": {
+  "leader": "bigyoshi51/glover-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:bluisblu/pvz": {
+  "leader": "bluisblu/pvz",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:caesar0007/nfshs-psx-decomp": {
+  "leader": "caesar0007/nfshs-psx-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:chimpsatsea/reach": {
+  "leader": "chimpsatsea/reach",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:daanhenke/persona-psx": {
+  "leader": "daanhenke/persona-psx",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:dbalatoni13/nfsmw": {
+  "leader": "dbalatoni13/nfsmw",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:doldecomp/mkdd": {
+  "leader": "doldecomp/mkdd",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:dothacktranslate/okamiden-decomp": {
+  "leader": "dothacktranslate/okamiden-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:emoluvjd2/oregontrail-win32-decomp": {
+  "leader": "emoluvjd2/oregontrail-win32-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:emoluvjd2/thps2-demo-decomp": {
+  "leader": "emoluvjd2/thps2-demo-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:euclidvsgauss/hazardrevenge": {
+  "leader": "euclidvsgauss/hazardrevenge",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:gradengnostic/pokemoon": {
+  "leader": "gradengnostic/pokemoon",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:granimated/hagi": {
+  "leader": "granimated/hagi",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:granimated/minecraftlce": {
+  "leader": "granimated/minecraftlce",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:guestdreemurr/forecast": {
+  "leader": "guestdreemurr/forecast",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:haydntrigg/freelancer": {
+  "leader": "haydntrigg/freelancer",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:haydntrigg/homeworld2classic": {
+  "leader": "haydntrigg/homeworld2classic",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:inspectredc/fzerox-expansion-kit": {
+  "leader": "inspectredc/fzerox-expansion-kit",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:jeanxpereira/crystalosd": {
+  "leader": "jeanxpereira/crystalosd",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:koopthekoopa/wii-ipl": {
+  "leader": "koopthekoopa/wii-ipl",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:marijnvdwerf/legoland": {
+  "leader": "marijnvdwerf/legoland",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:matbourgon/gex64decomp": {
+  "leader": "matbourgon/gex64decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:monsterdruide1/odysseydecomp": {
+  "leader": "monsterdruide1/odysseydecomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:nintendocustom/lego-city-undercover-decompilation": {
+  "leader": "nintendocustom/lego-city-undercover-decompilation",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:openblack/bw1-decomp": {
+  "leader": "openblack/bw1-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:pakompom/spacerangers1_decomp": {
+  "leader": "pakompom/spacerangers1_decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:pakompom/spacerangershd_decomp": {
+  "leader": "pakompom/spacerangershd_decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:parappadev/parappa2": {
+  "leader": "parappadev/parappa2",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:punpckhdq/halo": {
+  "leader": "punpckhdq/halo",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:rbxrootx/missionfleet": {
+  "leader": "rbxrootx/missionfleet",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:regratka/mkp": {
+  "leader": "regratka/mkp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:reyfxck/snesstation-decomp": {
+  "leader": "reyfxck/snesstation-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:rjkiv/dc3-decomp": {
+  "leader": "rjkiv/dc3-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:seekyct/spm-decomp": {
+  "leader": "seekyct/spm-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:shibbo/3dwdecomp": {
+  "leader": "shibbo/3dwdecomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:sozud/psy-q-decomp": {
+  "leader": "sozud/psy-q-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:tsilaallaoui/warioland4": {
+  "leader": "tsilaallaoui/warioland4",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:veradictus/thief3-decomp": {
+  "leader": "veradictus/thief3-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:vonhoff/lemball-decomp": {
+  "leader": "vonhoff/lemball-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:wyrelade/kknd-decomp": {
+  "leader": "wyrelade/kknd-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:wyrelade/openwings": {
+  "leader": "wyrelade/openwings",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:xbret/xenoblade": {
+  "leader": "xbret/xenoblade",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:xeeynamo/ff7-decomp": {
+  "leader": "xeeynamo/ff7-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:xeeynamo/sotn-decomp": {
+  "leader": "xeeynamo/sotn-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:zeldaret/af": {
+  "leader": "zeldaret/af",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:zeldaret/oot-gc": {
+  "leader": "zeldaret/oot-gc",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "repo:zeldaret/oot-vc": {
+  "leader": "zeldaret/oot-vc",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:disney-alice-in-wonderland": {
+  "leader": "alice-2010/decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:excite-truck": {
+  "leader": "orangedude27/excite-truck",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:kirby-s-dream-collection-special-edition": {
+  "leader": "swiftshine/kdc",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:kirby-s-epic-yarn": {
+  "leader": "swiftshine/key",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:lego-star-wars-iii-the-clone-wars": {
+  "leader": "theplayerrolo/legoclonewarswii",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:mario-kart-wii": {
+  "leader": "doldecomp/mkw",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:mario-strikers-charged": {
+  "leader": "yannicksuter/mscharged-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:new-super-mario-bros-wii": {
+  "leader": "nsmbw-community/nsmbw-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:pikmin": {
+  "leader": "projectpiki/pik1wii",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:pikmin-2": {
+  "leader": "projectpiki/pik2wii",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:pokemon-battle-revolution": {
+  "leader": "bgsamm/pbr-dtk",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:pokepark-wii-pikachu-s-adventure": {
+  "leader": "sephdb/pokepark-wii-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:rhythm-heaven-fever": {
+  "leader": "conhlee/rhf",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:rock-band-3": {
+  "leader": "darkrta/rb3",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:super-mario-all-stars": {
+  "leader": "theplayerrolo/super-mario-all-star-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:super-mario-galaxy": {
+  "leader": "smgcommunity/petari",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:super-mario-galaxy-2": {
+  "leader": "smgcommunity/garigari",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:super-smash-bros-brawl": {
+  "leader": "doldecomp/brawl",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:the-legend-of-zelda-skyward-sword": {
+  "leader": "zeldaret/ss",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:the-sims-2-castaway": {
+  "leader": "haydntrigg/castaway",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:wii-play": {
+  "leader": "akiramusic000/rhae",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:wii-sports": {
+  "leader": "doldecomp/ogws",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "xbox360:fallout-new-vegas": {
+  "leader": "ieee802dot11ac/fnv",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "xbox360:kinect-sports": {
+  "leader": "sebaamg/kinect-sports-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "xbox360:sonic-the-hedgehog": {
+  "leader": "rjkiv/sonic06",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "xbox360:top-spin-4": {
+  "leader": "g-guthrie/topspin4-decomp",
+  "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ }
+}

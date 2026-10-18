@@ -17,6 +17,7 @@ from html import escape
 from pathlib import Path
 
 from fetch import all_projects
+import slots
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
@@ -174,6 +175,9 @@ class Project:
                     archived=True,
                 )
             ]
+        self.leader = self  # set by slots.assign
+        self.others = []
+        self.challengers = {}
         hist_path = DATA / "history" / f"{self.id}.json"
         self.history = json.loads(hist_path.read_text()) if hist_path.exists() else []
 
@@ -449,6 +453,41 @@ def version_switch(p, v, suffix=""):
     return f'<details class="dropdown"><summary>Version: {e(v.id)}</summary><ul>{lis}</ul></details>'
 
 
+def slot_notice(p):
+    """Where this repository stands for its game: listed, or behind another repository."""
+    if p.leader is not p:
+        lead = p.leader
+        out = (
+            f'<div class="notice"><small>Another repository has more progress on this game, so the directory lists '
+            f'<a href="{lead.url()}">{e(lead.owner)}/{e(lead.repo)}</a> ({fmt_pct(lead.v.code_pct)}) instead of this one '
+            f"({fmt_pct(p.v.code_pct)}). The game&rsquo;s slot goes to whichever repository leads by "
+            f"{slots.TAKEOVER_MARGIN:g}% for {slots.TAKEOVER_DAYS} days.</small>"
+        )
+        parent = (lead.meta.get("parent") or "").lower()
+        if parent == f"{p.owner}/{p.repo}".lower():
+            branch = p.meta.get("default_branch", "main")
+            lead_branch = lead.meta.get("default_branch", "main")
+            compare = f"https://github.com/{p.owner}/{p.repo}/compare/{branch}...{lead.owner}:{lead.repo}:{lead_branch}"
+            out += (
+                f'<p><a role="button" class="secondary" href="{e(compare)}" target="_blank" rel="noopener">'
+                f"Open a pull request with {e(lead.owner)}&rsquo;s progress</a></p>"
+            )
+        return out + "</div>"
+    if not p.others:
+        return ""
+    rows = "".join(
+        f'<li><a href="{o.url()}">{e(o.owner)}/{e(o.repo)}</a> <span class="muted">{fmt_pct(o.v.code_pct)}</span>'
+        + (
+            f' <span class="tag subtle">ahead since {e(p.challengers[k][:10])}</span>'
+            if (k := f"{o.owner}/{o.repo}".lower()) in p.challengers
+            else ""
+        )
+        + "</li>"
+        for o in p.others
+    )
+    return f'<div class="notice"><small>Other repositories for this game:</small><ul><small>{rows}</small></ul></div>'
+
+
 def build_report(site, p, v, base, built):
     crumbs = [("Projects", "/"), (p.name, p.url())]
     role = f' <span class="tag subtle">{e(p.role)}</span>' if p.role else ""
@@ -467,9 +506,9 @@ def build_report(site, p, v, base, built):
         facts += f" · {v.functions[0]:,} / {v.functions[1]:,} functions matched"
     facts += "</small></p>"
 
-    notice = ""
+    notice = slot_notice(p)
     if v.archived:
-        notice = (
+        notice += (
             '<div class="notice"><small>No live report could be read from this project&rsquo;s CI, so these numbers come from the '
             f"last public snapshot of the old decomp.dev index ({v.updated.strftime('%Y-%m-%d')}). "
             "They&rsquo;ll update automatically once the project publishes a report artifact.</small></div>"
@@ -603,8 +642,16 @@ def main():
             else:
                 p.image = None
 
-    build_index(site, projects, built)
-    build_systems(site, projects, built)
+    for slot in slots.assign(projects).values():
+        lead = slot["leader"]
+        lead.others = sorted(slot["others"], key=lambda o: -o.v.code_pct)
+        lead.challengers = slot["challengers"]
+        for o in slot["others"]:
+            o.leader = lead
+    leaders = [p for p in projects if p.leader is p]
+
+    build_index(site, leaders, built)
+    build_systems(site, leaders, built)
     build_about(site, projects, built)
     build_404(site, built)
     for p in projects:
@@ -614,7 +661,7 @@ def main():
                 build_report(site, p, v, base, built)
                 build_history(site, p, v, base, built)
     live = sum(1 for p in projects if not p.v.archived)
-    print(f"Built {len(projects)} projects ({live} live, {len(projects) - live} archived) into dist/")
+    print(f"Built {len(projects)} projects ({live} live, {len(projects) - live} archived) into dist/; {len(leaders)} games")
     if skipped:
         print(f"Skipped (no data at all): {', '.join(skipped)}")
     if gone:
