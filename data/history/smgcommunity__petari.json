@@ -242,5 +242,18 @@
    "matched_data_percent": 49.69929726251577,
    "complete_data_percent": 47.04997188036743
   }
+ },
+ {
+  "timestamp": "2026-10-18T23:05:57Z",
+  "commit_sha": "d80404b4c3fa701ee4c1ccb2f73a0968dac8abed",
+  "commit_message": "Link ShadowVolumeOval, ShadowSurfaceOval (#2161)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 99.905785,
+   "matched_code_percent": 99.69837233487033,
+   "complete_code_percent": 55.62426867495366,
+   "matched_data_percent": 49.69929726251577,
+   "complete_data_percent": 47.057571781062066
+  }
  }
 ]

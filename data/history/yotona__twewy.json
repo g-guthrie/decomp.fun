@@ -187,5 +187,18 @@
    "matched_data_percent": 4.438615197350418,
    "complete_data_percent": 1.7610407093229161
   }
+ },
+ {
+  "timestamp": "2026-10-18T22:31:35Z",
+  "commit_sha": "0026d7347107415cbfbf2cd218f5859ae00b69a7",
+  "commit_message": "Field Overlay (ov030) progress",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 41.263096,
+   "matched_code_percent": 28.27324873588718,
+   "complete_code_percent": 7.876570974254496,
+   "matched_data_percent": 7.1048666874254955,
+   "complete_data_percent": 3.4472238210714696
+  }
  }
 ]

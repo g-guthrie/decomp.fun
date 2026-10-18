@@ -110,5 +110,18 @@
    "matched_data_percent": 2.250273131730499,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-18T23:05:19Z",
+  "commit_sha": "32a2b972e40e430f096da9fabeb95a9284933592",
+  "commit_message": "alessastruct: add tests (#393)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 51.494087,
+   "matched_code_percent": 49.47377069601147,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 2.250273131730499,
+   "complete_data_percent": 0.0
+  }
  }
 ]
