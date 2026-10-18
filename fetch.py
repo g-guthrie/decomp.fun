@@ -405,6 +405,7 @@ def main():
     projects = [p for p in all_projects() if not only or any(o.lower() in (p["id"] + p["repo"]).lower() for o in only)]
     print(f"fetching {len(projects)} project(s)")
     ok = missing = failed = missing_repo = 0
+    no_report = []
 
     def run(p):
         try:
@@ -424,7 +425,10 @@ def main():
                 ok += 1
             else:
                 missing += 1
+                no_report.append(pid)
     print(f"live reports: {ok}, no report available: {missing}, repos gone: {missing_repo}, failed: {failed}")
+    if no_report:
+        print("no report: " + " ".join(sorted(no_report)))
 
 
 if __name__ == "__main__":
