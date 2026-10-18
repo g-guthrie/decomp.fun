@@ -18,8 +18,6 @@
   },
   // Secrets (npx wrangler secret put NAME): GITHUB_CLIENT_SECRET, SESSION_SECRET, GITHUB_DISPATCH_TOKEN
   "kv_namespaces": [{ "binding": "LIMITS", "id": "71c484c694c74617bcb03778a70b95fd" }],
-  "routes": [
-    { "pattern": "decomp.fun", "custom_domain": true },
-    { "pattern": "www.decomp.fun", "custom_domain": true }
-  ]
+  // www.decomp.fun is a separate redirect Worker: worker/www/
+  "routes": [{ "pattern": "decomp.fun", "custom_domain": true }]
 }
