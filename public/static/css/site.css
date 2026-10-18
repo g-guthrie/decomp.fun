@@ -207,7 +207,14 @@ pre {
 .plat[data-p="ps"], .plat[data-p="ps2"], .plat[data-p="psp"] { --plat: #2d64e6; }
 .plat[data-p="xbox"], .plat[data-p="xbox360"] { --plat: #2ca243; }
 .plat[data-p="win32"] { --plat: #8a8f98; }
-.plat[data-p="naomi"], .plat[data-p="dc"] { --plat: #f08a24; }
+.plat[data-p="naomi"], .plat[data-p="dc"], .plat[data-p="saturn"], .plat[data-p="md"], .plat[data-p="segacd"],
+.plat[data-p="32x"], .plat[data-p="sms"], .plat[data-p="gg"] { --plat: #f08a24; }
+.plat[data-p="nes"], .plat[data-p="snes"], .plat[data-p="gb"], .plat[data-p="gbc"], .plat[data-p="vb"],
+.plat[data-p="wiiu"] { --plat: #e4000f; }
+.plat[data-p="ps3"], .plat[data-p="vita"] { --plat: #2d64e6; }
+.plat[data-p="dos"] { --plat: #8a8f98; }
+.plat[data-p="arcade"], .plat[data-p="neocd"], .plat[data-p="ngp"] { --plat: #c3a514; }
+.plat[data-p="atari2600"], .plat[data-p="lynx"], .plat[data-p="jaguar"], .plat[data-p="pce"] { --plat: #9b59b6; }
 
 .tag {
   display: inline-block;
@@ -414,4 +421,14 @@ details.dropdown summary + ul {
   background: var(--pico-card-sectioning-background-color);
   border-radius: var(--pico-border-radius);
   margin-bottom: var(--pico-spacing);
+}
+
+.notice.error {
+  border-left-color: var(--pico-del-color);
+}
+.status-listed {
+  color: var(--pico-ins-color);
+}
+.status-rejected {
+  color: var(--pico-del-color);
 }

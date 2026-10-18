@@ -1,0 +1,201 @@
+// decomp.fun Worker: GitHub sign-in and project submissions. Everything else is static files.
+//
+// /auth/login, /auth/callback, /auth/logout  GitHub OAuth (no scopes: only the public profile)
+// /api/me                                    who is signed in
+// /api/submit                                quick checks, then hands the repository to the
+//                                            check workflow (repository_dispatch); the full
+//                                            checks and the result happen there.
+//
+// Config:  vars  GITHUB_CLIENT_ID, SITE_REPO
+//          secrets  GITHUB_CLIENT_SECRET, SESSION_SECRET, GITHUB_DISPATCH_TOKEN
+//          kv  LIMITS (submission rate limits)
+
+const ORIGIN = "https://decomp.fun";
+const MIN_ACCOUNT_AGE_DAYS = 30;
+const PER_ACCOUNT_PER_DAY = 3;
+const SITE_PER_DAY = 200;
+const SESSION_DAYS = 7;
+const NAME_ONLY = ["win32", "switch", "dos"];
+
+export default {
+  async fetch(request, env) {
+    const url = new URL(request.url);
+    try {
+      switch (url.pathname) {
+        case "/auth/login":
+          return login(url, env);
+        case "/auth/callback":
+          return await callback(request, url, env);
+        case "/auth/logout":
+          return redirect("/submit/", clearCookie("session"));
+        case "/api/me":
+          return await me(request, env);
+        case "/api/submit":
+          return await submit(request, env);
+        default:
+          return env.ASSETS.fetch(request);
+      }
+    } catch (err) {
+      console.error(err);
+      return json({ ok: false, message: "Something went wrong. Try again in a minute." }, 500);
+    }
+  },
+};
+
+// ------------------------------------------------------------------ helpers
+
+const json = (data, status = 200, headers = {}) =>
+  new Response(JSON.stringify(data), { status, headers: { "content-type": "application/json", ...headers } });
+
+const redirect = (location, ...cookies) => {
+  const h = new Headers({ location });
+  for (const c of cookies) h.append("set-cookie", c);
+  return new Response(null, { status: 302, headers: h });
+};
+
+const cookie = (name, value, maxAge) =>
+  `${name}=${value}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${maxAge}`;
+const clearCookie = (name) => cookie(name, "", 0);
+
+const readCookie = (request, name) => {
+  const raw = request.headers.get("cookie") || "";
+  const m = raw.match(new RegExp(`(?:^|;\\s*)${name}=([^;]+)`));
+  return m ? m[1] : null;
+};
+
+const b64url = (bytes) =>
+  btoa(String.fromCharCode(...new Uint8Array(bytes))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+
+async function hmac(secret, data) {
+  const key = await crypto.subtle.importKey("raw", new TextEncoder().encode(secret), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+  return b64url(await crypto.subtle.sign("HMAC", key, new TextEncoder().encode(data)));
+}
+
+async function makeSession(env, user) {
+  const body = btoa(JSON.stringify({ ...user, exp: Date.now() + SESSION_DAYS * 86400e3 }));
+  return `${body}.${await hmac(env.SESSION_SECRET, body)}`;
+}
+
+async function readSession(request, env) {
+  const raw = readCookie(request, "session");
+  if (!raw || !raw.includes(".")) return null;
+  const [body, sig] = raw.split(".");
+  if ((await hmac(env.SESSION_SECRET, body)) !== sig) return null;
+  const s = JSON.parse(atob(body));
+  return s.exp > Date.now() ? s : null;
+}
+
+const github = (path, token, init = {}) =>
+  fetch(`https://api.github.com/${path}`, {
+    ...init,
+    headers: {
+      accept: "application/vnd.github+json",
+      "user-agent": "decomp.fun",
+      ...(token ? { authorization: `Bearer ${token}` } : {}),
+      ...(init.headers || {}),
+    },
+  });
+
+// ------------------------------------------------------------------ auth
+
+function login(url, env) {
+  const state = b64url(crypto.getRandomValues(new Uint8Array(18)));
+  const auth = new URL("https://github.com/login/oauth/authorize");
+  auth.searchParams.set("client_id", env.GITHUB_CLIENT_ID);
+  auth.searchParams.set("redirect_uri", `${ORIGIN}/auth/callback`);
+  auth.searchParams.set("state", state);
+  auth.searchParams.set("allow_signup", "false");
+  return redirect(auth.toString(), cookie("oauth_state", state, 600));
+}
+
+async function callback(request, url, env) {
+  const state = url.searchParams.get("state");
+  if (!state || state !== readCookie(request, "oauth_state")) return redirect("/submit/?error=state");
+  const tokenRes = await fetch("https://github.com/login/oauth/access_token", {
+    method: "POST",
+    headers: { accept: "application/json", "content-type": "application/json" },
+    body: JSON.stringify({
+      client_id: env.GITHUB_CLIENT_ID,
+      client_secret: env.GITHUB_CLIENT_SECRET,
+      code: url.searchParams.get("code"),
+      redirect_uri: `${ORIGIN}/auth/callback`,
+    }),
+  });
+  const { access_token } = await tokenRes.json();
+  if (!access_token) return redirect("/submit/?error=login");
+  const userRes = await github("user", access_token);
+  if (!userRes.ok) return redirect("/submit/?error=login");
+  const u = await userRes.json();
+  // The GitHub token is not kept: the session only records who signed in.
+  const session = await makeSession(env, { login: u.login, id: u.id, created: u.created_at });
+  return redirect("/submit/", cookie("session", session, SESSION_DAYS * 86400), clearCookie("oauth_state"));
+}
+
+async function me(request, env) {
+  const s = await readSession(request, env);
+  return json(s ? { login: s.login, created: s.created } : { login: null });
+}
+
+// ------------------------------------------------------------------ submit
+
+const count = async (env, key) => Number((await env.LIMITS.get(key)) || 0);
+const increment = async (env, key) =>
+  env.LIMITS.put(key, String((await count(env, key)) + 1), { expirationTtl: 2 * 86400 });
+
+async function submit(request, env) {
+  if (request.method !== "POST") return json({ ok: false, message: "POST only." }, 405);
+  if (request.headers.get("origin") !== ORIGIN) return json({ ok: false, message: "Bad origin." }, 403);
+  const s = await readSession(request, env);
+  if (!s) return json({ ok: false, message: "Sign in with GitHub first." }, 401);
+
+  const ageDays = (Date.now() - Date.parse(s.created)) / 86400e3;
+  if (!(ageDays >= MIN_ACCOUNT_AGE_DAYS))
+    return json({ ok: false, message: `Your GitHub account must be at least ${MIN_ACCOUNT_AGE_DAYS} days old to submit.` }, 403);
+
+  let body;
+  try {
+    body = await request.json();
+  } catch {
+    return json({ ok: false, message: "Bad request." }, 400);
+  }
+  const repo = String(body.repo || "")
+    .trim()
+    .replace(/^(https?:\/\/)?(www\.)?github\.com\//i, "")
+    .replace(/\.git$/i, "")
+    .replace(/\/+$/, "");
+  if (!/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repo))
+    return json({ ok: false, message: "Enter a GitHub repository, like owner/name or its URL." }, 400);
+  const system = NAME_ONLY.includes(body.system) ? body.system : "";
+  const game = system ? String(body.game || "").trim().slice(0, 120) : "";
+  if (system && !game) return json({ ok: false, message: "Enter the game's name for PC, DOS and Switch projects." }, 400);
+
+  const repoRes = await github(`repos/${repo}`, env.GITHUB_DISPATCH_TOKEN);
+  if (repoRes.status === 404) return json({ ok: false, message: "That repository doesn't exist or isn't public." }, 400);
+  const info = await repoRes.json();
+  if (info.private) return json({ ok: false, message: "That repository isn't public." }, 400);
+
+  const day = new Date().toISOString().slice(0, 10);
+  const userKey = `user:${s.id}:${day}`;
+  const siteKey = `site:${day}`;
+  if ((await count(env, userKey)) >= PER_ACCOUNT_PER_DAY)
+    return json({ ok: false, message: `You can submit ${PER_ACCOUNT_PER_DAY} repositories per day. Try again tomorrow.` }, 429);
+  if ((await count(env, siteKey)) >= SITE_PER_DAY)
+    return json({ ok: false, message: "The site has had a lot of submissions today. Try again tomorrow." }, 429);
+
+  const dispatch = await github(`repos/${env.SITE_REPO}/dispatches`, env.GITHUB_DISPATCH_TOKEN, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ event_type: "submission", client_payload: { repo: info.full_name, by: s.login, system, game } }),
+  });
+  if (!dispatch.ok) {
+    console.error("dispatch failed", dispatch.status, await dispatch.text());
+    return json({ ok: false, message: "Couldn't start the checks. Try again in a few minutes." }, 502);
+  }
+  // Only submissions that actually started count toward the limits.
+  await increment(env, userKey);
+  await increment(env, siteKey);
+  return json({
+    ok: true,
+    message: `Submitted ${info.full_name}. The checks are running now; the result appears in the list below in about 5 minutes.`,
+  });
+}

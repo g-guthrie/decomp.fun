@@ -4,3 +4,4 @@ __pycache__/
 .wrangler/
 node_modules/
 data/reports/
+.dev.vars

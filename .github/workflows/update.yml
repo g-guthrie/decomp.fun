@@ -2,20 +2,26 @@ name: Update and deploy
 
 on:
   schedule:
-    - cron: "17 */6 * * *" # every 6 hours
+    - cron: "17 */6 * * *" # every 6 hours: refresh every project
   workflow_dispatch:
+  repository_dispatch:
+    types: [submission] # sent by the site when someone submits a repository
   push:
     branches: [main]
     paths-ignore:
       - "data/history/**"
+      - "data/submissions/**"
+      - "data/slots.json"
       - "README.md"
 
+# Scheduled/manual runs queue behind each other; every submission gets its own run
+# (sharing a group would let GitHub drop queued submissions).
 concurrency:
-  group: update
+  group: ${{ github.event_name == 'repository_dispatch' && format('submission-{0}', github.run_id) || 'update' }}
   cancel-in-progress: false
 
 permissions:
-  contents: write # commit new history points back
+  contents: write # commit history, slots and submission results back
 
 jobs:
   update:
@@ -38,14 +44,29 @@ jobs:
           restore-keys: reports-
 
       - name: Fetch progress from every project's CI
+        if: github.event_name != 'repository_dispatch'
         env:
           # A fine-grained token (public repos, read-only) gets a higher rate limit;
           # the built-in token works too.
           GH_TOKEN: ${{ secrets.GH_READ_TOKEN || github.token }}
         run: python3 fetch.py
 
+      - name: Check submitted repository
+        if: github.event_name == 'repository_dispatch'
+        env:
+          GH_TOKEN: ${{ secrets.GH_READ_TOKEN || github.token }}
+          # Passed through the environment, never interpolated into the script.
+          SUB_REPO: ${{ github.event.client_payload.repo }}
+          SUB_BY: ${{ github.event.client_payload.by }}
+          SUB_SYSTEM: ${{ github.event.client_payload.system }}
+          SUB_GAME: ${{ github.event.client_payload.game }}
+        run: |
+          args=("$SUB_REPO" --by "$SUB_BY")
+          if [ -n "$SUB_SYSTEM" ]; then args+=(--system "$SUB_SYSTEM" --game "$SUB_GAME"); fi
+          python3 submit.py "${args[@]}"
+
       - name: Save reports
-        if: always()
+        if: always() && github.event_name != 'repository_dispatch'
         uses: actions/cache/save@v4
         with:
           path: data/reports
@@ -60,14 +81,22 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: npx --yes wrangler@4 deploy
 
-      - name: Commit new history points
+      - name: Commit results
+        env:
+          EVENT: ${{ github.event_name }}
         run: |
           git config user.name "decomp.fun bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/history
+          git add data/history data/submissions
+          # Only the scheduled refresh records slot changes, so concurrent runs never clash on it.
+          if [ "$EVENT" != "repository_dispatch" ]; then git add data/slots.json; fi
           if git diff --cached --quiet; then
-            echo "No new history points"
-          else
-            git commit -m "Update progress history"
-            git push
+            echo "Nothing to commit"
+            exit 0
           fi
+          git commit -m "Update progress data"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs && git push && exit 0
+            sleep $((i * 5))
+          done
+          exit 1

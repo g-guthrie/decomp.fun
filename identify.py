@@ -52,20 +52,21 @@ CODE4 = re.compile(r"^([A-Z0-9]{4})$")  # A2DE (DS), NSME (N64)
 TITLE_ID = re.compile(r"^([0-9A-F]{8})$")  # 54540859
 SHA1_LINE = re.compile(r"(?i)sha-?1[\"']?\s*[:=]\s*[\"']?([0-9a-f]{40})")
 SHA1 = re.compile(r"(?<![0-9a-fA-F])([0-9a-fA-F]{40})(?![0-9a-fA-F])")
-SEGA_PRODUCT = re.compile(r"(?<![A-Z0-9])((?:MK|HDR|GDL|T)-?\d{4,5}[A-Z]?)(?![A-Z0-9])")  # MK-51052, T-1215N, GDL-0007A
+SEGA_PRODUCT = re.compile(r"(?<![A-Z0-9])((?:MK|HDR|GDL|GS|T)-\d{4,5}[A-Z]?)(?![A-Z0-9])")  # MK-51052, T-1215N, GDL-0007A
 MAME_SET = re.compile(r'"set"\s*:\s*"([a-z0-9_]+)"')
 
 # Which identifier kinds can name a game on which systems.
 KIND_PLATFORMS = {
     "sha1": None,  # any
-    "set": ("naomi",),
-    "serial": ("ps", "ps2", "psp"),
+    "set": ("naomi", "arcade"),
+    "serial": ("ps", "ps2", "psp", "ps3", "vita"),
     "title": ("xbox", "xbox360"),
     "disc": ("gc", "wii"),
-    "code": ("n64", "gba", "nds", "3ds"),
-    "product": ("dc", "naomi"),
+    "code": ("n64", "gba", "nds", "3ds", "wiiu"),
+    "product": ("dc", "naomi", "saturn", "segacd"),
+    "vset": ("naomi", "arcade"),  # a version named like a MAME set: weakest signal, checked last
 }
-KINDS = ("sha1", "set", "serial", "title", "disc", "code", "product")
+KINDS = ("sha1", "set", "serial", "title", "disc", "code", "product", "vset")
 
 
 def empty():
@@ -90,6 +91,9 @@ def from_token(token, is_version=False):
         out["disc"].add(m.group(1))
     if is_version and CODE4.match(stem):
         out["code"].add(stem)
+    # Arcade projects often name their version after the MAME set (e.g. "mvsc2").
+    if is_version and re.fullmatch(r"[a-z][a-z0-9_]{3,15}", token) and token not in ("main", "base", "retail", "release", "debug", "demo"):
+        out["vset"].add(token.upper())
     if TITLE_ID.match(stem) and re.search(r"\d", stem):
         out["title"].add(stem)
     out["product"] |= {re.sub(r"[^A-Z0-9]", "", m) for m in SEGA_PRODUCT.findall(token.upper())}

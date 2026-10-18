@@ -33,7 +33,7 @@ WIKIDATA_ANY = (
     'FILTER(LANG(?gLabel)="en") }'
 )
 # Systems with no IDs a repo would contain: the game is named by the submitter and must be on the list.
-NAME_ONLY = ("switch", "win32")
+NAME_ONLY = ("switch", "win32", "dos")
 MAME_NAOMI = "https://raw.githubusercontent.com/mamedev/mame/master/src/mame/sega/naomi.cpp"
 
 SOURCES = {
@@ -50,7 +50,30 @@ SOURCES = {
     "xbox360": ["metadat/redump/Microsoft - Xbox 360.dat"],
     "dc": ["metadat/redump/Sega - Dreamcast.dat"],
     "naomi": ["metadat/redump/Sega - Naomi.dat"],
+    "saturn": ["metadat/redump/Sega - Saturn.dat", "dat/Sega - Saturn.dat"],
+    "md": ["metadat/no-intro/Sega - Mega Drive - Genesis.dat"],
+    "segacd": ["metadat/redump/Sega - Mega-CD - Sega CD.dat"],
+    "32x": ["metadat/no-intro/Sega - 32X.dat"],
+    "sms": ["metadat/no-intro/Sega - Master System - Mark III.dat"],
+    "gg": ["metadat/no-intro/Sega - Game Gear.dat"],
+    "nes": ["metadat/no-intro/Nintendo - Nintendo Entertainment System.dat"],
+    "snes": ["metadat/no-intro/Nintendo - Super Nintendo Entertainment System.dat"],
+    "gb": ["metadat/no-intro/Nintendo - Game Boy.dat"],
+    "gbc": ["metadat/no-intro/Nintendo - Game Boy Color.dat"],
+    "vb": ["metadat/no-intro/Nintendo - Virtual Boy.dat"],
+    "wiiu": ["dat/Nintendo - Wii U.dat", "metadat/no-intro/Nintendo - Wii U (Digital).dat"],
+    "ps3": ["metadat/redump/Sony - PlayStation 3.dat", "metadat/no-intro/Sony - PlayStation 3 (PSN).dat"],
+    "vita": ["metadat/no-intro/Sony - PlayStation Vita.dat", "metadat/no-intro/Sony - PlayStation Vita (PSN).dat"],
+    "atari2600": ["metadat/no-intro/Atari - 2600.dat"],
+    "jaguar": ["metadat/no-intro/Atari - Jaguar.dat", "metadat/redump/Atari - Jaguar CD.dat"],
+    "lynx": ["metadat/no-intro/Atari - Lynx.dat"],
+    "pce": ["metadat/no-intro/NEC - PC Engine - TurboGrafx 16.dat", "metadat/no-intro/NEC - PC Engine SuperGrafx.dat",
+            "metadat/redump/NEC - PC Engine CD - TurboGrafx-CD.dat"],
+    "ngp": ["metadat/no-intro/SNK - Neo Geo Pocket.dat", "metadat/no-intro/SNK - Neo Geo Pocket Color.dat"],
+    "neocd": ["metadat/redump/SNK - Neo Geo CD.dat"],
+    "arcade": [],
 }
+MAME_XML = "metadat/mame/MAME 2016 XML (Arcade Only).xml"
 
 
 def get(url, name):
@@ -205,8 +228,41 @@ def pc_titles(index):
                 add(index, "win32", label, "", {row["g"].rsplit("/", 1)[-1]}, set())
 
 
+def arcade_sets(index):
+    """MAME: one game per parent set; clones (regional/revision sets) join their parent."""
+    xml = get(LIBRETRO + urllib.parse.quote(MAME_XML), "mame2016.xml")
+    parents, clones = {}, []
+    for m in re.finditer(r'<(?:game|machine) name="([^"]+)"([^>]*)>(.*?)</(?:game|machine)>', xml, re.S):
+        name, attrs, body = m.groups()
+        if 'isbios="yes"' in attrs or 'isdevice="yes"' in attrs or 'runnable="no"' in attrs:
+            continue
+        desc = re.search(r"<description>(.*?)</description>", body, re.S)
+        title = base_title(desc.group(1).replace("&amp;", "&")) if desc else name
+        clone = re.search(r'cloneof="([^"]+)"', attrs)
+        if clone:
+            clones.append((name, clone.group(1)))
+        else:
+            parents[name] = title
+            add(index, "arcade", title, "", {name.upper()}, set())
+    owners = index.get("_id_owner", {})
+    for name, parent in clones:
+        key = owners.get(parent.upper())
+        if key:
+            index[key]["ids"].add(name.upper())
+            owners[name.upper()] = key
+
+
+def dos_titles(index):
+    for g in parse_dat(get(LIBRETRO + urllib.parse.quote("dat/DOS.dat"), "dat_DOS.dat")):
+        add(index, "dos", base_title(g["name"]), "", set(), set())
+
+
 def build(platform):
     index = {}
+    if platform == "arcade":
+        arcade_sets(index)
+    if platform == "dos":
+        dos_titles(index)
     if platform == "switch":
         switch_titles(index)
     if platform == "win32":

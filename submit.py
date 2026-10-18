@@ -23,10 +23,10 @@ from pathlib import Path
 import fetch
 import identify
 
-STATE = fetch.DATA / "submissions.json"
+SUBMISSIONS = fetch.DATA / "submissions"
 IDENTITY = fetch.DATA / "identity.json"
 MIN_MATCHED_PERCENT = 5.0
-NAME_ONLY = ("win32", "switch")
+NAME_ONLY = ("win32", "switch", "dos")
 
 
 def load(path):
@@ -69,8 +69,6 @@ def check(repo, by, system=None, game=None):
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     key = repo.lower()
     entry = {"repo": repo, "by": by, "submitted_at": now, "status": "rejected", "reasons": []}
-    state = load(STATE)
-
     listed = {f"{p['owner']}/{p['repo']}".lower() for p in fetch.all_projects()}
     if key in listed:
         entry.update(status="listed", reasons=["Already on the site."])
@@ -128,8 +126,8 @@ def check(repo, by, system=None, game=None):
     identity = load(IDENTITY)
     slot = f"{hit['platform']}:{hit['key']}"
     holders = [k for k, v in identity.items() if v.get("game") and f"{v['platform']}:{v['game']}" == slot]
-    holders += [k for k, s in state.items() if s.get("status") == "listed" and s.get("game") and
-                f"{s['game']['platform']}:{s['game']['key']}" == slot]
+    holders += [s["repo"].lower() for s in fetch.load_submissions() if s.get("status") == "listed" and s.get("game")
+                and f"{s['game']['platform']}:{s['game']['key']}" == slot and s["repo"].lower() != key]
     if holders and not reasons:
         import build  # Project wrapper gives sizes and unit names for the comparison
         import slots
@@ -157,9 +155,6 @@ def check(repo, by, system=None, game=None):
                 "once it leads by 1% of matched code for 7 days in a row."
             ]
     entry.update(status="listed", project=project, reasons=note)
-    identity[key] = {"platform": hit["platform"], "game": hit["key"], "title": hit["title"], "by": hit["by"],
-                     "aliases": hit.get("aliases", [])}
-    save(IDENTITY, identity)
     if versions:
         fetch.append_history(pid, versions[0])
     return entry
@@ -177,9 +172,9 @@ def main():
         print(f"invalid repository: {a.repo}")
         return 1
     entry = check(repo, a.by, a.system, a.game)
-    state = load(STATE)
-    state[repo.lower()] = {**state.get(repo.lower(), {}), **entry}
-    save(STATE, state)
+    SUBMISSIONS.mkdir(parents=True, exist_ok=True)
+    out = SUBMISSIONS / (re.sub(r"[^a-z0-9_.-]", "_", repo.lower().replace("/", "__")) + ".json")
+    out.write_text(json.dumps(entry, indent=1) + "\n")
     print(f"{repo}: {entry['status']}" + "".join(f"\n  - {r}" for r in entry["reasons"]))
     return 0
 

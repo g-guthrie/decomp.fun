@@ -51,6 +51,10 @@ def assign(projects, now=None):
     and updates data/slots.json. `projects` are build.Project objects."""
     now = now or datetime.now(timezone.utc)
     identity = load(IDENTITY, {})
+    for f in sorted((ROOT / "data" / "submissions").glob("*.json")):
+        sub = json.loads(f.read_text())
+        if sub.get("status") == "listed" and sub.get("game"):
+            identity.setdefault(sub["repo"].lower(), {"platform": sub["game"]["platform"], "game": sub["game"]["key"]})
     state = load(STATE, {})
     by_slot = {}
     for p in projects:

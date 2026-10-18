@@ -38,8 +38,30 @@ PLATFORMS = [
     ("xbox", "Xbox", "XBOX", "Microsoft"),
     ("xbox360", "Xbox 360", "360", "Microsoft"),
     ("win32", "Windows", "PC", "Microsoft"),
+    ("nes", "NES", "NES", "Nintendo"),
+    ("snes", "Super Nintendo", "SNES", "Nintendo"),
+    ("gb", "Game Boy", "GB", "Nintendo"),
+    ("gbc", "Game Boy Color", "GBC", "Nintendo"),
+    ("vb", "Virtual Boy", "VB", "Nintendo"),
+    ("wiiu", "Wii U", "WiiU", "Nintendo"),
+    ("ps3", "PlayStation 3", "PS3", "Sony"),
+    ("vita", "PlayStation Vita", "VITA", "Sony"),
+    ("dos", "DOS", "DOS", "Microsoft"),
+    ("sms", "Master System", "SMS", "Sega"),
+    ("md", "Mega Drive / Genesis", "MD", "Sega"),
+    ("segacd", "Sega CD", "SCD", "Sega"),
+    ("32x", "32X", "32X", "Sega"),
+    ("saturn", "Saturn", "SAT", "Sega"),
+    ("gg", "Game Gear", "GG", "Sega"),
     ("dc", "Dreamcast", "DC", "Sega"),
     ("naomi", "Sega NAOMI", "NAOMI", "Sega"),
+    ("arcade", "Arcade", "ARC", "Arcade"),
+    ("atari2600", "Atari 2600", "2600", "Atari"),
+    ("lynx", "Atari Lynx", "LYNX", "Atari"),
+    ("jaguar", "Atari Jaguar", "JAG", "Atari"),
+    ("pce", "PC Engine / TurboGrafx-16", "PCE", "NEC"),
+    ("ngp", "Neo Geo Pocket", "NGP", "SNK"),
+    ("neocd", "Neo Geo CD", "NGCD", "SNK"),
 ]
 PLAT = {k: {"name": n, "short": s, "maker": m} for k, n, s, m in PLATFORMS}
 
@@ -226,7 +248,7 @@ def brand(site):
 def nav(site, crumbs=()):
     left = f'<li><a href="/">{brand(site)}</a></li>' + "".join(f'<li><a href="{e(u)}">{e(t)}</a></li>' for t, u in crumbs)
     right = (
-        '<li><a href="/systems/">Systems</a></li><li><a href="/about/">About</a></li>'
+        '<li><a href="/systems/">Systems</a></li><li><a href="/submit/">Add a project</a></li><li><a href="/about/">About</a></li>'
         + "".join(f'<li><a href="{e(l["url"])}">{e(l["label"])}</a></li>' for l in site.get("nav_links", []))
         + f'<li><a id="theme-toggle" href="#" title="Toggle theme" aria-label="Toggle theme">{ICON_THEME}</a></li>'
     )
@@ -604,9 +626,11 @@ Right now {live} of {len(projects)} projects have a live report; the rest show t
 decomp.dev index, which its author retired in October 2026. Only facts were taken (names, repositories, systems and
 percentages). This site&rsquo;s code is independent.</p>
 <h4>Listing and removal</h4>
-<p>Every project here is a public repository and every card links straight to it. If you maintain a project and want it
-removed, renamed, or given a banner, <a href="{e(contact)}" target="_blank" rel="noopener">get in touch</a> and it will be
-handled promptly, no questions asked. Projects can also ask to be added.</p>
+<p>Every project here is a public repository and every card links straight to it. New projects are added through
+<a href="/submit/">Add a project</a>, which checks them automatically. Each game appears once: when several repositories
+work on the same game, the one with the most matched code is listed and the others are shown on its page.
+For anything else, <a href="{e(contact)}" target="_blank" rel="noopener">get in touch</a>.</p>
+<p class="muted"><small>Game lists: No-Intro and Redump via libretro-database (CC BY-SA 4.0), MAME, titledb and Wikidata.</small></p>
 <h4>Credits</h4>
 <p>Built with <a href="https://picocss.com" target="_blank" rel="noopener">Pico CSS</a> and
 <a href="https://github.com/leeoniya/uPlot" target="_blank" rel="noopener">uPlot</a>
@@ -614,6 +638,64 @@ handled promptly, no questions asked. Projects can also ask to be added.</p>
 All credit for the decompilations goes to the people working on them.</p>
 """
     write("about/index.html", page(site, built, f"About · {site['name']}", body, crumbs=[("About", "/about/")]))
+
+
+def build_submit(site, built):
+    import submit as sub
+    from fetch import load_submissions
+
+    recent = sorted(load_submissions(), key=lambda x: x.get("submitted_at", ""), reverse=True)[:100]
+    rows = []
+    for x in recent:
+        listed = x.get("status") == "listed"
+        game = x.get("game", {}).get("title", "")
+        name = f'<a href="/{e(x["project"]["owner"])}/{e(x["project"]["repo"])}/">{e(x["repo"])}</a>' if listed and x.get("project") else e(x["repo"])
+        reasons = "".join(f"<li>{e(r)}</li>" for r in x.get("reasons", []))
+        rows.append(
+            f"<tr><td>{name}<br><small class=muted>{e(game)}</small></td>"
+            f'<td class="status-{e(x.get("status", ""))}">{"Accepted" if listed else "Not accepted"}</td>'
+            f"<td><small>{f'<ul>{reasons}</ul>' if reasons else 'All checks passed.'}</small></td>"
+            f'<td><small class="muted">{e(x.get("by", ""))}<br>{e(x.get("submitted_at", "")[:10])}</small></td></tr>'
+        )
+    table = (
+        '<div class="overflow-auto"><table class="striped"><thead><tr><th>Repository</th><th>Result</th><th>Details</th>'
+        f'<th>By</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
+        if rows else '<p class="muted">No submissions yet.</p>'
+    )
+    options = "".join(f'<option value="{k}">{e(PLAT[k]["name"])}</option>' for k in sub.NAME_ONLY)
+    body = f"""
+<hgroup class="intro"><h2>Add a project</h2><p class="muted">Submissions are checked automatically. Nobody reviews them by hand.</p></hgroup>
+<h4>Requirements</h4>
+<ul>
+<li>A public GitHub repository whose GitHub Actions publish an <a href="https://github.com/encounter/objdiff" target="_blank" rel="noopener">objdiff</a>
+progress report on the default branch, as an artifact with <code>report</code> in its name (projects built from
+<a href="https://github.com/encounter/dtk-template" target="_blank" rel="noopener">dtk-template</a> do this already).</li>
+<li>At least {sub.MIN_MATCHED_PERCENT:g}% of the code matched.</li>
+<li>The game is identified from the repository itself: its disc ID, serial, title ID or ROM hash, as decomp projects
+normally contain. PC, DOS and Switch games have no such IDs, so for those you pick the system and the game&rsquo;s exact name.</li>
+<li>One project per game. If the game is already listed, your repository must decompile the same executable, and it takes
+the game&rsquo;s place once it leads by {slots.TAKEOVER_MARGIN:g}% of matched code for {slots.TAKEOVER_DAYS} days in a row.</li>
+<li>Your GitHub account is at least 30 days old. Up to 3 submissions per account per day.</li>
+</ul>
+<article>
+<div id="signed-out"><p>Sign in with GitHub to submit. decomp.fun only sees your public profile.</p>
+<a role="button" href="/auth/login">Sign in with GitHub</a></div>
+<div id="signed-in" hidden>
+<p class="muted"><small>Signed in as <strong id="who"></strong> · <a href="/auth/logout">Sign out</a></small></p>
+<form id="submit-form">
+<label>Repository<input name="repo" placeholder="owner/name or https://github.com/owner/name" required></label>
+<label>PC, DOS or Switch game?<select name="system" id="system"><option value="">No, it&rsquo;s a console or arcade game</option>{options}</select></label>
+<label id="game-row" hidden>Game name, exactly as published<input name="game" placeholder="e.g. Thief: Deadly Shadows"></label>
+<button type="submit">Submit</button>
+</form>
+</div>
+<div id="submit-result" class="notice" hidden></div>
+</article>
+<h4>Recent submissions</h4>
+{table}
+"""
+    write("submit/index.html", page(site, built, f"Add a project · {site['name']}", body,
+                                     crumbs=[("Add a project", "/submit/")], scripts=["/static/js/submit.js"]))
 
 
 def build_404(site, built):
@@ -654,6 +736,7 @@ def main():
     build_systems(site, leaders, built)
     build_about(site, projects, built)
     build_404(site, built)
+    build_submit(site, built)
     for p in projects:
         for i, v in enumerate(p.versions):
             bases = [p.url(v.id)] + ([p.url()] if i == 0 else [])

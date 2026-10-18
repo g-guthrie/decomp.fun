@@ -403,11 +403,16 @@ def load_report(pid):
 def all_projects():
     """Inherited catalog, hand-configured entries, and accepted submissions."""
     by_repo = base_projects()
-    subs = DATA / "submissions.json"
-    for key, s in (json.loads(subs.read_text()) if subs.exists() else {}).items():
+    for s in load_submissions():
+        key = s["repo"].lower()
         if s.get("status") == "listed" and s.get("project") and key not in by_repo:
             by_repo[key] = s["project"]
     return list(by_repo.values())
+
+
+def load_submissions():
+    """One file per submitted repository, so concurrent runs never edit the same file."""
+    return [json.loads(f.read_text()) for f in sorted((DATA / "submissions").glob("*.json"))]
 
 
 def base_projects():
