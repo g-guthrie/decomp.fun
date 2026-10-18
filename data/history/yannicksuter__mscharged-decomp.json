@@ -44,5 +44,18 @@
    "matched_data_percent": 99.32823728794641,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-18T20:58:55Z",
+  "commit_sha": "b5aa02c4c3e5e3d0f6080b860ee2a3500a8fcf8a",
+  "commit_message": "feat: match Korean DWC transport",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.000046,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.32823728794641,
+   "complete_data_percent": 100.0
+  }
  }
 ]

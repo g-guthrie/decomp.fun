@@ -53,5 +53,18 @@
    "complete_code_percent": 0.0,
    "fuzzy_match_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-18T15:29:09Z",
+  "commit_sha": "04558fbb8b4e3c5da74563c43a29df5a24c107cf",
+  "commit_message": "Restore canonical inline owners and native Speech APIs without PASS regressions",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

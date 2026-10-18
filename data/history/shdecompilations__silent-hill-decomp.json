@@ -33,5 +33,18 @@
    "matched_data_percent": 36.99421965317919,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-18T21:21:05Z",
+  "commit_sha": "36c8c93abc5a908c5c521bb7acb7945172081571",
+  "commit_message": "progress.yml: build USA/JAP0 reports",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 18.46267,
+   "matched_code_percent": 17.3695763924587,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 19.96442608371346,
+   "complete_data_percent": 0.0
+  }
  }
 ]

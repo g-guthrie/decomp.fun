@@ -66,5 +66,18 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-18T21:12:01Z",
+  "commit_sha": "5481ae96a27e5c93ef9af620e6909a9891259b47",
+  "commit_message": "maspsx is upstream 670417c, whose .lcomm layout follows ASPSX; the bss-layout patch is down to PSYLINK's .comm alignment (2, 4 or 8 by size), and the 15 objects that declared a static after a non-static declare their statics first, as ASPSX lays them out",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 100.00001,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

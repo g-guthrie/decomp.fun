@@ -33,5 +33,18 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-18T21:33:21Z",
+  "commit_sha": "111bab3981c4ecfd225366288d005275ded2585e",
+  "commit_message": "feat(decomp): match 1.9.8 config defaults and player_render (#795)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 7.852532049356263,
+   "matched_code_percent": 5.4801217678509,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

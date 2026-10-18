@@ -33,5 +33,18 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-18T21:14:13Z",
+  "commit_sha": "1de57457075df524741ab1b59ca40384d0fa63e3",
+  "commit_message": "feat(match): match initialize_game_assets_and_world with a fog block and shared loop counters (#128)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 51.81634572259615,
+   "matched_code_percent": 45.01971271214414,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
