@@ -66,11 +66,11 @@ PLATFORMS = [
 PLAT = {k: {"name": n, "short": s, "maker": m} for k, n, s, m in PLATFORMS}
 
 SORTS = [
-    ("updated", "Last updated"),
+    ("updated", "Recently updated"),
     ("name", "Name"),
-    ("percent", "Matched code (percent)"),
-    ("matched", "Matched code (size)"),
-    ("size", "Total code size"),
+    ("percent", "Most decompiled (%)"),
+    ("matched", "Most code decompiled"),
+    ("size", "Largest games"),
 ]
 
 SIZE_UNITS = ["B", "kB", "MB", "GB", "TB"]
@@ -122,13 +122,19 @@ def ago(dt, now):
 
 
 def write(rel, content):
+    if rel.endswith(".html") and "</head>" in content:
+        path = "/" + rel.removesuffix("index.html") if rel != "404.html" else None
+        if path:
+            content = content.replace("</head>", f'<link rel="canonical" href="https://decomp.fun{path}"></head>', 1)
     out = DIST / rel
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(content)
 
 
-def plat_badge(key):
+def plat_badge(key, link=False):
     p = PLAT.get(key, {"name": key or "Unknown", "short": (key or "?").upper()})
+    if link:
+        return f'<a class="plat" data-p="{e(key)}" href="/?platform={e(key)}" title="Show all {e(p["name"])} projects">{e(p["short"])}</a>'
     return f'<span class="plat" data-p="{e(key)}" title="{e(p["name"])}">{e(p["short"])}</span>'
 
 
@@ -201,6 +207,7 @@ class Project:
         self.others = []
         self.challengers = {}
         self.contesters = []
+        self.game_title = ""
         self.disputed = None
         hist_path = DATA / "history" / f"{self.id}.json"
         self.history = json.loads(hist_path.read_text()) if hist_path.exists() else []
@@ -252,7 +259,7 @@ def nav(site, crumbs=()):
     right = (
         '<li><a href="/systems/">Systems</a></li><li><a href="/submit/">Add a project</a></li><li><a href="/about/">About</a></li>'
         + "".join(f'<li><a href="{e(l["url"])}">{e(l["label"])}</a></li>' for l in site.get("nav_links", []))
-        + f'<li><a id="theme-toggle" href="#" title="Toggle theme" aria-label="Toggle theme">{ICON_THEME}</a></li>'
+        + f'<li><button type="button" id="theme-toggle" title="Switch light/dark" aria-label="Switch light or dark theme">{ICON_THEME}</button></li>'
     )
     return f"<nav><ul>{left}</ul><ul>{right}</ul></nav>"
 
@@ -260,8 +267,7 @@ def nav(site, crumbs=()):
 def footer(site, built):
     return (
         '<footer class="container"><small class="muted">'
-        f'{e(site["name"])} · progress is read from each project&rsquo;s own CI reports · '
-        f'<a href="/about/">About &amp; removal requests</a></small>'
+        f'{e(site["name"])} · progress is read from each project&rsquo;s own CI reports</small>'
         f'<small class="muted">Updated <time datetime="{built.isoformat()}">{built.strftime("%Y-%m-%d %H:%M UTC")}</time></small>'
         "</footer>"
     )
@@ -293,11 +299,11 @@ def bar(kind, total, linked_pct, matched_pct, fuzzy_pct=None, linked_size=None, 
         striped = " striped" if linked_pct > 0 else ""
         parts.append(
             f'<span class="matched{striped}" style="width:{matched_pct - linked_pct:.4f}%" '
-            f'data-tip="{fmt_pct(matched_pct)} perfect match{size(matched_size)}"></span>'
+            f'data-tip="{fmt_pct(matched_pct)} decompiled{size(matched_size)}"></span>'
         )
     if fuzzy_pct is not None and fuzzy_pct - matched_pct > 0.0001:
         parts.append(
-            f'<span class="fuzzy striped" style="width:{fuzzy_pct - matched_pct:.4f}%" data-tip="{fmt_pct(fuzzy_pct)} fuzzy match"></span>'
+            f'<span class="fuzzy striped" style="width:{fuzzy_pct - matched_pct:.4f}%" data-tip="{fmt_pct(fuzzy_pct)} including partly decompiled code"></span>'
         )
     return f'<div class="bar {kind}">{"".join(parts)}</div>'
 
@@ -322,16 +328,21 @@ def card(p, now):
     role = f'<span class="tag subtle">{e(p.role)}</span>' if p.role else ""
     sha = v.commit.get("sha", "")
     commit = f' in commit <a href="{e(p.commit_url(sha))}" target="_blank" rel="noopener">{e(sha[:7])}</a>' if sha else ""
-    search = " ".join([p.name, p.owner, p.repo, PLAT.get(p.platform, {}).get("name", "")]).lower()
+    terms = [p.name, p.game_title, p.description, p.owner, p.repo, f"{p.owner}/{p.repo}", PLAT.get(p.platform, {}).get("name", "")]
+    for o in p.others:
+        terms += [o.name, o.owner, o.repo, f"{o.owner}/{o.repo}"]
+    search = " ".join(t for t in terms if t).lower()
+    more = len(p.others)
+    others = f' <span class="tag subtle">+{more} other repo{"s" if more != 1 else ""}</span>' if more else ""
     return (
         f'<article class="project" data-platform="{e(p.platform)}" data-name="{e(p.name.lower())}" '
         f'data-updated="{e(v.commit["timestamp"])}" data-percent="{v.code_pct:.4f}" data-matched="{v.matched_code}" '
         f'data-size="{v.total_code}" data-search="{e(search)}">'
         f'<a class="project-link" href="{p.url()}" aria-label="{e(p.name)}"></a>{art}'
-        f'<div class="project-head"><h3>{e(p.name)}{role}</h3>{plat_badge(p.platform)}</div>'
+        f'<div class="project-head"><h3>{e(p.name)}{role}{others}</h3>{plat_badge(p.platform, link=True)}</div>'
         f"<h6>{headline(v)}</h6>{code_bar(v)}"
         f'<small class="muted">Updated <time data-ago datetime="{e(v.commit["timestamp"])}">{ago(v.updated, now)}</time>'
-        f" by <a href=\"{e(p.repository)}\" target=\"_blank\" rel=\"noopener\">{e(p.owner)}</a>{commit}</small></article>"
+        f'{commit} · <a href="{e(p.repository)}" target="_blank" rel="noopener">{e(p.owner)}/{e(p.repo)} ↗</a></small></article>'
     )
 
 
@@ -353,7 +364,7 @@ def build_index(site, projects, built):
         f'<li><a href="/" data-all>All systems</a></li>{items}</ul></details>'
     )
     sort_dd = (
-        '<details class="dropdown sort-list"><summary>Last updated</summary><ul>'
+        '<details class="dropdown sort-list"><summary>Recently updated</summary><ul>'
         + "".join(f'<li><a href="/?sort={k}" data-sort="{k}">{e(l)}</a></li>' for k, l in SORTS)
         + "</ul></details>"
     )
@@ -397,15 +408,14 @@ def build_systems(site, projects, built):
             + "<small><ul>"
             + "".join(f'<li><a href="{p.url()}">{e(p.name)}</a> <span class="muted">{fmt_pct(p.v.code_pct)}</span></li>' for p in top)
             + "</ul></small>"
-            + (f'<a href="/?platform={k}"><small>All {len(ps)} →</small></a>' if len(ps) > 5 else "")
             + "</article>"
         )
     body = (
         '<hgroup class="intro"><h2>Systems</h2><p class="muted">Every system with a tracked decompilation. '
-        "The bar on each card is the combined matched code across projects with a live report.</p></hgroup>"
+        "The bar on each card shows how much of that system&rsquo;s code is decompiled, across projects with a live report.</p></hgroup>"
         f'<div class="systems">{"".join(cards)}</div>'
     )
-    write("systems/index.html", page(site, built, f"Systems · {site['name']}", body, crumbs=[("Systems", "/systems/")]))
+    write("systems/index.html", page(site, built, f"Systems · {site['name']}", body))
 
 
 # ---------------------------------------------------------------- treemap layout
@@ -475,7 +485,9 @@ def version_switch(p, v, suffix=""):
     if len(p.versions) < 2:
         return ""
     lis = "".join(
-        f'<li><a href="{p.url(o.id, *([suffix] if suffix else []))}">{e(o.id)}</a></li>' for o in p.versions
+        f'<li><strong>{e(o.id)} ✓</strong></li>' if o is v else
+        f'<li><a href="{p.url(o.id, *([suffix] if suffix else []))}">{e(o.id)}</a></li>'
+        for o in p.versions
     )
     return f'<details class="dropdown"><summary>Version: {e(v.id)}</summary><ul>{lis}</ul></details>'
 
@@ -535,7 +547,7 @@ def _slot_notice(p):
 
 
 def build_report(site, p, v, base, built):
-    crumbs = [("Projects", "/"), (p.name, p.url())]
+    crumbs = [(p.name, p.url())]
     role = f' <span class="tag subtle">{e(p.role)}</span>' if p.role else ""
     archived_repo = ' <span class="tag subtle">Repository archived</span>' if p.meta.get("archived") else ""
     actions = (
@@ -549,7 +561,7 @@ def build_report(site, p, v, base, built):
     plat = PLAT.get(p.platform, {"name": p.platform})["name"]
     facts = f'<p class="muted"><small>{plat_badge(p.platform)} {e(plat)} · {e(v.id)} · maintained by <a href="https://github.com/{e(p.owner)}" target="_blank" rel="noopener">{e(p.owner)}</a>'
     if v.functions[1]:
-        facts += f" · {v.functions[0]:,} / {v.functions[1]:,} functions matched"
+        facts += f" · {v.functions[0]:,} / {v.functions[1]:,} functions decompiled"
     facts += "</small></p>"
 
     notice = slot_notice(p)
@@ -587,9 +599,10 @@ def build_report(site, p, v, base, built):
         units = (
             f'<h6>Units <small class="muted">({len(layout):,})</small></h6>'
             '<input id="unit-filter" type="search" placeholder="Filter units, e.g. camera <70% >10kb linked" aria-label="Filter units">'
-            f'<canvas id="treemap" data-src="{data_base}units.json"></canvas>'
-            '<p class="muted"><small>Each box is a translation unit sized by code. Green is an exact match; '
-            "blue shading shows partial (fuzzy) matches; grey is untouched.</small></p>"
+            f'<canvas id="treemap" data-src="{data_base}units.json" role="img" aria-label="Map of {len(layout):,} source files sized by code: '
+            f'{sum(1 for u in layout if u["p"] >= 100):,} fully decompiled"></canvas>'
+            '<p class="muted"><small>Each box is a source file, sized by its code. Green is decompiled, '
+            "blue shading is partly decompiled, grey is untouched.</small></p>"
         )
         scripts.append("/static/js/treemap.js")
 
@@ -598,6 +611,9 @@ def build_report(site, p, v, base, built):
         f"{desc}{facts}{version_switch(p, v)}{notice}{code}{data}{commit}{units}"
     )
     title = f"{p.name} ({PLAT.get(p.platform, {}).get('short', p.platform)}) · {site['name']}"
+    src_repo = ((p.raw.get("source") or {}).get("repo") or f"{p.owner}/{p.repo}").lower()
+    body = f'<div id="fresh" data-repo="{e(src_repo)}" data-sha="{e(p.v.commit.get("sha", ""))}" hidden></div>' + body
+    scripts.append("/static/js/fresh.js")
     write(
         base.strip("/") + "/index.html",
         page(site, built, title, body, f"{p.name} is {fmt_pct(v.code_pct)} decompiled", crumbs, scripts=scripts),
@@ -607,7 +623,7 @@ def build_report(site, p, v, base, built):
 def build_history(site, p, v, base, built):
     if base == p.url():
         write("/".join([p.owner, p.repo, "history.json"]), json.dumps(p.history, separators=(",", ":")))
-    crumbs = [("Projects", "/"), (p.name, base), ("History", base + "history/")]
+    crumbs = [(p.name, base), ("History", base + "history/")]
     archive_points = sum(1 for h in p.history if h.get("source") == "archive")
     note = ""
     if archive_points:
@@ -616,7 +632,7 @@ def build_history(site, p, v, base, built):
             "snapshots of the old decomp.dev index; newer points come from this project&rsquo;s CI reports.</small></p>"
         )
     body = (
-        f"<h3>History for {e(p.name)}</h3>{version_switch(p, v, 'history')}"
+        f"<h3>History for {e(p.name)}</h3>"
         f'<div id="chart" data-src="{p.url()}history.json"></div>{note}'
         f'<div role="group"><a role="button" class="secondary" href="{base}">Back to report</a></div>'
     )
@@ -652,7 +668,7 @@ percentages). This site&rsquo;s code is independent.</p>
 <h4>Listing and removal</h4>
 <p>Every project here is a public repository and every card links straight to it. New projects are added through
 <a href="/submit/">Add a project</a>, which checks them automatically. Each game appears once: when several repositories
-work on the same game, the one with the most matched code is listed and the others are shown on its page.
+work on the same game, the one with the most code decompiled is listed and the others are shown on its page.
 For anything else, <a href="{e(contact)}" target="_blank" rel="noopener">get in touch</a>.</p>
 <p class="muted"><small>Game lists: No-Intro and Redump via libretro-database (CC BY-SA 4.0), MAME, titledb and Wikidata.</small></p>
 <h4>Credits</h4>
@@ -661,7 +677,7 @@ For anything else, <a href="{e(contact)}" target="_blank" rel="noopener">get in 
 (<a href="/static/vendor/LICENSES.txt">licenses</a>). Game names and artwork belong to their owners.
 All credit for the decompilations goes to the people working on them.</p>
 """
-    write("about/index.html", page(site, built, f"About · {site['name']}", body, crumbs=[("About", "/about/")]))
+    write("about/index.html", page(site, built, f"About · {site['name']}", body))
 
 
 def build_submit(site, built):
@@ -669,6 +685,13 @@ def build_submit(site, built):
     from fetch import load_submissions
 
     recent = sorted(load_submissions(), key=lambda x: x.get("submitted_at", ""), reverse=True)[:100]
+    # Read by the Add a project page to show a result as soon as its check run deploys.
+    write("submissions.json", json.dumps([
+        {"repo": x["repo"], "status": x.get("status"), "reasons": x.get("reasons", []),
+         "game": x.get("game", {}).get("title", ""), "submitted_at": x.get("submitted_at", ""),
+         "url": f'/{x["project"]["owner"]}/{x["project"]["repo"]}/' if x.get("status") == "listed" and x.get("project") else None}
+        for x in recent
+    ], separators=(",", ":")))
     rows = []
     for x in recent:
         listed = x.get("status") == "listed"
@@ -694,11 +717,11 @@ def build_submit(site, built):
 <li>A public GitHub repository whose GitHub Actions publish an <a href="https://github.com/encounter/objdiff" target="_blank" rel="noopener">objdiff</a>
 progress report on the default branch, as an artifact with <code>report</code> in its name (projects built from
 <a href="https://github.com/encounter/dtk-template" target="_blank" rel="noopener">dtk-template</a> do this already).</li>
-<li>At least {sub.MIN_MATCHED_PERCENT:g}% of the code matched.</li>
+<li>At least {sub.MIN_MATCHED_PERCENT:g}% of the code decompiled.</li>
 <li>The game is identified from the repository itself: its disc ID, serial, title ID or ROM hash, as decomp projects
 normally contain. PC, DOS and Switch games have no such IDs, so for those you pick the system and the game&rsquo;s exact name.</li>
 <li>One project per game. If the game is already listed, your repository must decompile the same executable, and it takes
-the game&rsquo;s place once it leads by {slots.TAKEOVER_MARGIN:g}% of matched code for {slots.TAKEOVER_DAYS} days in a row.</li>
+the game&rsquo;s place once it leads by {slots.TAKEOVER_MARGIN:g}% more code decompiled for {slots.TAKEOVER_DAYS} days in a row.</li>
 <li>Your GitHub account is at least 30 days old. Up to 3 submissions per account per day.</li>
 </ul>
 <article>
@@ -719,7 +742,23 @@ the game&rsquo;s place once it leads by {slots.TAKEOVER_MARGIN:g}% of matched co
 {table}
 """
     write("submit/index.html", page(site, built, f"Add a project · {site['name']}", body,
-                                     crumbs=[("Add a project", "/submit/")], scripts=["/static/js/submit.js"]))
+                                     scripts=["/static/js/submit.js"]))
+
+
+def build_fresh(projects):
+    """What every project page was built from, so the Worker can tell when GitHub has newer progress."""
+    out = {}
+    for p in projects:
+        src = p.raw.get("source") or {}
+        repo = src.get("repo") or f"{p.owner}/{p.repo}"
+        out[repo.lower()] = {
+            "sha": p.v.commit.get("sha", ""),
+            "kind": src.get("type", "auto"),
+            "branch": src.get("branch") or p.meta.get("default_branch", "main"),
+            "artifact": src.get("artifact"),
+            "path": src.get("path"),
+        }
+    write("fresh.json", json.dumps(out, separators=(",", ":")))
 
 
 def build_404(site, built):
@@ -765,14 +804,17 @@ def main():
         lead.contesters = slot["contesters"]
         for o in slot["others"]:
             o.leader = lead
+    ident = slots.identities()
     for p in projects:
         p.disputed = disputed.get(f"{p.owner}/{p.repo}".lower())
+        p.game_title = (ident.get(f"{p.owner}/{p.repo}".lower()) or {}).get("title", "")
     leaders = [p for p in projects if p.leader is p]
 
     build_index(site, leaders, built)
     build_systems(site, leaders, built)
     build_about(site, projects, built)
     build_404(site, built)
+    build_fresh(projects)
     build_submit(site, built)
     for p in projects:
         for i, v in enumerate(p.versions):

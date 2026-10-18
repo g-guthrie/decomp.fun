@@ -447,7 +447,12 @@ def main():
     REPORTS.mkdir(parents=True, exist_ok=True)
     HISTORY.mkdir(parents=True, exist_ok=True)
     only = sys.argv[1:]
-    projects = [p for p in all_projects() if not only or any(o.lower() in (p["id"] + p["repo"]).lower() for o in only)]
+    if only[:1] == ["--repo"]:  # exactly one repository (refresh-on-view)
+        want = only[1].lower()
+        projects = [p for p in all_projects()
+                    if ((p.get("source") or {}).get("repo") or f"{p['owner']}/{p['repo']}").lower() == want]
+    else:
+        projects = [p for p in all_projects() if not only or any(o.lower() in (p["id"] + p["repo"]).lower() for o in only)]
     print(f"fetching {len(projects)} project(s)")
     ok = missing = failed = missing_repo = 0
     no_report = []

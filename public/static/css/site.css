@@ -74,7 +74,13 @@ nav > ul:first-child > li + li::before {
 #theme-toggle {
   display: inline-flex;
   vertical-align: middle;
+  margin: 0;
+  padding: var(--pico-nav-link-spacing-vertical) var(--pico-nav-link-spacing-horizontal);
+  border: 0;
+  background: none;
+  box-shadow: none;
   color: var(--pico-primary);
+  cursor: pointer;
 }
 #theme-toggle svg {
   width: 1.25rem;
@@ -147,7 +153,17 @@ pre {
   border-bottom-color: var(--pico-contrast-background);
 }
 [data-tip] {
+  cursor: default;
+}
+.project [data-tip] {
   cursor: pointer;
+}
+a.plat {
+  text-decoration: none;
+  pointer-events: auto;
+}
+a.plat:hover {
+  filter: brightness(1.15);
 }
 
 /* ---------------------------------------------------------------- progress bars */

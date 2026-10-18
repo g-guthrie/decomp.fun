@@ -61,7 +61,7 @@ def report_problems(v):
         out.append("The progress report's numbers don't add up (totals, matched sizes and per-file sizes disagree).")
     matched = fetch.pct(m["matched_code"], m["total_code"])
     if matched < MIN_MATCHED_PERCENT:
-        out.append(f"{matched:.2f}% of the code is matched; at least {MIN_MATCHED_PERCENT:g}% is required.")
+        out.append(f"{matched:.2f}% of the code is decompiled; at least {MIN_MATCHED_PERCENT:g}% is required.")
     return out
 
 
@@ -157,7 +157,7 @@ def check(repo, by, system=None, game=None):
     if current:
         note = [
             f"Accepted as a challenger: {current} currently holds {hit['title']}. This repository takes the slot "
-            f"once it leads by {slots.TAKEOVER_MARGIN:g}% of matched code for {slots.TAKEOVER_DAYS} days in a row."
+            f"once it leads by {slots.TAKEOVER_MARGIN:g}% more code decompiled for {slots.TAKEOVER_DAYS} days in a row."
         ]
     entry.update(status="listed", reasons=note)
     if versions:

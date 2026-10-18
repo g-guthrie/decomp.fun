@@ -5,7 +5,7 @@ on:
     - cron: "17 */6 * * *" # every 6 hours: refresh every project
   workflow_dispatch:
   repository_dispatch:
-    types: [submission] # sent by the site when someone submits a repository
+    types: [submission, refresh] # sent by the site: a new submission, or newer progress seen on a page view
   push:
     branches: [main]
     paths-ignore:
@@ -17,7 +17,7 @@ on:
 # Scheduled/manual runs queue behind each other; every submission gets its own run
 # (sharing a group would let GitHub drop queued submissions).
 concurrency:
-  group: ${{ github.event_name == 'repository_dispatch' && format('submission-{0}', github.run_id) || 'update' }}
+  group: ${{ github.event_name == 'repository_dispatch' && format('{0}-{1}', github.event.action, github.run_id) || 'update' }}
   cancel-in-progress: false
 
 permissions:
@@ -51,8 +51,15 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_READ_TOKEN || github.token }}
         run: python3 fetch.py
 
+      - name: Refresh one project
+        if: github.event.action == 'refresh'
+        env:
+          GH_TOKEN: ${{ secrets.GH_READ_TOKEN || github.token }}
+          REFRESH_REPO: ${{ github.event.client_payload.repo }}
+        run: python3 fetch.py --repo "$REFRESH_REPO"
+
       - name: Check submitted repository
-        if: github.event_name == 'repository_dispatch'
+        if: github.event.action == 'submission'
         env:
           GH_TOKEN: ${{ secrets.GH_READ_TOKEN || github.token }}
           # Passed through the environment, never interpolated into the script.
@@ -66,7 +73,7 @@ jobs:
           python3 submit.py "${args[@]}"
 
       - name: Save reports
-        if: always() && github.event_name != 'repository_dispatch'
+        if: always() && github.event.action != 'submission'
         uses: actions/cache/save@v4
         with:
           path: data/reports

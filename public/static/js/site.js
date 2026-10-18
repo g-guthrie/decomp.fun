@@ -5,10 +5,10 @@
   const toggle = document.getElementById("theme-toggle");
   if (toggle) {
     toggle.addEventListener("click", (ev) => {
-      ev.preventDefault();
       const current = root.getAttribute("data-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
       const next = current === "dark" ? "light" : "dark";
       root.setAttribute("data-theme", next);
+      toggle.setAttribute("aria-pressed", String(next === "dark"));
       try {
         localStorage.setItem("theme", next);
       } catch {}
@@ -51,6 +51,14 @@
   document.addEventListener("touchstart", (ev) => target(ev) && show(target(ev)), { passive: true });
   document.addEventListener("touchend", (ev) => target(ev) && hide(target(ev)), { passive: true });
 
+  // Bars on cards show a tooltip on hover; a click still opens the card.
+  document.addEventListener("click", (ev) => {
+    const tipEl = target(ev);
+    const card = tipEl && !tipEl.closest("a") ? tipEl.closest(".project") : null;
+    const link = card && card.querySelector(".project-link");
+    if (link) location.href = link.href;
+  });
+
   // ------------------------------------------------------------ relative times
   const steps = [
     ["year", 31536000],
@@ -86,11 +94,11 @@
   const counter = document.getElementById("result-count");
 
   const sorts = {
-    updated: ["Last updated", (a, b) => b.dataset.updated.localeCompare(a.dataset.updated)],
+    updated: ["Recently updated", (a, b) => b.dataset.updated.localeCompare(a.dataset.updated)],
     name: ["Name", (a, b) => a.dataset.name.localeCompare(b.dataset.name)],
-    percent: ["Matched code (percent)", (a, b) => +b.dataset.percent - +a.dataset.percent],
-    matched: ["Matched code (size)", (a, b) => +b.dataset.matched - +a.dataset.matched],
-    size: ["Total code size", (a, b) => +b.dataset.size - +a.dataset.size],
+    percent: ["Most decompiled (%)", (a, b) => +b.dataset.percent - +a.dataset.percent],
+    matched: ["Most code decompiled", (a, b) => +b.dataset.matched - +a.dataset.matched],
+    size: ["Largest games", (a, b) => +b.dataset.size - +a.dataset.size],
   };
 
   const params = new URL(location.href).searchParams;
@@ -156,5 +164,13 @@
     }),
   );
   search?.addEventListener("input", apply);
+  list.addEventListener("click", (ev) => {
+    const badge = ev.target instanceof Element ? ev.target.closest("a.plat") : null;
+    if (!badge) return;
+    ev.preventDefault();
+    boxes.forEach((b) => (b.checked = b.value === badge.dataset.p));
+    apply();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   apply();
 })();

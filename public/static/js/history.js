@@ -27,10 +27,10 @@
           scales: { x: { time: true }, y: { range: [0, 100] } },
           series: [
             {},
-            { label: "Matched code", stroke: "#29c45a", width: 2, value: pct, spanGaps: true },
-            { label: "Fuzzy match", stroke: "#3d8bfd", width: 2, value: pct, spanGaps: true, show: false },
+            { label: "Decompiled", stroke: "#29c45a", width: 2, value: pct, spanGaps: true },
+            { label: "Including partly decompiled", stroke: "#3d8bfd", width: 2, value: pct, spanGaps: true, show: false },
             { label: "Fully linked", stroke: "#f0a020", width: 2, value: pct, spanGaps: true, show: false },
-            { label: "Matched data", stroke: "#c060e0", width: 2, value: pct, spanGaps: true, show: false },
+            { label: "Data decompiled", stroke: "#c060e0", width: 2, value: pct, spanGaps: true, show: false },
           ],
           axes: [axis, { ...axis, values: (u, ticks) => ticks.map((t) => `${t}%`) }],
         },

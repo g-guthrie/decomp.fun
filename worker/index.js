@@ -2,6 +2,8 @@
 //
 // /auth/login, /auth/callback, /auth/logout  GitHub OAuth (no scopes: only the public profile)
 // /api/me                                    who is signed in
+// /api/fresh                                 is there newer progress on GitHub than a project page
+//                                            shows? If so, start a refresh of just that project
 // /api/submit                                quick checks, then hands the repository to the
 //                                            check workflow (repository_dispatch); the full
 //                                            checks and the result happen there.
@@ -16,6 +18,9 @@ const PER_ACCOUNT_PER_DAY = 3;
 const SITE_PER_DAY = 200;
 const SESSION_DAYS = 7;
 const NAME_ONLY = ["win32", "switch", "dos"];
+const FRESH_CHECK_SECONDS = 600; // ask GitHub about a project at most every 10 minutes
+const REFRESH_LOCK_SECONDS = 900; // one refresh in flight per project
+const DEFAULT_REFRESHES_PER_DAY = 30; // keeps a private repo within its free Actions minutes
 
 export default {
   async fetch(request, env) {
@@ -32,6 +37,8 @@ export default {
           return await me(request, env);
         case "/api/submit":
           return await submit(request, env);
+        case "/api/fresh":
+          return await fresh(request, url, env);
         default:
           return env.ASSETS.fetch(request);
       }
@@ -194,8 +201,78 @@ async function submit(request, env) {
   // Only submissions that actually started count toward the limits.
   await increment(env, userKey);
   await increment(env, siteKey);
-  return json({
-    ok: true,
-    message: `Submitted ${info.full_name}. The checks are running now; the result appears in the list below in about 5 minutes.`,
-  });
+  return json({ ok: true, repo: info.full_name, message: `Submitted ${info.full_name}.` });
+}
+
+// ------------------------------------------------------------------ refresh on view
+
+let manifest = null; // fresh.json, loaded once per Worker instance
+let manifestAt = 0;
+
+async function loadManifest(env, origin) {
+  if (!manifest || Date.now() - manifestAt > 60e3) {
+    const res = await env.ASSETS.fetch(new Request(`${origin}/fresh.json`));
+    manifest = res.ok ? await res.json() : {};
+    manifestAt = Date.now();
+  }
+  return manifest;
+}
+
+async function latestSha(env, repo, src) {
+  if (src.kind === "objdiff_file" && src.path) {
+    const r = await github(`repos/${repo}/commits?path=${encodeURIComponent(src.path)}&per_page=1`, env.GITHUB_DISPATCH_TOKEN);
+    if (!r.ok) return null;
+    const [c] = await r.json();
+    return c ? c.sha : null;
+  }
+  const r = await github(`repos/${repo}/actions/artifacts?per_page=50`, env.GITHUB_DISPATCH_TOKEN);
+  if (!r.ok) return null;
+  const { artifacts = [] } = await r.json();
+  const newest = artifacts
+    .filter((a) => !a.expired && a.workflow_run && a.workflow_run.head_branch === src.branch)
+    .filter((a) => (src.artifact ? a.name === src.artifact : /report/i.test(a.name)))
+    .sort((a, b) => b.created_at.localeCompare(a.created_at))[0];
+  return newest ? newest.workflow_run.head_sha : null;
+}
+
+async function fresh(request, url, env) {
+  const repo = String(url.searchParams.get("repo") || "").toLowerCase();
+  const list = await loadManifest(env, url.origin);
+  const src = list[repo];
+  if (!src) return json({ status: "unknown" });
+
+  // Answer from the edge cache when this project was checked recently (no KV writes per view).
+  const cache = caches.default;
+  const cacheKey = new Request(`${url.origin}/__fresh/${encodeURIComponent(repo)}/${src.sha}`);
+  const cached = await cache.match(cacheKey);
+  if (cached) return cached;
+
+  let status = "current";
+  const latest = await latestSha(env, repo, src);
+  if (latest && latest !== src.sha) {
+    const day = new Date().toISOString().slice(0, 10);
+    const limit = Number(env.REFRESHES_PER_DAY || DEFAULT_REFRESHES_PER_DAY);
+    if (await env.LIMITS.get(`refreshing:${repo}`)) {
+      status = "updating";
+    } else if ((await count(env, `refresh:${day}`)) >= limit) {
+      status = "busy";
+    } else {
+      const d = await github(`repos/${env.SITE_REPO}/dispatches`, env.GITHUB_DISPATCH_TOKEN, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ event_type: "refresh", client_payload: { repo } }),
+      });
+      if (d.ok) {
+        await env.LIMITS.put(`refreshing:${repo}`, latest, { expirationTtl: REFRESH_LOCK_SECONDS });
+        await increment(env, `refresh:${day}`);
+        status = "updating";
+      } else {
+        console.error("refresh dispatch failed", d.status);
+        status = "current";
+      }
+    }
+  }
+  const res = json({ status }, 200, { "cache-control": `public, max-age=${FRESH_CHECK_SECONDS}` });
+  await cache.put(cacheKey, res.clone());
+  return res;
 }
