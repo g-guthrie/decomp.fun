@@ -49,6 +49,18 @@ nav > ul:first-child > li + li::before {
   nav > ul:first-child > li:not(:first-child) {
     display: none;
   }
+  /* Phones: brand on its own line, the menu underneath, nothing cut off. */
+  body > header nav {
+    flex-wrap: wrap;
+  }
+  body > header nav > ul:last-child {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-inline-start: calc(var(--pico-nav-element-spacing-horizontal) * -1);
+  }
+  body > header nav > ul:last-child li {
+    padding-block: 0.25rem;
+  }
 }
 
 .brand {
@@ -291,6 +303,13 @@ details.dropdown summary + ul {
 .section-title {
   margin: calc(var(--pico-spacing) * 2) 0 var(--pico-spacing);
 }
+.stats {
+  color: var(--pico-muted-color);
+  margin-bottom: var(--pico-spacing);
+}
+.stats strong {
+  color: var(--pico-color);
+}
 .result-count {
   margin-bottom: var(--pico-spacing);
 }
@@ -357,11 +376,25 @@ details.dropdown summary + ul {
 
 /* ---------------------------------------------------------------- report */
 
-.report-actions {
-  float: right;
+.report-top {
   display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.report-actions {
+  display: flex;
+  flex: none;
   gap: 0.5rem;
-  margin-inline-start: 1em;
+}
+@media (max-width: 768px) {
+  .report-top {
+    flex-direction: column;
+    gap: 0;
+  }
+  .report-actions {
+    margin-bottom: var(--pico-spacing);
+  }
 }
 .report-actions a[role="button"] {
   padding: 0.4rem 0.8rem;

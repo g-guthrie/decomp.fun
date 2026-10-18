@@ -64,7 +64,17 @@ def pct(a, b):
 # ---------------------------------------------------------------- normalisers
 
 
+def snake_keys(obj):
+    """objdiff reports come in snake_case or protobuf-JSON camelCase (matchedCode); use one."""
+    if isinstance(obj, dict):
+        return {re.sub(r"(?<!^)(?=[A-Z])", "_", k).lower(): snake_keys(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [snake_keys(v) for v in obj]
+    return obj
+
+
 def from_objdiff(report):
+    report = snake_keys(report)
     m = report.get("measures", {})
     total_code = num(m.get("total_code"))
     total_data = num(m.get("total_data"))
@@ -408,6 +418,11 @@ def all_projects():
         if s.get("status") == "listed" and s.get("project") and key not in by_repo:
             by_repo[key] = s["project"]
     return list(by_repo.values())
+
+
+def contesting_projects():
+    """Submissions disputing a listed project's game: not shown, but counted by slots.assign."""
+    return [s["project"] for s in load_submissions() if s.get("status") == "contesting" and s.get("project")]
 
 
 def load_submissions():

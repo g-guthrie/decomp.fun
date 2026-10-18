@@ -4,20 +4,28 @@
   "game": "ty-the-tasmanian-tiger",
   "title": "Ty the Tasmanian Tiger",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GTYE"
+  ]
  },
  "2tie/mh1j": {
   "platform": "ps2",
   "game": "monster-hunter",
   "title": "Monster Hunter",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLPM65495"
+  ]
  },
  "aaaaaaaaaaway/chulip-decomp": {
   "platform": "ps2",
-  "game": null,
+  "game": "chulip",
   "title": "Chulip",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "aaaaaaaaaaway/kaze-no-notam-decomp": {
   "platform": "ps",
@@ -29,28 +37,33 @@
   "platform": "gc",
   "game": "animal-crossing",
   "title": "Animal Crossing",
-  "by": "disc",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "acreteam/afe-decomp": {
   "platform": "gc",
-  "game": "doubutsu-no-mori-e",
-  "title": "Doubutsu no Mori e+",
-  "by": "disc",
-  "aliases": []
+  "game": null,
+  "title": "\u3069\u3046\u3076\u3064\u306e\u68ee e+",
+  "by": "disagrees:Doubutsu no Mori e+"
  },
  "adubbz/dcdecomp": {
   "platform": "ps2",
-  "game": null,
+  "game": "dark-cloud",
   "title": "Dark Cloud",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "akiramusic000/rhae": {
   "platform": "wii",
   "game": "wii-play",
   "title": "Wii Play",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "RHAE"
+  ]
  },
  "alebello7276/xkrnl-decomp": {
   "platform": "xbox360",
@@ -63,128 +76,164 @@
   "game": "disney-alice-in-wonderland",
   "title": "Disney Alice in Wonderland",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SALE",
+   "SALP"
+  ]
  },
  "almamu/crashbandicootxs-decomp": {
   "platform": "gba",
-  "game": "crash-bandicoot-2-n-tranced",
-  "title": "Crash Bandicoot 2 - N-Tranced",
-  "by": "sha1",
-  "aliases": [
-   "crash-bandicoot-the-huge-adventure"
-  ]
+  "game": null,
+  "title": "Crash Bandicoot: XS (The Huge Adventure)",
+  "by": "unidentified"
  },
  "angheloalf/drmario64": {
   "platform": "n64",
-  "game": null,
+  "game": "dr-mario-64",
   "title": "Dr. Mario 64",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "angheloalf/puzzleleague64": {
   "platform": "n64",
   "game": "pokemon-puzzle-league",
   "title": "Pokemon Puzzle League",
   "by": "sha1",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "184f0cac8fdfad47590c515fc637076d2ded58d7",
+   "72760a2d87ed3e70756a4aa689b9b26786669a52",
+   "8173866fc8c7652abd44c48efcab85441c6806a1",
+   "dbc9d0de131f3604a9115b58368e9050f1a6303f"
+  ]
  },
  "ashfordfamily/recvx-decomp": {
   "platform": "ps2",
   "game": "resident-evil-code-veronica-x",
   "title": "Resident Evil - Code - Veronica X",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS20184"
+  ]
  },
  "banteg/crimson": {
   "platform": "win32",
-  "game": null,
+  "game": "crimsonland",
   "title": "Crimsonland",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "banteg/harvest": {
   "platform": "win32",
-  "game": null,
+  "game": "harvest-massive-encounter",
   "title": "Harvest: Massive Encounter",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "banteg/snail": {
   "platform": "win32",
-  "game": null,
+  "game": "snail-mail",
   "title": "Snail Mail",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "bfbbdecomp/bfbb": {
   "platform": "gc",
   "game": "nickelodeon-spongebob-squarepants-battle-for-bikini-bottom",
   "title": "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GQPE"
+  ]
  },
  "bfbbdecomp/tssm": {
   "platform": "gc",
-  "game": "nickelodeon-the-spongebob-squarepants-movie",
-  "title": "Nickelodeon The SpongeBob SquarePants Movie",
-  "by": "disc",
-  "aliases": []
+  "game": null,
+  "title": "The SpongeBob SquarePants Movie",
+  "by": "unidentified"
  },
  "bgsamm/pbr-dtk": {
   "platform": "wii",
   "game": "pokemon-battle-revolution",
   "title": "Pokemon Battle Revolution",
-  "by": "disc",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "bigyoshi51/1080-decomp": {
   "platform": "n64",
   "game": "1080-snowboarding",
   "title": "1080 Snowboarding",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "bigyoshi51/glover-decomp": {
   "platform": "n64",
-  "game": null,
+  "game": "glover",
   "title": "Glover",
-  "by": "disagrees:Frogger 2"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "bluisblu/cttr": {
   "platform": "gc",
   "game": "crash-tag-team-racing",
   "title": "Crash Tag Team Racing",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "G9RE"
+  ]
  },
  "bluisblu/pvz": {
   "platform": "win32",
-  "game": null,
+  "game": "plants-vs-zombies",
   "title": "Plants vs. Zombies",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "brian-oblivion/lsddecomp": {
   "platform": "ps",
   "game": "lsd-dream-emulator",
   "title": "LSD - Dream Emulator",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLPS01556"
+  ]
  },
  "caesar0007/nfshs-psx-decomp": {
   "platform": "ps",
-  "game": null,
-  "title": "Need for Speed: High Stakes",
-  "by": "unidentified"
+  "game": "need-for-speed-high-stakes",
+  "title": "Need for Speed - High Stakes",
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "cdlewis/snowboardkids-decomp": {
   "platform": "n64",
   "game": "snowboard-kids",
   "title": "Snowboard Kids",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "cdlewis/snowboardkids2-decomp": {
   "platform": "n64",
   "game": "snowboard-kids-2",
   "title": "Snowboard Kids 2",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "celophi/lom-decomp": {
   "platform": "ps",
@@ -193,48 +242,61 @@
   "by": "serial",
   "aliases": [
    "seiken-densetsu-legend-of-mana"
+  ],
+  "builds": [
+   "SLPS02170",
+   "SLUS01013"
   ]
  },
  "chameleontwistret/chameleontwistv1.0-jp": {
   "platform": "n64",
   "game": "chameleon-twist",
   "title": "Chameleon Twist",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "charlese2/sgr": {
   "platform": "gc",
   "game": "summoner-a-goddess-reborn",
   "title": "Summoner - A Goddess Reborn",
-  "by": "disc",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "chimpsatsea/reach": {
   "platform": "xbox360",
-  "game": null,
-  "title": "Halo Reach",
-  "by": "unidentified"
+  "game": "halo-reach",
+  "title": "Halo - Reach",
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "coaltergeist/goldensun-decomp": {
   "platform": "gba",
   "game": "golden-sun",
   "title": "Golden Sun",
   "by": "sha1",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "5c4695205413df7db52b9a184815a07783999971"
+  ]
  },
  "conhlee/rhf": {
   "platform": "wii",
   "game": "rhythm-heaven-fever",
   "title": "Rhythm Heaven Fever",
-  "by": "disc",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "cypressru/sonicbattledecomp": {
   "platform": "gba",
   "game": "sonic-battle",
   "title": "Sonic Battle",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "daanhenke/persona-psx": {
   "platform": "ps",
@@ -247,116 +309,160 @@
   "game": "shaun-palmer-s-pro-snowboarder",
   "title": "Shaun Palmer's Pro Snowboarder",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS20199"
+  ]
  },
  "darkrta/rb3": {
   "platform": "wii",
   "game": "rock-band-3",
   "title": "Rock Band 3",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SZBE"
+  ]
  },
  "dbalatoni13/nfsmw": {
   "platform": "win32",
-  "game": null,
+  "game": "need-for-speed-most-wanted",
   "title": "Need for Speed: Most Wanted",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "denzi-gh/crashwoc-decomp-gc": {
   "platform": "gc",
   "game": "crash-bandicoot-the-wrath-of-cortex",
   "title": "Crash Bandicoot - The Wrath of Cortex",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GCBE"
+  ]
  },
  "denzi-gh/crashwoc-decomp-ps2": {
   "platform": "ps2",
   "game": "crash-bandicoot-the-wrath-of-cortex",
   "title": "Crash Bandicoot - The Wrath of Cortex",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLES50386"
+  ]
  },
  "devoldschool/conkers-bfd-decomp": {
   "platform": "n64",
   "game": "conker-s-bad-fur-day",
   "title": "Conker's Bad Fur Day",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "doldecomp/brawl": {
   "platform": "wii",
   "game": "super-smash-bros-brawl",
   "title": "Super Smash Bros. Brawl",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "RSBE"
+  ]
  },
  "doldecomp/melee": {
   "platform": "gc",
   "game": "super-smash-bros-melee",
   "title": "Super Smash Bros. Melee",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GALE"
+  ]
  },
  "doldecomp/mkdd": {
   "platform": "gc",
-  "game": null,
-  "title": "Mario Kart: Double Dash!!",
-  "by": "unidentified"
+  "game": "mario-kart-double-dash",
+  "title": "Mario Kart - Double Dash!!",
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "doldecomp/mkw": {
   "platform": "wii",
   "game": "mario-kart-wii",
   "title": "Mario Kart Wii",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "RMCP"
+  ]
  },
  "doldecomp/ogws": {
   "platform": "wii",
   "game": "wii-sports",
   "title": "Wii Sports",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "RSPE"
+  ]
  },
  "doldecomp/sms": {
   "platform": "gc",
   "game": "super-mario-sunshine",
   "title": "Super Mario Sunshine",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GMSE",
+   "GMSJ",
+   "GMSP"
+  ]
  },
  "doldecomp/ttyd": {
   "platform": "gc",
   "game": "paper-mario-the-thousand-year-door",
   "title": "Paper Mario - The Thousand-Year Door",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "G8MJ"
+  ]
  },
  "dothacktranslate/okamiden-decomp": {
   "platform": "nds",
-  "game": null,
-  "title": "\u014ckamiden",
-  "by": "unidentified"
+  "game": "okamiden",
+  "title": "Okamiden",
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "dougchansan/pkmn-colosseum": {
   "platform": "gc",
   "game": "pokemon-colosseum",
   "title": "Pokemon Colosseum",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GC6E"
+  ]
  },
  "drahsid/mischief-makers": {
   "platform": "n64",
   "game": "mischief-makers",
   "title": "Mischief Makers",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "dream-atelier/kl-eod-decomp": {
   "platform": "gba",
   "game": "klonoa-empire-of-dreams",
   "title": "Klonoa - Empire of Dreams",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "dreamingmoths/memory-of-alessa": {
   "platform": "ps2",
@@ -365,6 +471,10 @@
   "by": "serial",
   "aliases": [
    "silent-hill-2"
+  ],
+  "builds": [
+   "SLUS20228",
+   "SLUS20622"
   ]
  },
  "dreamingmoths/mirror-of-alessa": {
@@ -372,14 +482,18 @@
   "game": "silent-hill-2",
   "title": "Silent Hill 2",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS20228"
+  ]
  },
  "eebit/fe11-us": {
   "platform": "nds",
   "game": "fire-emblem-shadow-dragon",
   "title": "Fire Emblem - Shadow Dragon",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "emoluvjd2/oregontrail-win32-decomp": {
   "platform": "win32",
@@ -397,8 +511,9 @@
   "platform": "n64",
   "game": "pokemon-snap",
   "title": "Pokemon Snap",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "euclidvsgauss/hazardrevenge": {
   "platform": "win32",
@@ -411,63 +526,80 @@
   "game": "legacy-of-kain-soul-reaver",
   "title": "Legacy of Kain - Soul Reaver",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS00708"
+  ]
  },
  "fuuzetsu/tenchu-decomp": {
   "platform": "ps",
   "game": "rittai-ninja-katsugeki-tenchu-shinobi-gaisen",
   "title": "Rittai Ninja Katsugeki - Tenchu - Shinobi Gaisen",
-  "by": "serial",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "g-guthrie/mvc2-naomi-decomp": {
   "platform": "naomi",
   "game": "marvel-vs-capcom-2-new-age-of-heroes",
   "title": "Marvel Vs. Capcom 2: New Age of Heroes",
-  "by": "set",
-  "aliases": []
+  "by": "vset",
+  "aliases": [],
+  "builds": [
+   "MVSC2"
+  ]
  },
  "g-guthrie/mvc2-ps2-decomp": {
   "platform": "ps2",
   "game": "marvel-vs-capcom-2-new-age-of-heroes",
   "title": "Marvel vs. Capcom 2 - New Age of Heroes",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS20486"
+  ]
  },
  "g-guthrie/topspin4-decomp": {
   "platform": "xbox360",
   "game": "top-spin-4",
   "title": "Top Spin 4",
   "by": "title",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "54540859"
+  ]
  },
  "gaberealb/parasite-eve-2-decomp": {
   "platform": "ps",
   "game": "parasite-eve-ii",
   "title": "Parasite Eve II",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS01042"
+  ]
  },
  "gamemasterplc/bltouch2": {
   "platform": "nds",
   "game": "bomberman-land-touch-2",
   "title": "Bomberman Land Touch! 2",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "gcsmith/pilotwings64decomp": {
   "platform": "n64",
   "game": "pilotwings-64",
   "title": "Pilotwings 64",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "goldielegenie/dqiv-decomp": {
   "platform": "nds",
-  "game": "dragon-quest-iv-chapters-of-the-chosen",
-  "title": "Dragon Quest IV - Chapters of the Chosen",
-  "by": "sha1",
-  "aliases": []
+  "game": null,
+  "title": "Dragon Quest IV",
+  "by": "unidentified"
  },
  "gradengnostic/pokemoon": {
   "platform": "3ds",
@@ -483,15 +615,19 @@
  },
  "granimated/minecraftlce": {
   "platform": "switch",
-  "game": null,
+  "game": "minecraft-nintendo-switch-edition",
   "title": "Minecraft: Nintendo Switch Edition",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "guestdreemurr/forecast": {
   "platform": "wii",
-  "game": null,
+  "game": "forecast-channel",
   "title": "Forecast Channel",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "hansbonini/psx_tomba": {
   "platform": "ps",
@@ -502,6 +638,13 @@
    "interactive-cd-sampler-disk-volume-5",
    "ore-tomba",
    "tombi"
+  ],
+  "builds": [
+   "SCES01330",
+   "SCES01331",
+   "SCUS94232",
+   "SCUS94236",
+   "SLPS01144"
   ]
  },
  "harskov/stretch-panic-usa": {
@@ -509,40 +652,52 @@
   "game": "stretch-panic",
   "title": "Stretch Panic",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS20182"
+  ]
  },
  "haydntrigg/castaway": {
   "platform": "wii",
   "game": "the-sims-2-castaway",
   "title": "The Sims 2 - Castaway",
-  "by": "disc",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "haydntrigg/freelancer": {
   "platform": "win32",
-  "game": null,
+  "game": "freelancer",
   "title": "Freelancer",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "haydntrigg/homeworld2classic": {
   "platform": "win32",
-  "game": null,
+  "game": "homeworld-2",
   "title": "Homeworld 2",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "ieee802dot11ac/fnv": {
   "platform": "xbox360",
   "game": "fallout-new-vegas",
   "title": "Fallout - New Vegas",
   "by": "title",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "425307E0"
+  ]
  },
  "inspectredc/fzerox": {
   "platform": "n64",
   "game": "f-zero-x",
   "title": "F-Zero X",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "inspectredc/fzerox-expansion-kit": {
   "platform": "n64",
@@ -555,21 +710,28 @@
   "game": "digimon-world-4",
   "title": "Digimon World 4",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GDJE"
+  ]
  },
  "iwillcraft-m0d/dogcomp": {
   "platform": "ps2",
   "game": "dog-s-life",
   "title": "Dog's Life",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SCES51248"
+  ]
  },
  "jdperos/chrono-cross-decomp": {
   "platform": "ps",
   "game": "chrono-cross",
   "title": "Chrono Cross",
-  "by": "serial",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "jeanxpereira/crystalosd": {
   "platform": "ps2",
@@ -582,49 +744,70 @@
   "game": "sonic-heroes",
   "title": "Sonic Heroes",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "G9SE"
+  ]
  },
  "jrickey/frog-adv-temple-decomp": {
   "platform": "gba",
   "game": "frogger-s-adventures-temple-of-the-frog",
   "title": "Frogger's Adventures - Temple of the Frog",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "jype0/dw_decomp": {
   "platform": "ps",
   "game": "digimon-world",
   "title": "Digimon World",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS01032"
+  ]
  },
  "karamzov123/fzero-gx-decomp": {
   "platform": "gc",
   "game": "f-zero-gx",
   "title": "F-Zero GX",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GFZE"
+  ]
  },
  "khasinski/parasite-eve-decomp": {
   "platform": "ps",
   "game": "parasite-eve",
   "title": "Parasite Eve",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS00662"
+  ]
  },
  "khasinski/rage-racer-decomp": {
   "platform": "ps",
   "game": "rage-racer",
   "title": "Rage Racer",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SCES00650",
+   "SLPS00600",
+   "SLUS00403"
+  ]
  },
  "kidwizardoftheweb/sr2": {
   "platform": "ps2",
   "game": "sonic-riders-zero-gravity",
   "title": "Sonic Riders - Zero Gravity",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS21642"
+  ]
  },
  "koopthekoopa/wii-ipl": {
   "platform": "wii",
@@ -637,119 +820,149 @@
   "game": "xenogears",
   "title": "Xenogears",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS00664"
+  ]
  },
  "lagolunatic/ooe": {
   "platform": "nds",
   "game": "castlevania-order-of-ecclesia",
   "title": "Castlevania - Order Of Ecclesia",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "laqieer/fireemblem8u": {
   "platform": "gba",
   "game": "fire-emblem-the-sacred-stones",
   "title": "Fire Emblem - The Sacred Stones",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "llonsit-glitch/wonder": {
   "platform": "n64",
-  "game": "wonder-project-j2-koruro-no-mori-no-jozet",
-  "title": "Wonder Project J2 - Koruro no Mori no Jozet",
-  "by": "sha1",
-  "aliases": []
+  "game": null,
+  "title": "Wonder Project J2: Josette of the Corlo Forest",
+  "by": "unidentified"
  },
  "llonsit/wave-race-64": {
   "platform": "n64",
-  "game": "wave-race-64-kawasaki-jet-ski",
-  "title": "Wave Race 64 - Kawasaki Jet Ski",
-  "by": "sha1",
-  "aliases": []
+  "game": null,
+  "title": "Wave Race 64",
+  "by": "unidentified"
  },
  "lucaspicoli/god-hand-decomp": {
   "platform": "ps2",
   "game": "god-hand",
   "title": "God Hand",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS21503"
+  ]
  },
  "lynder063/rac1-decomp": {
   "platform": "ps2",
   "game": "ratchet-clank",
   "title": "Ratchet & Clank",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SCES50916"
+  ]
  },
  "marijnvdwerf/gba-beyblade-vforce": {
   "platform": "gba",
   "game": "beyblade-v-force-ultimate-blader-jam",
   "title": "Beyblade V-Force - Ultimate Blader Jam",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "marijnvdwerf/legoland": {
   "platform": "win32",
-  "game": null,
+  "game": "legoland",
   "title": "Legoland",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "marijnvdwerf/paperboy-n64": {
   "platform": "n64",
   "game": "paperboy",
   "title": "Paperboy",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "mariopartyrd/marioparty4": {
   "platform": "gc",
   "game": "mario-party-4",
   "title": "Mario Party 4",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GMPE",
+   "GMPJ",
+   "GMPP"
+  ]
  },
  "mariopartyrd/marioparty5": {
   "platform": "gc",
   "game": "mario-party-5",
   "title": "Mario Party 5",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GP5E"
+  ]
  },
  "matbourgon/gex64decomp": {
   "platform": "n64",
   "game": null,
   "title": "Gex: Enter the Gecko",
-  "by": "disagrees:Gex 64 - Enter the Gecko"
+  "by": "unidentified"
  },
  "mateuszklysz/lombyte": {
   "platform": "ps2",
   "game": "ratchet-clank",
   "title": "Ratchet & Clank",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SCUS97199"
+  ]
  },
  "megami-decomps/dds-decomp": {
   "platform": "ps2",
-  "game": "shin-megami-tensei-digital-devil-saga-2",
-  "title": "Shin Megami Tensei - Digital Devil Saga 2",
+  "game": "shin-megami-tensei-digital-devil-saga",
+  "title": "Shin Megami Tensei - Digital Devil Saga",
   "by": "serial",
   "aliases": [
-   "shin-megami-tensei-digital-devil-saga"
+   "shin-megami-tensei-digital-devil-saga-2"
+  ],
+  "builds": [
+   "SLUS20974",
+   "SLUS21152"
   ]
  },
  "melalawi/battletanx-decomp": {
   "platform": "n64",
   "game": "battletanx",
   "title": "BattleTanx",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "melalawi/ragewars-decomp": {
   "platform": "n64",
   "game": "turok-rage-wars",
   "title": "Turok - Rage Wars",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "mikompilation/himuro": {
   "platform": "ps2",
@@ -759,6 +972,11 @@
   "aliases": [
    "project-zero",
    "zero"
+  ],
+  "builds": [
+   "SLES50821",
+   "SLPS25074",
+   "SLUS20388"
   ]
  },
  "mitsevox/mvp2005": {
@@ -766,21 +984,28 @@
   "game": "mvp-baseball-2005",
   "title": "MVP Baseball 2005",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GV4E"
+  ]
  },
  "mitsevox/tw2004": {
   "platform": "gc",
   "game": "tiger-woods-pga-tour-2004",
   "title": "Tiger Woods PGA Tour 2004",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GW4E"
+  ]
  },
  "mokhaleee/fireemblem7j": {
   "platform": "gba",
   "game": "fire-emblem",
   "title": "Fire Emblem",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "monsterdruide1/odysseydecomp": {
   "platform": "switch",
@@ -792,129 +1017,181 @@
   "platform": "gc",
   "game": "the-sims-2",
   "title": "The Sims 2",
-  "by": "disc",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "newgbaxl/drmario64-gc": {
   "platform": "gc",
   "game": "nintendo-puzzle-collection",
   "title": "Nintendo Puzzle Collection",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GPZJ"
+  ]
  },
  "nintendocustom/lego-city-undercover-decompilation": {
   "platform": "switch",
-  "game": null,
-  "title": "LEGO City Undercover",
-  "by": "unidentified"
+  "game": "lego-city-undercover",
+  "title": "LEGO\u00ae CITY Undercover",
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "nsmb-decomp/nsmb": {
   "platform": "nds",
   "game": "new-super-mario-bros",
   "title": "New Super Mario Bros.",
   "by": "code",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "A2DE"
+  ]
  },
  "nsmbw-community/nsmbw-decomp": {
   "platform": "wii",
   "game": "new-super-mario-bros-wii",
   "title": "New Super Mario Bros. Wii",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SMNP"
+  ]
  },
  "openblack/bw1-decomp": {
   "platform": "win32",
-  "game": null,
+  "game": "black-white",
   "title": "Black & White",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "opokxeno/xsg-i-decomp": {
   "platform": "ps2",
   "game": "xenosaga-episode-i-der-wille-zur-macht",
   "title": "Xenosaga Episode I - Der Wille zur Macht",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS20469"
+  ]
  },
  "orangedude27/excite-truck": {
   "platform": "wii",
   "game": "excite-truck",
   "title": "Excite Truck",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "REXE"
+  ]
  },
  "overjt/knidl": {
   "platform": "gba",
   "game": "kirby-nightmare-in-dream-land",
   "title": "Kirby - Nightmare in Dream Land",
   "by": "code",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "A7KE"
+  ]
  },
  "pakompom/spacerangers1_decomp": {
   "platform": "win32",
-  "game": null,
+  "game": "space-rangers",
   "title": "Space Rangers",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "pakompom/spacerangershd_decomp": {
   "platform": "win32",
-  "game": null,
+  "game": "space-rangers-hd-a-war-apart",
   "title": "Space Rangers HD: A War Apart",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "parappadev/parappa2": {
   "platform": "ps2",
-  "game": null,
+  "game": "parappa-the-rapper-2",
   "title": "PaRappa the Rapper 2",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "patataofcourse/rhgold": {
   "platform": "nds",
   "game": "rhythm-heaven",
   "title": "Rhythm Heaven",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "pattytrish/unending-occlusion": {
   "platform": "gc",
   "game": "eternal-darkness-sanity-s-requiem",
   "title": "Eternal Darkness - Sanity's Requiem",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GEDE"
+  ]
  },
  "pheenoh/khcom": {
   "platform": "gba",
   "game": "kingdom-hearts-chain-of-memories",
   "title": "Kingdom Hearts - Chain of Memories",
   "by": "sha1",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "10729bd884f8fdca7a310b6d606c52e46657aa48",
+   "59ec0a0a4ccd1e6acb3bbd7bfb21d63988958cfa",
+   "8db73586cdb11b3795907edebf43228dbcd3e6b2"
+  ]
  },
  "plinkr/wild9-decompilation": {
   "platform": "ps",
   "game": "music-inspired-by-wild-9",
   "title": "Music Inspired by Wild 9",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS00425"
+  ]
  },
  "primedecomp/prime": {
   "platform": "gc",
   "game": "metroid-prime",
   "title": "Metroid Prime",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GM8E",
+   "GM8J",
+   "GM8P"
+  ]
  },
  "projectpiki/pik1wii": {
   "platform": "wii",
   "game": "pikmin",
   "title": "Pikmin",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "R9IE"
+  ]
  },
  "projectpiki/pik2wii": {
   "platform": "wii",
   "game": "pikmin-2",
   "title": "Pikmin 2",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "R92E"
+  ]
  },
  "projectpiki/pikmin": {
   "platform": "gc",
@@ -923,6 +1200,13 @@
   "by": "disc",
   "aliases": [
    "interactive-multi-game-demo-disc-january-2002"
+  ],
+  "builds": [
+   "G98E",
+   "G98P",
+   "GPIE",
+   "GPIJ",
+   "GPIP"
   ]
  },
  "projectpiki/pikmin2": {
@@ -930,27 +1214,40 @@
   "game": "pikmin-2",
   "title": "Pikmin 2",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GPVE",
+   "GPVJ",
+   "GPVP"
+  ]
  },
  "punpckhdq/halo": {
   "platform": "xbox",
-  "game": null,
-  "title": "Halo: Combat Evolved",
-  "by": "unidentified"
+  "game": "halo-combat-evolved",
+  "title": "Halo - Combat Evolved",
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "raikaru/persona4-decompilation": {
   "platform": "ps2",
   "game": "shin-megami-tensei-persona-4",
   "title": "Shin Megami Tensei - Persona 4",
   "by": "sha1",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "179381f67a412dc56e9b7ae40dbc1c00a0beea59"
+  ]
  },
  "rayanht/fzgx": {
   "platform": "gc",
   "game": "f-zero-gx",
   "title": "F-Zero GX",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GFZE"
+  ]
  },
  "rbxrootx/missionfleet": {
   "platform": "win32",
@@ -972,92 +1269,125 @@
  },
  "rjkiv/dc3-decomp": {
   "platform": "xbox360",
-  "game": null,
+  "game": "dance-central-3",
   "title": "Dance Central 3",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "rjkiv/sonic06": {
   "platform": "xbox360",
   "game": "sonic-the-hedgehog",
   "title": "Sonic the Hedgehog",
   "by": "title",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "534507D6"
+  ]
  },
  "roeming/mssb-dtk": {
   "platform": "gc",
   "game": "mario-superstar-baseball",
   "title": "Mario Superstar Baseball",
-  "by": "disc",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "roeming/sa2b": {
   "platform": "gc",
   "game": "sonic-adventure-2-battle",
   "title": "Sonic Adventure 2 - Battle",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GSNE"
+  ]
  },
  "roengstrom/ff8-decomp": {
   "platform": "ps",
   "game": "final-fantasy-viii",
   "title": "Final Fantasy VIII",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS00892"
+  ]
  },
  "ryan-myers/jet-force-gemini": {
   "platform": "n64",
   "game": "jet-force-gemini",
   "title": "Jet Force Gemini",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "sabishii-bit/gauntlet-dark-legacy-decompilation": {
   "platform": "gc",
   "game": "gauntlet-dark-legacy",
   "title": "Gauntlet - Dark Legacy",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GUNE"
+  ]
  },
  "sebaamg/kinect-sports-decomp": {
   "platform": "xbox360",
   "game": "kinect-sports",
   "title": "Kinect Sports",
   "by": "title",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "4D5308C9"
+  ]
  },
  "seekyct/spm-decomp": {
   "platform": "wii",
-  "game": null,
+  "game": "super-paper-mario",
   "title": "Super Paper Mario",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "sephdb/pokepark-wii-decomp": {
   "platform": "wii",
   "game": "pokepark-wii-pikachu-s-adventure",
   "title": "PokePark Wii - Pikachu's Adventure",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "R8AE"
+  ]
  },
  "ser-pounce/rood-reverse": {
   "platform": "ps",
   "game": "vagrant-story",
   "title": "Vagrant Story",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS01040"
+  ]
  },
  "shaffyswitcher/wariowareinc": {
   "platform": "gba",
   "game": "warioware-inc-mega-microgame",
   "title": "WarioWare, Inc. - Mega Microgame$!",
   "by": "code",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "AZWE"
+  ]
  },
  "shdecompilations/silent-hill-decomp": {
   "platform": "ps",
   "game": "silent-hill",
   "title": "Silent Hill",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS00707"
+  ]
  },
  "shibbo/3dwdecomp": {
   "platform": "switch",
@@ -1070,40 +1400,47 @@
   "game": "mortal-kombat-deception",
   "title": "Mortal Kombat - Deception",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GQNE"
+  ]
  },
  "siruiusamory-cmyk/buusfury-decomp": {
   "platform": "gba",
-  "game": "dragon-ball-z-the-legacy-of-goku-ii",
-  "title": "Dragon Ball Z - The Legacy of Goku II",
-  "by": "sha1",
-  "aliases": [
-   "dragon-ball-z-buu-s-fury",
-   "dragon-ball-z-the-legacy-of-goku"
-  ]
+  "game": null,
+  "title": "Dragonball Z: Buu's Fury (Semantic Reconstruction)",
+  "by": "disagrees:Dragon Ball Z - The Legacy of Goku II"
  },
  "smgcommunity/garigari": {
   "platform": "wii",
   "game": "super-mario-galaxy-2",
   "title": "Super Mario Galaxy 2",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SB4E"
+  ]
  },
  "smgcommunity/petari": {
   "platform": "wii",
   "game": "super-mario-galaxy",
   "title": "Super Mario Galaxy",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "RMGE",
+   "RMGJ",
+   "RMGK",
+   "RMGP"
+  ]
  },
  "sozud/mmx4": {
   "platform": "ps",
   "game": "mega-man-x4",
   "title": "Mega Man X4",
-  "by": "serial",
-  "aliases": [
-   "rockman-x4"
-  ]
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "sozud/psy-q-decomp": {
   "platform": "ps",
@@ -1116,202 +1453,280 @@
   "game": "kirby-s-dream-collection-special-edition",
   "title": "Kirby's Dream Collection - Special Edition",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "S72E"
+  ]
  },
  "swiftshine/key": {
   "platform": "wii",
   "game": "kirby-s-epic-yarn",
   "title": "Kirby's Epic Yarn",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "RK5E"
+  ]
  },
  "synamaxmusic/bar-decomp": {
   "platform": "n64",
   "game": "beetle-adventure-racing",
   "title": "Beetle Adventure Racing!",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "tclamb/mhp2g-decomp": {
   "platform": "psp",
   "game": "monster-hunter-portable-2nd-g",
   "title": "Monster Hunter Portable 2nd G",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "ULJM05500"
+  ]
  },
  "teamorre/xd-decomp": {
   "platform": "gc",
   "game": "pokemon-xd-gale-of-darkness",
   "title": "Pokemon XD - Gale of Darkness",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GXXE"
+  ]
  },
  "testyourmine/kleod": {
   "platform": "gba",
   "game": "klonoa-empire-of-dreams",
   "title": "Klonoa - Empire of Dreams",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "tgsm/pbg": {
   "platform": "gc",
   "game": "disney-s-piglet-s-big-game",
   "title": "Disney's Piglet's Big Game",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GPLE",
+   "GPLP"
+  ]
  },
  "theonlyzac/sly1": {
   "platform": "ps2",
   "game": "sly-cooper-and-the-thievius-raccoonus",
   "title": "Sly Cooper and the Thievius Raccoonus",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SCUS97198"
+  ]
  },
  "theplayerrolo/legoclonewarswii": {
   "platform": "wii",
   "game": "lego-star-wars-iii-the-clone-wars",
   "title": "LEGO Star Wars III - The Clone Wars",
-  "by": "disc",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "theplayerrolo/lm-decomp": {
   "platform": "gc",
   "game": "luigi-s-mansion",
   "title": "Luigi's Mansion",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GLME",
+   "GLMJ",
+   "GLMP"
+  ]
  },
  "theplayerrolo/super-mario-all-star-decomp": {
   "platform": "wii",
-  "game": "super-mario-all-stars",
-  "title": "Super Mario All-Stars",
-  "by": "disc",
-  "aliases": []
+  "game": null,
+  "title": "Super Mario All-Stars 25th Anniversary Edition",
+  "by": "unidentified"
  },
  "tsilaallaoui/warioland4": {
   "platform": "gba",
-  "game": null,
+  "game": "wario-land-4",
   "title": "Wario Land 4",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "veradictus/thief3-decomp": {
   "platform": "win32",
-  "game": null,
+  "game": "thief-deadly-shadows",
   "title": "Thief: Deadly Shadows",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "vetritheretri/ssb-decomp-re": {
   "platform": "n64",
   "game": "super-smash-bros",
   "title": "Super Smash Bros.",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "vetusmagnus/ratchet-uya-decomp": {
   "platform": "ps2",
   "game": "ratchet-clank-up-your-arsenal",
   "title": "Ratchet & Clank - Up Your Arsenal",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SCUS97353"
+  ]
  },
  "vonhoff/lemball-decomp": {
   "platform": "win32",
-  "game": null,
+  "game": "lemmings-paintball",
   "title": "Lemmings Paintball",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "weirdbeardgame/mulberry": {
   "platform": "ps2",
   "game": "kuon",
   "title": "Kuon",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS21007"
+  ]
  },
  "wowjinxy/kar": {
   "platform": "gc",
   "game": "kirby-air-ride",
   "title": "Kirby Air Ride",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GKYE",
+   "GKYJ",
+   "GKYP"
+  ]
  },
  "wyrelade/digimon-world-2-decomp": {
   "platform": "ps",
   "game": "digimon-world-2",
   "title": "Digimon World 2",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLUS01193"
+  ]
  },
  "wyrelade/kknd-decomp": {
   "platform": "win32",
-  "game": null,
+  "game": "krush-kill-n-destroy-xtreme",
   "title": "Krush Kill 'N Destroy Xtreme",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "wyrelade/openwings": {
   "platform": "win32",
-  "game": null,
+  "game": "wings",
   "title": "Wings",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "xbret/xenoblade": {
   "platform": "wii",
-  "game": null,
+  "game": "xenoblade-chronicles",
   "title": "Xenoblade Chronicles",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "xeeynamo/ff7-decomp": {
   "platform": "ps",
-  "game": null,
+  "game": "final-fantasy-vii",
   "title": "Final Fantasy VII",
-  "by": "unidentified"
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "xeeynamo/sotn-decomp": {
   "platform": "ps",
-  "game": null,
-  "title": "Castlevania: Symphony of the Night",
-  "by": "unidentified"
+  "game": "castlevania-symphony-of-the-night",
+  "title": "Castlevania - Symphony of the Night",
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "y0oshi/lain-psx-decompiled": {
   "platform": "ps",
   "game": "serial-experiments-lain",
   "title": "Serial Experiments Lain",
   "by": "serial",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SLPS01603"
+  ]
  },
  "yannicksuter/mscharged-decomp": {
   "platform": "wii",
   "game": "mario-strikers-charged",
   "title": "Mario Strikers Charged",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "R4QE",
+   "R4QJ",
+   "R4QK",
+   "R4QP"
+  ]
  },
  "yannicksuter/smstrikers-decomp": {
   "platform": "gc",
   "game": "super-mario-strikers",
   "title": "Super Mario Strikers",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "G4QE",
+   "G4QJ",
+   "G4QP"
+  ]
  },
  "yokimitsuro/khdays-decomp": {
   "platform": "nds",
   "game": "kingdom-hearts-358-2-days",
   "title": "Kingdom Hearts - 358-2 Days",
   "by": "code",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "YKGP"
+  ]
  },
  "yokimitsuro/khrecoded-decomp": {
   "platform": "nds",
   "game": "kingdom-hearts-re-coded",
   "title": "Kingdom Hearts - Re-coded",
   "by": "code",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "BK9P"
+  ]
  },
  "yotona/twewy": {
   "platform": "nds",
   "game": "the-world-ends-with-you",
   "title": "The World Ends with You",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "zcanann/bfbb": {
   "platform": "gc",
@@ -1320,6 +1735,11 @@
   "by": "disc",
   "aliases": [
    "2-games-in-1-nickelodeon-spongebob-schwammkopf-der-film-nickelodeon-spongebob-schwammkopf-schlacht-um-bikini-bottom"
+  ],
+  "builds": [
+   "GQPE",
+   "GQPP",
+   "GU4Y"
   ]
  },
  "zcanann/ffcc-decomp": {
@@ -1327,14 +1747,23 @@
   "game": "final-fantasy-crystal-chronicles",
   "title": "Final Fantasy Crystal Chronicles",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GCCE",
+   "GCCP"
+  ]
  },
  "zcanann/sfa-decomp": {
   "platform": "gc",
   "game": "star-fox-adventures",
   "title": "Star Fox Adventures",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "GSAE",
+   "GSAJ",
+   "GSAP"
+  ]
  },
  "zeldaret/af": {
   "platform": "n64",
@@ -1358,29 +1787,35 @@
   "platform": "nds",
   "game": "the-legend-of-zelda-phantom-hourglass",
   "title": "The Legend of Zelda - Phantom Hourglass",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "zeldaret/ss": {
   "platform": "wii",
   "game": "the-legend-of-zelda-skyward-sword",
   "title": "The Legend of Zelda - Skyward Sword",
   "by": "disc",
-  "aliases": []
+  "aliases": [],
+  "builds": [
+   "SOUE"
+  ]
  },
  "zeldaret/st": {
   "platform": "nds",
   "game": "the-legend-of-zelda-spirit-tracks",
   "title": "The Legend of Zelda - Spirit Tracks",
-  "by": "sha1",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "zeldaret/tp": {
   "platform": "gc",
   "game": "the-legend-of-zelda-twilight-princess",
   "title": "The Legend of Zelda - Twilight Princess",
-  "by": "disc",
-  "aliases": []
+  "by": "name",
+  "aliases": [],
+  "builds": []
  },
  "zeldaret/tww": {
   "platform": "gc",
@@ -1389,6 +1824,12 @@
   "by": "disc",
   "aliases": [
    "gekkan-nintendo-tentou-demo-2002-12-1"
+  ],
+  "builds": [
+   "D44J",
+   "GZLE",
+   "GZLJ",
+   "GZLP"
   ]
  }
 }

@@ -162,16 +162,18 @@ def match(found, platform_hint=None):
             plats = (platform_hint,) if platform_hint in plats else ()
         for plat in plats:
             ids, hashes = index(plat)
-            hits = {}
+            hits, matched = {}, set()
             for c in found[kind]:
                 g = hashes.get(c) if kind == "sha1" else ids.get(c)
                 if g:
                     hits[g["key"]] = g
+                    matched.add(c)
             if hits:
                 g = pick(list(hits.values()))
                 return {
                     "platform": plat, "key": g["key"], "title": g["title"], "by": kind,
                     "aliases": sorted(k for k in hits if k != g["key"]),
+                    "builds": sorted(matched),  # the exact identifiers that proved it
                 }
     return None
 
@@ -182,3 +184,9 @@ def identify(repo, branch, platform_hint=None, version_ids=()):
     for v in version_ids:
         merge(own, from_token(v, is_version=True))
     return match(own, platform_hint) or match(repo_candidates(repo, branch, version_ids), platform_hint)
+
+
+def build_ids(version_id):
+    """Identifiers naming one specific build, from a report version name (GALE01, SLUS_204.86)."""
+    f = from_token(version_id, is_version=True)
+    return {i for kind in ("serial", "title", "disc", "code", "product") for i in f[kind]}

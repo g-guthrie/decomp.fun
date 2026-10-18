@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 
-from fetch import all_projects
+from fetch import all_projects, contesting_projects
 import slots
 
 ROOT = Path(__file__).resolve().parent
@@ -200,6 +200,8 @@ class Project:
         self.leader = self  # set by slots.assign
         self.others = []
         self.challengers = {}
+        self.contesters = []
+        self.disputed = None
         hist_path = DATA / "history" / f"{self.id}.json"
         self.history = json.loads(hist_path.read_text()) if hist_path.exists() else []
 
@@ -357,9 +359,12 @@ def build_index(site, projects, built):
     )
     ordered = sorted(projects, key=lambda p: p.v.commit["timestamp"], reverse=True)
     intro = site["intro"]
+    complete = sum(1 for p in projects if p.v.code_pct >= 99.995)
+    systems = len({p.platform for p in projects})
     body = (
-        f'<hgroup class="intro"><h2>{e(intro["heading"])}</h2></hgroup>'
-        f'<blockquote>{e(intro["text"])}</blockquote>'
+        f'<hgroup class="intro"><h2>{e(intro["heading"])}</h2><p>{e(intro["text"])}</p></hgroup>'
+        f'<p class="stats"><strong>{len(projects)}</strong> games · <strong>{complete}</strong> complete · '
+        f'<strong>{systems}</strong> systems · updated every 6 hours</p>'
         '<div class="filters">'
         '<input type="search" id="search" placeholder="Search games, teams, repos…" aria-label="Search projects">'
         f"{plat_dd}{sort_dd}</div>"
@@ -477,6 +482,25 @@ def version_switch(p, v, suffix=""):
 
 def slot_notice(p):
     """Where this repository stands for its game: listed, or behind another repository."""
+    out = ""
+    if p.disputed:
+        others = ", ".join(e(k) for k in p.disputed.get("replaced_by", []))
+        out += (
+            '<div class="notice error"><small>This repository no longer represents its game: '
+            f"{len(p.disputed.get('replaced_by', []))} independent repositories ({others}) name the same build of the game, "
+            "agree with each other, and don&rsquo;t match this one&rsquo;s code size.</small></div>"
+        )
+    if p.contesters:
+        out += (
+            f'<div class="notice"><small>{len(p.contesters)} repositor{"y" if len(p.contesters) == 1 else "ies"} '
+            f"contest{'s' if len(p.contesters) == 1 else ''} this game&rsquo;s identity: "
+            + ", ".join(e(f"{c.owner}/{c.repo}") for c in p.contesters)
+            + f". {slots.DISPUTE_QUORUM} that agree with each other replace this listing.</small></div>"
+        )
+    return out + _slot_notice(p)
+
+
+def _slot_notice(p):
     if p.leader is not p:
         lead = p.leader
         out = (
@@ -570,7 +594,7 @@ def build_report(site, p, v, base, built):
         scripts.append("/static/js/treemap.js")
 
     body = (
-        f'{actions}<div class="report-head"><h3>{e(p.name)} is {fmt_pct(v.code_pct)} decompiled{role}{archived_repo}</h3>{sub}</div>'
+        f'<div class="report-top"><div class="report-head"><h3>{e(p.name)} is {fmt_pct(v.code_pct)} decompiled{role}{archived_repo}</h3>{sub}</div>{actions}</div>'
         f"{desc}{facts}{version_switch(p, v)}{notice}{code}{data}{commit}{units}"
     )
     title = f"{p.name} ({PLAT.get(p.platform, {}).get('short', p.platform)}) · {site['name']}"
@@ -724,12 +748,25 @@ def main():
             else:
                 p.image = None
 
-    for slot in slots.assign(projects).values():
+    contesters = [c for c in (Project(p) for p in contesting_projects()) if c.versions]
+    assigned, promoted = slots.assign(projects, contesters)
+    for c in promoted:  # won a dispute: now a listed project
+        sub_path = DATA / "submissions" / (f"{c.owner}__{c.repo}".lower() + ".json")
+        if sub_path.exists():
+            sub = json.loads(sub_path.read_text())
+            sub.update(status="listed", reasons=["Replaced a listed project whose game didn't match (dispute)."])
+            sub_path.write_text(json.dumps(sub, indent=1) + "\n")
+        projects.append(c)
+    disputed = slots.load(slots.DISPUTES, {})
+    for slot in assigned.values():
         lead = slot["leader"]
         lead.others = sorted(slot["others"], key=lambda o: -o.v.code_pct)
         lead.challengers = slot["challengers"]
+        lead.contesters = slot["contesters"]
         for o in slot["others"]:
             o.leader = lead
+    for p in projects:
+        p.disputed = disputed.get(f"{p.owner}/{p.repo}".lower())
     leaders = [p for p in projects if p.leader is p]
 
     build_index(site, leaders, built)

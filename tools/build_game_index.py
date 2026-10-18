@@ -274,6 +274,9 @@ def build(platform):
             print(f"  {platform}: {rel}: {ex}", file=sys.stderr)
             continue
         for g in parse_dat(text):
+            # Prototypes, betas, demos and kiosk discs aren't the game; they also reuse product codes.
+            if re.search(r"\((?:[^)]*\b)?(Proto|Prototype|Beta|Demo|Sample|Kiosk|Preview|Trial)\b[^)]*\)", g["name"], re.I):
+                continue
             ids = set()
             for s in g["serials"]:
                 for part in re.split(r"[,;]\s*", s):

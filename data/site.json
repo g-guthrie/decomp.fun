@@ -3,13 +3,8 @@
   "tagline": "A hub for matching decompilation projects",
   "intro": {
     "heading": "Decompilation projects",
-    "text": "Matching decompilation projects write C and C++ source from scratch that compiles back into the exact same binary as the original game. This is a directory of those projects and how far along each one is."
+    "text": "Games being rebuilt from scratch in C and C++ that compile back into the exact original binary."
   },
-  "nav_links": [
-    {
-      "label": "GitHub",
-      "url": "https://github.com/g-guthrie"
-    }
-  ],
+  "nav_links": [],
   "contact_url": "https://github.com/g-guthrie"
 }

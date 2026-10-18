@@ -120,41 +120,46 @@ def check(repo, by, system=None, game=None):
         return entry
 
     project.update(name=hit["title"], platform=hit["platform"])
-    entry["game"] = {"platform": hit["platform"], "key": hit["key"], "title": hit["title"], "by": hit["by"]}
-
-    # Slot: free, or held by a repository decompiling the same binary.
-    identity = load(IDENTITY)
-    slot = f"{hit['platform']}:{hit['key']}"
-    holders = [k for k, v in identity.items() if v.get("game") and f"{v['platform']}:{v['game']}" == slot]
-    holders += [s["repo"].lower() for s in fetch.load_submissions() if s.get("status") == "listed" and s.get("game")
-                and f"{s['game']['platform']}:{s['game']['key']}" == slot and s["repo"].lower() != key]
-    if holders and not reasons:
-        import build  # Project wrapper gives sizes and unit names for the comparison
-        import slots
-
-        mine = build.Project({**project, "version": versions[0]["id"]})
-        for h in holders:
-            hp = next((p for p in fetch.all_projects() if f"{p['owner']}/{p['repo']}".lower() == h), None)
-            if hp and build.Project(hp).versions and slots.same_binary(mine, build.Project(hp)):
-                break
-        else:
-            reasons.append(
-                f"{hit['title']} is already listed, and this repository doesn't decompile the same binary as "
-                f"{holders[0]} (different code size and file layout)."
-            )
-
+    entry["game"] = {"platform": hit["platform"], "key": hit["key"], "title": hit["title"], "by": hit["by"],
+                     "builds": hit.get("builds", [])}
+    entry["project"] = project
     entry["reasons"] = reasons
     if reasons:
         return entry
+
+    # The game's slot: free, or compared build to build with the repositories already in it.
+    import build  # Project wrapper gives versions, sizes and unit names
+    import slots
+
+    identity = slots.identities()
+    disputes = slots.load(slots.DISPUTES, {})
+    slot = f"{hit['platform']}:{hit['key']}"
+    holders = [k for k in identity if k != key and slots.slot_of(identity, disputes, k) == slot]
+    listed = {f"{p['owner']}/{p['repo']}".lower(): p for p in fetch.all_projects()}
+    mine = build.Project({**project, "version": versions[0]["id"]})
+    mine_ident = {"builds": entry["game"]["builds"]}
+    verdicts = {}
+    for h in holders:
+        if h in listed:
+            hp = build.Project(listed[h])
+            if hp.versions:
+                verdicts[h] = slots.compare(mine, hp, mine_ident, identity.get(h))
+
+    current = slots.load(slots.STATE, {}).get(slot, {}).get("leader")
+    if current in verdicts and verdicts[current] == "conflict":
+        entry.update(status="contesting", reasons=[
+            f"Contesting {current}, which is listed as {hit['title']}: both name the same build, but their code sizes "
+            f"don't match, so one of them isn't that game. If at least {slots.DISPUTE_QUORUM} independent repositories "
+            f"(different owners, not forks of each other) agree with each other against it, they replace it."
+        ])
+        return entry
     note = []
-    if holders:
-        current = json.loads((fetch.DATA / "slots.json").read_text()).get(slot, {}).get("leader") if (fetch.DATA / "slots.json").exists() else None
-        if current:
-            note = [
-                f"Accepted as a challenger: {current} currently holds {hit['title']}. This repository takes the slot "
-                "once it leads by 1% of matched code for 7 days in a row."
-            ]
-    entry.update(status="listed", project=project, reasons=note)
+    if current:
+        note = [
+            f"Accepted as a challenger: {current} currently holds {hit['title']}. This repository takes the slot "
+            f"once it leads by {slots.TAKEOVER_MARGIN:g}% of matched code for {slots.TAKEOVER_DAYS} days in a row."
+        ]
+    entry.update(status="listed", reasons=note)
     if versions:
         fetch.append_history(pid, versions[0])
     return entry

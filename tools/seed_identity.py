@@ -24,9 +24,14 @@ def norm(s):
 
 
 def agrees(hit, name):
-    titles = [hit["title"], *hit.get("aka", [])]
-    a = norm(name)
-    return any(norm(t)[:8] in a or a[:8] in norm(t) for t in titles if norm(t))
+    """The detected game is the project's game: one full title contains the other.
+    Bracketed notes in the project's name, like "(Fork: AI)", are ignored."""
+    a = norm(re.sub(r"\s*[(\[][^)\]]*[)\]]", "", name))
+    for t in [hit["title"], *hit.get("aka", [])]:
+        b = norm(t)
+        if b and a and (a == b or (len(min(a, b, key=len)) >= 5 and (a in b or b in a))):
+            return True
+    return False
 
 
 def one(p):
@@ -39,8 +44,30 @@ def one(p):
     hit = identify.identify(repo, meta.get("default_branch", "main"), p.get("platform"), vids)
     key = f"{p['owner']}/{p['repo']}".lower()
     if hit and agrees(hit, p["name"]):
-        return key, {"platform": hit["platform"], "game": hit["key"], "title": hit["title"], "by": hit["by"], "aliases": hit["aliases"]}
+        return key, {"platform": hit["platform"], "game": hit["key"], "title": hit["title"], "by": hit["by"],
+                     "aliases": hit["aliases"], "builds": hit.get("builds", [])}
+    # Inherited projects only: fall back to the project's own listed name on its system's game list,
+    # so a later submission of the same game lands in the same slot instead of making a duplicate.
+    g = by_name(p.get("platform"), p["name"])
+    if g:
+        return key, {"platform": p["platform"], "game": g["key"], "title": g["title"], "by": "name", "aliases": [], "builds": []}
     return key, {"platform": p.get("platform"), "game": None, "title": p["name"], "by": "unidentified" if not hit else f"disagrees:{hit['title']}"}
+
+
+def by_name(platform, name):
+    """Exact match on the system's game list, ignoring punctuation, accents and subtitles after ':'."""
+    path = identify.GAMES / f"{platform}.json"
+    if not platform or not path.exists():
+        return None
+    games = json.loads(path.read_text())["games"]
+    # Full name first; the part before a colon only when nothing matches the full name.
+    for want in (norm(name), norm(name.split(":")[0]) if ":" in name else ""):
+        if not want:
+            continue
+        for g in games:
+            if any(norm(t) == want for t in [g["title"], *g.get("aka", [])]):
+                return g
+    return None
 
 
 def main():
