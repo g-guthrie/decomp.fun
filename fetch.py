@@ -248,10 +248,18 @@ def unzip_member(blob, wanted):
     with zipfile.ZipFile(io.BytesIO(blob)) as z:
         names = z.namelist()
         pick = next((n for n in names if n.rsplit("/", 1)[-1] == wanted), None)
-        if pick is None:
-            pick = next((n for n in names if n.endswith(".json") and "report" in n.lower()), None)
         if pick is not None:
             return json.loads(z.read(pick))
+        # Projects name the file differently (progress.json, <version>.json...);
+        # take any JSON that has the objdiff report shape.
+        for n in sorted(names, key=lambda n: "report" not in n.lower()):
+            if n.endswith(".json"):
+                try:
+                    data = json.loads(z.read(n))
+                except (json.JSONDecodeError, UnicodeDecodeError):
+                    continue
+                if isinstance(data, dict) and "measures" in data and "units" in data:
+                    return data
         binpb = next((n for n in names if n.endswith(".binpb")), None)
         if binpb is not None:
             return pb_report(z.read(binpb))
