@@ -39,7 +39,7 @@ once fixed; the next run reopens a new one if the problem is still there. Each l
   repository is only delisted after 3 runs in a row and 48 hours of 404s, so one bad run never removes anything.
   If repositories really were deleted, nothing to do (the new count is the baseline from the next day).
 - **The GitHub token used for submissions and refreshes has stopped working / expires in N days**: rotate
-  `GITHUB_DISPATCH_TOKEN` (above). Until then submissions and instant refreshes fail; the 6-hourly update still works.
+  `GITHUB_DISPATCH_TOKEN` (above). Until then submissions and instant refreshes fail; the hourly update still works.
 
 The watchdog also re-enables `update.yml` and `game-index.yml` every day, and pushes an empty "Keepalive" commit if
 the repository has had no commits for 45 days (GitHub disables scheduled workflows after 60 quiet days).
@@ -58,7 +58,7 @@ the repository has had no commits for 45 days (GitHub disables scheduled workflo
 Run workflow. Locally: `python3 tools/build_game_index.py && python3 tools/check_game_index.py`, then commit
 `data/games`. If the check fails (a list shrank by more than 20%), an upstream source (libretro-database, titledb,
 Wikidata) is broken or moved: the committed lists stay as they are; look at the failing system's source in
-`tools/build_game_index.py`. Commits made by the workflow don't trigger a deploy; the next 6-hourly run picks
+`tools/build_game_index.py`. Commits made by the workflow don't trigger a deploy; the next hourly run picks
 them up.
 
 ## Limits to keep in mind

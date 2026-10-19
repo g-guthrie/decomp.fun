@@ -978,7 +978,7 @@ has one box per file, sized by how much code it holds.</dd>
 <li>Every project is refreshed every hour.</li>
 <li>Opening a project page asks GitHub (at most once every 10 minutes per project) whether there is newer progress. If there is,
 that project is refreshed (about 2 minutes) and the page reloads by itself. This happens up to 4 times a day per project
-and 100 times a day across the site; beyond that, the 6-hourly refresh picks it up.</li>
+and 100 times a day across the site; beyond that, the hourly refresh picks it up.</li>
 <li>GitHub deletes build artifacts after 90 days. A project that hasn&rsquo;t published a newer report keeps its last known
 numbers, labelled as such on its page.</li>
 </ul>

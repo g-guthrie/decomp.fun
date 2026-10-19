@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Before building, take anything newer that another run committed meanwhile, file by file.
 
-Runs overlap (the 6-hourly refresh, a submission check, a refresh-on-view). Each one restored its
+Runs overlap (the hourly refresh, a submission check, a refresh-on-view). Each one restored its
 data at the start; this makes sure a deploy never puts older numbers or older submission results
 over newer ones. Never produces conflicts: for each file the newer copy simply wins.
 """
