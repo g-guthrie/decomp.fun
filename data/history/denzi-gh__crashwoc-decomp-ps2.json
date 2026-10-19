@@ -58,5 +58,19 @@
    "matched_data_percent": 0.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T18:19:26Z",
+  "commit_sha": "0c7a893a64cb14142d0ce4c7bc9759ddf121dd70",
+  "commit_message": "Merge pull request #100 from denzi-gh/data/edobj-edbits-nufile",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 93.75766,
+   "matched_code_percent": 80.8287741505154,
+   "complete_code_percent": 3.646667362530773,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

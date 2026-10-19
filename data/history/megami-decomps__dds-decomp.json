@@ -326,5 +326,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T17:57:13Z",
+  "commit_sha": "d8f1a4935f7bfc3fad459c438889e2b8f04ee858",
+  "commit_message": "DDS1 cameraPoseBlendHook: fully typed u8 provider family replaces a post-call clear (purity; PurFAD)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 93.571677,
+   "matched_code_percent": 93.57167733012268,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

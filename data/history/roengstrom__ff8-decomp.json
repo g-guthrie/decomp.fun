@@ -88,5 +88,19 @@
    "matched_data_percent": 71.83362793550016,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T17:44:35Z",
+  "commit_sha": "3c2a9dab599ca78d9ddda4315e7c0aeb89bd58cc",
+  "commit_message": "Merge pull request #155 from roengstrom/add-agents-md",
+  "source": "report",
+  "version": "SLUS_008.92",
+  "measures": {
+   "fuzzy_match_percent": 67.03408,
+   "matched_code_percent": 67.03408042575202,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 71.83362793550016,
+   "complete_data_percent": 0.0
+  }
  }
 ]
