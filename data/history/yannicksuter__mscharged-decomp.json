@@ -57,5 +57,19 @@
    "matched_data_percent": 99.32823728794641,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-18T22:46:55Z",
+  "commit_sha": "9e0b9b48c1f9e71e0d09a1d902c63beb61b81743",
+  "commit_message": "feat: source-link Korean game initialization",
+  "source": "report",
+  "version": "R4QE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000046,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

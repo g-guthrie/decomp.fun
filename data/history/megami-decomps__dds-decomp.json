@@ -298,5 +298,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T16:01:36Z",
+  "commit_sha": "6b79e5d16c817c8b62b2bbdb8021bca459c23584",
+  "commit_message": "Normalize split order to configure's output (code_00235270 code_00250010)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 93.571677,
+   "matched_code_percent": 93.57167733012268,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

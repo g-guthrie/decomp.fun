@@ -157,5 +157,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T16:06:18Z",
+  "commit_sha": "0ecc15220875908ed85663a0f833984b96d9f973",
+  "commit_message": "PC port (#1093): ride Ace of Space's gem path to its exit in CI (#1210)",
+  "source": "report",
+  "version": "europe",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

@@ -186,5 +186,19 @@
    "matched_data_percent": 26.90613889986174,
    "complete_data_percent": 26.90613889986174
   }
+ },
+ {
+  "timestamp": "2026-10-19T16:16:52Z",
+  "commit_sha": "9f13505fdf062963c155d3cf9bba02db85e81e11",
+  "commit_message": "Integrate verified Grok recoveries and current progress",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 55.97869384424063,
+   "matched_code_percent": 55.97869384424064,
+   "complete_code_percent": 55.97869384424064,
+   "matched_data_percent": 26.90613889986174,
+   "complete_data_percent": 26.90613889986174
+  }
  }
 ]
