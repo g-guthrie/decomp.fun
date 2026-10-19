@@ -340,5 +340,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T18:56:33Z",
+  "commit_sha": "77a13fa808c22430ef10e42e8c33eef71f931d3d",
+  "commit_message": "Type BtlIndexList.entries as BtlUnit ** in both games; match DDS2 func_0021B828 (BigE, N3)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 93.633568,
+   "matched_code_percent": 93.63356849321883,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

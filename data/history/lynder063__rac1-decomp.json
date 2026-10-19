@@ -239,5 +239,19 @@
    "matched_data_percent": 0.5229790350636272,
    "complete_data_percent": 0.3604778906893711
   }
+ },
+ {
+  "timestamp": "2026-10-19T19:15:44Z",
+  "commit_sha": "2897435e5fc7607de6a0dff3a184bffc2df8b21c",
+  "commit_message": "feat: match func_001F10C8 + func_L00_001F4918 (debug menu), func_001FBE80, func_L15_002D7C00, func_L00_002D1E68, func_00203F68, func_00129690",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 98.38142250256357,
+   "matched_code_percent": 97.71314272419409,
+   "complete_code_percent": 53.58253841049901,
+   "matched_data_percent": 0.5510162043394672,
+   "complete_data_percent": 0.37020507186670326
+  }
  }
 ]
