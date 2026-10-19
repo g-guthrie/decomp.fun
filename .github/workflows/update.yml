@@ -2,7 +2,7 @@ name: Update and deploy
 
 on:
   schedule:
-    - cron: "17 */6 * * *" # every 6 hours: refresh every project
+    - cron: "17 * * * *" # every hour: refresh every project
   workflow_dispatch:
   repository_dispatch:
     types: [submission, refresh] # sent by the site: a new submission, or newer progress seen on a page view
@@ -74,6 +74,12 @@ jobs:
           args=("$SUB_REPO" --by "$SUB_BY")
           if [ -n "$SUB_SYSTEM" ]; then args+=(--system "$SUB_SYSTEM" --game "$SUB_GAME"); fi
           python3 submit.py "${args[@]}"
+
+      - name: GitHub API budget left
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_READ_TOKEN || github.token }}
+        run: gh api rate_limit -q '.resources.core | "API calls this hour: \(.used) of \(.limit)"'
 
       - name: Save reports
         if: always()

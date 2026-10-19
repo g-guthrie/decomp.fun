@@ -399,7 +399,7 @@ def index_json(gen):
         "generated": gen,
         "name": "decomp.fun",
         "description": "Directory and leaderboard of matching decompilation projects for video games, with progress read "
-        "from each project's own CI. All /v1 files are static JSON, regenerated every 6 hours and after refreshes.",
+        "from each project's own CI. All /v1 files are static JSON, regenerated every hour and after refreshes.",
         "base_url": ORIGIN,
         "docs": ORIGIN + "/llms.txt",
         "cors": "Access-Control-Allow-Origin: * on /v1/*",
@@ -421,7 +421,7 @@ LLMS_TXT = """\
 ## How progress is measured
 
 - Each project's GitHub Actions publish an objdiff (https://github.com/encounter/objdiff) progress report as an
-  artifact with "report" in its name, on the default branch. decomp.fun reads the newest one every 6 hours.
+  artifact with "report" in its name, on the default branch. decomp.fun reads the newest one every hour.
   Projects built from dtk-template (https://github.com/encounter/dtk-template) already do this.
 - Each artifact is one build (version), e.g. GALE01_report -> build GALE01. The first build listed is the default.
 - decompiled_percent = matched code bytes / total code bytes. linked_percent = code in units that link fully.
@@ -431,7 +431,7 @@ LLMS_TXT = """\
 - One project is listed per game (a "slot"). When several repositories work on the same game, the one listed is
   the leader; another takes the slot after leading by the takeover margin for several days in a row.
 
-## Data (JSON, CORS open, regenerated every 6 hours)
+## Data (JSON, CORS open, regenerated every hour)
 
 - https://decomp.fun/v1/index.json : machine-readable description of every endpoint and field.
 - https://decomp.fun/v1/projects.json : every listed project.
@@ -489,7 +489,7 @@ Add this as the last step of the workflow that uploads the report artifact (afte
 
 Or in any shell: curl -fsS "https://decomp.fun/api/fresh?repo=OWNER/REPO"
 Response: {"status": "updating"} (a refresh started; the page updates in a few minutes), "current" (nothing newer
-seen), "busy" (daily refresh limit reached; the 6-hourly update will pick it up), "unknown" (not listed), "error".
+seen), "busy" (daily refresh limit reached; the hourly update will pick it up), "unknown" (not listed), "error".
 It is rate-limited server-side (each project is checked at most every 10 minutes, and refreshed a few times a day), so
 calling it on every push is fine. Only listed projects can be refreshed.
 

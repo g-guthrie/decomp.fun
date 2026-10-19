@@ -65,7 +65,7 @@ jobs:
           api=$(curl -fsS https://decomp.fun/api/health) || problems+=("The sign-in/submission server isn't responding (/api/health).")
           if [ -n "$health" ]; then
             age_h=$(( ( $(date +%s) - $(date -d "$(echo "$health" | jq -r .built)" +%s) ) / 3600 ))
-            [ "$age_h" -gt 14 ] && problems+=("The site hasn't been rebuilt for ${age_h} hours (it should every 6). Check the Update and deploy workflow.")
+            [ "$age_h" -gt 4 ] && problems+=("The site hasn't been rebuilt for ${age_h} hours (it should every hour). Check the Update and deploy workflow.")
             failed=$(echo "$health" | jq -r .fetch_failed); total=$(echo "$health" | jq -r .projects)
             [ "$failed" -gt $(( total / 5 )) ] && problems+=("${failed} of ${total} projects failed to update in the last run.")
           fi

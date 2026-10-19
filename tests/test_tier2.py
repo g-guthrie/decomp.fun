@@ -270,15 +270,16 @@ class Reports(unittest.TestCase):
 
 
 class Takeover(unittest.TestCase):
-    def test_streak_survives_one_missed_run(self):
+    def test_streak_survives_a_few_missed_runs(self):
         t0 = datetime(2026, 1, 1, tzinfo=timezone.utc)
         st = None
-        for i in range(29):  # every 6 hours for a week, one run behind
-            st = slots._run(st, i != 10, (t0 + timedelta(hours=6 * i)).isoformat())
+        for i in range(7 * 24 + 1):  # hourly for a week, a few runs behind
+            st = slots._run(st, i not in (10, 11, 12), (t0 + timedelta(hours=i)).isoformat())
             self.assertIsNotNone(st)
         self.assertTrue(slots._ready(st, t0 + timedelta(days=7)))
-        st = slots._run(slots._run(st, False, t0.isoformat()), False, t0.isoformat())
-        self.assertIsNone(st)  # two in a row end it
+        for _ in range(slots.STREAK_MISSES):
+            st = slots._run(st, False, t0.isoformat())
+        self.assertIsNone(st)  # STREAK_MISSES in a row end it
 
     def test_live_beats_archived_leader(self):
         def proj(pct, archived):

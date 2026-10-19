@@ -9,7 +9,7 @@ Comparing two repositories for the same game is done build to build:
 
 Takeover: a challenger (same or different build) takes the slot after leading by
 TAKEOVER_MARGIN points of matched code for TAKEOVER_DAYS days, ahead on at least STREAK_SHARE of
-the runs in that time (one run behind is tolerated; STREAK_MISSES in a row end the streak). Against a
+the runs in that time (a few runs behind is tolerated; STREAK_MISSES in a row end the streak). Against a
 leader with no live report (archived numbers), a live report at equal or better progress counts as ahead.
 
 Disputes: a submission that conflicts with the listed project is recorded as "contesting".
@@ -34,7 +34,7 @@ SUBMISSIONS = ROOT / "data" / "submissions"
 
 TAKEOVER_MARGIN = 1.0  # percentage points of matched code
 TAKEOVER_DAYS = 7
-STREAK_MISSES = 2  # runs behind in a row that end a challenger's streak (one missed run is tolerated)
+STREAK_MISSES = 12  # hourly runs behind in a row that end a challenger's streak (a few hours behind is tolerated)
 STREAK_SHARE = 0.9  # share of runs it must have been ahead on over the TAKEOVER_DAYS
 CHALLENGER_MIN_DAYS = 30  # a submitted repository must be listed this long before it can take a slot
 DISPUTE_QUORUM = 2
@@ -175,8 +175,8 @@ def _streak(v):
 
 
 def _run(st, ahead, stamp):
-    """Advance a challenger's streak by one run. One run behind (a report caught mid-push, a flaky CI
-    run) doesn't end it; STREAK_MISSES behind in a row does."""
+    """Advance a challenger's streak by one run. A few runs behind (a report caught mid-push, a flaky CI
+    run) don't end it; STREAK_MISSES behind in a row do."""
     if st is None:
         return {"since": stamp, "runs": 1, "ahead": 1, "misses": 0} if ahead else None
     st = {**st, "runs": st["runs"] + 1}

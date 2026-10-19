@@ -37,7 +37,7 @@
         note("New progress found on GitHub. Updating this page now (about 2 minutes); it reloads by itself.");
         waitForNewVersion();
       } else if (d.status === "busy") {
-        note("New progress found on GitHub. It will appear with the next update (within 6 hours).");
+        note("New progress found on GitHub. It will appear with the next update (within the hour).");
       }
     })
     .catch(() => {});

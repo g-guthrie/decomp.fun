@@ -614,7 +614,7 @@ def build_index(site, projects, built):
     body = (
         f'<hgroup class="intro"><h1>{e(intro["heading"])}</h1><p>{e(intro["text"])}</p></hgroup>'
         f'<p class="stats"><strong>{len(projects)}</strong> games · <strong>{complete}</strong> complete · '
-        f'<strong>{systems}</strong> systems · <strong>{repos}</strong> repositories · refreshed every 6 hours</p>'
+        f'<strong>{systems}</strong> systems · <strong>{repos}</strong> repositories · refreshed every hour</p>'
         '<div class="filters">'
         '<input type="search" id="search" placeholder="Search games, teams, repositories…" aria-label="Search games">'
         f"{plat_dd}{sort_dd}</div>"
@@ -975,7 +975,7 @@ has one box per file, sized by how much code it holds.</dd>
 <p>Each project&rsquo;s own GitHub Actions build the game and upload a progress report in the
 {ext("https://github.com/encounter/objdiff", "objdiff")} format. {name} reads the newest report from the default branch.</p>
 <ul>
-<li>Every project is refreshed every 6 hours.</li>
+<li>Every project is refreshed every hour.</li>
 <li>Opening a project page asks GitHub (at most once every 10 minutes per project) whether there is newer progress. If there is,
 that project is refreshed (about 2 minutes) and the page reloads by itself. This happens up to 4 times a day per project
 and 100 times a day across the site; beyond that, the 6-hourly refresh picks it up.</li>
@@ -1151,7 +1151,7 @@ listing after leading by {slots.TAKEOVER_MARGIN:g} percentage point for {slots.T
 </article>
 
 <h2>After you&rsquo;re listed</h2>
-<p>Your project gets its own page at <code>decomp.fun/&lt;owner&gt;/&lt;repo&gt;/</code>. It refreshes every 6 hours and whenever
+<p>Your project gets its own page at <code>decomp.fun/&lt;owner&gt;/&lt;repo&gt;/</code>. It refreshes every hour and whenever
 someone opens the page after you push new progress. Nothing else to do. Archiving the repository tags it as archived;
 making it private or deleting it removes it from the site automatically.</p>
 
