@@ -2,22 +2,24 @@
 //
 // /auth/login, /auth/callback, /auth/logout  GitHub OAuth (no scopes: only the public profile)
 // /api/me                                    who is signed in
-// /api/fresh                                 is there newer progress on GitHub than a project page
-//                                            shows? If so, start a refresh of just that project
-// /api/submit                                quick checks, then hands the repository to the
-//                                            check workflow (repository_dispatch); the full
-//                                            checks and the result happen there.
+// /api/submit                                quick checks and rate limits, then hands the repository
+//                                            to the check workflow (repository_dispatch "submission");
+//                                            the full checks and the result happen there
+// /api/fresh?repo=owner/repo                 is there newer progress on GitHub than the project page
+//                                            shows? If so, dispatch a "refresh" of just that project
+// /api/health                                does the dispatch token work, and when does it expire
+//                                            (read by the watchdog workflow)
 //
-// Config:  vars  GITHUB_CLIENT_ID, SITE_REPO
+// Config:  vars     GITHUB_CLIENT_ID, SITE_REPO, REFRESHES_PER_DAY (optional)
 //          secrets  GITHUB_CLIENT_SECRET, SESSION_SECRET, GITHUB_DISPATCH_TOKEN
-//          kv  LIMITS (submission rate limits)
+//          kv       LIMITS (submission and refresh counters, refresh locks)
 
 const ORIGIN = "https://decomp.fun";
 const MIN_ACCOUNT_AGE_DAYS = 30;
 const PER_ACCOUNT_PER_DAY = 3;
 const SITE_PER_DAY = 60;
 const SESSION_DAYS = 7;
-const NAME_ONLY = ["win32", "switch", "dos"];
+const NAME_ONLY = ["win32", "switch", "dos"]; // same as identify.NAME_ONLY (Python)
 const FRESH_CHECK_SECONDS = 600; // ask GitHub about a project at most every 10 minutes
 const REFRESH_LOCK_SECONDS = 900; // one refresh in flight per project
 const DEFAULT_REFRESHES_PER_DAY = 100; // site-wide
@@ -39,7 +41,7 @@ export default {
         case "/api/submit":
           return await submit(request, env);
         case "/api/fresh":
-          return await fresh(request, url, env);
+          return await fresh(url, env);
         case "/api/health":
           return await health(env);
         default:
@@ -254,7 +256,7 @@ async function latestSha(env, repo, src) {
   return newest ? newest.workflow_run.head_sha : null;
 }
 
-async function fresh(request, url, env) {
+async function fresh(url, env) {
   const repo = String(url.searchParams.get("repo") || "").toLowerCase();
   const list = await loadManifest(env, url.origin);
   const src = list[repo];

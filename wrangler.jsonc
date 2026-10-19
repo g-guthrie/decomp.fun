@@ -8,7 +8,7 @@
     "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page",
-    // Only sign-in and submissions run code; every other request is a static file.
+    // Only /auth/* and /api/* run code (worker/index.js); every other request is a static file.
     "run_worker_first": ["/auth/*", "/api/*"]
   },
   "vars": {

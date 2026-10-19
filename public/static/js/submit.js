@@ -91,6 +91,7 @@
     const head = document.createElement("span");
     const status = ["listed", "contesting", "already"].includes(entry.status) ? entry.status : "rejected";
     head.className = `status status-${status}`;
+    // Same labels as STATUS_LABELS in build.py (the table below the form).
     head.textContent = { listed: "Accepted", contesting: "Contesting", already: "Already listed", rejected: "Not accepted" }[status];
     const what = document.createElement("strong");
     what.textContent = ` ${entry.repo}`;

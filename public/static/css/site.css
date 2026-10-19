@@ -227,6 +227,9 @@ pre {
 main {
   overflow-wrap: break-word;
 }
+main :not(pre) > code {
+  overflow-wrap: anywhere;
+}
 
 /* ---------------------------------------------------------------- tooltips */
 
@@ -352,9 +355,6 @@ a.plat:hover {
   background-color: var(--bar-track);
   vertical-align: middle;
 }
-.sw.fuzzy {
-  background-color: var(--bar-track);
-}
 
 /* ---------------------------------------------------------------- platform badges */
 
@@ -375,17 +375,15 @@ a.plat:hover {
   text-shadow: none;
   border-left: 3px solid var(--plat, #888);
 }
-.plat[data-p="n64"], .plat[data-p="gc"], .plat[data-p="wii"], .plat[data-p="switch"],
-.plat[data-p="gba"], .plat[data-p="nds"], .plat[data-p="3ds"] { --plat: #e4000f; }
-.plat[data-p="ps"], .plat[data-p="ps2"], .plat[data-p="psp"] { --plat: #2d64e6; }
+/* Accent by maker: Nintendo, Sony, Microsoft, PC, Sega, arcade/SNK, Atari/NEC */
+.plat[data-p="n64"], .plat[data-p="gc"], .plat[data-p="wii"], .plat[data-p="wiiu"], .plat[data-p="switch"],
+.plat[data-p="gba"], .plat[data-p="nds"], .plat[data-p="3ds"], .plat[data-p="nes"], .plat[data-p="snes"],
+.plat[data-p="gb"], .plat[data-p="gbc"], .plat[data-p="vb"] { --plat: #e4000f; }
+.plat[data-p="ps"], .plat[data-p="ps2"], .plat[data-p="ps3"], .plat[data-p="psp"], .plat[data-p="vita"] { --plat: #2d64e6; }
 .plat[data-p="xbox"], .plat[data-p="xbox360"] { --plat: #2ca243; }
-.plat[data-p="win32"] { --plat: #8a8f98; }
+.plat[data-p="win32"], .plat[data-p="dos"] { --plat: #8a8f98; }
 .plat[data-p="naomi"], .plat[data-p="dc"], .plat[data-p="saturn"], .plat[data-p="md"], .plat[data-p="segacd"],
 .plat[data-p="32x"], .plat[data-p="sms"], .plat[data-p="gg"] { --plat: #f08a24; }
-.plat[data-p="nes"], .plat[data-p="snes"], .plat[data-p="gb"], .plat[data-p="gbc"], .plat[data-p="vb"],
-.plat[data-p="wiiu"] { --plat: #e4000f; }
-.plat[data-p="ps3"], .plat[data-p="vita"] { --plat: #2d64e6; }
-.plat[data-p="dos"] { --plat: #8a8f98; }
 .plat[data-p="arcade"], .plat[data-p="neocd"], .plat[data-p="ngp"] { --plat: #c3a514; }
 .plat[data-p="atari2600"], .plat[data-p="lynx"], .plat[data-p="jaguar"], .plat[data-p="pce"] { --plat: #9b59b6; }
 
@@ -643,6 +641,11 @@ details.dropdown summary + ul {
 #directory.dense .bar.thin {
   flex: 0 0 9rem;
   margin: 0;
+}
+@media (min-width: 768px) {
+  #directory.dense .project-stats {
+    flex: 0 0 21rem;
+  }
 }
 @media (max-width: 576px) {
   #directory.dense .bar.thin {
@@ -947,14 +950,5 @@ main h2[id] {
   .project:hover .project-art img,
   .project:focus-within .project-art img {
     transform: none;
-  }
-}
-
-main :not(pre) > code {
-  overflow-wrap: anywhere;
-}
-@media (min-width: 768px) {
-  #directory.dense .project-stats {
-    flex: 0 0 21rem;
   }
 }

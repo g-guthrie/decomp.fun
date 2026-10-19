@@ -5,3 +5,5 @@ __pycache__/
 node_modules/
 data/reports/
 .dev.vars
+.watchdog/
+.DS_Store

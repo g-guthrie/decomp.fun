@@ -12,9 +12,8 @@
         document.dispatchEvent(new CustomEvent("themechange"));
       }
     });
-    toggle.addEventListener("click", (ev) => {
-      const current = root.getAttribute("data-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-      const next = current === "dark" ? "light" : "dark";
+    toggle.addEventListener("click", () => {
+      const next = isDark() ? "light" : "dark";
       root.setAttribute("data-theme", next);
       toggle.setAttribute("aria-pressed", String(next === "dark"));
       try {
@@ -72,7 +71,6 @@
     if (ev.metaKey || ev.ctrlKey) window.open(link.href, "_blank", "noopener");
     else location.href = link.href;
   });
-  const reduced = matchMedia("(prefers-reduced-motion: reduce)");
 
   // ------------------------------------------------------------ relative times
   const steps = [
@@ -111,6 +109,7 @@
   const search = document.getElementById("search");
   const counter = document.getElementById("result-count");
   const empty = document.getElementById("empty");
+  const reduced = matchMedia("(prefers-reduced-motion: reduce)");
 
   const sorts = {
     updated: ["Recently updated", (a, b) => b.dataset.updated.localeCompare(a.dataset.updated)],

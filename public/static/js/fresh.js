@@ -28,6 +28,8 @@
     setTimeout(tick, 20e3);
   };
 
+  // The Worker only reads `repo`; `sha` keeps a page built from a newer commit from reusing the
+  // browser-cached answer (the response is cacheable for 10 minutes).
   fetch(`/api/fresh?repo=${encodeURIComponent(repo)}&sha=${encodeURIComponent(sha)}`)
     .then((r) => r.json())
     .then((d) => {
