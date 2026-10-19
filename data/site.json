@@ -5,6 +5,5 @@
     "heading": "Decompilation projects",
     "text": "Games being rebuilt from scratch in C and C++ that compile back into the exact original binary."
   },
-  "nav_links": [],
-  "contact_url": "https://github.com/g-guthrie"
+  "nav_links": []
 }

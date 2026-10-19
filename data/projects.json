@@ -10,7 +10,6 @@
     "source": {
       "type": "naomi_proof",
       "repo": "g-guthrie/mvc2-naomi-decomp",
-      "workflow": "build.yml",
       "branch": "main",
       "artifact": "hitachi-evidence",
       "file": "progress.json"
@@ -27,7 +26,6 @@
     "source": {
       "type": "objdiff_artifact",
       "repo": "g-guthrie/mvc2-ps2-decomp",
-      "workflow": "report.yml",
       "branch": "main",
       "artifact": "ps2_report",
       "file": "report.json"
@@ -57,7 +55,6 @@
     "source": {
       "type": "objdiff_artifact",
       "repo": "doldecomp/melee",
-      "workflow": "build.yml",
       "branch": "master",
       "artifact": "GALE01_report",
       "file": "report.json"

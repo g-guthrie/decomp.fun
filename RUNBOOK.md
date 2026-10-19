@@ -35,8 +35,9 @@ once fixed; the next run reopens a new one if the problem is still there. Each l
 - **N of M projects failed to update in the last run**: usually a GitHub outage or rate limit; it clears itself.
   If it persists for days, set or refresh `GH_READ_TOKEN`.
 - **The number of listed projects dropped from A to B**: more than 10% of projects disappeared in a day. Usually
-  GitHub errors making repositories look deleted. Check the last "Update and deploy" run's "Not listed" line. If
-  repositories really were deleted, nothing to do (the new count is the baseline from the next day).
+  GitHub errors making repositories look deleted. Check the last "Update and deploy" run's "Not listed" line. A
+  repository is only delisted after 3 runs in a row and 48 hours of 404s, so one bad run never removes anything.
+  If repositories really were deleted, nothing to do (the new count is the baseline from the next day).
 - **The GitHub token used for submissions and refreshes has stopped working / expires in N days**: rotate
   `GITHUB_DISPATCH_TOKEN` (above). Until then submissions and instant refreshes fail; the 6-hourly update still works.
 
@@ -64,5 +65,6 @@ them up.
 
 - Cloudflare static assets: 20,000 files per deploy (Workers Free; 100,000 on Paid) and 2,000 static redirect rules.
   `build.py` prints the counts; each project costs about 9 files plus 3 per extra build.
-- Worker: `REFRESHES_PER_DAY` (default 100, site-wide) and 4 refreshes per repository per day; 60 submissions per
-  day site-wide, 3 per account.
+- Worker: `REFRESHES_PER_DAY` (default 100, site-wide) and 4 refreshes per repository per day, each project checked
+  against GitHub at most every 10 minutes; 60 submissions per day site-wide, 3 per account, accounts at least 30
+  days old. All counters live in the `LIMITS` KV namespace and expire by themselves.
