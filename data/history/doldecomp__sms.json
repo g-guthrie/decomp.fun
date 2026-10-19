@@ -280,5 +280,19 @@
    "matched_data_percent": 89.42172095369426,
    "complete_data_percent": 22.394043080844124
   }
+ },
+ {
+  "timestamp": "2026-10-19T07:47:49Z",
+  "commit_sha": "6836b3e56d98cd7d886996ffa0fa7dc7c7f94789",
+  "commit_message": "Guide closer for non-jp",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 94.20139,
+   "matched_code_percent": 49.854599664409335,
+   "complete_code_percent": 18.417710095128587,
+   "matched_data_percent": 89.50917572318066,
+   "complete_data_percent": 22.394043080844124
+  }
  }
 ]
