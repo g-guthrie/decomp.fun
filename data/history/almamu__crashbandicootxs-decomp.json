@@ -143,5 +143,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T15:17:22Z",
+  "commit_sha": "e8616909834454c20cef8ba12ce723dcb1026e87",
+  "commit_message": "Editors (#1167): the level editor, meta-tiles: their files and their detection (#1214)",
+  "source": "report",
+  "version": "europe",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

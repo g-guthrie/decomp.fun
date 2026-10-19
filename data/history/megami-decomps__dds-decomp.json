@@ -284,5 +284,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T14:59:44Z",
+  "commit_sha": "778486bbf353fdc7c7f97d9292d6b75905a2297c",
+  "commit_message": "Match DDS1 lighting and RGB editor func_0023A968 (PiM)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 93.571677,
+   "matched_code_percent": 93.57167733012268,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
