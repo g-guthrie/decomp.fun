@@ -227,5 +227,19 @@
    "matched_data_percent": 36.375835948850465,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T21:59:10Z",
+  "commit_sha": "16aa0fa38620402c481a50c90f4f33edf14f7560",
+  "commit_message": "credits: port to JPN versions",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.999985,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 36.375835948850465,
+   "complete_data_percent": 0.0
+  }
  }
 ]
