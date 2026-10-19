@@ -8,7 +8,9 @@ Comparing two repositories for the same game is done build to build:
   different  different builds of the game (e.g. USA and Japan); both are legitimate
 
 Takeover: a challenger (same or different build) takes the slot after leading by
-TAKEOVER_MARGIN points of matched code for TAKEOVER_DAYS days in a row.
+TAKEOVER_MARGIN points of matched code for TAKEOVER_DAYS days, ahead on at least STREAK_SHARE of
+the runs in that time (one run behind is tolerated; STREAK_MISSES in a row end the streak). Against a
+leader with no live report (archived numbers), a live report at equal or better progress counts as ahead.
 
 Disputes: a submission that conflicts with the listed project is recorded as "contesting".
 When at least DISPUTE_QUORUM independent contesters (different owners, not forks of each
@@ -30,6 +32,8 @@ SUBMISSIONS = ROOT / "data" / "submissions"
 
 TAKEOVER_MARGIN = 1.0  # percentage points of matched code
 TAKEOVER_DAYS = 7
+STREAK_MISSES = 2  # runs behind in a row that end a challenger's streak (one missed run is tolerated)
+STREAK_SHARE = 0.9  # share of runs it must have been ahead on over the TAKEOVER_DAYS
 CHALLENGER_MIN_DAYS = 30  # a submitted repository must be listed this long before it can take a slot
 DISPUTE_QUORUM = 2
 CONTESTER_MIN_REPO_DAYS = 30
@@ -147,6 +151,43 @@ def can_take_over(p, leader, now):
     return _age_days(submission(p).get("listed_at"), now) >= CHALLENGER_MIN_DAYS
 
 
+# ---------------------------------------------------------------- takeover streaks
+
+
+def beats(p, leader):
+    """p is ahead of the slot's leader this run: TAKEOVER_MARGIN points more matched code, or, against a
+    leader with no live report (archived numbers only), a live report at least as far along."""
+    if leader.v.archived and not p.v.archived:
+        return p.v.code_pct >= leader.v.code_pct
+    return p.v.code_pct - leader.v.code_pct >= TAKEOVER_MARGIN
+
+
+def _streak(v):
+    """Stored challenger state; older state files stored only the start time."""
+    if isinstance(v, str):
+        return {"since": v, "runs": 0, "ahead": 0, "misses": 0}
+    return {"since": v["since"], "runs": v.get("runs", 0), "ahead": v.get("ahead", 0), "misses": v.get("misses", 0)}
+
+
+def _run(st, ahead, stamp):
+    """Advance a challenger's streak by one run. One run behind (a report caught mid-push, a flaky CI
+    run) doesn't end it; STREAK_MISSES behind in a row does."""
+    if st is None:
+        return {"since": stamp, "runs": 1, "ahead": 1, "misses": 0} if ahead else None
+    st = {**st, "runs": st["runs"] + 1}
+    if ahead:
+        return {**st, "ahead": st["ahead"] + 1, "misses": 0}
+    st["misses"] += 1
+    return st if st["misses"] < STREAK_MISSES else None
+
+
+def _ready(st, now):
+    """Ahead now, for TAKEOVER_DAYS, on at least STREAK_SHARE of the runs since."""
+    if st["misses"] or now - datetime.fromisoformat(st["since"]) < timedelta(days=TAKEOVER_DAYS):
+        return False
+    return not st["runs"] or st["ahead"] / st["runs"] >= STREAK_SHARE
+
+
 # ---------------------------------------------------------------- assignment
 
 
@@ -211,34 +252,55 @@ def assign(projects, contesters=(), now=None, record=True):
         by_slot.setdefault(slot_of(identity, disputes, key(p)), []).append(p)
 
     result, new_state = {}, {}
+    stamp = now.isoformat(timespec="seconds")
     for slot, members in by_slot.items():
         members.sort(key=lambda p: -p.v.code_pct)
         keys = {key(p): p for p in members}
         prev = state.get(slot, {})
-        leader_key = prev.get("leader") if prev.get("leader") in keys else key(members[0])
+        history = prev.get("history", [])
+        since = prev.get("since", stamp)
+        if prev.get("leader") in keys:
+            leader_key = prev["leader"]
+        else:
+            leader_key = key(members[0])
+            if prev.get("leader"):  # the leader left the slot (deleted, delisted, re-identified)
+                history = history + [{"from": prev["leader"], "to": leader_key, "at": stamp, "reason": "leader gone"}]
+                since = stamp
         leader = keys[leader_key]
+        old_streaks = {k: _streak(v) for k, v in prev.get("challengers", {}).items()} if prev.get("leader") == leader_key else {}
         challengers = {}
         for p in members:
             k = key(p)
             if k == leader_key:
                 continue
-            ahead = p.v.code_pct - leader.v.code_pct >= TAKEOVER_MARGIN
-            if ahead and can_take_over(p, leader, now) and compare(p, leader, identity.get(k), identity.get(leader_key)) != "conflict":
-                challengers[k] = prev.get("challengers", {}).get(k, now.isoformat(timespec="seconds"))
-        ready = [k for k, since in challengers.items() if now - datetime.fromisoformat(since) >= timedelta(days=TAKEOVER_DAYS)]
-        history = prev.get("history", [])
-        since = prev.get("since", now.isoformat(timespec="seconds"))
+            if not (can_take_over(p, leader, now) and compare(p, leader, identity.get(k), identity.get(leader_key)) != "conflict"):
+                continue
+            st = _run(old_streaks.get(k), beats(p, leader), stamp)
+            if st:
+                challengers[k] = st
+        ready = [k for k, st in challengers.items() if _ready(st, now)]
         if ready:
             new_key = max(ready, key=lambda k: keys[k].v.code_pct)
-            history = history + [{"from": leader_key, "to": new_key, "at": now.isoformat(timespec="seconds"), "reason": "progress"}]
+            history = history + [{"from": leader_key, "to": new_key, "at": stamp, "reason": "progress"}]
             leader_key, leader = new_key, keys[new_key]
-            challengers.pop(new_key, None)
-            since = now.isoformat(timespec="seconds")
+            challengers = {}  # everyone now measures against the new leader
+            since = stamp
         new_state[slot] = {"leader": leader_key, "since": since, "challengers": challengers, "history": history}
         contesting = [c for c in contest_by_slot.get(slot, []) if c not in promoted]
         result[slot] = {"leader": leader, "others": [p for p in members if p is not leader],
-                        "challengers": challengers, "contesters": contesting,
+                        "challengers": {k: st["since"] for k, st in challengers.items() if st["misses"] == 0},
+                        "contesters": contesting,
                         "contested_by": contested.get(key(leader), [])}
+    listed_now = {key(p) for p in all_listed}
+    for slot, prev in state.items():
+        # A game's slot whose leader is gone (deleted, made private, delisted) keeps its record, with the
+        # departure noted once. A leader that was only re-identified into another slot just moves.
+        if slot in new_state or slot.startswith("repo:") or prev.get("leader") in listed_now:
+            continue
+        if prev.get("leader"):
+            prev = {**prev, "leader": None, "challengers": {}, "history": prev.get("history", []) + [
+                {"from": prev["leader"], "to": None, "at": stamp, "reason": "leader gone"}]}
+        new_state[slot] = prev
 
     if record:
         STATE.write_text(json.dumps(dict(sorted(new_state.items())), indent=1) + "\n")
