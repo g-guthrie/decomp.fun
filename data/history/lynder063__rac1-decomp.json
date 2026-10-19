@@ -99,5 +99,19 @@
    "matched_data_percent": 0.46003845097500684,
    "complete_data_percent": 0.3604778906893711
   }
+ },
+ {
+  "timestamp": "2026-10-19T05:19:58Z",
+  "commit_sha": "6a72939bafff11b28fee52fa6e2099c6fb684ea9",
+  "commit_message": "perf(tools): overlay_asm disassembles the levels in parallel",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 95.40179872267808,
+   "matched_code_percent": 94.74731521064608,
+   "complete_code_percent": 33.2959129145694,
+   "matched_data_percent": 0.5229790350636272,
+   "complete_data_percent": 0.3604778906893711
+  }
  }
 ]

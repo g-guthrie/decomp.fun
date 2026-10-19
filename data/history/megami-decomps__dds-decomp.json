@@ -172,5 +172,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T04:32:53Z",
+  "commit_sha": "712def8d9295ab0661e7d7ff0a1ec3cf152439c4",
+  "commit_message": "Merge remote-tracking branch 'origin/main'",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 93.042518,
+   "matched_code_percent": 93.04251783599837,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
