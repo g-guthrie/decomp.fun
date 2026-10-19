@@ -88,5 +88,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T00:37:06Z",
+  "commit_sha": "9e6a006a89cd8738eaed0c5112a9159c3120f0fa",
+  "commit_message": "Resolve curated nested functions conservatively in unit checks",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 92.240122,
+   "matched_code_percent": 92.24012179225663,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

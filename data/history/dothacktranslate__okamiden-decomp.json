@@ -22,5 +22,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-19T00:39:14Z",
+  "commit_sha": "63c108200ba8fa485eda223b80229b1f63e796a6",
+  "commit_message": "arm9: add 37 scored Stage 5 Ghidra nonmatching drafts",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 50.11090890610312,
+   "matched_code_percent": 3.6999629355077834,
+   "complete_code_percent": 3.6999629355077834,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
