@@ -129,5 +129,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T14:11:49Z",
+  "commit_sha": "6b800cec5b93868d76658e459489406467075cbe",
+  "commit_message": "Editors (#1167): the level editor, N-Tranced's records 73, 92 and 106 (#1209)",
+  "source": "report",
+  "version": "europe",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

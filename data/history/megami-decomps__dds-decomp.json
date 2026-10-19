@@ -270,5 +270,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T13:49:22Z",
+  "commit_sha": "931f8ade585393cde0c81887d0ad70e9c76739f9",
+  "commit_message": "Match DDS2 Bezier editor func_002582D0 (PiM)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 93.462622,
+   "matched_code_percent": 93.46262151862209,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
