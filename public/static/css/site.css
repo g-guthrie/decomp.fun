@@ -360,16 +360,14 @@ details.dropdown summary + ul {
 .project-art img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  opacity: 0.1;
-  filter: blur(3px);
+  object-fit: fill;
+  opacity: 0.12;
   transform: scale(1);
   transition: all 0.5s;
 }
 .project:hover .project-art img,
 .project:focus-within .project-art img {
-  opacity: 0.3;
-  filter: none;
+  opacity: 0.22;
   transform: scale(1.02);
 }
 .project-head {
@@ -480,4 +478,14 @@ details.dropdown summary + ul {
 }
 .status-rejected {
   color: var(--pico-del-color);
+}
+
+.notice.warn {
+  border-left-color: var(--pico-mark-background-color);
+}
+.status-contesting {
+  color: var(--pico-mark-background-color);
+}
+.status-already {
+  color: var(--pico-muted-color);
 }

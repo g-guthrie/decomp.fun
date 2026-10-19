@@ -178,8 +178,7 @@ def main():
         (DATA / "history" / f"{i}.json").write_text(json.dumps(points, indent=1))
     (DATA / "catalog.json").write_text(json.dumps(catalog, indent=1))
     print(f"catalog: {len(catalog)} projects, {sum(1 for p in catalog if p['image'])} with banner images")
-    if "--no-images" not in sys.argv:
-        fetch_images(catalog)
+    # Banner images are not imported: the site generates its own from each project's progress map.
 
 
 def fetch_images(catalog):

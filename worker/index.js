@@ -15,12 +15,13 @@
 const ORIGIN = "https://decomp.fun";
 const MIN_ACCOUNT_AGE_DAYS = 30;
 const PER_ACCOUNT_PER_DAY = 3;
-const SITE_PER_DAY = 200;
+const SITE_PER_DAY = 60;
 const SESSION_DAYS = 7;
 const NAME_ONLY = ["win32", "switch", "dos"];
 const FRESH_CHECK_SECONDS = 600; // ask GitHub about a project at most every 10 minutes
 const REFRESH_LOCK_SECONDS = 900; // one refresh in flight per project
-const DEFAULT_REFRESHES_PER_DAY = 30; // keeps a private repo within its free Actions minutes
+const DEFAULT_REFRESHES_PER_DAY = 100; // site-wide
+const REFRESHES_PER_REPO_PER_DAY = 4; // one busy repository can't use up everyone's refreshes
 
 export default {
   async fetch(request, env) {
@@ -39,6 +40,8 @@ export default {
           return await submit(request, env);
         case "/api/fresh":
           return await fresh(request, url, env);
+        case "/api/health":
+          return await health(env);
         default:
           return env.ASSETS.fetch(request);
       }
@@ -52,7 +55,10 @@ export default {
 // ------------------------------------------------------------------ helpers
 
 const json = (data, status = 200, headers = {}) =>
-  new Response(JSON.stringify(data), { status, headers: { "content-type": "application/json", ...headers } });
+  new Response(JSON.stringify(data), {
+    status,
+    headers: { "content-type": "application/json", "x-content-type-options": "nosniff", "cache-control": "no-store", ...headers },
+  });
 
 const redirect = (location, ...cookies) => {
   const h = new Headers({ location });
@@ -87,9 +93,15 @@ async function readSession(request, env) {
   const raw = readCookie(request, "session");
   if (!raw || !raw.includes(".")) return null;
   const [body, sig] = raw.split(".");
-  if ((await hmac(env.SESSION_SECRET, body)) !== sig) return null;
-  const s = JSON.parse(atob(body));
-  return s.exp > Date.now() ? s : null;
+  try {
+    const key = await crypto.subtle.importKey("raw", new TextEncoder().encode(env.SESSION_SECRET), { name: "HMAC", hash: "SHA-256" }, false, ["verify"]);
+    const sigBytes = Uint8Array.from(atob(sig.replace(/-/g, "+").replace(/_/g, "/")), (c) => c.charCodeAt(0));
+    if (!(await crypto.subtle.verify("HMAC", key, sigBytes, new TextEncoder().encode(body)))) return null;
+    const s = JSON.parse(atob(body));
+    return s.exp > Date.now() ? s : null;
+  } catch {
+    return null;
+  }
 }
 
 const github = (path, token, init = {}) =>
@@ -181,6 +193,11 @@ async function submit(request, env) {
   const info = await repoRes.json();
   if (info.private) return json({ ok: false, message: "That repository isn't public." }, 400);
 
+  // Parallel requests from one account: only the first in a 30-second window gets through.
+  if (await env.LIMITS.get(`busy:${s.id}`))
+    return json({ ok: false, message: "Your previous submission is still being sent. Try again in a moment." }, 429);
+  await env.LIMITS.put(`busy:${s.id}`, "1", { expirationTtl: 60 });
+
   const day = new Date().toISOString().slice(0, 10);
   const userKey = `user:${s.id}:${day}`;
   const siteKey = `site:${day}`;
@@ -221,15 +238,17 @@ async function loadManifest(env, origin) {
 async function latestSha(env, repo, src) {
   if (src.kind === "objdiff_file" && src.path) {
     const r = await github(`repos/${repo}/commits?path=${encodeURIComponent(src.path)}&per_page=1`, env.GITHUB_DISPATCH_TOKEN);
-    if (!r.ok) return null;
+    if (!r.ok) throw new Error(`GitHub ${r.status}`);
     const [c] = await r.json();
     return c ? c.sha : null;
   }
   const r = await github(`repos/${repo}/actions/artifacts?per_page=50`, env.GITHUB_DISPATCH_TOKEN);
-  if (!r.ok) return null;
+  if (!r.ok) throw new Error(`GitHub ${r.status}`);
   const { artifacts = [] } = await r.json();
   const newest = artifacts
     .filter((a) => !a.expired && a.workflow_run && a.workflow_run.head_branch === src.branch)
+    // A pull request from a fork whose branch is also called "main" also runs here; never trust it.
+    .filter((a) => !a.workflow_run.head_repository_id || a.workflow_run.head_repository_id === a.workflow_run.repository_id)
     .filter((a) => (src.artifact ? a.name === src.artifact : /report/i.test(a.name)))
     .sort((a, b) => b.created_at.localeCompare(a.created_at))[0];
   return newest ? newest.workflow_run.head_sha : null;
@@ -248,13 +267,19 @@ async function fresh(request, url, env) {
   if (cached) return cached;
 
   let status = "current";
-  const latest = await latestSha(env, repo, src);
+  let latest;
+  try {
+    latest = await latestSha(env, repo, src);
+  } catch (err) {
+    console.error("fresh check failed", repo, String(err));
+    return json({ status: "error" });
+  }
   if (latest && latest !== src.sha) {
     const day = new Date().toISOString().slice(0, 10);
     const limit = Number(env.REFRESHES_PER_DAY || DEFAULT_REFRESHES_PER_DAY);
     if (await env.LIMITS.get(`refreshing:${repo}`)) {
       status = "updating";
-    } else if ((await count(env, `refresh:${day}`)) >= limit) {
+    } else if ((await count(env, `refresh:${day}`)) >= limit || (await count(env, `refresh:${repo}:${day}`)) >= REFRESHES_PER_REPO_PER_DAY) {
       status = "busy";
     } else {
       const d = await github(`repos/${env.SITE_REPO}/dispatches`, env.GITHUB_DISPATCH_TOKEN, {
@@ -265,6 +290,7 @@ async function fresh(request, url, env) {
       if (d.ok) {
         await env.LIMITS.put(`refreshing:${repo}`, latest, { expirationTtl: REFRESH_LOCK_SECONDS });
         await increment(env, `refresh:${day}`);
+        await increment(env, `refresh:${repo}:${day}`);
         status = "updating";
       } else {
         console.error("refresh dispatch failed", d.status);
@@ -275,4 +301,17 @@ async function fresh(request, url, env) {
   const res = json({ status }, 200, { "cache-control": `public, max-age=${FRESH_CHECK_SECONDS}` });
   await cache.put(cacheKey, res.clone());
   return res;
+}
+
+// ------------------------------------------------------------------ health
+
+// Read by the watchdog workflow: is the GitHub token still working, and when does it expire?
+async function health(env) {
+  const r = await github("rate_limit", env.GITHUB_DISPATCH_TOKEN);
+  const expires = r.headers.get("github-authentication-token-expiration");
+  return json({
+    token_ok: r.ok,
+    token_expires: expires ? new Date(expires).toISOString() : null,
+    checked: new Date().toISOString(),
+  });
 }

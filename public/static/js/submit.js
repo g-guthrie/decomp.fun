@@ -14,7 +14,7 @@
     result.innerHTML = "";
     if (typeof text === "string") result.textContent = text;
     else result.append(text);
-    result.className = `notice${kind === "error" ? " error" : ""}`;
+    result.className = `notice${kind ? ` ${kind}` : ""}`;
     result.hidden = false;
   };
 
@@ -39,7 +39,7 @@
   const render = (entry) => {
     const box = document.createElement("div");
     const head = document.createElement("strong");
-    head.textContent = entry.status === "listed" ? "Accepted" : entry.status === "contesting" ? "Contesting" : "Not accepted";
+    head.textContent = { listed: "Accepted", contesting: "Contesting", already: "Already listed" }[entry.status] || "Not accepted";
     box.append(head, document.createTextNode(` · ${entry.repo}${entry.game ? ` (${entry.game})` : ""}`));
     if (entry.reasons.length) {
       const ul = document.createElement("ul");
@@ -64,10 +64,12 @@
     const tick = async () => {
       try {
         const list = await (await fetch(`/submissions.json?t=${Date.now()}`, { cache: "no-store" })).json();
-        const entry = list.find((x) => x.repo.toLowerCase() === repo.toLowerCase() && x.submitted_at >= since);
-        if (entry) {
+        const match = list.find((x) => x.repo.toLowerCase() === repo.toLowerCase());
+        const fresh = match && (match.submitted_at >= since ? match
+          : match.last_check && match.last_check.at >= since ? { ...match, ...match.last_check } : null);
+        if (fresh) {
           sessionStorage.removeItem(PENDING);
-          show(render(entry), entry.status === "listed" ? "" : "error");
+          show(render(fresh), fresh.status === "listed" || fresh.status === "already" ? "" : fresh.status === "contesting" ? "warn" : "error");
           return;
         }
       } catch {}

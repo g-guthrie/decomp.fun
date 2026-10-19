@@ -65,15 +65,45 @@ def report_problems(v):
     return out
 
 
+def listed_names():
+    """Every listed repository under its configured name and its current GitHub name (renames)."""
+    names = {}
+    for p in fetch.all_projects():
+        key = f"{p['owner']}/{p['repo']}".lower()
+        names[key] = key
+        current = (fetch.load_report(p["id"]).get("meta", {}).get("full_name") or "").lower()
+        if current:
+            names[current] = key
+    return names
+
+
+def source_proof(repo, branch, versions):
+    """Share of the report's decompiled files that exist as source in the repository.
+    A fabricated report names files that aren't there."""
+    try:
+        tree = fetch.gh(f"repos/{repo}/git/trees/{branch}?recursive=1").get("tree", [])
+    except fetch.GhError:
+        return None
+    stems = {re.sub(r"\.[A-Za-z0-9]+$", "", t["path"].rsplit("/", 1)[-1]).lower() for t in tree if t["type"] == "blob"}
+    done = [u for v in versions for u in v.get("units", []) if u["fuzzy_match_percent"] >= 99.99]
+    if not done:
+        return 0.0
+    found = sum(1 for u in done if re.sub(r"\.[A-Za-z0-9]+$", "", u["name"].rsplit("/", 1)[-1]).lower() in stems)
+    return found / len(done)
+
+
+def recent_commits(repo, n=100):
+    try:
+        return [c["sha"] for c in fetch.gh(f"repos/{repo}/commits?per_page={n}")]
+    except fetch.GhError:
+        return []
+
+
 def check(repo, by, system=None, game=None):
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    key = repo.lower()
     entry = {"repo": repo, "by": by, "submitted_at": now, "status": "rejected", "reasons": []}
-    listed = {f"{p['owner']}/{p['repo']}".lower() for p in fetch.all_projects()}
-    if key in listed:
-        entry.update(status="listed", reasons=["Already on the site."])
-        return entry
 
+    # Canonical name first: GitHub follows renames and transfers.
     try:
         info = fetch.gh(f"repos/{repo}")
     except fetch.GhError:
@@ -82,44 +112,63 @@ def check(repo, by, system=None, game=None):
     if info.get("private"):
         entry["reasons"] = ["Repository isn't public."]
         return entry
+    repo = info["full_name"]
+    key = repo.lower()
+    entry["repo"] = repo
+    if key in listed_names():
+        entry.update(status="already", reasons=["Already on the site."])
+        return entry
+
     owner, name = info["owner"]["login"], info["name"]
     pid = f"{owner}__{name}".lower()
     project = {"id": pid, "owner": owner, "repo": name, "name": name, "submitted": True}
+    entry["repo_meta"] = {"id": info["id"], "created_at": info["created_at"], "fork": info.get("fork", False),
+                          "parent": (info.get("parent") or {}).get("full_name")}
 
     # Progress report from the repo's own CI.
     try:
         fetch.fetch_project({**project, "opt_in": True})
-    except fetch.GhError as ex:
+    except Exception as ex:
         entry["reasons"] = [f"Couldn't read the repository's Actions artifacts: {ex}"]
         return entry
     record = fetch.load_report(pid)
     versions = record.get("versions") or []
     if not versions:
         entry["reasons"] = [
-            "No objdiff progress report found. The repository's GitHub Actions must upload one on the default branch, "
-            "as an artifact whose name contains \"report\" (for example GALE01_report)."
+            "No objdiff progress report found. The repository's GitHub Actions must upload one on the default branch "
+            "(not from a fork), as an artifact whose name contains \"report\" (for example GALE01_report)."
         ]
         return entry
-    reasons = report_problems(versions[0])
 
-    # Which game is it? Read from the repository, never from the form (except PC/Switch names).
-    hit = identify.identify(f"{owner}/{name}", info["default_branch"], None, [v["id"] for v in versions])
+    # Which game is it? Read from the repository, never from the form (except PC/DOS/Switch names).
+    hit = identify.identify(repo, info["default_branch"], None, [v["id"] for v in versions])
+    reasons = []
     if not hit and system in NAME_ONLY and game:
         g = game_by_name(system, game)
         if g:
-            hit = {"platform": system, "key": g["key"], "title": g["title"], "by": "name", "aliases": []}
+            hit = {"platform": system, "key": g["key"], "title": g["title"], "by": "name", "aliases": [], "builds": []}
         else:
             reasons.append(f"\"{game}\" isn't on the list of known {system} games.")
     if not hit:
         if not (system in NAME_ONLY and game):
             reasons.append(
                 "Couldn't identify the game from the repository. It must contain the game's disc ID, serial, title ID "
-                "or ROM hash (as decomp-toolkit and splat projects do). PC and Switch projects: pick the system and game name."
+                "or ROM hash (as decomp-toolkit and splat projects do). PC, DOS and Switch projects: pick the system and game name."
             )
         entry["reasons"] = reasons
         return entry
 
-    project.update(name=hit["title"], platform=hit["platform"])
+    # Main build of this repository, then the report checks on it.
+    versions = fetch.order_versions(versions, None, hit.get("builds", []))
+    reasons += report_problems(versions[0])
+    proof = source_proof(repo, info["default_branch"], versions)
+    entry["source_proof"] = proof
+    if proof is not None and proof < 0.5:
+        reasons.append(
+            f"Only {proof:.0%} of the files the report counts as decompiled exist in the repository; at least half must."
+        )
+
+    project.update(name=hit["title"], platform=hit["platform"], version=versions[0]["id"])
     entry["game"] = {"platform": hit["platform"], "key": hit["key"], "title": hit["title"], "by": hit["by"],
                      "builds": hit.get("builds", [])}
     entry["project"] = project
@@ -136,7 +185,7 @@ def check(repo, by, system=None, game=None):
     slot = f"{hit['platform']}:{hit['key']}"
     holders = [k for k in identity if k != key and slots.slot_of(identity, disputes, k) == slot]
     listed = {f"{p['owner']}/{p['repo']}".lower(): p for p in fetch.all_projects()}
-    mine = build.Project({**project, "version": versions[0]["id"]})
+    mine = build.Project(project)
     mine_ident = {"builds": entry["game"]["builds"]}
     verdicts = {}
     for h in holders:
@@ -147,21 +196,23 @@ def check(repo, by, system=None, game=None):
 
     current = slots.load(slots.STATE, {}).get(slot, {}).get("leader")
     if current in verdicts and verdicts[current] == "conflict":
+        entry["commits"] = recent_commits(repo)  # used to tell independent contesters from copies
         entry.update(status="contesting", reasons=[
             f"Contesting {current}, which is listed as {hit['title']}: both name the same build, but their code sizes "
             f"don't match, so one of them isn't that game. If at least {slots.DISPUTE_QUORUM} independent repositories "
-            f"(different owners, not forks of each other) agree with each other against it, they replace it."
+            f"(different owners, no shared commits) agree with each other against it, they replace it, unless it is one "
+            f"of the original listings, which are only ever marked as contested."
         ])
         return entry
     note = []
     if current:
         note = [
             f"Accepted as a challenger: {current} currently holds {hit['title']}. This repository takes the slot "
-            f"once it leads by {slots.TAKEOVER_MARGIN:g}% more code decompiled for {slots.TAKEOVER_DAYS} days in a row."
+            f"once it leads by {slots.TAKEOVER_MARGIN:g}% more code decompiled for {slots.TAKEOVER_DAYS} days in a row "
+            f"(and has been listed for at least {slots.CHALLENGER_MIN_DAYS} days)."
         ]
-    entry.update(status="listed", reasons=note)
-    if versions:
-        fetch.append_history(pid, versions[0])
+    entry.update(status="listed", reasons=note, listed_at=now)
+    fetch.append_history(pid, versions[0])
     return entry
 
 
@@ -178,9 +229,19 @@ def main():
         return 1
     entry = check(repo, a.by, a.system, a.game)
     SUBMISSIONS.mkdir(parents=True, exist_ok=True)
-    out = SUBMISSIONS / (re.sub(r"[^a-z0-9_.-]", "_", repo.lower().replace("/", "__")) + ".json")
-    out.write_text(json.dumps(entry, indent=1) + "\n")
-    print(f"{repo}: {entry['status']}" + "".join(f"\n  - {r}" for r in entry["reasons"]))
+    out = SUBMISSIONS / (re.sub(r"[^a-z0-9_.-]", "_", entry["repo"].lower().replace("/", "__")) + ".json")
+    existing = json.loads(out.read_text()) if out.exists() else None
+    if existing and existing.get("status") in ("listed", "contesting") and entry["status"] in ("already", "rejected"):
+        # A resubmission never replaces a listed or contesting record; it only notes the re-check.
+        existing["last_check"] = {"at": entry["submitted_at"], "by": entry["by"], "status": entry["status"],
+                                  "reasons": entry["reasons"]}
+        out.write_text(json.dumps(existing, indent=1) + "\n")
+    elif entry["status"] == "already" and not existing:
+        # Listed some other way (inherited or hand-configured): log the result without creating a project.
+        out.write_text(json.dumps({**entry, "status": "already"}, indent=1) + "\n")
+    else:
+        out.write_text(json.dumps(entry, indent=1) + "\n")
+    print(f"{entry['repo']}: {entry['status']}" + "".join(f"\n  - {r}" for r in entry["reasons"]))
     return 0
 
 

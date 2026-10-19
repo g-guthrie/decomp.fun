@@ -30,6 +30,11 @@ REPORTS = DATA / "reports"
 HISTORY = DATA / "history"
 
 
+MAX_ARTIFACT_BYTES = 50_000_000  # zipped
+MAX_REPORT_BYTES = 200_000_000  # unzipped report file
+MAX_UNITS = 100_000
+
+
 class GhError(Exception):
     pass
 
@@ -90,6 +95,8 @@ def from_objdiff(report):
         "matched_functions": num(m.get("matched_functions")),
     }
     units = []
+    if len(report.get("units", [])) > MAX_UNITS:
+        raise ValueError(f"report has more than {MAX_UNITS:,} units")
     for u in report.get("units", []):
         um = u.get("measures", {})
         size = num(um.get("total_code"))
@@ -256,6 +263,8 @@ def commit_info(repo, sha):
 def unzip_member(blob, wanted):
     """The wanted file, else any report-looking .json, else an objdiff .binpb."""
     with zipfile.ZipFile(io.BytesIO(blob)) as z:
+        if any(i.file_size > MAX_REPORT_BYTES for i in z.infolist()):
+            raise GhError("artifact contains a file larger than 200 MB")
         names = z.namelist()
         pick = next((n for n in names if n.rsplit("/", 1)[-1] == wanted), None)
         if pick is not None:
@@ -286,7 +295,9 @@ def artifact_versions(repo, branch, name_filter=None, workflow=None, previous=No
         arts = []
         for run in runs:
             for a in gh(f"repos/{repo}/actions/runs/{run['id']}/artifacts")["artifacts"]:
-                a.setdefault("workflow_run", {"head_branch": run["head_branch"], "head_sha": run["head_sha"]})
+                a.setdefault("workflow_run", {"head_branch": run["head_branch"], "head_sha": run["head_sha"],
+                                              "repository_id": run["repository"]["id"],
+                                              "head_repository_id": (run.get("head_repository") or {}).get("id")})
                 arts.append(a)
             if any("report" in a["name"].lower() for a in arts):
                 break
@@ -294,6 +305,11 @@ def artifact_versions(repo, branch, name_filter=None, workflow=None, previous=No
     for a in arts:
         run = a.get("workflow_run") or {}
         if a.get("expired") or run.get("head_branch") != branch:
+            continue
+        # A pull request from a fork whose branch is also called "main" runs here too; never trust it.
+        if run.get("head_repository_id") and run.get("repository_id") and run["head_repository_id"] != run["repository_id"]:
+            continue
+        if a.get("size_in_bytes", 0) > MAX_ARTIFACT_BYTES:
             continue
         if name_filter and a["name"] != name_filter:
             continue
@@ -332,9 +348,12 @@ def fetch_project(p):
     except GhError as ex:
         if "HTTP 404" not in str(ex):
             raise
-        # Deleted or made private: stop listing it.
-        out_path.write_text(json.dumps({"meta": {"missing": True}, "versions": []}))
-        return pid, "missing"
+        # Deleted or made private. A 404 can be temporary, so only stop listing after three runs in a row.
+        meta = {**previous.get("meta", {}), "missing_runs": previous.get("meta", {}).get("missing_runs", 0) + 1}
+        meta["missing"] = meta["missing_runs"] >= 3
+        out_path.write_text(json.dumps({**previous, "meta": meta}, separators=(",", ":")))
+        save_latest(pid, {**previous, "meta": meta})
+        return pid, "missing" if meta["missing"] else len(previous.get("versions", []))
     meta = {
         "description": info.get("description"),
         "default_branch": info["default_branch"],
@@ -342,6 +361,9 @@ def fetch_project(p):
         "stars": info.get("stargazers_count", 0),
         "html_url": info["html_url"],
         "fork": info.get("fork", False),
+        "repo_id": info.get("id"),
+        "full_name": info.get("full_name"),
+        "created_at": info.get("created_at"),
         "parent": (info.get("parent") or {}).get("full_name"),
     }
     versions = []
@@ -361,7 +383,7 @@ def fetch_project(p):
             vid = p.get("version") if (src.get("artifact") and p.get("version")) else version
             try:
                 data = fetch_artifact_report(repo, art, src.get("file", "report.json"), convert, prev_versions.get(vid))
-            except (GhError, zipfile.BadZipFile, json.JSONDecodeError, KeyError) as ex:
+            except Exception as ex:  # one bad artifact must never stop the whole run
                 print(f"  {pid}: {art['name']}: {ex}", file=sys.stderr)
                 continue
             if data["measures"]["total_code"] <= 0:
@@ -373,11 +395,53 @@ def fetch_project(p):
 
     if not versions and previous.get("versions"):
         versions = previous["versions"]  # keep last good data
+    versions = order_versions(versions, p.get("version"), builds_for(f"{p['owner']}/{p['repo']}"))
     record = {"meta": meta, "versions": versions, "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
     out_path.write_text(json.dumps(record, separators=(",", ":")))
-    if versions and not p.get("opt_in"):  # submissions get history once accepted
+    save_latest(pid, record)
+    if versions and not p.get("opt_in") and not p.get("contesting"):  # history only for listed projects
         append_history(pid, versions[0])
     return pid, len(versions)
+
+
+LATEST = DATA / "latest"
+
+
+def save_latest(pid, record):
+    """Small committed copy (no per-file units) so cache loss or expired artifacts never lose a project."""
+    LATEST.mkdir(parents=True, exist_ok=True)
+    slim = {**record, "versions": [{k: v for k, v in ver.items() if k != "units"} for ver in record.get("versions", [])]}
+    (LATEST / f"{pid}.json").write_text(json.dumps(slim, separators=(",", ":")))
+
+
+def builds_for(repo_key):
+    """Build IDs that identified this repository's game (identity.json or its submission)."""
+    ident = DATA / "identity.json"
+    builds = set((json.loads(ident.read_text()).get(repo_key.lower(), {}) if ident.exists() else {}).get("builds", []))
+    sub = DATA / "submissions" / (repo_key.lower().replace("/", "__") + ".json")
+    if sub.exists():
+        builds |= set(json.loads(sub.read_text()).get("game", {}).get("builds", []))
+    return builds
+
+
+def order_versions(versions, preferred=None, builds=()):
+    """Main build first: the configured version, else the identified build, else the most decompiled.
+    (Not the alphabetically first artifact, which is often a demo disc or an old release.)"""
+    import identify
+
+    def pct_of(v):
+        m = v["measures"]
+        return m["matched_code"] / m["total_code"] if m.get("total_code") else 0.0
+
+    def rank(v):
+        return (
+            v["id"] != preferred,
+            not (identify.build_ids(v["id"]) & set(builds)),
+            -pct_of(v),
+            v["id"],
+        )
+
+    return sorted(versions, key=rank)
 
 
 def append_history(pid, v):
@@ -422,7 +486,7 @@ def all_projects():
 
 def contesting_projects():
     """Submissions disputing a listed project's game: not shown, but counted by slots.assign."""
-    return [s["project"] for s in load_submissions() if s.get("status") == "contesting" and s.get("project")]
+    return [{**s["project"], "contesting": True} for s in load_submissions() if s.get("status") == "contesting" and s.get("project")]
 
 
 def load_submissions():
@@ -452,7 +516,8 @@ def main():
         projects = [p for p in all_projects()
                     if ((p.get("source") or {}).get("repo") or f"{p['owner']}/{p['repo']}").lower() == want]
     else:
-        projects = [p for p in all_projects() if not only or any(o.lower() in (p["id"] + p["repo"]).lower() for o in only)]
+        everything = all_projects() + contesting_projects()
+        projects = [p for p in everything if not only or any(o.lower() in (p["id"] + p["repo"]).lower() for o in only)]
     print(f"fetching {len(projects)} project(s)")
     ok = missing = failed = missing_repo = 0
     no_report = []
@@ -460,8 +525,8 @@ def main():
     def run(p):
         try:
             return fetch_project(p)
-        except GhError as ex:
-            return p["id"], f"error: {ex}"
+        except Exception as ex:  # one bad project must never stop the whole run
+            return p["id"], f"error: {type(ex).__name__}: {ex}"
 
     with ThreadPoolExecutor(max_workers=6) as pool:
         for pid, res in pool.map(run, projects):

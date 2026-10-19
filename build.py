@@ -11,6 +11,7 @@ Standard library only.
 """
 
 import json
+import os
 import shutil
 from datetime import datetime, timezone
 from html import escape
@@ -169,6 +170,20 @@ class Version:
         return parse_ts(self.commit["timestamp"])
 
 
+def load_record(pid):
+    """Full report from the cache, or the committed slim copy (data/latest) when that is newer or the
+    cache is missing. Another run may have refreshed a project after this run's cache was restored."""
+    def newest(rec):
+        return max((v.get("commit", {}).get("timestamp", "") for v in rec.get("versions", [])), default="")
+
+    full_path, slim_path = DATA / "reports" / f"{pid}.json", DATA / "latest" / f"{pid}.json"
+    full = json.loads(full_path.read_text()) if full_path.exists() else {}
+    slim = json.loads(slim_path.read_text()) if slim_path.exists() else {}
+    if slim and (not full or newest(slim) > newest(full) or (slim.get("meta", {}).get("missing") and not full.get("meta", {}).get("missing"))):
+        return slim
+    return full
+
+
 class Project:
     def __init__(self, p):
         self.raw = p
@@ -178,15 +193,16 @@ class Project:
         self.name = p["name"]
         self.platform = p.get("platform") or "unknown"
         self.role = p.get("role")
-        self.image = p.get("image")
-        report_path = DATA / "reports" / f"{self.id}.json"
-        report = json.loads(report_path.read_text()) if report_path.exists() else {}
+        self.image = None  # set to the generated banner when the project has per-file data
+        report = load_record(self.id)
         self.meta = report.get("meta", {})
         self.description = p.get("description") or self.meta.get("description") or ""
         self.repository = self.meta.get("html_url") or f"https://github.com/{self.owner}/{self.repo}"
-        self.versions = [Version(v) for v in report.get("versions", []) if v.get("commit")]
-        if p.get("version"):  # put the preferred version first
-            self.versions.sort(key=lambda v: v.id != p["version"])
+        from fetch import builds_for, order_versions
+
+        raw_versions = [v for v in report.get("versions", []) if v.get("commit")]
+        raw_versions = order_versions(raw_versions, p.get("version"), builds_for(f"{self.owner}/{self.repo}"))
+        self.versions = [Version(v) for v in raw_versions]
         if not self.versions and p.get("timestamp"):
             self.versions = [
                 Version(
@@ -207,6 +223,7 @@ class Project:
         self.others = []
         self.challengers = {}
         self.contesters = []
+        self.contested_by = []
         self.game_title = ""
         self.disputed = None
         hist_path = DATA / "history" / f"{self.id}.json"
@@ -320,6 +337,38 @@ def headline(v):
 
 
 # ---------------------------------------------------------------- directory
+
+
+def banner_color(pct):
+    if pct >= 100:
+        return "#29c45a"
+    t = pct / 100
+    mix = lambda a, b: round(a + (b - a) * t)
+    return f"#{mix(54, 20):02x}{mix(57, 120):02x}{mix(62, 190):02x}"
+
+
+def write_banner(p):
+    """The project's own progress map as a small SVG banner: original, no artwork rights involved,
+    and it changes as the project progresses. Up to 160 cells (the rest are merged into one)."""
+    units = sorted((u for u in p.v.units if u["total_code"] > 0), key=lambda u: -u["total_code"])
+    if not units:
+        return None
+    if len(units) > 160:
+        rest = units[159:]
+        size = sum(u["total_code"] for u in rest)
+        fuzzy = sum(u["total_code"] * u["fuzzy_match_percent"] for u in rest) / size
+        units = units[:159] + [{"name": "", "total_code": size, "fuzzy_match_percent": fuzzy, "is_linked": False}]
+    cells = layout_units(units)
+    W, H = 400, 100
+    rects = "".join(
+        f'<rect x="{c["x"] * W:.1f}" y="{c["y"] * H:.1f}" width="{max(c["w"] * W - 0.6, 0.3):.1f}" '
+        f'height="{max(c["h"] * H - 0.6, 0.3):.1f}" fill="{banner_color(c["p"])}"/>'
+        for c in cells
+    )
+    svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" preserveAspectRatio="none">{rects}</svg>'
+    rel = "/".join([p.owner, p.repo, "banner.svg"])
+    write(rel, svg)
+    return rel
 
 
 def card(p, now):
@@ -502,6 +551,13 @@ def slot_notice(p):
             f"{len(p.disputed.get('replaced_by', []))} independent repositories ({others}) name the same build of the game, "
             "agree with each other, and don&rsquo;t match this one&rsquo;s code size.</small></div>"
         )
+    if p.contested_by:
+        out += (
+            '<div class="notice error"><small>Contested: '
+            + ", ".join(e(k) for k in p.contested_by)
+            + " independently name the same build of this game with a different code size. As one of the original "
+            "listings it stays listed; check its repository before relying on it.</small></div>"
+        )
     if p.contesters:
         out += (
             f'<div class="notice"><small>{len(p.contesters)} repositor{"y" if len(p.contesters) == 1 else "ies"} '
@@ -680,6 +736,9 @@ All credit for the decompilations goes to the people working on them.</p>
     write("about/index.html", page(site, built, f"About · {site['name']}", body))
 
 
+STATUS_LABELS = {"listed": "Accepted", "contesting": "Contesting", "already": "Already listed", "rejected": "Not accepted"}
+
+
 def build_submit(site, built):
     import submit as sub
     from fetch import load_submissions
@@ -689,6 +748,7 @@ def build_submit(site, built):
     write("submissions.json", json.dumps([
         {"repo": x["repo"], "status": x.get("status"), "reasons": x.get("reasons", []),
          "game": x.get("game", {}).get("title", ""), "submitted_at": x.get("submitted_at", ""),
+         "last_check": x.get("last_check"),
          "url": f'/{x["project"]["owner"]}/{x["project"]["repo"]}/' if x.get("status") == "listed" and x.get("project") else None}
         for x in recent
     ], separators=(",", ":")))
@@ -700,7 +760,7 @@ def build_submit(site, built):
         reasons = "".join(f"<li>{e(r)}</li>" for r in x.get("reasons", []))
         rows.append(
             f"<tr><td>{name}<br><small class=muted>{e(game)}</small></td>"
-            f'<td class="status-{e(x.get("status", ""))}">{"Accepted" if listed else "Not accepted"}</td>'
+            f'<td class="status-{e(x.get("status", ""))}">{STATUS_LABELS.get(x.get("status"), "Not accepted")}</td>'
             f"<td><small>{f'<ul>{reasons}</ul>' if reasons else 'All checks passed.'}</small></td>"
             f'<td><small class="muted">{e(x.get("by", ""))}<br>{e(x.get("submitted_at", "")[:10])}</small></td></tr>'
         )
@@ -766,6 +826,35 @@ def build_404(site, built):
     write("404.html", page(site, built, f"Not found · {site['name']}", body))
 
 
+def security_headers():
+    """Cloudflare static-asset headers: CSP (only our own scripts plus the hashed theme snippet),
+    no framing, HTTPS only, and long caching for static files."""
+    import base64
+    import hashlib
+
+    theme = THEME_INIT.removeprefix("<script>").removesuffix("</script>")
+    digest = base64.b64encode(hashlib.sha256(theme.encode()).digest()).decode()
+    csp = (
+        "default-src 'none'; "
+        f"script-src 'self' 'sha256-{digest}'; "
+        "style-src 'self' 'unsafe-inline'; "  # progress bar widths are inline styles
+        "img-src 'self' data:; connect-src 'self'; font-src 'self'; "
+        "base-uri 'none'; form-action 'self'; frame-ancestors 'none'"
+    )
+    write("_headers", (
+        "/*\n"
+        f"  Content-Security-Policy: {csp}\n"
+        "  Strict-Transport-Security: max-age=31536000; includeSubDomains\n"
+        "  X-Content-Type-Options: nosniff\n"
+        "  Referrer-Policy: strict-origin-when-cross-origin\n"
+        "  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()\n"
+        "/static/*\n"
+        "  Cache-Control: public, max-age=86400\n"
+        "/*.json\n"
+        "  Cache-Control: public, max-age=60\n"
+    ))
+
+
 def main():
     site = json.loads((DATA / "site.json").read_text())
     built = datetime.now(timezone.utc).replace(microsecond=0)
@@ -779,16 +868,12 @@ def main():
         shutil.rmtree(DIST)
     shutil.copytree(ROOT / "public", DIST)
     for p in projects:
-        if p.image:
-            src = DATA / p.image
-            if src.exists():
-                (DIST / p.image).parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy(src, DIST / p.image)
-            else:
-                p.image = None
+        p.image = write_banner(p)
 
     contesters = [c for c in (Project(p) for p in contesting_projects()) if c.versions]
-    assigned, promoted = slots.assign(projects, contesters)
+    # Only the scheduled refresh records slot state; submission/refresh runs build with what's committed.
+    record = os.environ.get("GITHUB_EVENT_NAME") != "repository_dispatch"
+    assigned, promoted = slots.assign(projects, contesters, record=record)
     for c in promoted:  # won a dispute: now a listed project
         sub_path = DATA / "submissions" / (f"{c.owner}__{c.repo}".lower() + ".json")
         if sub_path.exists():
@@ -802,6 +887,7 @@ def main():
         lead.others = sorted(slot["others"], key=lambda o: -o.v.code_pct)
         lead.challengers = slot["challengers"]
         lead.contesters = slot["contesters"]
+        lead.contested_by = slot.get("contested_by", [])
         for o in slot["others"]:
             o.leader = lead
     ident = slots.identities()
@@ -815,6 +901,13 @@ def main():
     build_about(site, projects, built)
     build_404(site, built)
     build_fresh(projects)
+    security_headers()
+    write("health.json", json.dumps({
+        "built": built.isoformat(),
+        "projects": len(projects),
+        "live": sum(1 for p in projects if not p.v.archived),
+        "fetch_failed": sum(1 for p in projects if p.meta.get("missing_runs")),
+    }))
     build_submit(site, built)
     for p in projects:
         for i, v in enumerate(p.versions):

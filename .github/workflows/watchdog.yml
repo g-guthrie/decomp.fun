@@ -1,0 +1,43 @@
+name: Watchdog
+
+# Once a day: if something is wrong with the live site, open a GitHub issue (GitHub emails it to you).
+on:
+  schedule:
+    - cron: "41 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check decomp.fun
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          problems=()
+          health=$(curl -fsS https://decomp.fun/health.json) || problems+=("The site isn't responding (health.json unreachable).")
+          api=$(curl -fsS https://decomp.fun/api/health) || problems+=("The sign-in/submission server isn't responding (/api/health).")
+          if [ -n "$health" ]; then
+            age_h=$(( ( $(date +%s) - $(date -d "$(echo "$health" | jq -r .built)" +%s) ) / 3600 ))
+            [ "$age_h" -gt 14 ] && problems+=("The site hasn't been rebuilt for ${age_h} hours (it should every 6). Check the Update and deploy workflow.")
+            failed=$(echo "$health" | jq -r .fetch_failed); total=$(echo "$health" | jq -r .projects)
+            [ "$failed" -gt $(( total / 5 )) ] && problems+=("${failed} of ${total} projects failed to update in the last run.")
+          fi
+          if [ -n "$api" ]; then
+            [ "$(echo "$api" | jq -r .token_ok)" != "true" ] && problems+=("The GitHub token used for submissions and refreshes has stopped working. Make a new fine-grained token (Contents: read and write on this repository) and run: npx wrangler@4 secret put GITHUB_DISPATCH_TOKEN --name decomp-fun")
+            exp=$(echo "$api" | jq -r .token_expires)
+            if [ "$exp" != "null" ]; then
+              days=$(( ( $(date -d "$exp" +%s) - $(date +%s) ) / 86400 ))
+              [ "$days" -lt 21 ] && problems+=("The GitHub token used for submissions and refreshes expires in ${days} days (${exp}). Make a new one (Contents: read and write on this repository) and run: npx wrangler@4 secret put GITHUB_DISPATCH_TOKEN --name decomp-fun")
+            fi
+          fi
+          if [ ${#problems[@]} -eq 0 ]; then echo "All good."; exit 0; fi
+          title="decomp.fun needs attention"
+          body=$(printf -- "- %s\n" "${problems[@]}")
+          existing=$(gh issue list -R "$REPO" --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then gh issue comment "$existing" -R "$REPO" --body "$body"; else gh issue create -R "$REPO" --title "$title" --body "$body"; fi

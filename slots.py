@@ -30,7 +30,9 @@ SUBMISSIONS = ROOT / "data" / "submissions"
 
 TAKEOVER_MARGIN = 1.0  # percentage points of matched code
 TAKEOVER_DAYS = 7
+CHALLENGER_MIN_DAYS = 30  # a submitted repository must be listed this long before it can take a slot
 DISPUTE_QUORUM = 2
+CONTESTER_MIN_REPO_DAYS = 30
 SIZE_TOLERANCE = 0.02  # same executable: total code within 2%
 LAYOUT_OVERLAP = 0.5
 
@@ -105,16 +107,44 @@ def compare(a, b, ident_a=None, ident_b=None):
     return "different"
 
 
-def independent(group):
-    """At most one repository per owner, and none that is a fork of another in the group."""
-    owners, keys, chosen = set(), {f"{p.owner}/{p.repo}".lower() for p in group}, []
+def submission(p):
+    path = SUBMISSIONS / (f"{p.owner}__{p.repo}".lower() + ".json")
+    return json.loads(path.read_text()) if path.exists() else {}
+
+
+def _age_days(iso, now):
+    try:
+        return (now - datetime.fromisoformat(iso.replace("Z", "+00:00"))).total_seconds() / 86400
+    except (AttributeError, ValueError):
+        return 0
+
+
+def independent(group, now):
+    """Contesters that count: one per owner, no forks of each other, no shared commits (copies of one
+    repository pushed under several accounts), and repositories at least CONTESTER_MIN_REPO_DAYS old."""
+    owners, keys, seen_commits, chosen = set(), {f"{p.owner}/{p.repo}".lower() for p in group}, set(), []
     for p in sorted(group, key=lambda p: -p.v.code_pct):
-        parent = (p.meta.get("parent") or "").lower()
-        if p.owner.lower() in owners or parent in keys:
+        sub = submission(p)
+        parent = (p.meta.get("parent") or sub.get("repo_meta", {}).get("parent") or "").lower()
+        commits = set(sub.get("commits", []))
+        created = p.meta.get("created_at") or sub.get("repo_meta", {}).get("created_at")
+        if (p.owner.lower() in owners or parent in keys or commits & seen_commits
+                or _age_days(created, now) < CONTESTER_MIN_REPO_DAYS):
             continue
         owners.add(p.owner.lower())
+        seen_commits |= commits
         chosen.append(p)
     return chosen
+
+
+def can_take_over(p, leader, now):
+    """Original listings may always compete. A submitted repository must have been listed for
+    CHALLENGER_MIN_DAYS, and a fork can't take its own parent's place (it gets the PR link instead)."""
+    if not p.raw.get("submitted"):
+        return True
+    if (p.meta.get("parent") or "").lower() == f"{leader.owner}/{leader.repo}".lower():
+        return False
+    return _age_days(submission(p).get("listed_at"), now) >= CHALLENGER_MIN_DAYS
 
 
 # ---------------------------------------------------------------- assignment
@@ -135,7 +165,15 @@ def assign(projects, contesters=(), now=None, record=True):
     key = lambda p: f"{p.owner}/{p.repo}".lower()
 
     # Disputes first: a listed project contested by enough independent, mutually agreeing repos.
-    promoted = []
+    # Original listings (inherited or hand-configured) are never removed, only marked contested.
+    promoted, contested = [], {}
+    by_key = {key(p): p for p in list(projects) + list(contesters)}
+    for k, d in list(disputes.items()):  # re-check standing disputes every run
+        demoted = by_key.get(k)
+        winners = [by_key[w] for w in d.get("replaced_by", []) if w in by_key]
+        still = [w for w in winners if demoted and compare(w, demoted, identity.get(key(w)), identity.get(k)) == "conflict"]
+        if not demoted or len(independent(still, now)) < DISPUTE_QUORUM:
+            disputes.pop(k)
     contest_by_slot = {}
     for c in contesters:
         contest_by_slot.setdefault(slot_of(identity, {}, key(c)), []).append(c)
@@ -149,23 +187,23 @@ def assign(projects, contesters=(), now=None, record=True):
         lead_key = state.get(slot, {}).get("leader")
         lead = next((h for h in holders if key(h) == lead_key), max(holders, key=lambda h: h.v.code_pct))
         against = [c for c in cs if compare(c, lead, identity.get(key(c)), identity.get(key(lead))) == "conflict"]
-        # The largest group of contesters that agree with each other.
         best = []
         for c in against:
             group = [d for d in against if d is c or compare(c, d, identity.get(key(c)), identity.get(key(d))) == "same"]
-            group = independent(group)
+            group = independent(group, now)
             if len(group) > len(best):
                 best = group
-        if len(best) >= DISPUTE_QUORUM:
-            disputes[key(lead)] = {
-                "slot": slot, "at": now.isoformat(timespec="seconds"),
-                "replaced_by": [key(c) for c in best],
-            }
-            promoted += best
-            state[slot] = {"leader": key(max(best, key=lambda c: c.v.code_pct)), "since": now.isoformat(timespec="seconds"),
-                           "challengers": {}, "history": state.get(slot, {}).get("history", []) + [
-                               {"from": key(lead), "to": key(max(best, key=lambda c: c.v.code_pct)),
-                                "at": now.isoformat(timespec="seconds"), "reason": "dispute"}]}
+        if len(best) < DISPUTE_QUORUM:
+            continue
+        if not lead.raw.get("submitted"):
+            contested[key(lead)] = [key(c) for c in best]
+            continue
+        winner = max(best, key=lambda c: c.v.code_pct)
+        disputes[key(lead)] = {"slot": slot, "at": now.isoformat(timespec="seconds"), "replaced_by": [key(c) for c in best]}
+        promoted += best
+        state[slot] = {"leader": key(winner), "since": now.isoformat(timespec="seconds"), "challengers": {},
+                       "history": state.get(slot, {}).get("history", []) + [
+                           {"from": key(lead), "to": key(winner), "at": now.isoformat(timespec="seconds"), "reason": "dispute"}]}
 
     all_listed = list(projects) + promoted
     by_slot = {}
@@ -185,7 +223,7 @@ def assign(projects, contesters=(), now=None, record=True):
             if k == leader_key:
                 continue
             ahead = p.v.code_pct - leader.v.code_pct >= TAKEOVER_MARGIN
-            if ahead and compare(p, leader, identity.get(k), identity.get(leader_key)) != "conflict":
+            if ahead and can_take_over(p, leader, now) and compare(p, leader, identity.get(k), identity.get(leader_key)) != "conflict":
                 challengers[k] = prev.get("challengers", {}).get(k, now.isoformat(timespec="seconds"))
         ready = [k for k, since in challengers.items() if now - datetime.fromisoformat(since) >= timedelta(days=TAKEOVER_DAYS)]
         history = prev.get("history", [])
@@ -199,7 +237,8 @@ def assign(projects, contesters=(), now=None, record=True):
         new_state[slot] = {"leader": leader_key, "since": since, "challengers": challengers, "history": history}
         contesting = [c for c in contest_by_slot.get(slot, []) if c not in promoted]
         result[slot] = {"leader": leader, "others": [p for p in members if p is not leader],
-                        "challengers": challengers, "contesters": contesting}
+                        "challengers": challengers, "contesters": contesting,
+                        "contested_by": contested.get(key(leader), [])}
 
     if record:
         STATE.write_text(json.dumps(dict(sorted(new_state.items())), indent=1) + "\n")
