@@ -79,7 +79,8 @@ jobs:
         if: always()
         env:
           GH_TOKEN: ${{ secrets.GH_READ_TOKEN || github.token }}
-        run: gh api rate_limit -q '.resources.core | "API calls this hour: \(.used) of \(.limit)"'
+        run: |
+          gh api rate_limit -q '.resources.core | "API calls this hour: \(.used) of \(.limit)"'
 
       - name: Save reports
         if: always()
