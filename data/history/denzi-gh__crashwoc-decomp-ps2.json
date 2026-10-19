@@ -44,5 +44,19 @@
    "matched_data_percent": 0.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T17:00:11Z",
+  "commit_sha": "e8ea8e350d9b7e19919b380c3a6b8d2063be7b42",
+  "commit_message": "decomp/types-retry (#99)",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 93.75766,
+   "matched_code_percent": 80.8287741505154,
+   "complete_code_percent": 3.646667362530773,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

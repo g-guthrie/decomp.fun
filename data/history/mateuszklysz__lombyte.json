@@ -75,5 +75,19 @@
    "matched_data_percent": 43.57753471865878,
    "complete_data_percent": 43.57753471865878
   }
+ },
+ {
+  "timestamp": "2026-10-19T17:20:32Z",
+  "commit_sha": "65ba28828557887c82cb97716dd1c9aad7da2cf2",
+  "commit_message": "overlay: clarify state and action names (batch 24) (#227)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 95.742645,
+   "matched_code_percent": 94.78660856722493,
+   "complete_code_percent": 94.78660856722493,
+   "matched_data_percent": 43.57753471865878,
+   "complete_data_percent": 43.57753471865878
+  }
  }
 ]
