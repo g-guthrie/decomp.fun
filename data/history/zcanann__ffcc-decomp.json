@@ -110,5 +110,19 @@
    "matched_data_percent": 98.34346894160039,
    "complete_data_percent": 52.53900547607688
   }
+ },
+ {
+  "timestamp": "2026-10-19T00:52:52Z",
+  "commit_sha": "6abeff55644f6a752a250c08152d01fb81c092d1",
+  "commit_message": "Merge staging: joint PAL+JP statement-order fixes, pppColum links in JP",
+  "source": "report",
+  "version": "GCCE01",
+  "measures": {
+   "fuzzy_match_percent": 99.71898651123047,
+   "matched_code_percent": 78.06963747653379,
+   "complete_code_percent": 45.34599851709287,
+   "matched_data_percent": 98.34346894160039,
+   "complete_data_percent": 52.53900547607688
+  }
  }
 ]

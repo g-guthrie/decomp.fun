@@ -123,5 +123,19 @@
    "matched_data_percent": 2.250273131730499,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T01:01:42Z",
+  "commit_sha": "ecaedd67c745e49324b4e32623e65b51bc0dccf2",
+  "commit_message": "sh2: `hh_effect_object_def` data \ud83d\udca8\ud83c\udf0a\ud83d\udd25\ud83e\ude78 (#388)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.6733346,
+   "matched_code_percent": 6.804751431104792,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
