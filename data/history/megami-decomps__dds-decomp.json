@@ -200,5 +200,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T07:27:54Z",
+  "commit_sha": "01230b6a238da8717caba91137dde30681802348",
+  "commit_message": "Match DDS2 timed-camera interpreter with source-owned provider boundary",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 93.428193,
+   "matched_code_percent": 93.42819331535637,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
