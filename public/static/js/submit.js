@@ -31,16 +31,70 @@
 
   if (new URL(location.href).searchParams.get("error")) show("GitHub sign-in didn't complete. Try again.", "error");
 
+  // Typeahead for Windows/DOS/Switch game names: the list for a system loads only when it's chosen,
+  // and the datalist holds just the best matches (the Windows list has ~175,000 titles).
+  const game = document.getElementById("game");
+  const datalist = document.getElementById("game-list");
+  const hint = document.getElementById("game-hint");
+  const lists = {};
+  let titles = [];
+  const fold = (t) => t.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  const suggest = () => {
+    if (!datalist || !game) return;
+    const q = fold(game.value.trim());
+    datalist.innerHTML = "";
+    if (q.length < 2) return;
+    const starts = [];
+    const contains = [];
+    for (const t of titles) {
+      const f = t.f;
+      if (f.startsWith(q)) starts.push(t.t);
+      else if (contains.length < 40 && f.includes(q)) contains.push(t.t);
+      if (starts.length >= 40) break;
+    }
+    for (const t of [...starts, ...contains].slice(0, 40)) {
+      const o = document.createElement("option");
+      o.value = t;
+      datalist.append(o);
+    }
+  };
+  const loadTitles = async (key) => {
+    titles = [];
+    if (!key) return;
+    if (hint) hint.textContent = "Loading the game list…";
+    try {
+      if (!lists[key]) {
+        const r = await fetch(`/static/games/${key}.json`);
+        if (!r.ok) throw new Error(r.status);
+        lists[key] = (await r.json()).map((t) => ({ t, f: fold(t) }));
+      }
+      if (system.value === key) {
+        titles = lists[key];
+        if (hint) hint.textContent = `Pick a name from the list (${titles.length.toLocaleString()} known games).`;
+        suggest();
+      }
+    } catch {
+      if (hint) hint.textContent = "Couldn't load the game list; type the exact name.";
+    }
+  };
+  game?.addEventListener("input", suggest);
+
   system?.addEventListener("change", () => {
     gameRow.hidden = !system.value;
+    if (game) game.required = !!system.value;
+    loadTitles(system.value);
   });
 
   // ---------------------------------------------------------------- waiting for the result
   const render = (entry) => {
     const box = document.createElement("div");
-    const head = document.createElement("strong");
-    head.textContent = { listed: "Accepted", contesting: "Contesting", already: "Already listed" }[entry.status] || "Not accepted";
-    box.append(head, document.createTextNode(` · ${entry.repo}${entry.game ? ` (${entry.game})` : ""}`));
+    const head = document.createElement("span");
+    const status = ["listed", "contesting", "already"].includes(entry.status) ? entry.status : "rejected";
+    head.className = `status status-${status}`;
+    head.textContent = { listed: "Accepted", contesting: "Contesting", already: "Already listed", rejected: "Not accepted" }[status];
+    const what = document.createElement("strong");
+    what.textContent = ` ${entry.repo}`;
+    box.append(head, what, document.createTextNode(entry.game ? ` (${entry.game})` : ""));
     if (entry.reasons.length) {
       const ul = document.createElement("ul");
       for (const r of entry.reasons) {
@@ -69,7 +123,7 @@
           : match.last_check && match.last_check.at >= since ? { ...match, ...match.last_check } : null);
         if (fresh) {
           sessionStorage.removeItem(PENDING);
-          show(render(fresh), fresh.status === "listed" || fresh.status === "already" ? "" : fresh.status === "contesting" ? "warn" : "error");
+          show(render(fresh), fresh.status === "listed" ? "ok" : fresh.status === "already" ? "" : fresh.status === "contesting" ? "warn" : "error");
           return;
         }
       } catch {}

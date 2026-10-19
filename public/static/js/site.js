@@ -3,7 +3,15 @@
   // ------------------------------------------------------------ theme
   const root = document.documentElement;
   const toggle = document.getElementById("theme-toggle");
+  const isDark = () => (root.getAttribute("data-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark";
   if (toggle) {
+    toggle.setAttribute("aria-pressed", String(isDark()));
+    matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+      if (!root.getAttribute("data-theme")) {
+        toggle.setAttribute("aria-pressed", String(isDark()));
+        document.dispatchEvent(new CustomEvent("themechange"));
+      }
+    });
     toggle.addEventListener("click", (ev) => {
       const current = root.getAttribute("data-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
       const next = current === "dark" ? "light" : "dark";
@@ -51,13 +59,20 @@
   document.addEventListener("touchstart", (ev) => target(ev) && show(target(ev)), { passive: true });
   document.addEventListener("touchend", (ev) => target(ev) && hide(target(ev)), { passive: true });
 
-  // Bars on cards show a tooltip on hover; a click still opens the card.
+  // Whole cards open their main link, but text stays selectable: a click that ends a text
+  // selection, or lands on another link or control, does nothing extra.
   document.addEventListener("click", (ev) => {
-    const tipEl = target(ev);
-    const card = tipEl && !tipEl.closest("a") ? tipEl.closest(".project") : null;
-    const link = card && card.querySelector(".project-link");
-    if (link) location.href = link.href;
+    if (!(ev.target instanceof Element) || ev.button !== 0) return;
+    const card = ev.target.closest("[data-card]");
+    if (!card || ev.target.closest("a, button, input, label, summary, select")) return;
+    const sel = window.getSelection && window.getSelection();
+    if (sel && !sel.isCollapsed && card.contains(sel.anchorNode)) return;
+    const link = card.querySelector("[data-card-link]");
+    if (!link) return;
+    if (ev.metaKey || ev.ctrlKey) window.open(link.href, "_blank", "noopener");
+    else location.href = link.href;
   });
+  const reduced = matchMedia("(prefers-reduced-motion: reduce)");
 
   // ------------------------------------------------------------ relative times
   const steps = [
@@ -68,11 +83,12 @@
     ["hour", 3600],
     ["minute", 60],
   ];
-  const ago = (secs) => {
+  const short = { year: "y", month: "mo", week: "w", day: "d", hour: "h", minute: "min" };
+  const ago = (secs, brief) => {
     for (const [unit, size] of steps) {
       if (secs >= size) {
         const n = Math.floor(secs / size);
-        return `${n} ${unit}${n === 1 ? "" : "s"} ago`;
+        return brief ? `${n} ${short[unit]} ago` : `${n} ${unit}${n === 1 ? "" : "s"} ago`;
       }
     }
     return "just now";
@@ -80,7 +96,9 @@
   const now = Date.now() / 1000;
   document.querySelectorAll("time[data-ago]").forEach((t) => {
     const ts = Date.parse(t.getAttribute("datetime")) / 1000;
-    if (!Number.isNaN(ts)) t.textContent = ago(Math.max(0, Math.floor(now - ts)));
+    if (Number.isNaN(ts)) return;
+    t.textContent = ago(Math.max(0, Math.floor(now - ts)), t.dataset.ago === "short");
+    if (!t.title) t.title = new Date(ts * 1000).toLocaleString();
   });
 
   // ------------------------------------------------------------ directory
@@ -92,14 +110,33 @@
   const sortSummary = document.querySelector(".sort-list summary");
   const search = document.getElementById("search");
   const counter = document.getElementById("result-count");
+  const empty = document.getElementById("empty");
 
   const sorts = {
     updated: ["Recently updated", (a, b) => b.dataset.updated.localeCompare(a.dataset.updated)],
-    name: ["Name", (a, b) => a.dataset.name.localeCompare(b.dataset.name)],
-    percent: ["Most decompiled (%)", (a, b) => +b.dataset.percent - +a.dataset.percent],
+    percent: ["Highest %", (a, b) => +b.dataset.percent - +a.dataset.percent],
     matched: ["Most code decompiled", (a, b) => +b.dataset.matched - +a.dataset.matched],
     size: ["Largest games", (a, b) => +b.dataset.size - +a.dataset.size],
+    name: ["Name", (a, b) => a.dataset.name.localeCompare(b.dataset.name)],
   };
+
+  // Cards or a dense list, remembered per browser.
+  const viewButtons = Array.from(document.querySelectorAll(".view-toggle [data-view]"));
+  const setView = (view) => {
+    list.classList.toggle("dense", view === "list");
+    viewButtons.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === view)));
+  };
+  try {
+    setView(localStorage.getItem("view") === "list" ? "list" : "cards");
+  } catch {}
+  viewButtons.forEach((b) =>
+    b.addEventListener("click", () => {
+      setView(b.dataset.view);
+      try {
+        localStorage.setItem("view", b.dataset.view);
+      } catch {}
+    }),
+  );
 
   const params = new URL(location.href).searchParams;
   let sort = sorts[params.get("sort")] ? params.get("sort") : "updated";
@@ -126,9 +163,15 @@
         : on.length === 1
           ? boxes.find((b) => b.checked).closest("label").querySelector(".plat-name").textContent
           : `${on.length} systems`;
+      platSummary.setAttribute("aria-label", `Systems: ${platSummary.textContent}`);
     }
-    if (sortSummary) sortSummary.textContent = sorts[sort][0];
-    if (counter) counter.textContent = `${shown} project${shown === 1 ? "" : "s"}`;
+    if (sortSummary) {
+      sortSummary.textContent = sorts[sort][0];
+      sortSummary.setAttribute("aria-label", `Sort: ${sorts[sort][0]}`);
+    }
+    const text = `${shown} game${shown === 1 ? "" : "s"}`;
+    if (counter && counter.textContent !== text) counter.textContent = text;
+    if (empty) empty.hidden = shown > 0;
 
     const url = new URL(location.href);
     all ? url.searchParams.delete("platform") : url.searchParams.set("platform", on.join(","));
@@ -164,13 +207,20 @@
     }),
   );
   search?.addEventListener("input", apply);
+  document.getElementById("clear-filters")?.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    boxes.forEach((b) => (b.checked = true));
+    if (search) search.value = "";
+    apply();
+    search?.focus();
+  });
   list.addEventListener("click", (ev) => {
     const badge = ev.target instanceof Element ? ev.target.closest("a.plat") : null;
     if (!badge) return;
     ev.preventDefault();
     boxes.forEach((b) => (b.checked = b.value === badge.dataset.p));
     apply();
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: reduced.matches ? "auto" : "smooth" });
   });
   apply();
 })();

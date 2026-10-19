@@ -19,12 +19,39 @@
   };
   const fmtPct = (p) => `${(p === 0 || p === 100 ? p : Math.min(Math.max(p, 0.01), 99.99)).toFixed(2)}%`;
 
-  // Grey for untouched code, shading to blue as the fuzzy match improves; green when exact.
+  // Colours come from CSS (--tm-*), so they follow the light/dark theme: untouched code is the
+  // "0%" colour, shading to the "99%" colour as the fuzzy match improves; exact matches are "100%".
+  const status = document.getElementById("treemap-status");
+  const setStatus = (text) => {
+    if (!status) return;
+    status.textContent = text;
+    status.hidden = !text;
+  };
+  let pal = null;
+  const rgb = (c) => {
+    const m = c.trim().match(/^#([0-9a-f]{6})$/i);
+    if (!m) return [128, 128, 128];
+    const n = parseInt(m[1], 16);
+    return [n >> 16, (n >> 8) & 255, n & 255];
+  };
+  const readPalette = () => {
+    const st = getComputedStyle(document.documentElement);
+    const v = (k, d) => st.getPropertyValue(k).trim() || d;
+    pal = {
+      lo: rgb(v("--tm-0", "#3a3f4b")),
+      hi: rgb(v("--tm-99", "#2f7fd8")),
+      done: v("--tm-100", "#29c45a"),
+      bg: v("--tm-bg", "#14171e"),
+      line: v("--tm-line", "#0b0d11"),
+      hover: v("--tm-hover", "#ffffff"),
+    };
+  };
+  const shade = (c, k) => `rgb(${c.map((x) => Math.round(x * k)).join(",")})`;
   const fill = (u) => {
-    if (u.p >= 100) return ["#29c45a", "#0f6b2c"];
+    if (u.p >= 100) return [pal.done, pal.done];
     const t = u.p / 100;
-    const mix = (a, b) => Math.round(a + (b - a) * t);
-    return [`rgb(${mix(54, 20)},${mix(57, 120)},${mix(62, 190)})`, `rgb(${mix(36, 10)},${mix(38, 52)},${mix(42, 92)})`];
+    const c = pal.lo.map((a, i) => a + (pal.hi[i] - a) * t);
+    return [shade(c, 1), shade(c, 0.82)];
   };
 
   const rect = (u, w, h) => [u.x * w, u.y * h, u.w * w, u.h * h];
@@ -35,9 +62,9 @@
     base.height = Math.round(h * dpr);
     const b = base.getContext("2d");
     b.scale(dpr, dpr);
-    b.fillStyle = "#14171e";
+    b.fillStyle = pal.bg;
     b.fillRect(0, 0, w, h);
-    b.strokeStyle = "#0b0d11";
+    b.strokeStyle = pal.line;
     b.lineWidth = 1;
     for (const u of units) {
       const [x, y, rw, rh] = rect(u, w, h);
@@ -85,6 +112,7 @@
       canvas.height = ph;
       dirty = true;
     }
+    if (!pal) readPalette();
     if (dirty || !base) {
       renderBase(w, h, dpr);
       dirty = false;
@@ -94,7 +122,7 @@
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     if (hover) {
       const [x, y, rw, rh] = rect(hover, w, h);
-      ctx.strokeStyle = "#fff";
+      ctx.strokeStyle = pal.hover;
       ctx.lineWidth = 2;
       ctx.strokeRect(x, y, rw, rh);
       label(hover, w, h);
@@ -142,11 +170,22 @@
   };
   input?.addEventListener("input", filter);
 
+  document.addEventListener("themechange", () => {
+    readPalette();
+    dirty = true;
+    schedule();
+  });
+
   new ResizeObserver(schedule).observe(canvas);
   fetch(canvas.dataset.src)
-    .then((r) => r.json())
+    .then((r) => {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    })
     .then((data) => {
       units = data;
+      setStatus("");
       filter();
-    });
+    })
+    .catch(() => setStatus("Couldn't load the source files. Try reloading the page."));
 })();
