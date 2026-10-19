@@ -36,5 +36,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T20:42:06Z",
+  "commit_sha": "d2322f8362f2c41874bc88b58d8003f5bedff2c9",
+  "commit_message": "Link C4DrawLine from canonical clean C++ source (#28)",
+  "source": "report",
+  "version": "SNES_EMU",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
