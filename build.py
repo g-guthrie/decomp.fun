@@ -156,12 +156,14 @@ class Version:
         else:
             self.code_pct = pct(m["matched_code"], self.total_code)
             self.linked_pct = pct(m["linked_code"], self.total_code)
+        self.code_pct = max(self.code_pct, self.linked_pct)  # linked code is matched code (older cached reports)
         self.fuzzy_pct = max(m.get("fuzzy_match_percent") or 0.0, self.code_pct)
         self.matched_code = round(self.total_code * self.code_pct / 100)
         self.linked_code = round(self.total_code * self.linked_pct / 100)
         self.total_data = m.get("total_data") or 0
         self.matched_data = m.get("matched_data") or 0
         self.linked_data = m.get("linked_data") or 0
+        self.matched_data = max(self.matched_data, self.linked_data)
         self.functions = (m.get("matched_functions") or 0, m.get("total_functions") or 0)
         self.units = raw.get("units", [])
 
