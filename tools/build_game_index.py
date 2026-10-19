@@ -12,6 +12,7 @@ Each game is one entry; regions and revisions of the same title share it ("one s
 import json
 import re
 import sys
+import unicodedata
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -34,6 +35,8 @@ WIKIDATA_ANY = (
 )
 # Systems with no IDs a repo would contain: the game is named by the submitter and must be on the list.
 NAME_ONLY = ("switch", "win32", "dos")
+# ...of which these have no identifiers a repo would contain at all (Switch has title IDs; keep them).
+IDLESS = ("win32", "dos")
 MAME_NAOMI = "https://raw.githubusercontent.com/mamedev/mame/master/src/mame/sega/naomi.cpp"
 
 SOURCES = {
@@ -87,7 +90,7 @@ def get(url, name):
 
 
 def parse_dat(text):
-    """clrmamepro DAT -> [{name, region, serial, sha1s}]"""
+    """clrmamepro DAT -> [{name, region, serials, sha1s, roms}]"""
     games = []
     for block in re.findall(r"^game \($(.*?)^\)", text, re.S | re.M):
         name = re.search(r'^\s*name "(.*)"', block, re.M)
@@ -96,8 +99,55 @@ def parse_dat(text):
         serials = set(re.findall(r'serial "([^"]+)"', block))
         sha1s = {s.lower() for s in re.findall(r"sha1 ([0-9A-Fa-f]{40})", block)}
         region = re.search(r'^\s*region "(.*)"', block, re.M)
-        games.append({"name": name.group(1), "region": region.group(1) if region else "", "serials": serials, "sha1s": sha1s})
+        roms = re.findall(r'rom \(\s*name "([^"]*)"', block) + re.findall(r'^\s+name "([^"]*)"', block, re.M)[1:]
+        games.append({"name": name.group(1), "region": region.group(1) if region else name_region(name.group(1)),
+                      "serials": serials, "sha1s": sha1s, "roms": roms})
     return games
+
+
+REGIONS = {"USA", "Europe", "Japan", "World", "Korea", "China", "Taiwan", "Hong Kong", "Asia", "Australia", "UK",
+           "Germany", "France", "Spain", "Italy", "Netherlands", "Sweden", "Scandinavia", "Russia", "Brazil",
+           "Canada", "Latin America", "Mexico", "Portugal", "Greece", "Poland", "Denmark", "Norway", "Finland",
+           "Belgium", "Austria", "Switzerland", "India", "South Africa", "New Zealand", "Ireland", "Israel"}
+
+
+def name_region(name):
+    """'Game (USA, Europe) (Rev 1)' -> 'USA, Europe' (lists without a region field, e.g. GameTDB's)."""
+    for group in re.findall(r"\(([^()]*)\)", name):
+        parts = [r.strip() for r in group.split(",")]
+        if parts and all(r in REGIONS for r in parts):
+            return ", ".join(parts)
+    return ""
+
+
+# Not licensed retail games: homebrew, unlicensed carts, aftermarket releases, pirate copies, hacks.
+UNLICENSED = re.compile(r"\((?:[^)]*\b)?(Homebrew|Unl|Aftermarket|Pirate|Hack|Hacker)\b[^)]*\)", re.I)
+# GameTDB's lists (libretro dat/) also carry custom discs and tools, untagged; the redump list has the real games.
+GAMETDB_JUNK = re.compile(
+    r"(?i)\bcustom\b|\bhacks?\b|\bmod\b|\bhomebrew\b|project m\b|track pack|riivolution|translation|"
+    r"\bloader\b|\binstaller\b|\bremaster(ed)?\b|\bnewer\b|\bfan (game|made)\b|\[[^\]]*\]")
+
+
+NOT_RETAIL = re.compile(
+    r"\((?:[^)]*\b)?(Proto|Prototype|Beta|Demo|Sample|Kiosk|Preview|Trial|DS Broadcast|Download Play)\b[^)]*\)", re.I)
+
+
+def generic_serials(dat):
+    """Placeholder serials shared by many unrelated titles (NTRJ, AGBJ, 0000: default header codes)."""
+    titles = {}
+    for g in dat:
+        for s in g["serials"]:
+            titles.setdefault(s, set()).add(game_key(base_title(g["name"])))
+    return {s for s, t in titles.items() if len(t) >= 5 or re.fullmatch(r"0+|NTRJ|AGBJ", s)}
+
+
+def licensed(g, rel):
+    if any(UNLICENSED.search(n) for n in [g["name"], *g.get("roms", ())]):
+        return False
+    if rel.startswith("dat/") and ("GameCube" in rel or "Wii" in rel):
+        # Untagged entries there are mostly homebrew and channels; real discs carry a region.
+        return not GAMETDB_JUNK.search(g["name"]) and bool(g["region"])
+    return True
 
 
 TAG = re.compile(r"\s*\((?:[^()]*)\)|\s*\[[^\]]*\]")
@@ -141,14 +191,73 @@ def ids_for(platform, serial):
     return out
 
 
-def add(index, platform, title, region, ids, sha1s):
+STOPWORDS = {
+    "the", "a", "an", "of", "and", "de", "la", "le", "les", "el", "los", "las", "der", "die", "das", "no", "to", "in",
+    "for", "on", "ni", "wo", "ga", "game", "games", "edition", "version", "super", "new", "world", "adventure",
+    "adventures", "party", "deluxe", "pro", "sports", "collection", "ultimate", "special", "series", "vol", "disc",
+    "and", "with", "plus", "mini", "best", "club", "advance", "ds", "wii", "gamecube", "64", "3d", "dsi", "mega",
+}
+ASIAN = {"Japan", "Korea", "China", "Taiwan", "Hong Kong", "Asia"}
+
+
+def title_words(title):
+    t = unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode().lower()
+    return {w for w in re.findall(r"[a-z0-9]+", t) if len(w) >= 3 and w not in STOPWORDS and not w.isdigit()
+            and not re.fullmatch(r"[ivxl]+", w)}
+
+
+def titles_agree(ta, tb):
+    """Two titles plausibly name one game: a shared significant word (prefix-equal for localised spellings,
+    e.g. Princess / Princesas)."""
+    wa, wb = set().union(*map(title_words, ta)), set().union(*map(title_words, tb))
+    return any(a == b or (len(a) >= 5 and len(b) >= 5 and a[:5] == b[:5]) for a in wa for b in wb)
+
+
+def _regions(g):
+    return {r.strip() for r in g["regions"] if r.strip()}
+
+
+def regional_variants(a, b, pat):
+    """Different-title entries that are one game's releases for different markets: a Japanese/Asian title
+    (romanised Japanese, e.g. Doubutsu no Mori +) and a Western one, with the same publisher code if known."""
+    ra, rb = _regions(a), _regions(b)
+    if not ra or not rb or ra & rb:
+        return False
+    if (ra <= ASIAN) == (rb <= ASIAN):
+        return False
+    ma, mb = makers(a, pat), makers(b, pat)
+    return not (ma and mb) or bool(ma & mb)
+
+
+def makers(g, pat):
+    """Publisher (maker) codes from full 6-character IDs: GALE01 -> 01."""
+    return {i[4:] for i in g["ids"] if len(i) == 6 and pat.match(i[:4])}
+
+
+def add(index, platform, title, region, ids, sha1s, alias=True):
     key = game_key(title)
     if not key:
         return
-    # Two lists can spell one game differently; a shared disc/cart ID means the same game.
+    # Two lists can spell one game differently; a shared disc/cart ID means the same game, unless the shared
+    # ID is a bare product code and the titles have nothing in common (third parties reuse product codes).
     owners = index.setdefault("_id_owner", {})
-    key = next((owners[i] for i in ids if i in owners), key)
+    for i in sorted(ids):
+        o = owners.get(i)
+        if o is None or o == key:
+            continue
+        weak = platform in CODE_PLATFORMS and len(i) == 4
+        if not weak or titles_agree([title], [index[o]["title"], *index[o].get("aka", ())]):
+            key = o
+            break
     g = index.setdefault(key, {"title": title, "regions": set(), "ids": set(), "sha1": set()})
+    if alias and game_key(g["title"]) != game_key(title):
+        g.setdefault("aka", set()).add(title)
+        # Show the most widely known name: a USA/World/Europe release's over a Japanese one's.
+        new_rank = region_rank(r.strip() for r in region.split(","))
+        if new_rank < region_rank(g["regions"]):
+            g["aka"].discard(title)
+            g["aka"].add(g["title"])
+            g["title"] = title
     for i in ids:
         owners.setdefault(i, key)
     if region:
@@ -173,32 +282,62 @@ CODE_PLATFORMS = {"gc": r"^[GR][A-Z0-9]{3}$", "wii": r"^[R S][A-Z0-9]{3}$", "n64
 REGION_PREF = ("USA", "World", "Europe", "Australia", "UK")
 
 
-def group_regions(platform, index):
-    """Merge regional releases that share a product code's game part into one game."""
+def region_rank(regions):
+    return min((REGION_PREF.index(r) for r in regions if r in REGION_PREF), default=len(REGION_PREF))
+
+
+def group_regions(platform, index, previous=()):
+    """Merge regional releases that share a product code's game part into one game.
+
+    Third parties (and homebrew) reuse product codes, so sharing the code isn't enough: an entry joins a
+    group only when its title agrees with a member's (a shared significant word) or it is that member's
+    release for another market (see regional_variants), and never when the group already has a release
+    for one of its regions. `previous` holds the keys published last time; a group keeps its old key."""
     pat = re.compile(CODE_PLATFORMS[platform].replace(" ", ""))
-    groups, loose = {}, {}
+    by_code, loose = {}, {}
     for key, g in index.items():
-        codes = sorted(i[:3] for i in g["ids"] if pat.match(i))
+        codes = sorted({i[:3] for i in g["ids"] if pat.match(i)})
         if codes:
-            groups.setdefault(codes[0], []).append((key, g))
+            by_code.setdefault(codes[0], []).append((key, g))
         else:
             loose[key] = g
+
+    def pref(kg):
+        regions = kg[1]["regions"]
+        rank = min((REGION_PREF.index(r) for r in regions if r in REGION_PREF), default=len(REGION_PREF))
+        return (rank, "demo" in kg[1]["title"].lower(), kg[1]["title"], kg[0])
+
     out = dict(loose)
-    for members in groups.values():
-        def pref(kg):
-            regions = kg[1]["regions"]
-            rank = min((REGION_PREF.index(r) for r in regions if r in REGION_PREF), default=len(REGION_PREF))
-            return (rank, "demo" in kg[1]["title"].lower(), kg[1]["title"])
+    for members in by_code.values():
         members.sort(key=pref)
-        key, main = members[0]
-        merged = {"title": main["title"], "regions": set(), "ids": set(), "sha1": set(), "aka": set()}
-        for k, g in members:
-            merged["regions"] |= g["regions"]
-            merged["ids"] |= g["ids"]
-            merged["sha1"] |= g["sha1"]
-            if g["title"] != main["title"]:
-                merged["aka"].add(g["title"])
-        out[key if key not in out else key + "-" + sorted(merged["ids"])[0].lower()] = merged
+        clusters = []
+        for key, g in members:
+            titles = [g["title"], *g.get("aka", ())]
+            best, best_score = None, None
+            for c in clusters:
+                if any(_regions(g) & _regions(m) for _, m in c):
+                    continue
+                agree = any(titles_agree(titles, [m["title"], *m.get("aka", ())]) for _, m in c)
+                if not agree and not any(regional_variants(g, m, pat) for _, m in c):
+                    continue
+                # The best fitting group, not the first: same title, then same publisher, then the widest release.
+                score = (agree, bool(makers(g, pat) & set().union(*(makers(m, pat) for _, m in c))),
+                         len(set().union(*(_regions(m) for _, m in c))))
+                if best_score is None or score > best_score:
+                    best, best_score = c, score
+            if best is not None:
+                best.append((key, g))
+            else:
+                clusters.append([(key, g)])
+        for c in clusters:
+            key, main = next(((k, g) for k, g in c if k in previous), c[0])
+            merged = {"title": main["title"], "regions": set(), "ids": set(), "sha1": set(), "aka": set()}
+            for k, g in c:
+                merged["regions"] |= g["regions"]
+                merged["ids"] |= g["ids"]
+                merged["sha1"] |= g["sha1"]
+                merged["aka"] |= {t for t in [g["title"], *g.get("aka", ())] if t != main["title"]}
+            out[key] = merged  # index keys are unique, so a group's key never collides
     return out
 
 
@@ -208,7 +347,7 @@ def switch_titles(index):
         name, tid = t.get("name"), (t.get("id") or "").upper()
         # Base games only (title IDs ending in 000); skip updates, DLC and demos.
         if name and tid.endswith("000") and not re.search(r"(?i)\bdemo\b", name):
-            add(index, "switch", base_title(name), t.get("region") or "", {tid}, set())
+            add(index, "switch", base_title(re.sub(r"[\u2122\u00ae\u00a9]", "", name)), t.get("region") or "", {tid}, set())
 
 
 def pc_titles(index):
@@ -257,6 +396,15 @@ def dos_titles(index):
         add(index, "dos", base_title(g["name"]), "", set(), set())
 
 
+def previous_keys(platform):
+    """Keys of the currently published list, so regrouping never renames an existing game's slot."""
+    path = OUT / f"{platform}.json"
+    try:
+        return {g["key"] for g in json.loads(path.read_text())["games"]}
+    except (OSError, ValueError, KeyError):
+        return set()
+
+
 def build(platform):
     index = {}
     if platform == "arcade":
@@ -273,24 +421,36 @@ def build(platform):
         except OSError as ex:
             print(f"  {platform}: {rel}: {ex}", file=sys.stderr)
             continue
-        for g in parse_dat(text):
+        dat = parse_dat(text)
+        generic = generic_serials(dat)
+        for g in dat:
             # Prototypes, betas, demos and kiosk discs aren't the game; they also reuse product codes.
-            if re.search(r"\((?:[^)]*\b)?(Proto|Prototype|Beta|Demo|Sample|Kiosk|Preview|Trial)\b[^)]*\)", g["name"], re.I):
+            if any(NOT_RETAIL.search(n) for n in [g["name"], *g.get("roms", ())]):
+                continue
+            if not licensed(g, rel):
                 continue
             ids = set()
-            for s in g["serials"]:
+            for s in g["serials"] - generic:
                 for part in re.split(r"[,;]\s*", s):
                     if part:
                         ids |= ids_for(platform, part)
-            add(index, platform, base_title(g["name"]), g["region"], ids, g["sha1s"])
+            title = base_title(g["name"])
+            if rel.startswith("dat/"):
+                # GameTDB after redump: an entry reusing a redump disc's code under another title is a mod or
+                # custom disc of that game. Otherwise it only contributes IDs (GALE01), never a new alias.
+                owners = index.get("_id_owner", {})
+                if any(len(i) == 4 and i in owners and not titles_agree([title], [index[owners[i]]["title"]])
+                       for i in ids):
+                    continue
+            add(index, platform, title, g["region"], ids, g["sha1s"], alias=not rel.startswith("dat/"))
     if platform == "naomi":
         naomi_carts(index)
     games = []
     index.pop("_id_owner", None)
     if platform in CODE_PLATFORMS:
-        index = group_regions(platform, index)
+        index = group_regions(platform, index, previous_keys(platform))
     for key, g in sorted(index.items()):
-        if platform in NAME_ONLY:
+        if platform in IDLESS:
             games.append({"key": key, "title": g["title"]})
             continue
         entry = {"key": key, "title": g["title"], "regions": sorted(g["regions"]), "ids": sorted(g["ids"]), "sha1": sorted(g["sha1"])}

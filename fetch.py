@@ -19,6 +19,7 @@ import json
 import re
 import subprocess
 import sys
+import unicodedata
 import zipfile
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
@@ -78,6 +79,20 @@ def snake_keys(obj):
     return obj
 
 
+def _unit_complete(u):
+    """Legacy objdiff JSON marks finished units with `complete: true` (or `metadata.complete`)."""
+    return bool(u.get("complete") or (u.get("metadata") or {}).get("complete"))
+
+
+def clamp_measures(m):
+    """Linked (complete) code is matched code: a report whose linked bytes exceed its matched bytes
+    (complete units that still hold unmatched code) would show "X% decompiled | Y% linked" with Y > X."""
+    for kind in ("code", "data"):
+        if m.get(f"linked_{kind}", 0) > m.get(f"matched_{kind}", 0):
+            m[f"matched_{kind}"] = m[f"linked_{kind}"]
+    return m
+
+
 def from_objdiff(report):
     report = snake_keys(report)
     m = report.get("measures", {})
@@ -97,9 +112,15 @@ def from_objdiff(report):
     units = []
     if len(report.get("units", [])) > MAX_UNITS:
         raise ValueError(f"report has more than {MAX_UNITS:,} units")
+    legacy = m.get("complete_code") is None  # older reports: completeness only on the units
+    legacy_code = legacy_data = 0
     for u in report.get("units", []):
         um = u.get("measures", {})
         size = num(um.get("total_code"))
+        complete = _unit_complete(u) if um.get("complete_code") is None else num(um.get("complete_code")) >= size
+        if legacy and complete:
+            legacy_code += max(size, 0)
+            legacy_data += max(num(um.get("total_data")), 0)
         if size <= 0:
             continue
         units.append(
@@ -107,35 +128,54 @@ def from_objdiff(report):
                 "name": u.get("name", "?"),
                 "total_code": size,
                 "fuzzy_match_percent": round(float(um.get("fuzzy_match_percent") or 0.0), 4),
-                "is_linked": num(um.get("complete_code")) >= size,
+                "is_linked": bool(complete),
             }
         )
+    if legacy:
+        measures["linked_code"] = min(legacy_code, total_code) if total_code else legacy_code
+        if m.get("complete_data") is None:
+            measures["linked_data"] = min(legacy_data, total_data) if total_data else legacy_data
+    clamp_measures(measures)
     categories = [{"id": c.get("id"), "name": c.get("name")} for c in report.get("categories", []) if c.get("id")]
     return {"measures": measures, "units": units, "categories": categories}
 
 
+def _naomi_sizes(sections):
+    """Code/data bytes of a unit's sections, with data embedded in code (literal pools: `interior`)
+    counted as data and code embedded in data counted as code (as the repo's tools/report.py does)."""
+    got = {"code": 0, "data": 0}
+    for s in sections:
+        if s["kind"] in got:
+            got[s["kind"]] += num(s["size"])
+            for inner in s.get("interior", ()):
+                if inner["kind"] != s["kind"] and inner["kind"] in got:
+                    got[s["kind"]] -= num(inner["size"])
+                    got[inner["kind"]] += num(inner["size"])
+    return got
+
+
 def from_naomi_proof(proof):
-    """mvc2-naomi-decomp's build proof -> the same shape (mirrors its tools/report.py)."""
+    """mvc2-naomi-decomp's build proof -> the same shape (mirrors its tools/report.py).
+
+    matched: credited (verified whole) units in full, plus the verified functions/pools of the rest.
+    linked: credited units only."""
     matched = {"code": 0, "data": 0}
+    linked = {"code": 0, "data": 0}
     units = []
     for u in proof["units"]:
-        code_size = sum(num(s["size"]) for s in u["sections"] if s["kind"] == "code")
+        size = _naomi_sizes(u["sections"])
+        code_size = size["code"]
         if u.get("credited"):
-            got = {"code": 0, "data": 0}
-            for s in u["sections"]:
-                if s["kind"] in got:
-                    got[s["kind"]] += num(s["size"])
-                    for inner in s.get("interior", ()):
-                        if inner["kind"] != s["kind"] and inner["kind"] in got:
-                            got[s["kind"]] -= num(inner["size"])
-                            got[inner["kind"]] += num(inner["size"])
+            got = size
+            for k in linked:
+                linked[k] += got[k]
         else:
             got = {"code": u.get("function_bytes", 0), "data": u.get("pool_bytes", 0)}
         for k in matched:
             matched[k] += got[k]
         if code_size > 0:
             equal = sum(num(s.get("equal_bytes", 0)) for s in u["sections"] if s["kind"] == "code")
-            fuzzy = 100.0 if u.get("credited") else pct(equal, code_size)
+            fuzzy = 100.0 if u.get("credited") else min(100.0, pct(equal, code_size))
             name = u.get("source") or u.get("id", "?")
             name = re.sub(r"^src/(verified|candidates)/", "", name)
             units.append({"name": name, "total_code": code_size, "fuzzy_match_percent": round(fuzzy, 4), "is_linked": bool(u.get("credited"))})
@@ -148,12 +188,13 @@ def from_naomi_proof(proof):
     measures = {
         "total_code": total_code,
         "matched_code": matched["code"],
-        "linked_code": matched["code"],
+        "linked_code": linked["code"],
         "fuzzy_match_percent": max(pct(fuzzy_bytes, total_code), pct(matched["code"], total_code)),
         "total_data": total_data,
         "matched_data": matched["data"],
-        "linked_data": matched["data"],
+        "linked_data": linked["data"],
     }
+    clamp_measures(measures)
     return {"measures": measures, "units": units, "categories": []}
 
 
@@ -317,21 +358,45 @@ def artifact_versions(repo, branch, name_filter=None, workflow=None, previous=No
             continue
         if a["name"] not in newest or a["created_at"] > newest[a["name"]]["created_at"]:
             newest[a["name"]] = a
-    out = []
+    out, seen = [], set()
     for name, a in sorted(newest.items()):
-        version = re.sub(r"(?i)[_-]?(progress[_-]?)?report(s)?$", "", name) or "default"
+        version = safe_version(re.sub(r"(?i)[_-]?(progress[_-]?)?report(s)?$", "", name))
+        base, n = version, 2
+        while version in seen:  # two artifact names that sanitise alike
+            version, n = f"{base}-{n}", n + 1
+        seen.add(version)
         out.append((version, a))
     return out
 
 
+RESERVED_VERSIONS = {"history": "history-build"}  # /<owner>/<repo>/history/ is the history page
+
+
+def safe_version(name):
+    """A version id is a URL path segment and a file name: [A-Za-z0-9_.-] only, never '.'/'..',
+    never a route of the project's own pages."""
+    v = re.sub(r"[^A-Za-z0-9_.-]+", "-", unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode())
+    v = v.lstrip(".-").rstrip("-")[:64]
+    if not v:
+        return "default"
+    return RESERVED_VERSIONS.get(v.lower(), v)
+
+
+# Bump a converter's number when its output changes, so stored versions it made are converted again.
+CONVERTERS = {"from_objdiff": 1, "from_naomi_proof": 2}
+
+
 def fetch_artifact_report(repo, art, file, convert, previous):
-    """Reuse the stored version when the artifact hasn't changed."""
-    if previous and previous.get("artifact_id") == art["id"]:
+    """Reuse the stored version when the artifact hasn't changed (and the same converter made it)."""
+    want = CONVERTERS.get(convert.__name__, 1)
+    if previous and previous.get("artifact_id") == art["id"] and previous.get("converter", 1) >= want:
+        clamp_measures(previous["measures"])
         return previous
     blob = gh(f"repos/{repo}/actions/artifacts/{art['id']}/zip", raw=True)
     data = convert(unzip_member(blob, file))
     data["commit"] = commit_info(repo, art["workflow_run"]["head_sha"])
     data["artifact_id"] = art["id"]
+    data["converter"] = want
     return data
 
 
@@ -381,14 +446,14 @@ def fetch_project(p):
         data = from_objdiff(json.loads(raw))
         last = gh(f"repos/{repo}/commits?path={src['path']}&per_page=1")[0]["sha"]
         data["commit"] = commit_info(repo, last)
-        data["id"] = p.get("version") or "default"
+        data["id"] = safe_version(p.get("version") or "default")
         versions.append(data)
     elif kind in ("objdiff_artifact", "naomi_proof", "auto"):
         convert = from_naomi_proof if kind == "naomi_proof" else from_objdiff
         branch = src.get("branch") or meta["default_branch"]
         found = artifact_versions(repo, branch, src.get("artifact"))
         for version, art in found:
-            vid = p.get("version") if (src.get("artifact") and p.get("version")) else version
+            vid = safe_version(p.get("version")) if (src.get("artifact") and p.get("version")) else version
             try:
                 data = fetch_artifact_report(repo, art, src.get("file", "report.json"), convert, prev_versions.get(vid))
             except Exception as ex:  # one bad artifact must never stop the whole run
@@ -408,7 +473,7 @@ def fetch_project(p):
     out_path.write_text(json.dumps(record, separators=(",", ":")))
     save_latest(pid, record)
     if versions and not p.get("opt_in") and not p.get("contesting"):  # history only for listed projects
-        append_history(pid, versions[0])
+        append_history(pid, versions[0], versions)
     return pid, len(versions)
 
 
@@ -452,18 +517,32 @@ def order_versions(versions, preferred=None, builds=()):
     return sorted(versions, key=rank)
 
 
-def append_history(pid, v):
+def series_version(hist, main, versions=None):
+    """The build a project's history follows. A series stays with the build it started with while that
+    build is still reported, so a project whose main build changes (order_versions ranks by progress)
+    never mixes two builds' numbers into one line. Older points carry no version: they follow the main build."""
+    ids = {v["id"] for v in versions or ()} | {main["id"]}
+    last = next((h["version"] for h in reversed(hist) if h.get("version")), None)
+    if last and last in ids:
+        return next((v for v in versions or () if v["id"] == last), main)
+    return main
+
+
+def append_history(pid, v, versions=None):
+    """One point per new commit of the project's main build, labelled with its version."""
     path = HISTORY / f"{pid}.json"
     hist = json.loads(path.read_text()) if path.exists() else []
+    v = series_version(hist, v, versions)
     if any(h.get("commit_sha") == v["commit"]["sha"] for h in hist):
         return
-    m = v["measures"]
+    m = clamp_measures(dict(v["measures"]))
     hist.append(
         {
             "timestamp": v["commit"]["timestamp"],
             "commit_sha": v["commit"]["sha"],
             "commit_message": v["commit"]["message"],
             "source": "report",
+            "version": v["id"],
             "measures": {
                 "fuzzy_match_percent": m["fuzzy_match_percent"],
                 "matched_code_percent": pct(m["matched_code"], m["total_code"]),

@@ -1,4 +1,10 @@
 {
+ "3ds:pocket-monsters-moon": {
+  "leader": "gradengnostic/pokemoon",
+  "since": "2026-10-19T00:24:58+00:00",
+  "challengers": {},
+  "history": []
+ },
  "gba:beyblade-v-force-ultimate-blader-jam": {
   "leader": "marijnvdwerf/gba-beyblade-vforce",
   "since": "2026-10-18T22:55:17+00:00",
@@ -95,6 +101,12 @@
   "challengers": {},
   "history": []
  },
+ "gc:doubutsu-no-mori-e": {
+  "leader": "acreteam/afe-decomp",
+  "since": "2026-10-19T00:24:58+00:00",
+  "challengers": {},
+  "history": []
+ },
  "gc:eternal-darkness-sanity-s-requiem": {
   "leader": "pattytrish/unending-occlusion",
   "since": "2026-10-18T22:55:17+00:00",
@@ -176,6 +188,12 @@
  "gc:nickelodeon-spongebob-squarepants-battle-for-bikini-bottom": {
   "leader": "zcanann/bfbb",
   "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "gc:nickelodeon-the-spongebob-squarepants-movie": {
+  "leader": "bfbbdecomp/tssm",
+  "since": "2026-10-19T00:24:58+00:00",
   "challengers": {},
   "history": []
  },
@@ -329,6 +347,12 @@
   "challengers": {},
   "history": []
  },
+ "n64:gex-64-enter-the-gecko": {
+  "leader": "matbourgon/gex64decomp",
+  "since": "2026-10-19T00:24:58+00:00",
+  "challengers": {},
+  "history": []
+ },
  "n64:glover": {
   "leader": "bigyoshi51/glover-decomp",
   "since": "2026-10-18T23:27:33+00:00",
@@ -395,6 +419,18 @@
   "challengers": {},
   "history": []
  },
+ "n64:wave-race-64-kawasaki-jet-ski": {
+  "leader": "llonsit/wave-race-64",
+  "since": "2026-10-19T00:24:58+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "n64:wonder-project-j2-koruro-no-mori-no-jozet": {
+  "leader": "llonsit-glitch/wonder",
+  "since": "2026-10-19T00:24:58+00:00",
+  "challengers": {},
+  "history": []
+ },
  "naomi:marvel-vs-capcom-2-new-age-of-heroes": {
   "leader": "g-guthrie/mvc2-naomi-decomp",
   "since": "2026-10-18T22:55:17+00:00",
@@ -410,6 +446,12 @@
  "nds:castlevania-order-of-ecclesia": {
   "leader": "lagolunatic/ooe",
   "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "nds:dragon-quest-iv-chapters-of-the-chosen": {
+  "leader": "goldielegenie/dqiv-decomp",
+  "since": "2026-10-19T00:24:58+00:00",
   "challengers": {},
   "history": []
  },
@@ -659,15 +701,15 @@
   "challengers": {},
   "history": []
  },
- "ps:music-inspired-by-wild-9": {
-  "leader": "plinkr/wild9-decompilation",
-  "since": "2026-10-18T22:55:17+00:00",
-  "challengers": {},
-  "history": []
- },
  "ps:need-for-speed-high-stakes": {
   "leader": "caesar0007/nfshs-psx-decomp",
   "since": "2026-10-18T23:27:33+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "ps:notam-of-wind": {
+  "leader": "aaaaaaaaaaway/kaze-no-notam-decomp",
+  "since": "2026-10-19T00:24:58+00:00",
   "challengers": {},
   "history": []
  },
@@ -719,6 +761,12 @@
   "challengers": {},
   "history": []
  },
+ "ps:wild-9": {
+  "leader": "plinkr/wild9-decompilation",
+  "since": "2026-10-19T00:24:58+00:00",
+  "challengers": {},
+  "history": []
+ },
  "ps:xenogears": {
   "leader": "ladysilverberg/xenogears-decomp",
   "since": "2026-10-18T22:55:17+00:00",
@@ -731,18 +779,6 @@
   "challengers": {},
   "history": []
  },
- "repo:aaaaaaaaaaway/kaze-no-notam-decomp": {
-  "leader": "aaaaaaaaaaway/kaze-no-notam-decomp",
-  "since": "2026-10-18T22:55:17+00:00",
-  "challengers": {},
-  "history": []
- },
- "repo:acreteam/afe-decomp": {
-  "leader": "acreteam/afe-decomp",
-  "since": "2026-10-18T23:27:33+00:00",
-  "challengers": {},
-  "history": []
- },
  "repo:alebello7276/xkrnl-decomp": {
   "leader": "alebello7276/xkrnl-decomp",
   "since": "2026-10-18T22:55:17+00:00",
@@ -751,12 +787,6 @@
  },
  "repo:almamu/crashbandicootxs-decomp": {
   "leader": "almamu/crashbandicootxs-decomp",
-  "since": "2026-10-18T23:27:33+00:00",
-  "challengers": {},
-  "history": []
- },
- "repo:bfbbdecomp/tssm": {
-  "leader": "bfbbdecomp/tssm",
   "since": "2026-10-18T23:27:33+00:00",
   "challengers": {},
   "history": []
@@ -785,18 +815,6 @@
   "challengers": {},
   "history": []
  },
- "repo:goldielegenie/dqiv-decomp": {
-  "leader": "goldielegenie/dqiv-decomp",
-  "since": "2026-10-18T23:27:33+00:00",
-  "challengers": {},
-  "history": []
- },
- "repo:gradengnostic/pokemoon": {
-  "leader": "gradengnostic/pokemoon",
-  "since": "2026-10-18T22:55:17+00:00",
-  "challengers": {},
-  "history": []
- },
  "repo:granimated/hagi": {
   "leader": "granimated/hagi",
   "since": "2026-10-18T22:55:17+00:00",
@@ -821,30 +839,6 @@
   "challengers": {},
   "history": []
  },
- "repo:llonsit-glitch/wonder": {
-  "leader": "llonsit-glitch/wonder",
-  "since": "2026-10-18T23:27:33+00:00",
-  "challengers": {},
-  "history": []
- },
- "repo:llonsit/wave-race-64": {
-  "leader": "llonsit/wave-race-64",
-  "since": "2026-10-18T23:27:33+00:00",
-  "challengers": {},
-  "history": []
- },
- "repo:matbourgon/gex64decomp": {
-  "leader": "matbourgon/gex64decomp",
-  "since": "2026-10-18T22:55:17+00:00",
-  "challengers": {},
-  "history": []
- },
- "repo:monsterdruide1/odysseydecomp": {
-  "leader": "monsterdruide1/odysseydecomp",
-  "since": "2026-10-18T22:55:17+00:00",
-  "challengers": {},
-  "history": []
- },
  "repo:rbxrootx/missionfleet": {
   "leader": "rbxrootx/missionfleet",
   "since": "2026-10-18T22:55:17+00:00",
@@ -863,12 +857,6 @@
   "challengers": {},
   "history": []
  },
- "repo:shibbo/3dwdecomp": {
-  "leader": "shibbo/3dwdecomp",
-  "since": "2026-10-18T23:59:00+00:00",
-  "challengers": {},
-  "history": []
- },
  "repo:siruiusamory-cmyk/buusfury-decomp": {
   "leader": "siruiusamory-cmyk/buusfury-decomp",
   "since": "2026-10-18T23:27:33+00:00",
@@ -878,12 +866,6 @@
  "repo:sozud/psy-q-decomp": {
   "leader": "sozud/psy-q-decomp",
   "since": "2026-10-18T22:55:17+00:00",
-  "challengers": {},
-  "history": []
- },
- "repo:theplayerrolo/super-mario-all-star-decomp": {
-  "leader": "theplayerrolo/super-mario-all-star-decomp",
-  "since": "2026-10-18T23:27:33+00:00",
   "challengers": {},
   "history": []
  },
@@ -914,6 +896,18 @@
  "switch:minecraft-nintendo-switch-edition": {
   "leader": "granimated/minecraftlce",
   "since": "2026-10-18T23:27:33+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "switch:super-mario-3d-world-bowser-s-fury": {
+  "leader": "shibbo/3dwdecomp",
+  "since": "2026-10-19T00:24:58+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "switch:super-mario-odyssey": {
+  "leader": "monsterdruide1/odysseydecomp",
+  "since": "2026-10-19T00:24:58+00:00",
   "challengers": {},
   "history": []
  },
@@ -1004,6 +998,12 @@
  "wii:rock-band-3": {
   "leader": "darkrta/rb3",
   "since": "2026-10-18T22:55:17+00:00",
+  "challengers": {},
+  "history": []
+ },
+ "wii:super-mario-all-stars": {
+  "leader": "theplayerrolo/super-mario-all-star-decomp",
+  "since": "2026-10-19T00:24:58+00:00",
   "challengers": {},
   "history": []
  },
@@ -1187,9 +1187,9 @@
   "challengers": {},
   "history": []
  },
- "xbox:halo-combat-evolved": {
+ "xbox:halo": {
   "leader": "punpckhdq/halo",
-  "since": "2026-10-18T23:27:33+00:00",
+  "since": "2026-10-19T00:24:58+00:00",
   "challengers": {},
   "history": []
  }
