@@ -266,5 +266,19 @@
    "matched_data_percent": 73.68794602815584,
    "complete_data_percent": 18.628553601372694
   }
+ },
+ {
+  "timestamp": "2026-10-19T00:28:27Z",
+  "commit_sha": "9d57dbbeaf765399aefcceb0c0c4b5e3f40932eb",
+  "commit_message": "PauseMenu2 non-jp versions",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 94.174385,
+   "matched_code_percent": 49.7728189392572,
+   "complete_code_percent": 18.417710095128587,
+   "matched_data_percent": 89.42172095369426,
+   "complete_data_percent": 22.394043080844124
+  }
  }
 ]
