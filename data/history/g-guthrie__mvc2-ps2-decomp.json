@@ -214,5 +214,19 @@
    "matched_data_percent": 26.907373345842384,
    "complete_data_percent": 26.907373345842384
   }
+ },
+ {
+  "timestamp": "2026-10-19T19:39:28Z",
+  "commit_sha": "02e0e1a18ab8ca223c91266f6fbf1cfd04c04287",
+  "commit_message": "Publish combined verified 56.5496 percent progress",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 56.549602634851546,
+   "matched_code_percent": 56.549602634851546,
+   "complete_code_percent": 56.549602634851546,
+   "matched_data_percent": 26.91107668378432,
+   "complete_data_percent": 26.91107668378432
+  }
  }
 ]

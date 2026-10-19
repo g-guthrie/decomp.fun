@@ -22,5 +22,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T20:30:20Z",
+  "commit_sha": "66f73eb2efb11e26fe1338b39a68eadd1b5772ed",
+  "commit_message": "Link C4DrawWireFrame from recovered C++ object (#27)",
+  "source": "report",
+  "version": "SNES_EMU",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

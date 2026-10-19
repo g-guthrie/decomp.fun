@@ -89,5 +89,19 @@
    "matched_data_percent": 43.57753471865878,
    "complete_data_percent": 43.57753471865878
   }
+ },
+ {
+  "timestamp": "2026-10-19T19:52:52Z",
+  "commit_sha": "a054c913bab82dbfb835fa530ef0d118a3c7283c",
+  "commit_message": "overlay: name the electroid, anklebiter and blarg trooper types (#228)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 95.742645,
+   "matched_code_percent": 94.78660856722493,
+   "complete_code_percent": 94.78660856722493,
+   "matched_data_percent": 43.57753471865878,
+   "complete_data_percent": 43.57753471865878
+  }
  }
 ]

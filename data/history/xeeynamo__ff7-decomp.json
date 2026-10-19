@@ -123,5 +123,19 @@
    "matched_data_percent": 24.418121467300153,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T20:05:21Z",
+  "commit_sha": "a1f19ee5845a906267eaafd649b55d84e45331f5",
+  "commit_message": "field, world, chocobo: 5 more field kawai funcs + duplicates (#360)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 63.385147,
+   "matched_code_percent": 63.38514848910386,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.418121467300153,
+   "complete_data_percent": 0.0
+  }
  }
 ]
