@@ -91,5 +91,19 @@
    "matched_data_percent": 28.430162927152498,
    "complete_data_percent": 3.978089800799471
   }
+ },
+ {
+  "timestamp": "2026-10-19T11:28:07Z",
+  "commit_sha": "00444de1a7550453d1460fa337bc67814694752d",
+  "commit_message": "VillagerTrader: Complete and link the unit (#522)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 40.335346,
+   "matched_code_percent": 31.018150505921422,
+   "complete_code_percent": 14.413208172214443,
+   "matched_data_percent": 28.430213858599533,
+   "complete_data_percent": 3.9783953894816886
+  }
  }
 ]

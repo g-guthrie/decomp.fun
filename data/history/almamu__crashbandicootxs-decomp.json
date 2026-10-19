@@ -101,5 +101,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T12:32:38Z",
+  "commit_sha": "2a7a437379eb3160f888ed7387c3aca0a5b2d3ff",
+  "commit_message": "Editors (#1167): the level editor, new collision values (#1204)",
+  "source": "report",
+  "version": "europe",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
