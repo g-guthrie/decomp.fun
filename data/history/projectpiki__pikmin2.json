@@ -233,5 +233,19 @@
    "matched_data_percent": 97.54827742727541,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T04:28:24Z",
+  "commit_sha": "ffbd853726427f2e90cd201aaca90dc82b34f990",
+  "commit_message": "slightly better JPAResource match",
+  "source": "report",
+  "version": "GPVE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99995,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

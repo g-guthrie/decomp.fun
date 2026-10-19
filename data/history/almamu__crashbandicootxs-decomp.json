@@ -87,5 +87,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T04:16:18Z",
+  "commit_sha": "f41a446bddd43b74567b6340b93892230b71dec9",
+  "commit_message": "PC port (#1093): breaking a life crate no longer crashes (#1203)",
+  "source": "report",
+  "version": "europe",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
