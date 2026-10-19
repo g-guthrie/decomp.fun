@@ -256,5 +256,19 @@
    "matched_data_percent": 27.11476027059056,
    "complete_data_percent": 27.11476027059056
   }
+ },
+ {
+  "timestamp": "2026-10-19T22:52:28Z",
+  "commit_sha": "88ecfec7c9fcd0b2a302a30f78b30b4264032f52",
+  "commit_message": "Recover 18 exact state handlers and verify retail linkage",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 58.29463314161355,
+   "matched_code_percent": 58.29463314161355,
+   "complete_code_percent": 58.29463314161355,
+   "matched_data_percent": 27.11476027059056,
+   "complete_data_percent": 27.11476027059056
+  }
  }
 ]
