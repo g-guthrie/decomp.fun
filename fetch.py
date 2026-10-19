@@ -350,7 +350,12 @@ def fetch_project(p):
             raise
         # Deleted or made private. A 404 can be temporary, so only stop listing after three runs in a row.
         prev_meta = previous.get("meta", {})
-        runs = 3 if prev_meta.get("missing") else prev_meta.get("missing_runs", 0) + 1  # already confirmed gone stays gone
+        committed = LATEST / f"{pid}.json"  # the committed record survives cache resets
+        committed_meta = json.loads(committed.read_text()).get("meta", {}) if committed.exists() else {}
+        if prev_meta.get("missing") or committed_meta.get("missing"):
+            runs = 3  # already confirmed gone stays gone
+        else:
+            runs = max(prev_meta.get("missing_runs", 0), committed_meta.get("missing_runs", 0)) + 1
         meta = {**prev_meta, "missing_runs": runs}
         meta["missing"] = meta["missing_runs"] >= 3
         out_path.write_text(json.dumps({**previous, "meta": meta}, separators=(",", ":")))
