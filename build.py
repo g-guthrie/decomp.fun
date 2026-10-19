@@ -1017,7 +1017,7 @@ game&rsquo;s page. {slots.DISPUTE_QUORUM} independent contesters (different owne
 <h2 id="adding">Adding and removing projects</h2>
 <p><strong>Adding</strong> is automatic: on <a href="/submit/">Add a project</a>, sign in with GitHub and paste the repository.
 It is checked within a few minutes; if it passes, it appears in the directory, or on its game&rsquo;s page when the game is already listed.</p>
-<p><strong>Removing</strong> is automatic too. A repository that is deleted or made private disappears after three refreshes in a row.
+<p><strong>Removing</strong> is automatic too. A repository that is deleted or made private disappears once it has been missing for three refreshes in a row and at least 48 hours (so a brief GitHub hiccup never removes anything).
 Archived repositories stay, tagged &ldquo;Repository archived&rdquo;. There is nobody to ask: the site only shows what is public on GitHub.</p>
 
 <h2 id="history">History</h2>

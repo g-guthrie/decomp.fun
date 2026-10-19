@@ -92,6 +92,6 @@ labelled as such on their page.
 - By hand: add an entry to `data/projects.json` (`owner`, `repo`, `name`, `platform`, optional `version`, `role`,
   `source`) and push; the next run fetches it.
 - Remove: delete its entry from `data/catalog.json` / `data/projects.json`. Deleted or private repositories drop off
-  automatically.
+  automatically once they've been missing for 3 runs in a row and at least 48 hours.
 
 None of decomp.dev's code is used here. Its author has said the code is not licensed for reuse.

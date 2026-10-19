@@ -417,17 +417,22 @@ def fetch_project(p):
         prev_meta = previous.get("meta", {})
         committed = LATEST / f"{pid}.json"  # the committed record survives cache resets
         committed_meta = json.loads(committed.read_text()).get("meta", {}) if committed.exists() else {}
+        now = datetime.now(timezone.utc)
+        since = prev_meta.get("missing_since") or committed_meta.get("missing_since") or now.isoformat(timespec="seconds")
         if prev_meta.get("missing") or committed_meta.get("missing"):
             runs = 3  # already confirmed gone stays gone
         else:
             runs = max(prev_meta.get("missing_runs", 0), committed_meta.get("missing_runs", 0)) + 1
-        meta = {**prev_meta, "missing_runs": runs}
-        meta["missing"] = meta["missing_runs"] >= 3
+        meta = {**prev_meta, "missing_runs": runs, "missing_since": since}
+        # Gone only after 3 runs in a row AND 48 hours, so quick back-to-back runs can't delist anything.
+        hours = (now - datetime.fromisoformat(since)).total_seconds() / 3600
+        meta["missing"] = bool(prev_meta.get("missing") or committed_meta.get("missing")) or (runs >= 3 and hours >= 48)
         out_path.write_text(json.dumps({**previous, "meta": meta}, separators=(",", ":")))
         save_latest(pid, {**previous, "meta": meta})
         return pid, "missing" if meta["missing"] else len(previous.get("versions", []))
     meta = {
         "missing_runs": 0,
+        "missing_since": None,
         "description": info.get("description"),
         "default_branch": info["default_branch"],
         "archived": info.get("archived", False),
