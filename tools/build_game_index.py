@@ -252,6 +252,12 @@ def add(index, platform, title, region, ids, sha1s, alias=True):
     g = index.setdefault(key, {"title": title, "regions": set(), "ids": set(), "sha1": set()})
     if alias and game_key(g["title"]) != game_key(title):
         g.setdefault("aka", set()).add(title)
+        # Show the most widely known name: a USA/World/Europe release's over a Japanese one's.
+        new_rank = region_rank(r.strip() for r in region.split(","))
+        if new_rank < region_rank(g["regions"]):
+            g["aka"].discard(title)
+            g["aka"].add(g["title"])
+            g["title"] = title
     for i in ids:
         owners.setdefault(i, key)
     if region:
@@ -274,6 +280,10 @@ def naomi_carts(index):
 CODE_PLATFORMS = {"gc": r"^[GR][A-Z0-9]{3}$", "wii": r"^[R S][A-Z0-9]{3}$", "n64": r"^N[A-Z0-9]{3}$",
                   "gba": r"^[AB][A-Z0-9]{3}$", "nds": r"^[ABCIKTVY][A-Z0-9]{3}$", "3ds": r"^[AB][A-Z0-9]{3}$"}
 REGION_PREF = ("USA", "World", "Europe", "Australia", "UK")
+
+
+def region_rank(regions):
+    return min((REGION_PREF.index(r) for r in regions if r in REGION_PREF), default=len(REGION_PREF))
 
 
 def group_regions(platform, index, previous=()):
