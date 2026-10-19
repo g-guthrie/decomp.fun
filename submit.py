@@ -8,7 +8,7 @@ Run by the workflow when the site receives a submission. Every check is automati
   * its GitHub Actions publish a real objdiff progress report that adds up
   * at least MIN_MATCHED_PERCENT of the code is matched
   * the game is identified from the repository itself (disc ID, serial, title ID, ROM hash),
-    or for PC/Switch, the named game is on that system's list
+    or for PC/DOS (and Switch repositories without a title ID), the named game is on that system's list
   * the game's slot is free, or this repository decompiles the same binary as the current
     holder (then it becomes a challenger and takes over with more progress; see slots.py)
 """
@@ -26,7 +26,7 @@ import identify
 SUBMISSIONS = fetch.DATA / "submissions"
 IDENTITY = fetch.DATA / "identity.json"
 MIN_MATCHED_PERCENT = 5.0
-NAME_ONLY = ("win32", "switch", "dos")
+NAME_ONLY = ("win32", "switch", "dos")  # Switch is ID-detectable too, but many repos carry no title ID
 
 
 def load(path):
@@ -153,7 +153,8 @@ def check(repo, by, system=None, game=None):
         if not (system in NAME_ONLY and game):
             reasons.append(
                 "Couldn't identify the game from the repository. It must contain the game's disc ID, serial, title ID "
-                "or ROM hash (as decomp-toolkit and splat projects do). PC, DOS and Switch projects: pick the system and game name."
+                "(Switch: 0100...000) or ROM hash (as decomp-toolkit and splat projects do). PC and DOS projects, and "
+                "Switch projects without a title ID: pick the system and game name."
             )
         entry["reasons"] = reasons
         return entry
@@ -208,7 +209,8 @@ def check(repo, by, system=None, game=None):
     if current:
         note = [
             f"Accepted as a challenger: {current} currently holds {hit['title']}. This repository takes the slot "
-            f"once it leads by {slots.TAKEOVER_MARGIN:g}% more code decompiled for {slots.TAKEOVER_DAYS} days in a row "
+            f"once it leads by {slots.TAKEOVER_MARGIN:g}% more code decompiled for {slots.TAKEOVER_DAYS} days "
+            f"(ahead on at least {slots.STREAK_SHARE:.0%} of the checks in that time) "
             f"(and has been listed for at least {slots.CHALLENGER_MIN_DAYS} days)."
         ]
     entry.update(status="listed", reasons=note, listed_at=now)
