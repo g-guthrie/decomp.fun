@@ -152,7 +152,7 @@ _FINGERPRINTS = {}
 
 
 def versioned(match):
-    """/static/... -> /static/...?v=<content hash>, so a deploy never meets a stale cached copy."""
+    """/static/... (and the icons) -> ...?v=<content hash>, so a deploy never meets a stale cached copy."""
     path = match.group(2)
     if path not in _FINGERPRINTS:
         src = ROOT / "public" / path.lstrip("/")
@@ -163,7 +163,7 @@ def versioned(match):
 
 def write(rel, content):
     if rel.endswith(".html"):
-        content = re.sub(r'(href|src)="(/static/[^"?]+\.(?:css|js))"', versioned, content)
+        content = re.sub(r'(href|src)="(/static/[^"?]+\.(?:css|js)|/favicon\.svg|/apple-touch-icon\.png)"', versioned, content)
     if rel.endswith(".html") and "</head>" in content:
         path = "/" + rel.removesuffix("index.html") if rel != "404.html" else None
         if path:
@@ -272,18 +272,6 @@ def write_bytes(rel, data):
     out = DIST / rel
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_bytes(data)
-
-
-def write_touch_icon():
-    """180x180 apple-touch-icon in the favicon's design: four tiles, three done, one in progress."""
-    S = 180
-    buf = bytearray(hex_rgb("#181c25") * S * S)
-    k = S / 64
-    green, blue = hex_rgb("#29c45a"), hex_rgb("#2a5a9c")
-    for (x, y), col in (((10, 12), green), ((34, 12), green), ((10, 34), green), ((34, 34), blue)):
-        fill_rect(buf, S, x * k, y * k, (x + 20) * k, (y + 18) * k, col)
-    fill_rect(buf, S, 38 * k, 41.5 * k, 50 * k, 44.5 * k, hex_rgb("#ffffff"))
-    write_bytes("apple-touch-icon.png", png(S, S, buf))
 
 
 def write_og_image(p, cells):
@@ -1272,7 +1260,6 @@ def main():
     leaders = [p for p in projects if p.leader is p]
     live = sum(1 for p in projects if not p.v.archived)
 
-    write_touch_icon()
     write_game_titles()
     build_index(site, leaders, built)
     build_systems(site, leaders, built)
