@@ -349,12 +349,15 @@ def fetch_project(p):
         if "HTTP 404" not in str(ex):
             raise
         # Deleted or made private. A 404 can be temporary, so only stop listing after three runs in a row.
-        meta = {**previous.get("meta", {}), "missing_runs": previous.get("meta", {}).get("missing_runs", 0) + 1}
+        prev_meta = previous.get("meta", {})
+        runs = 3 if prev_meta.get("missing") else prev_meta.get("missing_runs", 0) + 1  # already confirmed gone stays gone
+        meta = {**prev_meta, "missing_runs": runs}
         meta["missing"] = meta["missing_runs"] >= 3
         out_path.write_text(json.dumps({**previous, "meta": meta}, separators=(",", ":")))
         save_latest(pid, {**previous, "meta": meta})
         return pid, "missing" if meta["missing"] else len(previous.get("versions", []))
     meta = {
+        "missing_runs": 0,
         "description": info.get("description"),
         "default_branch": info["default_branch"],
         "archived": info.get("archived", False),
