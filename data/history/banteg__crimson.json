@@ -46,5 +46,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-19T09:29:38Z",
+  "commit_sha": "3987093fe033d26992f79bc284ece92759ba8e0f",
+  "commit_message": "feat(decomp): match 1.9.8 statistics worker, game frame and highscore screen (#796)",
+  "source": "report",
+  "version": "1.9.93",
+  "measures": {
+   "fuzzy_match_percent": 64.09553341763734,
+   "matched_code_percent": 64.09553341763734,
+   "complete_code_percent": 0.008903394001616521,
+   "matched_data_percent": 69.74106594455111,
+   "complete_data_percent": 0.1977834348647385
+  }
  }
 ]
