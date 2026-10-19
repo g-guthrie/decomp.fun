@@ -137,5 +137,19 @@
    "matched_data_percent": 24.418121467300153,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T21:06:07Z",
+  "commit_sha": "c23001f8a441277994aae658186173d5db6f1798",
+  "commit_message": "battle: match BattleActionType17 and BattleActionType0E (#363)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 65.594284,
+   "matched_code_percent": 65.59428147916991,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.4090376781228,
+   "complete_data_percent": 0.0
+  }
  }
 ]

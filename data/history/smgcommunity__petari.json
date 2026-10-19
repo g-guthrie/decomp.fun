@@ -269,5 +269,19 @@
    "matched_data_percent": 87.97081193701777,
    "complete_data_percent": 74.97262940485619
   }
+ },
+ {
+  "timestamp": "2026-10-19T21:24:51Z",
+  "commit_sha": "8877a4149bdb6fee8c4ad4a10aae544214a095f0",
+  "commit_message": "Merge pull request #2163 from PJB3005/pjb-26-10-19-use-gxcmd-helpers-instead-of-direct-fifo-address-writes",
+  "source": "report",
+  "version": "RMGK01",
+  "measures": {
+   "fuzzy_match_percent": 99.99983,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 68.78540320304313,
+   "matched_data_percent": 87.97081193701777,
+   "complete_data_percent": 74.97262940485619
+  }
  }
 ]

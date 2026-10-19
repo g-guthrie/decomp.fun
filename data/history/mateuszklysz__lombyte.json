@@ -103,5 +103,19 @@
    "matched_data_percent": 43.57753471865878,
    "complete_data_percent": 43.57753471865878
   }
+ },
+ {
+  "timestamp": "2026-10-19T20:57:59Z",
+  "commit_sha": "554927aaad02dcbfd22b846330cf3e9f0813c468",
+  "commit_message": "overlay: name state cases and scratch variables (batch 25) (#229)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 95.742645,
+   "matched_code_percent": 94.78660856722493,
+   "complete_code_percent": 94.78660856722493,
+   "matched_data_percent": 43.57753471865878,
+   "complete_data_percent": 43.57753471865878
+  }
  }
 ]

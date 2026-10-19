@@ -368,5 +368,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T20:40:59Z",
+  "commit_sha": "10004144367301c83ca694a43fc7602098fc2a31",
+  "commit_message": "Match DDS1 party info sprite renderer and document compiler idioms",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 93.721928,
+   "matched_code_percent": 93.72192758136897,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
