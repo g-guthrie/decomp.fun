@@ -130,5 +130,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T03:37:54Z",
+  "commit_sha": "6385a548fc021df5438b6cc66b99af504a08d866",
+  "commit_message": "Match DDS1 mantra profile grid entry (1360 bytes)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 92.833561,
+   "matched_code_percent": 92.83356053294062,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
