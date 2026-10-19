@@ -61,5 +61,19 @@
    "matched_data_percent": 43.57753471865878,
    "complete_data_percent": 43.57753471865878
   }
+ },
+ {
+  "timestamp": "2026-10-19T10:07:04Z",
+  "commit_sha": "edb49af0b577285f5f7f0f4baa1aa2c36e731fc8",
+  "commit_message": "overlay: clarify switch cases and locals (batch 23) (#225)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 95.742645,
+   "matched_code_percent": 94.78660856722493,
+   "complete_code_percent": 94.78660856722493,
+   "matched_data_percent": 43.57753471865878,
+   "complete_data_percent": 43.57753471865878
+  }
  }
 ]

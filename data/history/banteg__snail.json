@@ -46,5 +46,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-19T10:12:53Z",
+  "commit_sha": "4d5093686df4263d83b8e554e61c7f6358641a5c",
+  "commit_message": "docs(match): record c2 mechanisms behind seven residual partials (#130)",
+  "source": "report",
+  "version": "win32-reflexive",
+  "measures": {
+   "fuzzy_match_percent": 51.81634572259615,
+   "matched_code_percent": 45.01971271214414,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

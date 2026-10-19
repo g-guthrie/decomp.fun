@@ -77,5 +77,19 @@
    "matched_data_percent": 28.285611987218363,
    "complete_data_percent": 2.5943903383204807
   }
+ },
+ {
+  "timestamp": "2026-10-19T10:07:13Z",
+  "commit_sha": "7f89c92df91b4582dab55f8d125ff8507fbd19d5",
+  "commit_message": "Improve match rate with more c2 patches and improved variant testing (#552)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 40.335346,
+   "matched_code_percent": 31.018150505921422,
+   "complete_code_percent": 14.411506936182336,
+   "matched_data_percent": 28.430162927152498,
+   "complete_data_percent": 3.978089800799471
+  }
  }
 ]

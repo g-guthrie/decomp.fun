@@ -228,5 +228,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T09:44:04Z",
+  "commit_sha": "fa925c89a4fd56fdbe4ea52dbdcbe082b90a1493",
+  "commit_message": "Match DDS2 command-slot renderer (692 bytes)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 93.462622,
+   "matched_code_percent": 93.46262151862209,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

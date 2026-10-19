@@ -220,5 +220,19 @@
    "matched_data_percent": 98.47300338048646,
    "complete_data_percent": 79.499419077373
   }
+ },
+ {
+  "timestamp": "2026-10-19T10:16:16Z",
+  "commit_sha": "2fd31790998c0486744a6289cac7e2fecc22d143",
+  "commit_message": "Update to objdiff v3.8.2 (#884)",
+  "source": "report",
+  "version": "GM8E01_00",
+  "measures": {
+   "fuzzy_match_percent": 99.920944,
+   "matched_code_percent": 93.89439751377877,
+   "complete_code_percent": 69.04986123857677,
+   "matched_data_percent": 98.47300338048646,
+   "complete_data_percent": 79.499419077373
+  }
  }
 ]
