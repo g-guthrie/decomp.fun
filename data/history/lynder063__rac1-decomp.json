@@ -169,5 +169,19 @@
    "matched_data_percent": 0.5229790350636272,
    "complete_data_percent": 0.3604778906893711
   }
+ },
+ {
+  "timestamp": "2026-10-19T13:15:08Z",
+  "commit_sha": "1db496d28a2a0f518f582fcb0eddf98936027ba6",
+  "commit_message": "Merge pull request #100 from xx255q/cleanup/landed-near-misses",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 95.77560652393318,
+   "matched_code_percent": 95.13871759602843,
+   "complete_code_percent": 37.39488602397466,
+   "matched_data_percent": 0.5229790350636272,
+   "complete_data_percent": 0.3604778906893711
+  }
  }
 ]
