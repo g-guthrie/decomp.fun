@@ -19,7 +19,7 @@ import time
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
 CACHE = ROOT / "work" / "archive"
 LATEST = "20261001024908"  # last full listing before the sunset notice

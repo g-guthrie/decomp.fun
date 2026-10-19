@@ -8,18 +8,59 @@ on:
 
 permissions:
   issues: write
+  actions: write # re-enable scheduled workflows; save the project count in the Actions cache
+  contents: write # keepalive commit, only after 45 quiet days
 
 jobs:
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      # GitHub disables scheduled workflows in a public repository after 60 days without activity.
+      # The progress commits normally keep it active; if the repository has been quiet for 45 days,
+      # push an empty commit, and always make sure the scheduled workflows are switched on.
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Keep scheduled workflows alive
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          for wf in update.yml game-index.yml; do gh workflow enable "$wf" -R "$REPO" || echo "could not enable $wf"; done
+          last=$(git log -1 --format=%ct)
+          quiet=$(( ( $(date +%s) - last ) / 86400 ))
+          echo "Last commit ${quiet} days ago"
+          if [ "$quiet" -ge 45 ]; then
+            git config user.name "decomp.fun bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit --allow-empty -m "Keepalive (no commits for ${quiet} days)"
+            git push
+          fi
+
+      # Yesterday's live project count, to spot a sudden drop.
+      - name: Restore last project count
+        uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: .watchdog
+          key: watchdog-${{ github.run_id }}
+          restore-keys: watchdog-
+
       - name: Check decomp.fun
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
           problems=()
+          projects=$(curl -fsS https://decomp.fun/v1/projects.json) || problems+=("The project list (/v1/projects.json) isn't reachable. Check the last Update and deploy run.")
+          if [ -n "$projects" ]; then
+            count=$(echo "$projects" | jq -r .count)
+            prev=$(cat .watchdog/count 2>/dev/null || true)
+            echo "Projects: ${count} (previous: ${prev:-none})"
+            if [ -n "$prev" ] && [ "$count" -lt $(( prev * 9 / 10 )) ]; then
+              problems+=("The number of listed projects dropped from ${prev} to ${count} since the last check (more than 10%). Check the last Update and deploy run: a GitHub outage or rate limit can make repositories look deleted.")
+            fi
+            # Compared with the previous day only: a real drop is reported once, then becomes the baseline.
+            mkdir -p .watchdog && echo "$count" > .watchdog/count
+          fi
           health=$(curl -fsS https://decomp.fun/health.json) || problems+=("The site isn't responding (health.json unreachable).")
           api=$(curl -fsS https://decomp.fun/api/health) || problems+=("The sign-in/submission server isn't responding (/api/health).")
           if [ -n "$health" ]; then
@@ -38,6 +79,15 @@ jobs:
           fi
           if [ ${#problems[@]} -eq 0 ]; then echo "All good."; exit 0; fi
           title="decomp.fun needs attention"
-          body=$(printf -- "- %s\n" "${problems[@]}")
+          body="$(printf -- "- %s\n" "${problems[@]}")
+
+          What each problem means and how to fix it: https://github.com/${REPO}/blob/main/RUNBOOK.md#watchdog-issues"
           existing=$(gh issue list -R "$REPO" --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
           if [ -n "$existing" ]; then gh issue comment "$existing" -R "$REPO" --body "$body"; else gh issue create -R "$REPO" --title "$title" --body "$body"; fi
+
+      - name: Save project count
+        if: always() && hashFiles('.watchdog/count') != ''
+        uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: .watchdog
+          key: watchdog-${{ github.run_id }}

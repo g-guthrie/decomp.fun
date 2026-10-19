@@ -15,6 +15,7 @@ on:
       - "data/disputes.json"
       - "data/latest/**"
       - "README.md"
+      - "RUNBOOK.md"
 
 # Scheduled/manual runs queue behind each other; every submission gets its own run
 # (sharing a group would let GitHub drop queued submissions).

@@ -1,0 +1,48 @@
+name: Refresh game lists
+
+# Monthly: rebuild data/games/*.json from libretro-database, MAME, titledb and Wikidata.
+# Refuses to commit if any system's list shrinks by more than 20% (a broken upstream source).
+on:
+  schedule:
+    - cron: "23 4 3 * *"
+  workflow_dispatch:
+
+concurrency:
+  group: game-index
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild game lists
+        run: python3 tools/build_game_index.py
+
+      - name: Check nothing shrank
+        run: python3 tools/check_game_index.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "decomp.fun bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/games
+          if git diff --cached --quiet; then
+            echo "Game lists unchanged"
+            exit 0
+          fi
+          git commit -m "Refresh game lists"
+          for i in 1 2 3 4 5; do
+            git pull --rebase && git push && exit 0
+            sleep $((i * 5))
+          done
+          exit 1

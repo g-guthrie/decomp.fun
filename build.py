@@ -18,6 +18,7 @@ from html import escape
 from pathlib import Path
 
 from fetch import all_projects, contesting_projects
+import api
 import slots
 
 ROOT = Path(__file__).resolve().parent
@@ -535,7 +536,7 @@ def version_switch(p, v, suffix=""):
         return ""
     lis = "".join(
         f'<li><strong>{e(o.id)} ✓</strong></li>' if o is v else
-        f'<li><a href="{p.url(o.id, *([suffix] if suffix else []))}">{e(o.id)}</a></li>'
+        f'<li><a href="{p.url(*([] if o is p.versions[0] else [o.id]), *([suffix] if suffix else []))}">{e(o.id)}</a></li>'
         for o in p.versions
     )
     return f'<details class="dropdown"><summary>Version: {e(v.id)}</summary><ul>{lis}</ul></details>'
@@ -608,7 +609,7 @@ def build_report(site, p, v, base, built):
     archived_repo = ' <span class="tag subtle">Repository archived</span>' if p.meta.get("archived") else ""
     actions = (
         '<div class="report-actions">'
-        f'<a class="secondary outline" role="button" href="{base}history/">History</a>'
+        f'<a class="secondary outline" role="button" href="{p.url()}history/">History</a>'
         f'<a class="secondary outline" role="button" href="{e(p.repository)}" target="_blank" rel="noopener">Repository ↗</a>'
         "</div>"
     )
@@ -649,9 +650,8 @@ def build_report(site, p, v, base, built):
     layout = v._layout
     scripts = []
     if layout:
-        data_base = p.url(v.id)
-        if base == data_base:
-            write(base.strip("/") + "/units.json", json.dumps(layout, separators=(",", ":")))
+        data_base = base  # the default build's units sit at the project URL
+        write(base.strip("/") + "/units.json", json.dumps(layout, separators=(",", ":")))
         units = (
             f'<h6>Units <small class="muted">({len(layout):,})</small></h6>'
             '<input id="unit-filter" type="search" placeholder="Filter units, e.g. camera <70% >10kb linked" aria-label="Filter units">'
@@ -910,11 +910,12 @@ def main():
     }))
     build_submit(site, built)
     for p in projects:
+        # The default build is the project page (its /<build>/ URL redirects there, see api.py);
+        # history is per project, so only the project has a history page.
+        build_history(site, p, p.v, p.url(), built)
         for i, v in enumerate(p.versions):
-            bases = [p.url(v.id)] + ([p.url()] if i == 0 else [])
-            for base in bases:
-                build_report(site, p, v, base, built)
-                build_history(site, p, v, base, built)
+            build_report(site, p, v, p.url() if i == 0 else p.url(v.id), built)
+    api.build(projects, assigned, built, PLAT, write)
     live = sum(1 for p in projects if not p.v.archived)
     print(f"Built {len(projects)} projects ({live} live, {len(projects) - live} archived) into dist/; {len(leaders)} games")
     if skipped:
