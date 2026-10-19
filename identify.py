@@ -15,12 +15,18 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 GAMES = ROOT / "data" / "games"
 
+# Systems whose game can't be read from the repository: the submitter names it and it must be on the
+# system's list. (Switch has title IDs, but many repositories carry none.) Mirrored in worker/index.js.
+NAME_ONLY = ("win32", "switch", "dos")
+
 
 class GhError(Exception):
     pass
 
 
 def gh(path, raw=False):
+    """Like fetch.gh, but kept apart on purpose: raw=True returns decoded text (file contents),
+    and JSON calls use the GitHub CLI's default Accept header."""
     args = ["gh", "api", path] if not raw else ["gh", "api", "-H", "Accept: application/vnd.github.raw", path]
     r = subprocess.run(args, capture_output=True)
     if r.returncode != 0:

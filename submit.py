@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check one submitted repository and record the outcome in data/submissions.json.
+"""Check one submitted repository and record the outcome in data/submissions/<owner>__<repo>.json.
 
     python3 submit.py owner/repo --by github-login [--system win32 --game "Thief: Deadly Shadows"]
 
@@ -18,23 +18,13 @@ import json
 import re
 import sys
 from datetime import datetime, timezone
-from pathlib import Path
 
 import fetch
 import identify
+from identify import NAME_ONLY
 
 SUBMISSIONS = fetch.DATA / "submissions"
-IDENTITY = fetch.DATA / "identity.json"
 MIN_MATCHED_PERCENT = 5.0
-NAME_ONLY = ("win32", "switch", "dos")  # Switch is ID-detectable too, but many repos carry no title ID
-
-
-def load(path):
-    return json.loads(path.read_text()) if path.exists() else {}
-
-
-def save(path, data):
-    path.write_text(json.dumps(dict(sorted(data.items())), indent=1) + "\n")
 
 
 def game_by_name(system, name):
@@ -125,9 +115,9 @@ def check(repo, by, system=None, game=None):
     entry["repo_meta"] = {"id": info["id"], "created_at": info["created_at"], "fork": info.get("fork", False),
                           "parent": (info.get("parent") or {}).get("full_name")}
 
-    # Progress report from the repo's own CI.
+    # Progress report from the repo's own CI. A candidate gets no history point yet (see below).
     try:
-        fetch.fetch_project({**project, "opt_in": True})
+        fetch.fetch_project({**project, "candidate": True})
     except Exception as ex:
         entry["reasons"] = [f"Couldn't read the repository's Actions artifacts: {ex}"]
         return entry
@@ -178,7 +168,7 @@ def check(repo, by, system=None, game=None):
         return entry
 
     # The game's slot: free, or compared build to build with the repositories already in it.
-    import build  # Project wrapper gives versions, sizes and unit names
+    import build  # here, not at the top: build imports this module
     import slots
 
     identity = slots.identities()

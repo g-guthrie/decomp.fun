@@ -4,10 +4,10 @@
 Reads the archived listing pages (one per month) and writes:
   data/catalog.json            every project in the last archived listing
   data/history/<id>.json       monthly progress points seen in the archive
-  data/images/<id>.jpg         banner images, where the archive has them
 
-Only facts are taken (names, repo links, platforms, percentages, commits).
-No decomp.dev code is used. Downloads are cached in work/archive/.
+Only facts are taken (names, repo links, platforms, percentages, commits); banner images are not,
+the site draws its own from each project's progress map. No decomp.dev code is used.
+Downloads are cached in work/archive/.
 """
 
 import html
@@ -51,7 +51,7 @@ def decode(body, enc):
     return body
 
 
-def wayback(ts, url, binary=False):
+def wayback(ts, url):
     key = CACHE / (ts + "_" + re.sub(r"[^A-Za-z0-9._-]", "_", url)[-120:])
     if key.exists():
         data = key.read_bytes()
@@ -61,7 +61,7 @@ def wayback(ts, url, binary=False):
         key.parent.mkdir(parents=True, exist_ok=True)
         key.write_bytes(data)
         time.sleep(1)
-    return data if binary else data.decode("utf-8", "replace")
+    return data.decode("utf-8", "replace")
 
 
 def monthly_snapshots():
@@ -99,7 +99,6 @@ def parse_listing(page):
         owner, repo = href.group(1), href.group(2)
         title = re.search(r'class="project-title">(.*?)</h3>', art, re.S) or re.search(r"<h3>\s*<a[^>]*>(.*?)</a>", art, re.S)
         platform = re.search(r'platform-icon icon-([a-z0-9]+)', art)
-        image = re.search(r'/images/([0-9a-f]{64})\.jpg', art)
         commit = re.search(r'github\.com/[^"]+/commit/([0-9a-f]{40})', art)
         ts = re.search(r'<span title="([\d-]+ [\d:]+) \+00:00"', art)
         p = {
@@ -107,7 +106,6 @@ def parse_listing(page):
             "repo": repo,
             "name": text(title.group(1)) if title else repo,
             "platform": platform.group(1) if platform else None,
-            "image": image.group(1) if image else None,
             "commit": commit.group(1) if commit else None,
             "timestamp": ts.group(1).replace(" ", "T") + "Z" if ts else None,
             "matched_code_percent": 0.0,
@@ -166,43 +164,15 @@ def main():
             latest = projects
 
     (DATA / "history").mkdir(parents=True, exist_ok=True)
-    (DATA / "images").mkdir(parents=True, exist_ok=True)
     catalog = []
     for p in latest:
         i = pid(p["owner"], p["repo"])
         p["id"] = i
-        p["image_hash"] = p.pop("image")
-        p["image"] = f"images/{i}.jpg" if p["image_hash"] else None
         catalog.append(p)
         points = sorted(history.get(i, {}).values(), key=lambda h: h["timestamp"])
         (DATA / "history" / f"{i}.json").write_text(json.dumps(points, indent=1))
     (DATA / "catalog.json").write_text(json.dumps(catalog, indent=1))
-    print(f"catalog: {len(catalog)} projects, {sum(1 for p in catalog if p['image'])} with banner images")
-    # Banner images are not imported: the site generates its own from each project's progress map.
-
-
-def fetch_images(catalog):
-    from concurrent.futures import ThreadPoolExecutor
-
-    def one(p):
-        out = DATA / p["image"]
-        if out.exists():
-            return None
-        try:
-            img = wayback(LATEST, f"https://decomp.dev/images/{p['image_hash']}.jpg?w=1024&h=256", binary=True)
-        except Exception as ex:
-            return f"{p['id']}: {ex}"
-        if img[:3] != b"\xff\xd8\xff":
-            return f"{p['id']}: not archived"
-        out.write_bytes(img)
-        return None
-
-    todo = [p for p in catalog if p["image"]]
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        for err in pool.map(one, todo):
-            if err:
-                print("  image", err)
-    print(f"images: {sum(1 for p in todo if (DATA / p['image']).exists())}/{len(todo)}")
+    print(f"catalog: {len(catalog)} projects")
 
 
 if __name__ == "__main__":

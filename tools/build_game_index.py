@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Build data/games/<platform>.json: the list of real games per system, with the identifiers
-used to recognise them (disc IDs, serials, ROM hashes, title IDs).
+used to recognise them (disc IDs, serials, ROM hashes, title IDs). Run monthly by game-index.yml.
 
-Sources (game lists from the preservation groups, as packaged by libretro-database, CC BY-SA 4.0):
-  No-Intro: cartridge systems (N64, GBA, DS, 3DS)    Redump: disc systems (GC, Wii, PS1/2/PSP, Xbox, 360, DC, NAOMI GD)
-  MAME: NAOMI cartridge sets.
+Sources (SOURCES below): No-Intro (cartridge systems) and Redump (disc systems) lists as packaged by
+libretro-database (CC BY-SA 4.0), plus DOS.dat and the MAME 2016 arcade list from the same place;
+MAME's naomi.cpp for NAOMI cartridge sets; titledb for Switch (MIT); Wikidata for Windows (CC0).
+Downloads are cached in work/dats/.
 
 Each game is one entry; regions and revisions of the same title share it ("one slot per game").
 """
@@ -18,6 +19,9 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+from identify import NAME_ONLY  # noqa: E402
+
 OUT = ROOT / "data" / "games"
 CACHE = ROOT / "work" / "dats"
 LIBRETRO = "https://raw.githubusercontent.com/libretro/libretro-database/master/"
@@ -33,9 +37,8 @@ WIKIDATA_ANY = (
     'SELECT ?g ?gLabel WHERE { VALUES ?c { wd:Q7889 wd:Q7058673 } ?g wdt:P31 ?c; rdfs:label ?gLabel. '
     'FILTER(LANG(?gLabel)="en") }'
 )
-# Systems with no IDs a repo would contain: the game is named by the submitter and must be on the list.
-NAME_ONLY = ("switch", "win32", "dos")
-# ...of which these have no identifiers a repo would contain at all (Switch has title IDs; keep them).
+# Of the NAME_ONLY systems (named by the submitter), these have no identifiers a repo would contain at
+# all, so their lists carry titles only (Switch has title IDs; keep them).
 IDLESS = ("win32", "dos")
 MAME_NAOMI = "https://raw.githubusercontent.com/mamedev/mame/master/src/mame/sega/naomi.cpp"
 

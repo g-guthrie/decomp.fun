@@ -24,6 +24,8 @@ import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+import identify
+
 ROOT = Path(__file__).resolve().parent
 STATE = ROOT / "data" / "slots.json"
 DISPUTES = ROOT / "data" / "disputes.json"
@@ -43,6 +45,15 @@ LAYOUT_OVERLAP = 0.5
 
 def load(path, default):
     return json.loads(path.read_text()) if path.exists() else default
+
+
+def key(p):
+    """A project's repository key, as used in identity.json, slots.json and disputes.json."""
+    return f"{p.owner}/{p.repo}".lower()
+
+
+def submission_path(repo_key):
+    return SUBMISSIONS / (repo_key.replace("/", "__") + ".json")
 
 
 def identities():
@@ -69,12 +80,6 @@ def slot_of(identity, disputes, repo_key):
 # ---------------------------------------------------------------- comparing repositories
 
 
-def _ids(version):
-    import identify
-
-    return identify.build_ids(version.id)
-
-
 def _close(a, b):
     return bool(a and b) and abs(a - b) <= SIZE_TOLERANCE * max(a, b)
 
@@ -88,7 +93,7 @@ def compare(a, b, ident_a=None, ident_b=None):
     def builds(p, ident):
         out = []
         for v in p.versions:
-            ids = set(_ids(v))
+            ids = set(identify.build_ids(v.id))
             if len(p.versions) == 1 and ident:
                 ids |= set(ident.get("builds", []))
             out.append((v, ids))
@@ -112,7 +117,7 @@ def compare(a, b, ident_a=None, ident_b=None):
 
 
 def submission(p):
-    path = SUBMISSIONS / (f"{p.owner}__{p.repo}".lower() + ".json")
+    path = submission_path(key(p))
     return json.loads(path.read_text()) if path.exists() else {}
 
 
@@ -126,7 +131,7 @@ def _age_days(iso, now):
 def independent(group, now):
     """Contesters that count: one per owner, no forks of each other, no shared commits (copies of one
     repository pushed under several accounts), and repositories at least CONTESTER_MIN_REPO_DAYS old."""
-    owners, keys, seen_commits, chosen = set(), {f"{p.owner}/{p.repo}".lower() for p in group}, set(), []
+    owners, keys, seen_commits, chosen = set(), {key(p) for p in group}, set(), []
     for p in sorted(group, key=lambda p: -p.v.code_pct):
         sub = submission(p)
         parent = (p.meta.get("parent") or sub.get("repo_meta", {}).get("parent") or "").lower()
@@ -146,7 +151,7 @@ def can_take_over(p, leader, now):
     CHALLENGER_MIN_DAYS, and a fork can't take its own parent's place (it gets the PR link instead)."""
     if not p.raw.get("submitted"):
         return True
-    if (p.meta.get("parent") or "").lower() == f"{leader.owner}/{leader.repo}".lower():
+    if (p.meta.get("parent") or "").lower() == key(leader):
         return False
     return _age_days(submission(p).get("listed_at"), now) >= CHALLENGER_MIN_DAYS
 
@@ -203,7 +208,6 @@ def assign(projects, contesters=(), now=None, record=True):
     identity = identities()
     disputes = load(DISPUTES, {})
     state = load(STATE, {})
-    key = lambda p: f"{p.owner}/{p.repo}".lower()
 
     # Disputes first: a listed project contested by enough independent, mutually agreeing repos.
     # Original listings (inherited or hand-configured) are never removed, only marked contested.

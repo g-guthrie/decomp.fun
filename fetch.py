@@ -4,8 +4,9 @@
 Needs the GitHub CLI (`gh`) logged in: report artifacts can only be downloaded
 with a token, even from public repositories.
 
-    python3 fetch.py              # every project
-    python3 fetch.py melee topspin4   # only ids/repos containing these strings
+    python3 fetch.py                   # every project
+    python3 fetch.py melee topspin4    # only ids/repos containing these strings
+    python3 fetch.py --repo owner/repo # exactly one repository (refresh-on-view)
 
 Sources, per project:
   * explicit "source" in data/projects.json (objdiff_file, objdiff_artifact, naomi_proof)
@@ -17,6 +18,7 @@ Projects with no reachable report keep their last known (archived) numbers.
 import io
 import json
 import re
+import struct
 import subprocess
 import sys
 import unicodedata
@@ -27,9 +29,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
-REPORTS = DATA / "reports"
+REPORTS = DATA / "reports"  # full reports with per-unit data (Actions cache, not committed)
+LATEST = DATA / "latest"  # slim copies without units (committed)
 HISTORY = DATA / "history"
-
 
 MAX_ARTIFACT_BYTES = 50_000_000  # zipped
 MAX_REPORT_BYTES = 200_000_000  # unzipped report file
@@ -136,8 +138,7 @@ def from_objdiff(report):
         if m.get("complete_data") is None:
             measures["linked_data"] = min(legacy_data, total_data) if total_data else legacy_data
     clamp_measures(measures)
-    categories = [{"id": c.get("id"), "name": c.get("name")} for c in report.get("categories", []) if c.get("id")]
-    return {"measures": measures, "units": units, "categories": categories}
+    return {"measures": measures, "units": units}
 
 
 def _naomi_sizes(sections):
@@ -195,12 +196,12 @@ def from_naomi_proof(proof):
         "linked_data": linked["data"],
     }
     clamp_measures(measures)
-    return {"measures": measures, "units": units, "categories": []}
+    return {"measures": measures, "units": units}
 
 
 # ---------------------------------------------------------------- objdiff binary reports
-# Minimal protobuf reader for objdiff's report.proto (Report / Measures / ReportUnit /
-# ReportCategory). Sections and functions are skipped.
+# Minimal protobuf reader for objdiff's report.proto (Report / Measures / ReportUnit).
+# Categories, sections and functions are skipped.
 
 MEASURE_FIELDS = {
     1: ("fuzzy_match_percent", "f"), 2: ("total_code", "i"), 3: ("matched_code", "i"),
@@ -212,8 +213,6 @@ MEASURE_FIELDS = {
 
 
 def pb_fields(buf):
-    import struct
-
     i = 0
     n = len(buf)
     while i < n:
@@ -266,7 +265,7 @@ def pb_measures(buf):
 
 
 def pb_report(buf):
-    report = {"measures": {}, "units": [], "categories": []}
+    report = {"measures": {}, "units": []}
     for f, v in pb_fields(buf):
         if f == 1:
             report["measures"] = pb_measures(v)
@@ -278,14 +277,6 @@ def pb_report(buf):
                 elif uf == 2:
                     unit["measures"] = pb_measures(uv)
             report["units"].append(unit)
-        elif f == 4:
-            cat = {}
-            for cf, cv in pb_fields(v):
-                if cf == 1:
-                    cat["id"] = cv.decode()
-                elif cf == 2:
-                    cat["name"] = cv.decode()
-            report["categories"].append(cat)
     return report
 
 
@@ -326,7 +317,7 @@ def unzip_member(blob, wanted):
         raise GhError(f"no report in artifact ({', '.join(names[:5])})")
 
 
-def artifact_versions(repo, branch, name_filter=None, workflow=None, previous=None):
+def artifact_versions(repo, branch, name_filter=None):
     """Newest artifact per name on `branch` -> list of (version_id, artifact)."""
     try:
         arts = gh(f"repos/{repo}/actions/artifacts?per_page=100")["artifacts"]
@@ -413,7 +404,8 @@ def fetch_project(p):
     except GhError as ex:
         if "HTTP 404" not in str(ex):
             raise
-        # Deleted or made private. A 404 can be temporary, so only stop listing after three runs in a row.
+        # Deleted or made private. A 404 can be temporary (GitHub hiccup, rate limit), so the project is
+        # only delisted after 3 runs in a row AND 48 hours; see below.
         prev_meta = previous.get("meta", {})
         committed = LATEST / f"{pid}.json"  # the committed record survives cache resets
         committed_meta = json.loads(committed.read_text()).get("meta", {}) if committed.exists() else {}
@@ -424,7 +416,7 @@ def fetch_project(p):
         else:
             runs = max(prev_meta.get("missing_runs", 0), committed_meta.get("missing_runs", 0)) + 1
         meta = {**prev_meta, "missing_runs": runs, "missing_since": since}
-        # Gone only after 3 runs in a row AND 48 hours, so quick back-to-back runs can't delist anything.
+        # Quick back-to-back runs (submissions, refreshes) alone can never delist anything.
         hours = (now - datetime.fromisoformat(since)).total_seconds() / 3600
         meta["missing"] = bool(prev_meta.get("missing") or committed_meta.get("missing")) or (runs >= 3 and hours >= 48)
         out_path.write_text(json.dumps({**previous, "meta": meta}, separators=(",", ":")))
@@ -477,12 +469,11 @@ def fetch_project(p):
     record = {"meta": meta, "versions": versions, "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
     out_path.write_text(json.dumps(record, separators=(",", ":")))
     save_latest(pid, record)
-    if versions and not p.get("opt_in") and not p.get("contesting"):  # history only for listed projects
+    # History only for listed projects: not for a submission being checked ("candidate", see submit.py)
+    # or one contesting a listed project.
+    if versions and not p.get("candidate") and not p.get("contesting"):
         append_history(pid, versions[0], versions)
     return pid, len(versions)
-
-
-LATEST = DATA / "latest"
 
 
 def save_latest(pid, record):

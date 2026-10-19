@@ -5,11 +5,14 @@
     python3 build.py
     python3 -m http.server -d dist 8000
 
-Inputs: data/site.json, data/projects.json (our projects), data/catalog.json
-(the public index), data/reports/*.json (live reports), data/history/*.json.
-Standard library only.
+Inputs: data/site.json; data/catalog.json (the inherited index), data/projects.json (hand-configured
+projects) and data/submissions/ (accepted submissions); data/reports/*.json (full reports, cached) with
+data/latest/*.json as the committed fallback; data/history/*.json; data/identity.json, data/slots.json
+and data/disputes.json for the one-listing-per-game logic. Standard library only.
 """
 
+import base64
+import hashlib
 import json
 import os
 import re
@@ -21,9 +24,11 @@ from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 
-from fetch import all_projects, contesting_projects
 import api
+import identify
 import slots
+import submit
+from fetch import all_projects, builds_for, contesting_projects, load_submissions, order_versions, pct
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
@@ -119,10 +124,6 @@ def fmt_size(n):
     return f"{n:.2f} {SIZE_UNITS[i]}"
 
 
-def pct(a, b):
-    return a / b * 100 if b else 0.0
-
-
 def parse_ts(s):
     return datetime.fromisoformat(s.replace("Z", "+00:00")).astimezone(timezone.utc)
 
@@ -152,8 +153,6 @@ _FINGERPRINTS = {}
 
 def versioned(match):
     """/static/... -> /static/...?v=<content hash>, so a deploy never meets a stale cached copy."""
-    import hashlib
-
     path = match.group(2)
     if path not in _FINGERPRINTS:
         src = ROOT / "public" / path.lstrip("/")
@@ -164,9 +163,7 @@ def versioned(match):
 
 def write(rel, content):
     if rel.endswith(".html"):
-        import re as _re
-
-        content = _re.sub(r'(href|src)="(/static/[^"?]+\.(?:css|js))"', versioned, content)
+        content = re.sub(r'(href|src)="(/static/[^"?]+\.(?:css|js))"', versioned, content)
     if rel.endswith(".html") and "</head>" in content:
         path = "/" + rel.removesuffix("index.html") if rel != "404.html" else None
         if path:
@@ -362,14 +359,11 @@ class Project:
         self.repo = p["repo"]
         self.name = p["name"]
         self.platform = p.get("platform") or "unknown"
-        self.role = p.get("role")
         self.image = None  # set to the generated banner when the project has per-file data
         report = load_record(self.id)
         self.meta = report.get("meta", {})
         self.description = p.get("description") or self.meta.get("description") or ""
         self.repository = self.meta.get("html_url") or f"https://github.com/{self.owner}/{self.repo}"
-        from fetch import builds_for, order_versions
-
         raw_versions = [v for v in report.get("versions", []) if v.get("commit")]
         raw_versions = order_versions(raw_versions, p.get("version"), builds_for(f"{self.owner}/{self.repo}"))
         self.versions = [Version(v) for v in raw_versions]
@@ -389,7 +383,8 @@ class Project:
                     archived=True,
                 )
             ]
-        self.leader = self  # set by slots.assign
+        # Set in main() from slots.assign(): the listed repository for this game and the others.
+        self.leader = self
         self.others = []
         self.challengers = {}
         self.contesters = []
@@ -524,13 +519,6 @@ def legend(kind="code"):
     )
 
 
-def headline(v):
-    s = f"{fmt_pct(v.code_pct)} decompiled"
-    if v.linked_pct > 0:
-        s += f" | {fmt_pct(v.linked_pct)} fully linked"
-    return s
-
-
 # ---------------------------------------------------------------- directory
 
 
@@ -569,7 +557,6 @@ def write_banner(p):
 def card(p, now):
     v = p.v
     art = f'<div class="project-art" aria-hidden="true"><img src="/{e(p.image)}" alt="" loading="lazy"></div>' if p.image else ""
-    role = f' <span class="tag subtle">{e(p.role)}</span>' if p.role else ""
     terms = [p.title, p.name, p.game_title, p.description, p.owner, p.repo, f"{p.owner}/{p.repo}", PLAT.get(p.platform, {}).get("name", "")]
     for o in p.others:
         terms += [o.name, o.owner, o.repo, f"{o.owner}/{o.repo}"]
@@ -585,7 +572,7 @@ def card(p, now):
         f'<article class="project" data-card data-platform="{e(p.platform)}" data-name="{e(p.title.lower())}" '
         f'data-updated="{e(v.commit["timestamp"])}" data-percent="{v.code_pct:.4f}" data-matched="{v.matched_code}" '
         f'data-size="{v.total_code}" data-search="{e(search)}">{art}'
-        f'<div class="project-head"><h2><a class="project-link" data-card-link href="{p.url()}">{e(p.title)}</a>{role}{others}{archived}</h2>'
+        f'<div class="project-head"><h2><a class="project-link" data-card-link href="{p.url()}">{e(p.title)}</a>{others}{archived}</h2>'
         f"{plat_badge(p.platform, link=True)}</div>{alt}"
         f'<p class="project-stats"><span>{stats}</span> <span title="Time since the last commit with a progress report">'
         f'· last commit <time data-ago="short" datetime="{e(v.commit["timestamp"])}">{ago_short(v.updated, now)}</time></span></p>'
@@ -594,7 +581,6 @@ def card(p, now):
 
 
 def build_index(site, projects, built):
-    now = built
     counts = {}
     for p in projects:
         counts[p.platform] = counts.get(p.platform, 0) + 1
@@ -634,7 +620,7 @@ def build_index(site, projects, built):
         f"{plat_dd}{sort_dd}</div>"
         f'<div class="list-bar"><p class="muted result-count" id="result-count" aria-live="polite">{len(projects)} games</p>{view}</div>'
         f"{legend()}"
-        f'<div id="directory">{"".join(card(p, now) for p in ordered)}</div>'
+        f'<div id="directory">{"".join(card(p, built) for p in ordered)}</div>'
         '<p id="empty" class="notice" hidden>No games match. <a href="/" id="clear-filters">Clear the search and filters</a></p>'
         '<noscript><p class="muted"><small>Search, filters and sorting need JavaScript; every game is listed above, newest first.</small></p></noscript>'
     )
@@ -797,7 +783,7 @@ def _slot_notice(p):
             f"{slots.TAKEOVER_MARGIN:g}% for {slots.TAKEOVER_DAYS} days.</small>"
         )
         parent = (lead.meta.get("parent") or "").lower()
-        if parent == f"{p.owner}/{p.repo}".lower():
+        if parent == slots.key(p):
             branch = p.meta.get("default_branch", "main")
             lead_branch = lead.meta.get("default_branch", "main")
             compare = f"https://github.com/{p.owner}/{p.repo}/compare/{branch}...{lead.owner}:{lead.repo}:{lead_branch}"
@@ -812,7 +798,7 @@ def _slot_notice(p):
         f'<li><a href="{o.url()}">{e(o.owner)}/{e(o.repo)}</a> <span class="muted">{fmt_pct(o.v.code_pct)}</span>'
         + (
             f' <span class="tag subtle">ahead since {e(p.challengers[k][:10])}</span>'
-            if (k := f"{o.owner}/{o.repo}".lower()) in p.challengers
+            if (k := slots.key(o)) in p.challengers
             else ""
         )
         + "</li>"
@@ -823,7 +809,6 @@ def _slot_notice(p):
 
 def build_report(site, p, v, base, built):
     crumbs = [(p.title, p.url())]
-    role = f' <span class="tag subtle">{e(p.role)}</span>' if p.role else ""
     archived_repo = ' <span class="tag subtle">Repository archived</span>' if p.meta.get("archived") else ""
     last_known = f' <span class="tag warn">Last known numbers ({v.updated.strftime("%Y-%m-%d")})</span>' if v.archived else ""
     actions = (
@@ -877,7 +862,7 @@ def build_report(site, p, v, base, built):
     layout = v._layout
     scripts = []
     if layout:
-        data_base = base  # the default build's units sit at the project URL
+        # units.json sits next to the page: the default build's at the project URL, others under /<build>/.
         write(base.strip("/") + "/units.json", json.dumps(layout, separators=(",", ":")))
         head_ = f'<h2 class="section">Source files <small class="muted">({len(layout):,})</small></h2>'
         if all(u["p"] >= 100 for u in layout):
@@ -887,17 +872,17 @@ def build_report(site, p, v, base, built):
             units = (
                 head_
                 + '<input id="unit-filter" type="search" placeholder="Filter files, e.g. camera <70% >10kb linked" aria-label="Filter source files">'
-                f'<div class="treemap-wrap"><canvas id="treemap" data-src="{data_base}units.json" role="img" aria-label="Map of {len(layout):,} source files sized by code: '
+                f'<div class="treemap-wrap"><canvas id="treemap" data-src="{base}units.json" role="img" aria-label="Map of {len(layout):,} source files sized by code: '
                 f'{done:,} fully decompiled"></canvas><p id="treemap-status" class="treemap-status muted" aria-live="polite">Loading source files…</p></div>'
                 '<div class="tm-legend" aria-hidden="true"><span>0%</span><i class="tm-grad"></i><span>99%</span>'
                 '<i class="sw tm-done"></i><span>100% decompiled</span></div>'
                 '<p class="muted"><small>Each box is a source file, sized by its code; hover or touch one for details.</small></p>'
-                f'<noscript><p class="muted"><small>The map needs JavaScript. The same data is at <a href="{data_base}units.json">units.json</a>.</small></p></noscript>'
+                f'<noscript><p class="muted"><small>The map needs JavaScript. The same data is at <a href="{base}units.json">units.json</a>.</small></p></noscript>'
             )
             scripts.append("/static/js/treemap.js")
 
     head_block = (
-        f'<div class="report-top"><div class="report-head"><h1>{e(p.title)}{role}{archived_repo}{last_known}</h1>{alt}{stat}</div>{actions}</div>'
+        f'<div class="report-top"><div class="report-head"><h1>{e(p.title)}{archived_repo}{last_known}</h1>{alt}{stat}</div>{actions}</div>'
     )
     body = f"{head_block}{desc}{facts}{version_switch(p, v)}{notice}{legend()}{code}{data}{commit}{units}"
     short = PLAT.get(p.platform, {}).get("short", p.platform)
@@ -1091,9 +1076,7 @@ def status_pill(status):
 
 def write_game_titles():
     """Compact titles-only lists for the Add a project typeahead (Windows, DOS, Switch)."""
-    import submit as sub
-
-    for k in sub.NAME_ONLY:
+    for k in identify.NAME_ONLY:
         path = DATA / "games" / f"{k}.json"
         if path.exists():
             titles = sorted({g["title"] for g in json.loads(path.read_text()).get("games", [])}, key=str.lower)
@@ -1101,9 +1084,6 @@ def write_game_titles():
 
 
 def build_submit(site, built):
-    import submit as sub
-    from fetch import load_submissions
-
     recent = sorted(load_submissions(), key=lambda x: x.get("submitted_at", ""), reverse=True)[:100]
     # Read by the Add a project page to show a result as soon as its check run deploys.
     write("submissions.json", json.dumps([
@@ -1130,7 +1110,7 @@ def build_submit(site, built):
         f'<th scope="col">Details</th><th scope="col">By</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
         if rows else '<p class="muted">No submissions yet.</p>'
     )
-    options = "".join(f'<option value="{k}">{e(PLAT[k]["name"])}</option>' for k in sub.NAME_ONLY)
+    options = "".join(f'<option value="{k}">{e(PLAT[k]["name"])}</option>' for k in identify.NAME_ONLY)
     body = f"""
 <hgroup class="intro"><h1>Add a project</h1><p class="muted">Checks run automatically, usually within a few minutes. Nobody reviews submissions by hand.</p></hgroup>
 <h2>What it needs</h2>
@@ -1139,7 +1119,7 @@ def build_submit(site, built):
 <li><strong>A progress report from its own GitHub Actions.</strong> A workflow on the default branch uploads an
 {ext("https://github.com/encounter/objdiff", "objdiff")} report as an artifact with <code>report</code> in its name. Projects made
 from {ext("https://github.com/encounter/dtk-template", "dtk-template")} already do this. Runs from pull requests of forks don&rsquo;t count.</li>
-<li><strong>At least {sub.MIN_MATCHED_PERCENT:g}% of the code decompiled.</strong></li>
+<li><strong>At least {submit.MIN_MATCHED_PERCENT:g}% of the code decompiled.</strong></li>
 <li><strong>The code is really there.</strong> At least half of the source files the report counts as decompiled must exist in the repository.</li>
 <li><strong>The game can be recognised.</strong> The repository contains its disc ID, serial, title ID or ROM hash, as decomp projects
 normally do. Windows, DOS and Switch games: choose the system below and type the game&rsquo;s exact name.</li>
@@ -1223,9 +1203,6 @@ def build_sitemap():
 def security_headers():
     """Cloudflare static-asset headers: CSP (only our own scripts plus the hashed theme snippet),
     no framing, HTTPS only, and long caching for static files."""
-    import base64
-    import hashlib
-
     theme = THEME_INIT.removeprefix("<script>").removesuffix("</script>")
     digest = base64.b64encode(hashlib.sha256(theme.encode()).digest()).decode()
     csp = (
@@ -1265,11 +1242,11 @@ def main():
         p.image = write_banner(p)
 
     contesters = [c for c in (Project(p) for p in contesting_projects()) if c.versions]
-    # Only the scheduled refresh records slot state; submission/refresh runs build with what's committed.
+    # Dispatch runs (submission, refresh) overlap, so they build with the committed slot state; full runs record it.
     record = os.environ.get("GITHUB_EVENT_NAME") != "repository_dispatch"
     assigned, promoted = slots.assign(projects, contesters, record=record)
     for c in promoted:  # won a dispute: now a listed project
-        sub_path = DATA / "submissions" / (f"{c.owner}__{c.repo}".lower() + ".json")
+        sub_path = slots.submission_path(slots.key(c))
         if sub_path.exists():
             sub = json.loads(sub_path.read_text())
             sub.update(status="listed", reasons=["Replaced a listed project whose game didn't match (dispute)."])
@@ -1286,13 +1263,14 @@ def main():
             o.leader = lead
     ident = slots.identities()
     for p in projects:
-        p.disputed = disputed.get(f"{p.owner}/{p.repo}".lower())
-        p.game_title = (ident.get(f"{p.owner}/{p.repo}".lower()) or {}).get("title", "")
+        p.disputed = disputed.get(slots.key(p))
+        p.game_title = (ident.get(slots.key(p)) or {}).get("title", "")
         p.title = display_title(p.name, p.game_title)
         p.alt = p.name if norm_title(p.name) != norm_title(p.title) else ""
         if p.v.units:
             p.og_image = write_og_image(p, layout_units(p.v.units))
     leaders = [p for p in projects if p.leader is p]
+    live = sum(1 for p in projects if not p.v.archived)
 
     write_touch_icon()
     write_game_titles()
@@ -1305,7 +1283,7 @@ def main():
     write("health.json", json.dumps({
         "built": built.isoformat(),
         "projects": len(projects),
-        "live": sum(1 for p in projects if not p.v.archived),
+        "live": live,
         "fetch_failed": sum(1 for p in projects if p.meta.get("missing_runs")),
     }))
     build_submit(site, built)
@@ -1315,9 +1293,8 @@ def main():
         build_history(site, p, p.v, p.url(), built)
         for i, v in enumerate(p.versions):
             build_report(site, p, v, p.url() if i == 0 else p.url(v.id), built)
-    api.build(projects, assigned, built, PLAT, write)
     build_sitemap()
-    live = sum(1 for p in projects if not p.v.archived)
+    api.build(projects, assigned, built, PLAT, write)  # last: it counts the files in dist/
     print(f"Built {len(projects)} projects ({live} live, {len(projects) - live} archived) into dist/; {len(leaders)} games")
     if skipped:
         print(f"Skipped (no data at all): {', '.join(skipped)}")

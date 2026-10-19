@@ -9,7 +9,7 @@ Everything here is derived from data the site already has; nothing is fetched. S
 """
 
 import json
-from datetime import datetime, timezone
+from datetime import timezone
 from html import escape
 from pathlib import Path
 
