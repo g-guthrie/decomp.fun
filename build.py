@@ -12,7 +12,11 @@ Standard library only.
 
 import json
 import os
+import re
 import shutil
+import struct
+import unicodedata
+import zlib
 from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
@@ -68,11 +72,13 @@ PLAT = {k: {"name": n, "short": s, "maker": m} for k, n, s, m in PLATFORMS}
 
 SORTS = [
     ("updated", "Recently updated"),
-    ("name", "Name"),
-    ("percent", "Most decompiled (%)"),
+    ("percent", "Highest %"),
     ("matched", "Most code decompiled"),
     ("size", "Largest games"),
+    ("name", "Name"),
 ]
+MAKERS = ["Nintendo", "Sony", "Microsoft", "Sega", "Atari", "NEC", "SNK", "Arcade"]
+SITE_URL = "https://decomp.fun"
 
 SIZE_UNITS = ["B", "kB", "MB", "GB", "TB"]
 
@@ -94,6 +100,13 @@ def fmt_pct(v):
     if v != 0 and v != 100:
         v = min(max(v, 0.01), 99.99)
     return f"{v:.2f}%"
+
+
+def fmt_pct1(v):
+    """Short form for cards: one decimal, never rounds up to 100% or down to 0%."""
+    if v == 0 or v == 100:
+        return f"{v:.0f}%"
+    return f"{min(max(v, 0.1), 99.9):.1f}%"
 
 
 def fmt_size(n):
@@ -122,11 +135,26 @@ def ago(dt, now):
     return "just now"
 
 
+def ago_short(dt, now):
+    secs = max(0, int((now - dt).total_seconds()))
+    for unit, size in (("y", 31536000), ("mo", 2592000), ("w", 604800), ("d", 86400), ("h", 3600), ("min", 60)):
+        if secs >= size:
+            return f"{secs // size} {unit} ago"
+    return "just now"
+
+
+PAGES = []  # canonical paths written, for sitemap.xml
+
+
 def write(rel, content):
     if rel.endswith(".html") and "</head>" in content:
         path = "/" + rel.removesuffix("index.html") if rel != "404.html" else None
         if path:
-            content = content.replace("</head>", f'<link rel="canonical" href="https://decomp.fun{path}"></head>', 1)
+            content = content.replace("</head>", f'<link rel="canonical" href="{SITE_URL}{path}"></head>', 1)
+            content = content.replace("<meta property=\"og:url\" content=\"\">", f'<meta property="og:url" content="{SITE_URL}{path}">', 1)
+            PAGES.append(path)
+        else:
+            content = content.replace("<meta property=\"og:url\" content=\"\">", "", 1)
     out = DIST / rel
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(content)
@@ -137,6 +165,126 @@ def plat_badge(key, link=False):
     if link:
         return f'<a class="plat" data-p="{e(key)}" href="/?platform={e(key)}" title="Show all {e(p["name"])} projects">{e(p["short"])}</a>'
     return f'<span class="plat" data-p="{e(key)}" title="{e(p["name"])}">{e(p["short"])}</span>'
+
+
+# ---------------------------------------------------------------- titles and build labels
+
+TITLE_PREFIXES = ("Nickelodeon ", "Disney-Pixar ", "Disney/Pixar ", "Disney ", "Music Inspired by ")
+
+
+def clean_title(t):
+    """Database titles into readable ones: "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom"
+    -> "SpongeBob SquarePants: Battle for Bikini Bottom"."""
+    t = (t or "").strip()
+    for pre in TITLE_PREFIXES:
+        if t.startswith(pre) and len(t) > len(pre) + 3:
+            t = t[len(pre):]
+    return t.replace(" - ", ": ")
+
+
+def norm_title(t):
+    t = unicodedata.normalize("NFKD", t or "")
+    t = "".join(c for c in t if not unicodedata.combining(c)).lower()
+    t = re.sub(r"\([^)]*\)", " ", t)
+    return " ".join(re.sub(r"[^a-z0-9]+", " ", t).split())
+
+
+def display_title(name, game_title):
+    """The game's real title. The hand-curated repository name wins when it's the same title
+    (it keeps accents and punctuation the databases drop) or a longer form of it."""
+    t = clean_title(game_title)
+    if not t:
+        return name
+    n, c = norm_title(name), norm_title(t)
+    if n == c or n.startswith(c + " "):
+        return name
+    return t
+
+
+REGIONS = {
+    "us": "USA", "usa": "USA", "u": "USA", "en": "USA", "ntsc": "USA", "ntscu": "USA",
+    "jp": "Japan", "jpn": "Japan", "jap": "Japan", "ja": "Japan", "j": "Japan", "ntscj": "Japan",
+    "eu": "Europe", "eur": "Europe", "europe": "Europe", "pal": "Europe", "e": "Europe",
+    "kr": "Korea", "kor": "Korea", "k": "Korea", "de": "Germany", "ger": "Germany",
+    "fr": "France", "fra": "France", "cn": "China",
+}
+
+
+def build_label(vid):
+    """"us" -> "USA build", "jp_rev1" -> "Japan build (rev1)", "default" -> "" (hidden)."""
+    if not vid or vid.lower() in ("default", "build"):
+        return ""
+    if vid.islower() or (vid.isupper() and len(vid) <= 5):
+        for pattern in (r"([a-z]+)(?:[-_]?((?:rev)?\d+|[a-z]+\d*))?", r"[a-z0-9]+-([a-z]+)"):
+            m = re.fullmatch(pattern, vid.lower())
+            if m and m.group(1) in REGIONS:
+                extra = f" ({m.group(2)})" if m.lastindex and m.lastindex > 1 and m.group(2) else ""
+                return f"{REGIONS[m.group(1)]} build{extra}"
+    return f"{vid} build"
+
+
+# ---------------------------------------------------------------- PNG (stdlib)
+
+
+def png(w, h, pixels):
+    """pixels: bytes/bytearray of RGB rows, w*h*3 long."""
+    raw = b"".join(b"\x00" + bytes(pixels[y * w * 3:(y + 1) * w * 3]) for y in range(h))
+
+    def chunk(kind, data):
+        return struct.pack(">I", len(data)) + kind + data + struct.pack(">I", zlib.crc32(kind + data) & 0xFFFFFFFF)
+
+    return (b"\x89PNG\r\n\x1a\n" + chunk(b"IHDR", struct.pack(">IIBBBBB", w, h, 8, 2, 0, 0, 0))
+            + chunk(b"IDAT", zlib.compress(raw, 6)) + chunk(b"IEND", b""))
+
+
+def hex_rgb(c):
+    c = c.lstrip("#")
+    return bytes(int(c[i:i + 2], 16) for i in (0, 2, 4))
+
+
+def fill_rect(buf, w, x0, y0, x1, y1, color):
+    x0, x1 = max(0, int(x0)), max(0, int(x1))
+    if x1 <= x0:
+        return
+    row = color * (x1 - x0)
+    for y in range(max(0, int(y0)), int(y1)):
+        buf[(y * w + x0) * 3:(y * w + x1) * 3] = row
+
+
+def write_bytes(rel, data):
+    out = DIST / rel
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_bytes(data)
+
+
+def write_touch_icon():
+    """180x180 apple-touch-icon in the favicon's design: four tiles, three done, one in progress."""
+    S = 180
+    buf = bytearray(hex_rgb("#181c25") * S * S)
+    k = S / 64
+    green, blue = hex_rgb("#29c45a"), hex_rgb("#2a5a9c")
+    for (x, y), col in (((10, 12), green), ((34, 12), green), ((10, 34), green), ((34, 34), blue)):
+        fill_rect(buf, S, x * k, y * k, (x + 20) * k, (y + 18) * k, col)
+    fill_rect(buf, S, 38 * k, 41.5 * k, 50 * k, 44.5 * k, hex_rgb("#ffffff"))
+    write_bytes("apple-touch-icon.png", png(S, S, buf))
+
+
+def write_og_image(p, cells):
+    """Per-project social preview (1200x630 PNG): the project's progress map, like its banner."""
+    W, H = 1200, 630
+    pad, bar_h = 40, 28
+    buf = bytearray(hex_rgb("#181c25") * W * H)
+    mw, mh = W - 2 * pad, H - 3 * pad - bar_h
+    for c in cells:
+        fill_rect(buf, W, pad + c["x"] * mw, pad + c["y"] * mh, pad + (c["x"] + c["w"]) * mw - 2,
+                  pad + (c["y"] + c["h"]) * mh - 2, hex_rgb(banner_color(c["p"])))
+    by = H - pad - bar_h
+    fill_rect(buf, W, pad, by, W - pad, by + bar_h, hex_rgb("#2a3140"))
+    fill_rect(buf, W, pad, by, pad + mw * p.v.code_pct / 100, by + bar_h, hex_rgb("#00895a"))
+    fill_rect(buf, W, pad, by, pad + mw * p.v.linked_pct / 100, by + bar_h, hex_rgb("#00a66e"))
+    rel = "/".join([p.owner, p.repo, "og.png"])
+    write_bytes(rel, png(W, H, buf))
+    return rel
 
 
 # ---------------------------------------------------------------- data model
@@ -225,6 +373,9 @@ class Project:
         self.contesters = []
         self.contested_by = []
         self.game_title = ""
+        self.title = self.name  # the game's real title, set in main() once identities are loaded
+        self.alt = ""  # the repository's own name, when it differs from the title
+        self.og_image = None
         self.disputed = None
         hist_path = DATA / "history" / f"{self.id}.json"
         self.history = json.loads(hist_path.read_text()) if hist_path.exists() else []
@@ -243,8 +394,10 @@ class Project:
 # ---------------------------------------------------------------- shared markup
 
 
-def head(site, title, description=None, extra=""):
+def head(site, title, description=None, extra="", image=None, og_type="website"):
     desc = description or site["tagline"]
+    img = f"{SITE_URL}/{image}" if image else f"{SITE_URL}/apple-touch-icon.png"
+    card = "summary_large_image" if image else "summary"
     return (
         '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width, initial-scale=1">'
@@ -252,10 +405,13 @@ def head(site, title, description=None, extra=""):
         '<meta name="color-scheme" content="dark light">'
         f'<meta name="description" content="{e(desc)}">'
         f'<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">'
-        f'<meta property="og:site_name" content="{e(site["name"])}">'
+        f'<meta property="og:site_name" content="{e(site["name"])}"><meta property="og:type" content="{og_type}">'
+        '<meta property="og:url" content="">'
+        f'<meta property="og:image" content="{e(img)}"><meta name="twitter:card" content="{card}">'
         '<meta name="theme-color" content="#181c25" media="(prefers-color-scheme: dark)">'
         '<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">'
         '<link rel="icon" href="/favicon.svg" type="image/svg+xml">'
+        '<link rel="apple-touch-icon" href="/apple-touch-icon.png">'
         f"{THEME_INIT}"
         '<link rel="stylesheet" href="/static/vendor/pico.min.css">'
         '<link rel="stylesheet" href="/static/css/site.css">'
@@ -272,36 +428,40 @@ def brand(site):
 
 
 def nav(site, crumbs=()):
-    left = f'<li><a href="/">{brand(site)}</a></li>' + "".join(f'<li><a href="{e(u)}">{e(t)}</a></li>' for t, u in crumbs)
+    n = len(crumbs)
+    left = f'<li><a href="/" aria-label="{e(site["name"])} home">{brand(site)}</a></li>' + "".join(
+        f'<li><a href="{e(u)}"{" aria-current=page" if i == n - 1 else ""}>{e(t)}</a></li>' for i, (t, u) in enumerate(crumbs)
+    )
     right = (
         '<li><a href="/systems/">Systems</a></li><li><a href="/submit/">Add a project</a></li><li><a href="/about/">About</a></li>'
         + "".join(f'<li><a href="{e(l["url"])}">{e(l["label"])}</a></li>' for l in site.get("nav_links", []))
-        + f'<li><button type="button" id="theme-toggle" title="Switch light/dark" aria-label="Switch light or dark theme">{ICON_THEME}</button></li>'
+        + f'<li><button type="button" id="theme-toggle" title="Switch light/dark" aria-label="Dark theme" aria-pressed="false">{ICON_THEME}</button></li>'
     )
-    return f"<nav><ul>{left}</ul><ul>{right}</ul></nav>"
+    return f'<nav aria-label="Main"><ul aria-label="Breadcrumb">{left}</ul><ul>{right}</ul></nav>'
 
 
 def footer(site, built):
     return (
         '<footer class="container"><small class="muted">'
-        f'{e(site["name"])} · progress is read from each project&rsquo;s own CI reports</small>'
-        f'<small class="muted">Updated <time datetime="{built.isoformat()}">{built.strftime("%Y-%m-%d %H:%M UTC")}</time></small>'
+        f'{e(site["name"])} · progress is read from each project&rsquo;s own CI reports · '
+        '<a href="/about/">About</a> · <a href="/about/#agents">For scripts and agents</a></small>'
+        f'<small class="muted">Site rebuilt <time datetime="{built.isoformat()}">{built.strftime("%Y-%m-%d %H:%M UTC")}</time></small>'
         "</footer>"
     )
 
 
-def page(site, built, title, body, description=None, crumbs=(), extra_head="", scripts=()):
+def page(site, built, title, body, description=None, crumbs=(), extra_head="", scripts=(), image=None, og_type="website"):
     js = "".join(f'<script src="{s}" defer></script>' for s in ("/static/js/site.js", *scripts))
     return (
-        head(site, title, description, extra_head + js)
-        + f'<body><header class="container">{nav(site, crumbs)}</header>'
-        + f'<main class="container">{body}</main>'
+        head(site, title, description, extra_head + js, image, og_type)
+        + f'<body><a class="skip" href="#main">Skip to content</a><header class="container">{nav(site, crumbs)}</header>'
+        + f'<main class="container" id="main">{body}</main>'
         + footer(site, built)
         + "</body></html>"
     )
 
 
-def bar(kind, total, linked_pct, matched_pct, fuzzy_pct=None, linked_size=None, matched_size=None):
+def bar(kind, total, linked_pct, matched_pct, fuzzy_pct=None, linked_size=None, matched_size=None, extra=""):
     parts = []
     sized = total > 0
 
@@ -313,20 +473,33 @@ def bar(kind, total, linked_pct, matched_pct, fuzzy_pct=None, linked_size=None, 
             f'<span class="linked" style="width:{linked_pct:.4f}%" data-tip="{fmt_pct(linked_pct)} fully linked{size(linked_size)}"></span>'
         )
     if matched_pct - linked_pct > 0.0001:
-        striped = " striped" if linked_pct > 0 else ""
         parts.append(
-            f'<span class="matched{striped}" style="width:{matched_pct - linked_pct:.4f}%" '
+            f'<span class="matched striped" style="width:{matched_pct - linked_pct:.4f}%" '
             f'data-tip="{fmt_pct(matched_pct)} decompiled{size(matched_size)}"></span>'
         )
     if fuzzy_pct is not None and fuzzy_pct - matched_pct > 0.0001:
         parts.append(
             f'<span class="fuzzy striped" style="width:{fuzzy_pct - matched_pct:.4f}%" data-tip="{fmt_pct(fuzzy_pct)} including partly decompiled code"></span>'
         )
-    return f'<div class="bar {kind}">{"".join(parts)}</div>'
+    label = f"{fmt_pct(matched_pct)} decompiled"
+    if linked_pct > 0:
+        label += f", {fmt_pct(linked_pct)} fully linked"
+    if fuzzy_pct is not None and fuzzy_pct - matched_pct > 0.0001:
+        label += f", {fmt_pct(fuzzy_pct)} including partly decompiled"
+    return f'<div class="bar {kind}{" " + extra if extra else ""}" role="img" aria-label="{label}">{"".join(parts)}</div>'
 
 
-def code_bar(v):
-    return bar("code", v.total_code, v.linked_pct, v.code_pct, v.fuzzy_pct, v.linked_code, v.matched_code)
+def code_bar(v, extra=""):
+    return bar("code", v.total_code, v.linked_pct, v.code_pct, v.fuzzy_pct, v.linked_code, v.matched_code, extra)
+
+
+def legend(kind="code"):
+    return (
+        f'<p class="legend {kind}" aria-hidden="true"><span><i class="sw linked"></i>Fully linked</span>'
+        '<span><i class="sw matched striped"></i>Decompiled</span>'
+        + ('<span><i class="sw fuzzy striped"></i>Partly decompiled</span>' if kind == "code" else "")
+        + "</p>"
+    )
 
 
 def headline(v):
@@ -373,25 +546,28 @@ def write_banner(p):
 
 def card(p, now):
     v = p.v
-    art = f'<div class="project-art"><img src="/{e(p.image)}" alt="" loading="lazy"></div>' if p.image else ""
-    role = f'<span class="tag subtle">{e(p.role)}</span>' if p.role else ""
-    sha = v.commit.get("sha", "")
-    commit = f' in commit <a href="{e(p.commit_url(sha))}" target="_blank" rel="noopener">{e(sha[:7])}</a>' if sha else ""
-    terms = [p.name, p.game_title, p.description, p.owner, p.repo, f"{p.owner}/{p.repo}", PLAT.get(p.platform, {}).get("name", "")]
+    art = f'<div class="project-art" aria-hidden="true"><img src="/{e(p.image)}" alt="" loading="lazy"></div>' if p.image else ""
+    role = f' <span class="tag subtle">{e(p.role)}</span>' if p.role else ""
+    terms = [p.title, p.name, p.game_title, p.description, p.owner, p.repo, f"{p.owner}/{p.repo}", PLAT.get(p.platform, {}).get("name", "")]
     for o in p.others:
         terms += [o.name, o.owner, o.repo, f"{o.owner}/{o.repo}"]
     search = " ".join(t for t in terms if t).lower()
     more = len(p.others)
-    others = f' <span class="tag subtle">+{more} other repo{"s" if more != 1 else ""}</span>' if more else ""
+    others = f' <span class="tag subtle" title="Other repositories for this game">+{more}</span>' if more else ""
+    archived = ' <span class="tag subtle">Last known</span>' if v.archived else ""
+    stats = f"{fmt_pct1(v.code_pct)} decompiled"
+    if v.linked_pct > 0:
+        stats += f" · {fmt_pct1(v.linked_pct)} linked"
+    alt = f'<p class="project-alt muted">{e(p.alt)}</p>' if p.alt else ""
     return (
-        f'<article class="project" data-platform="{e(p.platform)}" data-name="{e(p.name.lower())}" '
+        f'<article class="project" data-card data-platform="{e(p.platform)}" data-name="{e(p.title.lower())}" '
         f'data-updated="{e(v.commit["timestamp"])}" data-percent="{v.code_pct:.4f}" data-matched="{v.matched_code}" '
-        f'data-size="{v.total_code}" data-search="{e(search)}">'
-        f'<a class="project-link" href="{p.url()}" aria-label="{e(p.name)}"></a>{art}'
-        f'<div class="project-head"><h3>{e(p.name)}{role}{others}</h3>{plat_badge(p.platform, link=True)}</div>'
-        f"<h6>{headline(v)}</h6>{code_bar(v)}"
-        f'<small class="muted">Updated <time data-ago datetime="{e(v.commit["timestamp"])}">{ago(v.updated, now)}</time>'
-        f'{commit} · <a href="{e(p.repository)}" target="_blank" rel="noopener">{e(p.owner)}/{e(p.repo)} ↗</a></small></article>'
+        f'data-size="{v.total_code}" data-search="{e(search)}">{art}'
+        f'<div class="project-head"><h2><a class="project-link" data-card-link href="{p.url()}">{e(p.title)}</a>{role}{others}{archived}</h2>'
+        f"{plat_badge(p.platform, link=True)}</div>{alt}"
+        f'<p class="project-stats"><span>{stats}</span> <span title="Time since the last commit with a progress report">'
+        f'· last commit <time data-ago="short" datetime="{e(v.commit["timestamp"])}">{ago_short(v.updated, now)}</time></span></p>'
+        f'{code_bar(v, "thin")}</article>'
     )
 
 
@@ -404,32 +580,41 @@ def build_index(site, projects, built):
         '<li class="plat-item"><label>'
         f'<input type="checkbox" name="platform" value="{k}" checked>{plat_badge(k)}'
         f'<span class="plat-name">{e(PLAT[k]["name"])}</span><span class="count">{counts[k]}</span></label>'
-        '<button class="secondary outline">Only</button></li>'
+        f'<button type="button" class="secondary outline" aria-label="Show only {e(PLAT[k]["name"])}">Only</button></li>'
         for k, *_ in PLATFORMS
         if k in counts
     )
     plat_dd = (
-        '<details class="dropdown plat-list"><summary>All systems</summary><ul>'
+        '<details class="dropdown plat-list"><summary aria-label="Systems: All systems">All systems</summary><ul>'
         f'<li><a href="/" data-all>All systems</a></li>{items}</ul></details>'
     )
     sort_dd = (
-        '<details class="dropdown sort-list"><summary>Recently updated</summary><ul>'
+        '<details class="dropdown sort-list"><summary aria-label="Sort: Recently updated">Recently updated</summary><ul>'
         + "".join(f'<li><a href="/?sort={k}" data-sort="{k}">{e(l)}</a></li>' for k, l in SORTS)
         + "</ul></details>"
+    )
+    view = (
+        '<div class="view-toggle" role="group" aria-label="Layout">'
+        '<button type="button" class="secondary outline" data-view="cards" aria-pressed="true">Cards</button>'
+        '<button type="button" class="secondary outline" data-view="list" aria-pressed="false">List</button></div>'
     )
     ordered = sorted(projects, key=lambda p: p.v.commit["timestamp"], reverse=True)
     intro = site["intro"]
     complete = sum(1 for p in projects if p.v.code_pct >= 99.995)
     systems = len({p.platform for p in projects})
+    repos = len(projects) + sum(len(p.others) for p in projects)
     body = (
-        f'<hgroup class="intro"><h2>{e(intro["heading"])}</h2><p>{e(intro["text"])}</p></hgroup>'
+        f'<hgroup class="intro"><h1>{e(intro["heading"])}</h1><p>{e(intro["text"])}</p></hgroup>'
         f'<p class="stats"><strong>{len(projects)}</strong> games · <strong>{complete}</strong> complete · '
-        f'<strong>{systems}</strong> systems · updated every 6 hours</p>'
+        f'<strong>{systems}</strong> systems · <strong>{repos}</strong> repositories · refreshed every 6 hours</p>'
         '<div class="filters">'
-        '<input type="search" id="search" placeholder="Search games, teams, repos…" aria-label="Search projects">'
+        '<input type="search" id="search" placeholder="Search games, teams, repositories…" aria-label="Search games">'
         f"{plat_dd}{sort_dd}</div>"
-        f'<p class="muted result-count" id="result-count">{len(projects)} projects</p>'
+        f'<div class="list-bar"><p class="muted result-count" id="result-count" aria-live="polite">{len(projects)} games</p>{view}</div>'
+        f"{legend()}"
         f'<div id="directory">{"".join(card(p, now) for p in ordered)}</div>'
+        '<p id="empty" class="notice" hidden>No games match. <a href="/" id="clear-filters">Clear the search and filters</a></p>'
+        '<noscript><p class="muted"><small>Search, filters and sorting need JavaScript; every game is listed above, newest first.</small></p></noscript>'
     )
     html = page(site, built, f"{site['name']} · {site['tagline']}", body)
     write("index.html", html)
@@ -440,31 +625,41 @@ def build_systems(site, projects, built):
     groups = {}
     for p in projects:
         groups.setdefault(p.platform, []).append(p)
-    cards = []
+    by_maker = {}
     for k, name, short, maker in PLATFORMS:
         ps = groups.get(k)
         if not ps:
             continue
         total = sum(p.v.total_code for p in ps if not p.v.archived)
         matched = sum(p.v.matched_code for p in ps if not p.v.archived)
+        linked = sum(p.v.linked_code for p in ps if not p.v.archived)
         done = sum(1 for p in ps if p.v.code_pct >= 99.995)
         top = sorted(ps, key=lambda p: -p.v.code_pct)[:5]
-        cards.append(
-            f'<article><a href="/?platform={k}"><h4>{plat_badge(k)} {e(name)}</h4></a>'
-            f'<p class="muted"><small>{e(maker)} · {len(ps)} project{"s" if len(ps) != 1 else ""}'
-            f'{f" · {done} complete" if done else ""}</small></p>'
-            + (bar("code", total, 0, pct(matched, total)) if total else "")
-            + "<small><ul>"
-            + "".join(f'<li><a href="{p.url()}">{e(p.name)}</a> <span class="muted">{fmt_pct(p.v.code_pct)}</span></li>' for p in top)
-            + "</ul></small>"
-            + "</article>"
+        share = pct(matched, total)
+        meter = (
+            bar("code", total, pct(linked, total), share)
+            + f'<p class="sys-number"><strong>{fmt_pct1(share)}</strong> of {fmt_size(total)} of code decompiled</p>'
+            if total else '<p class="sys-number muted">No live reports yet</p>'
         )
-    body = (
-        '<hgroup class="intro"><h2>Systems</h2><p class="muted">Every system with a tracked decompilation. '
-        "The bar on each card shows how much of that system&rsquo;s code is decompiled, across projects with a live report.</p></hgroup>"
-        f'<div class="systems">{"".join(cards)}</div>'
+        by_maker.setdefault(maker, []).append(
+            f'<article class="sys-card" data-card><h3><a data-card-link href="/?platform={k}">{plat_badge(k)} {e(name)}</a></h3>'
+            f'<p class="muted"><small>{len(ps)} game{"s" if len(ps) != 1 else ""}'
+            f'{f" · {done} complete" if done else ""}</small></p>{meter}'
+            '<ul class="sys-top">'
+            + "".join(f'<li><a href="{p.url()}">{e(p.title)}</a> <span class="muted">{fmt_pct1(p.v.code_pct)}</span></li>' for p in top)
+            + "</ul></article>"
+        )
+    sections = "".join(
+        f'<section><h2 class="maker">{e(m)}</h2><div class="systems">{"".join(by_maker[m])}</div></section>'
+        for m in MAKERS + sorted(set(by_maker) - set(MAKERS))
+        if m in by_maker
     )
-    write("systems/index.html", page(site, built, f"Systems · {site['name']}", body))
+    body = (
+        '<hgroup class="intro"><h1>Systems</h1><p class="muted">Every system with a tracked decompilation. '
+        "Each bar shows how much of that system&rsquo;s code is decompiled, across games with a live report.</p></hgroup>"
+        f"{legend('sys')}{sections}"
+    )
+    write("systems/index.html", page(site, built, f"Systems · {site['name']}", body, "Matching decompilation progress by game system."))
 
 
 # ---------------------------------------------------------------- treemap layout
@@ -534,11 +729,13 @@ def version_switch(p, v, suffix=""):
     if len(p.versions) < 2:
         return ""
     lis = "".join(
-        f'<li><strong>{e(o.id)} ✓</strong></li>' if o is v else
-        f'<li><a href="{p.url(o.id, *([suffix] if suffix else []))}">{e(o.id)}</a></li>'
+        f'<li><strong aria-current="true">{e(build_label(o.id) or o.id)} ✓</strong></li>' if o is v else
+        f'<li><a href="{p.url(o.id, *([suffix] if suffix else []))}">{e(build_label(o.id) or o.id)}</a></li>'
         for o in p.versions
     )
-    return f'<details class="dropdown"><summary>Version: {e(v.id)}</summary><ul>{lis}</ul></details>'
+    label = build_label(v.id) or v.id
+    return (f'<details class="dropdown version-switch"><summary aria-label="Build: {e(label)}. Choose another build">'
+            f'{e(label)}</summary><ul>{lis}</ul></details>')
 
 
 def slot_notice(p):
@@ -603,19 +800,26 @@ def _slot_notice(p):
 
 
 def build_report(site, p, v, base, built):
-    crumbs = [(p.name, p.url())]
+    crumbs = [(p.title, p.url())]
     role = f' <span class="tag subtle">{e(p.role)}</span>' if p.role else ""
     archived_repo = ' <span class="tag subtle">Repository archived</span>' if p.meta.get("archived") else ""
+    last_known = f' <span class="tag warn">Last known numbers ({v.updated.strftime("%Y-%m-%d")})</span>' if v.archived else ""
     actions = (
         '<div class="report-actions">'
         f'<a class="secondary outline" role="button" href="{base}history/">History</a>'
         f'<a class="secondary outline" role="button" href="{e(p.repository)}" target="_blank" rel="noopener">Repository ↗</a>'
         "</div>"
     )
-    sub = f'<h4 class="muted">{fmt_pct(v.linked_pct)} fully linked</h4>' if v.linked_pct > 0 else ""
-    desc = f'<p class="report-desc">{e(p.description)}</p>' if p.description else '<p class="report-desc"></p>'
+    alt = f'<p class="report-alt muted"><small>Repository name: {e(p.alt)}</small></p>' if p.alt else ""
+    stat = f'<p class="headline"><strong>{fmt_pct(v.code_pct)}</strong> decompiled'
+    if v.linked_pct > 0:
+        stat += f' · <span class="muted">{fmt_pct(v.linked_pct)} fully linked</span>'
+    stat += "</p>"
+    desc = f'<p class="report-desc">{e(p.description)}</p>' if p.description else ""
     plat = PLAT.get(p.platform, {"name": p.platform})["name"]
-    facts = f'<p class="muted"><small>{plat_badge(p.platform)} {e(plat)} · {e(v.id)} · maintained by <a href="https://github.com/{e(p.owner)}" target="_blank" rel="noopener">{e(p.owner)}</a>'
+    label = build_label(v.id)
+    facts = (f'<p class="muted facts"><small>{plat_badge(p.platform)} {e(plat)}{f" · {e(label)}" if label and len(p.versions) < 2 else ""}'
+             f' · <a href="{e(p.repository)}" target="_blank" rel="noopener">{e(p.owner)}/{e(p.repo)}</a>')
     if v.functions[1]:
         facts += f" · {v.functions[0]:,} / {v.functions[1]:,} functions decompiled"
     facts += "</small></p>"
@@ -623,24 +827,26 @@ def build_report(site, p, v, base, built):
     notice = slot_notice(p)
     if v.archived:
         notice += (
-            '<div class="notice"><small>No live report could be read from this project&rsquo;s CI, so these numbers come from the '
-            f"last public snapshot of the old decomp.dev index ({v.updated.strftime('%Y-%m-%d')}). "
-            "They&rsquo;ll update automatically once the project publishes a report artifact.</small></div>"
+            '<div class="notice"><small>No live report could be read from this project&rsquo;s GitHub Actions (GitHub deletes '
+            "artifacts after 90 days), so these are the last known numbers, from the old decomp.dev index "
+            f"({v.updated.strftime('%Y-%m-%d')}). They update by themselves once the project publishes a new report.</small></div>"
         )
 
-    code = f'<h6>Code {f"<small class=muted>({fmt_size(v.total_code)})</small>" if v.total_code else ""}</h6>{code_bar(v)}'
+    code = (f'<h2 class="section">Code {f"<small class=muted>({fmt_size(v.total_code)})</small>" if v.total_code else ""}</h2>'
+            f"{code_bar(v)}")
     data = ""
     if v.total_data:
         data = (
-            f'<h6>Data <small class="muted">({fmt_size(v.total_data)})</small></h6>'
+            f'<h2 class="section">Data <small class="muted">({fmt_size(v.total_data)})</small></h2>'
             + bar("data", v.total_data, pct(v.linked_data, v.total_data), pct(v.matched_data, v.total_data), None, v.linked_data, v.matched_data)
         )
     sha = v.commit.get("sha", "")
     commit = ""
     if sha:
-        msg = f" | {e(v.commit.get('message', ''))}" if v.commit.get("message") else ""
+        msg = f" {e(v.commit.get('message', '').strip())}" if v.commit.get("message") else ""
         commit = (
-            f'<h6>Latest commit</h6><pre><a href="{e(p.commit_url(sha))}" target="_blank" rel="noopener">{e(sha[:7])}</a>{msg}</pre>'
+            f'<h2 class="section">Latest commit</h2><p class="commit"><a href="{e(p.commit_url(sha))}" target="_blank" rel="noopener">'
+            f'<code>{e(sha[:7])}</code></a>{msg}</p>'
             f'<p class="muted"><small>Committed <time data-ago datetime="{e(v.commit["timestamp"])}">{ago(v.updated, built)}</time></small></p>'
         )
     units = ""
@@ -652,91 +858,225 @@ def build_report(site, p, v, base, built):
         data_base = p.url(v.id)
         if base == data_base:
             write(base.strip("/") + "/units.json", json.dumps(layout, separators=(",", ":")))
-        units = (
-            f'<h6>Units <small class="muted">({len(layout):,})</small></h6>'
-            '<input id="unit-filter" type="search" placeholder="Filter units, e.g. camera <70% >10kb linked" aria-label="Filter units">'
-            f'<canvas id="treemap" data-src="{data_base}units.json" role="img" aria-label="Map of {len(layout):,} source files sized by code: '
-            f'{sum(1 for u in layout if u["p"] >= 100):,} fully decompiled"></canvas>'
-            '<p class="muted"><small>Each box is a source file, sized by its code. Green is decompiled, '
-            "blue shading is partly decompiled, grey is untouched.</small></p>"
-        )
-        scripts.append("/static/js/treemap.js")
+        head_ = f'<h2 class="section">Source files <small class="muted">({len(layout):,})</small></h2>'
+        if all(u["p"] >= 100 for u in layout):
+            units = head_ + f'<p class="notice">All {len(layout):,} source files are fully decompiled. Nothing left to map.</p>'
+        else:
+            done = sum(1 for u in layout if u["p"] >= 100)
+            units = (
+                head_
+                + '<input id="unit-filter" type="search" placeholder="Filter files, e.g. camera <70% >10kb linked" aria-label="Filter source files">'
+                f'<div class="treemap-wrap"><canvas id="treemap" data-src="{data_base}units.json" role="img" aria-label="Map of {len(layout):,} source files sized by code: '
+                f'{done:,} fully decompiled"></canvas><p id="treemap-status" class="treemap-status muted" aria-live="polite">Loading source files…</p></div>'
+                '<div class="tm-legend" aria-hidden="true"><span>0%</span><i class="tm-grad"></i><span>99%</span>'
+                '<i class="sw tm-done"></i><span>100% decompiled</span></div>'
+                '<p class="muted"><small>Each box is a source file, sized by its code; hover or touch one for details.</small></p>'
+                f'<noscript><p class="muted"><small>The map needs JavaScript. The same data is at <a href="{data_base}units.json">units.json</a>.</small></p></noscript>'
+            )
+            scripts.append("/static/js/treemap.js")
 
-    body = (
-        f'<div class="report-top"><div class="report-head"><h3>{e(p.name)} is {fmt_pct(v.code_pct)} decompiled{role}{archived_repo}</h3>{sub}</div>{actions}</div>'
-        f"{desc}{facts}{version_switch(p, v)}{notice}{code}{data}{commit}{units}"
+    head_block = (
+        f'<div class="report-top"><div class="report-head"><h1>{e(p.title)}{role}{archived_repo}{last_known}</h1>{alt}{stat}</div>{actions}</div>'
     )
-    title = f"{p.name} ({PLAT.get(p.platform, {}).get('short', p.platform)}) · {site['name']}"
+    body = f"{head_block}{desc}{facts}{version_switch(p, v)}{notice}{legend()}{code}{data}{commit}{units}"
+    short = PLAT.get(p.platform, {}).get("short", p.platform)
+    title = f"{p.title} ({short}) · {site['name']}"
     src_repo = ((p.raw.get("source") or {}).get("repo") or f"{p.owner}/{p.repo}").lower()
-    body = f'<div id="fresh" data-repo="{e(src_repo)}" data-sha="{e(p.v.commit.get("sha", ""))}" hidden></div>' + body
+    body = f'<div id="fresh" data-repo="{e(src_repo)}" data-sha="{e(p.v.commit.get("sha", ""))}" aria-live="polite" hidden></div>' + body
     scripts.append("/static/js/fresh.js")
     write(
         base.strip("/") + "/index.html",
-        page(site, built, title, body, f"{p.name} is {fmt_pct(v.code_pct)} decompiled", crumbs, scripts=scripts),
+        page(site, built, title, body, f"{p.title} ({PLAT.get(p.platform, {}).get('name', short)}) is {fmt_pct(v.code_pct)} decompiled.",
+             crumbs, scripts=scripts, image=p.og_image),
     )
 
 
 def build_history(site, p, v, base, built):
     if base == p.url():
         write("/".join([p.owner, p.repo, "history.json"]), json.dumps(p.history, separators=(",", ":")))
-    crumbs = [(p.name, base), ("History", base + "history/")]
+    crumbs = [(p.title, base), ("History", base + "history/")]
     archive_points = sum(1 for h in p.history if h.get("source") == "archive")
     note = ""
     if archive_points:
         note = (
             f'<p class="muted"><small>{archive_points} earlier point{"s" if archive_points != 1 else ""} come from monthly '
-            "snapshots of the old decomp.dev index; newer points come from this project&rsquo;s CI reports.</small></p>"
+            "snapshots of the old decomp.dev index; newer points come from this project&rsquo;s own progress reports.</small></p>"
         )
     body = (
-        f"<h3>History for {e(p.name)}</h3>"
-        f'<div id="chart" data-src="{p.url()}history.json"></div>{note}'
-        f'<div role="group"><a role="button" class="secondary" href="{base}">Back to report</a></div>'
+        f'<hgroup class="intro"><h1>{e(p.title)}: history</h1><p class="muted">Progress over time. Click a series name to show or hide it.</p></hgroup>'
+        f'<div id="chart" data-src="{p.url()}history.json" aria-live="polite"><p class="muted">Loading history…</p></div>'
+        '<noscript><p class="muted"><small>The chart needs JavaScript. The data is at '
+        f'<a href="{p.url()}history.json">history.json</a>.</small></p></noscript>{note}'
+        f'<p><a role="button" class="secondary" href="{base}">Back to {e(p.title)}</a></p>'
     )
     write(
         base.strip("/") + "/history/index.html",
         page(
             site,
             built,
-            f"{p.name} history · {site['name']}",
+            f"{p.title} history · {site['name']}",
             body,
-            f"Decompilation progress history for {p.name}",
+            f"Decompilation progress history for {p.title}",
             crumbs,
             extra_head='<link rel="stylesheet" href="/static/vendor/uPlot.min.css"><script src="/static/vendor/uPlot.iife.min.js" defer></script>',
             scripts=["/static/js/history.js"],
+            image=p.og_image,
         ),
     )
 
 
-def build_about(site, projects, built):
+def ext(url, text):
+    return f'<a href="{url}" target="_blank" rel="noopener">{text}</a>'
+
+
+def build_about(site, projects, leaders, built):
     live = sum(1 for p in projects if not p.v.archived)
-    contact = site.get("contact_url", "#")
+    name = e(site["name"])
     body = f"""
-<hgroup class="intro"><h2>About {e(site['name'])}</h2><p class="muted">{e(site['tagline'])}</p></hgroup>
-<p>{e(site['intro']['text'])}</p>
-<h4>Where the numbers come from</h4>
-<p>Each project&rsquo;s own continuous integration publishes a progress report (the
-<a href="https://github.com/encounter/objdiff" target="_blank" rel="noopener">objdiff</a> report format).
-{e(site['name'])} reads the newest report for each project from GitHub and rebuilds these pages.
-Right now {live} of {len(projects)} projects have a live report; the rest show their last known numbers.</p>
-<p>The starting list of projects and the older history points were recovered from public Internet Archive snapshots of the
-decomp.dev index, which its author retired in October 2026. Only facts were taken (names, repositories, systems and
-percentages). This site&rsquo;s code is independent.</p>
-<h4>Listing and removal</h4>
-<p>Every project here is a public repository and every card links straight to it. New projects are added through
-<a href="/submit/">Add a project</a>, which checks them automatically. Each game appears once: when several repositories
-work on the same game, the one with the most code decompiled is listed and the others are shown on its page.
-For anything else, <a href="{e(contact)}" target="_blank" rel="noopener">get in touch</a>.</p>
-<p class="muted"><small>Game lists: No-Intro and Redump via libretro-database (CC BY-SA 4.0), MAME, titledb and Wikidata.</small></p>
-<h4>Credits</h4>
-<p>Built with <a href="https://picocss.com" target="_blank" rel="noopener">Pico CSS</a> and
-<a href="https://github.com/leeoniya/uPlot" target="_blank" rel="noopener">uPlot</a>
-(<a href="/static/vendor/LICENSES.txt">licenses</a>). Game names and artwork belong to their owners.
-All credit for the decompilations goes to the people working on them.</p>
+<hgroup class="intro"><h1>About {name}</h1><p class="muted">{e(site['tagline'])}</p></hgroup>
+<p>{name} is a directory and leaderboard of <strong>matching decompilation</strong> projects: games being rewritten in C or C++
+so that the source compiles back into exactly the original executable, byte for byte. Each game is listed once, with progress
+read straight from the project&rsquo;s own builds. Everything runs by itself: projects are added, updated and removed without anyone
+reviewing them by hand.</p>
+<p>Right now: {len(leaders)} games from {len(projects)} repositories, {live} of them with a live progress report.</p>
+<nav class="toc" aria-label="On this page"><ul>
+<li><a href="#terms">Terms</a></li><li><a href="#numbers">Where the numbers come from</a></li>
+<li><a href="#listing">One listing per game</a></li><li><a href="#adding">Adding and removing</a></li>
+<li><a href="#history">History</a></li><li><a href="#sources">Data sources</a></li><li><a href="#privacy">Privacy</a></li>
+<li><a href="#agents">For scripts and agents</a></li></ul></nav>
+
+<h2 id="terms">Terms</h2>
+<dl class="glossary">
+<dt><i class="sw matched striped" aria-hidden="true"></i>Decompiled</dt>
+<dd>Code whose rewritten source compiles to exactly the same machine code as the original. The main percentage is the share of
+the game&rsquo;s code, measured in bytes, that matches.</dd>
+<dt><i class="sw linked" aria-hidden="true"></i>Fully linked</dt>
+<dd>Decompiled code in source files that are finished and built from source in the project&rsquo;s own build, rather than
+taken from the original binary.</dd>
+<dt><i class="sw fuzzy striped" aria-hidden="true"></i>Partly decompiled</dt>
+<dd>Functions that are written but don&rsquo;t match exactly yet, counted by how close they are. Shown as the faint stripes at the
+end of a bar.</dd>
+<dt>Complete</dt>
+<dd>100% of the code decompiled.</dd>
+<dt>Source file (unit)</dt>
+<dd>One file of the project&rsquo;s source, usually a single <code>.c</code> or <code>.cpp</code>. The map on each project page
+has one box per file, sized by how much code it holds.</dd>
+<dt>Build</dt>
+<dd>One specific executable of a game, such as the USA or Japan release. A project can track several.</dd>
+</dl>
+
+<h2 id="numbers">Where the numbers come from</h2>
+<p>Each project&rsquo;s own GitHub Actions build the game and upload a progress report in the
+{ext("https://github.com/encounter/objdiff", "objdiff")} format. {name} reads the newest report from the default branch.</p>
+<ul>
+<li>Every project is refreshed every 6 hours.</li>
+<li>Opening a project page asks GitHub (at most once every 10 minutes per project) whether there is newer progress. If there is,
+that project is refreshed (about 2 minutes) and the page reloads by itself. This happens up to 4 times a day per project
+and 100 times a day across the site; beyond that, the 6-hourly refresh picks it up.</li>
+<li>GitHub deletes build artifacts after 90 days. A project that hasn&rsquo;t published a newer report keeps its last known
+numbers, labelled as such on its page.</li>
+</ul>
+
+<h2 id="listing">One listing per game</h2>
+<p>Several repositories can work on the same game. They share one listing: the one with the most code decompiled leads, and the
+others are shown on its page.</p>
+<ul>
+<li><strong>Taking the lead.</strong> Another repository takes the listing after leading by at least {slots.TAKEOVER_MARGIN:g}
+percentage point for {slots.TAKEOVER_DAYS} days in a row. A submitted repository must also have been listed for
+{slots.CHALLENGER_MIN_DAYS} days. A fork can&rsquo;t take its parent&rsquo;s place; its page offers a link to open a pull request instead.</li>
+<li><strong>Comparing builds.</strong> Repositories are compared build to build. The same build ID with the same code size is the
+same executable. Different builds, such as USA and Japan, are both fine. The same build ID with a different code size is a conflict.</li>
+<li><strong>Contesting.</strong> A submission that conflicts with the listed repository is shown as <em>contesting</em> on the
+game&rsquo;s page. {slots.DISPUTE_QUORUM} independent contesters (different owners, no shared commits, repositories at least
+{slots.CONTESTER_MIN_REPO_DAYS} days old) that agree with each other replace a submitted listing.</li>
+<li><strong>Original listings</strong> (the ones inherited from decomp.dev) are never removed this way; they are marked
+<em>contested</em> instead.</li>
+</ul>
+
+<h2 id="adding">Adding and removing projects</h2>
+<p><strong>Adding</strong> is automatic: on <a href="/submit/">Add a project</a>, sign in with GitHub and paste the repository.
+It is checked within a few minutes; if it passes, it appears in the directory, or on its game&rsquo;s page when the game is already listed.</p>
+<p><strong>Removing</strong> is automatic too. A repository that is deleted or made private disappears after three refreshes in a row.
+Archived repositories stay, tagged &ldquo;Repository archived&rdquo;. There is nobody to ask: the site only shows what is public on GitHub.</p>
+
+<h2 id="history">History</h2>
+<p>{name} picks up where decomp.dev left off; its author retired that index in October 2026. The starting list of
+projects and the older history points were recovered from public
+{ext("https://web.archive.org/", "Internet Archive")} snapshots of the decomp.dev index. Only facts were taken: names,
+repositories, systems and percentages. None of decomp.dev&rsquo;s code is used; this site&rsquo;s code is its own.</p>
+
+<h2 id="sources">Data sources and licences</h2>
+<ul>
+<li>Game lists from {ext("https://www.no-intro.org/", "No-Intro")} and {ext("http://redump.org/", "Redump")}, plus DOS.dat, via
+{ext("https://github.com/libretro/libretro-database", "libretro-database")}
+({ext("https://creativecommons.org/licenses/by-sa/4.0/", "CC BY-SA 4.0")}).</li>
+<li>Arcade sets from {ext("https://www.mamedev.org/", "MAME")}.</li>
+<li>Switch titles from {ext("https://github.com/blawar/titledb", "titledb")} (MIT).</li>
+<li>Windows games from {ext("https://www.wikidata.org/", "Wikidata")} (CC0).</li>
+<li>Built with {ext("https://picocss.com", "Pico CSS")} and {ext("https://github.com/leeoniya/uPlot", "uPlot")} (MIT,
+<a href="/static/vendor/LICENSES.txt">licences</a>).</li>
+<li>Card banners are drawn from each project&rsquo;s own progress map; no game artwork is used. Game names belong to their owners,
+and all credit for the decompilations goes to the people doing them.</li>
+</ul>
+
+<h2 id="privacy">Privacy</h2>
+<ul>
+<li>No analytics, no ads, no third-party scripts.</li>
+<li>Signing in with GitHub (only needed to add a project) sets a cookie for 7 days holding your GitHub username and numeric ID.
+{name} sees only your public profile.</li>
+<li>Submissions are public: your GitHub username is shown next to each one on <a href="/submit/">Add a project</a>.</li>
+<li>Your theme and list layout choices stay in your own browser.</li>
+</ul>
+
+<h2 id="agents">For scripts and agents</h2>
+<p>Start at <a href="/llms.txt"><code>/llms.txt</code></a>. Every page is static, and the data behind it is plain JSON:</p>
+<ul>
+<li><code>/&lt;owner&gt;/&lt;repo&gt;/history.json</code>: progress over time.</li>
+<li><code>/&lt;owner&gt;/&lt;repo&gt;/&lt;build&gt;/units.json</code>: every source file of a build with its size and percentage decompiled.</li>
+<li><a href="/fresh.json"><code>/fresh.json</code></a>: the commit each project page was built from.</li>
+<li><a href="/submissions.json"><code>/submissions.json</code></a>: recent submissions and their results.</li>
+</ul>
 """
-    write("about/index.html", page(site, built, f"About · {site['name']}", body))
+    write("about/index.html", page(site, built, f"About · {site['name']}", body,
+                                    "What decomp.fun is, where its numbers come from, and how listings work."))
 
 
 STATUS_LABELS = {"listed": "Accepted", "contesting": "Contesting", "already": "Already listed", "rejected": "Not accepted"}
+
+
+ACTIONS_EXAMPLE = """# .github/workflows/build.yml (the part decomp.fun reads)
+on:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        version: [GALE01]          # one entry per build of the game
+    steps:
+      - uses: actions/checkout@v4
+      # ... build the game and write build/${{ matrix.version }}/report.json
+      #     (dtk-template: ninja build/${{ matrix.version }}/report.json)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.version }}_report
+          path: build/${{ matrix.version }}/report.json"""
+
+
+def status_pill(status):
+    return f'<span class="status status-{e(status or "rejected")}">{STATUS_LABELS.get(status, "Not accepted")}</span>'
+
+
+def write_game_titles():
+    """Compact titles-only lists for the Add a project typeahead (Windows, DOS, Switch)."""
+    import submit as sub
+
+    for k in sub.NAME_ONLY:
+        path = DATA / "games" / f"{k}.json"
+        if path.exists():
+            titles = sorted({g["title"] for g in json.loads(path.read_text()).get("games", [])}, key=str.lower)
+            write(f"static/games/{k}.json", json.dumps(titles, ensure_ascii=False, separators=(",", ":")))
 
 
 def build_submit(site, built):
@@ -755,53 +1095,71 @@ def build_submit(site, built):
     rows = []
     for x in recent:
         listed = x.get("status") == "listed"
-        game = x.get("game", {}).get("title", "")
+        game = clean_title(x.get("game", {}).get("title", ""))
         name = f'<a href="/{e(x["project"]["owner"])}/{e(x["project"]["repo"])}/">{e(x["repo"])}</a>' if listed and x.get("project") else e(x["repo"])
         reasons = "".join(f"<li>{e(r)}</li>" for r in x.get("reasons", []))
         rows.append(
-            f"<tr><td>{name}<br><small class=muted>{e(game)}</small></td>"
-            f'<td class="status-{e(x.get("status", ""))}">{STATUS_LABELS.get(x.get("status"), "Not accepted")}</td>'
+            f"<tr><td>{name}{f'<br><small class=muted>{e(game)}</small>' if game else ''}</td>"
+            f"<td>{status_pill(x.get('status'))}</td>"
             f"<td><small>{f'<ul>{reasons}</ul>' if reasons else 'All checks passed.'}</small></td>"
             f'<td><small class="muted">{e(x.get("by", ""))}<br>{e(x.get("submitted_at", "")[:10])}</small></td></tr>'
         )
     table = (
-        '<div class="overflow-auto"><table class="striped"><thead><tr><th>Repository</th><th>Result</th><th>Details</th>'
-        f'<th>By</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
+        '<div class="overflow-auto"><table class="striped submissions"><thead><tr><th scope="col">Repository</th><th scope="col">Result</th>'
+        f'<th scope="col">Details</th><th scope="col">By</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
         if rows else '<p class="muted">No submissions yet.</p>'
     )
     options = "".join(f'<option value="{k}">{e(PLAT[k]["name"])}</option>' for k in sub.NAME_ONLY)
     body = f"""
-<hgroup class="intro"><h2>Add a project</h2><p class="muted">Submissions are checked automatically. Nobody reviews them by hand.</p></hgroup>
-<h4>Requirements</h4>
-<ul>
-<li>A public GitHub repository whose GitHub Actions publish an <a href="https://github.com/encounter/objdiff" target="_blank" rel="noopener">objdiff</a>
-progress report on the default branch, as an artifact with <code>report</code> in its name (projects built from
-<a href="https://github.com/encounter/dtk-template" target="_blank" rel="noopener">dtk-template</a> do this already).</li>
-<li>At least {sub.MIN_MATCHED_PERCENT:g}% of the code decompiled.</li>
-<li>The game is identified from the repository itself: its disc ID, serial, title ID or ROM hash, as decomp projects
-normally contain. PC, DOS and Switch games have no such IDs, so for those you pick the system and the game&rsquo;s exact name.</li>
-<li>One project per game. If the game is already listed, your repository must decompile the same executable, and it takes
-the game&rsquo;s place once it leads by {slots.TAKEOVER_MARGIN:g}% more code decompiled for {slots.TAKEOVER_DAYS} days in a row.</li>
-<li>Your GitHub account is at least 30 days old. Up to 3 submissions per account per day.</li>
-</ul>
-<article>
-<div id="signed-out"><p>Sign in with GitHub to submit. decomp.fun only sees your public profile.</p>
+<hgroup class="intro"><h1>Add a project</h1><p class="muted">Checks run automatically, usually within a few minutes. Nobody reviews submissions by hand.</p></hgroup>
+<h2>What it needs</h2>
+<ol class="requirements">
+<li><strong>A public GitHub repository.</strong></li>
+<li><strong>A progress report from its own GitHub Actions.</strong> A workflow on the default branch uploads an
+{ext("https://github.com/encounter/objdiff", "objdiff")} report as an artifact with <code>report</code> in its name. Projects made
+from {ext("https://github.com/encounter/dtk-template", "dtk-template")} already do this. Runs from pull requests of forks don&rsquo;t count.</li>
+<li><strong>At least {sub.MIN_MATCHED_PERCENT:g}% of the code decompiled.</strong></li>
+<li><strong>The code is really there.</strong> At least half of the source files the report counts as decompiled must exist in the repository.</li>
+<li><strong>The game can be recognised.</strong> The repository contains its disc ID, serial, title ID or ROM hash, as decomp projects
+normally do. Windows, DOS and Switch games: choose the system below and type the game&rsquo;s exact name.</li>
+<li><strong>A GitHub account at least 30 days old.</strong> Up to 3 submissions per account per day.</li>
+</ol>
+<details class="example"><summary>Example GitHub Actions step</summary>
+<pre><code>{e(ACTIONS_EXAMPLE)}</code></pre></details>
+<p class="muted"><small>If the game is already listed, your repository joins its page and is compared build to build; it takes the
+listing after leading by {slots.TAKEOVER_MARGIN:g} percentage point for {slots.TAKEOVER_DAYS} days in a row (and being listed
+{slots.CHALLENGER_MIN_DAYS} days). See <a href="/about/#listing">one listing per game</a>.</small></p>
+
+<article class="submit-box">
+<h2>Submit a repository</h2>
+<div id="signed-out"><p>Sign in with GitHub to submit. {e(site['name'])} only sees your public profile; your username is shown next to your submission.</p>
 <a role="button" href="/auth/login">Sign in with GitHub</a></div>
 <div id="signed-in" hidden>
 <p class="muted"><small>Signed in as <strong id="who"></strong> · <a href="/auth/logout">Sign out</a></small></p>
 <form id="submit-form">
-<label>Repository<input name="repo" placeholder="owner/name or https://github.com/owner/name" required></label>
-<label>PC, DOS or Switch game?<select name="system" id="system"><option value="">No, it&rsquo;s a console or arcade game</option>{options}</select></label>
-<label id="game-row" hidden>Game name, exactly as published<input name="game" placeholder="e.g. Thief: Deadly Shadows"></label>
+<label>Repository<input name="repo" placeholder="owner/name or https://github.com/owner/name" required autocomplete="off" spellcheck="false"></label>
+<label>Windows, DOS or Switch game?<select name="system" id="system"><option value="">No, it&rsquo;s a console or arcade game</option>{options}</select></label>
+<label id="game-row" hidden>Game name, exactly as published<input name="game" id="game" list="game-list" placeholder="Start typing, e.g. Thief: Deadly Shadows" autocomplete="off">
+<small id="game-hint" class="muted">Pick a name from the list.</small></label>
+<datalist id="game-list"></datalist>
 <button type="submit">Submit</button>
 </form>
 </div>
-<div id="submit-result" class="notice" hidden></div>
+<noscript><p class="muted"><small>Submitting needs JavaScript.</small></p></noscript>
+<div id="submit-result" class="notice" role="status" aria-live="polite" hidden></div>
 </article>
-<h4>Recent submissions</h4>
+
+<h2>After you&rsquo;re listed</h2>
+<p>Your project gets its own page at <code>decomp.fun/&lt;owner&gt;/&lt;repo&gt;/</code>. It refreshes every 6 hours and whenever
+someone opens the page after you push new progress. Nothing else to do. Archiving the repository tags it as archived;
+making it private or deleting it removes it from the site automatically.</p>
+
+<h2>Recent submissions</h2>
+<p class="legend-status"><small>{" ".join(status_pill(k) for k in STATUS_LABELS)}</small></p>
 {table}
 """
     write("submit/index.html", page(site, built, f"Add a project · {site['name']}", body,
+                                     "Add a matching decompilation project to decomp.fun. Checks are automatic.",
                                      scripts=["/static/js/submit.js"]))
 
 
@@ -822,8 +1180,23 @@ def build_fresh(projects):
 
 
 def build_404(site, built):
-    body = '<hgroup class="intro"><h2>Not found</h2><p class="muted">That page doesn&rsquo;t exist.</p></hgroup><a role="button" href="/">Back to projects</a>'
+    body = (
+        '<hgroup class="intro"><h1>Page not found</h1><p class="muted">That page doesn&rsquo;t exist, or the project has moved or '
+        "been removed.</p></hgroup>"
+        "<p>Project pages live at <code>/&lt;owner&gt;/&lt;repo&gt;/</code>, the same as on GitHub, for example "
+        '<a href="/zeldaret/tww/"><code>/zeldaret/tww/</code></a>.</p>'
+        '<form action="/" method="get" role="search" class="search-404"><input type="search" name="q" '
+        'placeholder="Search games, teams, repositories…" aria-label="Search games"><button type="submit">Search</button></form>'
+        '<p><a href="/">All games</a> · <a href="/systems/">Systems</a> · <a href="/submit/">Add a project</a></p>'
+    )
     write("404.html", page(site, built, f"Not found · {site['name']}", body))
+
+
+def build_sitemap():
+    urls = sorted(set(p for p in PAGES if p != "/projects/"))
+    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+          + "".join(f"<url><loc>{e(SITE_URL + u)}</loc></url>\n" for u in urls) + "</urlset>\n")
+    write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /auth/\nDisallow: /api/\n\nSitemap: {SITE_URL}/sitemap.xml\n")
 
 
 def security_headers():
@@ -894,11 +1267,17 @@ def main():
     for p in projects:
         p.disputed = disputed.get(f"{p.owner}/{p.repo}".lower())
         p.game_title = (ident.get(f"{p.owner}/{p.repo}".lower()) or {}).get("title", "")
+        p.title = display_title(p.name, p.game_title)
+        p.alt = p.name if norm_title(p.name) != norm_title(p.title) else ""
+        if p.v.units:
+            p.og_image = write_og_image(p, layout_units(p.v.units))
     leaders = [p for p in projects if p.leader is p]
 
+    write_touch_icon()
+    write_game_titles()
     build_index(site, leaders, built)
     build_systems(site, leaders, built)
-    build_about(site, projects, built)
+    build_about(site, projects, leaders, built)
     build_404(site, built)
     build_fresh(projects)
     security_headers()
@@ -915,6 +1294,7 @@ def main():
             for base in bases:
                 build_report(site, p, v, base, built)
                 build_history(site, p, v, base, built)
+    build_sitemap()
     live = sum(1 for p in projects if not p.v.archived)
     print(f"Built {len(projects)} projects ({live} live, {len(projects) - live} archived) into dist/; {len(leaders)} games")
     if skipped:
