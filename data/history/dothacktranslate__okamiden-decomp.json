@@ -36,5 +36,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-19T22:05:32Z",
+  "commit_sha": "e5770e68d6936e1966363b96740119fe7a527439",
+  "commit_message": "arm9: recover 33 additional fuzzy Ghidra C drafts",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 50.225911030453275,
+   "matched_code_percent": 3.6999629355077834,
+   "complete_code_percent": 3.6999629355077834,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

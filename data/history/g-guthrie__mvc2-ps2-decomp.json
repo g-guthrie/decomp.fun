@@ -242,5 +242,19 @@
    "matched_data_percent": 27.06908576930673,
    "complete_data_percent": 27.06908576930673
   }
+ },
+ {
+  "timestamp": "2026-10-19T22:22:58Z",
+  "commit_sha": "6d7b07aa0813da15634974c0006bc417072f16eb",
+  "commit_message": "Preserve native callback interfaces and validate compiler arguments",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 58.216301686615886,
+   "matched_code_percent": 58.21630168661589,
+   "complete_code_percent": 58.21630168661589,
+   "matched_data_percent": 27.11476027059056,
+   "complete_data_percent": 27.11476027059056
+  }
  }
 ]

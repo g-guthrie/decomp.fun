@@ -234,5 +234,19 @@
    "matched_data_percent": 19.0111793757633,
    "complete_data_percent": 19.0111793757633
   }
+ },
+ {
+  "timestamp": "2026-10-19T21:42:22Z",
+  "commit_sha": "e5b5edc97e78818b8dcfaec3f97ff4afab10f308",
+  "commit_message": "mostly SpotlightDrawer_NG (#344)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.075405,
+   "matched_code_percent": 52.06493653319002,
+   "complete_code_percent": 24.822428926512202,
+   "matched_data_percent": 19.08899349028421,
+   "complete_data_percent": 19.08899349028421
+  }
  }
 ]

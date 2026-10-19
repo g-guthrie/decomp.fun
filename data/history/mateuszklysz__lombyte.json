@@ -117,5 +117,19 @@
    "matched_data_percent": 43.57753471865878,
    "complete_data_percent": 43.57753471865878
   }
+ },
+ {
+  "timestamp": "2026-10-19T21:39:26Z",
+  "commit_sha": "6c47562761736ebf8d65801b27278504d70b4dd0",
+  "commit_message": "decomp: sdk delay slots and 49 functions in exact C (#226)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 97.812751,
+   "matched_code_percent": 97.13951676638672,
+   "complete_code_percent": 97.13951676638672,
+   "matched_data_percent": 43.57775991903082,
+   "complete_data_percent": 43.57775991903082
+  }
  }
 ]
