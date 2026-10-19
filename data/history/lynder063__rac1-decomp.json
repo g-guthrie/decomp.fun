@@ -141,5 +141,19 @@
    "matched_data_percent": 0.5229790350636272,
    "complete_data_percent": 0.3604778906893711
   }
+ },
+ {
+  "timestamp": "2026-10-19T10:56:57Z",
+  "commit_sha": "81f2e31b7c596c61cc5af70c3f6361e5388682f3",
+  "commit_message": "Merge pull request #97 from OpenRAC/feat/to-100",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 95.73973824775393,
+   "matched_code_percent": 95.10284931984916,
+   "complete_code_percent": 33.31064189134605,
+   "matched_data_percent": 0.5229790350636272,
+   "complete_data_percent": 0.3604778906893711
+  }
  }
 ]

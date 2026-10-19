@@ -242,5 +242,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T10:24:45Z",
+  "commit_sha": "5f808b1f81e3e2e784e1dfc105909b385c80ac5d",
+  "commit_message": "Match DDS2 short-record motion interpreter (1,584 bytes)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 93.462622,
+   "matched_code_percent": 93.46262151862209,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

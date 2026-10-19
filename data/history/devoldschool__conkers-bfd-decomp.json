@@ -75,5 +75,19 @@
    "matched_data_percent": 96.79271563466823,
    "complete_data_percent": 96.79246993635431
   }
+ },
+ {
+  "timestamp": "2026-10-19T10:56:42Z",
+  "commit_sha": "212397716287a11a8c331f45fc76b371b0786569",
+  "commit_message": "Merge pull request #154 from DevOldSchool/claude/deferred-round11",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 28.960909,
+   "matched_code_percent": 28.606151906578205,
+   "complete_code_percent": 7.3903721985391275,
+   "matched_data_percent": 96.79271563466823,
+   "complete_data_percent": 96.79246993635431
+  }
  }
 ]
