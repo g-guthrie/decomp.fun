@@ -33,5 +33,19 @@
    "matched_data_percent": 43.57753471865878,
    "complete_data_percent": 43.57753471865878
   }
+ },
+ {
+  "timestamp": "2026-10-19T06:03:06Z",
+  "commit_sha": "60233883ec9563440a5029f8882b42741d0846e4",
+  "commit_message": "decomp: clarify names and switch cases (batch 22) (#224)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 95.363608,
+   "matched_code_percent": 94.4075717176728,
+   "complete_code_percent": 94.4075717176728,
+   "matched_data_percent": 43.57753471865878,
+   "complete_data_percent": 43.57753471865878
+  }
  }
 ]
