@@ -65,6 +65,10 @@ them up.
 
 - Cloudflare static assets: 20,000 files per deploy (Workers Free; 100,000 on Paid) and 2,000 static redirect rules.
   `build.py` prints the counts; each project costs about 9 files plus 3 per extra build.
-- Worker: `REFRESHES_PER_DAY` (default 100, site-wide) and 4 refreshes per repository per day, each project checked
-  against GitHub at most every 10 minutes; 60 submissions per day site-wide, 3 per account, accounts at least 30
-  days old. All counters live in the `LIMITS` KV namespace and expire by themselves.
+- Refresh-on-view (`worker/refresh.js`, Durable Object `RefreshLimits`): 100 refreshes per repository a day, 40 an
+  hour and 500 a day site-wide, one in flight per project; each project checked against GitHub at most once a minute
+  and 1,500 checks an hour site-wide. Sized so the hourly update (~250 of the site repository's 1,000 GitHub calls an
+  hour) always has room; past a cap pages fall back to the hourly update. If the Durable Object fails, refreshes stop
+  and the hourly update carries on.
+- Submissions: 60 per day site-wide, 3 per account, accounts at least 30 days old. Counters live in the `LIMITS` KV
+  namespace and expire by themselves.

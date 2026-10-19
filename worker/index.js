@@ -7,12 +7,16 @@
 //                                            the full checks and the result happen there
 // /api/fresh?repo=owner/repo                 is there newer progress on GitHub than the project page
 //                                            shows? If so, dispatch a "refresh" of just that project
+//                                            (within the limits in worker/refresh.js)
 // /api/health                                does the dispatch token work, and when does it expire
 //                                            (read by the watchdog workflow)
 //
-// Config:  vars     GITHUB_CLIENT_ID, SITE_REPO, REFRESHES_PER_DAY (optional)
+// Config:  vars     GITHUB_CLIENT_ID, SITE_REPO
 //          secrets  GITHUB_CLIENT_SECRET, SESSION_SECRET, GITHUB_DISPATCH_TOKEN
-//          kv       LIMITS (submission and refresh counters, refresh locks)
+//          kv       LIMITS (submission counters and locks)
+//          durable  REFRESH (refresh limits and locks: worker/refresh.js)
+
+export { RefreshLimits } from "./refresh.js";
 
 const ORIGIN = "https://decomp.fun";
 const MIN_ACCOUNT_AGE_DAYS = 30;
@@ -20,10 +24,7 @@ const PER_ACCOUNT_PER_DAY = 3;
 const SITE_PER_DAY = 60;
 const SESSION_DAYS = 7;
 const NAME_ONLY = ["win32", "switch", "dos"]; // same as identify.NAME_ONLY (Python)
-const FRESH_CHECK_SECONDS = 600; // ask GitHub about a project at most every 10 minutes
-const REFRESH_LOCK_SECONDS = 900; // one refresh in flight per project
-const DEFAULT_REFRESHES_PER_DAY = 100; // site-wide
-const REFRESHES_PER_REPO_PER_DAY = 4; // one busy repository can't use up everyone's refreshes
+const FRESH_CACHE_SECONDS = 60; // answers are cached at the edge this long (limits: worker/refresh.js)
 
 export default {
   async fetch(request, env) {
@@ -256,51 +257,59 @@ async function latestSha(env, repo, src) {
   return newest ? newest.workflow_run.head_sha : null;
 }
 
+// Ask the refresh limits object (worker/refresh.js). If it can't answer (a Cloudflare limit was
+// reached, say), say no: the hourly update still covers everything.
+async function limits(env, body) {
+  try {
+    const stub = env.REFRESH.get(env.REFRESH.idFromName("global"));
+    const r = await stub.fetch("https://limits/", { method: "POST", body: JSON.stringify(body) });
+    return r.ok ? await r.json() : {};
+  } catch (err) {
+    console.error("refresh limits unavailable", String(err));
+    return {};
+  }
+}
+
 async function fresh(url, env) {
   const repo = String(url.searchParams.get("repo") || "").toLowerCase();
   const list = await loadManifest(env, url.origin);
   const src = list[repo];
   if (!src) return json({ status: "unknown" });
 
-  // Answer from the edge cache when this project was checked recently (no KV writes per view).
+  // Answer from the edge cache when this project was checked in the last minute.
   const cache = caches.default;
   const cacheKey = new Request(`${url.origin}/__fresh/${encodeURIComponent(repo)}/${src.sha}`);
   const cached = await cache.match(cacheKey);
   if (cached) return cached;
 
   let status = "current";
-  let latest;
-  try {
-    latest = await latestSha(env, repo, src);
-  } catch (err) {
-    console.error("fresh check failed", repo, String(err));
-    return json({ status: "error" });
-  }
-  if (latest && latest !== src.sha) {
-    const day = new Date().toISOString().slice(0, 10);
-    const limit = Number(env.REFRESHES_PER_DAY || DEFAULT_REFRESHES_PER_DAY);
-    if (await env.LIMITS.get(`refreshing:${repo}`)) {
-      status = "updating";
-    } else if ((await count(env, `refresh:${day}`)) >= limit || (await count(env, `refresh:${repo}:${day}`)) >= REFRESHES_PER_REPO_PER_DAY) {
-      status = "busy";
-    } else {
-      const d = await github(`repos/${env.SITE_REPO}/dispatches`, env.GITHUB_DISPATCH_TOKEN, {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ event_type: "refresh", client_payload: { repo } }),
-      });
-      if (d.ok) {
-        await env.LIMITS.put(`refreshing:${repo}`, latest, { expirationTtl: REFRESH_LOCK_SECONDS });
-        await increment(env, `refresh:${day}`);
-        await increment(env, `refresh:${repo}:${day}`);
-        status = "updating";
-      } else {
-        console.error("refresh dispatch failed", d.status);
-        status = "current";
+  if ((await limits(env, { op: "check", repo })).ok) {
+    let latest = null;
+    try {
+      latest = await latestSha(env, repo, src);
+    } catch (err) {
+      console.error("fresh check failed", repo, String(err));
+      status = "error";
+    }
+    if (latest && latest !== src.sha) {
+      status = (await limits(env, { op: "claim", repo, latest, shown: src.sha })).status || "busy";
+      if (status === "go") {
+        const d = await github(`repos/${env.SITE_REPO}/dispatches`, env.GITHUB_DISPATCH_TOKEN, {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ event_type: "refresh", client_payload: { repo } }),
+        });
+        if (d.ok) {
+          status = "updating";
+        } else {
+          console.error("refresh dispatch failed", d.status);
+          await limits(env, { op: "release", repo });
+          status = "error";
+        }
       }
     }
   }
-  const res = json({ status }, 200, { "cache-control": `public, max-age=${FRESH_CHECK_SECONDS}` });
+  const res = json({ status }, 200, { "cache-control": `public, max-age=${FRESH_CACHE_SECONDS}` });
   await cache.put(cacheKey, res.clone());
   return res;
 }

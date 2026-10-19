@@ -964,9 +964,9 @@ has one box per file, sized by how much code it holds.</dd>
 {ext("https://github.com/encounter/objdiff", "objdiff")} format. {name} reads the newest report from the default branch.</p>
 <ul>
 <li>Every project is refreshed every hour.</li>
-<li>Opening a project page asks GitHub (at most once every 10 minutes per project) whether there is newer progress. If there is,
-that project is refreshed (about 2 minutes) and the page reloads by itself. This happens up to 4 times a day per project
-and 100 times a day across the site; beyond that, the hourly refresh picks it up.</li>
+<li>Opening a project page asks GitHub (at most once a minute per project) whether there is newer progress. If there is,
+the site is rebuilt with it (about 2 minutes) and the page reloads by itself. This happens up to 100 times a day per project
+and 40 times an hour across the site; beyond that, the hourly refresh picks it up.</li>
 <li>GitHub deletes build artifacts after 90 days. A project that hasn&rsquo;t published a newer report keeps its last known
 numbers, labelled as such on its page.</li>
 </ul>

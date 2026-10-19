@@ -31,8 +31,8 @@ Deploys happen from GitHub Actions only (`npx wrangler@4.151.1 deploy` in `updat
   - `/api/fresh?repo=owner/repo`: if the project's CI has a newer report than the page (build commit from
     `fresh.json`), dispatches `refresh`. Called by project pages on view, and by projects' own CI.
   - `/api/health`: whether the dispatch token works and when it expires (read by the watchdog).
-  - KV namespace `LIMITS` (daily counters, refresh locks). Secrets: `GITHUB_CLIENT_SECRET`, `SESSION_SECRET`,
-    `GITHUB_DISPATCH_TOKEN`. Optional var `REFRESHES_PER_DAY` (default 100).
+  - KV namespace `LIMITS` (submission counters). Durable Object `RefreshLimits` (`worker/refresh.js`: refresh
+    limits and locks). Secrets: `GITHUB_CLIENT_SECRET`, `SESSION_SECRET`, `GITHUB_DISPATCH_TOKEN`.
 - **www redirect Worker** (`worker/www/`, name `decomp-fun-www`, custom domain `www.decomp.fun`): 301 to
   `https://decomp.fun` with the same path. Deployed by hand, rarely (see RUNBOOK).
 - **GitHub Actions**
@@ -118,7 +118,8 @@ labelled as such on their page.
 - By hand: add an entry to `data/projects.json` (`owner`, `repo`, `name`, `platform`, optional `version`,
   `description`, `source`) and push; the next run fetches it.
 - Refresh: every project every hour. Project pages also call `/api/fresh` on view (one GitHub check per project
-  per 10 minutes; at most 4 refreshes per repository and 100 per site per day), as can a project's own CI.
+  per minute; at most 100 refreshes per repository a day, and 40 an hour and 500 a day site-wide, so refreshes can
+  never crowd out the hourly update), as can a project's own CI. Tests: `node --test tests/refresh.test.mjs`.
 - Remove: delete its entry from `data/catalog.json` / `data/projects.json`. Deleted or private repositories drop off
   automatically once they've been missing for 3 runs in a row and at least 48 hours.
 

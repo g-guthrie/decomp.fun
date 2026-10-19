@@ -29,7 +29,7 @@
   };
 
   // The Worker only reads `repo`; `sha` keeps a page built from a newer commit from reusing the
-  // browser-cached answer (the response is cacheable for 10 minutes).
+  // browser-cached answer (the response is cacheable for a minute).
   fetch(`/api/fresh?repo=${encodeURIComponent(repo)}&sha=${encodeURIComponent(sha)}`)
     .then((r) => r.json())
     .then((d) => {
@@ -37,7 +37,7 @@
         note("New progress found on GitHub. Updating this page now (about 2 minutes); it reloads by itself.");
         waitForNewVersion();
       } else if (d.status === "busy") {
-        note("New progress found on GitHub. It will appear with the next update (within the hour).");
+        note("New progress found on GitHub. It will appear with the next hourly update.");
       }
     })
     .catch(() => {});

@@ -23,6 +23,13 @@
     });
   }
 
+  // ------------------------------------------------------------ back button
+  // A page restored by Back/Forward is the copy from when you left it; reload it so progress that
+  // was refreshed meanwhile (say, by opening a project) shows.
+  addEventListener("pageshow", (e) => {
+    if (e.persisted) location.reload();
+  });
+
   // ------------------------------------------------------------ tooltips
   let tip = null;
   let owner = null;

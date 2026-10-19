@@ -489,8 +489,8 @@ Add this as the last step of the workflow that uploads the report artifact (afte
 
 Or in any shell: curl -fsS "https://decomp.fun/api/fresh?repo=OWNER/REPO"
 Response: {"status": "updating"} (a refresh started; the page updates in a few minutes), "current" (nothing newer
-seen), "busy" (daily refresh limit reached; the hourly update will pick it up), "unknown" (not listed), "error".
-It is rate-limited server-side (each project is checked at most every 10 minutes, and refreshed a few times a day), so
+seen), "busy" (a refresh limit was reached; the hourly update will pick it up), "unknown" (not listed), "error".
+It is rate-limited server-side (each project is checked at most once a minute, and refreshed up to 100 times a day), so
 calling it on every push is fine. Only listed projects can be refreshed.
 
 ## Badge

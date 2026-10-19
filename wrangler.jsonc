@@ -18,6 +18,9 @@
   },
   // Secrets (npx wrangler secret put NAME): GITHUB_CLIENT_SECRET, SESSION_SECRET, GITHUB_DISPATCH_TOKEN
   "kv_namespaces": [{ "binding": "LIMITS", "id": "71c484c694c74617bcb03778a70b95fd" }],
+  // Refresh limits and locks (worker/refresh.js): one object, so the counts are exact.
+  "durable_objects": { "bindings": [{ "name": "REFRESH", "class_name": "RefreshLimits" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["RefreshLimits"] }],
   // www.decomp.fun is a separate redirect Worker: worker/www/
   "routes": [{ "pattern": "decomp.fun", "custom_domain": true }]
 }
