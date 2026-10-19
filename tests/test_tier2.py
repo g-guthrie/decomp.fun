@@ -12,7 +12,7 @@ from pathlib import Path
 from types import SimpleNamespace
 
 ROOT = Path(__file__).resolve().parent.parent
-sys.path[:0] = [str(ROOT), str(ROOT / "tools")]
+sys.path[:0] = [str(ROOT), str(ROOT / "tools"), str(ROOT / "tools" / "oneoff")]
 
 import build_game_index as gi  # noqa: E402
 import fetch  # noqa: E402

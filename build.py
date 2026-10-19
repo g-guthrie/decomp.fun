@@ -147,7 +147,26 @@ def ago_short(dt, now):
 PAGES = []  # canonical paths written, for sitemap.xml
 
 
+_FINGERPRINTS = {}
+
+
+def versioned(match):
+    """/static/... -> /static/...?v=<content hash>, so a deploy never meets a stale cached copy."""
+    import hashlib
+
+    path = match.group(2)
+    if path not in _FINGERPRINTS:
+        src = ROOT / "public" / path.lstrip("/")
+        _FINGERPRINTS[path] = hashlib.sha256(src.read_bytes()).hexdigest()[:10] if src.exists() else ""
+    v = _FINGERPRINTS[path]
+    return f'{match.group(1)}="{path}{"?v=" + v if v else ""}"'
+
+
 def write(rel, content):
+    if rel.endswith(".html"):
+        import re as _re
+
+        content = _re.sub(r'(href|src)="(/static/[^"?]+\.(?:css|js))"', versioned, content)
     if rel.endswith(".html") and "</head>" in content:
         path = "/" + rel.removesuffix("index.html") if rel != "404.html" else None
         if path:
