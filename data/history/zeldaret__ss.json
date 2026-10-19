@@ -253,5 +253,19 @@
    "matched_data_percent": 15.50873114095959,
    "complete_data_percent": 26.091936298059498
   }
+ },
+ {
+  "timestamp": "2026-10-19T00:25:03Z",
+  "commit_sha": "d418bd839cd6cc8f98c0c7976d006159e9e6ee28",
+  "commit_message": "Merge pull request #365 from lepelog/d_a_obj_control_panel",
+  "source": "report",
+  "version": "SOUE01",
+  "measures": {
+   "fuzzy_match_percent": 33.93769,
+   "matched_code_percent": 27.965965049967163,
+   "complete_code_percent": 16.056222994121566,
+   "matched_data_percent": 26.091936298059498,
+   "complete_data_percent": 26.091936298059498
+  }
  }
 ]

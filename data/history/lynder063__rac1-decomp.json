@@ -85,5 +85,19 @@
    "matched_data_percent": 0.46003845097500684,
    "complete_data_percent": 0.3604778906893711
   }
+ },
+ {
+  "timestamp": "2026-10-19T00:28:37Z",
+  "commit_sha": "9b71767ee06d5637f9e7b436869abd026e605db4",
+  "commit_message": "feat: match func_L10_002F6F18; inline P/B shorthands in vendor_002B5990.c",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 95.35127539207903,
+   "matched_code_percent": 94.69679258516278,
+   "complete_code_percent": 33.2561223797206,
+   "matched_data_percent": 0.46003845097500684,
+   "complete_data_percent": 0.3604778906893711
+  }
  }
 ]
