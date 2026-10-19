@@ -66,5 +66,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-19T03:40:17Z",
+  "commit_sha": "021dd7678485b66db192bcc9a53e2614d31ac116",
+  "commit_message": "Restore SYM source scopes and native AI, camera, and audio code",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

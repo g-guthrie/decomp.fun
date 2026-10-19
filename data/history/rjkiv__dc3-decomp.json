@@ -220,5 +220,19 @@
    "matched_data_percent": 18.93515409146126,
    "complete_data_percent": 18.93515409146126
   }
+ },
+ {
+  "timestamp": "2026-10-19T03:13:53Z",
+  "commit_sha": "575c7812c7fa932fdb950a7f18cfecfa4d23e534",
+  "commit_message": "locale context + match moggclip",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.049828,
+   "matched_code_percent": 52.030364448755485,
+   "complete_code_percent": 24.722645043002103,
+   "matched_data_percent": 19.0111793757633,
+   "complete_data_percent": 19.0111793757633
+  }
  }
 ]

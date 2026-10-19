@@ -87,5 +87,19 @@
    "matched_data_percent": 36.375835948850465,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T03:25:06Z",
+  "commit_sha": "c4be75cc2e12b9b8f11bc435d0323dce13e90fef",
+  "commit_message": "JPN0: port MAP5 to C",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 36.375835948850465,
+   "complete_data_percent": 0.0
+  }
  }
 ]
