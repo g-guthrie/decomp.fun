@@ -61,5 +61,18 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-18T23:42:14Z",
+  "commit_sha": "b795df57ada864ce72a7b72a9c7db07ed6c192a2",
+  "commit_message": "Use canonical bounded coordinate rows for battle selection",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 92.240122,
+   "matched_code_percent": 92.24012179225663,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

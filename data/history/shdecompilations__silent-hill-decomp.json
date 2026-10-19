@@ -46,5 +46,18 @@
    "matched_data_percent": 19.96442608371346,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-18T23:35:57Z",
+  "commit_sha": "590988dc39589cdf2feb80ae9b4da8ea25591658",
+  "commit_message": "JPN0: port 8 maps to C",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 36.375835948850465,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -72,5 +72,18 @@
    "matched_data_percent": 0.46003845097500684,
    "complete_data_percent": 0.3604778906893711
   }
+ },
+ {
+  "timestamp": "2026-10-18T23:57:19Z",
+  "commit_sha": "b2499e2ae9f7b833393227c4a89c5a727f0714da",
+  "commit_message": "feat(movie): match func_0023B740 (from the retail asm)",
+  "source": "report",
+  "measures": {
+   "fuzzy_match_percent": 95.24278502423527,
+   "matched_code_percent": 94.58830221731903,
+   "complete_code_percent": 33.2561223797206,
+   "matched_data_percent": 0.46003845097500684,
+   "complete_data_percent": 0.3604778906893711
+  }
  }
 ]
