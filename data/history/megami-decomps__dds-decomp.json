@@ -536,5 +536,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T16:14:49Z",
+  "commit_sha": "e0081e1326a51ebf80e2eac96f1d9efff9aca212",
+  "commit_message": "Purity: DDS1 fldUpdateFieldPlayerMovement camera chain and highlight clear without gotos (N0)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.088896,
+   "matched_code_percent": 94.08889640692942,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
