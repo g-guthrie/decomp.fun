@@ -326,5 +326,19 @@
    "matched_data_percent": 28.288564092435315,
    "complete_data_percent": 28.288564092435315
   }
+ },
+ {
+  "timestamp": "2026-10-20T07:19:45Z",
+  "commit_sha": "e1553fecfdb5701d695bd916f4527e2d56731e03",
+  "commit_message": "Recover exact file-service requests; reach 61.1803% verified code",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 61.180266788434636,
+   "matched_code_percent": 61.180266788434636,
+   "complete_code_percent": 61.180266788434636,
+   "matched_data_percent": 30.138072782935023,
+   "complete_data_percent": 30.138072782935023
+  }
  }
 ]
