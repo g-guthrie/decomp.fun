@@ -105,5 +105,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T20:01:46Z",
+  "commit_sha": "960536c087f6e100388abefabb14b98f11a40551",
+  "commit_message": "report.json: 8 twin-port exacts (kernel 0168 + osDestroyThread, arcproc 14C8/1BBC/1C74/2884, mgrproc 2E3C, gl 8510) \u2014 53.96% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 91.899185,
+   "matched_code_percent": 53.959365578712806,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

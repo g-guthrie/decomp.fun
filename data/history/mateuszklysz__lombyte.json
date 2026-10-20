@@ -187,5 +187,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-20T19:58:48Z",
+  "commit_sha": "8d22ee2420f43c245f7f25a9bb3df81aa2eb1c3a",
+  "commit_message": "chore: clean up the compiler patches (#235)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 98.861726,
+   "matched_code_percent": 98.71947940377662,
+   "complete_code_percent": 98.71947940377662,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]
