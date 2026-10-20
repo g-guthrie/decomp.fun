@@ -157,5 +157,19 @@
    "matched_data_percent": 71.03748589861561,
    "complete_data_percent": 28.910437158638114
   }
+ },
+ {
+  "timestamp": "2026-10-20T18:37:02Z",
+  "commit_sha": "f5d562ffd0da42d4696e5a3d7820a0a63aa7c538",
+  "commit_message": "Decompile and import some `SAT` data (#3754)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 80.766594,
+   "matched_code_percent": 80.73012351170259,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 71.03748589861561,
+   "complete_data_percent": 28.910437158638114
+  }
  }
 ]

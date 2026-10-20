@@ -191,5 +191,19 @@
    "matched_data_percent": 45.34964727979773,
    "complete_data_percent": 45.34964727979773
   }
+ },
+ {
+  "timestamp": "2026-10-20T18:36:21Z",
+  "commit_sha": "83459c69cca7c7c90e522f26ef20b10a557ec383",
+  "commit_message": "Merge pull request #85 from karamzov123/auto/fuzzy-refresh",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 69.11814,
+   "matched_code_percent": 45.287166280110206,
+   "complete_code_percent": 44.1868763287169,
+   "matched_data_percent": 45.34964727979773,
+   "complete_data_percent": 45.34964727979773
+  }
  }
 ]

@@ -173,5 +173,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-20T18:49:38Z",
+  "commit_sha": "064099d7d5bda3323c4b7f18e0d00617914c2d67",
+  "commit_message": "chore: clarify game-side voice allocation (#233)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 98.861726,
+   "matched_code_percent": 98.71947940377662,
+   "complete_code_percent": 98.71947940377662,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]
