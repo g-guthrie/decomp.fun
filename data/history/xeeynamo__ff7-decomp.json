@@ -151,5 +151,19 @@
    "matched_data_percent": 24.4090376781228,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T00:28:22Z",
+  "commit_sha": "c9ba0a4277bdfb37ec08e369a5cb773dce2ee38d",
+  "commit_message": "battle: match BattleResolveCover (#368)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 65.68627,
+   "matched_code_percent": 65.68627450980392,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.4090376781228,
+   "complete_data_percent": 0.0
+  }
  }
 ]

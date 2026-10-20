@@ -253,5 +253,19 @@
    "matched_data_percent": 0.5510162043394672,
    "complete_data_percent": 0.37020507186670326
   }
+ },
+ {
+  "timestamp": "2026-10-20T00:31:38Z",
+  "commit_sha": "bd8747335a3b023df3d46f948384a4d1022df5d0",
+  "commit_message": "fix(trespasser): the ring's quads take the effect TEX0 whole",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 98.38142250256357,
+   "matched_code_percent": 97.71314272419409,
+   "complete_code_percent": 53.58253841049901,
+   "matched_data_percent": 0.5510162043394672,
+   "complete_data_percent": 0.37020507186670326
+  }
  }
 ]

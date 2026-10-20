@@ -9,5 +9,19 @@
    "complete_code_percent": 2.74,
    "fuzzy_match_percent": 2.74
   }
+ },
+ {
+  "timestamp": "2026-10-19T23:58:21Z",
+  "commit_sha": "101e885218cbc650f327d76b1c326d37cf1c9a5f",
+  "commit_message": "docs: update badges and decomp.dev links to karamzov123/fzero-gx-decomp",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 68.87882,
+   "matched_code_percent": 44.480913462651564,
+   "complete_code_percent": 43.410721800558655,
+   "matched_data_percent": 45.34964727979773,
+   "complete_data_percent": 45.34964727979773
+  }
  }
 ]

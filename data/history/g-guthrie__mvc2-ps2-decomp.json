@@ -270,5 +270,19 @@
    "matched_data_percent": 27.11476027059056,
    "complete_data_percent": 27.11476027059056
   }
+ },
+ {
+  "timestamp": "2026-10-20T00:11:50Z",
+  "commit_sha": "0422b5d14a3574dbeea0e9dfac8bcfdbd40c0b77",
+  "commit_message": "Withdraw unproven mixed-layout state data credit",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 58.417777475516864,
+   "matched_code_percent": 58.417777475516864,
+   "complete_code_percent": 58.417777475516864,
+   "matched_data_percent": 27.215676229508194,
+   "complete_data_percent": 27.215676229508194
+  }
  }
 ]

@@ -50,5 +50,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-19T23:44:07Z",
+  "commit_sha": "0f1e497f1fb94158d2eaf7a8b5003eddf2f459b5",
+  "commit_message": "arm9: recover 9 high-headroom fuzzy C drafts",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 50.656159060168555,
+   "matched_code_percent": 3.6999629355077834,
+   "complete_code_percent": 3.6999629355077834,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

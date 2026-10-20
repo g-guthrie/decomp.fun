@@ -396,5 +396,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T00:01:24Z",
+  "commit_sha": "53f55faa2ad5146bb070f4bad0447624b41e9beb",
+  "commit_message": "Match mnuShopQueueAuxiliaryTexturePacket/func_0025F130 (raw packet constants, alpha shift form, colour words before clamp; N2)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 93.80352,
+   "matched_code_percent": 93.80352043303914,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

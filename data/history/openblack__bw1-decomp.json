@@ -105,5 +105,19 @@
    "matched_data_percent": 28.430213858599533,
    "complete_data_percent": 3.9783953894816886
   }
+ },
+ {
+  "timestamp": "2026-10-20T00:03:04Z",
+  "commit_sha": "9f00791e1c96fab79afd78c4c0e76f664a0d1af8",
+  "commit_message": "CreatureMentalObjectMultipliers: Split off and match the usefulness multiplier TU",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 40.393684,
+   "matched_code_percent": 31.069038027672942,
+   "complete_code_percent": 14.45472954833866,
+   "matched_data_percent": 28.431676389899387,
+   "complete_data_percent": 3.9797175801768794
+  }
  }
 ]

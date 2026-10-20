@@ -116,7 +116,14 @@
  "gc:f-zero-gx": {
   "leader": "rayanht/fzgx",
   "since": "2026-10-18T22:55:17+00:00",
-  "challengers": {},
+  "challengers": {
+   "karamzov123/fzero-gx-decomp": {
+    "since": "2026-10-20T01:00:51+00:00",
+    "runs": 1,
+    "ahead": 1,
+    "misses": 0
+   }
+  },
   "history": []
  },
  "gc:final-fantasy-crystal-chronicles": {
