@@ -203,5 +203,19 @@
    "matched_data_percent": 28.431116144267328,
    "complete_data_percent": 3.9999882857731475
   }
+ },
+ {
+  "timestamp": "2026-10-20T23:19:05Z",
+  "commit_sha": "50bfa15449f684cc2e3021aab0219294a1a5ca29",
+  "commit_message": "CreatureLessonChooser: Decompile the lesson chooser TU",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 41.147266,
+   "matched_code_percent": 31.754053969165604,
+   "complete_code_percent": 14.875602748413112,
+   "matched_data_percent": 28.451052280286532,
+   "complete_data_percent": 3.9999842112755433
+  }
  }
 ]

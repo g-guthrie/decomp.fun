@@ -147,5 +147,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T22:45:53Z",
+  "commit_sha": "6e6a713f3a13dca6aa43bf1337ba1f249093136e",
+  "commit_message": "report.json: agent-c run 114 (post0b 4E600/4E760 EXACT; big bootup/post re-decodes 6808/31C0/1A44/3F8/139B0/41D40/46FA8/4F704) \u2014 55.35% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 93.16214,
+   "matched_code_percent": 55.34576685315199,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

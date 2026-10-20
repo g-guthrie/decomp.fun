@@ -170,5 +170,19 @@
    "matched_data_percent": 17.224868418420474,
    "complete_data_percent": 17.224657845778705
   }
+ },
+ {
+  "timestamp": "2026-10-20T22:41:24Z",
+  "commit_sha": "b8e14f208422dfc8bf56e43d7319840b6ff3721e",
+  "commit_message": "nulight.c DONE, rewrite numtl_s, nuattrib, variptr_u, fxspriteset and fxsprite2set (#113)",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 98.348305,
+   "matched_code_percent": 88.50093050608838,
+   "complete_code_percent": 33.85667405810126,
+   "matched_data_percent": 17.224868418420474,
+   "complete_data_percent": 17.224657845778705
+  }
  }
 ]
