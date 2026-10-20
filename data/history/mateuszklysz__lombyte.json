@@ -159,5 +159,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-20T13:10:45Z",
+  "commit_sha": "bb64e1b9309aa445610e9f51adad5c4ccc6b06f8",
+  "commit_message": "overlay: clarify entity, camera and rendering names (batch 27) (#232)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 98.861726,
+   "matched_code_percent": 98.71947940377662,
+   "complete_code_percent": 98.71947940377662,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]

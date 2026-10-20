@@ -235,5 +235,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T12:48:15Z",
+  "commit_sha": "e9d3eeeb3ec606a7c1a08bab4ece07da49688bd6",
+  "commit_message": "sh2: match `sh2shd/sh2shd_stencil_shadow_main` (#406)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.6733346,
+   "matched_code_percent": 6.804751431104792,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -494,5 +494,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T13:01:05Z",
+  "commit_sha": "9f55ea88bfa7aae7feb0027464e65d12569a3482",
+  "commit_message": "docs: follow SMT3 original-name renames",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.088896,
+   "matched_code_percent": 94.08889640692942,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
