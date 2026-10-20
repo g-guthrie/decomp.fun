@@ -22,5 +22,19 @@
    "matched_data_percent": 99.66522229523555,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T02:46:27Z",
+  "commit_sha": "7b66487742caeeb323530ea7922ef60a96e7ffb8",
+  "commit_message": "Texture Viewer bug fix instructions",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 37.260002,
+   "matched_code_percent": 37.260003023583955,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 99.66522229523555,
+   "complete_data_percent": 0.0
+  }
  }
 ]

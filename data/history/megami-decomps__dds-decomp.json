@@ -438,5 +438,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T03:23:37Z",
+  "commit_sha": "d8721433b68b91d926f5c726ba304475f73bdbdd",
+  "commit_message": "Match DDS2 effect-model update func_002DD448",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 93.912377,
+   "matched_code_percent": 93.91237723758445,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

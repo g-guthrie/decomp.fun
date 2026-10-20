@@ -47,5 +47,19 @@
    "matched_data_percent": 69.01913631599868,
    "complete_data_percent": 69.01913631599868
   }
+ },
+ {
+  "timestamp": "2026-10-20T02:38:44Z",
+  "commit_sha": "025e5f933bafb3c181da98cb7237dcb45420a5eb",
+  "commit_message": "match more of vcmv_www && move it to it's own progress category",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 63.714264,
+   "matched_code_percent": 61.70983830956664,
+   "complete_code_percent": 59.25668552967647,
+   "matched_data_percent": 69.01913631599868,
+   "complete_data_percent": 69.01913631599868
+  }
  }
 ]

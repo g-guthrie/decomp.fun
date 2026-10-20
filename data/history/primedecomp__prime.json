@@ -248,5 +248,19 @@
    "matched_data_percent": 98.47300338048646,
    "complete_data_percent": 79.59060186945733
   }
+ },
+ {
+  "timestamp": "2026-10-20T03:11:54Z",
+  "commit_sha": "65e6a7b669ba86e1c62ab8a36e37738f6945cd3e",
+  "commit_message": "Match & link CHudBallInterface (#887)",
+  "source": "report",
+  "version": "GM8E01_00",
+  "measures": {
+   "fuzzy_match_percent": 99.92185,
+   "matched_code_percent": 93.96709871284924,
+   "complete_code_percent": 69.9917811693908,
+   "matched_data_percent": 98.47300338048646,
+   "complete_data_percent": 79.59942601062679
+  }
  }
 ]

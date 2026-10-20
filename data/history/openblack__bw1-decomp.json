@@ -147,5 +147,19 @@
    "matched_data_percent": 28.43289874400569,
    "complete_data_percent": 3.9913808756078986
   }
+ },
+ {
+  "timestamp": "2026-10-20T02:32:58Z",
+  "commit_sha": "7fd93ba001861f4e2325e49484f5803240cf6485",
+  "commit_message": "CreatureEmpathy: Split off and match the player empathy TU",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 40.73775,
+   "matched_code_percent": 31.366167415870024,
+   "complete_code_percent": 14.577244595500293,
+   "matched_data_percent": 28.433153401111174,
+   "complete_data_percent": 3.992857886819687
+  }
  }
 ]
