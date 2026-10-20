@@ -75,5 +75,19 @@
    "matched_data_percent": 70.52859300064559,
    "complete_data_percent": 70.52859300064559
   }
+ },
+ {
+  "timestamp": "2026-10-20T16:51:01Z",
+  "commit_sha": "03f7ac4ff018ff150e2c8f6c83b2662620277d90",
+  "commit_message": "BTE: match and link the Bluetooth stack (#42)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 73.64233,
+   "matched_code_percent": 71.89324130841808,
+   "complete_code_percent": 69.35591300288976,
+   "matched_data_percent": 72.12724747581953,
+   "complete_data_percent": 72.12724747581953
+  }
  }
 ]
