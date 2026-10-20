@@ -353,5 +353,19 @@
    "matched_data_percent": 36.375835948850465,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T12:13:29Z",
+  "commit_sha": "c0ef2ab15eed05f98247160355a67c0cf8ee5750",
+  "commit_message": "bodyprog: Gfx_Inventory_ItemDescriptionDraw JPN, fixups",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 36.375835948850465,
+   "complete_data_percent": 0.0
+  }
  }
 ]
