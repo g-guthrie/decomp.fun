@@ -22,5 +22,19 @@
    "matched_data_percent": 0.06806706144536316,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T22:04:26Z",
+  "commit_sha": "e9d493b6234b463b06f794661078c2ca9a5277c2",
+  "commit_message": "Merge pull request #59 from OpenRAC/cleanup/restructure",
+  "source": "report",
+  "version": "SCUS_973.53",
+  "measures": {
+   "fuzzy_match_percent": 9.935845,
+   "matched_code_percent": 9.935844911179222,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.06806706144536316,
+   "complete_data_percent": 0.0
+  }
  }
 ]

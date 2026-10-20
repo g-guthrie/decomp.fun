@@ -113,5 +113,19 @@
    "matched_data_percent": 65.582533226442,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T21:50:40Z",
+  "commit_sha": "25e8127337b021964a4f7dc7e2baea318736ba03",
+  "commit_message": "func_8001DCC4_usa and related cleanups",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 57.577538,
+   "matched_code_percent": 57.577535806654936,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 65.582533226442,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -47,5 +47,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-20T21:45:10Z",
+  "commit_sha": "e17825770737f25cc08bcb914e930a799fd65c69",
+  "commit_message": "decomp: complete byte-matched inventory",
+  "source": "report",
+  "version": "NF2_2062",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

@@ -85,5 +85,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T22:02:45Z",
+  "commit_sha": "a2c3ce83d009729827f84aa66a395948616950c0",
+  "commit_message": "feat: link Korean presence status keys",
+  "source": "report",
+  "version": "R4QE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000046,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

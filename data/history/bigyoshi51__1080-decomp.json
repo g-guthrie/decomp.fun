@@ -133,5 +133,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T22:25:02Z",
+  "commit_sha": "0220ffc1c8f00b4aff7f9c7a82f205f0d2fba6cd",
+  "commit_message": "report.json: agent-g run 112 (14 kernel EXACT: plain-loop rewrites, -O1 frame order, boot main split; 18A8 merged into 17BC) \u2014 55.20% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 92.640015,
+   "matched_code_percent": 55.202625825158215,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

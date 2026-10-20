@@ -72,5 +72,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-20T21:42:11Z",
+  "commit_sha": "8a77688d641ab753785512ec34d7b4724afbf228",
+  "commit_message": "Merge pull request #6 from Raikaru/pragmas/baseline",
+  "source": "report",
+  "version": "SLUS_217.82",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 93.4302346326569,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
