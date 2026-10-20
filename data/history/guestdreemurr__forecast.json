@@ -61,5 +61,19 @@
    "matched_data_percent": 69.01913631599868,
    "complete_data_percent": 69.01913631599868
   }
+ },
+ {
+  "timestamp": "2026-10-20T13:46:22Z",
+  "commit_sha": "87096743097a836ed01b90ef8c4bd23b588156cd",
+  "commit_message": "WPAD/KPAD: match and link the whole region (6 units, 100%) (#40)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 68.3572,
+   "matched_code_percent": 66.31746497931013,
+   "complete_code_percent": 63.76466515972371,
+   "matched_data_percent": 70.52859300064559,
+   "complete_data_percent": 70.52859300064559
+  }
  }
 ]
