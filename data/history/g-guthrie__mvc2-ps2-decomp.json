@@ -298,5 +298,19 @@
    "matched_data_percent": 27.450220965830535,
    "complete_data_percent": 27.450220965830535
   }
+ },
+ {
+  "timestamp": "2026-10-20T04:26:29Z",
+  "commit_sha": "05756a9e52c64e2d9b32f0a66600acd5ef244890",
+  "commit_message": "Pass sixty percent with exact math, stdio, parser and allocator recovery",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 60.22170837867247,
+   "matched_code_percent": 60.22170837867247,
+   "complete_code_percent": 60.22170837867247,
+   "matched_data_percent": 27.597274343274737,
+   "complete_data_percent": 27.597274343274737
+  }
  }
 ]

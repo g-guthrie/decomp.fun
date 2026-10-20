@@ -176,5 +176,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T03:47:39Z",
+  "commit_sha": "0325e25a327a2739c764d0614faf6908f8b2d949",
+  "commit_message": "Use a typed flip mask instead of a sprite register binding",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

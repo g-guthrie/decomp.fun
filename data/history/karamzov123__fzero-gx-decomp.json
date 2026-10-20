@@ -51,5 +51,19 @@
    "matched_data_percent": 45.34964727979773,
    "complete_data_percent": 45.34964727979773
   }
+ },
+ {
+  "timestamp": "2026-10-20T04:20:22Z",
+  "commit_sha": "97b84ad5dea8db62bba411bced0ef84047b55e3d",
+  "commit_message": "fixup: data-base-first views and shared-pool ordering",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 69.03235,
+   "matched_code_percent": 44.877638877728764,
+   "complete_code_percent": 43.80744721563586,
+   "matched_data_percent": 45.34964727979773,
+   "complete_data_percent": 45.34964727979773
+  }
  }
 ]
