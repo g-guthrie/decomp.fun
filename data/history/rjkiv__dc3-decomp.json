@@ -262,5 +262,19 @@
    "matched_data_percent": 19.11647642728324,
    "complete_data_percent": 19.11647642728324
   }
+ },
+ {
+  "timestamp": "2026-10-20T04:41:05Z",
+  "commit_sha": "0be5d9d87c76f1fc8e8075fb06771aa6b6604ed4",
+  "commit_message": "uifontimporter context and near-match",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.076515,
+   "matched_code_percent": 52.068213508017934,
+   "complete_code_percent": 24.879579367511088,
+   "matched_data_percent": 19.11647642728324,
+   "complete_data_percent": 19.11647642728324
+  }
  }
 ]

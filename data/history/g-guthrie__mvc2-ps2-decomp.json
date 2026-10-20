@@ -312,5 +312,19 @@
    "matched_data_percent": 27.597274343274737,
    "complete_data_percent": 27.597274343274737
   }
+ },
+ {
+  "timestamp": "2026-10-20T05:25:50Z",
+  "commit_sha": "e240ba423bcf3eaded1632e1c826530dcd3bb597",
+  "commit_message": "Restore three exact callers and recover proven quad and stream data",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 60.58713372454531,
+   "matched_code_percent": 60.58713372454532,
+   "complete_code_percent": 60.58713372454532,
+   "matched_data_percent": 28.288564092435315,
+   "complete_data_percent": 28.288564092435315
+  }
  }
 ]

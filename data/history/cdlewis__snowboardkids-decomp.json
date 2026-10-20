@@ -69,5 +69,19 @@
    "matched_data_percent": 95.82331224106932,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T04:34:08Z",
+  "commit_sha": "a9a845ba9747edb3124daf1c8d9ee5951af3c924",
+  "commit_message": "Clarify race shot and item terminology",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 95.82331224106932,
+   "complete_data_percent": 0.0
+  }
  }
 ]
