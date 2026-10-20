@@ -145,5 +145,19 @@
    "matched_data_percent": 96.79271563466823,
    "complete_data_percent": 96.79246993635431
   }
+ },
+ {
+  "timestamp": "2026-10-20T12:10:07Z",
+  "commit_sha": "3e86af35bfdb44abd2604290d9ae44cd0ecb4cb9",
+  "commit_message": "Merge pull request #159 from DevOldSchool/claude/probe-layout-account",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 29.959158,
+   "matched_code_percent": 29.604403275033743,
+   "complete_code_percent": 7.5850009437624415,
+   "matched_data_percent": 96.79271563466823,
+   "complete_data_percent": 96.79246993635431
+  }
  }
 ]

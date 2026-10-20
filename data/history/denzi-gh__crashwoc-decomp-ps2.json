@@ -128,5 +128,19 @@
    "matched_data_percent": 0.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T11:16:00Z",
+  "commit_sha": "128ca2a41c921173d7c45f0d817b5e8d176a2a1b",
+  "commit_message": "Merge pull request #108 from denzi-gh/tooling/assembler-gaps",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 94.12078,
+   "matched_code_percent": 82.30154507290025,
+   "complete_code_percent": 33.85667405810126,
+   "matched_data_percent": 17.224868418420474,
+   "complete_data_percent": 17.224657845778705
+  }
  }
 ]
