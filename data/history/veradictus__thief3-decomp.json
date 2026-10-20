@@ -22,5 +22,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-20T06:34:51Z",
+  "commit_sha": "5eddc3a2a60816d2697f5eab8a8ec85e93452dcc",
+  "commit_message": "docs: record the MiniMax swarm on opencode and the counts after it",
+  "source": "report",
+  "version": "PC_20040610",
+  "measures": {
+   "fuzzy_match_percent": 12.950145,
+   "matched_code_percent": 12.32370224411348,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

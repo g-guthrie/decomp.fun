@@ -267,5 +267,19 @@
    "matched_data_percent": 0.5510162043394672,
    "complete_data_percent": 0.37020507186670326
   }
+ },
+ {
+  "timestamp": "2026-10-20T06:03:46Z",
+  "commit_sha": "28beccea0502f0d7fd370bde108e39779b68633d",
+  "commit_message": "feat: match func_L00_002C9DC8 (bomb update)",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 98.42262126343184,
+   "matched_code_percent": 97.80976139389395,
+   "complete_code_percent": 53.58253841049901,
+   "matched_data_percent": 0.5510162043394672,
+   "complete_data_percent": 0.37020507186670326
+  }
  }
 ]

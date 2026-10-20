@@ -138,5 +138,19 @@
    "matched_data_percent": 98.34869103485272,
    "complete_data_percent": 52.53900547607688
   }
+ },
+ {
+  "timestamp": "2026-10-20T06:29:45Z",
+  "commit_sha": "a27766816b022297b0248d82eff0056ce2783314",
+  "commit_message": "Merge staging: local type fixes, PR #17737",
+  "source": "report",
+  "version": "GCCE01",
+  "measures": {
+   "fuzzy_match_percent": 99.74420166015625,
+   "matched_code_percent": 78.06963747653379,
+   "complete_code_percent": 45.34599851709287,
+   "matched_data_percent": 98.35153944935401,
+   "complete_data_percent": 52.53900547607688
+  }
  }
 ]
