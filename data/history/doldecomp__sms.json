@@ -308,5 +308,19 @@
    "matched_data_percent": 89.50917572318066,
    "complete_data_percent": 22.394043080844124
   }
+ },
+ {
+  "timestamp": "2026-10-20T00:14:43Z",
+  "commit_sha": "ee93a8c5dcb55a1de9a2531150fb8b356888b65e",
+  "commit_message": "GCLogoDir NX improvements (#357)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 94.210846,
+   "matched_code_percent": 49.854599664409335,
+   "complete_code_percent": 18.417710095128587,
+   "matched_data_percent": 89.50917572318066,
+   "complete_data_percent": 22.394043080844124
+  }
  }
 ]
