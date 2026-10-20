@@ -508,5 +508,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T13:40:30Z",
+  "commit_sha": "631ee4e29fc49d0dfc7c517ba40667b45215338c",
+  "commit_message": "Purity: drop effGetSubSlot's unused byte copy; DDS2 palette consumers use ee_mmi.h idioms (H2/H3)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.088896,
+   "matched_code_percent": 94.08889640692942,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
