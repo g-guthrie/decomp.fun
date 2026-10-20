@@ -466,5 +466,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T09:22:07Z",
+  "commit_sha": "ad863dacb8318669ec50b50e501db5a511d88c70",
+  "commit_message": "Match kwlnTaskRunScheduledUpdates in both games (SMT3 RunningProcess selected-node role; PurFAD)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.088896,
+   "matched_code_percent": 94.08889640692942,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
