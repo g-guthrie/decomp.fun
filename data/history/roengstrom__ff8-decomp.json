@@ -102,5 +102,19 @@
    "matched_data_percent": 71.83362793550016,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T20:47:58Z",
+  "commit_sha": "bd0265612a35f5b533f80c0aea0c2cdfb73770f0",
+  "commit_message": "Merge pull request #157 from roengstrom/split-gamestate",
+  "source": "report",
+  "version": "SLUS_008.92",
+  "measures": {
+   "fuzzy_match_percent": 67.06128,
+   "matched_code_percent": 67.06127650951596,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 71.83362793550016,
+   "complete_data_percent": 0.0
+  }
  }
 ]

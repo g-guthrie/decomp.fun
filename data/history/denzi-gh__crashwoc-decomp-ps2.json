@@ -156,5 +156,19 @@
    "matched_data_percent": 17.224868418420474,
    "complete_data_percent": 17.224657845778705
   }
+ },
+ {
+  "timestamp": "2026-10-20T20:39:17Z",
+  "commit_sha": "912b29d2588de310cc9d567afa27cd29ca84cf51",
+  "commit_message": "Merge pull request #111 from denzi-gh/decomp/big-reconstructions",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 98.35212,
+   "matched_code_percent": 88.39527796800893,
+   "complete_code_percent": 33.85667405810126,
+   "matched_data_percent": 17.224868418420474,
+   "complete_data_percent": 17.224657845778705
+  }
  }
 ]

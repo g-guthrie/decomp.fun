@@ -189,5 +189,19 @@
    "matched_data_percent": 28.43422296095419,
    "complete_data_percent": 3.9999882857731475
   }
+ },
+ {
+  "timestamp": "2026-10-20T21:11:31Z",
+  "commit_sha": "8be386bd25ba2a938f81147f53a06eda83651440",
+  "commit_message": "CreatureMentalLearn: Decompile the creature learning TU",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 41.068775,
+   "matched_code_percent": 31.675638648433296,
+   "complete_code_percent": 14.875485943396685,
+   "matched_data_percent": 28.431116144267328,
+   "complete_data_percent": 3.9999882857731475
+  }
  }
 ]

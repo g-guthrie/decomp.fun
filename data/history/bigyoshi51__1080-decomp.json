@@ -119,5 +119,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T21:13:44Z",
+  "commit_sha": "dacbab1194fabb5cabbcff803e70d41e76eea44b",
+  "commit_message": "report.json: agent-g run 111 (kernel __osLeoInterrupt/__osLeoAbnormalResume, osEPiRawStartDma, __rmonStopThread, __rmonClearBreak, 04B8 EXACT via split-piece merges) \u2014 54.74% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 92.49385,
+   "matched_code_percent": 54.74460209100156,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
