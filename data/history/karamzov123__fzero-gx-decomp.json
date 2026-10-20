@@ -177,5 +177,19 @@
    "matched_data_percent": 45.34964727979773,
    "complete_data_percent": 45.34964727979773
   }
+ },
+ {
+  "timestamp": "2026-10-20T18:27:16Z",
+  "commit_sha": "582bf2bc5d304724011dd40effc465ddfc7f9a24",
+  "commit_message": "fixup: loop_helpers family (a loop moved into a static inline helper)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 69.11814,
+   "matched_code_percent": 45.287166280110206,
+   "complete_code_percent": 44.1868763287169,
+   "matched_data_percent": 45.34964727979773,
+   "complete_data_percent": 45.34964727979773
+  }
  }
 ]

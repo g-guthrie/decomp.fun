@@ -77,5 +77,19 @@
    "matched_data_percent": 37.83783783783784,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T18:32:29Z",
+  "commit_sha": "8458bbdc5b9942fc8a39e9c252359f8fa0736fb9",
+  "commit_message": "report.json: post0b NM re-decodes 493AC 86.9, 4BAF4 90.2, 3B2EC 85.2, 3BE1C/3B9C0/3A58C gains",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 91.67683,
+   "matched_code_percent": 52.37808107130311,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.83783783783784,
+   "complete_data_percent": 0.0
+  }
  }
 ]
