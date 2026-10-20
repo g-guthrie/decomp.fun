@@ -133,5 +133,19 @@
    "matched_data_percent": 28.43264408690021,
    "complete_data_percent": 3.9913808756078986
   }
+ },
+ {
+  "timestamp": "2026-10-20T02:29:09Z",
+  "commit_sha": "fd27ce3a0bbc553f01eada802c24400928d43041",
+  "commit_message": "CreatureMentalMisc: Decompile the action info arrays and mind part constructors",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 40.710487,
+   "matched_code_percent": 31.338910061011234,
+   "complete_code_percent": 14.549987240641501,
+   "matched_data_percent": 28.43289874400569,
+   "complete_data_percent": 3.9913808756078986
+  }
  }
 ]

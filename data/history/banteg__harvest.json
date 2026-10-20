@@ -33,5 +33,19 @@
    "matched_data_percent": 36.21191549069637,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T01:55:20Z",
+  "commit_sha": "b4def652a593a2f5d16fd6d8180f5c171252e623",
+  "commit_message": "feat(src): recover twenty-two Irrlicht units and complete selectors (#36)",
+  "source": "report",
+  "version": "1.18-linux-amd64",
+  "measures": {
+   "fuzzy_match_percent": 70.56420208022995,
+   "matched_code_percent": 54.07338193298214,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.35728671104115,
+   "complete_data_percent": 0.0
+  }
  }
 ]

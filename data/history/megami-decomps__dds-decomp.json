@@ -424,5 +424,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T01:32:30Z",
+  "commit_sha": "6f5ac2f1784277412ed64fb2d23b8ab961b26c9b",
+  "commit_message": "Match DDS2 vital overlay func_001C7760",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 93.885113,
+   "matched_code_percent": 93.88511328470929,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

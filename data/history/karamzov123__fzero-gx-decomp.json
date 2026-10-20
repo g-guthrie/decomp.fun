@@ -23,5 +23,19 @@
    "matched_data_percent": 45.34964727979773,
    "complete_data_percent": 45.34964727979773
   }
+ },
+ {
+  "timestamp": "2026-10-20T02:30:28Z",
+  "commit_sha": "d08692fa9b7dc9ccf3ccfcd40dfb421efc17d9e5",
+  "commit_message": "Preserve measured pool primers during float repairs",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 68.992714,
+   "matched_code_percent": 44.70018154307528,
+   "complete_code_percent": 43.62998988098237,
+   "matched_data_percent": 45.34964727979773,
+   "complete_data_percent": 45.34964727979773
+  }
  }
 ]
