@@ -99,5 +99,19 @@
    "matched_data_percent": 65.58237321263245,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T11:07:36Z",
+  "commit_sha": "6129e4a4a42e9e96fb6ebdc132eb2e01e03876ce",
+  "commit_message": "Draw3DMT (#18)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 57.443325,
+   "matched_code_percent": 57.443328769207355,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 65.582533226442,
+   "complete_data_percent": 0.0
+  }
  }
 ]

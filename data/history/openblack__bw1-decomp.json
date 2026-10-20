@@ -161,5 +161,19 @@
    "matched_data_percent": 28.433153401111174,
    "complete_data_percent": 3.992857886819687
   }
+ },
+ {
+  "timestamp": "2026-10-20T10:46:11Z",
+  "commit_sha": "fafcb0e8739fc75ef6353546ce298c828c7fad09",
+  "commit_message": "symbols: Size Creature Isle's MobileWallHug::MoveToObjectPos",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 40.76513,
+   "matched_code_percent": 31.399369790512832,
+   "complete_code_percent": 14.782684288602669,
+   "matched_data_percent": 28.43330619537446,
+   "complete_data_percent": 3.995811909243264
+  }
  }
 ]
