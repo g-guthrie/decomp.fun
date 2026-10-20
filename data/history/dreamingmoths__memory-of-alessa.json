@@ -221,5 +221,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T08:08:09Z",
+  "commit_sha": "24118f925f857ba1bfafd8b9f2b9b23c34336025",
+  "commit_message": "sh2: match `EventExecSave`",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.6733346,
+   "matched_code_percent": 6.804751431104792,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

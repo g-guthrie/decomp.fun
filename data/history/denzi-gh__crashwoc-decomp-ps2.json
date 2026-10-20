@@ -114,5 +114,19 @@
    "matched_data_percent": 0.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T07:49:46Z",
+  "commit_sha": "2b0a41cbcedff4f419f2dbdaf53d3382080d3491",
+  "commit_message": "Merge pull request #102 from denzi-gh/data/sdata",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 94.112366,
+   "matched_code_percent": 82.0365226821997,
+   "complete_code_percent": 25.792203097274164,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]
