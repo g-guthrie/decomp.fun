@@ -71,5 +71,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-19T16:30:09Z",
+  "commit_sha": "5588f48719456c52f81c694b8fb17a16ebe5a95c",
+  "commit_message": "feat(wpad): match Korean controller manager",
+  "source": "report",
+  "version": "R4QE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000046,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

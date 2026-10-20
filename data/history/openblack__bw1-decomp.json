@@ -175,5 +175,19 @@
    "matched_data_percent": 28.43330619537446,
    "complete_data_percent": 3.995811909243264
   }
+ },
+ {
+  "timestamp": "2026-10-20T15:07:43Z",
+  "commit_sha": "1e8683bcaed7f3372fe18c4529a40757edd080fd",
+  "commit_message": "CreatureLeash: Split off and decompile the creature leash TU",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 40.92287,
+   "matched_code_percent": 31.529924759514987,
+   "complete_code_percent": 14.87518559606295,
+   "matched_data_percent": 28.43422296095419,
+   "complete_data_percent": 3.9999882857731475
+  }
  }
 ]

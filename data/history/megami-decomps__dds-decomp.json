@@ -522,5 +522,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T14:55:09Z",
+  "commit_sha": "bfbd3fb710fbdc820bd9d440f7137d8abc3f5877",
+  "commit_message": "Purity: replace cross-jump gotos with structured code in six DDS2 functions (N0 goto triage, twins of 68e47ac86)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.088896,
+   "matched_code_percent": 94.08889640692942,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

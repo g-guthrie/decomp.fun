@@ -409,5 +409,19 @@
    "matched_data_percent": 36.375835948850465,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T15:05:56Z",
+  "commit_sha": "3939dac3fe91ceb3eceac64fe6ac941dee28078b",
+  "commit_message": "Bodyprog: minor collision deobfuscation, const correctness",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 36.375835948850465,
+   "complete_data_percent": 0.0
+  }
  }
 ]
