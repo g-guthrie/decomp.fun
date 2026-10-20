@@ -55,5 +55,19 @@
    "matched_data_percent": 93.67969727784731,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T00:58:14Z",
+  "commit_sha": "09de4178c3e0520dd1b4878fff1388f2469f7d04",
+  "commit_message": "Name Star, Feather, and Ice board properties",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 95.82331224106932,
+   "complete_data_percent": 0.0
+  }
  }
 ]

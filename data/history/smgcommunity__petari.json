@@ -297,5 +297,19 @@
    "matched_data_percent": 87.97081193701777,
    "complete_data_percent": 74.97262940485619
   }
+ },
+ {
+  "timestamp": "2026-10-20T01:11:52Z",
+  "commit_sha": "d0cb1c64494ca1d52cbe9e8b13fbbfef404fe14d",
+  "commit_message": "Merge pull request #2165 from galaxymaster2007/header-typos",
+  "source": "report",
+  "version": "RMGK01",
+  "measures": {
+   "fuzzy_match_percent": 99.99983,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 68.78540320304313,
+   "matched_data_percent": 87.97081193701777,
+   "complete_data_percent": 74.97262940485619
+  }
  }
 ]

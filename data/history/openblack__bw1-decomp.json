@@ -119,5 +119,19 @@
    "matched_data_percent": 28.431676389899387,
    "complete_data_percent": 3.9797175801768794
   }
+ },
+ {
+  "timestamp": "2026-10-20T01:24:45Z",
+  "commit_sha": "1aaadadd31b64cbb8cb6cebd3000dee0e7a4ae7f",
+  "commit_message": "CreatureMentalActionTests: Split off and match the action predicate TU",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 40.673397,
+   "matched_code_percent": 31.2954229976491,
+   "complete_code_percent": 14.549960039446441,
+   "matched_data_percent": 28.43264408690021,
+   "complete_data_percent": 3.9913808756078986
+  }
  }
 ]
