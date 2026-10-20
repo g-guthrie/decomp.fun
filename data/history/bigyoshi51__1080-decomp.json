@@ -91,5 +91,19 @@
    "matched_data_percent": 37.83783783783784,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T19:13:43Z",
+  "commit_sha": "a4b320d369736043a6c4abaa970c8228a6358d35",
+  "commit_message": "report.json: gl_func_00038108 + bootup 6254 EXACT; block-count hold/remat lever NM gains (53.16% code)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 91.82081,
+   "matched_code_percent": 53.16086680683504,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
