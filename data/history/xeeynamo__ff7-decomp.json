@@ -179,5 +179,19 @@
    "matched_data_percent": 24.4090376781228,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-20T20:58:15Z",
+  "commit_sha": "a104a1c01ba76b3d93eb2d46c96ff24b4e3cd336",
+  "commit_message": "battle: match BattleRollManipulateHit (#374)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 65.98988,
+   "matched_code_percent": 65.98988401726739,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.4090376781228,
+   "complete_data_percent": 0.0
+  }
  }
 ]
