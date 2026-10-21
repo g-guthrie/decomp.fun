@@ -9,5 +9,19 @@
    "complete_code_percent": 24.18,
    "fuzzy_match_percent": 24.18
   }
+ },
+ {
+  "timestamp": "2026-10-21T03:21:38Z",
+  "commit_sha": "7e13c76e48a79ef8b187a838867670a945b789bd",
+  "commit_message": "Complete ENDING game code with a byte-identical rebuild",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 34.229677,
+   "matched_code_percent": 34.22964573159042,
+   "complete_code_percent": 34.22883341294056,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

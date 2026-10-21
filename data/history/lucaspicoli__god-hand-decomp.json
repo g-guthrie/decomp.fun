@@ -122,5 +122,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T05:33:07Z",
+  "commit_sha": "5dc1d9ea018412b33ed190127e4d0244249ea2d8",
+  "commit_message": "[docs] contributing: add AI-assisted contribution rules",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 50.422226,
+   "matched_code_percent": 50.42222773785214,
+   "complete_code_percent": 49.0621862202015,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]

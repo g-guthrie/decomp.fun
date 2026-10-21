@@ -215,5 +215,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-21T06:13:16Z",
+  "commit_sha": "0d5b2b0cb5c0de696425831ba9b995be8fbbd439",
+  "commit_message": "chore: clarify IOP stash allocation and transfer contracts (#236)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 98.861726,
+   "matched_code_percent": 98.71947940377662,
+   "complete_code_percent": 98.71947940377662,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]

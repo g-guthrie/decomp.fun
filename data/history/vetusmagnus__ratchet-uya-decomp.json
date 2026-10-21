@@ -64,5 +64,19 @@
    "matched_data_percent": 0.06806706144536316,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T05:18:01Z",
+  "commit_sha": "6955267b6f894aa8d99f7070a03a71b81143c5e3",
+  "commit_message": "Report Veldin's level-only C on the progress site",
+  "source": "report",
+  "version": "SCUS_973.53",
+  "measures": {
+   "fuzzy_match_percent": 11.450542,
+   "matched_code_percent": 11.449950260412367,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.06806706144536316,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -108,5 +108,19 @@
    "matched_data_percent": 9.021625494825622,
    "complete_data_percent": 1.197448637981464
   }
+ },
+ {
+  "timestamp": "2026-10-21T05:53:57Z",
+  "commit_sha": "89df1f33c7f6bcf1c159c9f91b0ad76b04a1d84e",
+  "commit_message": "Match `NameObjHolder`",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 19.737873,
+   "matched_code_percent": 17.073236054260832,
+   "complete_code_percent": 1.5232721784105756,
+   "matched_data_percent": 9.021625494825622,
+   "complete_data_percent": 1.1983883661650867
+  }
  }
 ]
