@@ -193,5 +193,19 @@
    "matched_data_percent": 24.4090376781228,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T22:31:34Z",
+  "commit_sha": "f774a997c939ba364ad14d765edc5b4bff8b7ae1",
+  "commit_message": "Pin CI agent to Ubunu 24.04",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 65.98988,
+   "matched_code_percent": 65.98988401726739,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.4090376781228,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -346,5 +346,19 @@
    "matched_data_percent": 19.721588904048772,
    "complete_data_percent": 19.721588904048772
   }
+ },
+ {
+  "timestamp": "2026-10-21T22:31:54Z",
+  "commit_sha": "df9068d9adf7249abcc367170bb1caf43ca68cc4",
+  "commit_message": "Fix ObjPtrList hack (#347)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.093338,
+   "matched_code_percent": 52.11146957574645,
+   "complete_code_percent": 25.64186925198134,
+   "matched_data_percent": 19.721588904048772,
+   "complete_data_percent": 19.721588904048772
+  }
  }
 ]
