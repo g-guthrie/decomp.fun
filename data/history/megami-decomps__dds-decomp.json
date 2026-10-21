@@ -774,5 +774,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T14:04:54Z",
+  "commit_sha": "39199ccea0a10eb763e5794cd443d0c3afb0bc57",
+  "commit_message": "Type target selection source actor",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.247107,
+   "matched_code_percent": 94.24710693638742,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
