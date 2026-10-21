@@ -340,5 +340,19 @@
    "matched_data_percent": 30.138072782935023,
    "complete_data_percent": 30.138072782935023
   }
+ },
+ {
+  "timestamp": "2026-10-21T02:36:37Z",
+  "commit_sha": "cc7fe27705444732c4e4cd8faeca3b43f829f6ae",
+  "commit_message": "Recover bounded camera, audio, and Newlib data with exact linkage",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 62.205498018032024,
+   "matched_code_percent": 62.205498018032024,
+   "complete_code_percent": 62.205498018032024,
+   "matched_data_percent": 37.279034169464744,
+   "complete_data_percent": 37.279034169464744
+  }
  }
 ]
