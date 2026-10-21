@@ -396,5 +396,19 @@
    "matched_data_percent": 39.476965238001185,
    "complete_data_percent": 39.476965238001185
   }
+ },
+ {
+  "timestamp": "2026-10-21T07:00:22Z",
+  "commit_sha": "90e79262c54385755b4a09eb63a3e529c37220d6",
+  "commit_message": "Recover sibling and graphics routines, complete text records and fix parser bounds",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 63.035325664542206,
+   "matched_code_percent": 63.035325664542206,
+   "complete_code_percent": 63.035325664542206,
+   "matched_data_percent": 39.55288366581078,
+   "complete_data_percent": 39.55288366581078
+  }
  }
 ]
