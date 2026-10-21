@@ -89,5 +89,19 @@
    "matched_data_percent": 72.12724747581953,
    "complete_data_percent": 72.12724747581953
   }
+ },
+ {
+  "timestamp": "2026-10-20T23:40:39Z",
+  "commit_sha": "08caf87916031e052d6da57fcb6bc59c626c6f02",
+  "commit_message": "BTE: match and link btu_hcif (#44)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 75.09078,
+   "matched_code_percent": 73.37352430601082,
+   "complete_code_percent": 70.8118086986621,
+   "matched_data_percent": 73.20517181777232,
+   "complete_data_percent": 73.20517181777232
+  }
  }
 ]

@@ -276,5 +276,19 @@
    "matched_data_percent": 19.11647642728324,
    "complete_data_percent": 19.11647642728324
   }
+ },
+ {
+  "timestamp": "2026-10-21T00:48:59Z",
+  "commit_sha": "fe9e7e318b310ecc16b05d7420e42b1ab121df8a",
+  "commit_message": "match cameramanager",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.084267,
+   "matched_code_percent": 52.08161633506412,
+   "complete_code_percent": 25.157925609394432,
+   "matched_data_percent": 19.326745288465137,
+   "complete_data_percent": 19.326745288465137
+  }
  }
 ]
