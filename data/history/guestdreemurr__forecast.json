@@ -187,5 +187,19 @@
    "matched_data_percent": 75.26927193060324,
    "complete_data_percent": 75.26927193060324
   }
+ },
+ {
+  "timestamp": "2026-10-21T22:07:47Z",
+  "commit_sha": "8c49e691a3a3bc230269f6be3e6db24d03fdd441",
+  "commit_message": "hbm: split the Home Button Menu library into its three TUs (#49)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 84.830956,
+   "matched_code_percent": 81.26425870469338,
+   "complete_code_percent": 75.787604957178,
+   "matched_data_percent": 81.90935766988407,
+   "complete_data_percent": 81.90935766988407
+  }
  }
 ]

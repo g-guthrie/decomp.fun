@@ -92,5 +92,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-21T21:49:16Z",
+  "commit_sha": "df365fce4d5867023c8c868786b342111cbeea0e",
+  "commit_message": "arm9: exactly match 8 near-exact functions",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 50.84178585202936,
+   "matched_code_percent": 3.8065233506300964,
+   "complete_code_percent": 3.8065233506300964,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

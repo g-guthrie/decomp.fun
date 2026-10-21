@@ -189,5 +189,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T21:30:54Z",
+  "commit_sha": "d64d945cc83f44018c45c42473a53b8ba74669a5",
+  "commit_message": "report.json: agent-c run 116 (bootup_uso is C++ too: CAE8, 485C, CFA0, E740, E800 EXACT via IDO 7.1 NCC donors) \u2014 56.63% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 93.633385,
+   "matched_code_percent": 56.634926960224,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

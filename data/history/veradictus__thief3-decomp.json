@@ -50,5 +50,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-21T21:56:03Z",
+  "commit_sha": "771085ea3ca6addb97590a753fafa4c89a54bc64",
+  "commit_message": "docs: record the second MiniMax swarm and the counts after it",
+  "source": "report",
+  "version": "PC_20040610",
+  "measures": {
+   "fuzzy_match_percent": 13.65358,
+   "matched_code_percent": 12.947106392984892,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
