@@ -536,5 +536,19 @@
    "matched_data_percent": 56.56416650207387,
    "complete_data_percent": 56.56416650207387
   }
+ },
+ {
+  "timestamp": "2026-10-21T18:36:25Z",
+  "commit_sha": "ab749a2b5613012874b8504bed213228ef765c04",
+  "commit_message": "Recover exact motion callbacks and typed motion, GS and TLB resources",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 64.17787191046168,
+   "matched_code_percent": 64.17787191046168,
+   "complete_code_percent": 64.17787191046168,
+   "matched_data_percent": 57.692450128382376,
+   "complete_data_percent": 57.692450128382376
+  }
  }
 ]
