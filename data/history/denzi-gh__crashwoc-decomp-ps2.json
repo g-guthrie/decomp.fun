@@ -212,5 +212,19 @@
    "matched_data_percent": 33.82556549545417,
    "complete_data_percent": 33.82539403577506
   }
+ },
+ {
+  "timestamp": "2026-10-21T08:40:27Z",
+  "commit_sha": "fe11e17a8d911ada4e33adedd6f8cfea924b51c1",
+  "commit_message": "Merge pull request #115 from denzi-gh/decomp/nucvtgeo-game-vehicle-nurndr-game_obj-debris-nugscn-chase",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 98.370544,
+   "matched_code_percent": 90.87187529436325,
+   "complete_code_percent": 46.05330488776646,
+   "matched_data_percent": 33.82556549545417,
+   "complete_data_percent": 33.82539403577506
+  }
  }
 ]

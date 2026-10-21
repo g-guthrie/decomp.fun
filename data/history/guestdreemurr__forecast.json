@@ -117,5 +117,19 @@
    "matched_data_percent": 73.20767429512524,
    "complete_data_percent": 73.20767429512524
   }
+ },
+ {
+  "timestamp": "2026-10-21T08:59:49Z",
+  "commit_sha": "26b325e029b10d07b4c6eea753381a6ff34595a6",
+  "commit_message": "Bte remaining (#47)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 83.68134,
+   "matched_code_percent": 80.11464654146103,
+   "complete_code_percent": 74.26956097612141,
+   "matched_data_percent": 73.89086430017969,
+   "complete_data_percent": 73.89086430017969
+  }
  }
 ]
