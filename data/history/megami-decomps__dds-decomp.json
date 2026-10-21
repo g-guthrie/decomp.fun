@@ -788,5 +788,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T14:17:46Z",
+  "commit_sha": "743e38c80c0a6aa75c0c11a7622f8bbd3f222ed0",
+  "commit_message": "Name analysis panel geometry and silhouette helpers",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.247107,
+   "matched_code_percent": 94.24710693638742,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

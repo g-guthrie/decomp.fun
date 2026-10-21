@@ -507,5 +507,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T13:36:02Z",
+  "commit_sha": "122234f4679bbcba53bfc8ade575607d96d09a3c",
+  "commit_message": "saveload: match SaveScreen_WriteOptionsStepDraw JPN",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]

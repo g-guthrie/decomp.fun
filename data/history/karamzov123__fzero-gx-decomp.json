@@ -317,5 +317,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-21T14:21:10Z",
+  "commit_sha": "14e567e4ba8e2163d643039824b893fab6aff532",
+  "commit_message": "harvest: also try the ref's fixup_imports.json bodies",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 75.9942,
+   "matched_code_percent": 60.22831118634927,
+   "complete_code_percent": 56.68638263505756,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]

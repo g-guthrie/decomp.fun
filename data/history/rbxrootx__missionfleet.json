@@ -75,5 +75,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-21T14:13:02Z",
+  "commit_sha": "db9bc5b9fcb93ab910baa9c11d540e5577ca485d",
+  "commit_message": "server: add English Rust login transport",
+  "source": "report",
+  "version": "NF2_2062",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

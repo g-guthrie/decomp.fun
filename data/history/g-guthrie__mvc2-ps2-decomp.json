@@ -480,5 +480,19 @@
    "matched_data_percent": 45.81692548884061,
    "complete_data_percent": 45.81692548884061
   }
+ },
+ {
+  "timestamp": "2026-10-21T14:20:54Z",
+  "commit_sha": "ad094d52b13daa57504cdd93f8276dbae8843769",
+  "commit_message": "Recover typed CD/DVD read storage and owner callbacks",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 63.67400027203482,
+   "matched_code_percent": 63.674000272034824,
+   "complete_code_percent": 63.674000272034824,
+   "matched_data_percent": 53.756573424846934,
+   "complete_data_percent": 53.756573424846934
+  }
  }
 ]

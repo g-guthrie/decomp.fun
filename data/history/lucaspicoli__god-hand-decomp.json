@@ -136,5 +136,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T14:20:23Z",
+  "commit_sha": "308a559fdd2d8d075c0296c106a0ef969930a49e",
+  "commit_message": "[PR-8] report: regenerate report.json and objdiff.json for the CRI middleware merge",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 51.043583,
+   "matched_code_percent": 51.043582251204356,
+   "complete_code_percent": 49.68354073355371,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]
