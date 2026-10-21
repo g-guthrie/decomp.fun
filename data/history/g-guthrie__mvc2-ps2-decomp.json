@@ -424,5 +424,19 @@
    "matched_data_percent": 39.610748321153466,
    "complete_data_percent": 39.610748321153466
   }
+ },
+ {
+  "timestamp": "2026-10-21T10:03:33Z",
+  "commit_sha": "76e562c6d4c160f42a8719c9a48e4b2877842202",
+  "commit_message": "Recover geometry command records and exact actor and file-service C",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 63.233522462303746,
+   "matched_code_percent": 63.233522462303746,
+   "complete_code_percent": 63.233522462303746,
+   "matched_data_percent": 40.393387072881694,
+   "complete_data_percent": 40.393387072881694
+  }
  }
 ]

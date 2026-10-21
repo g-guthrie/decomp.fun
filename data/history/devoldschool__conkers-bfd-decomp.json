@@ -159,5 +159,19 @@
    "matched_data_percent": 96.79271563466823,
    "complete_data_percent": 96.79246993635431
   }
+ },
+ {
+  "timestamp": "2026-10-21T09:22:58Z",
+  "commit_sha": "75eeaecfafbec7947637cfc12957fbd799510591",
+  "commit_message": "Merge pull request #162 from DevOldSchool/codex/main-deferred-matches-20261021",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 30.194849,
+   "matched_code_percent": 29.819687952961456,
+   "complete_code_percent": 7.697184026553558,
+   "matched_data_percent": 96.79271563466823,
+   "complete_data_percent": 96.79246993635431
+  }
  }
 ]
