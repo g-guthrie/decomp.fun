@@ -102,5 +102,19 @@
    "matched_data_percent": 69.74106594455111,
    "complete_data_percent": 0.1977834348647385
   }
+ },
+ {
+  "timestamp": "2026-10-21T17:24:14Z",
+  "commit_sha": "b7b2245d36991467748f72a2ee82dd2786db7161",
+  "commit_message": "feat(render): add persistent fluid smoke in RTX mode (#840)",
+  "source": "report",
+  "version": "1.9.93",
+  "measures": {
+   "fuzzy_match_percent": 64.09553341763734,
+   "matched_code_percent": 64.09553341763734,
+   "complete_code_percent": 0.008903394001616521,
+   "matched_data_percent": 69.74106594455111,
+   "complete_data_percent": 0.1977834348647385
+  }
  }
 ]

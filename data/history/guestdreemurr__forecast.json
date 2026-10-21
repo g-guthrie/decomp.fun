@@ -159,5 +159,19 @@
    "matched_data_percent": 75.26927193060324,
    "complete_data_percent": 75.26927193060324
   }
+ },
+ {
+  "timestamp": "2026-10-21T17:18:59Z",
+  "commit_sha": "dae7cc5275dd3c93cef201362fdd5898f69870b8",
+  "commit_message": "some splits",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 83.68187,
+   "matched_code_percent": 80.1151709995647,
+   "complete_code_percent": 74.63851725204933,
+   "matched_data_percent": 75.26927193060324,
+   "complete_data_percent": 75.26927193060324
+  }
  }
 ]

@@ -522,5 +522,19 @@
    "matched_data_percent": 55.24963583843571,
    "complete_data_percent": 55.24963583843571
   }
+ },
+ {
+  "timestamp": "2026-10-21T17:09:35Z",
+  "commit_sha": "6787f251dda1c953ce376947c5346467c908c806",
+  "commit_message": "Recover clone callbacks, interpolation paths, and coordinate resources",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 63.91518828695787,
+   "matched_code_percent": 63.91518828695787,
+   "complete_code_percent": 63.91518828695787,
+   "matched_data_percent": 56.56416650207387,
+   "complete_data_percent": 56.56416650207387
+  }
  }
 ]

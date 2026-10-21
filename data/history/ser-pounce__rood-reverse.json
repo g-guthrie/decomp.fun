@@ -257,5 +257,19 @@
    "matched_data_percent": 43.61223582501948,
    "complete_data_percent": 36.419458002093805
   }
+ },
+ {
+  "timestamp": "2026-10-21T17:23:45Z",
+  "commit_sha": "49d896b1d4a87072096a8bc73dc10975aa2692ce",
+  "commit_message": "Merge EFFECT data",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 87.92146,
+   "matched_code_percent": 87.92146203227112,
+   "complete_code_percent": 20.640176144484744,
+   "matched_data_percent": 44.025259454369014,
+   "complete_data_percent": 36.419458002093805
+  }
  }
 ]
