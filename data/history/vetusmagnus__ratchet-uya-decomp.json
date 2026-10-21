@@ -78,5 +78,19 @@
    "matched_data_percent": 0.06806706144536316,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T15:22:45Z",
+  "commit_sha": "04797d4ff62fad0ab7c5449a8bce6156a3450bc9",
+  "commit_message": "Delete AGENTS.md",
+  "source": "report",
+  "version": "SCUS_973.53",
+  "measures": {
+   "fuzzy_match_percent": 13.57615,
+   "matched_code_percent": 13.575558218995631,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.06806706144536316,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -229,5 +229,19 @@
    "complete_code_percent": 10.99,
    "fuzzy_match_percent": 58.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T16:18:45Z",
+  "commit_sha": "d8e8eac38dd617ee72161f4cb2da4498bc89aad6",
+  "commit_message": "New .clang-format files/header cleanup (#763)",
+  "source": "report",
+  "version": "GQPE78",
+  "measures": {
+   "fuzzy_match_percent": 57.998657,
+   "matched_code_percent": 38.061426629670905,
+   "complete_code_percent": 10.98611997605638,
+   "matched_data_percent": 66.7052918596625,
+   "complete_data_percent": 15.66850214416671
+  }
  }
 ]

@@ -83,5 +83,19 @@
    "matched_data_percent": 95.82331224106932,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T15:37:17Z",
+  "commit_sha": "03121840d5fa55dd673d90d42a3f04de81946f85",
+  "commit_message": "Trigger symbol regeneration after successful US builds",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 95.82331224106932,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -138,5 +138,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T16:08:07Z",
+  "commit_sha": "996805ae2b26ea9c34d60e259af1e69e84f8f9ce",
+  "commit_message": "Refactor field advance actor effects (#1100)",
+  "source": "report",
+  "version": "SLUS_010.13",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

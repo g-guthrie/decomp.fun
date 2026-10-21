@@ -508,5 +508,19 @@
    "matched_data_percent": 54.65895343669761,
    "complete_data_percent": 54.65895343669761
   }
+ },
+ {
+  "timestamp": "2026-10-21T15:42:10Z",
+  "commit_sha": "b79bdffc0324134a01dd2ec36a8ce7216f7f9bc7",
+  "commit_message": "Recover five actor callbacks and typed pose and velocity banks",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 63.75378905642779,
+   "matched_code_percent": 63.75378905642779,
+   "complete_code_percent": 63.75378905642779,
+   "matched_data_percent": 55.24963583843571,
+   "complete_data_percent": 55.24963583843571
+  }
  }
 ]

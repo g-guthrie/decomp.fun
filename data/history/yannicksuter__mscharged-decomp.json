@@ -99,5 +99,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T15:48:47Z",
+  "commit_sha": "76d56147881cbb17fc11e857930c81e66e5d580c",
+  "commit_message": "feat: link Korean startup code",
+  "source": "report",
+  "version": "R4QE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000046,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

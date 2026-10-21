@@ -92,5 +92,19 @@
    "matched_data_percent": 70.1629824952676,
    "complete_data_percent": 6.421418087208411
   }
+ },
+ {
+  "timestamp": "2026-10-21T15:20:00Z",
+  "commit_sha": "e7419f42cb430b60881e7cd4c9ac3d8d69cb0137",
+  "commit_message": "Recovered data",
+  "source": "report",
+  "version": "SLUS_204.69",
+  "measures": {
+   "fuzzy_match_percent": 64.930664,
+   "matched_code_percent": 64.93066610406797,
+   "complete_code_percent": 30.666295862981645,
+   "matched_data_percent": 70.16541866260793,
+   "complete_data_percent": 36.88479161633612
+  }
  }
 ]

@@ -268,5 +268,19 @@
    "matched_data_percent": 69.59016850199966,
    "complete_data_percent": 69.58999704232053
   }
+ },
+ {
+  "timestamp": "2026-10-21T16:05:47Z",
+  "commit_sha": "3cbc04bcf2c7247686f3220d22d04bd5f034fb28",
+  "commit_message": "Merge pull request #119 from denzi-gh:host/lvalue-casts",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 98.426865,
+   "matched_code_percent": 92.0635850070138,
+   "complete_code_percent": 52.554118285017445,
+   "matched_data_percent": 69.59016850199966,
+   "complete_data_percent": 69.58999704232053
+  }
  }
 ]
