@@ -73,5 +73,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-21T04:59:28Z",
+  "commit_sha": "d76014fc6271ca044010e19dcb3b7ca8345b255b",
+  "commit_message": "OOps",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 26.408794,
+   "matched_code_percent": 12.207842278433539,
+   "complete_code_percent": 2.3848646465388255,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
