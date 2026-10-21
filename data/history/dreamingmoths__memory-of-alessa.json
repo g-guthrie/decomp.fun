@@ -249,5 +249,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T04:20:46Z",
+  "commit_sha": "48c677b0cb9e7e1388eff9bcf9588362808ef1d9",
+  "commit_message": "sh2: update `sh2gfw_LightSet`",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.6733346,
+   "matched_code_percent": 6.804751431104792,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

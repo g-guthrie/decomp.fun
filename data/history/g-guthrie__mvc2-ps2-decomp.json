@@ -354,5 +354,19 @@
    "matched_data_percent": 37.279034169464744,
    "complete_data_percent": 37.279034169464744
   }
+ },
+ {
+  "timestamp": "2026-10-21T03:55:30Z",
+  "commit_sha": "b0b597c183547b77f5f2a41aac223d9c1037894d",
+  "commit_message": "Recover 620 bytes of bounded data and align SJ interface contracts",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 62.3337430048189,
+   "matched_code_percent": 62.3337430048189,
+   "complete_code_percent": 62.3337430048189,
+   "matched_data_percent": 37.517899466719335,
+   "complete_data_percent": 37.517899466719335
+  }
  }
 ]

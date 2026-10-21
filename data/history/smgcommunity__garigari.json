@@ -94,5 +94,19 @@
    "matched_data_percent": 9.021625494825622,
    "complete_data_percent": 1.197448637981464
   }
+ },
+ {
+  "timestamp": "2026-10-21T04:29:37Z",
+  "commit_sha": "740305f0be4e4f4cf2a062ade924de2905be39b1",
+  "commit_message": "Initial pass `NameObjFactory`",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 19.727224,
+   "matched_code_percent": 17.062586922738955,
+   "complete_code_percent": 1.5065013904449869,
+   "matched_data_percent": 9.021625494825622,
+   "complete_data_percent": 1.197448637981464
+  }
  }
 ]

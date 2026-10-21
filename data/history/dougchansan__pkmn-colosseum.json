@@ -55,5 +55,19 @@
    "matched_data_percent": 83.3001495234431,
    "complete_data_percent": 52.95979019606304
   }
+ },
+ {
+  "timestamp": "2026-10-21T04:22:21Z",
+  "commit_sha": "774635bdff62842b6cf04686baaf19efef8afda1",
+  "commit_message": "Refresh remaining-function worklist and archive completed functions (#653)",
+  "source": "report",
+  "version": "GC6E01",
+  "measures": {
+   "fuzzy_match_percent": 99.70327,
+   "matched_code_percent": 92.20388512299695,
+   "complete_code_percent": 91.52969731809944,
+   "matched_data_percent": 83.3001495234431,
+   "complete_data_percent": 52.95979019606304
+  }
  }
 ]

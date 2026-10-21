@@ -318,5 +318,19 @@
    "matched_data_percent": 19.594581958508897,
    "complete_data_percent": 19.594581958508897
   }
+ },
+ {
+  "timestamp": "2026-10-21T04:20:57Z",
+  "commit_sha": "49c5cb7d94c1c711bb231936d9734e3bb970da49",
+  "commit_message": "mark memory_xbox as matching",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.089237,
+   "matched_code_percent": 52.10157311176614,
+   "complete_code_percent": 25.548737627371914,
+   "matched_data_percent": 19.678982220653836,
+   "complete_data_percent": 19.678982220653836
+  }
  }
 ]
