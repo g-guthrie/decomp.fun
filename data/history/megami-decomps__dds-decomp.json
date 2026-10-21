@@ -802,5 +802,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T15:13:16Z",
+  "commit_sha": "db53ea7bdfaebf511e5c0cfb8a6823a411919d06",
+  "commit_message": "Size motion allocation from its type",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.247107,
+   "matched_code_percent": 94.24710693638742,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

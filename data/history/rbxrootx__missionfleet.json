@@ -89,5 +89,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-21T14:34:11Z",
+  "commit_sha": "090fb2db80b31d09575463d580dee2362d5ee025",
+  "commit_message": "docs: replace project and decomp READMEs with current state",
+  "source": "report",
+  "version": "NF2_2062",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

@@ -494,5 +494,19 @@
    "matched_data_percent": 53.756573424846934,
    "complete_data_percent": 53.756573424846934
   }
+ },
+ {
+  "timestamp": "2026-10-21T15:22:16Z",
+  "commit_sha": "d9302618423b38d849f2b69f4de4684bef804f56",
+  "commit_message": "Recover typed effect spawn groups and complete acceleration vectors",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 63.705089965801335,
+   "matched_code_percent": 63.705089965801335,
+   "complete_code_percent": 63.705089965801335,
+   "matched_data_percent": 54.65895343669761,
+   "complete_data_percent": 54.65895343669761
+  }
  }
 ]
