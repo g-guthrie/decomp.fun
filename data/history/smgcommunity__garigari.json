@@ -80,5 +80,19 @@
    "matched_data_percent": 9.00635491184175,
    "complete_data_percent": 1.195569181614218
   }
+ },
+ {
+  "timestamp": "2026-10-21T03:04:01Z",
+  "commit_sha": "9790317813fb541c3f190a29e899b1666d7cd98d",
+  "commit_message": "Add python script to convert `symbols.txt` into readable ghidra symbols",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 19.720402,
+   "matched_code_percent": 17.055763826494402,
+   "complete_code_percent": 1.5065013904449869,
+   "matched_data_percent": 9.021625494825622,
+   "complete_data_percent": 1.197448637981464
+  }
  }
 ]

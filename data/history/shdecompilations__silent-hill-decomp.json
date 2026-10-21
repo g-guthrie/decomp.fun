@@ -423,5 +423,19 @@
    "matched_data_percent": 36.375835948850465,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T03:18:47Z",
+  "commit_sha": "66857214a90ddddf2ac5b1d1f52a70e46fe47f2e",
+  "commit_message": "sound_data: migrate JPN data",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.999985,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 36.375835948850465,
+   "complete_data_percent": 0.0
+  }
  }
 ]
