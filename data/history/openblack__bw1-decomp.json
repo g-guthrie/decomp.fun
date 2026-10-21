@@ -231,5 +231,19 @@
    "matched_data_percent": 28.451037789783427,
    "complete_data_percent": 4.0805555590924545
   }
+ },
+ {
+  "timestamp": "2026-10-21T20:51:06Z",
+  "commit_sha": "629cb6b8c8799e3dbd257b0b4df3c938a1308fe9",
+  "commit_message": "CreaturePlan: Split off and decompile the creature planning TU",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 41.29278,
+   "matched_code_percent": 31.910751920843865,
+   "complete_code_percent": 15.091923995960979,
+   "matched_data_percent": 28.451547103216186,
+   "complete_data_percent": 4.084069821778497
+  }
  }
 ]

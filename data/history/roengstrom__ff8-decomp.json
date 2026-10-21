@@ -130,5 +130,19 @@
    "matched_data_percent": 71.84581545451267,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T20:33:22Z",
+  "commit_sha": "d88b7dadee8c7c881de0e2fe3f4670fae29e771e",
+  "commit_message": "Merge pull request #161 from roengstrom/improve-disc-extraction",
+  "source": "report",
+  "version": "SLUS_008.92",
+  "measures": {
+   "fuzzy_match_percent": 67.06128,
+   "matched_code_percent": 67.06127650951596,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 71.84581545451267,
+   "complete_data_percent": 0.0
+  }
  }
 ]

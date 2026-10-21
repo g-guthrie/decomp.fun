@@ -175,5 +175,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T20:34:36Z",
+  "commit_sha": "b986921f6073eba9524f81e134f70df6d91bf3a8",
+  "commit_message": "report.json: agent-g run 114 (timproc_b5 5FC0 EXACT; gl_func_0005062C NM 65.4 -> 99.99 via NCC NM-only donor; post0b clip 0x2e7a4) \u2014 56.30% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 93.59649,
+   "matched_code_percent": 56.304234981989396,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

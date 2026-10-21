@@ -415,5 +415,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-21T21:03:08Z",
+  "commit_sha": "bf5edfe95537b67c0ee43724bbeb05502494bb50",
+  "commit_message": "Fix qualified REL layout probes and record verified ghost closure",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 76.65105,
+   "matched_code_percent": 61.12962556910963,
+   "complete_code_percent": 57.5849731907319,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]

@@ -164,5 +164,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T20:13:44Z",
+  "commit_sha": "d501d2c776b388cc53f1ddd3a27bf972c3397cf9",
+  "commit_message": "[adxb-names] name the ADX basic decoder (ADXB) and its AINF calls",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 51.0684,
+   "matched_code_percent": 51.068402585827585,
+   "complete_code_percent": 49.70836106817695,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]

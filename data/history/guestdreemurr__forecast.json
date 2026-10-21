@@ -173,5 +173,19 @@
    "matched_data_percent": 75.26927193060324,
    "complete_data_percent": 75.26927193060324
   }
+ },
+ {
+  "timestamp": "2026-10-21T20:44:05Z",
+  "commit_sha": "79e0b8eba6d5f3b008ba3773546d278d4537331d",
+  "commit_message": "VF: match and link pf_format, pf_fsfirst, pf_fsnext, pf_mkdir (#48)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 83.6997,
+   "matched_code_percent": 80.13300257508928,
+   "complete_code_percent": 74.65634882757391,
+   "matched_data_percent": 75.26927193060324,
+   "complete_data_percent": 75.26927193060324
+  }
  }
 ]

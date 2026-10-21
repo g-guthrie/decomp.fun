@@ -106,5 +106,19 @@
    "matched_data_percent": 0.06806706144536316,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T20:41:49Z",
+  "commit_sha": "6eb11f0242f6ff19d44cb2d27b9d41c3ccd219b3",
+  "commit_message": "Merge pull request #63 from vetusmagnus/fix/ci-progress-step",
+  "source": "report",
+  "version": "SCUS_973.53",
+  "measures": {
+   "fuzzy_match_percent": 13.57615,
+   "matched_code_percent": 13.575558218995631,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.06806706144536316,
+   "complete_data_percent": 0.0
+  }
  }
 ]

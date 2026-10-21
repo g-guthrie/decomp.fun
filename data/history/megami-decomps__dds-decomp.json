@@ -872,5 +872,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T21:13:41Z",
+  "commit_sha": "b69bc3ef093de579fe0c95570aeae3ca6a25c00f",
+  "commit_message": "Declare effCreateVertexDrawPacket before DDS2's first call to it",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.265018,
+   "matched_code_percent": 94.26501756236381,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
