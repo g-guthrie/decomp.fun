@@ -122,5 +122,19 @@
    "matched_data_percent": 9.021625494825622,
    "complete_data_percent": 1.1983883661650867
   }
+ },
+ {
+  "timestamp": "2026-10-21T20:07:22Z",
+  "commit_sha": "cb4e81a9e9ad2048dce56937bf492e4c93e3c85e",
+  "commit_message": "Splits setup cleaning first-pass",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 20.061172,
+   "matched_code_percent": 17.395522326180952,
+   "complete_code_percent": 1.5236413804364395,
+   "matched_data_percent": 9.140736042099823,
+   "complete_data_percent": 1.1983883661650867
+  }
  }
 ]

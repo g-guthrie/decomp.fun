@@ -401,5 +401,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-21T20:10:35Z",
+  "commit_sha": "e868a5b8ab21fdb760f0eb85d743aaf5ddfb399d",
+  "commit_message": "Record verified camera-counter match provenance",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 76.58207,
+   "matched_code_percent": 61.1230883841032,
+   "complete_code_percent": 57.578436005725486,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]

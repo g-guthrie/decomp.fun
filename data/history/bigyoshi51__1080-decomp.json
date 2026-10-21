@@ -161,5 +161,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T19:45:56Z",
+  "commit_sha": "f879c75a4dc4ed32e2b10a95fe525b9cc328c028",
+  "commit_message": "report.json: agent-g run 113 (gl_func_00062A2C EXACT via IDO 7.1 NCC: game_libs is C++ too; post0b clip 0x2e668) \u2014 55.46% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 93.20886,
+   "matched_code_percent": 55.45535101011425,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

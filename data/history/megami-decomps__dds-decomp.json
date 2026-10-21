@@ -858,5 +858,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T19:50:06Z",
+  "commit_sha": "d23019ba0639850c17ed67cdb74d41541e1108f4",
+  "commit_message": "Match DDS2 ptySkillMenuDrawEntry (+368 bytes)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.265018,
+   "matched_code_percent": 94.26501756236381,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

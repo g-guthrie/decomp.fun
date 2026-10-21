@@ -199,5 +199,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T19:46:18Z",
+  "commit_sha": "273429229394b5aeeae1ddc61348f41aeac5b001",
+  "commit_message": "CI: XS's progress artifact is europe_report again (#1218)",
+  "source": "report",
+  "version": "europe",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

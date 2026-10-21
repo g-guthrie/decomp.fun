@@ -115,5 +115,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-21T19:42:21Z",
+  "commit_sha": "ae0f9598ff44aa9c83daee3177ddb0b5792ae4f3",
+  "commit_message": "Add local material interface type needed to express the target virtual call.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 26.51479,
+   "matched_code_percent": 12.459626074834866,
+   "complete_code_percent": 2.427090887393631,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
