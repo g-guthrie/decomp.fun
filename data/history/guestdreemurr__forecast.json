@@ -103,5 +103,19 @@
    "matched_data_percent": 73.20517181777232,
    "complete_data_percent": 73.20517181777232
   }
+ },
+ {
+  "timestamp": "2026-10-21T08:26:37Z",
+  "commit_sha": "e6b473e1ebc046fb44fc2647b263a82f3cbd63a3",
+  "commit_message": "NANDCore.c: include esp.h and wchar_t.h headers so the TU compiles",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 80.223595,
+   "matched_code_percent": 76.65689426400172,
+   "complete_code_percent": 70.8118086986621,
+   "matched_data_percent": 73.20767429512524,
+   "complete_data_percent": 73.20767429512524
+  }
  }
 ]

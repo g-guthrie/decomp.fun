@@ -410,5 +410,19 @@
    "matched_data_percent": 39.55288366581078,
    "complete_data_percent": 39.55288366581078
   }
+ },
+ {
+  "timestamp": "2026-10-21T08:30:50Z",
+  "commit_sha": "375479df60455ff70e44c65f2e0968e492803f5e",
+  "commit_message": "Reach next code checkpoint with state transitions, ABI repairs and typed data",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 63.17097874242189,
+   "matched_code_percent": 63.17097874242189,
+   "complete_code_percent": 63.17097874242189,
+   "matched_data_percent": 39.610748321153466,
+   "complete_data_percent": 39.610748321153466
+  }
  }
 ]
