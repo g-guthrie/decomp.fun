@@ -732,5 +732,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T11:15:11Z",
+  "commit_sha": "1f8a8bc5e1c04abc7260051d09f6d272614ee0a3",
+  "commit_message": "Name scene room selection dispatcher",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.247107,
+   "matched_code_percent": 94.24710693638742,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

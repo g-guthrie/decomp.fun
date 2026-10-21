@@ -493,5 +493,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T11:11:49Z",
+  "commit_sha": "19ee0e0bce26089114c5a16d52697b7bdd7eb4ce",
+  "commit_message": "saveload: match SaveScreen_FileIdxDraw JPN",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.999985,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]

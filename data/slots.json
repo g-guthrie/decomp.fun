@@ -119,8 +119,8 @@
   "challengers": {
    "karamzov123/fzero-gx-decomp": {
     "since": "2026-10-20T01:00:51+00:00",
-    "runs": 35,
-    "ahead": 35,
+    "runs": 36,
+    "ahead": 36,
     "misses": 0
    }
   },

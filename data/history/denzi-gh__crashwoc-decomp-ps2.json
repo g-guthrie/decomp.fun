@@ -226,5 +226,19 @@
    "matched_data_percent": 33.82556549545417,
    "complete_data_percent": 33.82539403577506
   }
+ },
+ {
+  "timestamp": "2026-10-21T10:42:20Z",
+  "commit_sha": "93bec2f5ed4323393dc75aae05b22edc659141c0",
+  "commit_message": "Merge pull request #116 from denzi-gh/data/game_obj-nugscn-chase-debris",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 98.370544,
+   "matched_code_percent": 90.87187529436325,
+   "complete_code_percent": 52.554118285017445,
+   "matched_data_percent": 69.59016850199966,
+   "complete_data_percent": 69.58999704232053
+  }
  }
 ]

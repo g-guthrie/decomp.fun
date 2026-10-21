@@ -217,5 +217,19 @@
    "matched_data_percent": 28.451052280286532,
    "complete_data_percent": 3.9999842112755433
   }
+ },
+ {
+  "timestamp": "2026-10-21T11:23:39Z",
+  "commit_sha": "f4d996d0e912a4b4e7c1b93544bc5fa23dcf6b80",
+  "commit_message": "CPUCheck: Link the unit in every version",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 41.148647,
+   "matched_code_percent": 31.764860066646328,
+   "complete_code_percent": 14.949787168488374,
+   "matched_data_percent": 28.451037789783427,
+   "complete_data_percent": 4.0805555590924545
+  }
  }
 ]

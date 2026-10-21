@@ -438,5 +438,19 @@
    "matched_data_percent": 40.393387072881694,
    "complete_data_percent": 40.393387072881694
   }
+ },
+ {
+  "timestamp": "2026-10-21T11:29:01Z",
+  "commit_sha": "0fed2cb740edb070b85fad16b2ec5ec74cb86751",
+  "commit_message": "Recover partner transition and indexed frame parameters",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 63.29703773511581,
+   "matched_code_percent": 63.297037735115815,
+   "complete_code_percent": 63.297037735115815,
+   "matched_data_percent": 40.6945918921588,
+   "complete_data_percent": 40.6945918921588
+  }
  }
 ]
