@@ -303,5 +303,19 @@
    "matched_data_percent": 91.10159732635921,
    "complete_data_percent": 51.86354741908023
   }
+ },
+ {
+  "timestamp": "2026-10-21T04:41:57Z",
+  "commit_sha": "cb24f55fbbb183af5a04783d163468eb9b61536b",
+  "commit_message": "Fix MSL_C++ language detection glob and regex",
+  "source": "report",
+  "version": "GZLE01",
+  "measures": {
+   "fuzzy_match_percent": 82.79246,
+   "matched_code_percent": 79.74160423732589,
+   "complete_code_percent": 68.23562366949841,
+   "matched_data_percent": 91.10159732635921,
+   "complete_data_percent": 51.86354741908023
+  }
  }
 ]

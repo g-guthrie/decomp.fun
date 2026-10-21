@@ -184,5 +184,19 @@
    "matched_data_percent": 17.224868418420474,
    "complete_data_percent": 17.224657845778705
   }
+ },
+ {
+  "timestamp": "2026-10-21T05:09:23Z",
+  "commit_sha": "e82cc19b3ca730c825c08b4f579770ca6322d759",
+  "commit_message": "Merge pull request #112 from denzi-gh/data/newly-matched-units",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 98.348305,
+   "matched_code_percent": 88.50093050608838,
+   "complete_code_percent": 46.05330488776646,
+   "matched_data_percent": 24.09932816798643,
+   "complete_data_percent": 24.09911759534466
+  }
  }
 ]

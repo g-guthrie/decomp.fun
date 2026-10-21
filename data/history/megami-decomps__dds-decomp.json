@@ -634,5 +634,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T05:10:56Z",
+  "commit_sha": "ccd29a631806fadb2aa3b7007b8cf1c3b8581da1",
+  "commit_message": "Revert \"Purity: canonical model records, float counters, message/panel APIs, file-constructor payloads and single FileRequest owner with typed callbacks; VIF-array asset entries; mapping frame-bound members (H4/H5/H0)\"",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.215664,
+   "matched_code_percent": 94.21566383745112,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

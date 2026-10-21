@@ -50,5 +50,19 @@
    "matched_data_percent": 0.06806706144536316,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T04:40:32Z",
+  "commit_sha": "8f2affda68acc09d50db4e0627ef4df4ab793ec6",
+  "commit_message": "tests: the target list includes veldin",
+  "source": "report",
+  "version": "SCUS_973.53",
+  "measures": {
+   "fuzzy_match_percent": 11.427519,
+   "matched_code_percent": 11.427518376230678,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.06806706144536316,
+   "complete_data_percent": 0.0
+  }
  }
 ]

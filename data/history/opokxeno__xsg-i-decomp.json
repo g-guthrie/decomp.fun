@@ -64,5 +64,19 @@
    "matched_data_percent": 62.217538722734865,
    "complete_data_percent": 27.604792173174374
   }
+ },
+ {
+  "timestamp": "2026-10-21T05:12:47Z",
+  "commit_sha": "188319558e5511c0623d3a8f914294ff8d4f92e4",
+  "commit_message": "Merge pull request #20 from derwetterfrosch/ov10-tu004",
+  "source": "report",
+  "version": "SLUS_204.69",
+  "measures": {
+   "fuzzy_match_percent": 64.482056,
+   "matched_code_percent": 64.48205757686185,
+   "complete_code_percent": 10.571357333282188,
+   "matched_data_percent": 70.1629824952676,
+   "complete_data_percent": 6.421418087208411
+  }
  }
 ]
