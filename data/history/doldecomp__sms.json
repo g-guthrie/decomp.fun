@@ -378,5 +378,19 @@
    "matched_data_percent": 89.50917572318066,
    "complete_data_percent": 22.394043080844124
   }
+ },
+ {
+  "timestamp": "2026-10-21T11:38:02Z",
+  "commit_sha": "4d9f03cd047f67d898da9449b93bbf0f94e3b15b",
+  "commit_message": "Use GXBool for the GXGetTexObjAll mipmap flag",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 94.21332,
+   "matched_code_percent": 49.868749735382536,
+   "complete_code_percent": 18.417710095128587,
+   "matched_data_percent": 89.50917572318066,
+   "complete_data_percent": 22.394043080844124
+  }
  }
 ]

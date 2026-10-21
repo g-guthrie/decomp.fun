@@ -150,5 +150,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-21T12:41:41Z",
+  "commit_sha": "f7ca2eacaa3fe5696b8c1744a6a73b6fd76af58c",
+  "commit_message": "Merge origin/main with verified source and SLD restoration",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

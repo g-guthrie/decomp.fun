@@ -466,5 +466,19 @@
    "matched_data_percent": 40.77359643492001,
    "complete_data_percent": 40.77359643492001
   }
+ },
+ {
+  "timestamp": "2026-10-21T12:47:31Z",
+  "commit_sha": "25022ee556b102e80e6213cac20c81aaa326fb5c",
+  "commit_message": "Recover thread stacks, animation maps, and actor callbacks",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 63.464994947924765,
+   "matched_code_percent": 63.46499494792476,
+   "complete_code_percent": 63.46499494792476,
+   "matched_data_percent": 45.81692548884061,
+   "complete_data_percent": 45.81692548884061
+  }
  }
 ]

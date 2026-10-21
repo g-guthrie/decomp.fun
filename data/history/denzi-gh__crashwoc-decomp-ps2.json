@@ -240,5 +240,19 @@
    "matched_data_percent": 69.59016850199966,
    "complete_data_percent": 69.58999704232053
   }
+ },
+ {
+  "timestamp": "2026-10-21T13:06:30Z",
+  "commit_sha": "14cbcaab0fc164fa0a5c5acd11936dfdb6a88779",
+  "commit_message": "nuwater.c, nufnt.c, nuanim.c done, structs rewrites and fix (#117)",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 98.4112,
+   "matched_code_percent": 91.20283505220253,
+   "complete_code_percent": 52.554118285017445,
+   "matched_data_percent": 69.59016850199966,
+   "complete_data_percent": 69.58999704232053
+  }
  }
 ]

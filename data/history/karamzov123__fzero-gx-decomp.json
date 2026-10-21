@@ -303,5 +303,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-21T12:57:33Z",
+  "commit_sha": "4a60b3cadad63e6efecfd363ddab2794a447c43a",
+  "commit_message": "docs: harvest outcome and leftovers",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 75.45617,
+   "matched_code_percent": 59.351919821425895,
+   "complete_code_percent": 56.07107009632814,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]
