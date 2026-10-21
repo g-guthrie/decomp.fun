@@ -36,5 +36,19 @@
    "matched_data_percent": 0.06806706144536316,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T01:04:07Z",
+  "commit_sha": "053fc44e39d02e4d9efa02a2b28b37cc58f905f7",
+  "commit_message": "pr_check: read the sources once for the summary counts",
+  "source": "report",
+  "version": "SCUS_973.53",
+  "measures": {
+   "fuzzy_match_percent": 11.220785,
+   "matched_code_percent": 11.220784853018422,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.06806706144536316,
+   "complete_data_percent": 0.0
+  }
  }
 ]

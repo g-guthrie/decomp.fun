@@ -592,5 +592,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T01:18:11Z",
+  "commit_sha": "2298b7f5ccbaa2b1374db7416bf3b6598c8e1a22",
+  "commit_message": "Purity: shop selection-pair tables as unsized MenuSelectionPair arrays, dropping record casts (PurBoss3)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.215664,
+   "matched_code_percent": 94.21566383745112,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
