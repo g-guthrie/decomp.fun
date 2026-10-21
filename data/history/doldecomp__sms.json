@@ -364,5 +364,19 @@
    "matched_data_percent": 89.50917572318066,
    "complete_data_percent": 22.394043080844124
   }
+ },
+ {
+  "timestamp": "2026-10-21T01:42:54Z",
+  "commit_sha": "4a5694d0909fede85d430ded03d6a44b87d83dd7",
+  "commit_message": "EMitterViewObj naming",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 94.21332,
+   "matched_code_percent": 49.868749735382536,
+   "complete_code_percent": 18.417710095128587,
+   "matched_data_percent": 89.50917572318066,
+   "complete_data_percent": 22.394043080844124
+  }
  }
 ]
