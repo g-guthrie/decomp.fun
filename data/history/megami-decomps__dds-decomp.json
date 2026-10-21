@@ -746,5 +746,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-21T12:30:05Z",
+  "commit_sha": "b6d88d89c0fc010c027977b6a45e6d640ed602af",
+  "commit_message": "Name current display mode index",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.247107,
+   "matched_code_percent": 94.24710693638742,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

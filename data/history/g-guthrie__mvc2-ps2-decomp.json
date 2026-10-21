@@ -452,5 +452,19 @@
    "matched_data_percent": 40.6945918921588,
    "complete_data_percent": 40.6945918921588
   }
+ },
+ {
+  "timestamp": "2026-10-21T11:50:54Z",
+  "commit_sha": "45659f29b7e6a998fa1479c626d0ccf6aee8ac03",
+  "commit_message": "Recover mirrored parent setups and full coordinate table owners",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 63.344279496346964,
+   "matched_code_percent": 63.34427949634696,
+   "complete_code_percent": 63.34427949634696,
+   "matched_data_percent": 40.77359643492001,
+   "complete_data_percent": 40.77359643492001
+  }
  }
 ]
