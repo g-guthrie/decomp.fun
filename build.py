@@ -498,13 +498,25 @@ def code_bar(v, extra=""):
     return bar("code", v.total_code, v.linked_pct, v.code_pct, v.fuzzy_pct, v.linked_code, v.matched_code, extra)
 
 
-def legend(kind="code"):
+def legend(data=False, fuzzy=True):
+    """Colour key. With data=True each swatch pair is code (green) then data (blue)."""
+    pair = lambda k: f'<i class="sw {k}"></i><i class="sw data-{k}"></i>' if data else f'<i class="sw {k}"></i>'
     return (
-        f'<p class="legend {kind}" aria-hidden="true"><span><i class="sw linked"></i>Fully linked</span>'
-        '<span><i class="sw matched striped"></i>Decompiled</span>'
-        + ('<span><i class="sw fuzzy striped"></i>Partly decompiled</span>' if kind == "code" else "")
+        f'<p class="legend" aria-hidden="true"><span>{pair("linked")}Fully linked</span>'
+        f'<span>{pair("matched striped")}Decompiled</span>'
+        + ('<span><i class="sw fuzzy striped"></i>Partly decompiled</span>' if fuzzy else "")
+        + ('<span class="muted">Green: code · Blue: data</span>' if data else "")
         + "</p>"
     )
+
+
+def section_head(name, total, matched_pct, linked_pct):
+    """Section heading with its numbers written out, e.g. "Code 64.03% decompiled · 32.23% fully linked (1.07 MB)"."""
+    stats = f"{fmt_pct(matched_pct)} decompiled"
+    if linked_pct > 0:
+        stats += f" · {fmt_pct(linked_pct)} fully linked"
+    size = f" <small class=muted>({fmt_size(total)})</small>" if total else ""
+    return f'<h2 class="section">{name} <span class="section-stats">{stats}</span>{size}</h2>'
 
 
 # ---------------------------------------------------------------- directory
@@ -653,7 +665,7 @@ def build_systems(site, projects, built):
     body = (
         '<hgroup class="intro"><h1>Systems</h1><p class="muted">Every system with a tracked decompilation. '
         "Each bar shows how much of that system&rsquo;s code is decompiled, across games with a live report.</p></hgroup>"
-        f"{legend('sys')}{sections}"
+        f"{legend(fuzzy=False)}{sections}"
     )
     write("systems/index.html", page(site, built, f"Systems · {site['name']}", body, "Matching decompilation progress by game system."))
 
@@ -806,7 +818,7 @@ def build_report(site, p, v, base, built):
         "</div>"
     )
     alt = f'<p class="report-alt muted"><small>Repository name: {e(p.alt)}</small></p>' if p.alt else ""
-    stat = f'<p class="headline"><strong>{fmt_pct(v.code_pct)}</strong> decompiled'
+    stat = f'<p class="headline"><strong>{fmt_pct(v.code_pct)}</strong> of code decompiled'
     if v.linked_pct > 0:
         stat += f' · <span class="muted">{fmt_pct(v.linked_pct)} fully linked</span>'
     stat += "</p>"
@@ -827,13 +839,12 @@ def build_report(site, p, v, base, built):
             f"({v.updated.strftime('%Y-%m-%d')}). They update by themselves once the project publishes a new report.</small></div>"
         )
 
-    code = (f'<h2 class="section">Code {f"<small class=muted>({fmt_size(v.total_code)})</small>" if v.total_code else ""}</h2>'
-            f"{code_bar(v)}")
+    code = section_head("Code", v.total_code, v.code_pct, v.linked_pct) + code_bar(v)
     data = ""
     if v.total_data:
-        data = (
-            f'<h2 class="section">Data <small class="muted">({fmt_size(v.total_data)})</small></h2>'
-            + bar("data", v.total_data, pct(v.linked_data, v.total_data), pct(v.matched_data, v.total_data), None, v.linked_data, v.matched_data)
+        d_matched, d_linked = pct(v.matched_data, v.total_data), pct(v.linked_data, v.total_data)
+        data = section_head("Data", v.total_data, d_matched, d_linked) + bar(
+            "data", v.total_data, d_linked, d_matched, None, v.linked_data, v.matched_data
         )
     sha = v.commit.get("sha", "")
     commit = ""
@@ -872,7 +883,7 @@ def build_report(site, p, v, base, built):
     head_block = (
         f'<div class="report-top"><div class="report-head"><h1>{e(p.title)}{archived_repo}{last_known}</h1>{alt}{stat}</div>{actions}</div>'
     )
-    body = f"{head_block}{desc}{facts}{version_switch(p, v)}{notice}{legend()}{code}{data}{commit}{units}"
+    body = f"{head_block}{desc}{facts}{version_switch(p, v)}{notice}{legend(bool(v.total_data))}{code}{data}{commit}{units}"
     short = PLAT.get(p.platform, {}).get("short", p.platform)
     title = f"{p.title} ({short}) · {site['name']}"
     src_repo = ((p.raw.get("source") or {}).get("repo") or f"{p.owner}/{p.repo}").lower()

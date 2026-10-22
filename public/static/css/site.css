@@ -5,8 +5,8 @@
   --bar-stripe: #00000026;
   --bar-code-linked: #0e9a5a;
   --bar-code-matched: #5fcd95;
-  --bar-data-linked: #029ae8;
-  --bar-data-matched: #017fc0;
+  --bar-data-linked: #0a7fc2;
+  --bar-data-matched: #6cc0ee;
   --card-shadow-text: none;
   --badge-bg: #e7eaf0;
   --badge-fg: #3d475c;
@@ -39,6 +39,8 @@
   --bar-stripe: #ffffff26;
   --bar-code-linked: #2bc06f;
   --bar-code-matched: #1c7a4e;
+  --bar-data-linked: #3aaef0;
+  --bar-data-matched: #1b5f8c;
   --card-shadow-text: 0 1px 2px #0007;
   --badge-bg: #2a3140;
   --badge-fg: #c2c7d0;
@@ -72,6 +74,8 @@
     --bar-stripe: #ffffff26;
     --bar-code-linked: #2bc06f;
     --bar-code-matched: #1c7a4e;
+    --bar-data-linked: #3aaef0;
+    --bar-data-matched: #1b5f8c;
     --card-shadow-text: 0 1px 2px #0007;
     --badge-bg: #2a3140;
     --badge-fg: #c2c7d0;
@@ -202,6 +206,10 @@ main h2.section {
   font-size: 1rem;
   margin: calc(var(--pico-spacing) * 1.25) 0 calc(var(--pico-spacing) * 0.5);
 }
+main h2.section .section-stats {
+  font-weight: normal;
+  margin-left: 0.35em;
+}
 
 body > footer {
   display: flex;
@@ -313,11 +321,16 @@ a.plat:hover {
 .sw.matched {
   background-color: var(--bar-code-matched);
 }
-.bar.data .linked {
+.bar.data .linked,
+.sw.data-linked {
   background-color: var(--bar-data-linked);
 }
-.bar.data .matched {
+.bar.data .matched,
+.sw.data-matched {
   background-color: var(--bar-data-matched);
+}
+.sw + .sw {
+  margin-left: -0.15em;
 }
 .bar .fuzzy {
   background-color: transparent;
