@@ -130,5 +130,19 @@
    "matched_data_percent": 69.74106594455111,
    "complete_data_percent": 0.1977834348647385
   }
+ },
+ {
+  "timestamp": "2026-10-22T14:14:57Z",
+  "commit_sha": "9e742c933aa29ed7a713e56ef75f84102ea1d5ba",
+  "commit_message": "fix(scores): make shared score persistence recoverable (#859)",
+  "source": "report",
+  "version": "1.9.93",
+  "measures": {
+   "fuzzy_match_percent": 64.09553341763734,
+   "matched_code_percent": 64.09553341763734,
+   "complete_code_percent": 0.008903394001616521,
+   "matched_data_percent": 69.74106594455111,
+   "complete_data_percent": 0.1977834348647385
+  }
  }
 ]
