@@ -998,5 +998,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T10:47:57Z",
+  "commit_sha": "0982d0285fc3a4b72e7d6579a89060b2b9c54295",
+  "commit_message": "Clarify scoped SDK-style store provenance",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.332083,
+   "matched_code_percent": 94.33208290629757,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

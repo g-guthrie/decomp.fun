@@ -471,5 +471,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-22T11:17:07Z",
+  "commit_sha": "59c5841015d67e19618fea05325e064a094ef82e",
+  "commit_message": "manual.py: size-ranked queue (--by size, --min-size/--max-size/--max-best) and try --rows/--glob with a differing-row count",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 77.10873,
+   "matched_code_percent": 62.2510251804195,
+   "complete_code_percent": 58.40021463757438,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]
