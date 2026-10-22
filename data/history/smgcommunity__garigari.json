@@ -192,5 +192,19 @@
    "matched_data_percent": 9.168692955562603,
    "complete_data_percent": 1.1983883661650867
   }
+ },
+ {
+  "timestamp": "2026-10-21T23:43:02Z",
+  "commit_sha": "31cf109943eb53119e76c65e907604bc2f578d01",
+  "commit_message": "Fix TVec3f Ctor symbol",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 20.210297,
+   "matched_code_percent": 17.544646302548184,
+   "complete_code_percent": 1.5236413804364395,
+   "matched_data_percent": 9.168692955562603,
+   "complete_data_percent": 1.1983883661650867
+  }
  }
 ]
