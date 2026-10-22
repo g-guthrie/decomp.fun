@@ -746,5 +746,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-22T19:24:19Z",
+  "commit_sha": "2b2ab701c86d5f538c47a981b328d0567a1950f5",
+  "commit_message": "Recover effect fade, launch motion and air-action eligibility",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 80.80515020208301,
+   "matched_code_percent": 80.80515020208301,
+   "complete_code_percent": 80.80515020208301,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]

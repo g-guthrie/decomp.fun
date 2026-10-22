@@ -120,5 +120,19 @@
    "matched_data_percent": 0.06806706144536316,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T18:14:22Z",
+  "commit_sha": "fc118a0b7442665a2b181055dc352ce5d117c41b",
+  "commit_message": "Merge pull request #64 from hev7/decomp/matches-20261021",
+  "source": "report",
+  "version": "SCUS_973.53",
+  "measures": {
+   "fuzzy_match_percent": 14.213341,
+   "matched_code_percent": 14.212748351334401,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.06806706144536316,
+   "complete_data_percent": 0.0
+  }
  }
 ]
