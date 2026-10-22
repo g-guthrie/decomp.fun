@@ -1012,5 +1012,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T16:19:33Z",
+  "commit_sha": "021b54133c956d33aeb2665e5cb119d5654a17aa",
+  "commit_message": "DDS2's mantra menus: their fields, types and names",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.332083,
+   "matched_code_percent": 94.33208290629757,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

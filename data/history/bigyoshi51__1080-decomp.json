@@ -217,5 +217,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T16:17:25Z",
+  "commit_sha": "0b8cb2dab2259cc2cbea934203f98ed64f382c87",
+  "commit_message": "report.json: agent-c run 118 (10 post0b list-iterator NCC EXACT: 3DBEC, 3DDC0, 3E1B0, 41EDC, 3D2C8, 47F9C, 478FC, 40E90, 40974, 3863C; clip 0x2e82c) \u2014 57.75% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 93.85117,
+   "matched_code_percent": 57.74756446690926,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

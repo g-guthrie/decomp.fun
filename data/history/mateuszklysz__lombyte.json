@@ -271,5 +271,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-22T15:46:15Z",
+  "commit_sha": "486068b34f88daedb4d34fd966e29e0cf30901cc",
+  "commit_message": "fix: pin the overlay SN driver to its own specs and cc1 (#241)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 98.974016,
+   "matched_code_percent": 98.83177016921407,
+   "complete_code_percent": 98.83177016921407,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]
