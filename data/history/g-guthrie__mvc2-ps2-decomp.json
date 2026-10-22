@@ -550,5 +550,19 @@
    "matched_data_percent": 57.692450128382376,
    "complete_data_percent": 57.692450128382376
   }
+ },
+ {
+  "timestamp": "2026-10-21T22:27:43Z",
+  "commit_sha": "8c017738bb7f1b276feae0f4d91788d48a7c830d",
+  "commit_message": "Close mixed callback copy view and actor adapter APIs",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 64.67227090781905,
+   "matched_code_percent": 64.67227090781907,
+   "complete_code_percent": 64.67227090781907,
+   "matched_data_percent": 58.42601965238001,
+   "complete_data_percent": 58.42601965238001
+  }
  }
 ]

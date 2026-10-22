@@ -360,5 +360,19 @@
    "matched_data_percent": 19.721588904048772,
    "complete_data_percent": 19.721588904048772
   }
+ },
+ {
+  "timestamp": "2026-10-22T01:28:57Z",
+  "commit_sha": "8e115fd21cb7a5b63c7017a1fcaed86224abce6f",
+  "commit_message": "uilistdir context",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.09579,
+   "matched_code_percent": 52.11392730686739,
+   "complete_code_percent": 25.855036464537395,
+   "matched_data_percent": 19.869167397105674,
+   "complete_data_percent": 19.869167397105674
+  }
  }
 ]
