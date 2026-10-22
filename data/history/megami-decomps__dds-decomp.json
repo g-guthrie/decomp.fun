@@ -970,5 +970,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T09:20:03Z",
+  "commit_sha": "9ea0e1acd028d1e374252eb9e185ce6d1ef641ab",
+  "commit_message": "Correct glyph atlas initialization types",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.295068,
+   "matched_code_percent": 94.29506761261305,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
