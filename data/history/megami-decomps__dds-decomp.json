@@ -984,5 +984,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T10:05:29Z",
+  "commit_sha": "f27ad4bdd688a9748d7a174be621aa57be191ad8",
+  "commit_message": "Merge pull request #655 from Artemis626/match-light-gizmo-packet",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.332083,
+   "matched_code_percent": 94.33208290629757,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
