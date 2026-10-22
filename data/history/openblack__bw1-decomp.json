@@ -287,5 +287,19 @@
    "matched_data_percent": 28.451852691275842,
    "complete_data_percent": 4.980257738062648
   }
+ },
+ {
+  "timestamp": "2026-10-22T19:47:16Z",
+  "commit_sha": "1b67e08dae2a01037a9091079b5f3e8f892c36c4",
+  "commit_message": "Improve splits",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 41.712727,
+   "matched_code_percent": 32.37479824864965,
+   "complete_code_percent": 15.596863363600008,
+   "matched_data_percent": 28.452019976301635,
+   "complete_data_percent": 4.980260274576104
+  }
  }
 ]

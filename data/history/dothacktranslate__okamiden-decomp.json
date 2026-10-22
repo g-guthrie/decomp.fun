@@ -148,5 +148,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-22T19:56:08Z",
+  "commit_sha": "013a219adb2c02fba23d367b2b1906566db4120f",
+  "commit_message": "arm9: corpus-wide search improves 189 fuzzy and 0 exact functions",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 52.21359443055031,
+   "matched_code_percent": 4.1873610081541885,
+   "complete_code_percent": 4.1873610081541885,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

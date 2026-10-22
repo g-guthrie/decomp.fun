@@ -774,5 +774,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-22T20:17:50Z",
+  "commit_sha": "b5e33697ff1004fa6a2307cbfd2a733f16292e7e",
+  "commit_message": "Recover owner-relative positioning with correct callback contracts",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 80.83344668117519,
+   "matched_code_percent": 80.83344668117519,
+   "complete_code_percent": 80.83344668117519,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]
