@@ -942,5 +942,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T06:20:54Z",
+  "commit_sha": "69f1a80cc3e04225c540ec0c1a2424bd55515cba",
+  "commit_message": "Name the room loader's small data in both games",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.265018,
+   "matched_code_percent": 94.26501756236381,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
