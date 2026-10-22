@@ -319,5 +319,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T20:43:03Z",
+  "commit_sha": "ac9b34fab75ffb99362ea5937476bea524715604",
+  "commit_message": "sh2: match `mar_sub_damage`",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.6733346,
+   "matched_code_percent": 6.804751431104792,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -158,5 +158,19 @@
    "matched_data_percent": 71.84581545451267,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T20:52:21Z",
+  "commit_sha": "32e25a41e4788d69d60e99286e8eda30b0b8d5a4",
+  "commit_message": "Merge pull request #168 from roengstrom/decomp-func_80027038",
+  "source": "report",
+  "version": "SLUS_008.92",
+  "measures": {
+   "fuzzy_match_percent": 67.18952,
+   "matched_code_percent": 67.18952470844198,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 71.84581545451267,
+   "complete_data_percent": 0.0
+  }
  }
 ]

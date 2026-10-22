@@ -549,5 +549,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T21:14:53Z",
+  "commit_sha": "df08994979892d8295b71373bf25309f0c8bacbe",
+  "commit_message": "EUR: migrate bodyprog to C (~75 nonmatchings)",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.999985,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]

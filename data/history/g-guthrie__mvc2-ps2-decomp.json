@@ -788,5 +788,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-22T21:16:06Z",
+  "commit_sha": "a8d7e74808459b1c495cfb22d944f913b187de91",
+  "commit_message": "Recover glyph and effect callbacks with native initialization order",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 80.86647948080211,
+   "matched_code_percent": 80.86647948080211,
+   "complete_code_percent": 80.86647948080211,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]
