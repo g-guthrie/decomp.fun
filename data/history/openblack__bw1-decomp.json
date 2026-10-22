@@ -273,5 +273,19 @@
    "matched_data_percent": 28.451547103216186,
    "complete_data_percent": 4.084782860584361
   }
+ },
+ {
+  "timestamp": "2026-10-22T12:34:15Z",
+  "commit_sha": "bf3be522a4715b39113b5be98998a15367859b8f",
+  "commit_message": "LH3DRender: Set to Matching",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 41.71228,
+   "matched_code_percent": 32.374349548785545,
+   "complete_code_percent": 15.596863363600008,
+   "matched_data_percent": 28.451852691275842,
+   "complete_data_percent": 4.980257738062648
+  }
  }
 ]
