@@ -802,5 +802,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-22T22:25:48Z",
+  "commit_sha": "22c4a2e6bfe208c206951d828e7d2009b817cb9b",
+  "commit_message": "Recover 24 exact state transition and motion callbacks",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 81.17130421265351,
+   "matched_code_percent": 81.17130421265351,
+   "complete_code_percent": 81.17130421265351,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]

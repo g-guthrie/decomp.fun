@@ -249,5 +249,19 @@
    "matched_data_percent": 24.414876402545016,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T21:16:00Z",
+  "commit_sha": "1432ebf688aa8d5bb5a90e1c31ba165e7eed5951",
+  "commit_message": "battle: fix match after merge",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 67.167915,
+   "matched_code_percent": 67.16791491132263,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.414876402545016,
+   "complete_data_percent": 0.0
+  }
  }
 ]

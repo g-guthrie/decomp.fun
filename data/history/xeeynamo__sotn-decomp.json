@@ -213,5 +213,19 @@
    "matched_data_percent": 72.00176227900008,
    "complete_data_percent": 27.94958436910713
   }
+ },
+ {
+  "timestamp": "2026-10-22T22:07:29Z",
+  "commit_sha": "7bc54d8157b6bed77e6bd15e5db9461a734fe1e5",
+  "commit_message": "RDAI assets (#3758)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 81.51693,
+   "matched_code_percent": 81.48113053252995,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 72.00176227900008,
+   "complete_data_percent": 27.94958436910713
+  }
  }
 ]
