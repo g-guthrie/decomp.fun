@@ -299,5 +299,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-22T17:36:55Z",
+  "commit_sha": "4e1f255e524d922af78aecc2af49df3deb57a709",
+  "commit_message": "docs: README title closer to the logo, as on the website (#244)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 98.974016,
+   "matched_code_percent": 98.83177016921407,
+   "complete_code_percent": 98.83177016921407,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]

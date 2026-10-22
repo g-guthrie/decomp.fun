@@ -380,5 +380,19 @@
    "matched_data_percent": 69.59016850199966,
    "complete_data_percent": 69.58999704232053
   }
+ },
+ {
+  "timestamp": "2026-10-22T17:58:48Z",
+  "commit_sha": "0392276fec95aa12008506773ef535416a19dc5f",
+  "commit_message": "Merge pull request #136 from denzi-gh/gamecode-update",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 98.7344,
+   "matched_code_percent": 92.97932519851221,
+   "complete_code_percent": 52.554118285017445,
+   "matched_data_percent": 69.59016850199966,
+   "complete_data_percent": 69.58999704232053
+  }
  }
 ]

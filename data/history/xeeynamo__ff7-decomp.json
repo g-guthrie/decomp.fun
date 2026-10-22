@@ -221,5 +221,19 @@
    "matched_data_percent": 24.414876402545016,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T18:30:09Z",
+  "commit_sha": "6e4450d1ff979be46355ec6ec99871134ecc153f",
+  "commit_message": "battle: fixing BattleInitMain end loop by creating BatresShared union (#380)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 66.86886,
+   "matched_code_percent": 66.86885629583398,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.414876402545016,
+   "complete_data_percent": 0.0
+  }
  }
 ]

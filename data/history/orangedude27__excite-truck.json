@@ -157,5 +157,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-22T18:06:14Z",
+  "commit_sha": "7767c9a8831ab5efcbbad3437c6e22eac6aa411e",
+  "commit_message": "Add virtual-call helper declaration needed by StrmPlayer::Update matching attempt.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 30.418499,
+   "matched_code_percent": 12.989158871641408,
+   "complete_code_percent": 2.4333854823036645,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
