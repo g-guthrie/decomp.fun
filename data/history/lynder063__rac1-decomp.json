@@ -351,5 +351,19 @@
    "matched_data_percent": 0.5510162043394672,
    "complete_data_percent": 0.41941316488144287
   }
+ },
+ {
+  "timestamp": "2026-10-22T19:36:54Z",
+  "commit_sha": "b5fff6ea193f191d8782f2a11fd9988986921155",
+  "commit_message": "Merge pull request #112 from Drustburn/pr/handwritten-asm-2",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 98.93103107308121,
+   "matched_code_percent": 98.40142956854432,
+   "complete_code_percent": 56.141802169773115,
+   "matched_data_percent": 0.5510162043394672,
+   "complete_data_percent": 0.48235374897006317
+  }
  }
 ]
