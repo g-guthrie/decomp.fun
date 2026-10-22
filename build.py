@@ -574,8 +574,8 @@ def card(p, now):
         f'data-size="{v.total_code}" data-search="{e(search)}">{art}'
         f'<div class="project-head"><h2><a class="project-link" data-card-link href="{p.url()}">{e(p.title)}</a>{others}{archived}</h2>'
         f"{plat_badge(p.platform, link=True)}</div>{alt}"
-        f'<p class="project-stats"><span>{stats}</span> <span title="Time since the last commit with a progress report">'
-        f'· last commit <time data-ago="short" datetime="{e(v.commit["timestamp"])}">{ago_short(v.updated, now)}</time></span></p>'
+        f'<p class="project-stats"><span>{stats}</span> <span class="ago-line" title="Time since the last commit with a progress report">'
+        f'last commit <time data-ago="short" datetime="{e(v.commit["timestamp"])}">{ago_short(v.updated, now)}</time></span></p>'
         f'{code_bar(v, "thin")}</article>'
     )
 
@@ -904,7 +904,7 @@ def build_history(site, p, v, base, built):
     note = ""
     if archive_points:
         note = (
-            f'<p class="muted"><small>{archive_points} earlier point{"s" if archive_points != 1 else ""} come from monthly '
+            f'<p class="muted"><small>{archive_points} earlier point{"s come" if archive_points != 1 else " comes"} from monthly '
             "snapshots of the old decomp.dev index; newer points come from this project&rsquo;s own progress reports.</small></p>"
         )
     body = (
@@ -961,6 +961,9 @@ taken from the original binary.</dd>
 <dt><i class="sw fuzzy striped" aria-hidden="true"></i>Partly decompiled</dt>
 <dd>Functions that are written but don&rsquo;t match exactly yet, counted by how close they are. Shown as the faint stripes at the
 end of a bar.</dd>
+<dt><i class="sw data-linked" aria-hidden="true"></i><i class="sw data-matched striped" aria-hidden="true"></i>Data</dt>
+<dd>The game&rsquo;s data (tables, strings, constants), measured the same way and shown in blue: decompiled, then fully linked.
+Data often lags behind code; the main percentage is code only.</dd>
 <dt>Complete</dt>
 <dd>100% of the code decompiled.</dd>
 <dt>Source file (unit)</dt>
@@ -1218,6 +1221,11 @@ def security_headers():
         "  X-Content-Type-Options: nosniff\n"
         "  Referrer-Policy: strict-origin-when-cross-origin\n"
         "  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()\n"
+        # Pages: no-transform stops Cloudflare injecting its analytics script (the CSP would block it anyway).
+        "/\n"
+        "  Cache-Control: public, max-age=0, must-revalidate, no-transform\n"
+        "/*/\n"
+        "  Cache-Control: public, max-age=0, must-revalidate, no-transform\n"
         "/static/*\n"
         "  Cache-Control: public, max-age=86400\n"
         "/*.json\n"

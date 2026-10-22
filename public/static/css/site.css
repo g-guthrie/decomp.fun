@@ -608,6 +608,18 @@ details.dropdown summary + ul {
 .project-stats > span:first-child {
   color: var(--pico-color);
 }
+.project-stats > .ago-line {
+  display: block;
+}
+.project-stats > .ago-line::first-letter {
+  text-transform: uppercase;
+}
+#directory.dense .project-stats > .ago-line {
+  display: inline;
+}
+#directory.dense .project-stats > .ago-line::before {
+  content: "· ";
+}
 .project .bar.thin {
   margin-top: auto;
 }
