@@ -732,5 +732,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-22T16:41:29Z",
+  "commit_sha": "ff2423c964e2e64e080cfe02a3ad344dcf03f03b",
+  "commit_message": "Fix clean splitting and portable assembly normalization",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 80.76021587906109,
+   "matched_code_percent": 80.76021587906109,
+   "complete_code_percent": 80.76021587906109,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]

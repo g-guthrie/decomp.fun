@@ -1026,5 +1026,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T16:46:31Z",
+  "commit_sha": "e101b8daf7242163566cb0ed74acc7fe72a68fcb",
+  "commit_message": "Types other code reads, in headers; externs as their definitions",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.332083,
+   "matched_code_percent": 94.33208290629757,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

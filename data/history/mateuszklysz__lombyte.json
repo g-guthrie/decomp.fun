@@ -285,5 +285,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-22T16:58:10Z",
+  "commit_sha": "3f4ebcfd4406c42efc5f4dc8e2820ee160f8d478",
+  "commit_message": "chore: simpler setup with fixed tool paths, no patched compiler and docs in folders (#242)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 98.974016,
+   "matched_code_percent": 98.83177016921407,
+   "complete_code_percent": 98.83177016921407,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]

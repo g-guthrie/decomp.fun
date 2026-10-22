@@ -513,5 +513,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-22T16:50:50Z",
+  "commit_sha": "fde7bfa418a8daf9d478c843e36b7d135b492930",
+  "commit_message": "harvest: take blocked functions and the ref's matching units as candidates",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 77.42856,
+   "matched_code_percent": 62.78162669677404,
+   "complete_code_percent": 58.843653687176634,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]
