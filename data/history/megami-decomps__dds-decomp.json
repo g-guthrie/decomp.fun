@@ -956,5 +956,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T08:25:36Z",
+  "commit_sha": "3a610c812cd9da3f4e448086217062832bd8e3a3",
+  "commit_message": "Pass the arguments three short calls leave in a0",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.265018,
+   "matched_code_percent": 94.26501756236381,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
