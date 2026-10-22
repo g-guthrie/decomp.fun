@@ -1068,5 +1068,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T19:27:29Z",
+  "commit_sha": "2b718ed80b74a8174ced13fdc4109e3f52068468",
+  "commit_message": "Effect classes and the effect editor's parts list and colour track, named in both games",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.332083,
+   "matched_code_percent": 94.33208290629757,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
