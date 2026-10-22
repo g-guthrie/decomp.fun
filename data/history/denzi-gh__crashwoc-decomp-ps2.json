@@ -352,5 +352,19 @@
    "matched_data_percent": 69.59016850199966,
    "complete_data_percent": 69.58999704232053
   }
+ },
+ {
+  "timestamp": "2026-10-22T15:12:25Z",
+  "commit_sha": "53e69aad12b8139c0c0f7d7ab279f7be31ed1881",
+  "commit_message": "Merge pull request #133 from denzi-gh/data/vutext-names",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 98.50932,
+   "matched_code_percent": 92.92408037739595,
+   "complete_code_percent": 52.554118285017445,
+   "matched_data_percent": 69.59016850199966,
+   "complete_data_percent": 69.58999704232053
+  }
  }
 ]

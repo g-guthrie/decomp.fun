@@ -257,5 +257,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-22T15:08:19Z",
+  "commit_sha": "cc5ef33780c31572ecc0718bdac9a75326452427",
+  "commit_message": "overlay: promote gunship_follow_path (3984 B) (#240)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 98.974016,
+   "matched_code_percent": 98.83177016921407,
+   "complete_code_percent": 98.83177016921407,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]

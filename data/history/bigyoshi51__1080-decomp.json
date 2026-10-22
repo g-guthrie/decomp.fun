@@ -203,5 +203,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T15:17:59Z",
+  "commit_sha": "322f9fb374481d7bd5eb87e0cfdd3925c60ec20a",
+  "commit_message": "report.json: agent-c run 117 (7 NCC EXACT: bootup B1B4/7328, post0b 372D4/38598/38728/38964/3D48C list-iterator family; post0b clip 0x2e7e4) \u2014 57.34% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 93.70039,
+   "matched_code_percent": 57.3412053398211,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

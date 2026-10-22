@@ -66,5 +66,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-22T15:19:56Z",
+  "commit_sha": "cdd2099cb8248ea0de1d4e25bf3a69c4e1c4fd90",
+  "commit_message": "OK overlay 2 (#71)",
+  "source": "report",
+  "version": "us1",
+  "measures": {
+   "fuzzy_match_percent": 61.842285,
+   "matched_code_percent": 61.84228553008019,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
