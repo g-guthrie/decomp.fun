@@ -22,5 +22,19 @@
    "matched_data_percent": 1.5520386285169763,
    "complete_data_percent": 1.5740836216368053
   }
+ },
+ {
+  "timestamp": "2026-10-22T01:58:05Z",
+  "commit_sha": "2f8b405500ea925a6900375bebd36c23afed0aae",
+  "commit_message": "Provide more useful name to FS_VerifyOverlay",
+  "source": "report",
+  "version": "usa",
+  "measures": {
+   "fuzzy_match_percent": 2.2024422,
+   "matched_code_percent": 2.01674218940154,
+   "complete_code_percent": 0.9241058769567163,
+   "matched_data_percent": 1.5740836216368053,
+   "complete_data_percent": 1.5740836216368053
+  }
  }
 ]
