@@ -760,5 +760,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-22T19:53:32Z",
+  "commit_sha": "cd9a118704011ab90cdfd7b0d9ea019f9842fa28",
+  "commit_message": "Recover exact two-word activation-mask updates",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 80.82288104305923,
+   "matched_code_percent": 80.82288104305923,
+   "complete_code_percent": 80.82288104305923,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]
