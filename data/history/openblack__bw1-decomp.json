@@ -259,5 +259,19 @@
    "matched_data_percent": 28.451547103216186,
    "complete_data_percent": 4.084069821778497
   }
+ },
+ {
+  "timestamp": "2026-10-22T02:33:26Z",
+  "commit_sha": "bcefe7ff94e4abd659bf4e2f59036f7f5ca7dc4a",
+  "commit_message": "VillagerHome: Set to Matching",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 41.33784,
+   "matched_code_percent": 31.99893957939516,
+   "complete_code_percent": 15.224009178845208,
+   "matched_data_percent": 28.451547103216186,
+   "complete_data_percent": 4.084782860584361
+  }
  }
 ]
