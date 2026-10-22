@@ -564,5 +564,19 @@
    "matched_data_percent": 58.42601965238001,
    "complete_data_percent": 58.42601965238001
   }
+ },
+ {
+  "timestamp": "2026-10-22T03:24:56Z",
+  "commit_sha": "ebe682380ea3dc98a2830984856548fa5c8dadd6",
+  "commit_message": "Reconstruct 603 placeholder pointer tables as symbolic C",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 66.22991314316803,
+   "matched_code_percent": 66.22991314316803,
+   "complete_code_percent": 66.22991314316803,
+   "matched_data_percent": 61.774454374876555,
+   "complete_data_percent": 61.774454374876555
+  }
  }
 ]
