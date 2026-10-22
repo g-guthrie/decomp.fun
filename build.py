@@ -1242,7 +1242,8 @@ def main():
 
     contesters = [c for c in (Project(p) for p in contesting_projects()) if c.versions]
     # Dispatch runs (submission, refresh) overlap, so they build with the committed slot state; full runs record it.
-    record = os.environ.get("GITHUB_EVENT_NAME") != "repository_dispatch"
+    # Local builds never record: only real update runs count toward takeover streaks.
+    record = os.environ.get("GITHUB_EVENT_NAME") not in (None, "", "repository_dispatch")
     assigned, promoted = slots.assign(projects, contesters, record=record)
     for c in promoted:  # won a dispute: now a listed project
         sub_path = slots.submission_path(slots.key(c))
