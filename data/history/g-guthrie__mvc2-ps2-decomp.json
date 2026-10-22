@@ -578,5 +578,19 @@
    "matched_data_percent": 61.774454374876555,
    "complete_data_percent": 61.774454374876555
   }
+ },
+ {
+  "timestamp": "2026-10-22T03:29:59Z",
+  "commit_sha": "ee950b26ec604fc2195728dd7349db41a0d834aa",
+  "commit_message": "Reconstruct 105 data units as typed C from data batches hd1-hd3",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 66.22991314316803,
+   "matched_code_percent": 66.22991314316803,
+   "complete_code_percent": 66.22991314316803,
+   "matched_data_percent": 63.47675538218448,
+   "complete_data_percent": 63.47675538218448
+  }
  }
 ]
