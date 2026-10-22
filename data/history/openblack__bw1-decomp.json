@@ -245,5 +245,19 @@
    "matched_data_percent": 28.451547103216186,
    "complete_data_percent": 4.084069821778497
   }
+ },
+ {
+  "timestamp": "2026-10-22T00:30:03Z",
+  "commit_sha": "df056d8f2e39e063fc43e090c07c911edc5f5b37",
+  "commit_message": "LivingStates: Match SetCurrentAndDestinationState",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 41.29708,
+   "matched_code_percent": 31.917874985908107,
+   "complete_code_percent": 15.091923995960979,
+   "matched_data_percent": 28.451547103216186,
+   "complete_data_percent": 4.084069821778497
+  }
  }
 ]

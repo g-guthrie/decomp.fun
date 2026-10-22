@@ -392,5 +392,19 @@
    "matched_data_percent": 89.50917572318066,
    "complete_data_percent": 22.394043080844124
   }
+ },
+ {
+  "timestamp": "2026-10-22T00:22:45Z",
+  "commit_sha": "d2cc8f57498c61839a3122933ea107be51aca306",
+  "commit_message": "Use real names for MActorMtxCalcType enumerands",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 94.213875,
+   "matched_code_percent": 50.004679551030506,
+   "complete_code_percent": 18.417710095128587,
+   "matched_data_percent": 89.50917572318066,
+   "complete_data_percent": 22.394043080844124
+  }
  }
 ]

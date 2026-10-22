@@ -207,5 +207,19 @@
    "matched_data_percent": 24.4090376781228,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T00:03:27Z",
+  "commit_sha": "fc71ccc0cda69d23cb8236a9cfbecae8bce23876",
+  "commit_message": "psyz: fix BROM scene selector, broken on PS1",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 66.17517,
+   "matched_code_percent": 66.17517033338535,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.414876402545016,
+   "complete_data_percent": 0.0
+  }
  }
 ]
