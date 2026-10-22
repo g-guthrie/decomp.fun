@@ -606,5 +606,19 @@
    "matched_data_percent": 63.47675538218448,
    "complete_data_percent": 63.47675538218448
   }
+ },
+ {
+  "timestamp": "2026-10-22T04:28:41Z",
+  "commit_sha": "fe3ec51063d84e7604f12d8595e39d0fb17d3781",
+  "commit_message": "Document the stand-in callee rule for agents and the model/effort experiment",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 66.66286141769004,
+   "matched_code_percent": 66.66286141769004,
+   "complete_code_percent": 66.66286141769004,
+   "matched_data_percent": 69.85205164921983,
+   "complete_data_percent": 69.85205164921983
+  }
  }
 ]

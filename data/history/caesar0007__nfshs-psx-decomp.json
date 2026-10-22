@@ -164,5 +164,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-22T04:06:22Z",
+  "commit_sha": "fa6a3a2ecc09a90abbcdc241af4e491be0c383b9",
+  "commit_message": "Restore renderer source ownership and retail SLD contracts",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

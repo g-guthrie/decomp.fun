@@ -97,5 +97,19 @@
    "matched_data_percent": 95.82331224106932,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T03:50:49Z",
+  "commit_sha": "a1808f65b1d5872bcc97297c184209c29f3057a4",
+  "commit_message": "Enable LLVM 22 parentheses lint and remove redundant parentheses",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 95.85437957337555,
+   "complete_data_percent": 0.0
+  }
  }
 ]
