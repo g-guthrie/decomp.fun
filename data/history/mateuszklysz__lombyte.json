@@ -243,5 +243,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-22T06:03:00Z",
+  "commit_sha": "1e40bcb30be5379af59ca7edead54af3f6a6ed4a",
+  "commit_message": "chore: group and clarify the menu stream buffer pool (#237)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 98.861726,
+   "matched_code_percent": 98.71947940377662,
+   "complete_code_percent": 98.71947940377662,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]

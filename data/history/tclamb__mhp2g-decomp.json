@@ -94,5 +94,19 @@
    "matched_data_percent": 83.67210695489997,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-22T05:29:02Z",
+  "commit_sha": "395c16d02c72488a2ead4e0e0b94af2df330a521",
+  "commit_message": "Add missing gamestage.cpp symbols",
+  "source": "report",
+  "version": "ULJM_05500",
+  "measures": {
+   "fuzzy_match_percent": 3.1352289,
+   "matched_code_percent": 3.1352289879736235,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 83.67210695489997,
+   "complete_data_percent": 0.0
+  }
  }
 ]
