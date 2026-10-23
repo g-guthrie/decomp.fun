@@ -956,5 +956,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-23T21:51:20Z",
+  "commit_sha": "406ea869c5592d0f42ffa24e4f198e58c3a27c7f",
+  "commit_message": "Recover owner-relative launch and delayed scatter variants",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 82.47694990673092,
+   "matched_code_percent": 82.47694990673092,
+   "complete_code_percent": 82.47694990673092,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]

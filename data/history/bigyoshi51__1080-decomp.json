@@ -315,5 +315,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T22:23:36Z",
+  "commit_sha": "fb33346f55faf55bf0a2fd981e89b2b64ab55ee4",
+  "commit_message": "report.json: agent-c run 135 (EXACT gl 3B1A8 decoded in C, absorbing orphan 3B1AC; NM bootup 90CC) \u2014 70.68% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 95.338936,
+   "matched_code_percent": 70.68422874767884,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
