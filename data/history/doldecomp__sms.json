@@ -462,5 +462,19 @@
    "matched_data_percent": 89.50917572318066,
    "complete_data_percent": 22.394043080844124
   }
+ },
+ {
+  "timestamp": "2026-10-23T17:48:58Z",
+  "commit_sha": "c73ec935d2cd0ef406d6f56eacf4f2cea0a3fee5",
+  "commit_message": "System/EmitterViewObj: reuse the emitter in the matrix-binding cases (#368)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 94.59818,
+   "matched_code_percent": 50.2522500841205,
+   "complete_code_percent": 18.417710095128587,
+   "matched_data_percent": 89.80214920096013,
+   "complete_data_percent": 22.394043080844124
+  }
  }
 ]

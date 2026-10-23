@@ -273,5 +273,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T18:20:27Z",
+  "commit_sha": "f617678cd0ba5fa86b3287631d4a0491d80f43e9",
+  "commit_message": "report.json: agent-g run 136 (NM length-correcting empty tests: 6126C, 5D134 76.8->96.5, 5F5F0, 65494; b5 1F14) \u2014 69.81% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 94.958984,
+   "matched_code_percent": 69.8114493650311,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -371,5 +371,19 @@
    "matched_data_percent": 28.46704473022036,
    "complete_data_percent": 5.416130932326726
   }
+ },
+ {
+  "timestamp": "2026-10-23T18:20:29Z",
+  "commit_sha": "e9921b59c3ca389b381602668d5f31d1a5d1ba35",
+  "commit_message": "configure: Use one precompiled header API for game code and LH3DLib",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 42.80996,
+   "matched_code_percent": 33.33544601518289,
+   "complete_code_percent": 16.082070772224476,
+   "matched_data_percent": 28.53527117483678,
+   "complete_data_percent": 5.415209377368612
+  }
  }
 ]

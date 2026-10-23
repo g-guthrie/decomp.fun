@@ -450,5 +450,19 @@
    "matched_data_percent": 69.59016850199966,
    "complete_data_percent": 69.58999704232053
   }
+ },
+ {
+  "timestamp": "2026-10-23T17:47:15Z",
+  "commit_sha": "7f85c2d010a5a66b460a4013e950b489f2948c72",
+  "commit_message": "moveplayer and movecamera update, nutexcmp.c (#143)",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 98.98357,
+   "matched_code_percent": 94.17078032673366,
+   "complete_code_percent": 52.554118285017445,
+   "matched_data_percent": 69.59016850199966,
+   "complete_data_percent": 69.58999704232053
+  }
  }
 ]
