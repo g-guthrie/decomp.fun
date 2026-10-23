@@ -67,5 +67,19 @@
    "matched_data_percent": 0.4339827047956051,
    "complete_data_percent": 0.21042071321884392
   }
+ },
+ {
+  "timestamp": "2026-10-23T15:17:37Z",
+  "commit_sha": "ab14b156970f009b45715ef9ece4895c4cc8d6a3",
+  "commit_message": "tools: add quality checks to CI (#22)",
+  "source": "report",
+  "version": "RPBP01",
+  "measures": {
+   "fuzzy_match_percent": 23.444128,
+   "matched_code_percent": 21.047749948087137,
+   "complete_code_percent": 2.323323214444631,
+   "matched_data_percent": 0.4339827047956051,
+   "complete_data_percent": 0.21042071321884392
+  }
  }
 ]

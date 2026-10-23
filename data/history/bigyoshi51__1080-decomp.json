@@ -231,5 +231,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T15:30:25Z",
+  "commit_sha": "1bcf7ec64af6d366a126e7746f5da56b131bcabd",
+  "commit_message": "report.json: agent-g run 133 (NM: gl 62194 22 -> 10 raw) \u2014 69.67% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 94.899086,
+   "matched_code_percent": 69.66830608542456,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

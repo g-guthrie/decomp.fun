@@ -1222,5 +1222,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T15:25:18Z",
+  "commit_sha": "1787a6e5969c3acc2063369bf0ce9c24f771e37e",
+  "commit_message": "name battle command target suppression flag",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.423029,
+   "matched_code_percent": 94.42302908486651,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
