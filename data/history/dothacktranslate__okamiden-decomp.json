@@ -232,5 +232,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-23T06:03:15Z",
+  "commit_sha": "bdca9b1a84de26d84070d717d0596507a256f700",
+  "commit_message": "Recover additional missing ARM9 source with verified compiler output",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 52.3848188386458,
+   "matched_code_percent": 4.2105263157894735,
+   "complete_code_percent": 4.2105263157894735,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

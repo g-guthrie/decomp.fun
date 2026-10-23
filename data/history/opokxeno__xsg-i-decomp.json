@@ -162,5 +162,19 @@
    "matched_data_percent": 70.16541866260793,
    "complete_data_percent": 36.88392155657172
   }
+ },
+ {
+  "timestamp": "2026-10-23T05:30:42Z",
+  "commit_sha": "c2b41ba3821f2f6e1db97b3ad3c862245f6fe7fa",
+  "commit_message": "Merge pull request #32 from TreeThugga/ov11-casino-matches",
+  "source": "report",
+  "version": "SLUS_204.69",
+  "measures": {
+   "fuzzy_match_percent": 66.11999,
+   "matched_code_percent": 66.11998695793936,
+   "complete_code_percent": 30.610483515218935,
+   "matched_data_percent": 70.16541866260793,
+   "complete_data_percent": 36.88392155657172
+  }
  }
 ]

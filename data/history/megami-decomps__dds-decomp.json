@@ -1138,5 +1138,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T06:23:39Z",
+  "commit_sha": "3136501eea8aeee5c38973b61d6ed6f703d574d6",
+  "commit_message": "Match DDS1 NPC builder and lowest-rank selector (+1828 bytes)",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.423029,
+   "matched_code_percent": 94.42302908486651,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

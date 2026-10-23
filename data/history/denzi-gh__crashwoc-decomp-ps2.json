@@ -422,5 +422,19 @@
    "matched_data_percent": 69.59016850199966,
    "complete_data_percent": 69.58999704232053
   }
+ },
+ {
+  "timestamp": "2026-10-23T05:39:12Z",
+  "commit_sha": "25e934a82658116b0dc21bec407c8b4fee255545",
+  "commit_message": "Merge pull request #138 from denzi-gh/decomp/main",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 98.881836,
+   "matched_code_percent": 94.03279556615757,
+   "complete_code_percent": 52.554118285017445,
+   "matched_data_percent": 69.59016850199966,
+   "complete_data_percent": 69.58999704232053
+  }
  }
 ]

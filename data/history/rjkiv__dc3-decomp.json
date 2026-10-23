@@ -416,5 +416,19 @@
    "matched_data_percent": 20.32361158316353,
    "complete_data_percent": 20.32361158316353
   }
+ },
+ {
+  "timestamp": "2026-10-23T06:03:49Z",
+  "commit_sha": "748b47eaad4df2d9075ee7554bf40bd6cde3b2f6",
+  "commit_message": "cdreader matched",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.11065,
+   "matched_code_percent": 52.217414171933044,
+   "complete_code_percent": 26.425066235853713,
+   "matched_data_percent": 20.400775213968487,
+   "complete_data_percent": 20.400775213968487
+  }
  }
 ]
