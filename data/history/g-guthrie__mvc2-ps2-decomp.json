@@ -872,5 +872,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-23T03:07:17Z",
+  "commit_sha": "f348c336c01a75ab34cbd293a65cca99b317ca63",
+  "commit_message": "Recover motion entries and the collision transition",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 81.73128303279962,
+   "matched_code_percent": 81.73128303279962,
+   "complete_code_percent": 81.73128303279962,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]

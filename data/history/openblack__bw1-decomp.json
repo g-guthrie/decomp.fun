@@ -301,5 +301,19 @@
    "matched_data_percent": 28.452019976301635,
    "complete_data_percent": 4.980260274576104
   }
+ },
+ {
+  "timestamp": "2026-10-23T03:29:46Z",
+  "commit_sha": "de7245b494d6b36fc2f68f3ac2c46a641b6fc165",
+  "commit_message": "Base: Set Matching for all versions from Base to Fixed/MobileObject",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 41.769184,
+   "matched_code_percent": 32.42399099307617,
+   "complete_code_percent": 15.655269787057744,
+   "matched_data_percent": 28.4522237017785,
+   "complete_data_percent": 4.986117382035945
+  }
  }
 ]

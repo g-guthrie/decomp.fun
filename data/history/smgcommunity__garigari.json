@@ -290,5 +290,19 @@
    "matched_data_percent": 9.198081070540862,
    "complete_data_percent": 1.1983911815700075
   }
+ },
+ {
+  "timestamp": "2026-10-23T02:39:28Z",
+  "commit_sha": "dc73096e6a5a817112079587d785620f05525580",
+  "commit_message": "`MiniRoutePoint` (first world map class yay)",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 20.564629,
+   "matched_code_percent": 17.88957548418793,
+   "complete_code_percent": 1.524135224890976,
+   "matched_data_percent": 9.212646891606797,
+   "complete_data_percent": 1.1983911815700075
+  }
  }
 ]
