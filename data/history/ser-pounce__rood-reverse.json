@@ -285,5 +285,19 @@
    "matched_data_percent": 44.19735263326465,
    "complete_data_percent": 36.419458002093805
   }
+ },
+ {
+  "timestamp": "2026-10-23T14:14:14Z",
+  "commit_sha": "0d1383570a67d76294fdbd8ee54ae0959b91a386",
+  "commit_message": "Update splat config, delete old data, import file",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 89.17583,
+   "matched_code_percent": 89.17583053115989,
+   "complete_code_percent": 20.640176144484744,
+   "matched_data_percent": 47.37941584205746,
+   "complete_data_percent": 36.41928390458435
+  }
  }
 ]
