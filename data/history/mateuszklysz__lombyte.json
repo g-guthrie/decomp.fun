@@ -313,5 +313,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-23T04:28:27Z",
+  "commit_sha": "c41bf1c324eecae8006bf82808ad19ed42ee5eb9",
+  "commit_message": "chore: recover function names and clarify identifiers (batch 30) (#245)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 98.974016,
+   "matched_code_percent": 98.83177016921407,
+   "complete_code_percent": 98.83177016921407,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]

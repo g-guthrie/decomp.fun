@@ -388,5 +388,19 @@
    "matched_data_percent": 20.03333322491938,
    "complete_data_percent": 20.03333322491938
   }
+ },
+ {
+  "timestamp": "2026-10-23T03:49:31Z",
+  "commit_sha": "a0e2b75716a128fbb99507554ed5da1107da1929",
+  "commit_message": "SaveLoadMgr context + match (#349)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.106487,
+   "matched_code_percent": 52.194966894361805,
+   "complete_code_percent": 26.34147060799352,
+   "matched_data_percent": 20.32361158316353,
+   "complete_data_percent": 20.32361158316353
+  }
  }
 ]

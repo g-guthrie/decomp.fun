@@ -88,5 +88,19 @@
    "matched_data_percent": 98.86485374349951,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T04:11:51Z",
+  "commit_sha": "2859d65a48d673e3c6603ac8258a18bac3b0e0ba",
+  "commit_message": "adjust splits (#416)",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 65.82726,
+   "matched_code_percent": 65.82726160719035,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 98.86485374349951,
+   "complete_data_percent": 0.0
+  }
  }
 ]

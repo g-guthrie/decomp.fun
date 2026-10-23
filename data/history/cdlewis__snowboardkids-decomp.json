@@ -139,5 +139,19 @@
    "matched_data_percent": 97.10099344920872,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T03:21:20Z",
+  "commit_sha": "17d17b00cedb9cd2ce21ca80acf34dcc8207d554",
+  "commit_message": "Delete decompilation-docs directory",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 97.10099344920872,
+   "complete_data_percent": 0.0
+  }
  }
 ]

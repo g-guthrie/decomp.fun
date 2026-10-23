@@ -315,5 +315,19 @@
    "matched_data_percent": 28.4522237017785,
    "complete_data_percent": 4.986117382035945
   }
+ },
+ {
+  "timestamp": "2026-10-23T03:59:56Z",
+  "commit_sha": "47fb5427585ff5b5b4189b0c193f07ebc4f25cb8",
+  "commit_message": "Port some symbols",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 41.769184,
+   "matched_code_percent": 32.42399099307617,
+   "complete_code_percent": 15.655269787057744,
+   "matched_data_percent": 28.4522237017785,
+   "complete_data_percent": 4.986117382035945
+  }
  }
 ]

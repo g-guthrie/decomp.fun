@@ -886,5 +886,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-23T04:19:32Z",
+  "commit_sha": "11cbdfdaf94cb4fbda55de7c1c2cd5bd72bbd196",
+  "commit_message": "Recover motion launches and owner-provided phase entries",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 81.94089557749106,
+   "matched_code_percent": 81.94089557749106,
+   "complete_code_percent": 81.94089557749106,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]
