@@ -333,5 +333,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T09:22:48Z",
+  "commit_sha": "932c2b7043e43f315c21ff64e16a09a11365b147",
+  "commit_message": "sh2: update `SLUS_202.28.yaml`",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.6733346,
+   "matched_code_percent": 6.804751431104792,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

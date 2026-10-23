@@ -78,5 +78,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-23T09:18:30Z",
+  "commit_sha": "f627bd0a5c8cb58b19bde56fdfe99ef68686bd18",
+  "commit_message": "chore(release): 0.3.0",
+  "source": "report",
+  "version": "PC_20040610",
+  "measures": {
+   "fuzzy_match_percent": 13.782591,
+   "matched_code_percent": 13.117765476570979,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

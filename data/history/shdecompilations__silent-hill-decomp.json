@@ -619,5 +619,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T09:16:36Z",
+  "commit_sha": "859b0b94635e060f5084b764bf45d996db94ac31",
+  "commit_message": "Bodyprog: `e_SpawnFlags` -> `e_CharaSpawnFlags`",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]
