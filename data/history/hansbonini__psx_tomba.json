@@ -85,5 +85,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-23T13:04:24Z",
+  "commit_sha": "f5ce508528d392a9c93ff30ccf1a09e20489f610",
+  "commit_message": "Migrate .data to C code",
+  "source": "report",
+  "version": "SCUS_942.36",
+  "measures": {
+   "fuzzy_match_percent": 65.6164,
+   "matched_code_percent": 65.35878239318419,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

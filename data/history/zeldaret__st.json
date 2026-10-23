@@ -121,5 +121,19 @@
    "matched_data_percent": 31.179098581006215,
    "complete_data_percent": 6.837874687729283
   }
+ },
+ {
+  "timestamp": "2026-10-23T13:12:32Z",
+  "commit_sha": "a8c826c706971dae592e4def139169c1b0a0231b",
+  "commit_message": "Add AGENTS.md and CLAUDE.md (#171)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 14.523163,
+   "matched_code_percent": 10.322151975720995,
+   "complete_code_percent": 4.967630464552645,
+   "matched_data_percent": 32.83872721358519,
+   "complete_data_percent": 6.838189533659208
+  }
  }
 ]
