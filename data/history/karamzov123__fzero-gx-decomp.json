@@ -555,5 +555,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-23T02:22:21Z",
+  "commit_sha": "8e53584b132e62b5cf8d5834e6095f11a4405c58",
+  "commit_message": "match: 2 functions link-verified (fn_10_1A458, fn_1_DB268)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 77.76322,
+   "matched_code_percent": 63.412737432602306,
+   "complete_code_percent": 59.326315846817415,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]

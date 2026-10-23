@@ -178,5 +178,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-23T02:28:52Z",
+  "commit_sha": "5419ed679fcf01e3226fb51f5352963792fc877d",
+  "commit_message": "Restore Horizon and camera source ownership and SLD contracts",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

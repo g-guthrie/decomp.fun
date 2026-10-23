@@ -64,5 +64,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-23T02:27:36Z",
+  "commit_sha": "85f3792d9f260befa25515cafc1abf862ae39404",
+  "commit_message": "Merge pull request #27 from Veradictus/dependabot/npm_and_yarn/launcher/npm-1b4f358d19",
+  "source": "report",
+  "version": "PC_20040610",
+  "measures": {
+   "fuzzy_match_percent": 13.782591,
+   "matched_code_percent": 13.117765476570979,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
