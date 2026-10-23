@@ -110,5 +110,19 @@
    "matched_data_percent": 45.142380685325726,
    "complete_data_percent": 45.081054908720134
   }
+ },
+ {
+  "timestamp": "2026-10-23T09:47:23Z",
+  "commit_sha": "7263d7480cb0f6983f7e3adc6b5550ccca1ca1e0",
+  "commit_message": "widgets (#110)",
+  "source": "report",
+  "version": "2342",
+  "measures": {
+   "fuzzy_match_percent": 34.40352,
+   "matched_code_percent": 32.985402655551816,
+   "complete_code_percent": 31.78357889755467,
+   "matched_data_percent": 45.182993148083675,
+   "complete_data_percent": 45.12166737147808
+  }
  }
 ]

@@ -1166,5 +1166,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T09:50:50Z",
+  "commit_sha": "ae6857eee1d55a8cfde6dbb4c52487f7b9392ad9",
+  "commit_message": "Type battle state task callbacks",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.423029,
+   "matched_code_percent": 94.42302908486651,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
