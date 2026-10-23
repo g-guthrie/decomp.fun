@@ -900,5 +900,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-23T04:45:22Z",
+  "commit_sha": "80faa2501fc0c11c237c099ff60babfc7351db8e",
+  "commit_message": "Recover typed actor motion and the linked-trail update",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 81.99530254158246,
+   "matched_code_percent": 81.99530254158246,
+   "complete_code_percent": 81.99530254158246,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]

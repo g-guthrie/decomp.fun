@@ -402,5 +402,19 @@
    "matched_data_percent": 20.32361158316353,
    "complete_data_percent": 20.32361158316353
   }
+ },
+ {
+  "timestamp": "2026-10-23T05:19:20Z",
+  "commit_sha": "ff85a713009d6962386da6170f82866f2ea291b8",
+  "commit_message": "nearly match memcard xbox",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.109043,
+   "matched_code_percent": 52.204207963376525,
+   "complete_code_percent": 26.34147060799352,
+   "matched_data_percent": 20.32361158316353,
+   "complete_data_percent": 20.32361158316353
+  }
  }
 ]

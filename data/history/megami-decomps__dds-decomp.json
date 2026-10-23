@@ -1124,5 +1124,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T04:45:50Z",
+  "commit_sha": "c5e29e9ec0b4006cf0a680df2c229eab8dc85456",
+  "commit_message": "DDS2's battle units link through next, as DDS1's do",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.332083,
+   "matched_code_percent": 94.33208290629757,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -218,5 +218,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-23T05:14:48Z",
+  "commit_sha": "06288b6a63d4318950ec2860aa2128b0c8cc12b4",
+  "commit_message": "Recover small missing-source functions with compiler verification",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 52.33986944783159,
+   "matched_code_percent": 4.191067457375834,
+   "complete_code_percent": 4.191067457375834,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

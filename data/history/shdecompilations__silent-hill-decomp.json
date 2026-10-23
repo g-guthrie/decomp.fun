@@ -577,5 +577,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T05:23:15Z",
+  "commit_sha": "5b069bf2c6e1a09506b7283a67fb044907800e1f",
+  "commit_message": "Bodyprog: `s_Keyframe` -> `s_CharaKeyframe`, minor formatting fixups",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]
