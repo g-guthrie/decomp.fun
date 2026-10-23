@@ -464,5 +464,19 @@
    "matched_data_percent": 69.59016850199966,
    "complete_data_percent": 69.58999704232053
   }
+ },
+ {
+  "timestamp": "2026-10-23T21:06:37Z",
+  "commit_sha": "78a4e77f1136c04624c5dd7abcbe342277877603",
+  "commit_message": "Merge pull request #145 from denzi-gh/host/creature-index",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 98.98357,
+   "matched_code_percent": 94.17078032673366,
+   "complete_code_percent": 52.554118285017445,
+   "matched_data_percent": 69.59016850199966,
+   "complete_data_percent": 69.58999704232053
+  }
  }
 ]

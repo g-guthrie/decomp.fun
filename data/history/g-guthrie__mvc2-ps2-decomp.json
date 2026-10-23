@@ -942,5 +942,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-23T21:09:08Z",
+  "commit_sha": "7e8db0e3a805baa82623b22662771be4d4858fc8",
+  "commit_message": "Recover inherited motion and linked effect entries",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 82.33279574071196,
+   "matched_code_percent": 82.33279574071194,
+   "complete_code_percent": 82.33279574071194,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]

@@ -653,5 +653,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-23T21:11:01Z",
+  "commit_sha": "822dd0ab02a8e9d1f8c8b71573bdeddd462e1181",
+  "commit_message": "Document the switch pivot rule and two measured allocator walls",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 78.706436,
+   "matched_code_percent": 64.26366101427149,
+   "complete_code_percent": 63.14362331650463,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]
