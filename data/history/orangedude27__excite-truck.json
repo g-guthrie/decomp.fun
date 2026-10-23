@@ -199,5 +199,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-23T03:15:36Z",
+  "commit_sha": "c2281630d61f544307ed2f1fa391789861abe220",
+  "commit_message": "Keep vector input accesses observable so the compiler stores the target stack scratch before using it.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 31.306221,
+   "matched_code_percent": 13.306380227628289,
+   "complete_code_percent": 2.4333854823036645,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
