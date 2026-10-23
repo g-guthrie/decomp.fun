@@ -343,5 +343,19 @@
    "matched_data_percent": 28.4522237017785,
    "complete_data_percent": 4.986117382035945
   }
+ },
+ {
+  "timestamp": "2026-10-23T16:27:26Z",
+  "commit_sha": "899b34b7ac7a07d14752a946e8299e7e69ce9164",
+  "commit_message": "configure: Add pch support (#580)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 41.771065,
+   "matched_code_percent": 32.42620719568648,
+   "complete_code_percent": 15.65531076361624,
+   "matched_data_percent": 28.466178896943685,
+   "complete_data_percent": 4.986117382035945
+  }
  }
 ]
