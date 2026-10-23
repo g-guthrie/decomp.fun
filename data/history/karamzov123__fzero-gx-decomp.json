@@ -639,5 +639,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-23T20:18:44Z",
+  "commit_sha": "bef0a08a0a2fe34f43f513f7c40eb99521b095d5",
+  "commit_message": "Integrate deterministic fixup matches (fn_17_2D5C, fn_3_381C, fn_3_39F0, fn_10_4AE0, fn_3_B270, fn_3_E5D4, fn_3_12B14, fn_1_B8E84 ...)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 78.706436,
+   "matched_code_percent": 64.26366101427149,
+   "complete_code_percent": 63.14362331650463,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]

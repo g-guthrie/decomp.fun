@@ -135,5 +135,19 @@
    "matched_data_percent": 32.83872721358519,
    "complete_data_percent": 6.838189533659208
   }
+ },
+ {
+  "timestamp": "2026-10-23T19:38:03Z",
+  "commit_sha": "8b757595f4466b616496ca387d69f376f8bd4353",
+  "commit_message": "Sort versions alphabetically on objdiff (#172)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 14.523163,
+   "matched_code_percent": 10.322151975720995,
+   "complete_code_percent": 4.967630464552645,
+   "matched_data_percent": 32.83872721358519,
+   "complete_data_percent": 6.838189533659208
+  }
  }
 ]

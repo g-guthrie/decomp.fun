@@ -213,5 +213,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-23T19:20:27Z",
+  "commit_sha": "d94d8819777cc7a067f8e8863b295358314d69fc",
+  "commit_message": "Move fn_801660C0 prototype before fn_80166A24 so its call has a visible declaration.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 35.101658,
+   "matched_code_percent": 13.846928565527389,
+   "complete_code_percent": 2.4333854823036645,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

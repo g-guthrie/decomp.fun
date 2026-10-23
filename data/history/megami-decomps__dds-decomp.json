@@ -1306,5 +1306,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T20:22:56Z",
+  "commit_sha": "2149b03ec1c75f9836a8f96411094da6cfd90d1d",
+  "commit_message": "Type DDS2 progress flag gate row",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.423029,
+   "matched_code_percent": 94.42302908486651,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

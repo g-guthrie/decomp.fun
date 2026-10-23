@@ -227,5 +227,19 @@
    "matched_data_percent": 72.00176227900008,
    "complete_data_percent": 27.94958436910713
   }
+ },
+ {
+  "timestamp": "2026-10-23T20:05:24Z",
+  "commit_sha": "2bd316beac83d77bb42df9058549410a80148229",
+  "commit_message": "BO5: more matchings (#3759)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 81.65992,
+   "matched_code_percent": 81.62403923869455,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 72.02101194009859,
+   "complete_data_percent": 27.933144118912175
+  }
  }
 ]

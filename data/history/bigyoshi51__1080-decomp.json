@@ -301,5 +301,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T20:27:09Z",
+  "commit_sha": "884a44ecec9c26c923773578fe8d9cb76ff97c42",
+  "commit_message": "report.json: agent-g run 138 (EXACT b5 1F14 + 8AFC via NCC donors with source FP literals, b3 1C68 cfe; NM 5F5F0, b5 396C, game_uso 7C1C, gl 2840 and more) \u2014 70.53% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 95.12925,
+   "matched_code_percent": 70.53136043792405,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
