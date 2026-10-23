@@ -71,5 +71,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-23T11:17:09Z",
+  "commit_sha": "cd0206a71f0eb72002594e0d7aa8b262d334987c",
+  "commit_message": "Update EU symbols",
+  "source": "report",
+  "version": "SCUS_942.36",
+  "measures": {
+   "fuzzy_match_percent": 65.6164,
+   "matched_code_percent": 65.35878239318419,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

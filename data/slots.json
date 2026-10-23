@@ -119,8 +119,8 @@
   "challengers": {
    "karamzov123/fzero-gx-decomp": {
     "since": "2026-10-20T01:00:51+00:00",
-    "runs": 90,
-    "ahead": 90,
+    "runs": 91,
+    "ahead": 91,
     "misses": 0
    }
   },
@@ -175,10 +175,17 @@
   "history": []
  },
  "gc:metroid-prime": {
-  "leader": "primedecomp/prime",
+  "leader": null,
   "since": "2026-10-18T22:55:17+00:00",
   "challengers": {},
-  "history": []
+  "history": [
+   {
+    "from": "primedecomp/prime",
+    "to": null,
+    "at": "2026-10-23T11:30:56+00:00",
+    "reason": "leader gone"
+   }
+  ]
  },
  "gc:mortal-kombat-deception": {
   "leader": "shulkmaster/mk-deception",
