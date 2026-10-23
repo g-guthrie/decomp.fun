@@ -201,5 +201,19 @@
    "matched_data_percent": 81.90935766988407,
    "complete_data_percent": 81.90935766988407
   }
+ },
+ {
+  "timestamp": "2026-10-23T12:08:14Z",
+  "commit_sha": "4964ab3aad84c4b627202fb79b58bbedfe8a14b6",
+  "commit_message": "fix splits",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 86.3579,
+   "matched_code_percent": 82.64646803690087,
+   "complete_code_percent": 76.30865408316858,
+   "matched_data_percent": 82.56455214622447,
+   "complete_data_percent": 82.56455214622447
+  }
  }
 ]
