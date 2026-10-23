@@ -434,5 +434,19 @@
    "matched_data_percent": 89.50917572318066,
    "complete_data_percent": 22.394043080844124
   }
+ },
+ {
+  "timestamp": "2026-10-23T00:05:01Z",
+  "commit_sha": "ec1f8c78a8318f66a8b6f920fba70bc687587b99",
+  "commit_message": "MarDirector namingggg",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 94.214554,
+   "matched_code_percent": 50.0250690233777,
+   "complete_code_percent": 18.417710095128587,
+   "matched_data_percent": 89.50917572318066,
+   "complete_data_percent": 22.394043080844124
+  }
  }
 ]

@@ -830,5 +830,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-23T00:56:01Z",
+  "commit_sha": "158cad820d720e32ba8178d3d6d731bde228adfd",
+  "commit_message": "Recover two exact vertical motion event states",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 81.45742655059847,
+   "matched_code_percent": 81.45742655059848,
+   "complete_code_percent": 81.45742655059848,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]
