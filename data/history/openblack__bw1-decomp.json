@@ -399,5 +399,19 @@
    "matched_data_percent": 28.53527117483678,
    "complete_data_percent": 5.415209377368612
   }
+ },
+ {
+  "timestamp": "2026-10-23T22:40:52Z",
+  "commit_sha": "22beb3dc75b2f39db3cf65352b5acca2d32da8c8",
+  "commit_message": "LHLog: link with libcmt",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 43.619995,
+   "matched_code_percent": 34.144808834606884,
+   "complete_code_percent": 16.896856858301646,
+   "matched_data_percent": 28.558147820609886,
+   "complete_data_percent": 5.522983642644917
+  }
  }
 ]

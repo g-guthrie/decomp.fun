@@ -329,5 +329,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T23:14:21Z",
+  "commit_sha": "2f4b6ad76c180e19de4c6fcb1ac7b64e7639797b",
+  "commit_message": "report.json: agent-c run 136 (EXACT fake-split merges 1C9E4 and 308AC, 34A78 via static-object NCC donor; post0b clip 0x2e8ac; game_libs_post yaml start moved, needs make setup) \u2014 71.08% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 95.441696,
+   "matched_code_percent": 71.0803623412659,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
