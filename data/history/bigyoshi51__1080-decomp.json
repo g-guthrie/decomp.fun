@@ -287,5 +287,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T19:15:05Z",
+  "commit_sha": "8a2a6155e9e896f4aae0cf3aa41dd07bfe9778eb",
+  "commit_message": "report.json: agent-g run 137 (EXACT gl 5D134, 51F5C, 67D50 via IDO 7.1 NCC donors; NM 5F5F0 85->98.5, 5F984, gui 3714) \u2014 70.01% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 95.00194,
+   "matched_code_percent": 70.00859908346354,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

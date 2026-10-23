@@ -703,5 +703,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T19:08:08Z",
+  "commit_sha": "ad42d2f91dfddc2c712df99d2f97043d750e554d",
+  "commit_message": "tools: fix iconv_sjis_wrapper.py for EUR",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]

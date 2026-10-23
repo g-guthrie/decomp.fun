@@ -353,5 +353,19 @@
    "matched_data_percent": 87.97081193701777,
    "complete_data_percent": 74.97262940485619
   }
+ },
+ {
+  "timestamp": "2026-10-23T19:18:26Z",
+  "commit_sha": "dae9c38434ccae1e5b518f3fecdbd01a5f9b3dc4",
+  "commit_message": "Merge pull request #2168 from Gonzalo-kebab/master",
+  "source": "report",
+  "version": "RMGK01",
+  "measures": {
+   "fuzzy_match_percent": 99.99983,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 68.78540320304313,
+   "matched_data_percent": 87.97081193701777,
+   "complete_data_percent": 74.97262940485619
+  }
  }
 ]

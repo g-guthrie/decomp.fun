@@ -180,5 +180,19 @@
    "matched_data_percent": 98.35937258923252,
    "complete_data_percent": 52.57680631018759
   }
+ },
+ {
+  "timestamp": "2026-10-23T18:56:44Z",
+  "commit_sha": "90edb0012af66d0250dd9beb6602484bde6c228a",
+  "commit_message": "Merge staging: literal cleanup PRs, PRs #17779-#17787, sweep fixes",
+  "source": "report",
+  "version": "GCCE01",
+  "measures": {
+   "fuzzy_match_percent": 99.7739028930664,
+   "matched_code_percent": 79.25655476502233,
+   "complete_code_percent": 46.40256984650334,
+   "matched_data_percent": 98.36649362548572,
+   "complete_data_percent": 52.57680631018759
+  }
  }
 ]
