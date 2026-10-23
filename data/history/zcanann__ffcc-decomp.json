@@ -152,5 +152,19 @@
    "matched_data_percent": 98.35153944935401,
    "complete_data_percent": 52.53900547607688
   }
+ },
+ {
+  "timestamp": "2026-10-23T01:35:43Z",
+  "commit_sha": "0306fcbf62e63ccfd732a1eb0cdf5cabf39675b2",
+  "commit_message": "Merge staging: 33 contributor PRs, joint sweep fixes, JP links",
+  "source": "report",
+  "version": "GCCE01",
+  "measures": {
+   "fuzzy_match_percent": 99.76295471191406,
+   "matched_code_percent": 78.86748883875751,
+   "complete_code_percent": 46.40256984650334,
+   "matched_data_percent": 98.35937258923252,
+   "complete_data_percent": 52.57680631018759
+  }
  }
 ]
