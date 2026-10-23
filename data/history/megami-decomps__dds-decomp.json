@@ -1264,5 +1264,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T17:22:23Z",
+  "commit_sha": "1a21d1ab5ff92b82897fdc66b176da94dc6fc357",
+  "commit_message": "Type effect class callbacks",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.423029,
+   "matched_code_percent": 94.42302908486651,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

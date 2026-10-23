@@ -357,5 +357,19 @@
    "matched_data_percent": 28.466178896943685,
    "complete_data_percent": 4.986117382035945
   }
+ },
+ {
+  "timestamp": "2026-10-23T17:22:53Z",
+  "commit_sha": "5e7778ca799108e29728f190ff38a91ec182dd09",
+  "commit_message": "LH3DTech: Set to matching (#581)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 42.197453,
+   "matched_code_percent": 32.84949793882607,
+   "complete_code_percent": 16.078259733155146,
+   "matched_data_percent": 28.46704473022036,
+   "complete_data_percent": 5.416130932326726
+  }
  }
 ]

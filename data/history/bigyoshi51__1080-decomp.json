@@ -259,5 +259,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T17:12:05Z",
+  "commit_sha": "20d0f4eeea15a02add3376d913c037f789e63367",
+  "commit_message": "report.json: agent-c run 130 (pin job: jal + data aliases in game_libs_post; NM 24378 240->9, 26790, 26D64) \u2014 69.75% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 94.92545,
+   "matched_code_percent": 69.74590757033945,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

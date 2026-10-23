@@ -278,5 +278,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-23T16:39:21Z",
+  "commit_sha": "24e685d57535c478a2e94802c85b31c2ba54ee67",
+  "commit_message": "refactor(ftSandbag): replace raw motion state literal with named constant (#3678)",
+  "source": "report",
+  "version": "GALE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
