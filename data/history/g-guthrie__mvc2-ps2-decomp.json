@@ -928,5 +928,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-23T07:30:01Z",
+  "commit_sha": "c099b68a612b777ef9fdfca81d9e27552c1e029b",
+  "commit_message": "Recover owner animation selection and visibility transitions",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 82.21353761852946,
+   "matched_code_percent": 82.21353761852946,
+   "complete_code_percent": 82.21353761852946,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]
