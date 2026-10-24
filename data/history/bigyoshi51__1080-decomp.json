@@ -469,5 +469,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T09:02:12Z",
+  "commit_sha": "554e5d15499eda637ca8f1a2371f827a41d2f841",
+  "commit_message": "report.json: agent-g run 151 (NM line-layout gains: bootup 90CC 97.15, h2h 0620 96.51, gl 578B4 97.20, bootup 55A0 94.33) \u2014 76.57% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 96.51336,
+   "matched_code_percent": 76.5736374746272,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
