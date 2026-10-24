@@ -88,5 +88,19 @@
    "matched_data_percent": 24.887962156106063,
    "complete_data_percent": 32.44257523920723
   }
+ },
+ {
+  "timestamp": "2026-10-24T20:46:45Z",
+  "commit_sha": "a1f2c322c9c24791ff2483327baf099783c26ec7",
+  "commit_message": "Merge pull request #93 from MB60893/tutil-wrap-mathutil-fn",
+  "source": "report",
+  "version": "MarioClub_us",
+  "measures": {
+   "fuzzy_match_percent": 47.93315,
+   "matched_code_percent": 47.09161249964316,
+   "complete_code_percent": 41.927820605272274,
+   "matched_data_percent": 32.44257523920723,
+   "complete_data_percent": 32.44257523920723
+  }
  }
 ]
