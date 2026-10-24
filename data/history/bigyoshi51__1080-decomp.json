@@ -343,5 +343,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T00:28:01Z",
+  "commit_sha": "47e9f3eb66cd66f2949ae7a53b83551bfbf5b55c",
+  "commit_message": "report.json: agent-g run 142 (EXACT gl 66A50 static long long, 5534C + 558A0 inline cursor member under NCC; NM b5 DF14/D884/B624/B368) \u2014 71.20% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 95.524864,
+   "matched_code_percent": 71.19838026950049,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

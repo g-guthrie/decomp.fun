@@ -100,5 +100,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-24T00:29:11Z",
+  "commit_sha": "c01602a24a3e0ef1c4c9e2c0dadecb725aad49d8",
+  "commit_message": "Preserve retail file-size result widths and handle inputs",
+  "source": "report",
+  "version": "SLUS_217.82",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 93.4302346326569,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

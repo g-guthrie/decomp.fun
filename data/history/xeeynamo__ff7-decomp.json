@@ -263,5 +263,19 @@
    "matched_data_percent": 24.414876402545016,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T00:38:25Z",
+  "commit_sha": "6d8d53d168755240cb5fcc9187418f615b80b2c3",
+  "commit_message": "battle: match BattleCmdScriptDispatch and cleanup/doc pass (#381)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 67.40001,
+   "matched_code_percent": 67.4000104020388,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.4217160511539,
+   "complete_data_percent": 0.0
+  }
  }
 ]
