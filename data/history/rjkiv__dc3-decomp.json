@@ -570,5 +570,19 @@
    "matched_data_percent": 20.54997991631527,
    "complete_data_percent": 20.54997991631527
   }
+ },
+ {
+  "timestamp": "2026-10-24T17:23:27Z",
+  "commit_sha": "607428a3e87f8ec2bbde49df5bb4985060361db8",
+  "commit_message": "i hate planes",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.175873,
+   "matched_code_percent": 52.32797930262699,
+   "complete_code_percent": 26.791169863628696,
+   "matched_data_percent": 20.5941314985356,
+   "complete_data_percent": 20.5941314985356
+  }
  }
 ]

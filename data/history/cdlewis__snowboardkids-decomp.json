@@ -195,5 +195,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T16:46:56Z",
+  "commit_sha": "031a8350683828a148cc58a58b0d508fca72bdd7",
+  "commit_message": "Match JP viewport display lists; preserve framebuffer submission attempt",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

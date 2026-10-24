@@ -581,5 +581,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T18:30:49Z",
+  "commit_sha": "c8cff9088ec03a7298d2ad3eea760be606f5b180",
+  "commit_message": "report.json: agent-c run 151 (if/else default-value form, C++ inline iterator decode fixes; NM gains 4B620 94.41, 48AEC 88.11, 493AC 90.60, 36F0C 91.26) \u2014 78.30% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.05024,
+   "matched_code_percent": 78.29557792265692,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

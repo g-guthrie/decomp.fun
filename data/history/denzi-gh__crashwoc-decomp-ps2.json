@@ -548,5 +548,19 @@
    "matched_data_percent": 69.59016850199966,
    "complete_data_percent": 69.58999704232053
   }
+ },
+ {
+  "timestamp": "2026-10-24T18:14:24Z",
+  "commit_sha": "03530b4f1ff63a654391b3524cfff45c6a62a6da",
+  "commit_message": "nu3d and nups2 update (#153)",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 99.09946,
+   "matched_code_percent": 97.4106217715512,
+   "complete_code_percent": 52.554118285017445,
+   "matched_data_percent": 69.59016850199966,
+   "complete_data_percent": 69.58999704232053
+  }
  }
 ]
