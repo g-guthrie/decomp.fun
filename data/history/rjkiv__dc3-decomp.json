@@ -556,5 +556,19 @@
    "matched_data_percent": 20.54997991631527,
    "complete_data_percent": 20.54997991631527
   }
+ },
+ {
+  "timestamp": "2026-10-24T15:12:46Z",
+  "commit_sha": "74cb2053e9e5ab0250d994010b5f7417278e2e87",
+  "commit_message": "dx9 improvements (#350)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.17553,
+   "matched_code_percent": 52.326045887478514,
+   "complete_code_percent": 26.717437930000543,
+   "matched_data_percent": 20.54997991631527,
+   "complete_data_percent": 20.54997991631527
+  }
  }
 ]

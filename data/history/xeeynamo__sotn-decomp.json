@@ -269,5 +269,19 @@
    "matched_data_percent": 72.03835189492874,
    "complete_data_percent": 27.916255862634937
   }
+ },
+ {
+  "timestamp": "2026-10-24T15:12:50Z",
+  "commit_sha": "3857f8152b8499bfe08c2a07c5728a6c6cc994ea",
+  "commit_message": "RDAI Archer (#3764)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 81.95216,
+   "matched_code_percent": 81.91630949012237,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 72.0400348765887,
+   "complete_data_percent": 27.914572832379264
+  }
  }
 ]

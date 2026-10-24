@@ -539,5 +539,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T15:23:18Z",
+  "commit_sha": "bc9c9460eeb939fe40dd40461e1de392551ff09a",
+  "commit_message": "report.json: agent-g run 157 (NM: bootup 8BD4 96.83 NCC donor, timproc_b5 B624 96.07, B368 95.71 via C++ return-by-value helpers) \u2014 77.00% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 96.721466,
+   "matched_code_percent": 76.99638618041824,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
