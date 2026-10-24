@@ -486,5 +486,19 @@
    "matched_data_percent": 9.404351891442344,
    "complete_data_percent": 1.1983911815700075
   }
+ },
+ {
+  "timestamp": "2026-10-24T22:41:04Z",
+  "commit_sha": "5c980c1d0f3fb56d1e0523b125e2c4833711f6a1",
+  "commit_message": "ActorMovementUtil from Petari",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 21.350742,
+   "matched_code_percent": 18.597984451115444,
+   "complete_code_percent": 1.524135224890976,
+   "matched_data_percent": 9.404351891442344,
+   "complete_data_percent": 1.1983911815700075
+  }
  }
 ]

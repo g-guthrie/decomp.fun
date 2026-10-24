@@ -44,5 +44,19 @@
    "matched_data_percent": 0.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T23:24:17Z",
+  "commit_sha": "84404ed2134f493b5ff1f380cbc2edd3330a8326",
+  "commit_message": "camera: matched cmd_cam_move",
+  "source": "report",
+  "version": "SLPM_654.95",
+  "measures": {
+   "fuzzy_match_percent": 0.7690926980362011,
+   "matched_code_percent": 0.7690926980362011,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]
