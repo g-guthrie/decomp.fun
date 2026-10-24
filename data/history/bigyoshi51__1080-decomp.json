@@ -357,5 +357,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T01:35:27Z",
+  "commit_sha": "ee899fd0c1116af747f5c1d706a26b8f4479f565",
+  "commit_message": "report.json: agent-g run 143 (NM-only: 7C1C real 3FAC prototype, b5 AC20/8FC8/DF14/D884, gl 51448/50444/608A4 decode fixes, game_uso 3558/0B3C zero spellings, b3 13B8 + arcproc 16F4 twins; clip 0x2e890) \u2014 71.20% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 95.59555,
+   "matched_code_percent": 71.19838026950049,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

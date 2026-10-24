@@ -500,5 +500,19 @@
    "matched_data_percent": 20.437852785777824,
    "complete_data_percent": 20.437852785777824
   }
+ },
+ {
+  "timestamp": "2026-10-24T00:59:45Z",
+  "commit_sha": "b14b2ebfa0e4c4fae21b1150e28285f4be6c0941",
+  "commit_message": "arkfile context",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.154934,
+   "matched_code_percent": 52.294324771144275,
+   "complete_code_percent": 26.561585007184767,
+   "matched_data_percent": 20.437852785777824,
+   "complete_data_percent": 20.437852785777824
+  }
  }
 ]

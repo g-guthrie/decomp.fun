@@ -490,5 +490,19 @@
    "matched_data_percent": 89.80214920096013,
    "complete_data_percent": 22.394043080844124
   }
+ },
+ {
+  "timestamp": "2026-10-24T01:05:45Z",
+  "commit_sha": "57abeb8d349a87e534124cba07d511ed43b52c5b",
+  "commit_message": "Enemy mario stuff",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 94.6128,
+   "matched_code_percent": 50.25303000929225,
+   "complete_code_percent": 18.417710095128587,
+   "matched_data_percent": 90.18819954055012,
+   "complete_data_percent": 22.394043080844124
+  }
  }
 ]
