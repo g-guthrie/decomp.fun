@@ -1656,5 +1656,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T19:16:38Z",
+  "commit_sha": "a3014ce7c3035a8d132bf3452735f7c1ac25cb16",
+  "commit_message": "Name DDS2 skill selection flag",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.545617,
+   "matched_code_percent": 94.54561736932706,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
