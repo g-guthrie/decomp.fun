@@ -1628,5 +1628,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T17:21:47Z",
+  "commit_sha": "a1ae2e993c8abe709672169150f040b6cc87a851",
+  "commit_message": "Type model transform callback owner",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.545617,
+   "matched_code_percent": 94.54561736932706,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

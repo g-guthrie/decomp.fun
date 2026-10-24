@@ -299,5 +299,19 @@
    "matched_data_percent": 47.37941584205746,
    "complete_data_percent": 36.41928390458435
   }
+ },
+ {
+  "timestamp": "2026-10-24T17:15:29Z",
+  "commit_sha": "103768cdc0062977372d8852ab2ba7d3d3322d4f",
+  "commit_message": "Decompile BATTLE 6E644 actor relation, destination and setup routines (4 functions) (#290)",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 89.39394,
+   "matched_code_percent": 89.39394565298214,
+   "complete_code_percent": 20.640176144484744,
+   "matched_data_percent": 47.37941584205746,
+   "complete_data_percent": 36.41928390458435
+  }
  }
 ]
