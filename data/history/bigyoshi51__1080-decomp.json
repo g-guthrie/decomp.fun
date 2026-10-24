@@ -511,5 +511,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T13:16:08Z",
+  "commit_sha": "aca0b6e18a4f9c909963bf5fbe58bf8b72cc43a5",
+  "commit_message": "report.json: agent-g run 155 (EXACT gl 68DD4 via void alias + role-paired locals; NM twin ports b3 13B8/arcproc 16F4, 5F984; post0b clip 0x2e90c) \u2014 76.78% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 96.64031,
+   "matched_code_percent": 76.78134031270815,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
