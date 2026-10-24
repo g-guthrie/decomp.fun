@@ -416,5 +416,19 @@
    "matched_data_percent": 9.235435353597053,
    "complete_data_percent": 1.1983911815700075
   }
+ },
+ {
+  "timestamp": "2026-10-24T15:34:53Z",
+  "commit_sha": "c4743d361a2877851e698414ddcdec898448ee7c",
+  "commit_message": "splits refining via vtables first pass",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 20.860159,
+   "matched_code_percent": 18.1577411050108,
+   "complete_code_percent": 1.524135224890976,
+   "matched_data_percent": 9.235435353597053,
+   "complete_data_percent": 1.1983911815700075
+  }
  }
 ]
