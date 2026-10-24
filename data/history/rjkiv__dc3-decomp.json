@@ -542,5 +542,19 @@
    "matched_data_percent": 20.534368307132393,
    "complete_data_percent": 20.534368307132393
   }
+ },
+ {
+  "timestamp": "2026-10-24T04:14:05Z",
+  "commit_sha": "752383e17b7d35be2a617d2adf36ae642f7d1669",
+  "commit_message": "kb context + asyncfile improvements",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.162964,
+   "matched_code_percent": 52.321490892467715,
+   "complete_code_percent": 26.717437930000543,
+   "matched_data_percent": 20.54997991631527,
+   "complete_data_percent": 20.54997991631527
+  }
  }
 ]

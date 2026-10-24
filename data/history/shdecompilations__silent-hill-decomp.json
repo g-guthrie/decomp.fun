@@ -717,5 +717,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T03:42:10Z",
+  "commit_sha": "e40a59d2e65e51294dff0f94567ea5aaeea735b4",
+  "commit_message": "Bodyprog: `func_800808AC` -> `Collision_FloorTypeGet`",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]

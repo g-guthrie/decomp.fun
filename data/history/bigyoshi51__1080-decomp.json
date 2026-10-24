@@ -399,5 +399,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T04:27:55Z",
+  "commit_sha": "4d96ab2598704f27ca69d42a8fb18deeba6284f9",
+  "commit_message": "report.json: agent-g run 146 (EXACT gl 5062C NCC donor, base-reference cast + recursive-call zero alias; NM game_uso 97EC) \u2014 72.59% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 96.04406,
+   "matched_code_percent": 72.59423991775806,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
