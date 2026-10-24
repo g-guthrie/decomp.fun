@@ -149,5 +149,19 @@
    "matched_data_percent": 32.83872721358519,
    "complete_data_percent": 6.838189533659208
   }
+ },
+ {
+  "timestamp": "2026-10-24T21:59:08Z",
+  "commit_sha": "55e41ee9a6f4d92a7154d241777bc1066303fdb9",
+  "commit_message": "Decompiling actor NSTN (#169)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 14.537912,
+   "matched_code_percent": 10.34203278677089,
+   "complete_code_percent": 4.967630464552645,
+   "matched_data_percent": 32.86486855805235,
+   "complete_data_percent": 6.838189533659208
+  }
  }
 ]

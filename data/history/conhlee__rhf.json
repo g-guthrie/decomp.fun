@@ -67,5 +67,19 @@
    "matched_data_percent": 6.040470972016922,
    "complete_data_percent": 4.681991946582395
   }
+ },
+ {
+  "timestamp": "2026-10-24T21:49:58Z",
+  "commit_sha": "02b140c9e7007e2a4ddd61c80ac3f2eb35251ed7",
+  "commit_message": "Merge branch 'master' of https://github.com/conhlee/rhf",
+  "source": "report",
+  "version": "SOME01",
+  "measures": {
+   "fuzzy_match_percent": 16.09982,
+   "matched_code_percent": 13.591846988611975,
+   "complete_code_percent": 9.61088439680257,
+   "matched_data_percent": 6.040470972016922,
+   "complete_data_percent": 4.702788113563383
+  }
  }
 ]

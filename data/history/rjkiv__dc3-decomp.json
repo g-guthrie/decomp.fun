@@ -612,5 +612,19 @@
    "matched_data_percent": 20.719918787108064,
    "complete_data_percent": 20.719918787108064
   }
+ },
+ {
+  "timestamp": "2026-10-24T21:52:21Z",
+  "commit_sha": "d7c82211d3fea72f6932dd0a43c3142ada909adb",
+  "commit_message": "task context (#351)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.18182,
+   "matched_code_percent": 52.35026273145683,
+   "complete_code_percent": 26.997684817284075,
+   "matched_data_percent": 20.719918787108064,
+   "complete_data_percent": 20.719918787108064
+  }
  }
 ]

@@ -532,5 +532,19 @@
    "matched_data_percent": 90.32250507940425,
    "complete_data_percent": 22.394043080844124
   }
+ },
+ {
+  "timestamp": "2026-10-24T21:35:28Z",
+  "commit_sha": "f565f4a7bedc4040b90527b704c495780abe5d57",
+  "commit_message": "Take default allocator in TVector_pointer + matching MarDirector (#370)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 94.88859,
+   "matched_code_percent": 50.74215450986159,
+   "complete_code_percent": 18.472750528677846,
+   "matched_data_percent": 90.70730606514444,
+   "complete_data_percent": 22.435896434812623
+  }
  }
 ]

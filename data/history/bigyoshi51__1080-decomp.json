@@ -623,5 +623,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T22:24:56Z",
+  "commit_sha": "a56e4b358b2d889d6343bb7476ca83c2c8ed6740",
+  "commit_message": "report.json: agent-g run 161 (timproc_b5 4118 exact via cfe donor splice; D884 96.63, DF14 96.23) \u2014 79.37% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.145424,
+   "matched_code_percent": 79.37447877602186,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
