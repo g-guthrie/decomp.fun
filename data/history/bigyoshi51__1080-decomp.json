@@ -455,5 +455,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T07:51:57Z",
+  "commit_sha": "32cdb84df4c90278e000958b54fc99dc6761def2",
+  "commit_message": "report.json: agent-g run 150 (EXACT bootup 0CA0 NCC constructor donor; NM bootup 76F4 99.82) \u2014 76.57% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 96.506165,
+   "matched_code_percent": 76.5736374746272,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

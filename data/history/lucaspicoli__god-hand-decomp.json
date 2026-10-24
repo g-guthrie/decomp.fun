@@ -248,5 +248,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T08:15:07Z",
+  "commit_sha": "9cd02ece08cf9148fd6a6a057e2e6960ced36727",
+  "commit_message": "[PR-16] progress: objdiff units and report for the 21 new TUs",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 53.188004,
+   "matched_code_percent": 53.18800275280074,
+   "complete_code_percent": 51.82852533366427,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]

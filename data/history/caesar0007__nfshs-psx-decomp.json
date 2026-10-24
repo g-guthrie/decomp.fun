@@ -192,5 +192,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-24T07:40:25Z",
+  "commit_sha": "8b604331f0270b3680658274a8fbc6f24040c732",
+  "commit_message": "Restore game common source ownership and absolute SYM SLD contracts",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
