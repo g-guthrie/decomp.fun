@@ -472,5 +472,19 @@
    "matched_data_percent": 9.404351891442344,
    "complete_data_percent": 1.1983911815700075
   }
+ },
+ {
+  "timestamp": "2026-10-24T19:24:05Z",
+  "commit_sha": "f527ee07da29ff77d184f7fee0c273e80287550d",
+  "commit_message": "Small `MapDemoStateWait` fixes",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 21.086378,
+   "matched_code_percent": 18.381882391223208,
+   "complete_code_percent": 1.524135224890976,
+   "matched_data_percent": 9.404351891442344,
+   "complete_data_percent": 1.1983911815700075
+  }
  }
 ]
