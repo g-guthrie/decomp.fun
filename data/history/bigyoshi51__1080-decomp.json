@@ -553,5 +553,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T16:15:05Z",
+  "commit_sha": "4a626df5e5d2cad5dd3b6fc73c371caa4c27fe39",
+  "commit_message": "report.json: agent-g run 158 (39 handwritten libultra asm functions built from real .s sources via GLOBAL_ASM; EXACT C __osDequeueThread split func_80003BF0) \u2014 78.16% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 97.88357,
+   "matched_code_percent": 78.15710936393629,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

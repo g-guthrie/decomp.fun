@@ -277,5 +277,19 @@
    "matched_data_percent": 24.4217160511539,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T15:32:17Z",
+  "commit_sha": "04d8be0151920b2671708e4547611b401399d764",
+  "commit_message": "battle: match BattleApplyActionEffect (#383)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 67.73028,
+   "matched_code_percent": 67.73027513392626,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.4217160511539,
+   "complete_data_percent": 0.0
+  }
  }
 ]

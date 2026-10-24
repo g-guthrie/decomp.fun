@@ -66,5 +66,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-24T16:04:14Z",
+  "commit_sha": "7794d1460d26031118eab3774f14a17ed41bcbed",
+  "commit_message": "Me2/populate missing symbols (#40)",
+  "source": "report",
+  "version": "MKPVE01",
+  "measures": {
+   "fuzzy_match_percent": 28.697857,
+   "matched_code_percent": 19.01192155900456,
+   "complete_code_percent": 8.6140591238438,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
