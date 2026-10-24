@@ -441,5 +441,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T07:03:18Z",
+  "commit_sha": "cc34879c63730bd5a4df9b970eed07701fba8d22",
+  "commit_message": "report.json: agent-g run 149 (NM-only: titproc 5DC 94.38 -> 98.87; 4-entry jumptable cap traced to cfe func_465d90 >=5-label rule) \u2014 76.10% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 96.49028,
+   "matched_code_percent": 76.09581604661774,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
