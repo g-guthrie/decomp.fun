@@ -525,5 +525,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T13:44:42Z",
+  "commit_sha": "1f25600d856c5babd8cfeddc8b25c66efb121592",
+  "commit_message": "report.json: agent-c run 147 (EXACT gl 34548 + 3485C via original-file-layout cfe donor for epilogue alignment; 1DDC policy fix) \u2014 76.83% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 96.65833,
+   "matched_code_percent": 76.826971996832,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
