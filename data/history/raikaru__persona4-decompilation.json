@@ -114,5 +114,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-24T00:50:42Z",
+  "commit_sha": "854e43d25d5b511503d919cd1d2841c85a64dece",
+  "commit_message": "Align Smap declarations with the matched aggregate input ABI",
+  "source": "report",
+  "version": "SLUS_217.82",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 93.4302346326569,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
