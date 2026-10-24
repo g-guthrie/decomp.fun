@@ -355,5 +355,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-24T20:50:10Z",
+  "commit_sha": "0cf08ef39c8a2e37f122a5fdf5393856d7aefb09",
+  "commit_message": "overlay: clarify function and global names (batch 32) (#249)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 98.992427,
+   "matched_code_percent": 98.93098289369695,
+   "complete_code_percent": 98.93098289369695,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]

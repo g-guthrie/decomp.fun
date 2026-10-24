@@ -609,5 +609,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T21:06:55Z",
+  "commit_sha": "53953ff40c07e095a818b6003029edcaf901ae39",
+  "commit_message": "report.json: agent-g run 160 (stopped after stall; NM gains B75C 91.05, 3558 75.62, 6126C 83.89, 2DE0 89.83, b3 13B8 / arcproc 16F4 86.46) \u2014 78.47% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.110825,
+   "matched_code_percent": 78.47338414010501,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -66,5 +66,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-24T20:43:58Z",
+  "commit_sha": "2b45c422e2e3a8697372f6f25692a7793d118e06",
+  "commit_message": "Fix `SCmdWhile`, `SCmdYield`",
+  "source": "report",
+  "version": "1.0.3",
+  "measures": {
+   "fuzzy_match_percent": 1.5976845,
+   "matched_code_percent": 1.5689252386099775,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

@@ -47,5 +47,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T21:17:21Z",
+  "commit_sha": "a930836ccecca0c56cb618b43dd2bae0f5686a90",
+  "commit_message": "task pool split",
+  "source": "report",
+  "version": "AZWE",
+  "measures": {
+   "fuzzy_match_percent": 3.209312693047778,
+   "matched_code_percent": 3.209312693047778,
+   "complete_code_percent": 3.209312693047778,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
