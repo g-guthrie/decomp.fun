@@ -153,5 +153,19 @@
    "matched_data_percent": 97.10099344920872,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T03:18:01Z",
+  "commit_sha": "096999ab155317e82a2d988166e652c855007241",
+  "commit_message": "Structure title demo snapshots and clarify player state fields",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]
