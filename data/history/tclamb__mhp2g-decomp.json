@@ -108,5 +108,19 @@
    "matched_data_percent": 83.67210695489997,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T09:22:58Z",
+  "commit_sha": "3832194122c3148d44e83dd3808b9b5a154d49af",
+  "commit_message": "Match equip_manager.cpp",
+  "source": "report",
+  "version": "ULJM_05500",
+  "measures": {
+   "fuzzy_match_percent": 3.3472645,
+   "matched_code_percent": 3.347264466508393,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 83.6721472319497,
+   "complete_data_percent": 0.0
+  }
  }
 ]

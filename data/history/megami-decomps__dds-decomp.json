@@ -1530,5 +1530,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T10:25:05Z",
+  "commit_sha": "b7a625912b8b2c1b8e5e330675eb038122ac66e2",
+  "commit_message": "Name pending battle mode field",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.545617,
+   "matched_code_percent": 94.54561736932706,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

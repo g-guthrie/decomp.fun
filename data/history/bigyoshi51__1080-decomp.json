@@ -483,5 +483,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T10:15:26Z",
+  "commit_sha": "6fe362e884d9e8f449a06e6ef0790305f9a4d47e",
+  "commit_message": "report.json: agent-g run 152 (NM: bootup C234 85.20, timproc_b5 C310 93.75, gl 578B4 97.72, B75C 89.48) \u2014 76.57% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 96.54085,
+   "matched_code_percent": 76.5736374746272,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
