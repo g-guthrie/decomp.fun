@@ -47,5 +47,19 @@
    "matched_data_percent": 37.35728671104115,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T05:58:25Z",
+  "commit_sha": "5e5c7ddf0f2dae8e124c6438dec764d1974de9b2",
+  "commit_message": "feat(src): recover twenty-one Irrlicht units (#37)",
+  "source": "report",
+  "version": "1.18-linux-amd64",
+  "measures": {
+   "fuzzy_match_percent": 75.94873551489589,
+   "matched_code_percent": 60.89918692513966,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 38.051001567184755,
+   "complete_data_percent": 0.0
+  }
  }
 ]

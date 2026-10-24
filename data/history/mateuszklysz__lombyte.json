@@ -341,5 +341,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-24T06:03:34Z",
+  "commit_sha": "2d6fb52bb80eaa4f67f00090ca412a61c9b987ed",
+  "commit_message": "overlay: recover gameplay and rendering function names (batch 31) (#247)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 98.992427,
+   "matched_code_percent": 98.93098289369695,
+   "complete_code_percent": 98.93098289369695,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]

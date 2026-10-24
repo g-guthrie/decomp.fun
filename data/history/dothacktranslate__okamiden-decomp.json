@@ -274,5 +274,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-24T05:48:53Z",
+  "commit_sha": "35aaa04e792e9b92252c402046d98439f14f8f72",
+  "commit_message": "arm9: targeted structural recovery improves 7 fuzzy and 1 exact functions",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 52.47399834373575,
+   "matched_code_percent": 4.2369347664936985,
+   "complete_code_percent": 4.2369347664936985,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
