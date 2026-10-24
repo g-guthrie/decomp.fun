@@ -86,5 +86,19 @@
    "matched_data_percent": 9.801124116264527,
    "complete_data_percent": 9.801124116264527
   }
+ },
+ {
+  "timestamp": "2026-10-24T19:32:22Z",
+  "commit_sha": "703e9158474532f6a86e954a262bdda9b78dfed7",
+  "commit_message": "Merge pull request #650 from Jovinull/tools/progress-moved-code",
+  "source": "report",
+  "version": "G9SE8P",
+  "measures": {
+   "fuzzy_match_percent": 36.223446,
+   "matched_code_percent": 35.417491751706024,
+   "complete_code_percent": 35.248737255599714,
+   "matched_data_percent": 9.801124116264527,
+   "complete_data_percent": 9.801124116264527
+  }
  }
 ]
