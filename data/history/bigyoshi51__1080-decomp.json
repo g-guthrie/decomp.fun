@@ -371,5 +371,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T02:35:49Z",
+  "commit_sha": "604eefb9ff6e63a703899bd1c1518eb4a759746c",
+  "commit_message": "report.json: agent-c run 139 (NM-only: function-typed reloc-free bases lift 3D71C to 96.00 plus 221D8/253C4/2119C/90CC; 201B8 unsigned switch; uninitialised empty-test policy fixes in 27E24/2ABC0/1DCB4; clip 0x2e88c) \u2014 71.20% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 95.62209,
+   "matched_code_percent": 71.19838026950049,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
