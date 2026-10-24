@@ -1544,5 +1544,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T11:19:50Z",
+  "commit_sha": "d55b97bacfd4f5d29a6c0ec31e9f830a17653601",
+  "commit_message": "Name sky light set alpha offset",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.545617,
+   "matched_code_percent": 94.54561736932706,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

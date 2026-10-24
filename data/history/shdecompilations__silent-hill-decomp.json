@@ -759,5 +759,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T10:49:52Z",
+  "commit_sha": "ef3e847ce657df66719c4868ec6a833eafbdba92",
+  "commit_message": "Bodyprog: misc. doc fixups and demagicking",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]
