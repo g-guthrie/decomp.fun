@@ -257,5 +257,19 @@
    "matched_data_percent": 96.79271563466823,
    "complete_data_percent": 96.79246993635431
   }
+ },
+ {
+  "timestamp": "2026-10-24T00:59:58Z",
+  "commit_sha": "38f3c3348cf5dbeeb0a0b191f3f4576c85a97bc7",
+  "commit_message": "Merge pull request #171 from DevOldSchool/codex/pr170-manual-matching",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 31.577194,
+   "matched_code_percent": 31.202032828687532,
+   "complete_code_percent": 7.728345993995534,
+   "matched_data_percent": 96.79271563466823,
+   "complete_data_percent": 96.79246993635431
+  }
  }
 ]

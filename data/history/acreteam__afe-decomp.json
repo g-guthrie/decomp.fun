@@ -53,5 +53,19 @@
    "complete_code_percent": 86.54,
    "fuzzy_match_percent": 96.03
   }
+ },
+ {
+  "timestamp": "2026-10-24T04:48:06Z",
+  "commit_sha": "56136b03437aa1e28a03cc496167f8051d3a6abe",
+  "commit_message": "Merge pull request #12 from abnormalhare/work",
+  "source": "report",
+  "version": "GAEJ01_00",
+  "measures": {
+   "fuzzy_match_percent": 96.18614,
+   "matched_code_percent": 93.13579415409858,
+   "complete_code_percent": 86.70262025918696,
+   "matched_data_percent": 65.04305096686839,
+   "complete_data_percent": 64.56318567410379
+  }
  }
 ]

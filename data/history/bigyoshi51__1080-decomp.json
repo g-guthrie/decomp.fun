@@ -413,5 +413,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T05:10:26Z",
+  "commit_sha": "ec6be695e45791ae9af45a1d0429b0bb1b4f5f5a",
+  "commit_message": "report.json: agent-g run 147 (EXACT gl 526D0 NCC constructor donor, gl 533EC cfe divide-by-3 + cursor; clip 0x2e890) \u2014 74.35% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 96.14336,
+   "matched_code_percent": 74.35027300335156,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
