@@ -227,5 +227,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-24T19:58:29Z",
+  "commit_sha": "68c61809018e9d7b3a57938c693ea2b6679be259",
+  "commit_message": "Add a private inline queue-capacity helper for fn_80060CC0 so its checked ring-buffer path can compile as local control flow.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 41.255394,
+   "matched_code_percent": 15.28970217386458,
+   "complete_code_percent": 2.462891395944445,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

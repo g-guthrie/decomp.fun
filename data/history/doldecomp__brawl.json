@@ -284,5 +284,19 @@
    "matched_data_percent": 14.933247322270466,
    "complete_data_percent": 14.933247322270466
   }
+ },
+ {
+  "timestamp": "2026-10-24T19:33:44Z",
+  "commit_sha": "6d5241a5e808a70d6e49df20bc40c32b8d71fded",
+  "commit_message": "Decompile so_team_module_impl.cpp (#152)",
+  "source": "report",
+  "version": "RSBE01_02",
+  "measures": {
+   "fuzzy_match_percent": 1.3930321,
+   "matched_code_percent": 1.297043467452778,
+   "complete_code_percent": 1.0761706725491975,
+   "matched_data_percent": 14.933247322270466,
+   "complete_data_percent": 14.933247322270466
+  }
  }
 ]

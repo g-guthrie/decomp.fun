@@ -595,5 +595,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T19:44:49Z",
+  "commit_sha": "8b0b3e212ef4556f06c94259a43ae1f1f898456d",
+  "commit_message": "report.json: agent-c run 152 (do-while delay-slot increment, NCC re-donors; NM gains 4A890 86.41, 46050 86.91, 493AC 92.20, 3B2EC 91.56) \u2014 78.30% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.08956,
+   "matched_code_percent": 78.29557792265692,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -291,5 +291,19 @@
    "matched_data_percent": 24.4217160511539,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T20:04:11Z",
+  "commit_sha": "296b4df052e4b65f86feec1fd3b291ac00e79544",
+  "commit_message": "battle: match BattleApplyCaitSithTransform (#384)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 67.81674,
+   "matched_code_percent": 67.81674208144797,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.4217160511539,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -562,5 +562,19 @@
    "matched_data_percent": 69.59016850199966,
    "complete_data_percent": 69.58999704232053
   }
+ },
+ {
+  "timestamp": "2026-10-24T19:52:07Z",
+  "commit_sha": "589275387694623de969c03474887c179dedb322",
+  "commit_message": "Merge pull request #154 from denzi-gh/host/moveplayer-index-restore",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 99.09946,
+   "matched_code_percent": 97.4106217715512,
+   "complete_code_percent": 52.554118285017445,
+   "matched_data_percent": 69.59016850199966,
+   "complete_data_percent": 69.58999704232053
+  }
  }
 ]
