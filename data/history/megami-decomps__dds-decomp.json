@@ -1558,5 +1558,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T12:27:05Z",
+  "commit_sha": "9ca046461429920aeb5880b7de0a7f2ea075af64",
+  "commit_message": "Name short-record motion updater",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.545617,
+   "matched_code_percent": 94.54561736932706,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

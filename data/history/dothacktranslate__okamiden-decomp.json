@@ -288,5 +288,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-24T12:34:27Z",
+  "commit_sha": "414cc698f90a9d81dec51b39f44a3a73ee464dd2",
+  "commit_message": "arm9: corpus marathon V10 improves 103 fuzzy and 0 exact functions",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 52.59977377384454,
+   "matched_code_percent": 4.2369347664936985,
+   "complete_code_percent": 4.2369347664936985,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

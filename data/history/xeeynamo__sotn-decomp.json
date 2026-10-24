@@ -255,5 +255,19 @@
    "matched_data_percent": 72.03018729658639,
    "complete_data_percent": 27.92396529005548
   }
+ },
+ {
+  "timestamp": "2026-10-24T12:24:44Z",
+  "commit_sha": "59a200311aac3e561df0a12979c05a9458046e33",
+  "commit_message": "BO5: EntityHippogryph (#3762)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 81.83506,
+   "matched_code_percent": 81.79925016820376,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 72.03835189492874,
+   "complete_data_percent": 27.916255862634937
+  }
  }
 ]

@@ -497,5 +497,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T12:32:07Z",
+  "commit_sha": "efcfa6dd0b34977bdaff02a2140605bf4484b31d",
+  "commit_message": "report.json: agent-c run 146 (EXACT gl 4CCB4 + 4D0E4 via agent-g sibling patches; NM temp-merge/operand-order gains; post0b clip 0x2e904) \u2014 76.74% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 96.63247,
+   "matched_code_percent": 76.73675763281705,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
