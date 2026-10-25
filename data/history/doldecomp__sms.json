@@ -560,5 +560,19 @@
    "matched_data_percent": 90.70730606514444,
    "complete_data_percent": 22.435896434812623
   }
+ },
+ {
+  "timestamp": "2026-10-25T15:03:30Z",
+  "commit_sha": "56294a1d3d6e9f80062a574e3823dca842296be8",
+  "commit_message": "Privatize MarDirector",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 94.8959,
+   "matched_code_percent": 50.76599793654083,
+   "complete_code_percent": 18.472750528677846,
+   "matched_data_percent": 90.70730606514444,
+   "complete_data_percent": 22.435896434812623
+  }
  }
 ]

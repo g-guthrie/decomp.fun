@@ -255,5 +255,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-25T15:02:48Z",
+  "commit_sha": "fb959c8b74713b4dc02dd29001d741f53d67943f",
+  "commit_message": "Add the in place basis transform helper used by fn_8001A1F4",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 44.871803,
+   "matched_code_percent": 16.61550122679032,
+   "complete_code_percent": 2.4727267004913718,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

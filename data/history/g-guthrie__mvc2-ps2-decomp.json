@@ -1180,5 +1180,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-25T14:52:10Z",
+  "commit_sha": "f68c1316c4cee4aef5a07f93b5f094f02b81b26c",
+  "commit_message": "Recover vector-cycle callbacks and explicit height-helper argument",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 83.77202996269237,
+   "matched_code_percent": 83.77202996269236,
+   "complete_code_percent": 83.77202996269236,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]

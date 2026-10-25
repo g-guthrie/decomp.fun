@@ -626,5 +626,19 @@
    "matched_data_percent": 9.434893129161244,
    "complete_data_percent": 1.2728648150845523
   }
+ },
+ {
+  "timestamp": "2026-10-25T15:15:05Z",
+  "commit_sha": "1394982a0d0e9c87ea33acc6f824089d102e701e",
+  "commit_message": "cover some more voids in `.text` splits",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 21.498756,
+   "matched_code_percent": 18.731716342917665,
+   "complete_code_percent": 1.7203944325167566,
+   "matched_data_percent": 9.434893129161244,
+   "complete_data_percent": 1.2728648150845523
+  }
  }
 ]

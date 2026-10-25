@@ -409,5 +409,19 @@
    "matched_data_percent": 87.97081193701777,
    "complete_data_percent": 74.97262940485619
   }
+ },
+ {
+  "timestamp": "2026-10-25T14:43:01Z",
+  "commit_sha": "470e9cea44760a6c70851207a13c5caa68c4db37",
+  "commit_message": "Added AXSetVoicePriority in RVL_SDK (#2159)",
+  "source": "report",
+  "version": "RMGK01",
+  "measures": {
+   "fuzzy_match_percent": 99.99983,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 68.78540320304313,
+   "matched_data_percent": 87.97081193701777,
+   "complete_data_percent": 74.97262940485619
+  }
  }
 ]
