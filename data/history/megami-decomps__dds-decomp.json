@@ -1810,5 +1810,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T06:37:13Z",
+  "commit_sha": "627671cb31a23a0b6612ff92fa1dc1ac2d83dd4b",
+  "commit_message": "Type debug process callback result",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.70741,
+   "matched_code_percent": 94.70741002398034,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -304,5 +304,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T06:23:45Z",
+  "commit_sha": "8adaaf4a2206419dd83a129884811c414135a46e",
+  "commit_message": "[tooling] naming check: cite CONTRIBUTING rule 3 in its output and comments",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 54.74731,
+   "matched_code_percent": 54.74731207058,
+   "complete_code_percent": 53.40743707481075,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]

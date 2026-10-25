@@ -721,5 +721,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T06:27:34Z",
+  "commit_sha": "9b8b238ddf023ce5b923f475b7e87b4bdf59f69f",
+  "commit_message": "report.json: agent-c run 161 (43D38 + 4D468 exact via NCC temp-slot sharing; 3E5E0 99.36, 48510 98.71) \u2014 80.27% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.470276,
+   "matched_code_percent": 80.27032839077506,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
