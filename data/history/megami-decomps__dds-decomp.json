@@ -1838,5 +1838,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T08:31:47Z",
+  "commit_sha": "4fae35fe9d60682229def75863ffedefaf79a349",
+  "commit_message": "Remove DDS1 actor lookup pointer casts",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.70741,
+   "matched_code_percent": 94.70741002398034,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

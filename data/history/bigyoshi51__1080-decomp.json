@@ -749,5 +749,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T08:12:06Z",
+  "commit_sha": "d98fe054a90b18ecc80ac58798f069d25f0abf65",
+  "commit_message": "report.json: agent-g run 170 (31C0 99.86 and 63964 frame via block volatiles; 32C8 99.96) \u2014 80.56% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.52244,
+   "matched_code_percent": 80.55513303996182,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

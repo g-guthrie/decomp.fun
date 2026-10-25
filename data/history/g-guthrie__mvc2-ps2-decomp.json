@@ -1082,5 +1082,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-25T08:29:07Z",
+  "commit_sha": "4dfc0956471d0708e261b6bd6cdd2d40ba9cec99",
+  "commit_message": "Recover initial selection-mask callback creation",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 83.6313976760454,
+   "matched_code_percent": 83.6313976760454,
+   "complete_code_percent": 83.6313976760454,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]
