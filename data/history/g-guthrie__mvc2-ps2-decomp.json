@@ -1194,5 +1194,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-25T15:59:20Z",
+  "commit_sha": "4455ad64cca693de7d6e5cf2b68d8241fd2c7578",
+  "commit_message": "Recover work-context inheritance dispatcher and phase interfaces",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 83.7788308332038,
+   "matched_code_percent": 83.77883083320378,
+   "complete_code_percent": 83.77883083320378,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]

@@ -89,5 +89,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-25T07:06:38Z",
+  "commit_sha": "98dc2b1efedce1de91a3ade4b9517a2368ee4f7e",
+  "commit_message": "feat: match `func_8001F820`, `func_8001F9D0`, `func_8001FA00`, `func_8001FB68`",
+  "source": "report",
+  "version": "slus_004.25",
+  "measures": {
+   "fuzzy_match_percent": 5.450974,
+   "matched_code_percent": 5.450973789077847,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

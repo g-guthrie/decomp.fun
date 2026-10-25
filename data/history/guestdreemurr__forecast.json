@@ -243,5 +243,19 @@
    "matched_data_percent": 82.63144139186667,
    "complete_data_percent": 82.63144139186667
   }
+ },
+ {
+  "timestamp": "2026-10-25T15:45:55Z",
+  "commit_sha": "cfb0f77d21bd052204bb6df15e4d91bcba320b0d",
+  "commit_message": "DVD: match dvd, dvd_broadway, dvderror and dvdfs (100%, linked) (#54)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 87.77614,
+   "matched_code_percent": 85.1455109008617,
+   "complete_code_percent": 80.89818694833563,
+   "matched_data_percent": 84.12367052585668,
+   "complete_data_percent": 84.12367052585668
+  }
  }
 ]

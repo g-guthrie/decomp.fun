@@ -815,5 +815,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T16:13:47Z",
+  "commit_sha": "1a327853e2d19f3c38664430b7e34a60c0cbce12",
+  "commit_message": "IPD and collision format progress",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]

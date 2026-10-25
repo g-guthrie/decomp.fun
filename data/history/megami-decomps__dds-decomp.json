@@ -1950,5 +1950,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T16:25:49Z",
+  "commit_sha": "bfe39b74711a24166ec3c25d5cdb74b2d6568ba7",
+  "commit_message": "Type stage test selection outcomes",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.927711,
+   "matched_code_percent": 94.9277107234898,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
