@@ -209,5 +209,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T03:35:56Z",
+  "commit_sha": "bd2088198042acedb7ee9c65c2d5c1f6c9a24326",
+  "commit_message": "Clean up matching course player stats panel decompilation",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]
