@@ -75,5 +75,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T00:51:49Z",
+  "commit_sha": "5ba1d48463b2dd9e75913673005eb3ebd78ccade",
+  "commit_message": "those archives that i hate",
+  "source": "report",
+  "version": "AZWE",
+  "measures": {
+   "fuzzy_match_percent": 3.1167855801727375,
+   "matched_code_percent": 3.1167855801727375,
+   "complete_code_percent": 3.1167855801727375,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

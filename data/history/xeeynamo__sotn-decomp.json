@@ -283,5 +283,19 @@
    "matched_data_percent": 72.0400348765887,
    "complete_data_percent": 27.914572832379264
   }
+ },
+ {
+  "timestamp": "2026-10-25T00:05:09Z",
+  "commit_sha": "2297499a58dc7e70ca6a50f9b83c3bb0553af41f",
+  "commit_message": "pc: add most of the stage overlays (#3765)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 81.99467,
+   "matched_code_percent": 81.95877515328756,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 72.0568303939698,
+   "complete_data_percent": 27.898627609974596
+  }
  }
 ]

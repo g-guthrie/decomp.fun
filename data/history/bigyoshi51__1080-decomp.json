@@ -651,5 +651,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T01:02:43Z",
+  "commit_sha": "a75d4398e14a53f1b0a845d725471ff55c09ea40",
+  "commit_message": "report.json: agent-g run 163 (2 exacts via NCC donors: 64388 temp reuse, 15FC as C++ constructor; 97EC 99.97) \u2014 79.64% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.16033,
+   "matched_code_percent": 79.64145035325217,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

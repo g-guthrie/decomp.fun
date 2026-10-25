@@ -546,5 +546,19 @@
    "matched_data_percent": 90.70730606514444,
    "complete_data_percent": 22.435896434812623
   }
+ },
+ {
+  "timestamp": "2026-10-24T23:46:52Z",
+  "commit_sha": "0808c1ac1ad7b10f3e49b7f5c4fc761e3a134522",
+  "commit_message": "Use ACTOR_TYPE_MARIO in TTPHitActor::checkHitActors",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 94.88859,
+   "matched_code_percent": 50.74215450986159,
+   "complete_code_percent": 18.472750528677846,
+   "matched_data_percent": 90.70730606514444,
+   "complete_data_percent": 22.435896434812623
+  }
  }
 ]
