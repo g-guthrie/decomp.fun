@@ -707,5 +707,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T05:16:48Z",
+  "commit_sha": "9f5429b2bd07f2b81678ce732ff8d68e8aa06915",
+  "commit_message": "report.json: agent-c run 160 (C++ rewrites with stock gbi macros: 42938 97.15, 454C4 91.48, 43D38 97.51, 48510 97.29, 46790 99.25) \u2014 80.16% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.46118,
+   "matched_code_percent": 80.15651143152363,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

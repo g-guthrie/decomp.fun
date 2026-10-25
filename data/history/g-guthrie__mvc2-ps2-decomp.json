@@ -1040,5 +1040,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-25T05:23:35Z",
+  "commit_sha": "8002e12e947a8acef11b3da6a7480aaa01849258",
+  "commit_message": "Recover position sample and inherited offset initializers",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 83.47886386600342,
+   "matched_code_percent": 83.47886386600342,
+   "complete_code_percent": 83.47886386600342,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]
