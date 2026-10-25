@@ -1866,5 +1866,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T10:21:09Z",
+  "commit_sha": "4df98ab99d63808a3f10a2f3bd035963476c6245",
+  "commit_message": "Type battle turn-end state callback",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.70741,
+   "matched_code_percent": 94.70741002398034,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -1110,5 +1110,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-25T10:08:20Z",
+  "commit_sha": "2af611bf146deb6033fbc3a4ccde9c2f930bc845",
+  "commit_message": "Recover owner-state motion and preserve mixed callback contracts",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 83.66260881392819,
+   "matched_code_percent": 83.66260881392819,
+   "complete_code_percent": 83.66260881392819,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]

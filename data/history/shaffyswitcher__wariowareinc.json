@@ -103,5 +103,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T10:21:59Z",
+  "commit_sha": "03f9457e04258f2faaab84a740086b0b6af83c0b",
+  "commit_message": "more splits",
+  "source": "report",
+  "version": "AZWE",
+  "measures": {
+   "fuzzy_match_percent": 3.067471325338922,
+   "matched_code_percent": 3.067471325338922,
+   "complete_code_percent": 3.067471325338922,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

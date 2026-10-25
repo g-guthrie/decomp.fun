@@ -325,5 +325,19 @@
    "matched_data_percent": 72.05760233759634,
    "complete_data_percent": 27.897855702117074
   }
+ },
+ {
+  "timestamp": "2026-10-25T10:10:57Z",
+  "commit_sha": "a33f7d3ba492bec7a51d431c0ff11cdf287aa9d8",
+  "commit_message": "TEK: BoneScimitar, Dodo, Toad, Frog (#3768)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.00014,
+   "matched_code_percent": 81.96440346774989,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 72.05760233759634,
+   "complete_data_percent": 27.897855702117074
+  }
  }
 ]
