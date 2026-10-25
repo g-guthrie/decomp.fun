@@ -1068,5 +1068,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-25T07:23:41Z",
+  "commit_sha": "37af56ad0c1ffda6110f0c092e31533eab892002",
+  "commit_message": "Recover descriptor burst and correct native function boundaries",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 83.5546449945593,
+   "matched_code_percent": 83.5546449945593,
+   "complete_code_percent": 83.5546449945593,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]

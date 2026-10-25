@@ -127,5 +127,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T06:39:44Z",
+  "commit_sha": "e7a1fdc998de997f3b17ec23bd94b1283512272e",
+  "commit_message": "refactor: share Korean unaligned copy kernels",
+  "source": "report",
+  "version": "R4QE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000046,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

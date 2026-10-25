@@ -122,5 +122,19 @@
    "matched_data_percent": 83.6721472319497,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T06:58:32Z",
+  "commit_sha": "61e079182fa4ead79b1cad64b892fbcdea4708e1",
+  "commit_message": "Finish matching item_manager.cpp",
+  "source": "report",
+  "version": "ULJM_05500",
+  "measures": {
+   "fuzzy_match_percent": 3.4051175,
+   "matched_code_percent": 3.405117398700481,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 83.6721472319497,
+   "complete_data_percent": 0.0
+  }
  }
 ]
