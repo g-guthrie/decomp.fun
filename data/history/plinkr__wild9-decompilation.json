@@ -103,5 +103,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-25T16:40:09Z",
+  "commit_sha": "90dc158e00c09d42239a61f727bff72d85cb314e",
+  "commit_message": "feat: decompile and match 14 functions",
+  "source": "report",
+  "version": "slus_004.25",
+  "measures": {
+   "fuzzy_match_percent": 5.7080317,
+   "matched_code_percent": 5.708031655160801,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

@@ -23,5 +23,19 @@
    "matched_data_percent": 11.829273280783456,
    "complete_data_percent": 11.829273280783456
   }
+ },
+ {
+  "timestamp": "2026-10-25T22:57:29Z",
+  "commit_sha": "79dbbee7bd2b95b3b12008b213897124cb749500",
+  "commit_message": "Merge pull request #63: add the progress map to the shared-site report (map-v1)",
+  "source": "report",
+  "version": "GV4E69",
+  "measures": {
+   "fuzzy_match_percent": 4.319552,
+   "matched_code_percent": 4.303455518409169,
+   "complete_code_percent": 4.241042354116012,
+   "matched_data_percent": 11.829273280783456,
+   "complete_data_percent": 11.829273280783456
+  }
  }
 ]

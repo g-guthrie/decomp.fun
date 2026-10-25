@@ -2062,5 +2062,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T23:18:01Z",
+  "commit_sha": "ad159ea263055c195867e0ec5162beabac27c67f",
+  "commit_message": "Type scheduler main-loop result as stop-or-continue",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.927711,
+   "matched_code_percent": 94.9277107234898,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

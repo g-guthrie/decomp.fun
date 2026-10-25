@@ -821,5 +821,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-25T23:14:05Z",
+  "commit_sha": "3fb8fe64e79af22cc1aaabb63c40698c6ff10a69",
+  "commit_message": "Fix two tooling failures that blocked work on saved near-miss bodies",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 81.44713,
+   "matched_code_percent": 68.45236230713601,
+   "complete_code_percent": 68.33823395223224,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]

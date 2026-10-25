@@ -93,5 +93,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T22:45:18Z",
+  "commit_sha": "935bad59352de7ce6b370be65a3011357a38a5a1",
+  "commit_message": "The gallery Pierce requires the shooting gallery, and an actor package is decoded in the images its requires make resident: the room it requires (room.home), and the stage overlay that room requires (room.resident follows requires transitively). ActorImages is folded into Images (an optional actor package, own image first) and actor_room is gone, with the older pe2pkg-with-entries path: an actor with events is a package in an actor slot. Pierce's and the gallery's decoded data are unchanged. Step 6 of local/package_type_design.md. (Correction to f920caf851: the stage-1 maps' remaining non-stage owner= lines include task tables under older names, such as gActor101100Tasks, besides player clips and areas)",
+  "source": "report",
+  "version": "SLUS-01042",
+  "measures": {
+   "fuzzy_match_percent": 99.999985,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

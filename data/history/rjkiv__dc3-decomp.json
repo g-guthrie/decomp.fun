@@ -724,5 +724,19 @@
    "matched_data_percent": 20.918885493725274,
    "complete_data_percent": 20.918885493725274
   }
+ },
+ {
+  "timestamp": "2026-10-25T23:12:43Z",
+  "commit_sha": "e719ca939a8fd4f0dd644862dd899f9a2774cf8e",
+  "commit_message": "match dxmovie",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.20765,
+   "matched_code_percent": 52.445950396432025,
+   "complete_code_percent": 27.362379345883053,
+   "matched_data_percent": 20.942628149357567,
+   "complete_data_percent": 20.942628149357567
+  }
  }
 ]
