@@ -331,5 +331,19 @@
    "matched_data_percent": 91.10159732635921,
    "complete_data_percent": 51.86354741908023
   }
+ },
+ {
+  "timestamp": "2026-10-25T18:28:33Z",
+  "commit_sha": "62272de8ac5119e8599af223ea369960ace3e7db",
+  "commit_message": "JAudio matching (#1249)",
+  "source": "report",
+  "version": "GZLE01",
+  "measures": {
+   "fuzzy_match_percent": 82.9817,
+   "matched_code_percent": 80.08353386342581,
+   "complete_code_percent": 69.41949802866843,
+   "matched_data_percent": 91.14492968727342,
+   "complete_data_percent": 52.21993049762269
+  }
  }
 ]

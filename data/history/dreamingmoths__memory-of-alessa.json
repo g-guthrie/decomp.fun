@@ -431,5 +431,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T18:22:31Z",
+  "commit_sha": "f2ac02f95c041ca24c565a582236376c4b62f645",
+  "commit_message": "alessatool: optimize `alessatool/migrate` tests (#421)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

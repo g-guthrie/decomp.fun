@@ -257,5 +257,19 @@
    "matched_data_percent": 84.12367052585668,
    "complete_data_percent": 84.12367052585668
   }
+ },
+ {
+  "timestamp": "2026-10-25T18:27:00Z",
+  "commit_sha": "30b869ed58c1c1539af9904ae60f1cb240b34932",
+  "commit_message": "OS: fix the build after the DVD merge (#62)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 88.7373,
+   "matched_code_percent": 86.4650474896813,
+   "complete_code_percent": 82.54629653910098,
+   "matched_data_percent": 84.42216403067793,
+   "complete_data_percent": 84.42216403067793
+  }
  }
 ]

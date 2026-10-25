@@ -1208,5 +1208,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-25T18:15:34Z",
+  "commit_sha": "98b44c37a83dfb37dedde786b92ba1ae314bb2e0",
+  "commit_message": "Recover model curvature callback and correct effect position interface",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 83.81793583864449,
+   "matched_code_percent": 83.81793583864449,
+   "complete_code_percent": 83.81793583864449,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]

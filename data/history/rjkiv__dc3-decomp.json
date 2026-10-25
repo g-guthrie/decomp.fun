@@ -668,5 +668,19 @@
    "matched_data_percent": 20.89563070087994,
    "complete_data_percent": 20.89563070087994
   }
+ },
+ {
+  "timestamp": "2026-10-25T17:44:13Z",
+  "commit_sha": "646ba3b125b7c8601e7672e6971cd04e59745646",
+  "commit_message": "winsock context",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.193188,
+   "matched_code_percent": 52.40836349515581,
+   "complete_code_percent": 27.333214269914585,
+   "matched_data_percent": 20.918885493725274,
+   "complete_data_percent": 20.918885493725274
+  }
  }
 ]
