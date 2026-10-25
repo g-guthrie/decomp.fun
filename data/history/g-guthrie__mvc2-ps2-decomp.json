@@ -1166,5 +1166,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-25T14:05:32Z",
+  "commit_sha": "0b63d8149547d10a2670a4cdfb77aae8a269f081",
+  "commit_message": "Refresh catalog span counts in the status table",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 83.75745666873931,
+   "matched_code_percent": 83.75745666873932,
+   "complete_code_percent": 83.75745666873932,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]

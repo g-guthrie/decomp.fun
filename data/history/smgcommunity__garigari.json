@@ -612,5 +612,19 @@
    "matched_data_percent": 9.433248600976379,
    "complete_data_percent": 1.2728648150845523
   }
+ },
+ {
+  "timestamp": "2026-10-25T14:19:45Z",
+  "commit_sha": "cef104e9ddfe59788c78189018f46c3fc01244bf",
+  "commit_message": "AttackRock first pass",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 21.490973,
+   "matched_code_percent": 18.72393233013147,
+   "complete_code_percent": 1.7203944325167566,
+   "matched_data_percent": 9.434893129161244,
+   "complete_data_percent": 1.2728648150845523
+  }
  }
 ]
