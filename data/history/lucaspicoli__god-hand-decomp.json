@@ -318,5 +318,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T10:57:07Z",
+  "commit_sha": "0bcdfeaf159363e81210ad999b5dec3f999deef9",
+  "commit_message": "build: drop an inert -freorder-blocks drop from 00343c18.c",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 55.050655,
+   "matched_code_percent": 55.05065604657198,
+   "complete_code_percent": 53.67298645035369,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]

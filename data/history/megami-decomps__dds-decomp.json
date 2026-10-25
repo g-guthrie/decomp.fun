@@ -1880,5 +1880,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T11:22:52Z",
+  "commit_sha": "c6041e6575e1ae990f04ff5ffad0aed7d46b227a",
+  "commit_message": "Name event sequence task availability",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.894278,
+   "matched_code_percent": 94.89427755500056,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

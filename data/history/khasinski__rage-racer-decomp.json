@@ -20,5 +20,19 @@
    "complete_code_percent": 95.34,
    "fuzzy_match_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T10:49:19Z",
+  "commit_sha": "3f88e851e2c80c4c70cebf64c6bf53bfb8ed1f5d",
+  "commit_message": "Add DEMO (pre-release) build and fix regional tooling's hardcoded load address",
+  "source": "report",
+  "version": "SCES_006.50",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 95.34174106088517,
+   "matched_data_percent": 99.82073552445789,
+   "complete_data_percent": 0.17926447554210143
+  }
  }
 ]

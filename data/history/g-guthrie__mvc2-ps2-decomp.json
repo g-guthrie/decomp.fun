@@ -1124,5 +1124,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-25T11:11:49Z",
+  "commit_sha": "15d573520017b8be8b0a36ac4fad6461776e70c4",
+  "commit_message": "Recover relative-motion transfer with original-coordinate snapshots",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 83.66880246385823,
+   "matched_code_percent": 83.66880246385823,
+   "complete_code_percent": 83.66880246385823,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]
