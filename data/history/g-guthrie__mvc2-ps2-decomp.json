@@ -1236,5 +1236,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-25T19:58:56Z",
+  "commit_sha": "59bb9d74a5691baabfefa680c72ee4105be6644d",
+  "commit_message": "Return the native capture allocation result",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 83.84999708534122,
+   "matched_code_percent": 83.84999708534122,
+   "complete_code_percent": 83.84999708534122,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]
