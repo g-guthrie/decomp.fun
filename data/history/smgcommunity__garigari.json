@@ -528,5 +528,19 @@
    "matched_data_percent": 9.429019814215302,
    "complete_data_percent": 1.2625277807796942
   }
+ },
+ {
+  "timestamp": "2026-10-25T02:35:50Z",
+  "commit_sha": "877d432e192419e284461778a8e29a93318081ca",
+  "commit_message": "ActorMovementUtil fn_800140B0 function match",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 21.403233,
+   "matched_code_percent": 18.661149800773934,
+   "complete_code_percent": 1.70016875994934,
+   "matched_data_percent": 9.429019814215302,
+   "complete_data_percent": 1.2625277807796942
+  }
  }
 ]
