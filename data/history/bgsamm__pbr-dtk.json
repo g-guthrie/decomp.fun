@@ -95,5 +95,19 @@
    "matched_data_percent": 0.4339827047956051,
    "complete_data_percent": 0.21042071321884392
   }
+ },
+ {
+  "timestamp": "2026-10-25T20:23:13Z",
+  "commit_sha": "38ce0536d0241b209f32cf9e3cbcc3167f409c8b",
+  "commit_message": "sdk/ax: write the four missing AXVPB functions (#27)",
+  "source": "report",
+  "version": "RPBP01",
+  "measures": {
+   "fuzzy_match_percent": 23.458565,
+   "matched_code_percent": 21.062186668776143,
+   "complete_code_percent": 2.323323214444631,
+   "matched_data_percent": 0.4339827047956051,
+   "complete_data_percent": 0.21042071321884392
+  }
  }
 ]

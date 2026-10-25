@@ -777,5 +777,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T19:39:48Z",
+  "commit_sha": "ee13fe6cb16573c880603fcf90bc51716cc392ac",
+  "commit_message": "report.json: agent-g run 172 (bootup 1A44 exact as C++; 23FC 98.70, E68 90.53, 13B8/16F4 89.18) \u2014 80.88% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.592285,
+   "matched_code_percent": 80.87875084575967,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
