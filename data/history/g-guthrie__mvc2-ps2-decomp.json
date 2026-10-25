@@ -984,5 +984,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-25T01:30:06Z",
+  "commit_sha": "95c6277253edd3b31f3c8daeb570a3430fcbb021",
+  "commit_message": "Recover owner dispatch, scale growth, and linked following",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 82.58588527903,
+   "matched_code_percent": 82.58588527903001,
+   "complete_code_percent": 82.58588527903001,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]
