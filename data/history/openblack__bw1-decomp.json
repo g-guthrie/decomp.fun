@@ -413,5 +413,19 @@
    "matched_data_percent": 28.558147820609886,
    "complete_data_percent": 5.522983642644917
   }
+ },
+ {
+  "timestamp": "2026-10-25T12:28:07Z",
+  "commit_sha": "ede45fe993ccd80c95f05ef399a0ad8e1a89432c",
+  "commit_message": "LHMultiplayer: match Version.cpp (#587)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 43.619995,
+   "matched_code_percent": 34.144808834606884,
+   "complete_code_percent": 16.89779166611357,
+   "matched_data_percent": 28.558147820609886,
+   "complete_data_percent": 5.533468637268812
+  }
  }
 ]

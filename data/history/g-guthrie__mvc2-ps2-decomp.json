@@ -1138,5 +1138,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-25T12:05:39Z",
+  "commit_sha": "50f90df7f4fe6e2a01883999d4e286c87422516c",
+  "commit_message": "Recover facing launch and linked-segment positioning",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 83.69503439297372,
+   "matched_code_percent": 83.69503439297374,
+   "complete_code_percent": 83.69503439297374,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]
