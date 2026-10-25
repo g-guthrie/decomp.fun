@@ -1250,5 +1250,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-25T20:29:53Z",
+  "commit_sha": "193edf7523748bb27513d2a8275ab770ec29b53e",
+  "commit_message": "Recover animation signal handler and allocation result",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 83.85728373231774,
+   "matched_code_percent": 83.85728373231774,
+   "complete_code_percent": 83.85728373231774,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]

@@ -180,5 +180,19 @@
    "matched_data_percent": 47.40932716930656,
    "complete_data_percent": 46.25060284124407
   }
+ },
+ {
+  "timestamp": "2026-10-25T21:09:32Z",
+  "commit_sha": "903544c72e1e1b8b2f1648ce7b5f004705f382dd",
+  "commit_message": "remaining ai/ai*.c files (#119)",
+  "source": "report",
+  "version": "2342",
+  "measures": {
+   "fuzzy_match_percent": 46.4051,
+   "matched_code_percent": 44.59447776271125,
+   "complete_code_percent": 38.826570079084114,
+   "matched_data_percent": 48.51860295043795,
+   "complete_data_percent": 46.91189633860449
+  }
  }
 ]

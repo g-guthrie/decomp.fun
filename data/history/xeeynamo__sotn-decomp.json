@@ -353,5 +353,19 @@
    "matched_data_percent": 72.05760233759634,
    "complete_data_percent": 27.897855702117074
   }
+ },
+ {
+  "timestamp": "2026-10-25T20:56:44Z",
+  "commit_sha": "141154c8950bbe83c6c32fae2cd1cc483e4bb305",
+  "commit_message": "pc: title screen fixes (#3771)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.000175,
+   "matched_code_percent": 81.96440346774989,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 72.05760233759634,
+   "complete_data_percent": 27.897855702117074
+  }
  }
 ]

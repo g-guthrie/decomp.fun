@@ -791,5 +791,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T20:56:48Z",
+  "commit_sha": "6cf90d0039ca452ab149b41d9d84f5121358bc16",
+  "commit_message": "report.json: agent-c run 165 (41820 + 37348 exact as C++; 49B3C 99.31, 3AE58 99.26) \u2014 81.02% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.59933,
+   "matched_code_percent": 81.02193992352758,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

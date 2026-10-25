@@ -793,5 +793,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-25T21:11:44Z",
+  "commit_sha": "edd43a4afcd0e2aa59cc99380e1cee3f35324278",
+  "commit_message": "sdkmatch: name 100 identified DOL functions",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 81.30944,
+   "matched_code_percent": 68.4478679924441,
+   "complete_code_percent": 68.33373963754032,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]

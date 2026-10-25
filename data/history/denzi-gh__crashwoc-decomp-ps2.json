@@ -632,5 +632,19 @@
    "matched_data_percent": 91.27868198944665,
    "complete_data_percent": 91.27851052976754
   }
+ },
+ {
+  "timestamp": "2026-10-25T20:55:38Z",
+  "commit_sha": "dc59b09f1a5a414e5e68049a935eb1a7d1a4274a",
+  "commit_message": "Merge pull request #160 from denzi-gh/host/terrain-loaders",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 99.16946,
+   "matched_code_percent": 98.17157463015246,
+   "complete_code_percent": 72.6963291471167,
+   "matched_data_percent": 91.27868198944665,
+   "complete_data_percent": 91.27851052976754
+  }
  }
 ]

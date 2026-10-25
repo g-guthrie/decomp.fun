@@ -31,5 +31,19 @@
    "complete_code_percent": 8.3,
    "fuzzy_match_percent": 8.68
   }
+ },
+ {
+  "timestamp": "2026-10-25T21:12:35Z",
+  "commit_sha": "2de3ac34fb2aa55dc5fd7859f33644fb6adcd664",
+  "commit_message": "Update README with AI use and decompilation info",
+  "source": "report",
+  "version": "GDJEB2",
+  "measures": {
+   "fuzzy_match_percent": 8.683518,
+   "matched_code_percent": 8.644102500705051,
+   "complete_code_percent": 8.29872472928023,
+   "matched_data_percent": 10.987624027381282,
+   "complete_data_percent": 10.755944436797156
+  }
  }
 ]
