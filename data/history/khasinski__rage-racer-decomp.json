@@ -34,5 +34,19 @@
    "matched_data_percent": 99.82073552445789,
    "complete_data_percent": 0.17926447554210143
   }
+ },
+ {
+  "timestamp": "2026-10-25T16:57:50Z",
+  "commit_sha": "fdc6d1ebc9c6520497702847271738b8331bb256",
+  "commit_message": "Document the DEMO target and trim the README",
+  "source": "report",
+  "version": "SCES_006.50",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 95.34174106088517,
+   "matched_data_percent": 99.82073552445789,
+   "complete_data_percent": 0.17926447554210143
+  }
  }
 ]

@@ -206,5 +206,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-25T16:51:17Z",
+  "commit_sha": "e811441133ea7118cc834772343e105bd4ff158e",
+  "commit_message": "Restore game and renderer source ownership and SYM SLD contracts",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
