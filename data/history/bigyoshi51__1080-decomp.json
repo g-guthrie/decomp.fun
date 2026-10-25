@@ -637,5 +637,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-24T23:44:30Z",
+  "commit_sha": "ebc19497d9d28d9e8338203db839a4b44bd1b4c8",
+  "commit_message": "report.json: agent-g run 162 (titproc 116C decode fixes 94.13 -> 98.96, mgrproc 2B7C 97.56, timproc C310 94.84) \u2014 79.52% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.15834,
+   "matched_code_percent": 79.52029036437162,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
