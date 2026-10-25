@@ -55,5 +55,19 @@
    "matched_data_percent": 83.75807203508663,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T08:58:19Z",
+  "commit_sha": "49e0b808541b180c659584f459e57dbd3d4cb647",
+  "commit_message": "Map .data for main segment and app_level (#215)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 83.81055714245504,
+   "complete_data_percent": 0.0
+  }
  }
 ]

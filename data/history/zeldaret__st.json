@@ -163,5 +163,19 @@
    "matched_data_percent": 32.86486855805235,
    "complete_data_percent": 6.838189533659208
   }
+ },
+ {
+  "timestamp": "2026-10-25T09:03:57Z",
+  "commit_sha": "f6a7b43b15fd2fdfd27bcd0b8aaecab2f4ce5704",
+  "commit_message": "Decompiling RFCO actor (#168)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 14.581075,
+   "matched_code_percent": 10.378480940362362,
+   "complete_code_percent": 4.967630464552645,
+   "matched_data_percent": 32.86486855805235,
+   "complete_data_percent": 6.838189533659208
+  }
  }
 ]

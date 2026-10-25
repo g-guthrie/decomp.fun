@@ -1852,5 +1852,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T09:25:39Z",
+  "commit_sha": "e5941e158526236a625d86176001fd61c47fee53",
+  "commit_message": "Type menu input predicate",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.70741,
+   "matched_code_percent": 94.70741002398034,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
