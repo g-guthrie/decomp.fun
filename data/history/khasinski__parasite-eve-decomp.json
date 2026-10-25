@@ -86,5 +86,19 @@
    "matched_data_percent": 99.77905523970311,
    "complete_data_percent": 0.30111722016612136
   }
+ },
+ {
+  "timestamp": "2026-10-25T21:36:04Z",
+  "commit_sha": "9889b6de1f10a64e68ce026296f35780d9168d00",
+  "commit_message": "Build 241 USA translation units as C in the JP target, byte-identical",
+  "source": "report",
+  "version": "SLUS_006.62",
+  "measures": {
+   "fuzzy_match_percent": 100.000084,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.77905523970311,
+   "complete_data_percent": 0.30111722016612136
+  }
  }
 ]

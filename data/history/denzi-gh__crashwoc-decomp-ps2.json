@@ -646,5 +646,19 @@
    "matched_data_percent": 91.27868198944665,
    "complete_data_percent": 91.27851052976754
   }
+ },
+ {
+  "timestamp": "2026-10-25T21:39:55Z",
+  "commit_sha": "44810f0707ef19a729c5106fe1caf16314788765",
+  "commit_message": "Merge pull request #161 from denzi-gh/host/bump-fallout",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 99.16946,
+   "matched_code_percent": 98.17157463015246,
+   "complete_code_percent": 72.6963291471167,
+   "matched_data_percent": 91.27868198944665,
+   "complete_data_percent": 91.27851052976754
+  }
  }
 ]
