@@ -1768,5 +1768,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-25T03:29:24Z",
+  "commit_sha": "524e2fe04f6c544356eb3539f6530cdd68fb1d94",
+  "commit_message": "Make DDS2 save path read only",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.70741,
+   "matched_code_percent": 94.70741002398034,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

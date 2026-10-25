@@ -1012,5 +1012,19 @@
    "matched_data_percent": 72.34918156231484,
    "complete_data_percent": 72.34918156231484
   }
+ },
+ {
+  "timestamp": "2026-10-25T03:27:11Z",
+  "commit_sha": "8b7eadac44a44016f406827b4bc55057439ae7b0",
+  "commit_message": "Recover ground-work and draw-attribute initialization",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 83.00571758899424,
+   "matched_code_percent": 83.00571758899424,
+   "complete_code_percent": 83.00571758899424,
+   "matched_data_percent": 72.34918156231484,
+   "complete_data_percent": 72.34918156231484
+  }
  }
 ]
