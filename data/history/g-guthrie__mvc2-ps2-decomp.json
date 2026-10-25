@@ -1222,5 +1222,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-25T19:05:55Z",
+  "commit_sha": "8823b18bedf4bd6e821a81ea5e1e41023e907213",
+  "commit_message": "Recover four exact actor motion transitions",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 83.83906711487641,
+   "matched_code_percent": 83.83906711487641,
+   "complete_code_percent": 83.83906711487641,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]

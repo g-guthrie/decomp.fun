@@ -81,5 +81,19 @@
    "matched_data_percent": 0.4339827047956051,
    "complete_data_percent": 0.21042071321884392
   }
+ },
+ {
+  "timestamp": "2026-10-25T19:08:58Z",
+  "commit_sha": "12c59c22afd2c4259ffe5be1961117933d4e3483",
+  "commit_message": "tools: add a cleanup index page (#25)",
+  "source": "report",
+  "version": "RPBP01",
+  "measures": {
+   "fuzzy_match_percent": 23.444128,
+   "matched_code_percent": 21.047749948087137,
+   "complete_code_percent": 2.323323214444631,
+   "matched_data_percent": 0.4339827047956051,
+   "complete_data_percent": 0.21042071321884392
+  }
  }
 ]
