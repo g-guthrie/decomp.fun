@@ -877,5 +877,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-26T15:07:29Z",
+  "commit_sha": "9f340ee5b0eb90af41e26bcc59a0ae8e0a353362",
+  "commit_message": "Merge pull request #135 from nkhoit/contrib/game-3A330-3DE80",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 81.84101,
+   "matched_code_percent": 68.93720352844561,
+   "complete_code_percent": 68.93720352844561,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]
