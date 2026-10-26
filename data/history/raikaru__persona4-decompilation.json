@@ -128,5 +128,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-26T11:16:49Z",
+  "commit_sha": "2bbc2a90b5f4a2cf1a95d124d65615d5553773a6",
+  "commit_message": "Recover retail interfaces, SDK ownership, and runtime symbol roles",
+  "source": "report",
+  "version": "SLUS_217.82",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 93.4302346326569,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
