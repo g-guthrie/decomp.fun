@@ -644,5 +644,19 @@
    "matched_data_percent": 90.77664520380866,
    "complete_data_percent": 22.435896434812623
   }
+ },
+ {
+  "timestamp": "2026-10-26T18:39:14Z",
+  "commit_sha": "e0e0e91b2fbaad373636c52a8a11c8d44d0d56ed",
+  "commit_message": "Add the null end entry to the TBossWanwanManager model data table",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 95.76041,
+   "matched_code_percent": 50.95607684268464,
+   "complete_code_percent": 18.472750528677846,
+   "matched_data_percent": 90.77664520380866,
+   "complete_data_percent": 22.435896434812623
+  }
  }
 ]
