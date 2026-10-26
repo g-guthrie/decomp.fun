@@ -142,5 +142,19 @@
    "matched_data_percent": 99.77905523970311,
    "complete_data_percent": 0.30111722016612136
   }
+ },
+ {
+  "timestamp": "2026-10-26T20:53:50Z",
+  "commit_sha": "09edad190552c099f1458f6e96f9fc6fe9526d44",
+  "commit_message": "Build 22 more JP main units from C, including 13 PsyQ library units",
+  "source": "report",
+  "version": "SLUS_006.62",
+  "measures": {
+   "fuzzy_match_percent": 100.000084,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.77905523970311,
+   "complete_data_percent": 0.30111722016612136
+  }
  }
 ]
