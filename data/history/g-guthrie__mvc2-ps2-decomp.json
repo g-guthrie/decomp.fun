@@ -1334,5 +1334,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-26T04:31:15Z",
+  "commit_sha": "8e4e9dffafd6da2ffbeb6dd754166c43c10c62ad",
+  "commit_message": "Recover near-target owner motion and preserve dispatcher context",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 84.1004148531012,
+   "matched_code_percent": 84.1004148531012,
+   "complete_code_percent": 84.1004148531012,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]
