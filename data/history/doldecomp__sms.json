@@ -630,5 +630,19 @@
    "matched_data_percent": 90.77664520380866,
    "complete_data_percent": 22.435896434812623
   }
+ },
+ {
+  "timestamp": "2026-10-26T18:11:42Z",
+  "commit_sha": "c4296510d390fc404bb955765ea8ad0c6b0bd9e6",
+  "commit_message": "uncomment boss wanwan in name ref gen",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 95.76041,
+   "matched_code_percent": 50.95607684268464,
+   "complete_code_percent": 18.472750528677846,
+   "matched_data_percent": 90.77664520380866,
+   "complete_data_percent": 22.435896434812623
+  }
  }
 ]
