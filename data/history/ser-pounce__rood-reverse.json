@@ -495,5 +495,19 @@
    "matched_data_percent": 69.89711972195519,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-10-26T21:38:34Z",
+  "commit_sha": "e038e249121a2c5df9bc427c1a3d2299404b0dfe",
+  "commit_message": "Add Shift-JIS support",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 93.358955,
+   "matched_code_percent": 93.35895253151729,
+   "complete_code_percent": 72.82078722283028,
+   "matched_data_percent": 69.89711972195519,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]

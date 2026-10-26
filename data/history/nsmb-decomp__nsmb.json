@@ -113,5 +113,19 @@
    "matched_data_percent": 0.5097821797064407,
    "complete_data_percent": 0.00939690653836757
   }
+ },
+ {
+  "timestamp": "2026-10-26T22:29:14Z",
+  "commit_sha": "fadc79e60530292e971693c92cd239da7a580f0b",
+  "commit_message": "Merge pull request #18 from NSMB-Decomp/nitro-experiments",
+  "source": "report",
+  "version": "A2DE",
+  "measures": {
+   "fuzzy_match_percent": 4.1510715,
+   "matched_code_percent": 2.844871284072017,
+   "complete_code_percent": 0.006536097685456556,
+   "matched_data_percent": 0.5407919712830537,
+   "complete_data_percent": 0.00939690653836757
+  }
  }
 ]
