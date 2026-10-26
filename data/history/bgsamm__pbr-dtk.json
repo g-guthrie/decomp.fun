@@ -123,5 +123,19 @@
    "matched_data_percent": 0.43911100854503615,
    "complete_data_percent": 0.21554901696827505
   }
+ },
+ {
+  "timestamp": "2026-10-26T08:42:44Z",
+  "commit_sha": "b11d76d610e9c966d8cad7b6c0bc841d602a3cad",
+  "commit_message": "SDK: import dsp, dsp_task and dsp_debug from ogws (#6)",
+  "source": "report",
+  "version": "RPBP01",
+  "measures": {
+   "fuzzy_match_percent": 23.95377,
+   "matched_code_percent": 21.553134053850943,
+   "complete_code_percent": 2.353086590659639,
+   "matched_data_percent": 0.47372781804749137,
+   "complete_data_percent": 0.2155493624065886
+  }
  }
 ]

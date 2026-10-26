@@ -2202,5 +2202,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T08:31:47Z",
+  "commit_sha": "9ffdcc891538f1306245fd073b6b47838f445c45",
+  "commit_message": "Type model asset request results",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.927711,
+   "matched_code_percent": 94.9277107234898,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

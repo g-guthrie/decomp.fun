@@ -1376,5 +1376,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-26T08:07:48Z",
+  "commit_sha": "aaae85021821434783de201d5f298a1b5c7813fe",
+  "commit_message": "Recover owner flag palette handling and unary cleanup interface",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 84.2478480102596,
+   "matched_code_percent": 84.2478480102596,
+   "complete_code_percent": 84.2478480102596,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]
