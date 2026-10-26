@@ -37,5 +37,19 @@
    "matched_data_percent": 11.829273280783456,
    "complete_data_percent": 11.829273280783456
   }
+ },
+ {
+  "timestamp": "2026-10-26T00:18:19Z",
+  "commit_sha": "2741f8c162436c5e7c074f4663d3f73955dad34b",
+  "commit_message": "Merge pull request #66: retire the old standalone progress page",
+  "source": "report",
+  "version": "GV4E69",
+  "measures": {
+   "fuzzy_match_percent": 4.319552,
+   "matched_code_percent": 4.303455518409169,
+   "complete_code_percent": 4.241042354116012,
+   "matched_data_percent": 11.829273280783456,
+   "complete_data_percent": 11.829273280783456
+  }
  }
 ]

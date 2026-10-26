@@ -100,5 +100,19 @@
    "matched_data_percent": 99.77905523970311,
    "complete_data_percent": 0.30111722016612136
   }
+ },
+ {
+  "timestamp": "2026-10-26T00:11:03Z",
+  "commit_sha": "933b7d5fca4eb5ea5692528396e7e2a510a2b780",
+  "commit_message": "Support hand-written JP patches for translation units; add the Menu_DrawItemIcon one",
+  "source": "report",
+  "version": "SLUS_006.62",
+  "measures": {
+   "fuzzy_match_percent": 100.000084,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.77905523970311,
+   "complete_data_percent": 0.30111722016612136
+  }
  }
 ]

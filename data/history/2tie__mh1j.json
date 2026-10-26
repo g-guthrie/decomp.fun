@@ -58,5 +58,19 @@
    "matched_data_percent": 0.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T00:53:57Z",
+  "commit_sha": "d465f6f9f9bce6dcd7db145307677ccfb132e97e",
+  "commit_message": "camera: StageCamInit match uncommented",
+  "source": "report",
+  "version": "SLPM_654.95",
+  "measures": {
+   "fuzzy_match_percent": 0.7827213027249114,
+   "matched_code_percent": 0.7827213027249114,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

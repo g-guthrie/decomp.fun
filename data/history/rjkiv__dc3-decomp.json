@@ -738,5 +738,19 @@
    "matched_data_percent": 20.942628149357567,
    "complete_data_percent": 20.942628149357567
   }
+ },
+ {
+  "timestamp": "2026-10-26T00:50:56Z",
+  "commit_sha": "860ecd9116e67263937eceb02a9cbf42e6f165a0",
+  "commit_message": "rematch hamui",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.20857,
+   "matched_code_percent": 52.511293274500716,
+   "complete_code_percent": 27.60218836379008,
+   "matched_data_percent": 21.097361963289952,
+   "complete_data_percent": 21.097361963289952
+  }
  }
 ]
