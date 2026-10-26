@@ -2314,5 +2314,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T16:29:03Z",
+  "commit_sha": "ecc55ac480c9ca8b58fb4db568563f32aa09ebc4",
+  "commit_message": "Type event unit motion mode selector",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.945024,
+   "matched_code_percent": 94.94502432860028,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

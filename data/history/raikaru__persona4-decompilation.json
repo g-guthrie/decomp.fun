@@ -156,5 +156,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-26T15:44:33Z",
+  "commit_sha": "795a8e98774a7939c8c58a135cb12bbe990018fb",
+  "commit_message": "Clarify verifier statuses versus newly linked C reconstruction",
+  "source": "report",
+  "version": "SLUS_217.82",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 93.4302346326569,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
