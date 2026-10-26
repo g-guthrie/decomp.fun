@@ -51,5 +51,19 @@
    "matched_data_percent": 11.829273280783456,
    "complete_data_percent": 11.829273280783456
   }
+ },
+ {
+  "timestamp": "2026-10-26T16:57:21Z",
+  "commit_sha": "1f9c822a10d356acfbaacedf91737297233f84f1",
+  "commit_message": "Merge pull request #67: report data fuzzy bytes to the shared site",
+  "source": "report",
+  "version": "GV4E69",
+  "measures": {
+   "fuzzy_match_percent": 4.319552,
+   "matched_code_percent": 4.303455518409169,
+   "complete_code_percent": 4.241042354116012,
+   "matched_data_percent": 11.829273280783456,
+   "complete_data_percent": 11.829273280783456
+  }
  }
 ]

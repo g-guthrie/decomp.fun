@@ -2328,5 +2328,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T17:20:16Z",
+  "commit_sha": "4e6593a1bdb6dce2b45596a32077d60c82193dd7",
+  "commit_message": "Type effect dependency query result",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.945024,
+   "matched_code_percent": 94.94502432860028,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
