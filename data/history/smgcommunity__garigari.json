@@ -724,5 +724,19 @@
    "matched_data_percent": 9.452043208803394,
    "complete_data_percent": 1.2961231422704826
   }
+ },
+ {
+  "timestamp": "2026-10-26T23:07:46Z",
+  "commit_sha": "a3a6e79d4b990829de4ac52c3b46386d4ac72edb",
+  "commit_message": "A few more big TU splits",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 21.575558,
+   "matched_code_percent": 18.803239935813796,
+   "complete_code_percent": 1.736345278390113,
+   "matched_data_percent": 9.49104202004445,
+   "complete_data_percent": 1.2961231422704826
+  }
  }
 ]

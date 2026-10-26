@@ -714,5 +714,19 @@
    "matched_data_percent": 90.77664520380866,
    "complete_data_percent": 22.435896434812623
   }
+ },
+ {
+  "timestamp": "2026-10-26T23:09:43Z",
+  "commit_sha": "912aea9dd382d3ca1f1d97701ff48d0ad1e77f1e",
+  "commit_message": "Make TVector_pointer to take pointer types as template arguments (#373)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 95.79064,
+   "matched_code_percent": 51.41979806623125,
+   "complete_code_percent": 18.472750528677846,
+   "matched_data_percent": 90.77664520380866,
+   "complete_data_percent": 22.435896434812623
+  }
  }
 ]

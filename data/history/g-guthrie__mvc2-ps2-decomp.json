@@ -1432,5 +1432,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-26T23:26:41Z",
+  "commit_sha": "ef558b34765e8e069feedb276522b27885963bb2",
+  "commit_message": "Separate SDK worker and thread initializer boundaries",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 84.48344959583397,
+   "matched_code_percent": 84.48344959583397,
+   "complete_code_percent": 84.48344959583397,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]
