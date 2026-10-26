@@ -292,5 +292,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T19:11:46Z",
+  "commit_sha": "b53064a3bcdd56639e79a5793f656eb07560d0a3",
+  "commit_message": "refactor(ftCrazyHand): replace raw motion state literals with named constants in tag moves (#3683)",
+  "source": "report",
+  "version": "GALE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

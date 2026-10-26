@@ -184,5 +184,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-26T18:40:18Z",
+  "commit_sha": "4ef90cefbd95a320d8b3de993fa262ff5072b2ff",
+  "commit_message": "Recover AI target-selector callback word widths and results",
+  "source": "report",
+  "version": "SLUS_217.82",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 93.4302346326569,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

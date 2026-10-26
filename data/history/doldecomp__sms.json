@@ -658,5 +658,19 @@
    "matched_data_percent": 90.77664520380866,
    "complete_data_percent": 22.435896434812623
   }
+ },
+ {
+  "timestamp": "2026-10-26T18:55:43Z",
+  "commit_sha": "1009eeccd222f31e76f916eaa2e4097aaec0c43d",
+  "commit_message": "Place the boss wanwan picket with its own model matrix, not the boss body matrix",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 95.760475,
+   "matched_code_percent": 50.95607684268464,
+   "complete_code_percent": 18.472750528677846,
+   "matched_data_percent": 90.77664520380866,
+   "complete_data_percent": 22.435896434812623
+  }
  }
 ]

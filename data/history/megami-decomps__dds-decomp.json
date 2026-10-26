@@ -2356,5 +2356,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T19:22:55Z",
+  "commit_sha": "ce9a3ae337834e9f3803456172ac18eb475266e7",
+  "commit_message": "Use typed object-base resource views",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.945024,
+   "matched_code_percent": 94.94502432860028,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

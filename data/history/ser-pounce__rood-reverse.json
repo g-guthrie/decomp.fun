@@ -467,5 +467,19 @@
    "matched_data_percent": 69.89711972195519,
    "complete_data_percent": 35.9071119574059
   }
+ },
+ {
+  "timestamp": "2026-10-26T19:17:42Z",
+  "commit_sha": "d9ee7082d7e5687765044732edbc5a99a2f3d54c",
+  "commit_message": "Fix objdiff",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 93.358955,
+   "matched_code_percent": 93.35895253151729,
+   "complete_code_percent": 72.82078722283028,
+   "matched_data_percent": 69.89711972195519,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]

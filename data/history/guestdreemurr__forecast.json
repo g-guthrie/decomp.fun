@@ -285,5 +285,19 @@
    "matched_data_percent": 84.74617021980568,
    "complete_data_percent": 84.74617021980568
   }
+ },
+ {
+  "timestamp": "2026-10-26T18:47:36Z",
+  "commit_sha": "6985f2965e868df0e11fdb0860628f90a9c5de15",
+  "commit_message": "hbm: match the Home Button Menu library (all six units 100%, linked) (#60)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 95.17601,
+   "matched_code_percent": 93.14113692027712,
+   "complete_code_percent": 89.61074719546029,
+   "matched_data_percent": 85.02043670356963,
+   "complete_data_percent": 85.02043670356963
+  }
  }
 ]
