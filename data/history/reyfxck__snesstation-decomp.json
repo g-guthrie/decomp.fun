@@ -78,5 +78,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T20:51:31Z",
+  "commit_sha": "e74b46dcbcf1f1bcbb9c691b07a4a86bfe6bfd83",
+  "commit_message": "Promote libkernel_sif_syscalls (48 bytes at 0x0019F5D0) and libkernel_client_init/fioInit (256 bytes at 0x0019F600) from listing bucket to direct canonical C linkage",
+  "source": "report",
+  "version": "SNES_EMU",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

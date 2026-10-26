@@ -212,5 +212,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-26T20:27:01Z",
+  "commit_sha": "4776c14ebc63d7cb4ce1b62b72684fc0c01e0e14",
+  "commit_message": "Distinguish the null row in the retail AI callback census",
+  "source": "report",
+  "version": "SLUS_217.82",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 93.4302346326569,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

@@ -589,5 +589,19 @@
    "matched_data_percent": 0.5510162043394672,
    "complete_data_percent": 0.48235374897006317
   }
+ },
+ {
+  "timestamp": "2026-10-26T21:25:24Z",
+  "commit_sha": "4eb9b7157687f8fb9f737e067a44db0259895d5d",
+  "commit_message": "Merge pull request #129 from OpenRAC/feat/big3-match",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 99.54385016997497,
+   "matched_code_percent": 99.42716928127948,
+   "complete_code_percent": 61.18797206292306,
+   "matched_data_percent": 0.5510162043394672,
+   "complete_data_percent": 0.5000915499404925
+  }
  }
 ]

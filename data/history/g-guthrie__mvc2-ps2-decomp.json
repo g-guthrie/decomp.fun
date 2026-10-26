@@ -1404,5 +1404,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-26T21:26:27Z",
+  "commit_sha": "8eb9a733d2a0f40407395ad21b152064b2ec1b13",
+  "commit_message": "Recover owner copy tail handler",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 84.40985446137105,
+   "matched_code_percent": 84.40985446137105,
+   "complete_code_percent": 84.40985446137105,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]
