@@ -381,5 +381,19 @@
    "matched_data_percent": 73.01763625536196,
    "complete_data_percent": 26.937764132569004
   }
+ },
+ {
+  "timestamp": "2026-10-26T02:20:50Z",
+  "commit_sha": "e056cb4c907b4433d0cf43d3417025b126e890c0",
+  "commit_message": "RDAI Spectral Sword (#3770)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.083725,
+   "matched_code_percent": 82.04781054396956,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 73.01811090073973,
+   "complete_data_percent": 26.937557180077675
+  }
  }
 ]

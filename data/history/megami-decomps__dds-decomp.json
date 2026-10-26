@@ -2104,5 +2104,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T02:19:47Z",
+  "commit_sha": "5501ac5785be6e13365377154ce79347ecb7fe95",
+  "commit_message": "Clarify field actor motion step result",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.927711,
+   "matched_code_percent": 94.9277107234898,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
