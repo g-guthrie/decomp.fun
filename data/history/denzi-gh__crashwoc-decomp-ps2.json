@@ -660,5 +660,19 @@
    "matched_data_percent": 91.27868198944665,
    "complete_data_percent": 91.27851052976754
   }
+ },
+ {
+  "timestamp": "2026-10-26T06:33:14Z",
+  "commit_sha": "60373a43983d08d5e0b2693920ecb14b22e1f8f6",
+  "commit_message": "Merge pull request #162 from denzi-gh/host/scan-limits",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 99.16946,
+   "matched_code_percent": 98.17157463015246,
+   "complete_code_percent": 72.6963291471167,
+   "matched_data_percent": 91.27868198944665,
+   "complete_data_percent": 91.27851052976754
+  }
  }
 ]

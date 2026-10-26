@@ -1362,5 +1362,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-26T06:33:45Z",
+  "commit_sha": "27224d39e775c9c29e76d7320e7a55ab058ce4d3",
+  "commit_message": "Recover player action chains and bounded descriptor initialization",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 84.2418972485621,
+   "matched_code_percent": 84.2418972485621,
+   "complete_code_percent": 84.2418972485621,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]

@@ -849,5 +849,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-26T06:48:05Z",
+  "commit_sha": "9ca99f100b42ab4d1caf16534142dfdd1aaea832",
+  "commit_message": "constraints: decode Gekko paired-single loads, stores and arithmetic",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 81.60416,
+   "matched_code_percent": 68.45236230713601,
+   "complete_code_percent": 68.33823395223224,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]
