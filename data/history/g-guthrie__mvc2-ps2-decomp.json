@@ -1390,5 +1390,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-26T20:27:26Z",
+  "commit_sha": "36ac53d405cde839eea08aca337e069771a381a8",
+  "commit_message": "Restore owner velocity tests and separate new coverage",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 84.33698799160578,
+   "matched_code_percent": 84.33698799160578,
+   "complete_code_percent": 84.33698799160578,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]

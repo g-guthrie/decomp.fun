@@ -64,5 +64,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T19:45:07Z",
+  "commit_sha": "57199dc82e24fcce045bb3c75dbd2782d78c9851",
+  "commit_message": "Promote libkernel_heap_find_block (64 bytes at 0x0019E474) from listing bucket to direct canonical C linkage",
+  "source": "report",
+  "version": "SNES_EMU",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

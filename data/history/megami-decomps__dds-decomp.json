@@ -2370,5 +2370,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T20:22:02Z",
+  "commit_sha": "0245ac5dd9a8647b02f9fb43c9c4359ff8c482e7",
+  "commit_message": "Type world-node creation results",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.945024,
+   "matched_code_percent": 94.94502432860028,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

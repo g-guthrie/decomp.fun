@@ -672,5 +672,19 @@
    "matched_data_percent": 90.77664520380866,
    "complete_data_percent": 22.435896434812623
   }
+ },
+ {
+  "timestamp": "2026-10-26T19:24:26Z",
+  "commit_sha": "a484de837b3bdb12dbfff97e157f590526aed2d4",
+  "commit_message": "Return the boss wanwan balloon message IDs to hex literals",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 95.767555,
+   "matched_code_percent": 51.002872352989684,
+   "complete_code_percent": 18.472750528677846,
+   "matched_data_percent": 90.77664520380866,
+   "complete_data_percent": 22.435896434812623
+  }
  }
 ]

@@ -359,5 +359,19 @@
    "matched_data_percent": 91.14492968727342,
    "complete_data_percent": 52.21993049762269
   }
+ },
+ {
+  "timestamp": "2026-10-26T19:28:25Z",
+  "commit_sha": "02de6b772d06b2ed15bbe7b25d01901fdca84966",
+  "commit_message": "More JAI inlines, replace all JAI fakematches with realmatches",
+  "source": "report",
+  "version": "GZLE01",
+  "measures": {
+   "fuzzy_match_percent": 82.9817,
+   "matched_code_percent": 80.08353386342581,
+   "complete_code_percent": 69.41949802866843,
+   "matched_data_percent": 91.14492968727342,
+   "complete_data_percent": 52.21993049762269
+  }
  }
 ]

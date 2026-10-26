@@ -716,5 +716,19 @@
    "matched_data_percent": 91.27868198944665,
    "complete_data_percent": 91.27851052976754
   }
+ },
+ {
+  "timestamp": "2026-10-26T19:51:15Z",
+  "commit_sha": "65819205704758eb9dc3645d834ecfd6e1a1e230",
+  "commit_message": "Merge pull request #168 from denzi-gh/host/superbuffer-align",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 99.16952,
+   "matched_code_percent": 98.38109761530765,
+   "complete_code_percent": 72.6963291471167,
+   "matched_data_percent": 91.27868198944665,
+   "complete_data_percent": 91.27851052976754
+  }
  }
 ]
