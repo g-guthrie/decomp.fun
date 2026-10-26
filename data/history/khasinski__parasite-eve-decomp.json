@@ -128,5 +128,19 @@
    "matched_data_percent": 99.77905523970311,
    "complete_data_percent": 0.30111722016612136
   }
+ },
+ {
+  "timestamp": "2026-10-26T20:05:09Z",
+  "commit_sha": "ee2b82ee1e89a90f67f5471ae9fcd1dc46135daa",
+  "commit_message": "Build 26 more JP main units from C by pinning the JP addresses of the functions and data they use",
+  "source": "report",
+  "version": "SLUS_006.62",
+  "measures": {
+   "fuzzy_match_percent": 100.000084,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.77905523970311,
+   "complete_data_percent": 0.30111722016612136
+  }
  }
 ]
