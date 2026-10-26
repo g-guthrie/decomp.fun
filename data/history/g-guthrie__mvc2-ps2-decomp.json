@@ -1306,5 +1306,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-26T01:27:37Z",
+  "commit_sha": "b3b63c478a5c9454d248ac39932eb0723d6ec20e",
+  "commit_message": "Recover edge-motion and player dash initializers",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 84.0152825275921,
+   "matched_code_percent": 84.0152825275921,
+   "complete_code_percent": 84.0152825275921,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]
