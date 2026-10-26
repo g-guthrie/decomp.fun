@@ -2300,5 +2300,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T15:29:04Z",
+  "commit_sha": "c4d62272f00c4de1ca397ae4350d8fc034bb6002",
+  "commit_message": "Clarify profile level requirement predicate",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.927711,
+   "matched_code_percent": 94.9277107234898,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
