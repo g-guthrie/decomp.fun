@@ -616,5 +616,19 @@
    "matched_data_percent": 90.70730606514444,
    "complete_data_percent": 22.435896434812623
   }
+ },
+ {
+  "timestamp": "2026-10-26T11:33:58Z",
+  "commit_sha": "01b2fce78d980fc541afa04121eb13d3e949c296",
+  "commit_message": "Enemy/Bosswanwan TU (#159)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 95.7573,
+   "matched_code_percent": 50.95607684268464,
+   "complete_code_percent": 18.472750528677846,
+   "matched_data_percent": 90.77664520380866,
+   "complete_data_percent": 22.435896434812623
+  }
  }
 ]

@@ -369,5 +369,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-26T11:45:52Z",
+  "commit_sha": "c6ba2e9c2a95e69615540aa8ff04c197b8948a8c",
+  "commit_message": "overlay: SN cc1 from source, walloper beam and more level code in C, hero names (#248)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 99.52998,
+   "matched_code_percent": 99.46853547362238,
+   "complete_code_percent": 99.46853547362238,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]

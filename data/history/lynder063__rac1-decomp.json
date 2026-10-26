@@ -575,5 +575,19 @@
    "matched_data_percent": 0.5510162043394672,
    "complete_data_percent": 0.48235374897006317
   }
+ },
+ {
+  "timestamp": "2026-10-26T12:35:30Z",
+  "commit_sha": "90e79a4cf770530d8ae900558c5f584de0da810b",
+  "commit_message": "Merge pull request #128 from OpenRAC/fix/report-ntsc-ports",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 99.16136409171501,
+   "matched_code_percent": 98.70932855354746,
+   "complete_code_percent": 56.38054018187027,
+   "matched_data_percent": 0.5510162043394672,
+   "complete_data_percent": 0.48235374897006317
+  }
  }
 ]

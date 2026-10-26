@@ -696,5 +696,19 @@
    "matched_data_percent": 9.452043208803394,
    "complete_data_percent": 1.2961231422704826
   }
+ },
+ {
+  "timestamp": "2026-10-26T13:42:53Z",
+  "commit_sha": "f664c05211a14e2196ac1aa9575be23c4fb7d67a",
+  "commit_message": "Merge branch 'main' of https://github.com/SMGCommunity/Garigari",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 21.574415,
+   "matched_code_percent": 18.788118533925854,
+   "complete_code_percent": 1.736345278390113,
+   "matched_data_percent": 9.452043208803394,
+   "complete_data_percent": 1.2961231422704826
+  }
  }
 ]

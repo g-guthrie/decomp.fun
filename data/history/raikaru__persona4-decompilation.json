@@ -142,5 +142,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-26T13:45:05Z",
+  "commit_sha": "deabd5be6a5558ec7c2e24c6039eecb7dc3b25e3",
+  "commit_message": "Recover matching RFMAI packing C and real kernel status inputs",
+  "source": "report",
+  "version": "SLUS_217.82",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 93.4302346326569,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
