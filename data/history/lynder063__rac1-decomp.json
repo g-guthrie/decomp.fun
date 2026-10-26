@@ -561,5 +561,19 @@
    "matched_data_percent": 0.5510162043394672,
    "complete_data_percent": 0.48235374897006317
   }
+ },
+ {
+  "timestamp": "2026-10-26T09:27:47Z",
+  "commit_sha": "8ead5ed5bfde80a4bd39f4155d4baae41fb3d486",
+  "commit_message": "Merge pull request #126 from OpenRAC/refactor/names-more",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 98.97019477483805,
+   "matched_code_percent": 98.47579694814694,
+   "complete_code_percent": 56.38054018187027,
+   "matched_data_percent": 0.5510162043394672,
+   "complete_data_percent": 0.48235374897006317
+  }
  }
 ]

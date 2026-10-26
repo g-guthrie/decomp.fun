@@ -137,5 +137,19 @@
    "matched_data_percent": 0.47372781804749137,
    "complete_data_percent": 0.2155493624065886
   }
+ },
+ {
+  "timestamp": "2026-10-26T09:37:14Z",
+  "commit_sha": "e7e63ac6e3c4b14c0de7a5ec3ecee6a75e5d30be",
+  "commit_message": "SDK: import arc from ogws (#12)",
+  "source": "report",
+  "version": "RPBP01",
+  "measures": {
+   "fuzzy_match_percent": 24.279593,
+   "matched_code_percent": 21.84196734927965,
+   "complete_code_percent": 2.353086590659639,
+   "matched_data_percent": 0.529978989946906,
+   "complete_data_percent": 0.2155493624065886
+  }
  }
 ]
