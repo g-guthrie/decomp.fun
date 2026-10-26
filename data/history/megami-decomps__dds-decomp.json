@@ -2342,5 +2342,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T18:35:27Z",
+  "commit_sha": "302415bd8549e9e3eef36041ad0877b8476c641f",
+  "commit_message": "Type task destruction request results",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.945024,
+   "matched_code_percent": 94.94502432860028,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

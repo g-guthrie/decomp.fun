@@ -891,5 +891,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-26T18:29:29Z",
+  "commit_sha": "d5efc3ad59775bd4d3d44912424265b68a4a9984",
+  "commit_message": "fixup: add self-assign barriers, const array qualifiers, scalarized loop structs, and dual data+bss layout",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 82.38582,
+   "matched_code_percent": 70.20528122833706,
+   "complete_code_percent": 70.20528122833706,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]

@@ -61,5 +61,19 @@
    "matched_data_percent": 38.051001567184755,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T18:04:02Z",
+  "commit_sha": "7ea41b35c19389b5763e5eb6eb67743c08a427b0",
+  "commit_message": "feat(src): recover eight scene units and native addresses (#38)",
+  "source": "report",
+  "version": "1.18-linux-amd64",
+  "measures": {
+   "fuzzy_match_percent": 78.93174957282181,
+   "matched_code_percent": 64.58504955222327,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 38.64227349991798,
+   "complete_data_percent": 0.0
+  }
  }
 ]

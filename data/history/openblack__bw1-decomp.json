@@ -427,5 +427,19 @@
    "matched_data_percent": 28.558147820609886,
    "complete_data_percent": 5.533468637268812
   }
+ },
+ {
+  "timestamp": "2026-10-26T17:47:14Z",
+  "commit_sha": "ce005bf0a56935aed95db340a3d6e6c23fcfd28b",
+  "commit_message": "CreatureLessonChooser: Link in all versions (#588)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 43.620804,
+   "matched_code_percent": 34.14561276932514,
+   "complete_code_percent": 16.97706336856499,
+   "matched_data_percent": 28.558147820609886,
+   "complete_data_percent": 5.562175127404137
+  }
  }
 ]

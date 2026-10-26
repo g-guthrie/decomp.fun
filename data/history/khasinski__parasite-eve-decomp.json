@@ -114,5 +114,19 @@
    "matched_data_percent": 99.77905523970311,
    "complete_data_percent": 0.30111722016612136
   }
+ },
+ {
+  "timestamp": "2026-10-26T18:42:09Z",
+  "commit_sha": "e0e9c402d5c8396e9fbc1daaf3959ec2f0da399e",
+  "commit_message": "Run the report pipeline for JP; fix the boot_display source path; document the JP match report",
+  "source": "report",
+  "version": "SLUS_006.62",
+  "measures": {
+   "fuzzy_match_percent": 100.000084,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.77905523970311,
+   "complete_data_percent": 0.30111722016612136
+  }
  }
 ]

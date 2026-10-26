@@ -200,5 +200,19 @@
    "matched_data_percent": 99.23377627686217,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T18:43:19Z",
+  "commit_sha": "c15070ad888c27f3ac20e1a240f5c6fd25f3384c",
+  "commit_message": "sigma final replay in CI (#425)",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 84.38015,
+   "matched_code_percent": 84.38015210338776,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 99.23377627686217,
+   "complete_data_percent": 0.0
+  }
  }
 ]
