@@ -158,5 +158,19 @@
    "matched_data_percent": 99.10039659172337,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T05:04:35Z",
+  "commit_sha": "dc4f39b77ce401ec19ee8ce0dd18f14c574e02c4",
+  "commit_message": "funcs (#422)",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 83.655975,
+   "matched_code_percent": 83.65597688312148,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 99.23377627686217,
+   "complete_data_percent": 0.0
+  }
  }
 ]

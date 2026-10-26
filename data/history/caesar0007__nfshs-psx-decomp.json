@@ -220,5 +220,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-26T05:00:46Z",
+  "commit_sha": "b95445c4d3c638515a93ecd210baa26770fc62e0",
+  "commit_message": "Restore object animation and audio SYM/SLD source contracts",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

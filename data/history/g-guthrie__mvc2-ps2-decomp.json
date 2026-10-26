@@ -1348,5 +1348,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-26T05:17:48Z",
+  "commit_sha": "08b28841da13c6e77ecff767229b57981418689b",
+  "commit_message": "Recover owner direction events and placement after setup",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 84.19089071972641,
+   "matched_code_percent": 84.19089071972641,
+   "complete_code_percent": 84.19089071972641,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]
