@@ -743,5 +743,19 @@
    "matched_data_percent": 0.5698983795660533,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-10-27T22:45:47Z",
+  "commit_sha": "891b61de9cb3da82d6cdca529213c872a306425b",
+  "commit_message": "refactor(particles): type particle payloads and eliminate duplicate structs in effect_particle_updates (#143)",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 0.5698983795660533,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]
