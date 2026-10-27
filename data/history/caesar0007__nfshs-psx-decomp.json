@@ -290,5 +290,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-27T16:37:08Z",
+  "commit_sha": "80c8f796f341cfcafce46277d6460061e2583d9d",
+  "commit_message": "Merge DrawW cleanup preserving verified SYM SLD source facts",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

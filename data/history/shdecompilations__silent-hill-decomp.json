@@ -1025,5 +1025,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T16:39:22Z",
+  "commit_sha": "0de9bdf5003eb7385b03f2fbfa690110ae070109",
+  "commit_message": "Finish up collision triggers",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99995,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]

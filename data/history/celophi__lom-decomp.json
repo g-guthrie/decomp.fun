@@ -208,5 +208,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T17:02:06Z",
+  "commit_sha": "72c121b96e08a7660f8b3f724e0bc79da8b74994",
+  "commit_message": "Refactor casts, shared code, types, in ZUKAN overlay (#1105)",
+  "source": "report",
+  "version": "SLUS_010.13",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
