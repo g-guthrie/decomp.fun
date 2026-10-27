@@ -212,5 +212,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-27T19:24:02Z",
+  "commit_sha": "428a8f0003889abb4ee80f5ab90e718dc9b4b5a8",
+  "commit_message": "decompiled (jp) and revisited (us,eu) ingame/menu/ig_camra.c",
+  "source": "report",
+  "version": "SLUS_203.88",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

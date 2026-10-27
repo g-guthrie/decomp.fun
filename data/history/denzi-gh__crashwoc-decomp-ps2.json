@@ -744,5 +744,19 @@
    "matched_data_percent": 91.27868198944665,
    "complete_data_percent": 91.27851052976754
   }
+ },
+ {
+  "timestamp": "2026-10-27T19:17:26Z",
+  "commit_sha": "cba2b67c164bfbad962c4da6f02067396f15a2ec",
+  "commit_message": "Code cleanup src/game (#166)",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 99.16952,
+   "matched_code_percent": 98.38109761530765,
+   "complete_code_percent": 72.6963291471167,
+   "matched_data_percent": 91.27868198944665,
+   "complete_data_percent": 91.27851052976754
+  }
  }
 ]
