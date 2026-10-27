@@ -232,5 +232,19 @@
    "matched_data_percent": 70.1656506785451,
    "complete_data_percent": 36.78554679920964
   }
+ },
+ {
+  "timestamp": "2026-10-27T06:58:40Z",
+  "commit_sha": "5a0cd87f2d2012c1e9bfd4ae72705980a5e70375",
+  "commit_message": "Recovered 30 functions",
+  "source": "report",
+  "version": "SLUS_204.69",
+  "measures": {
+   "fuzzy_match_percent": 74.325455,
+   "matched_code_percent": 74.01618749880127,
+   "complete_code_percent": 29.308387195765167,
+   "matched_data_percent": 70.1666947502624,
+   "complete_data_percent": 36.77382999438231
+  }
  }
 ]
