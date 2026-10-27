@@ -738,5 +738,19 @@
    "matched_data_percent": 9.49104202004445,
    "complete_data_percent": 1.2961231422704826
   }
+ },
+ {
+  "timestamp": "2026-10-27T07:57:06Z",
+  "commit_sha": "caac0a8d6fff22c769dc563a66b05bf6c47e6eab",
+  "commit_message": "match AttackRockUtil",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 21.591253,
+   "matched_code_percent": 18.81893556815318,
+   "complete_code_percent": 1.736345278390113,
+   "matched_data_percent": 9.49104202004445,
+   "complete_data_percent": 1.2961231422704826
+  }
  }
 ]
