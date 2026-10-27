@@ -752,5 +752,19 @@
    "matched_data_percent": 9.49104202004445,
    "complete_data_percent": 1.2961231422704826
   }
+ },
+ {
+  "timestamp": "2026-10-27T12:32:37Z",
+  "commit_sha": "23540c576352ab5ec16d23bd82df15165e6f7f2e",
+  "commit_message": "`WorldMapModel`",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 21.605164,
+   "matched_code_percent": 18.832844705754745,
+   "complete_code_percent": 1.75025441599168,
+   "matched_data_percent": 9.49902972837093,
+   "complete_data_percent": 1.304580715792639
+  }
  }
 ]
