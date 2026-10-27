@@ -2790,5 +2790,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T22:17:55Z",
+  "commit_sha": "1370fb3d6a9d89d984ea067b98b28e2c02abe8c2",
+  "commit_message": "Type field battle scene record selector",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.923532,
+   "matched_code_percent": 94.92353157742863,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
