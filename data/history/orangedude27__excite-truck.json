@@ -381,5 +381,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-27T03:37:53Z",
+  "commit_sha": "fe61437e2673d1634f47c5d95061e7171dc627a2",
+  "commit_message": "Mark lbl_8055B88C as a small-data symbol so fn_80224D40 uses its required SDA relocation.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 49.70058,
+   "matched_code_percent": 20.12250855343652,
+   "complete_code_percent": 2.495020057464406,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
