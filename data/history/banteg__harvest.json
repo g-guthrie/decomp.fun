@@ -75,5 +75,19 @@
    "matched_data_percent": 38.64227349991798,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T14:03:39Z",
+  "commit_sha": "0d933d046326387efa6e1bb92f376bdb0e15e063",
+  "commit_message": "fix(hv): stabilize progress report unit identities (#39)",
+  "source": "report",
+  "version": "1.18-linux-amd64",
+  "measures": {
+   "fuzzy_match_percent": 78.93174957282181,
+   "matched_code_percent": 64.58504955222327,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 38.64227349991798,
+   "complete_data_percent": 0.0
+  }
  }
 ]
