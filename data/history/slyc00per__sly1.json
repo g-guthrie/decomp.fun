@@ -1,0 +1,16 @@
+[
+ {
+  "timestamp": "2026-10-27T18:37:17Z",
+  "commit_sha": "586d633d5c7067f83a8531c633b5ae4eddc461ba",
+  "commit_message": "Merge match-p2-dialog into main",
+  "source": "report",
+  "version": "SCUS_971.98",
+  "measures": {
+   "fuzzy_match_percent": 10.600035,
+   "matched_code_percent": 9.79894620566988,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 5.708140391727883,
+   "complete_data_percent": 0.0
+  }
+ }
+]

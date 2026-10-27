@@ -1,0 +1,35 @@
+{
+ "repo": "SlyC00per/sly1",
+ "by": "SlyC00per",
+ "submitted_at": "2026-10-27T19:52:18+00:00",
+ "status": "listed",
+ "reasons": [
+  "Accepted as a challenger: theonlyzac/sly1 currently holds Sly Cooper and the Thievius Raccoonus. This repository takes the slot once it leads by 1% more code decompiled for 7 days (ahead on at least 90% of the checks in that time) (and has been listed for at least 30 days)."
+ ],
+ "repo_meta": {
+  "id": 1380551880,
+  "created_at": "2026-09-21T21:22:12Z",
+  "fork": true,
+  "parent": "TheOnlyZac/sly1"
+ },
+ "source_proof": 1.0,
+ "game": {
+  "platform": "ps2",
+  "key": "sly-cooper-and-the-thievius-raccoonus",
+  "title": "Sly Cooper and the Thievius Raccoonus",
+  "by": "serial",
+  "builds": [
+   "SCUS97198"
+  ]
+ },
+ "project": {
+  "id": "slyc00per__sly1",
+  "owner": "SlyC00per",
+  "repo": "sly1",
+  "name": "Sly Cooper and the Thievius Raccoonus",
+  "submitted": true,
+  "platform": "ps2",
+  "version": "SCUS_971.98"
+ },
+ "listed_at": "2026-10-27T19:52:18+00:00"
+}
