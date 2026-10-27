@@ -1446,5 +1446,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-27T01:01:42Z",
+  "commit_sha": "db42b71c354c61f1c7b3832b0e0a7650713d113a",
+  "commit_message": "Pass actor to owned-event animation update",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 84.50603820146121,
+   "matched_code_percent": 84.50603820146122,
+   "complete_code_percent": 84.50603820146122,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]

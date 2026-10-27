@@ -92,5 +92,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T23:40:33Z",
+  "commit_sha": "41731e42330434100a987dd244985b95577de312",
+  "commit_message": "Add SIF command IRQ handlers to libkernel sifcmd recovered",
+  "source": "report",
+  "version": "SNES_EMU",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

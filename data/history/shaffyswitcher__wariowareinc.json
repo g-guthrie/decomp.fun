@@ -187,5 +187,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T00:54:37Z",
+  "commit_sha": "246b0de4b3f7621bb4233ec1b5b192176c7e5d94",
+  "commit_message": "\"decompile\" bitmap_font",
+  "source": "report",
+  "version": "AZWE",
+  "measures": {
+   "fuzzy_match_percent": 4.444028974668904,
+   "matched_code_percent": 4.444028974668904,
+   "complete_code_percent": 4.444028974668904,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

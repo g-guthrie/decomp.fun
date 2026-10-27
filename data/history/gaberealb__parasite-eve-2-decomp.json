@@ -107,5 +107,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T00:10:36Z",
+  "commit_sha": "b6f071e3562678f1ddf84c2771d3d56ab08fbac7",
+  "commit_message": "Each room's row of its stage's per-area tables is the room's: the map's areas, outlines and names, the image slots, movie workspaces, area music (eight columns an area) and the area object table, by the index rule each table follows (room.AREA_ROWS: the names from area 1, the rest from area 0, the map areas and the object table ended by a closing record), are written to the room's instance under [stage.rows]; the stage's table keeps area 0's row and its closing record, \"room\" where an area's room holds the row, and reading it takes the rooms' rows back. The countdown music (by scene), the markers, icons, page and marker flags and the rewards stay the stage's. A clean build matches",
+  "source": "report",
+  "version": "SLUS-01042",
+  "measures": {
+   "fuzzy_match_percent": 99.999985,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

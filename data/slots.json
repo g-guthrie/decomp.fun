@@ -114,17 +114,17 @@
   "history": []
  },
  "gc:f-zero-gx": {
-  "leader": "rayanht/fzgx",
-  "since": "2026-10-18T22:55:17+00:00",
-  "challengers": {
-   "karamzov123/fzero-gx-decomp": {
-    "since": "2026-10-20T01:00:51+00:00",
-    "runs": 174,
-    "ahead": 174,
-    "misses": 0
+  "leader": "karamzov123/fzero-gx-decomp",
+  "since": "2026-10-27T01:03:22+00:00",
+  "challengers": {},
+  "history": [
+   {
+    "from": "rayanht/fzgx",
+    "to": "karamzov123/fzero-gx-decomp",
+    "at": "2026-10-27T01:03:22+00:00",
+    "reason": "progress"
    }
-  },
-  "history": []
+  ]
  },
  "gc:final-fantasy-crystal-chronicles": {
   "leader": "zcanann/ffcc-decomp",
