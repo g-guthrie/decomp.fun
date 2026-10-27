@@ -395,5 +395,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-27T13:03:19Z",
+  "commit_sha": "4cd7c41fef23f21031e007978d764b4291232226",
+  "commit_message": "Declare the shared float used by fn_802795E8",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 51.107506,
+   "matched_code_percent": 21.13751198267937,
+   "complete_code_percent": 2.548130702017811,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
