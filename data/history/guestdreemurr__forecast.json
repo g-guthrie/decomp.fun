@@ -313,5 +313,19 @@
    "matched_data_percent": 89.3309126685623,
    "complete_data_percent": 89.3309126685623
   }
+ },
+ {
+  "timestamp": "2026-10-27T20:47:50Z",
+  "commit_sha": "a6970ec53fe4a34ebdc6d205c190e50353d82d75",
+  "commit_message": "LayoutButton: decompile LayoutButton.cpp (100%, linked) (#63)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 97.89081,
+   "matched_code_percent": 96.16726017842065,
+   "complete_code_percent": 94.3749246091476,
+   "matched_data_percent": 89.35050453076737,
+   "complete_data_percent": 89.35050453076737
+  }
  }
 ]

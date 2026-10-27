@@ -875,5 +875,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T21:17:18Z",
+  "commit_sha": "424b33c5297ad398c7748d5d3208001d39a89a4a",
+  "commit_message": "report.json: agent-g run 178 (titproc 5DC exact under the evidence-backed uninitialised-local exception; 90CC 99.25, 1DDC 99.97) \u2014 81.53% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.775024,
+   "matched_code_percent": 81.53228048275174,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

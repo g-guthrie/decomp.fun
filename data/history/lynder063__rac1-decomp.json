@@ -715,5 +715,19 @@
    "matched_data_percent": 0.5698983795660533,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-10-27T21:15:19Z",
+  "commit_sha": "ebb984cf8ad79146fdf4197b54a06ee4a17af855",
+  "commit_message": "Merge pull request #140 from OpenRAC/feat/hero-globals-tidy",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 0.5698983795660533,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]

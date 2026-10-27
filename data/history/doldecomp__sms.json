@@ -756,5 +756,19 @@
    "matched_data_percent": 90.77664520380866,
    "complete_data_percent": 22.435896434812623
   }
+ },
+ {
+  "timestamp": "2026-10-27T20:53:30Z",
+  "commit_sha": "09e06f65c3ca71b381a5f50dc8144411c9f637a8",
+  "commit_message": "MarioAccess matching (#376)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 95.807556,
+   "matched_code_percent": 51.437736345181506,
+   "complete_code_percent": 18.50506171436466,
+   "matched_data_percent": 90.77664520380866,
+   "complete_data_percent": 22.444641911761263
+  }
  }
 ]

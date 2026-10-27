@@ -264,5 +264,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T20:26:31Z",
+  "commit_sha": "3de8e483a9ababfeb24cde2ac4dbc17e6bbfa739",
+  "commit_message": "Apply shared definitions and names from other overlays to WSEL (#1109)",
+  "source": "report",
+  "version": "SLUS_010.13",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

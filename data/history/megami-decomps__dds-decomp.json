@@ -2748,5 +2748,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T21:18:38Z",
+  "commit_sha": "42d8fbedd34c4ac28724fa685febb4f2b6f3620c",
+  "commit_message": "Type moon script command completion results",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.923532,
+   "matched_code_percent": 94.92353157742863,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
