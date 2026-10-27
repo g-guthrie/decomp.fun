@@ -248,5 +248,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-27T06:20:52Z",
+  "commit_sha": "a8b112367b5c4cb6c1c7f6bb8db89f27ae772f88",
+  "commit_message": "Replace handwritten sndpsxz API declarations with the library\u2019s canonical headers across the game sources",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

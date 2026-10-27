@@ -383,5 +383,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-27T06:20:44Z",
+  "commit_sha": "3b85bba0c749e4b021735fb0eaef46883aec1e35",
+  "commit_message": "decomp: closer moby update loop draft and commando fakematch comments (#252)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 99.661775,
+   "matched_code_percent": 99.6003305587593,
+   "complete_code_percent": 99.6003305587593,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]
