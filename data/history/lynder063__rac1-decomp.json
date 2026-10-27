@@ -757,5 +757,19 @@
    "matched_data_percent": 0.5698983795660533,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-10-27T23:17:12Z",
+  "commit_sha": "713eaff8ae4c8bfc10d7a847b215b627adfdbfa5",
+  "commit_message": "refactor(mpeg): eliminate dummy structs and type MpegDecoder and MpegRefImage in 00125630 (#144)",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 0.5698983795660533,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]

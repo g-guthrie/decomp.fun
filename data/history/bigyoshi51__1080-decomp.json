@@ -903,5 +903,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T23:19:11Z",
+  "commit_sha": "40dbec395ac327a7b62219052dd2c463e2ac3443",
+  "commit_message": "report.json: agent-c run 172 (201B8 exact from OoT AudioHeap_AllocCached; 40070 + 4E00C exact as C++) \u2014 81.95% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.79244,
+   "matched_code_percent": 81.95240667796094,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
