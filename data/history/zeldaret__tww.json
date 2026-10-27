@@ -387,5 +387,19 @@
    "matched_data_percent": 91.14492968727342,
    "complete_data_percent": 52.21993049762269
   }
+ },
+ {
+  "timestamp": "2026-10-27T19:49:32Z",
+  "commit_sha": "729d48a1c2c4bd09d54b75163788946a22f501ca",
+  "commit_message": "card cleanup",
+  "source": "report",
+  "version": "GZLE01",
+  "measures": {
+   "fuzzy_match_percent": 82.9817,
+   "matched_code_percent": 80.08353386342581,
+   "complete_code_percent": 69.41949802866843,
+   "matched_data_percent": 91.14492968727342,
+   "complete_data_percent": 52.21993049762269
+  }
  }
 ]
