@@ -222,5 +222,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T17:53:50Z",
+  "commit_sha": "707e3fc2b2daca664756509299843be17236f1a4",
+  "commit_message": "Fix incorrect symbol names in zukan (#1106)",
+  "source": "report",
+  "version": "SLUS_010.13",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

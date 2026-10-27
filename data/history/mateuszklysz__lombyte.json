@@ -397,5 +397,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-27T17:45:15Z",
+  "commit_sha": "8a5972b31d87a655d7d8d744adc9376441c7dff9",
+  "commit_message": "overlay: preserve unchanged helper timestamps (#257)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 99.717018,
+   "matched_code_percent": 99.65557400761908,
+   "complete_code_percent": 99.65557400761908,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]
