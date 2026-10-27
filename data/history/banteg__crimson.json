@@ -186,5 +186,19 @@
    "matched_data_percent": 69.74106594455111,
    "complete_data_percent": 0.1977834348647385
   }
+ },
+ {
+  "timestamp": "2026-10-27T10:59:18Z",
+  "commit_sha": "4c1dbbfad3df56f1db901581673d6ad574a46b79",
+  "commit_message": "build(deps): require raylib 6.2 (#928)",
+  "source": "report",
+  "version": "1.9.93",
+  "measures": {
+   "fuzzy_match_percent": 64.09553341763734,
+   "matched_code_percent": 64.09553341763734,
+   "complete_code_percent": 0.008903394001616521,
+   "matched_data_percent": 69.74106594455111,
+   "complete_data_percent": 0.1977834348647385
+  }
  }
 ]

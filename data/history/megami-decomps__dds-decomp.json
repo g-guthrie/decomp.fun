@@ -2594,5 +2594,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T11:19:57Z",
+  "commit_sha": "a0702db9cc8d2fa74779f10fbf81781436e09d93",
+  "commit_message": "Type status motion override results",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.902238,
+   "matched_code_percent": 94.90223783321227,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
