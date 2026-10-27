@@ -847,5 +847,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T18:31:25Z",
+  "commit_sha": "c505272045974c3a2efe48929ca039388a174a61",
+  "commit_message": "report.json: agent-g run 176 (bootup 90CC as C++ NM donor 97.15 -> 98.53, 55A0 95.32) \u2014 81.29% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.66538,
+   "matched_code_percent": 81.28628899017608,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

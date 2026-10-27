@@ -299,5 +299,19 @@
    "matched_data_percent": 85.02043670356963,
    "complete_data_percent": 85.02043670356963
   }
+ },
+ {
+  "timestamp": "2026-10-27T18:49:00Z",
+  "commit_sha": "0d6355d9578b70b73a0a2c523a4395da6d352906",
+  "commit_message": "GX: decompile the rest of the GX library (all 15 units 100%, linked) (#55)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 97.09154,
+   "matched_code_percent": 95.3679860284361,
+   "complete_code_percent": 93.57565045916307,
+   "matched_data_percent": 89.3309126685623,
+   "complete_data_percent": 89.3309126685623
+  }
  }
 ]

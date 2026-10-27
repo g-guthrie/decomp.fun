@@ -742,5 +742,19 @@
    "matched_data_percent": 90.77664520380866,
    "complete_data_percent": 22.435896434812623
   }
+ },
+ {
+  "timestamp": "2026-10-27T18:57:41Z",
+  "commit_sha": "2a17a0a13f7baac9094e8115342f2309c0d8b817",
+  "commit_message": "fix: finding solutions for unused func in wanwan (#375)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 95.806915,
+   "matched_code_percent": 51.421246498693066,
+   "complete_code_percent": 18.472750528677846,
+   "matched_data_percent": 90.77664520380866,
+   "complete_data_percent": 22.435896434812623
+  }
  }
 ]
