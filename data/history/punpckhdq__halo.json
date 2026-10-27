@@ -208,5 +208,19 @@
    "matched_data_percent": 48.51860295043795,
    "complete_data_percent": 46.91189633860449
   }
+ },
+ {
+  "timestamp": "2026-10-27T15:15:46Z",
+  "commit_sha": "4754c8e7cf1dfdee533e591054ec6c28ad718a2e",
+  "commit_message": "bink_playback.c (#123)",
+  "source": "report",
+  "version": "2342",
+  "measures": {
+   "fuzzy_match_percent": 46.57814,
+   "matched_code_percent": 44.76752545889719,
+   "complete_code_percent": 38.99961777527006,
+   "matched_data_percent": 48.55933514333374,
+   "complete_data_percent": 46.95262853150028
+  }
  }
 ]
