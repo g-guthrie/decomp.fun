@@ -1460,5 +1460,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-27T01:27:54Z",
+  "commit_sha": "17ff98158fb79571a45abee8e91f91ab08f175ef",
+  "commit_message": "Correct menu input helper interface",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 84.50603820146121,
+   "matched_code_percent": 84.50603820146122,
+   "complete_code_percent": 84.50603820146122,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]
