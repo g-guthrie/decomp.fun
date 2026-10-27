@@ -975,5 +975,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-27T05:22:13Z",
+  "commit_sha": "efc8b381c20b05f09332bbaaf7be5e9c54c3220a",
+  "commit_message": "Match fn_12_3DCF0 (movie_module YCC->ARGB1555 mask blit)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 83.126854,
+   "matched_code_percent": 71.84434417734293,
+   "complete_code_percent": 71.84434417734293,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]

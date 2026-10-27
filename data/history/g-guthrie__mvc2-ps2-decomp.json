@@ -1516,5 +1516,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-27T05:30:48Z",
+  "commit_sha": "e0f979dfdbb25b4c859e31d02c540ddda08d01e4",
+  "commit_message": "Correct menu navigation wrapper return types",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 84.62991120006218,
+   "matched_code_percent": 84.62991120006218,
+   "complete_code_percent": 84.62991120006218,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]
