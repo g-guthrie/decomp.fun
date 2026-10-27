@@ -1502,5 +1502,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-27T04:32:16Z",
+  "commit_sha": "e91c14d9d1773814764682ab1acb66681f2901ad",
+  "commit_message": "Pass actor to capture animation update",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 84.6263893206902,
+   "matched_code_percent": 84.6263893206902,
+   "complete_code_percent": 84.6263893206902,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]

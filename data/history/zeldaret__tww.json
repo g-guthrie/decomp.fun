@@ -373,5 +373,19 @@
    "matched_data_percent": 91.14492968727342,
    "complete_data_percent": 52.21993049762269
   }
+ },
+ {
+  "timestamp": "2026-10-27T04:29:52Z",
+  "commit_sha": "81ebe0dfd449166e00de31ce9be2d7449e31536c",
+  "commit_message": "Work on JAS inlines, fix limits/climits headers",
+  "source": "report",
+  "version": "GZLE01",
+  "measures": {
+   "fuzzy_match_percent": 82.9817,
+   "matched_code_percent": 80.08353386342581,
+   "complete_code_percent": 69.41949802866843,
+   "matched_data_percent": 91.14492968727342,
+   "complete_data_percent": 52.21993049762269
+  }
  }
 ]
