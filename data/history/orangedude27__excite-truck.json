@@ -367,5 +367,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-27T02:31:24Z",
+  "commit_sha": "38179957cfb75a03e3754dba3ad41bc3548773a7",
+  "commit_message": "Remove redundant memcpy prototype that conflicts with MWCC builtin",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 49.492123,
+   "matched_code_percent": 19.957144299654193,
+   "complete_code_percent": 2.495020057464406,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
