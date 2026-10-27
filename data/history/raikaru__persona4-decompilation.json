@@ -226,5 +226,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-27T01:14:39Z",
+  "commit_sha": "640e9e4506e17668f56c6fc684de230ed2c124a5",
+  "commit_message": "Recover registered plugin and stream-message callback interfaces",
+  "source": "report",
+  "version": "SLUS_217.82",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 93.4302346326569,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
