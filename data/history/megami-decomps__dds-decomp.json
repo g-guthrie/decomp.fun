@@ -2552,5 +2552,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T08:56:57Z",
+  "commit_sha": "c6231322c087c3cefb8591e764cd649fa3ed00b2",
+  "commit_message": "Type field encounter task result",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.902238,
+   "matched_code_percent": 94.90223783321227,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
