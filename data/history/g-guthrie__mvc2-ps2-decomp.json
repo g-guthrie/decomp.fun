@@ -1488,5 +1488,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-27T03:33:32Z",
+  "commit_sha": "2ea57d14f6422299f0321e74e4e25546657d9a13",
+  "commit_message": "Align owner effect callback interfaces",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 84.6119374708534,
+   "matched_code_percent": 84.61193747085342,
+   "complete_code_percent": 84.61193747085342,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]

@@ -2468,5 +2468,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T03:11:34Z",
+  "commit_sha": "853a9601682e7b521939af061af0c4cc760f2946",
+  "commit_message": "Name paired event penalty modes",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.902238,
+   "matched_code_percent": 94.90223783321227,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
