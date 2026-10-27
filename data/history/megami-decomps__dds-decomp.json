@@ -2454,5 +2454,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T02:36:15Z",
+  "commit_sha": "2f4b4f7e4add9196a2654e9dcc4172a0e1d8daae",
+  "commit_message": "Type mapped-resource allocation handle",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.902238,
+   "matched_code_percent": 94.90223783321227,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

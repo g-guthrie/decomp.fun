@@ -1474,5 +1474,19 @@
    "matched_data_percent": 72.34979878530515,
    "complete_data_percent": 72.34979878530515
   }
+ },
+ {
+  "timestamp": "2026-10-27T02:37:37Z",
+  "commit_sha": "1078d4c5c585ba9a9637320f8f3ab5e72573a53b",
+  "commit_message": "Match actor airborne entry callback",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 84.59857861806312,
+   "matched_code_percent": 84.59857861806312,
+   "complete_code_percent": 84.59857861806312,
+   "matched_data_percent": 72.34979878530515,
+   "complete_data_percent": 72.34979878530515
+  }
  }
 ]

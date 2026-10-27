@@ -473,5 +473,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T02:15:41Z",
+  "commit_sha": "4837b1fa38ede5ba1cde109797bcc95c44e92c76",
+  "commit_message": "sh2: match `Enemy/en_nse` \ud83d\udc69\u200d\u2695\ufe0f (#428)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
