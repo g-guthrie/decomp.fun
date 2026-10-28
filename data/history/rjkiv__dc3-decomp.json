@@ -808,5 +808,19 @@
    "matched_data_percent": 21.16013364187944,
    "complete_data_percent": 21.16013364187944
   }
+ },
+ {
+  "timestamp": "2026-10-28T03:08:16Z",
+  "commit_sha": "219f9d52acf15acd7d0e86e5e721ba62160d0927",
+  "commit_message": "cache money",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.212963,
+   "matched_code_percent": 52.63178763892326,
+   "complete_code_percent": 27.791204271864384,
+   "matched_data_percent": 21.225425944868253,
+   "complete_data_percent": 21.225425944868253
+  }
  }
 ]

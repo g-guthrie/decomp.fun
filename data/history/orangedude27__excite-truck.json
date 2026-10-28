@@ -409,5 +409,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-28T02:40:11Z",
+  "commit_sha": "08dae1a693d696ddf746d02364ec1da3823a79c9",
+  "commit_message": "Add Result_802A0098 struct definition",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 51.82646,
+   "matched_code_percent": 21.461683620546083,
+   "complete_code_percent": 2.548130702017811,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
