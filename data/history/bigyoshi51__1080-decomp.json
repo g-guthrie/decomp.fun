@@ -1071,5 +1071,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T12:02:12Z",
+  "commit_sha": "10133a5e3a727243ae0a3f3d4bf24f8d6999a0c5",
+  "commit_message": "report.json: agent-c run 188 (2E354 91.55 -> 93.29 deep pass; 3 stale NM donors removed) \u2014 82.62% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.18449,
+   "matched_code_percent": 82.61590185516398,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

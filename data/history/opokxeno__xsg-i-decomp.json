@@ -246,5 +246,19 @@
    "matched_data_percent": 70.1666947502624,
    "complete_data_percent": 36.77382999438231
   }
+ },
+ {
+  "timestamp": "2026-10-28T12:01:11Z",
+  "commit_sha": "9fa091e840e1cf901e4027df069ad88f62f9756b",
+  "commit_message": "Merge pull request #38 from mpetereit/recover-card-make-disp-list",
+  "source": "report",
+  "version": "SLUS_204.69",
+  "measures": {
+   "fuzzy_match_percent": 74.339645,
+   "matched_code_percent": 74.03038032950383,
+   "complete_code_percent": 29.308387195765167,
+   "matched_data_percent": 70.1666947502624,
+   "complete_data_percent": 36.77382999438231
+  }
  }
 ]
