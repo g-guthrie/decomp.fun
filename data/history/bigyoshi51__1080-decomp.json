@@ -1169,5 +1169,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T19:03:51Z",
+  "commit_sha": "5b406e2cf9aff51b3e19b8827a172181124da3eb",
+  "commit_message": "report.json: agent-g run 200 (sibling map exhausted for its range; 54E78 94.25 -> 98.22) \u2014 83.26% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.33556,
+   "matched_code_percent": 83.25841694771239,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

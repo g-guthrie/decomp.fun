@@ -26,5 +26,19 @@
    "matched_data_percent": 5.708140391727883,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T19:19:55Z",
+  "commit_sha": "b092e7ac0674ae0403b86ce52df3620cbc520637",
+  "commit_message": "Decompile CchParsePchzTft",
+  "source": "report",
+  "version": "SCUS_971.98",
+  "measures": {
+   "fuzzy_match_percent": 11.09517,
+   "matched_code_percent": 10.294081317913445,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 5.896670647140654,
+   "complete_data_percent": 0.0
+  }
  }
 ]

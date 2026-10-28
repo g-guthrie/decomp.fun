@@ -292,5 +292,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T18:45:21Z",
+  "commit_sha": "ecd6be47a1abc8731107ade30abcc99e24384559",
+  "commit_message": "Remove memcpy workarounds by filling rodata tables for ZUKAN at compi\u2026 (#1111)",
+  "source": "report",
+  "version": "SLUS_010.13",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

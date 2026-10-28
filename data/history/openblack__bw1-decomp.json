@@ -511,5 +511,19 @@
    "matched_data_percent": 28.57453698696374,
    "complete_data_percent": 5.635570089771404
   }
+ },
+ {
+  "timestamp": "2026-10-28T19:01:59Z",
+  "commit_sha": "b942b440aa2230b7c26d7af24f90041aad1a3575",
+  "commit_message": "CreatureMentalSaveAndLoad: decompile the creature save/load unit",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 44.908768,
+   "matched_code_percent": 34.78741207724582,
+   "complete_code_percent": 17.01649426287728,
+   "matched_data_percent": 28.57453698696374,
+   "complete_data_percent": 5.635570089771404
+  }
  }
 ]
