@@ -1183,5 +1183,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T20:14:13Z",
+  "commit_sha": "4fe3f9e993f5ed2edb69d2cd261ff5164f39fbd9",
+  "commit_message": "report.json: agent-g run 202 (fresh eyes: 307A8 exact via (&x)[0] re-read under NCC) \u2014 83.29% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.33871,
+   "matched_code_percent": 83.29250958527618,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

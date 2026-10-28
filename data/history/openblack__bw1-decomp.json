@@ -525,5 +525,19 @@
    "matched_data_percent": 28.57453698696374,
    "complete_data_percent": 5.635570089771404
   }
+ },
+ {
+  "timestamp": "2026-10-28T20:18:53Z",
+  "commit_sha": "75ff9def108830f29c7865195a341e5e8a728a7e",
+  "commit_message": "CreatureAnimInfo: Split off and match the animation spec reader TU",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 44.921722,
+   "matched_code_percent": 34.8003468586779,
+   "complete_code_percent": 17.02939249624573,
+   "matched_data_percent": 28.574893273188824,
+   "complete_data_percent": 5.635977274028643
+  }
  }
 ]
