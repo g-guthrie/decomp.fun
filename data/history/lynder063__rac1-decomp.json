@@ -813,5 +813,19 @@
    "matched_data_percent": 0.5698983795660533,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-10-28T21:02:03Z",
+  "commit_sha": "7da98c54209e8616a1d9e5aeadde0314ee213e5b",
+  "commit_message": "refactor(overlays): eliminate private structs in alpha fade and blarg commander (#152)",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 0.5698983795660533,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]
