@@ -2888,5 +2888,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T04:05:59Z",
+  "commit_sha": "296945ba287115dc39088f293ac9ecb358fddabc",
+  "commit_message": "Type basic-array cursor results",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.923532,
+   "matched_code_percent": 94.92353157742863,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
