@@ -1099,5 +1099,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T13:56:04Z",
+  "commit_sha": "b101364936497cbe4aaf4a515a2403a8cb4bd4bd",
+  "commit_message": "report.json: agent-c run 191 (3B6A0 95.60 guarded do-while, 3B9C0 92.55 alias copy, 7C1C 95.20) \u2014 82.79% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.25357,
+   "matched_code_percent": 82.79423257472844,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

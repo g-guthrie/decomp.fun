@@ -840,5 +840,19 @@
    "matched_data_percent": 90.7866400346071,
    "complete_data_percent": 22.449639327160483
   }
+ },
+ {
+  "timestamp": "2026-10-28T14:20:11Z",
+  "commit_sha": "542eb480fb0495a797cf5f56c996c6f8aedad8fe",
+  "commit_message": "CameraBck Matching (#378)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 95.82936,
+   "matched_code_percent": 51.50269297020017,
+   "complete_code_percent": 18.573472293715362,
+   "matched_data_percent": 90.7866400346071,
+   "complete_data_percent": 22.544590219745725
+  }
  }
 ]
