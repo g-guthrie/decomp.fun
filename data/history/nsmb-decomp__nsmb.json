@@ -169,5 +169,19 @@
    "matched_data_percent": 0.5642842376289725,
    "complete_data_percent": 0.00939690653836757
   }
+ },
+ {
+  "timestamp": "2026-10-28T22:39:46Z",
+  "commit_sha": "79888db70ea683a77f17ee02f3fe42ba79936ea1",
+  "commit_message": "Fixed compile error",
+  "source": "report",
+  "version": "A2DE",
+  "measures": {
+   "fuzzy_match_percent": 4.637613,
+   "matched_code_percent": 3.2958620243685193,
+   "complete_code_percent": 0.006536097685456556,
+   "matched_data_percent": 0.5732139920595767,
+   "complete_data_percent": 0.009396950689501258
+  }
  }
 ]

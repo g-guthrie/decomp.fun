@@ -855,5 +855,19 @@
    "matched_data_percent": 0.5698983795660533,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-10-28T23:17:31Z",
+  "commit_sha": "0f0bfcfe98553a7a0ea9a26db94ff00deecf8be5",
+  "commit_message": "refactor(memcard): eliminate duplicate structs and type memory card state accesses (#160)",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 0.5698983795660533,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]

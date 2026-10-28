@@ -1225,5 +1225,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T22:42:36Z",
+  "commit_sha": "4a369c0af4ecaa6657c48a7f93530a661fe65aee",
+  "commit_message": "report.json: agent-g run 205 (game_uso 8CD8 89.48 via XZ return-by-value copy chains; 30AF4 93.20 else-if decode) \u2014 83.29% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.3626,
+   "matched_code_percent": 83.29250958527618,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
