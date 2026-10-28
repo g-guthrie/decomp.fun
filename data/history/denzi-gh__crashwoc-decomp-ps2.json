@@ -772,5 +772,19 @@
    "matched_data_percent": 91.27868198944665,
    "complete_data_percent": 91.27851052976754
   }
+ },
+ {
+  "timestamp": "2026-10-28T17:11:28Z",
+  "commit_sha": "024933380559912ed2232f83d0ee0a4c8d8890e2",
+  "commit_message": "Merge pull request #182 from denzi-gh/decomp/vehicle-terrainatlas",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 99.16953,
+   "matched_code_percent": 98.50584398557015,
+   "complete_code_percent": 80.57342596812094,
+   "matched_data_percent": 93.01016755897142,
+   "complete_data_percent": 93.00999609929231
+  }
  }
 ]

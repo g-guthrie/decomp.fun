@@ -1141,5 +1141,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T17:02:29Z",
+  "commit_sha": "755a62a0da4eb2e3d250699dea045b25b49a8b85",
+  "commit_message": "report.json: agent-g run 198 (fixed order re-sweep: 11 small gains incl. B75C 93.93, 54E78 94.25, kernel 1ADC 93.54) \u2014 83.06% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.30696,
+   "matched_code_percent": 83.06435116465694,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
