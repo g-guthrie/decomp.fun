@@ -1197,5 +1197,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T21:08:36Z",
+  "commit_sha": "205bf1311ace3a5c01cf6a971eeba22f5fe02ae5",
+  "commit_message": "report.json: agent-g run 203 (folded +0 on inline-returned pointers: 41D40 99.90, 42938 97.60, gui 3714 96.51) \u2014 83.29% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.34422,
+   "matched_code_percent": 83.29250958527618,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

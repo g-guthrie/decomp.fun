@@ -47,5 +47,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-28T21:10:47Z",
+  "commit_sha": "274a178fb014e34aece220f31c24b33fef78c068",
+  "commit_message": "merge cleanup",
+  "source": "report",
+  "version": "USA",
+  "measures": {
+   "fuzzy_match_percent": 43.2696713864975,
+   "matched_code_percent": 33.47845980844546,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
