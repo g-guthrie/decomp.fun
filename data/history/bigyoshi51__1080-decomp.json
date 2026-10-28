@@ -1113,5 +1113,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T14:50:15Z",
+  "commit_sha": "c396e7d789935dcedfb9d909c0f27d1679cbb60c",
+  "commit_message": "report.json: agent-c run 192 (game_uso 591C 94.79 -> 99.03 at target length; 469A8 94.24) \u2014 83.06% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.28029,
+   "matched_code_percent": 83.06435116465694,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
