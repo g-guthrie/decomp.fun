@@ -1,0 +1,34 @@
+{
+ "repo": "TsilaAllaoui/drilldozer-decomp",
+ "by": "TsilaAllaoui",
+ "submitted_at": "2026-10-28T14:44:43+00:00",
+ "status": "rejected",
+ "reasons": [
+  "0.04% of the code is decompiled; at least 5% is required."
+ ],
+ "repo_meta": {
+  "id": 1437186776,
+  "created_at": "2026-10-28T14:19:23Z",
+  "fork": false,
+  "parent": null
+ },
+ "source_proof": 1.0,
+ "game": {
+  "platform": "gba",
+  "key": "drill-dozer",
+  "title": "Drill Dozer",
+  "by": "code",
+  "builds": [
+   "V49E"
+  ]
+ },
+ "project": {
+  "id": "tsilaallaoui__drilldozer-decomp",
+  "owner": "TsilaAllaoui",
+  "repo": "drilldozer-decomp",
+  "name": "Drill Dozer",
+  "submitted": true,
+  "platform": "gba",
+  "version": "V49E"
+ }
+}
