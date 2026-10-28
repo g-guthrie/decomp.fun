@@ -1155,5 +1155,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T18:15:27Z",
+  "commit_sha": "6be82d30bd103a9a5ed6d08a5722361c4eac4fdc",
+  "commit_message": "report.json: agent-c run 197 (sibling sweep: 36694 90.67 at target length, 37540 95.72, 3558 81.66) \u2014 83.26% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.32952,
+   "matched_code_percent": 83.25841694771239,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
