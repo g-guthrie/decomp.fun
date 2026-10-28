@@ -1057,5 +1057,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T11:08:18Z",
+  "commit_sha": "55270749a57655ea96f8e7820538d97937f378a4",
+  "commit_message": "report.json: agent-g run 193 (timer-HUD 13B8/16F4 99.91, 1340 99.91 via Img members; C234 91.66 at target length, 8FC8 91.27) \u2014 82.62% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.16742,
+   "matched_code_percent": 82.61590185516398,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
