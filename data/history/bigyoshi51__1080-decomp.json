@@ -1029,5 +1029,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T09:14:54Z",
+  "commit_sha": "40e1c5e36d1520d0874aca723ad498dec2fabbca",
+  "commit_message": "report.json: agent-g run 191 (4F2DC 94.87 as C++, mgrproc 23FC 99.94; literal/decode scans over its range) \u2014 82.62% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.14479,
+   "matched_code_percent": 82.61590185516398,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
