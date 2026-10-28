@@ -799,5 +799,19 @@
    "matched_data_percent": 0.5698983795660533,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-10-28T08:00:48Z",
+  "commit_sha": "89d5c49242fe269882ad323ac10c6306ecf22e7f",
+  "commit_message": "refactor(pause): type memory card, menu and help state structs in pause.c (#149)",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 0.5698983795660533,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]
