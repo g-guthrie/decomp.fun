@@ -2860,5 +2860,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T02:18:13Z",
+  "commit_sha": "9c42de6fadce54f954536ffa2dfc153629bb5487",
+  "commit_message": "Name actor resource table selectors",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.923532,
+   "matched_code_percent": 94.92353157742863,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

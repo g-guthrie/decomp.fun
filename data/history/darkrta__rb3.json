@@ -237,5 +237,19 @@
    "matched_data_percent": 22.231753178235167,
    "complete_data_percent": 17.94978976259211
   }
+ },
+ {
+  "timestamp": "2026-10-28T01:47:03Z",
+  "commit_sha": "5e34ff1a592632fcf7f0f067c56f8e91b403ae92",
+  "commit_message": "remove xbox 360 note that was copied from dc3",
+  "source": "report",
+  "version": "SZBE69_B8",
+  "measures": {
+   "fuzzy_match_percent": 68.659515,
+   "matched_code_percent": 54.33813904452855,
+   "complete_code_percent": 10.653975847461037,
+   "matched_data_percent": 22.231753178235167,
+   "complete_data_percent": 17.94978976259211
+  }
  }
 ]

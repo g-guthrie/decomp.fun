@@ -945,5 +945,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T02:26:43Z",
+  "commit_sha": "dca60aed330fb205afb06c197e88b3c4b7766477",
+  "commit_message": "report.json: agent-g run 182 (NM gains: 65494 80.62, 3558 79.22, 13B8/16F4 99.43; 6808 un-naming step left out) \u2014 82.25% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.904106,
+   "matched_code_percent": 82.25084838217323,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
