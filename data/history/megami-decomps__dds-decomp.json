@@ -2818,5 +2818,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T00:44:23Z",
+  "commit_sha": "22c88d91d45dde8e87aa6c62ff698905837f14bf",
+  "commit_message": "Type packed battle adjustment conditions",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 94.923532,
+   "matched_code_percent": 94.92353157742863,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

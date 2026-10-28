@@ -798,5 +798,19 @@
    "matched_data_percent": 90.7866400346071,
    "complete_data_percent": 22.444641911761263
   }
+ },
+ {
+  "timestamp": "2026-10-28T00:20:01Z",
+  "commit_sha": "61c84d8d6ed46702e9c9eb32289132bb0adecb74",
+  "commit_message": "hx_wiper only stack frames left",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 95.82719,
+   "matched_code_percent": 51.45322343073484,
+   "complete_code_percent": 18.50506171436466,
+   "matched_data_percent": 90.7866400346071,
+   "complete_data_percent": 22.444641911761263
+  }
  }
 ]

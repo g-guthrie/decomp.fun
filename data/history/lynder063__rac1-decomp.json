@@ -771,5 +771,19 @@
    "matched_data_percent": 0.5698983795660533,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-10-28T00:23:33Z",
+  "commit_sha": "06eeb2afbc6081cfafe7d5646939197135ae61f6",
+  "commit_message": "refactor(pause): eliminate dummy menu and card structs in pause.c (#146)",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 0.5698983795660533,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]

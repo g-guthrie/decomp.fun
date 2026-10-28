@@ -917,5 +917,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T00:36:37Z",
+  "commit_sha": "584c2cd666d5399e17f00d9d7471d249a66bfa14",
+  "commit_message": "report.json: agent-c run 173 (4EE44 exact: call argument routed through the reused local) \u2014 82.13% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 98.843285,
+   "matched_code_percent": 82.13335990810722,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

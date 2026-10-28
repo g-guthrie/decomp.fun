@@ -237,5 +237,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-27T23:51:29Z",
+  "commit_sha": "2cc5a236faeb9ae67db6efd9f1123200a033bbd9",
+  "commit_message": "Simplify US course-select player panel update while preserving exact match",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]
