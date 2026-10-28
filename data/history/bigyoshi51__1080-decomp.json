@@ -1085,5 +1085,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T13:16:11Z",
+  "commit_sha": "cb4720879df365ac9fe42a69ebdedf7c431a17d4",
+  "commit_message": "report.json: agent-c run 190 (3B6A0 93.65 back at target length, 3B9C0 91.18, 3BE1C 95.45, 454C4 95.94, BB8C 98.50) \u2014 82.62% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.24889,
+   "matched_code_percent": 82.61590185516398,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
