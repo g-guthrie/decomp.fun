@@ -54,5 +54,19 @@
    "matched_data_percent": 5.896670647140654,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T23:42:16Z",
+  "commit_sha": "fa2f9ecbe6a6c90630d0a3166bcc34177b4860d0",
+  "commit_message": "Decompile PostSpliceEventCallback",
+  "source": "report",
+  "version": "SCUS_971.98",
+  "measures": {
+   "fuzzy_match_percent": 11.192185,
+   "matched_code_percent": 10.400660650698589,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 5.896670647140654,
+   "complete_data_percent": 0.0
+  }
  }
 ]
