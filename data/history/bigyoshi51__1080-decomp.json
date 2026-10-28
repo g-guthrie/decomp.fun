@@ -1043,5 +1043,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T10:17:36Z",
+  "commit_sha": "9e8a49b54d589534013f2c07bf98a98538c87f67",
+  "commit_message": "report.json: agent-g run 192 (stale-lever audit negative; 54E78 93.79 via aggregate decl placement, small decl-order gains) \u2014 82.62% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.15078,
+   "matched_code_percent": 82.61590185516398,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

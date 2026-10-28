@@ -439,5 +439,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-28T09:35:19Z",
+  "commit_sha": "18764f35bf4599ddd48adef7540a0be4732afc63",
+  "commit_message": "decomp: music_transition in C, last function (100% C_EXACT) (#261)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]

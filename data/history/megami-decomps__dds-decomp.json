@@ -2972,5 +2972,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T10:14:29Z",
+  "commit_sha": "1493e47fc69e56ecaed41518ea7a562ae481e12e",
+  "commit_message": "Type script task priorities",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.003532,
+   "matched_code_percent": 95.00353237345645,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

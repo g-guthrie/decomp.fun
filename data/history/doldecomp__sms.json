@@ -812,5 +812,19 @@
    "matched_data_percent": 90.7866400346071,
    "complete_data_percent": 22.444641911761263
   }
+ },
+ {
+  "timestamp": "2026-10-28T09:53:38Z",
+  "commit_sha": "a2e189a256122d584b14c5ba498eb08d41ee3f8c",
+  "commit_message": "ScrnFader closer",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 95.82936,
+   "matched_code_percent": 51.48598028794837,
+   "complete_code_percent": 18.54372371930716,
+   "matched_data_percent": 90.7866400346071,
+   "complete_data_percent": 22.449639327160483
+  }
  }
 ]
