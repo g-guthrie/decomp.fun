@@ -1067,5 +1067,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T08:17:36Z",
+  "commit_sha": "f6026b2dc0baf6d5c100fccc4afc14c70d2415a5",
+  "commit_message": "Maps: event struct and enum organisation",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]

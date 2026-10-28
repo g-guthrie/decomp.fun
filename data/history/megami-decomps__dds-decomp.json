@@ -2944,5 +2944,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T08:25:26Z",
+  "commit_sha": "00953cd15023e64fb6ced0a2d718a6b0e9514d48",
+  "commit_message": "Match paired player-follow cameras and clarify scalar reuse rules",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.003532,
+   "matched_code_percent": 95.00353237345645,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

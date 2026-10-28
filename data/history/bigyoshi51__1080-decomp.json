@@ -1015,5 +1015,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T08:00:00Z",
+  "commit_sha": "28fd68729f3922a37d022aaf13c5f0f1db35b5fd",
+  "commit_message": "report.json: agent-c run 181 (gui 4568 96.01; game_uso 0B3C 99.83 with every stack offset = target) \u2014 82.62% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.11701,
+   "matched_code_percent": 82.61590185516398,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
