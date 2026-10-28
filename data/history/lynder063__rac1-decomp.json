@@ -785,5 +785,19 @@
    "matched_data_percent": 0.5698983795660533,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-10-28T07:21:54Z",
+  "commit_sha": "891910cf698411263ec73670d744a926c6f59590",
+  "commit_message": "refactor(partupd): type particle state structs and camera fields in effect_particle_updates.c (#147)",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 0.5698983795660533,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]

@@ -1001,5 +1001,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T07:09:23Z",
+  "commit_sha": "5799119a7ff3dcc33033a6c36cfa0dc92c08ae16",
+  "commit_message": "report.json: agent-c run 179 (decode fixes: 33094 double-added pin offset, 2E354 clamp form, 31A74 address pin) \u2014 82.62% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.07886,
+   "matched_code_percent": 82.61590185516398,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
