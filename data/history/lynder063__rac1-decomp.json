@@ -841,5 +841,19 @@
    "matched_data_percent": 0.5698983795660533,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-10-28T23:07:50Z",
+  "commit_sha": "3a7b3c4bfe17df323b20b646d812805d48a0f668",
+  "commit_message": "refactor(pause): type menu page navigation and eliminate dummy item info structs (#159)",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 0.5698983795660533,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]
