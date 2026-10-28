@@ -61,5 +61,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-28T21:57:37Z",
+  "commit_sha": "d8f140af2524babf5d4a2bd2123b7df156d8ac84",
+  "commit_message": "Multiple map overlay matches and new candidates from backlog",
+  "source": "report",
+  "version": "USA",
+  "measures": {
+   "fuzzy_match_percent": 63.54978824560487,
+   "matched_code_percent": 42.62282368451665,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

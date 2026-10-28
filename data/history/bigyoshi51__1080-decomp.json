@@ -1211,5 +1211,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T22:07:15Z",
+  "commit_sha": "a4e9264256d79516806eed69f49ecd7df6feedd7",
+  "commit_message": "report.json: agent-g run 204 (game_uso 3558 81.66 -> 85.86; scripts/zero-lever-grid.py) \u2014 83.29% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.35186,
+   "matched_code_percent": 83.29250958527618,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
