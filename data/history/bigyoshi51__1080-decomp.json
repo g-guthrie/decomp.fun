@@ -973,5 +973,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-28T04:47:46Z",
+  "commit_sha": "76e7f3b77865d89b8c5468bafe3002645b236ec9",
+  "commit_message": "report.json: agent-g run 185 (jumptable research: no available front end emits 4-entry tables; 8CD8 84.24 via phantom-label switch) \u2014 82.25% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.03985,
+   "matched_code_percent": 82.25084838217323,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -411,5 +411,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-28T05:24:15Z",
+  "commit_sha": "c886c700aeaf372f3aa9093c5fc9565d0a11089f",
+  "commit_message": "overlay: cache data-symbol lookups per parsed object (#258)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 99.717018,
+   "matched_code_percent": 99.65557400761908,
+   "complete_code_percent": 99.65557400761908,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]
