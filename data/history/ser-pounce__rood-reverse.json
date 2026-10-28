@@ -551,5 +551,19 @@
    "matched_data_percent": 69.89711972195519,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-10-28T16:02:48Z",
+  "commit_sha": "1bea96075fa333ccec4da2ae6918d4660cf89221",
+  "commit_message": "Normalize includes",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 93.38344,
+   "matched_code_percent": 93.3834367019336,
+   "complete_code_percent": 72.82078722283028,
+   "matched_data_percent": 69.89711972195519,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]
