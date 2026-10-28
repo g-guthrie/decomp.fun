@@ -425,5 +425,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-28T05:26:39Z",
+  "commit_sha": "101dbf296c2779b7e1a21b216a5da745f0c2509d",
+  "commit_message": "decomp: last walls, hero item slot blends and moby update loops in C (#260)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 99.999625,
+   "matched_code_percent": 99.99368646298745,
+   "complete_code_percent": 99.99368646298745,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]
