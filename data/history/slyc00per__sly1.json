@@ -96,5 +96,19 @@
    "matched_data_percent": 5.896670647140654,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T02:54:21Z",
+  "commit_sha": "e20594c8889b95b8158736f10d30301425c3ec81",
+  "commit_message": "Decompile CBinaryInputStream::ReadBspc",
+  "source": "report",
+  "version": "SCUS_971.98",
+  "measures": {
+   "fuzzy_match_percent": 11.253203,
+   "matched_code_percent": 10.485006546511997,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 5.896670647140654,
+   "complete_data_percent": 0.0
+  }
  }
 ]
