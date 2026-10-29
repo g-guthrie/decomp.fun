@@ -374,5 +374,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T05:53:44Z",
+  "commit_sha": "56113247c2dee46e2180019848ae53cc4d569e0b",
+  "commit_message": "names: apply 39 names from retail's own export table",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 55.4789,
+   "matched_code_percent": 55.478899537995495,
+   "complete_code_percent": 54.08837316876421,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]

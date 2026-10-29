@@ -808,5 +808,19 @@
    "matched_data_percent": 9.580551339820605,
    "complete_data_percent": 1.3849276642531259
   }
+ },
+ {
+  "timestamp": "2026-10-29T06:20:07Z",
+  "commit_sha": "91bfcf18a77fa3de4009537064c084797af35627",
+  "commit_message": "`WorldMapObjFunction`/`Holder` related stuff",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 21.7087,
+   "matched_code_percent": 18.93397306859183,
+   "complete_code_percent": 1.8280945438536607,
+   "matched_data_percent": 9.580551339820605,
+   "complete_data_percent": 1.3849276642531259
+  }
  }
 ]
