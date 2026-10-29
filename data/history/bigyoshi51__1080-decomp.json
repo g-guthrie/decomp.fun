@@ -1449,5 +1449,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T15:03:15Z",
+  "commit_sha": "7dde598a15435135219f7ce99a3fd8b31c9a67bb",
+  "commit_message": "report.json: agent-c run 226 (bootup 90CC 99.48->99.90 at target length, cfront-style cfe NM donor) \u2014 85.72% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.60151,
+   "matched_code_percent": 85.72110417027258,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -165,5 +165,19 @@
    "matched_data_percent": 0.5474473025880346,
    "complete_data_percent": 0.23317793479671856
   }
+ },
+ {
+  "timestamp": "2026-10-29T14:48:54Z",
+  "commit_sha": "77bb8c1171072463e9859b8d8c2c15c8cf7528d5",
+  "commit_message": "tools: skip weak copies and stripped library refs in the symbols check (#33)",
+  "source": "report",
+  "version": "RPBP01",
+  "measures": {
+   "fuzzy_match_percent": 24.289452,
+   "matched_code_percent": 21.861150389099286,
+   "complete_code_percent": 2.3823555586318736,
+   "matched_data_percent": 0.5474473025880346,
+   "complete_data_percent": 0.23317793479671856
+  }
  }
 ]

@@ -822,5 +822,19 @@
    "matched_data_percent": 9.580551339820605,
    "complete_data_percent": 1.3849276642531259
   }
+ },
+ {
+  "timestamp": "2026-10-29T15:20:22Z",
+  "commit_sha": "985642c48d377d1a37192ae11ecc0069f64b70a9",
+  "commit_message": "link MapPartsRailGuideHolder",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 21.760254,
+   "matched_code_percent": 18.985526202454515,
+   "complete_code_percent": 1.8796476777163493,
+   "matched_data_percent": 9.60850831896329,
+   "complete_data_percent": 1.4161736997655372
+  }
  }
 ]
