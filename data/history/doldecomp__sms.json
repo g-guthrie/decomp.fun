@@ -882,5 +882,19 @@
    "matched_data_percent": 90.7866400346071,
    "complete_data_percent": 22.544590219745725
   }
+ },
+ {
+  "timestamp": "2026-10-28T23:22:00Z",
+  "commit_sha": "27b8ecf11bf359324cf75c0bcb0357a4f1350fce",
+  "commit_message": "Menu naming",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 95.838295,
+   "matched_code_percent": 51.50369573113528,
+   "complete_code_percent": 18.573472293715362,
+   "matched_data_percent": 90.88783769644138,
+   "complete_data_percent": 22.544590219745725
+  }
  }
 ]

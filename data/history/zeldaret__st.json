@@ -177,5 +177,19 @@
    "matched_data_percent": 32.86486855805235,
    "complete_data_percent": 6.838189533659208
   }
+ },
+ {
+  "timestamp": "2026-10-28T23:56:01Z",
+  "commit_sha": "bdd307884546c9696f949480c7b9c72080e1ea9e",
+  "commit_message": "Decompiling CRFT (#174)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 14.768931,
+   "matched_code_percent": 10.520611300061168,
+   "complete_code_percent": 4.967630464552645,
+   "matched_data_percent": 32.91388357892829,
+   "complete_data_percent": 6.838189533659208
+  }
  }
 ]

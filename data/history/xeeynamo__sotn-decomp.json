@@ -451,5 +451,19 @@
    "matched_data_percent": 73.02910901534993,
    "complete_data_percent": 26.928646778604886
   }
+ },
+ {
+  "timestamp": "2026-10-28T23:13:13Z",
+  "commit_sha": "4f78b17a5ef02d4a55bd1199a8f526b4e6e0cb94",
+  "commit_message": "Finish RDAI (#3779)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.554214,
+   "matched_code_percent": 82.51841537753255,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 74.28955165921369,
+   "complete_data_percent": 25.668630588414192
+  }
  }
 ]

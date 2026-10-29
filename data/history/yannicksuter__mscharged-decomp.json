@@ -141,5 +141,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-26T17:49:58Z",
+  "commit_sha": "a353c8f2dfb34eb08fecd725965a46ea629428e3",
+  "commit_message": "refactor: unify the skin mesh base declaration",
+  "source": "report",
+  "version": "R4QE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000046,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

@@ -1239,5 +1239,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T00:16:51Z",
+  "commit_sha": "c12fc609475fd161aadf9ad217b8e2fc0742dd47",
+  "commit_message": "report.json: agent-c run 205 (50444 exact via +0*(int)(pos) counted use; +0*x gains on 8 more) \u2014 83.42% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.37796,
+   "matched_code_percent": 83.42101260378585,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
