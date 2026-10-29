@@ -1477,5 +1477,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T16:51:31Z",
+  "commit_sha": "8fed79cba8a00e6fd8933502ac480296a89a0368",
+  "commit_message": "report.json: agent-c run 229 (kernel 1594 EXACT via cfe donor, loop index overlap moves address to a2) \u2014 86.99% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.60917,
+   "matched_code_percent": 86.98566550752915,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
