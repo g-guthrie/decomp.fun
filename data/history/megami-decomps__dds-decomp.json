@@ -3238,5 +3238,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T07:15:22Z",
+  "commit_sha": "4ae97c96495d499b5934625f3266fad15f4a5c9b",
+  "commit_message": "Name enemy spawn capacity result at callers",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.003532,
+   "matched_code_percent": 95.00353237345645,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

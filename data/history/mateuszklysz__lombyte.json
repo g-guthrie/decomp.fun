@@ -453,5 +453,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-29T06:48:11Z",
+  "commit_sha": "be4134e4c9f559f6f0a022c59a443c5f6cc64d70",
+  "commit_message": "chore: group rendering helpers by ownership (#256)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 43.5789502638544,
+   "complete_data_percent": 43.5789502638544
+  }
  }
 ]

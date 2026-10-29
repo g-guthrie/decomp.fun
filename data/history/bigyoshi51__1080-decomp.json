@@ -1337,5 +1337,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T07:23:22Z",
+  "commit_sha": "39dc86b0fb1bc827ade6c1c5eff411fe9e0b7032",
+  "commit_message": "report.json: agent-c run 218 (game_libs 3430 + timproc_b5 CEB4 EXACT via float literals for RoData literal pools; C310 99.89, 4F2DC) \u2014 84.32% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.47793,
+   "matched_code_percent": 84.31650223697807,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

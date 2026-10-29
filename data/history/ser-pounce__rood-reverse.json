@@ -565,5 +565,19 @@
    "matched_data_percent": 69.89711972195519,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-10-29T06:48:54Z",
+  "commit_sha": "e8bf097c2c5565e78af8024402f297ce44e57b07",
+  "commit_message": "test: cover text transformer EOF handling (#309)",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 93.38344,
+   "matched_code_percent": 93.3834367019336,
+   "complete_code_percent": 72.82078722283028,
+   "matched_data_percent": 69.89711972195519,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]
