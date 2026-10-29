@@ -156,5 +156,19 @@
    "matched_data_percent": 99.77905523970311,
    "complete_data_percent": 0.30111722016612136
   }
+ },
+ {
+  "timestamp": "2026-10-29T13:09:21Z",
+  "commit_sha": "1f08680e813eaaf387b64634a37e0ed575b20302",
+  "commit_message": "Build 186 more JP main functions from C by slicing units around the functions JP changed",
+  "source": "report",
+  "version": "SLUS_006.62",
+  "measures": {
+   "fuzzy_match_percent": 100.000084,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.77905523970311,
+   "complete_data_percent": 0.30111722016612136
+  }
  }
 ]
