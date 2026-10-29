@@ -1253,5 +1253,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T00:54:36Z",
+  "commit_sha": "775c4a3a1178751d1071b8bafdc4754d4d06ee48",
+  "commit_message": "report.json: agent-g run 207 (591C 99.85 via counted-use priority; 38A28 92.59 at target length; 30AF4 93.55; clip 0x2eacc) \u2014 83.42% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.382996,
+   "matched_code_percent": 83.42101260378585,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
