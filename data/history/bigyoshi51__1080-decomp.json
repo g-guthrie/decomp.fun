@@ -1365,5 +1365,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T08:46:18Z",
+  "commit_sha": "137acaf2a9a72edce3a78305a8f68d15fd75d8f5",
+  "commit_message": "report.json: agent-g run 219 (post0b 36F0C EXACT via const-ref inline setters; splicer names section-symbol relocs) \u2014 84.56% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.48888,
+   "matched_code_percent": 84.55777067959026,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
