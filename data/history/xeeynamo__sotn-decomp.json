@@ -465,5 +465,19 @@
    "matched_data_percent": 74.28955165921369,
    "complete_data_percent": 25.668630588414192
   }
+ },
+ {
+  "timestamp": "2026-10-29T20:45:19Z",
+  "commit_sha": "83c4f196d83d8ef2b7ad1694d5a01d398a918dc4",
+  "commit_message": "Import `top` and `cen` PSP cutscenes (#3780)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.742256,
+   "matched_code_percent": 82.70653984989147,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 74.32612087741377,
+   "complete_data_percent": 25.635219810916077
+  }
  }
 ]

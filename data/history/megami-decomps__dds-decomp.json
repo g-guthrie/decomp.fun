@@ -3350,5 +3350,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T21:13:56Z",
+  "commit_sha": "648e39e3cdda433ec839232f5b4d65f7d8b8022a",
+  "commit_message": "Return retail's v0 on paths that fell off the end of functions with results",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.003532,
+   "matched_code_percent": 95.00353237345645,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -97,5 +97,19 @@
    "matched_data_percent": 83.3001495234431,
    "complete_data_percent": 53.20925766602094
   }
+ },
+ {
+  "timestamp": "2026-10-29T20:59:01Z",
+  "commit_sha": "4cf5494422955e6f383b8470ae5e46dd5362fc4f",
+  "commit_message": "Merge pull request #663: verified data reconstruction and source linking",
+  "source": "report",
+  "version": "GC6E01",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 96.73134798805158,
+   "complete_data_percent": 96.73134798805158
+  }
  }
 ]
