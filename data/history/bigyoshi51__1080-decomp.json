@@ -1561,5 +1561,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T22:51:55Z",
+  "commit_sha": "01db56cc36e13693120bedeaebfeda17e49fdeee",
+  "commit_message": "report.json: agent-c run 238 (bootup 8BD4 + post1b 63964 EXACT; 4B0A8 99.83, 31C0 99.98) \u2014 90.23% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.68503,
+   "matched_code_percent": 90.22705458436265,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
