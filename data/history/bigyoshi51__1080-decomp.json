@@ -1379,5 +1379,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T10:10:31Z",
+  "commit_sha": "9e5d62bddedc80d398987ed7b0c2f93475582aad",
+  "commit_message": "report.json: agent-g run 221 (fresh eyes: bootup 6808 96.61->98.34, E68 prologue, post0b 493AC) \u2014 84.56% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.50262,
+   "matched_code_percent": 84.55777067959026,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

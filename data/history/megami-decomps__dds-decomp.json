@@ -3280,5 +3280,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T10:14:01Z",
+  "commit_sha": "36166042d986445a050ec2375bd7e143fb780b9d",
+  "commit_message": "Import the field owner in collision geometry declarations",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.003532,
+   "matched_code_percent": 95.00353237345645,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
