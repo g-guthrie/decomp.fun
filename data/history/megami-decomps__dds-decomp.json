@@ -3168,5 +3168,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T02:21:28Z",
+  "commit_sha": "f8723bc53bbd63a1ddb7a58b7cbb2cd3d1c29db8",
+  "commit_message": "Type floor load poll count",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.003532,
+   "matched_code_percent": 95.00353237345645,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
