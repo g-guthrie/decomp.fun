@@ -850,5 +850,19 @@
    "matched_data_percent": 9.71070399902268,
    "complete_data_percent": 1.5183693798249283
   }
+ },
+ {
+  "timestamp": "2026-10-29T18:38:12Z",
+  "commit_sha": "e8dc694a799d5a125b3a3fb9b1bb96a883e86cff",
+  "commit_message": "Initial `PostFog` attempt (ew)",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 21.91401,
+   "matched_code_percent": 19.109177159664778,
+   "complete_code_percent": 1.9782239052136934,
+   "matched_data_percent": 9.715402650979433,
+   "complete_data_percent": 1.5183693798249283
+  }
  }
 ]

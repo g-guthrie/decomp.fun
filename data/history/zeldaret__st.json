@@ -191,5 +191,19 @@
    "matched_data_percent": 32.91388357892829,
    "complete_data_percent": 6.838189533659208
   }
+ },
+ {
+  "timestamp": "2026-10-29T19:08:07Z",
+  "commit_sha": "ddd240794133b5f60f47c233f596aa8512baf2b3",
+  "commit_message": "Match actors 6 (#175)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 14.91334,
+   "matched_code_percent": 10.882825725943892,
+   "complete_code_percent": 5.684560413904535,
+   "matched_data_percent": 32.92457776530123,
+   "complete_data_percent": 7.002167058044181
+  }
  }
 ]

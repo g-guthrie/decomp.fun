@@ -1505,5 +1505,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T18:58:36Z",
+  "commit_sha": "1d515ce31e696036a30fdebd539709dc68f78ee5",
+  "commit_message": "report.json: agent-c run 232 (post0b 4C5E4 frame homes all on target, 88.73; 46050/36694/3B9C0 are edg-shaped) \u2014 87.55% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.65417,
+   "matched_code_percent": 87.54740138152408,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
