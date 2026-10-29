@@ -1,0 +1,15 @@
+{
+ "repo": "kirazero17/mmx3pcdecomp",
+ "by": "kirazero17",
+ "submitted_at": "2026-10-29T06:40:13+00:00",
+ "status": "rejected",
+ "reasons": [
+  "No objdiff progress report found. The repository's GitHub Actions must upload one on the default branch (not from a fork), as an artifact whose name contains \"report\" (for example GALE01_report)."
+ ],
+ "repo_meta": {
+  "id": 1437906350,
+  "created_at": "2026-10-29T03:34:58Z",
+  "fork": false,
+  "parent": null
+ }
+}
