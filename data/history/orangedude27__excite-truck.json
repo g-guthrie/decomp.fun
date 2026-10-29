@@ -437,5 +437,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-29T02:37:12Z",
+  "commit_sha": "add6c8f6861bc455d7ea25b0b123ee1623a8f87c",
+  "commit_message": "Keep fn_801195D8's declaration unprototyped so the two call sites can match their distinct argument setup.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 54.537273,
+   "matched_code_percent": 22.95337147682999,
+   "complete_code_percent": 2.548130702017811,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
