@@ -83,5 +83,19 @@
    "matched_data_percent": 83.3001495234431,
    "complete_data_percent": 53.01991365105289
   }
+ },
+ {
+  "timestamp": "2026-10-29T07:25:59Z",
+  "commit_sha": "e354ba3f0475ac50af3b7d9dccc1f2855be8369c",
+  "commit_message": "Merge PR #662: complete Count-Sheep import with 100% tracked code",
+  "source": "report",
+  "version": "GC6E01",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 83.3001495234431,
+   "complete_data_percent": 53.20925766602094
+  }
  }
 ]
