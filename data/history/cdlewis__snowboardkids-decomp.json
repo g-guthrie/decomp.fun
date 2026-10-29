@@ -279,5 +279,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T03:54:38Z",
+  "commit_sha": "bbcb905df3726f7130ea5e4f5f6f2ba2aaaaec22",
+  "commit_message": "Clean up US course icon list rendering",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

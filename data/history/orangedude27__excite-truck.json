@@ -451,5 +451,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-29T03:47:58Z",
+  "commit_sha": "53a7fc44c8167619f1625aed4e892cd61e96145b",
+  "commit_message": "Give ReadPlayerInfo its real three-argument ABI while retaining the existing one-argument thunk call.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 54.62847,
+   "matched_code_percent": 23.00281027435254,
+   "complete_code_percent": 2.548130702017811,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

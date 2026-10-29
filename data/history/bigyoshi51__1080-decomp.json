@@ -1295,5 +1295,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T04:11:14Z",
+  "commit_sha": "b3ca048f5798b01d99f7340c2929b197ba3fd192",
+  "commit_message": "report.json: agent-c run 213 (post1b 65494 91.75->98.64 via Vec3 by-value operator* + trailing BB splits) \u2014 83.46% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.42733,
+   "matched_code_percent": 83.46349727521151,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
