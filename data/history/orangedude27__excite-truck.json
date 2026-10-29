@@ -423,5 +423,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-29T01:51:16Z",
+  "commit_sha": "deb948757f9128b04feb138f04a9be1f19414040",
+  "commit_message": "Match fn_80158374",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 54.36028,
+   "matched_code_percent": 22.839544218873556,
+   "complete_code_percent": 2.548130702017811,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
