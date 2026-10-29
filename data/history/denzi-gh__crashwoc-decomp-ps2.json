@@ -800,5 +800,19 @@
    "matched_data_percent": 93.01016755897142,
    "complete_data_percent": 93.00999609929231
   }
+ },
+ {
+  "timestamp": "2026-10-29T20:12:08Z",
+  "commit_sha": "ef1c837f214c8e650a68ae7b433ab4b40fe569c3",
+  "commit_message": "Merge pull request #192 from denzi-gh/ci/retire-nuworld-host",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 99.16953,
+   "matched_code_percent": 98.50584398557015,
+   "complete_code_percent": 80.57342596812094,
+   "matched_data_percent": 93.01016755897142,
+   "complete_data_percent": 93.00999609929231
+  }
  }
 ]

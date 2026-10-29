@@ -318,5 +318,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-29T19:57:24Z",
+  "commit_sha": "0b94c1aed4aba60956c2904274a728e432e37d45",
+  "commit_message": "Restore game common SYM ownership and SLD source phases",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

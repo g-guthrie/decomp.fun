@@ -321,5 +321,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T19:56:24Z",
+  "commit_sha": "de752af42ef16e288aaf823d0c1c07db98b62ca2",
+  "commit_message": "Modify JP badge links in README",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

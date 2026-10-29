@@ -1143,5 +1143,19 @@
    "matched_data_percent": 46.98335689404978,
    "complete_data_percent": 46.98335689404978
   }
+ },
+ {
+  "timestamp": "2026-10-29T19:36:48Z",
+  "commit_sha": "b7167e65c55043e36d30ed242204b1e5770637b8",
+  "commit_message": "Record the verified fixup import for fn_17_3E08.",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 85.1868,
+   "matched_code_percent": 75.58225208747298,
+   "complete_code_percent": 74.28393990692683,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
  }
 ]
