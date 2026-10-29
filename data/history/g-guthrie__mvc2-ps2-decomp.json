@@ -1558,5 +1558,19 @@
    "matched_data_percent": 99.9200696227533,
    "complete_data_percent": 99.9200696227533
   }
+ },
+ {
+  "timestamp": "2026-10-29T18:55:09Z",
+  "commit_sha": "a38da61fe2d40e69d65bbcfdfe0694f663c14bef",
+  "commit_message": "Credit the \"C\" locale string and a third libm huge constant (data 99.99%)",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 99.93284140369967,
+   "matched_code_percent": 99.93284140369967,
+   "complete_code_percent": 99.93284140369967,
+   "matched_data_percent": 99.98827276318389,
+   "complete_data_percent": 99.98827276318389
+  }
  }
 ]
