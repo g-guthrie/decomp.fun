@@ -3294,5 +3294,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T12:22:58Z",
+  "commit_sha": "101203032d1843d10ae3971b04c0a083afa558b5",
+  "commit_message": "Document exact DDS2 battle preset camera and reconstruction evidence",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.003532,
+   "matched_code_percent": 95.00353237345645,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]

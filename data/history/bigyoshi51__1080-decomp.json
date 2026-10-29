@@ -1407,5 +1407,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T12:28:20Z",
+  "commit_sha": "3ae3052f2b42bd0a3e9a72234ad51ac0bbadd637",
+  "commit_message": "report.json: agent-c run 222 (timproc_b5 8FC8 93.39->96.01 via cfront-style cfe C donor; jumptable from cfe) \u2014 84.87% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.54619,
+   "matched_code_percent": 84.86932166852863,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
