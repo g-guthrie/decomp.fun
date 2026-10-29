@@ -304,5 +304,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-29T14:22:15Z",
+  "commit_sha": "e9083329e134b1a211d91364247b1a323eb65438",
+  "commit_message": "Centralize SPCH BSS declarations in spchdata.h, model gVoxInGame as a two-field state structure, and unify gLastSubTick as 32-bit storage with an explicit low-halfword access.",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
