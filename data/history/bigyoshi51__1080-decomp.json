@@ -1267,5 +1267,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T01:47:16Z",
+  "commit_sha": "1b7f32dcdd323af9483d0d25e6f88668b2ce9ee9",
+  "commit_message": "report.json: agent-g run 208 (591C 99.85->99.89 scratch-guard hoist + store-block split, 38A28 92.59->93.33) \u2014 83.42% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.388275,
+   "matched_code_percent": 83.42101260378585,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
