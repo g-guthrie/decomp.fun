@@ -1547,5 +1547,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T22:11:06Z",
+  "commit_sha": "fdda3cd39302480cf95af434c83eeb303a5ca63a",
+  "commit_message": "report.json: agent-c run 237 (game_uso 591C EXACT, 4372 B \u2014 cfe donor, dead scale LR carries selector joins; 31C0 99.97) \u2014 89.73% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.6829,
+   "matched_code_percent": 89.7251113244064,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -892,5 +892,19 @@
    "matched_data_percent": 9.760039844568594,
    "complete_data_percent": 1.5348146616735658
   }
+ },
+ {
+  "timestamp": "2026-10-29T21:50:38Z",
+  "commit_sha": "066d038760d904e587468bd1b9a0931d45926fdd",
+  "commit_message": "LiveActorUtil (#37)",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.181438,
+   "matched_code_percent": 19.3710262455218,
+   "complete_code_percent": 2.0055955567323736,
+   "matched_data_percent": 9.7675576876994,
+   "complete_data_percent": 1.5418626396086963
+  }
  }
 ]

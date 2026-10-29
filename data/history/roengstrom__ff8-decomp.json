@@ -340,5 +340,19 @@
    "matched_data_percent": 74.23033841349582,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T22:15:25Z",
+  "commit_sha": "1e66cdef39a851bdc8edf5eef9707d122ad4eea9",
+  "commit_message": "split menumain (#193)",
+  "source": "report",
+  "version": "SLUS_008.92",
+  "measures": {
+   "fuzzy_match_percent": 67.267624,
+   "matched_code_percent": 67.26762528503451,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 72.66172708243347,
+   "complete_data_percent": 0.0
+  }
  }
 ]
