@@ -360,5 +360,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T04:51:35Z",
+  "commit_sha": "74e33ddea35205ab5f589ae8e8b839e795ea4e3a",
+  "commit_message": "names: the player's mode handlers at 0x10B760, 0x10B780, 0x11A820 and 0x122C48",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 55.477962,
+   "matched_code_percent": 55.4779606710516,
+   "complete_code_percent": 54.087457833636066,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]

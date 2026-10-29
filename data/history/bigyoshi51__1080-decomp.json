@@ -1309,5 +1309,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T05:08:46Z",
+  "commit_sha": "4ea992bf0442cca94b1e372b0d8abc24305b2d54",
+  "commit_message": "report.json: agent-c run 215 (post1b 65494 EXACT, NCC donor; edg -h parameter temp holds f0) \u2014 83.64% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.43583,
+   "matched_code_percent": 83.63780361797765,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
