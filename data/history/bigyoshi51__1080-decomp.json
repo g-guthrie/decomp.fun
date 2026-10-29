@@ -1491,5 +1491,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T18:07:38Z",
+  "commit_sha": "ddbaa43fcfb6665755e4f85bcf16020ae1344c61",
+  "commit_message": "report.json: agent-g run 231 (operand-order lever: bootup C234 95.07->98.17, 3558 91.56, B75C, 2E354, 8CD8, 3BE1C, 54E78, 4BAF4, 3B9C0, 46050, 4C5E4) \u2014 86.99% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.641594,
+   "matched_code_percent": 86.98566550752915,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

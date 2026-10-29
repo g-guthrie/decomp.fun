@@ -307,5 +307,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T17:46:29Z",
+  "commit_sha": "20a3e926c697c0388b5cafab9f1f7aa824e4dfb7",
+  "commit_message": "Make ASCII text rendering const-correct and inline JP UI strings",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]
