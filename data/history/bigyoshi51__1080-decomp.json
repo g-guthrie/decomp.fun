@@ -1281,5 +1281,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T02:45:25Z",
+  "commit_sha": "b02956b6fafca3f1e7e109867f964f2e4297ab69",
+  "commit_message": "report.json: agent-c run 211 (zero-use sweep: bootup 6808 96.56, B75C, timproc_b5 C310 96.45, post0b 4BAF4) \u2014 83.46% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.39678,
+   "matched_code_percent": 83.46349727521151,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

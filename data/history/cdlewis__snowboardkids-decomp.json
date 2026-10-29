@@ -265,5 +265,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T03:05:11Z",
+  "commit_sha": "b9979522da8057caa252813fdbafcf1429f9a6d2",
+  "commit_message": "Integrate JP handwritten assembly sources and matching data",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

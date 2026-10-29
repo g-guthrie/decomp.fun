@@ -836,5 +836,19 @@
    "matched_data_percent": 21.339992389340523,
    "complete_data_percent": 21.339992389340523
   }
+ },
+ {
+  "timestamp": "2026-10-29T02:21:56Z",
+  "commit_sha": "0f5d5a3d9aea6ec8ff86b4724b77461a689ebc0f",
+  "commit_message": "match cachemgr xbox",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.217537,
+   "matched_code_percent": 52.64836913155252,
+   "complete_code_percent": 27.93044293230262,
+   "matched_data_percent": 21.397722819131378,
+   "complete_data_percent": 21.397722819131378
+  }
  }
 ]
