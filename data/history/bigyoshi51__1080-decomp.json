@@ -1393,5 +1393,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-29T10:54:31Z",
+  "commit_sha": "30c4d61817604632e5e817e190f8921a19c165cf",
+  "commit_message": "report.json: agent-g run 222 (bootup 6808 98.34->99.98 at target length: do-while BB split for v0, 3-arg call decode fix) \u2014 84.56% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.50774,
+   "matched_code_percent": 84.55777067959026,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

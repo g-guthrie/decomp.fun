@@ -567,5 +567,19 @@
    "matched_data_percent": 28.575198661381755,
    "complete_data_percent": 5.636638948446656
   }
+ },
+ {
+  "timestamp": "2026-10-29T10:31:54Z",
+  "commit_sha": "4efd8d661a9af3d6f750db346ad040ba7314fce3",
+  "commit_message": "RPFollow: Carve out the split",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 45.164513,
+   "matched_code_percent": 34.871798035865666,
+   "complete_code_percent": 17.042845919446037,
+   "matched_data_percent": 28.575198661381755,
+   "complete_data_percent": 5.636638948446656
+  }
  }
 ]
