@@ -763,5 +763,19 @@
    "matched_data_percent": 30.61472162878592,
    "complete_data_percent": 6.3072721915536825
   }
+ },
+ {
+  "timestamp": "2026-10-30T23:08:34Z",
+  "commit_sha": "b3d8c89622057efd3393d09dacf7ed90fbcc9dfd",
+  "commit_message": "LH3DWeather: Decompile the weather unit",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 51.112392,
+   "matched_code_percent": 39.49749463650768,
+   "complete_code_percent": 17.406936941324595,
+   "matched_data_percent": 30.826805251056026,
+   "complete_data_percent": 6.3072721915536825
+  }
  }
 ]

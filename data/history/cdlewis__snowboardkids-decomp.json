@@ -377,5 +377,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-30T22:07:36Z",
+  "commit_sha": "1ad2e2c0ecd9e7cdf18b96b60d4d6e23bd4e5c01",
+  "commit_message": "Share regional menu code and encode Japanese text readably",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

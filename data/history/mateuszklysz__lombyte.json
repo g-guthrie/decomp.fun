@@ -523,5 +523,19 @@
    "matched_data_percent": 42.07449113563079,
    "complete_data_percent": 42.07449113563079
   }
+ },
+ {
+  "timestamp": "2026-10-30T23:08:52Z",
+  "commit_sha": "040b2aa8118ef597e4176c0b8e054eceafbfacc7",
+  "commit_message": "decomp: define game data in C (#267)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 62.80740252925755,
+   "complete_data_percent": 62.80740252925755
+  }
  }
 ]
