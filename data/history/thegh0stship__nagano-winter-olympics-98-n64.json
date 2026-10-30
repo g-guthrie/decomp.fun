@@ -1,0 +1,16 @@
+[
+ {
+  "timestamp": "2026-10-30T19:41:08Z",
+  "commit_sha": "edbb0453e9d03616383c9fb99bab8858c5946e66",
+  "commit_message": "Report progress by source translation unit",
+  "source": "report",
+  "version": "NH5E",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
+ }
+]

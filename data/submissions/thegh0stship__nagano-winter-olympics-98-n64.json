@@ -1,18 +1,16 @@
 {
  "repo": "TheGh0stShip/Nagano-Winter-Olympics-98-N64",
  "by": "TheGh0stShip",
- "submitted_at": "2026-10-30T19:38:02+00:00",
- "status": "rejected",
- "reasons": [
-  "Only 15% of the files the report counts as decompiled exist in the repository; at least half must."
- ],
+ "submitted_at": "2026-10-30T19:42:12+00:00",
+ "status": "listed",
+ "reasons": [],
  "repo_meta": {
   "id": 1430281979,
   "created_at": "2026-10-22T21:15:33Z",
   "fork": false,
   "parent": null
  },
- "source_proof": 0.15306122448979592,
+ "source_proof": 1.0,
  "game": {
   "platform": "n64",
   "key": "nagano-winter-olympics-98",
@@ -30,5 +28,6 @@
   "submitted": true,
   "platform": "n64",
   "version": "NH5E"
- }
+ },
+ "listed_at": "2026-10-30T19:42:12+00:00"
 }
