@@ -153,5 +153,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-30T04:55:24Z",
+  "commit_sha": "639c0121bc7fa18aeb30ad74a7fcb5280748ff17",
+  "commit_message": "Merge pull request #667: archive inactive library candidates",
+  "source": "report",
+  "version": "GC6E01",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

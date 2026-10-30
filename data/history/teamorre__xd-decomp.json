@@ -42,5 +42,19 @@
    "complete_code_percent": 8.13,
    "fuzzy_match_percent": 11.47
   }
+ },
+ {
+  "timestamp": "2026-10-30T05:11:13Z",
+  "commit_sha": "f6651cce414887c62d19d5f8f0a035b636d589e6",
+  "commit_message": "Merge pull request #8 from jmerdich/finish-pokebios",
+  "source": "report",
+  "version": "GXXE01",
+  "measures": {
+   "fuzzy_match_percent": 11.5682,
+   "matched_code_percent": 11.317778093299887,
+   "complete_code_percent": 8.202786060233171,
+   "matched_data_percent": 6.278368536876505,
+   "complete_data_percent": 4.649847161119147
+  }
  }
 ]

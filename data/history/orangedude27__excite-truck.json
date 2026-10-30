@@ -493,5 +493,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-30T04:31:43Z",
+  "commit_sha": "e157728067354857bbc4fb4d11f740081c007c6e",
+  "commit_message": "Try the target's invalid-target instruction scheduling for fn_802917C0.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 56.838737,
+   "matched_code_percent": 24.328084777702447,
+   "complete_code_percent": 2.5629492275351806,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
