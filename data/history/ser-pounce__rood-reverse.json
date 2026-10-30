@@ -607,5 +607,19 @@
    "matched_data_percent": 70.02144494564816,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-10-30T19:30:59Z",
+  "commit_sha": "74c58f997c125fef8d5a6f27a368af9635b2f439",
+  "commit_message": "Decomp func_800CA2DC (#313)",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 94.128174,
+   "matched_code_percent": 94.12817706433175,
+   "complete_code_percent": 72.82078722283028,
+   "matched_data_percent": 70.02144494564816,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]
