@@ -878,5 +878,19 @@
    "matched_data_percent": 21.537983370383802,
    "complete_data_percent": 21.537983370383802
   }
+ },
+ {
+  "timestamp": "2026-10-30T00:18:10Z",
+  "commit_sha": "af1ced02190f02eca73b552c1e579581ec20522d",
+  "commit_message": "match propeventlistener",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.239506,
+   "matched_code_percent": 52.71708729369395,
+   "complete_code_percent": 28.401344215074413,
+   "matched_data_percent": 21.666047351962103,
+   "complete_data_percent": 21.666047351962103
+  }
  }
 ]

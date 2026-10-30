@@ -205,5 +205,19 @@
    "matched_data_percent": 32.92457776530123,
    "complete_data_percent": 7.002167058044181
   }
+ },
+ {
+  "timestamp": "2026-10-29T23:25:25Z",
+  "commit_sha": "09b732a9c6f2235cfdfe484945cb43258d05f5f4",
+  "commit_message": "Address FX todos (#179)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 14.923189,
+   "matched_code_percent": 10.927295961187076,
+   "complete_code_percent": 5.684560413904535,
+   "matched_data_percent": 32.92457776530123,
+   "complete_data_percent": 7.002167058044181
+  }
  }
 ]

@@ -493,5 +493,19 @@
    "matched_data_percent": 74.32612087741377,
    "complete_data_percent": 25.635219810916077
   }
+ },
+ {
+  "timestamp": "2026-10-29T23:32:34Z",
+  "commit_sha": "c89791437ba9992c83b5936f0220b6a9aed145b3",
+  "commit_message": "Extract RBO6 assets (#3782)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.74234,
+   "matched_code_percent": 82.70653984989147,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 74.32612087741377,
+   "complete_data_percent": 25.635219810916077
+  }
  }
 ]

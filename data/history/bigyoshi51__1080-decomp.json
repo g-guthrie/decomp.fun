@@ -1575,5 +1575,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-30T00:46:21Z",
+  "commit_sha": "f6880e954210447a7fceabfe00578ad2cdd23d7b",
+  "commit_message": "report.json: agent-g run 241 (bootup 55A0 EXACT, 2392 B) \u2014 91.08% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.69476,
+   "matched_code_percent": 91.08408205225035,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
