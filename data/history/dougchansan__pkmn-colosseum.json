@@ -111,5 +111,19 @@
    "matched_data_percent": 96.73134798805158,
    "complete_data_percent": 96.73134798805158
   }
+ },
+ {
+  "timestamp": "2026-10-29T23:43:52Z",
+  "commit_sha": "e6e1ad94a7a97af2fdf34d12e5f1b786dafede8d",
+  "commit_message": "Merge pull request #664: verified 97.44 percent source data",
+  "source": "report",
+  "version": "GC6E01",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 97.43631232340138,
+   "complete_data_percent": 97.43631232340138
+  }
  }
 ]
