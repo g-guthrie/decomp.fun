@@ -335,5 +335,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-30T00:47:33Z",
+  "commit_sha": "6424ffd2b8d5fbfe9e40a23c131cfb52443a33db",
+  "commit_message": "Unify remaining US and JP game and microcode sources",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]
