@@ -401,5 +401,19 @@
    "matched_data_percent": 91.14492968727342,
    "complete_data_percent": 52.21993049762269
   }
+ },
+ {
+  "timestamp": "2026-10-30T22:12:10Z",
+  "commit_sha": "9cbb155cb805ec0546a167926ef71542c485cf0a",
+  "commit_message": "d_a_npc_sv (#1250)",
+  "source": "report",
+  "version": "GZLE01",
+  "measures": {
+   "fuzzy_match_percent": 83.12279,
+   "matched_code_percent": 80.22733173523781,
+   "complete_code_percent": 69.56519067300783,
+   "matched_data_percent": 91.22818241217946,
+   "complete_data_percent": 52.30318322252874
+  }
  }
 ]
