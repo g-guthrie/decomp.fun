@@ -481,5 +481,19 @@
    "matched_data_percent": 42.07449113563079,
    "complete_data_percent": 42.07449113563079
   }
+ },
+ {
+  "timestamp": "2026-10-30T11:49:00Z",
+  "commit_sha": "105b337e877ab2c69d86d376d7af7436a8e3ade4",
+  "commit_message": "fix: declare every level function and global once, before its first use (#264)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 42.07449113563079,
+   "complete_data_percent": 42.07449113563079
+  }
  }
 ]

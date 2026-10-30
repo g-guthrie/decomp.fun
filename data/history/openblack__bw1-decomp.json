@@ -651,5 +651,19 @@
    "matched_data_percent": 29.97138477300153,
    "complete_data_percent": 5.601099941160075
   }
+ },
+ {
+  "timestamp": "2026-10-30T11:44:22Z",
+  "commit_sha": "313ad3c92b4239e184faedbc75a47ab1567029e9",
+  "commit_message": "Worship: Match the unit in 1.10, 1.20, 1.30 and Creature Isle (#608)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 50.433754,
+   "matched_code_percent": 39.25722144762079,
+   "complete_code_percent": 17.24699873002422,
+   "matched_data_percent": 29.97138477300153,
+   "complete_data_percent": 5.663798013398083
+  }
  }
 ]
