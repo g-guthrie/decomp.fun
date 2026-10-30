@@ -198,5 +198,19 @@
    "matched_data_percent": 99.77905523970311,
    "complete_data_percent": 0.30111722016612136
   }
+ },
+ {
+  "timestamp": "2026-10-30T11:09:17Z",
+  "commit_sha": "aa2e97d421a12e5f32986df5c8f87f64cc6d11c4",
+  "commit_message": "Drop the same pending-tail pin from the USA MenuCard_RunListScreen",
+  "source": "report",
+  "version": "SLUS_006.62",
+  "measures": {
+   "fuzzy_match_percent": 100.000084,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.77905523970311,
+   "complete_data_percent": 0.30111722016612136
+  }
  }
 ]

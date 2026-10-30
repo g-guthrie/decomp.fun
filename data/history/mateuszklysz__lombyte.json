@@ -467,5 +467,19 @@
    "matched_data_percent": 43.5789502638544,
    "complete_data_percent": 43.5789502638544
   }
+ },
+ {
+  "timestamp": "2026-10-30T10:43:58Z",
+  "commit_sha": "49a837e3a2ec7ce8e6bab4dde65cadbc3a7d8f3f",
+  "commit_message": "chore: one declaration per name, game-concept folders and human-first formatting (#262)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 42.07449113563079,
+   "complete_data_percent": 42.07449113563079
+  }
  }
 ]
