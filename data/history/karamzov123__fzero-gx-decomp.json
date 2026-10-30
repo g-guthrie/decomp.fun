@@ -1201,6 +1201,20 @@
   }
  },
  {
+  "timestamp": "2026-10-30T01:21:34Z",
+  "commit_sha": "41713f65188a15d36c8da9d65841053d4774ba68",
+  "commit_message": "Unblock allocator capture on Linux and record what it measures",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 85.1868,
+   "matched_code_percent": 75.58225208747298,
+   "complete_code_percent": 74.28393990692683,
+   "matched_data_percent": 46.98335689404978,
+   "complete_data_percent": 46.98335689404978
+  }
+ },
+ {
   "timestamp": "2026-10-30T02:12:43Z",
   "commit_sha": "51aa56e6447deb092d2fd34ba74c29c000f8572d",
   "commit_message": "Record the set-up-order residual class measured on three near-matches",

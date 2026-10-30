@@ -363,5 +363,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-30T02:26:59Z",
+  "commit_sha": "7034de13623519f6c13a3f080a99cde7a0bb229d",
+  "commit_message": "Share regional aspect ratios and text constants",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

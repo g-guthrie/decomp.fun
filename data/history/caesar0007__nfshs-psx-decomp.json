@@ -346,5 +346,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-30T02:53:53Z",
+  "commit_sha": "64af5e6fb7053a724c947975bbb28a866489ac97",
+  "commit_message": "Restore AI and Cars source flow with verified SYM and SLD contracts",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
