@@ -215,5 +215,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-30T09:10:13Z",
+  "commit_sha": "5678f7f1d1a29db2e1057d8d1327c83832e14618",
+  "commit_message": "spliting some stage functions",
+  "source": "report",
+  "version": "AZWE",
+  "measures": {
+   "fuzzy_match_percent": 4.977733021971821,
+   "matched_code_percent": 4.977733021971821,
+   "complete_code_percent": 4.977733021971821,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
