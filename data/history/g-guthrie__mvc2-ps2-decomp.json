@@ -1600,5 +1600,19 @@
    "matched_data_percent": 99.98827276318389,
    "complete_data_percent": 99.98827276318389
   }
+ },
+ {
+  "timestamp": "2026-10-30T15:27:40Z",
+  "commit_sha": "cfcb8d8a63524a4d84f373348e5d79b28e370c3b",
+  "commit_message": "port: the game's own C now runs the button remap, memory-card screen, intro timeline and CPU pick",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 99.93284140369967,
+   "matched_code_percent": 99.93284140369967,
+   "complete_code_percent": 99.93284140369967,
+   "matched_data_percent": 99.98827276318389,
+   "complete_data_percent": 99.98827276318389
+  }
  }
 ]

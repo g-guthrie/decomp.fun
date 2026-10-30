@@ -579,5 +579,19 @@
    "matched_data_percent": 69.89711972195519,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-10-30T15:46:04Z",
+  "commit_sha": "b2a2ccf1136d7f092b8e706f0c31416bec709d87",
+  "commit_message": "Add hasm segment",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 93.516235,
+   "matched_code_percent": 93.5162349507479,
+   "complete_code_percent": 72.82078722283028,
+   "matched_data_percent": 70.02144494564816,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]

@@ -679,5 +679,19 @@
    "matched_data_percent": 29.971247240245663,
    "complete_data_percent": 5.663800898121056
   }
+ },
+ {
+  "timestamp": "2026-10-30T15:45:47Z",
+  "commit_sha": "b53c5a2e4fde269461dbd2b27192a27492e79b8a",
+  "commit_message": "LHStringOps: Split and match the unit",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 50.679005,
+   "matched_code_percent": 39.10455058399493,
+   "complete_code_percent": 17.265253178169857,
+   "matched_data_percent": 29.971247240245663,
+   "complete_data_percent": 5.663800898121056
+  }
  }
 ]
