@@ -665,5 +665,19 @@
    "matched_data_percent": 29.97138477300153,
    "complete_data_percent": 5.663798013398083
   }
+ },
+ {
+  "timestamp": "2026-10-30T13:27:30Z",
+  "commit_sha": "6463bef28f835d7d40cd93d060153ee26dca80fb",
+  "commit_message": "transform vector fix for 1.0 to work",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 50.659267,
+   "matched_code_percent": 39.085338874092685,
+   "complete_code_percent": 17.247034679961455,
+   "matched_data_percent": 29.971247240245663,
+   "complete_data_percent": 5.663800898121056
+  }
  }
 ]
