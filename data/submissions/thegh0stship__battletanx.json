@@ -1,0 +1,35 @@
+{
+ "repo": "TheGh0stShip/BattleTanx",
+ "by": "TheGh0stShip",
+ "submitted_at": "2026-10-30T19:51:19+00:00",
+ "status": "listed",
+ "reasons": [
+  "Accepted as a challenger: melalawi/battletanx-decomp currently holds BattleTanx. This repository takes the slot once it leads by 1% more code decompiled for 7 days (ahead on at least 90% of the checks in that time) (and has been listed for at least 30 days)."
+ ],
+ "repo_meta": {
+  "id": 1419202209,
+  "created_at": "2026-10-14T14:55:53Z",
+  "fork": false,
+  "parent": null
+ },
+ "source_proof": 1.0,
+ "game": {
+  "platform": "n64",
+  "key": "battletanx",
+  "title": "BattleTanx",
+  "by": "code",
+  "builds": [
+   "NBXE"
+  ]
+ },
+ "project": {
+  "id": "thegh0stship__battletanx",
+  "owner": "TheGh0stShip",
+  "repo": "BattleTanx",
+  "name": "BattleTanx",
+  "submitted": true,
+  "platform": "n64",
+  "version": "NBXE"
+ },
+ "listed_at": "2026-10-30T19:51:19+00:00"
+}

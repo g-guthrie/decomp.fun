@@ -1,0 +1,16 @@
+[
+ {
+  "timestamp": "2026-10-30T19:49:43Z",
+  "commit_sha": "093a4fd0734133e64a19a282ab6632e1200bfffb",
+  "commit_message": "Report progress by source translation unit",
+  "source": "report",
+  "version": "NBXE",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
+ }
+]
