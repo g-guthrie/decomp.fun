@@ -302,5 +302,19 @@
    "matched_data_percent": 70.0481346063661,
    "complete_data_percent": 36.80805234511559
   }
+ },
+ {
+  "timestamp": "2026-10-30T20:27:39Z",
+  "commit_sha": "8942654110cd4181894fe3d9e8443f73c6d6f996",
+  "commit_message": "Merge pull request #40 from mpetereit/recover-main-tya-uml",
+  "source": "report",
+  "version": "SLUS_204.69",
+  "measures": {
+   "fuzzy_match_percent": 78.76139,
+   "matched_code_percent": 78.7613878286887,
+   "complete_code_percent": 29.617177161050268,
+   "matched_data_percent": 70.0481346063661,
+   "complete_data_percent": 36.80805234511559
+  }
  }
 ]

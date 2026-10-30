@@ -735,5 +735,19 @@
    "matched_data_percent": 30.613492487627507,
    "complete_data_percent": 6.306058525925538
   }
+ },
+ {
+  "timestamp": "2026-10-30T20:33:57Z",
+  "commit_sha": "87758a0306d07c5ed2d7768001a35629b9fcd18b",
+  "commit_message": "LH3DVideo: Set to Matching",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 50.86137,
+   "matched_code_percent": 39.276313470527576,
+   "complete_code_percent": 17.3828639477208,
+   "matched_data_percent": 30.61472162878592,
+   "complete_data_percent": 6.3072721915536825
+  }
  }
 ]

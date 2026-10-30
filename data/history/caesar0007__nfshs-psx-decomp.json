@@ -360,5 +360,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-30T20:56:07Z",
+  "commit_sha": "1f9d99f2b170bb2f0891514154793ede3b0d4a88",
+  "commit_message": "docs: asm inventory refreshed 2026-10-31 (game 33 / frontend 27 / eaclib 4 empty pins; mod side trees excluded)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
