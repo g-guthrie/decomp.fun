@@ -451,5 +451,19 @@
    "matched_data_percent": 87.97081193701777,
    "complete_data_percent": 74.97262940485619
   }
+ },
+ {
+  "timestamp": "2026-10-30T08:03:40Z",
+  "commit_sha": "80a197decb01b9b7b8d269cbd9efcb80502ff316",
+  "commit_message": "Condense more uses of `MR` namespace",
+  "source": "report",
+  "version": "RMGK01",
+  "measures": {
+   "fuzzy_match_percent": 99.99983,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 68.78540320304313,
+   "matched_data_percent": 87.97081193701777,
+   "complete_data_percent": 74.97262940485619
+  }
  }
 ]
