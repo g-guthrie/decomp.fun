@@ -934,5 +934,19 @@
    "matched_data_percent": 10.476584267973518,
    "complete_data_percent": 2.249714556893627
   }
+ },
+ {
+  "timestamp": "2026-10-30T05:48:30Z",
+  "commit_sha": "41c12a8a8b8ad14a29ee56e785d49921f58226f7",
+  "commit_message": "`ImageEffectResource`",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.205797,
+   "matched_code_percent": 19.38940161996791,
+   "complete_code_percent": 2.005786966882854,
+   "matched_data_percent": 10.479403459147571,
+   "complete_data_percent": 2.249714556893627
+  }
  }
 ]

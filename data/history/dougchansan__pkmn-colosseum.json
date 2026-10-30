@@ -167,5 +167,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-10-30T05:38:49Z",
+  "commit_sha": "ad02df4900c623d16d02b9a8ddd9c53ea0cd3db2",
+  "commit_message": "Merge pull request #668: restore whole MusyX and HSD units",
+  "source": "report",
+  "version": "GC6E01",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

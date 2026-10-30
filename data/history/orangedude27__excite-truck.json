@@ -507,5 +507,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-30T06:21:24Z",
+  "commit_sha": "e6b8fca7a8a0c735e0c09a6770671a1733eab01b",
+  "commit_message": "Use an explicit address dereference in fn_802ABE58 for lbl_80558DC4.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 56.993126,
+   "matched_code_percent": 24.33201889952122,
+   "complete_code_percent": 2.5629492275351806,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
