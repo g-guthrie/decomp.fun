@@ -521,5 +521,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-30T07:13:31Z",
+  "commit_sha": "b43a4d82f61f3a72cae432357a671e747d9a566e",
+  "commit_message": "Scope invalid_target scheduling to fn_802E1BB4 to test target register and branch scheduling.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 57.109222,
+   "matched_code_percent": 24.3448703641292,
+   "complete_code_percent": 2.5629492275351806,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
