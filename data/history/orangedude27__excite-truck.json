@@ -479,5 +479,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-30T03:40:54Z",
+  "commit_sha": "669ba434dc394e8162e7f544ccc2d9f5250a87fd",
+  "commit_message": "Restore pragmas after fn_802DA550 so following allocator functions keep their own settings.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 56.752945,
+   "matched_code_percent": 24.28048190369532,
+   "complete_code_percent": 2.5629492275351806,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
