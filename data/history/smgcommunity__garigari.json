@@ -920,5 +920,19 @@
    "matched_data_percent": 10.475174672386492,
    "complete_data_percent": 2.2494796242957893
   }
+ },
+ {
+  "timestamp": "2026-10-30T01:48:17Z",
+  "commit_sha": "2735c5d57953b1045c974ac362897ba2071ca2d7",
+  "commit_message": "Another small pass at splits",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.18163,
+   "matched_code_percent": 19.37121765567228,
+   "complete_code_percent": 2.005786966882854,
+   "matched_data_percent": 10.476584267973518,
+   "complete_data_percent": 2.249714556893627
+  }
  }
 ]

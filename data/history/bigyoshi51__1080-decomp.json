@@ -1589,5 +1589,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-30T01:32:11Z",
+  "commit_sha": "31c74dd123fe227d1c861fd3e10bbf00bf05105c",
+  "commit_message": "report.json: agent-g run 242 (bootup B75C 94.38->99.97 via NCC NM donor) \u2014 91.08% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.710144,
+   "matched_code_percent": 91.08408205225035,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
