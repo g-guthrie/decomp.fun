@@ -721,5 +721,19 @@
    "matched_data_percent": 30.602506625384045,
    "complete_data_percent": 6.295569609857099
   }
+ },
+ {
+  "timestamp": "2026-10-30T19:37:48Z",
+  "commit_sha": "efda01903031cd17a669c4e3742b3d1ef7203409",
+  "commit_message": "splits: Close gaps and fix splits in Game Code",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 50.84587,
+   "matched_code_percent": 39.26086415197959,
+   "complete_code_percent": 17.367501756233136,
+   "matched_data_percent": 30.613492487627507,
+   "complete_data_percent": 6.306058525925538
+  }
  }
 ]

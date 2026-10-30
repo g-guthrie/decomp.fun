@@ -86,5 +86,19 @@
    "matched_data_percent": 76.23611398819554,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-30T19:48:46Z",
+  "commit_sha": "ac62cf62e28cfe205ca611ad56f86f91ff62b066",
+  "commit_message": "Fill out remaining uses of EntityId, misc",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 76.23611398819554,
+   "complete_data_percent": 0.0
+  }
  }
 ]

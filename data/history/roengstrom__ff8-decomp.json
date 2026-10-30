@@ -382,5 +382,19 @@
    "matched_data_percent": 72.66172708243347,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-30T20:15:44Z",
+  "commit_sha": "39e68275b7d2ae6400711cce7c1d787713dbf0ca",
+  "commit_message": "Merge pull request #199 from roengstrom/lzs-hasm",
+  "source": "report",
+  "version": "SLUS_008.92",
+  "measures": {
+   "fuzzy_match_percent": 69.42764,
+   "matched_code_percent": 69.427640278631,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 72.66172708243347,
+   "complete_data_percent": 0.0
+  }
  }
 ]

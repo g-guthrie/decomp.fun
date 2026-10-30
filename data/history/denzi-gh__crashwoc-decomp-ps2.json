@@ -814,5 +814,19 @@
    "matched_data_percent": 93.01016755897142,
    "complete_data_percent": 93.00999609929231
   }
+ },
+ {
+  "timestamp": "2026-10-30T20:00:52Z",
+  "commit_sha": "d5f9cc21bfdc4c35f1c1d3e32eb408a8f3b23913",
+  "commit_message": "cut structs update and fix (#194)",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 99.17202,
+   "matched_code_percent": 98.75228171294587,
+   "complete_code_percent": 80.57342596812094,
+   "matched_data_percent": 93.01016755897142,
+   "complete_data_percent": 93.00999609929231
+  }
  }
 ]

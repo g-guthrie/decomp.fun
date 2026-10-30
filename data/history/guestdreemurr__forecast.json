@@ -327,5 +327,19 @@
    "matched_data_percent": 89.35050453076737,
    "complete_data_percent": 89.35050453076737
   }
+ },
+ {
+  "timestamp": "2026-10-30T19:22:54Z",
+  "commit_sha": "5246b60dc27d97e2162345bcc7300acca482dae4",
+  "commit_message": "Improve fuzzy matches: VCMV, ARC, NETTime and ef_animcurve (#65)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 97.97044,
+   "matched_code_percent": 97.7437812380358,
+   "complete_code_percent": 95.81954445569116,
+   "matched_data_percent": 90.0545672946998,
+   "complete_data_percent": 90.0545672946998
+  }
  }
 ]
