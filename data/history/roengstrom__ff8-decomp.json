@@ -368,5 +368,19 @@
    "matched_data_percent": 72.66172708243347,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-30T17:13:48Z",
+  "commit_sha": "eee74859f9457958f0a1068ddf5aa279d3d66748",
+  "commit_message": "Merge pull request #198 from roengstrom/ci-pin-ubuntu-24.04",
+  "source": "report",
+  "version": "SLUS_008.92",
+  "measures": {
+   "fuzzy_match_percent": 69.37558,
+   "matched_code_percent": 69.37557917972532,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 72.66172708243347,
+   "complete_data_percent": 0.0
+  }
  }
 ]

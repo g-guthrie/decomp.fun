@@ -288,5 +288,19 @@
    "matched_data_percent": 70.0481346063661,
    "complete_data_percent": 36.80805234511559
   }
+ },
+ {
+  "timestamp": "2026-10-30T17:14:55Z",
+  "commit_sha": "cff522542df21c436700273db8f1d6000c0583b5",
+  "commit_message": "Merge pull request #41 from mpetereit/recover-small-batch",
+  "source": "report",
+  "version": "SLUS_204.69",
+  "measures": {
+   "fuzzy_match_percent": 78.73204,
+   "matched_code_percent": 78.73204319223613,
+   "complete_code_percent": 29.617177161050268,
+   "matched_data_percent": 70.0481346063661,
+   "complete_data_percent": 36.80805234511559
+  }
  }
 ]

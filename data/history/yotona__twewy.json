@@ -228,5 +228,19 @@
    "matched_data_percent": 29.49710137211116,
    "complete_data_percent": 7.9601865394673785
   }
+ },
+ {
+  "timestamp": "2026-10-30T16:52:23Z",
+  "commit_sha": "3f916f1a2d31f29bd7ec6fd89f3a87b696e79b9b",
+  "commit_message": "Project is now shiftable (#33)",
+  "source": "report",
+  "version": "usa",
+  "measures": {
+   "fuzzy_match_percent": 54.356678,
+   "matched_code_percent": 42.77503410371483,
+   "complete_code_percent": 22.64810897372531,
+   "matched_data_percent": 29.49710137211116,
+   "complete_data_percent": 7.9601865394673785
+  }
  }
 ]

@@ -219,5 +219,19 @@
    "matched_data_percent": 32.92457776530123,
    "complete_data_percent": 7.002167058044181
   }
+ },
+ {
+  "timestamp": "2026-10-30T16:54:53Z",
+  "commit_sha": "9d8459930d183084017752d4b025a2e623366738",
+  "commit_message": "Decompiling MapObjectUnkSWCR (#173)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 14.987648,
+   "matched_code_percent": 10.964354490556397,
+   "complete_code_percent": 5.684560413904535,
+   "matched_data_percent": 32.92933073702253,
+   "complete_data_percent": 7.002167058044181
+  }
  }
 ]
