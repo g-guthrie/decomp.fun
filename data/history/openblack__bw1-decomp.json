@@ -707,5 +707,19 @@
    "matched_data_percent": 29.971247240245663,
    "complete_data_percent": 5.663800898121056
   }
+ },
+ {
+  "timestamp": "2026-10-30T18:20:03Z",
+  "commit_sha": "5c548b5b41486e81d82980b1a3863b165ca26ccf",
+  "commit_message": "LH3DMenu: Set to matching",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 50.844887,
+   "matched_code_percent": 39.25988686967765,
+   "complete_code_percent": 17.366541069483105,
+   "matched_data_percent": 30.602506625384045,
+   "complete_data_percent": 6.295569609857099
+  }
  }
 ]
