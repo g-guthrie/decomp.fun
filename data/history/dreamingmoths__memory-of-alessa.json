@@ -571,5 +571,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T16:30:13Z",
+  "commit_sha": "e6616f228e6f79aa0dc69956e9b019e2f22262e2",
+  "commit_message": "sh2: Match `Multi_thr/filesys/sh_chk_syscnf` (#439)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
