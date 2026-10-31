@@ -976,5 +976,19 @@
    "matched_data_percent": 10.493499415017832,
    "complete_data_percent": 2.249714556893627
   }
+ },
+ {
+  "timestamp": "2026-10-31T23:09:37Z",
+  "commit_sha": "cd8dae395379e6e2dba44e9634b51ae80b21a3cc",
+  "commit_message": "Start `MiniStarWorldPoint`",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.276407,
+   "matched_code_percent": 19.419772030510778,
+   "complete_code_percent": 2.005786966882854,
+   "matched_data_percent": 10.874090223514873,
+   "complete_data_percent": 2.249714556893627
+  }
  }
 ]

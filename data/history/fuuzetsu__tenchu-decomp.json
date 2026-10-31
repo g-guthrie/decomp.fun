@@ -37,5 +37,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-31T22:14:31Z",
+  "commit_sha": "78c1d9725eb5bd7da87b974ab87a3395f36619d8",
+  "commit_message": "Complete TRIAL humanisation with shared image mapping",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 58.699561,
+   "matched_code_percent": 58.69953015031291,
+   "complete_code_percent": 58.69871782374463,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
