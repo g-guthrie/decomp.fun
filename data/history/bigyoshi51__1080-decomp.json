@@ -1785,5 +1785,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T12:17:02Z",
+  "commit_sha": "a36c9e15c9f5420aa8def66dec7bb9edcf069090",
+  "commit_message": "report.json: agent-g run 258 (stalled; landed 3B6A0 / 3B9C0 / 48510 / 37540 small NM gains) \u2014 91.76% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.77306,
+   "matched_code_percent": 91.76015818817889,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
