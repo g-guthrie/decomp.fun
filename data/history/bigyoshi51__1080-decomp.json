@@ -1631,5 +1631,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T01:31:24Z",
+  "commit_sha": "63fc768c2fc77c2efe4a2d51e553a86271dba733",
+  "commit_message": "report.json: agent-c run 244 (mgrproc 2B7C EXACT, 696 B \u2014 NCC donor; uninitialised-local exception cited) \u2014 91.18% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.71276,
+   "matched_code_percent": 91.17534446315149,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
