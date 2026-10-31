@@ -1771,5 +1771,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T10:43:52Z",
+  "commit_sha": "1fec77ab102fed648cb959af16a539e60c343d25",
+  "commit_message": "report.json: agent-c run 254 (post0b 46050 99.77->99.91; run stalled, landed its two commits) \u2014 91.76% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.77241,
+   "matched_code_percent": 91.76015818817889,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
