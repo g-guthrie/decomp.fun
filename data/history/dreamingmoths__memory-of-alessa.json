@@ -529,5 +529,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T05:24:45Z",
+  "commit_sha": "26e2309f59973c1761383b460d004a240ac6e65d",
+  "commit_message": "sh2: run the formatter on `symbol_addrs.txt`",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
