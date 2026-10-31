@@ -23,5 +23,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-31T00:46:10Z",
+  "commit_sha": "6421c970e3eaf24b19462e785ebcbfcd5bc070a7",
+  "commit_message": "Complete readable byte-exact TRIAL game and editor recovery",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 58.699561,
+   "matched_code_percent": 58.69953015031291,
+   "complete_code_percent": 58.69871782374463,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

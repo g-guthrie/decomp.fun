@@ -805,5 +805,19 @@
    "matched_data_percent": 31.531153092644225,
    "complete_data_percent": 7.455447286855069
   }
+ },
+ {
+  "timestamp": "2026-10-31T01:35:13Z",
+  "commit_sha": "8c4ddc5e6d906715b4de7046c64afef7ff7d12f0",
+  "commit_message": "Creche: Link the unit in every version",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 51.219994,
+   "matched_code_percent": 39.57379723389474,
+   "complete_code_percent": 17.51342365694261,
+   "matched_data_percent": 31.533546927958035,
+   "complete_data_percent": 7.487993260589601
+  }
  }
 ]

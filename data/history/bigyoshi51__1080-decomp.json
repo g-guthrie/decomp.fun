@@ -1645,5 +1645,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T02:11:36Z",
+  "commit_sha": "edc6cda381659c1607221662b3ebb17d71962baf",
+  "commit_message": "report.json: agent-g run 245 (inline store-order swaps: 3558, 4F2DC, 48AEC; NCC checks negative) \u2014 91.18% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.71343,
+   "matched_code_percent": 91.17534446315149,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

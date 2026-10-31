@@ -549,5 +549,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-10-31T02:03:13Z",
+  "commit_sha": "a092a066c7c36f0c1ec251f69f183cd54be0846d",
+  "commit_message": "Rewrite fn_8005F248 to match target's buf offsets, double copy order, and queue index wrap logic",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 58.53129,
+   "matched_code_percent": 24.82103024159442,
+   "complete_code_percent": 2.5629492275351806,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
