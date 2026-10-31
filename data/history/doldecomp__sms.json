@@ -966,5 +966,19 @@
    "matched_data_percent": 91.50189511362092,
    "complete_data_percent": 22.544590219745725
   }
+ },
+ {
+  "timestamp": "2026-10-31T15:17:28Z",
+  "commit_sha": "ef377577be9cb5276330df76dda3f28327cfe7c6",
+  "commit_message": "Add an inline from TWW/TP to J2DPicture",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 96.63093,
+   "matched_code_percent": 51.781014838633475,
+   "complete_code_percent": 18.573472293715362,
+   "matched_data_percent": 91.50189511362092,
+   "complete_data_percent": 22.544590219745725
+  }
  }
 ]

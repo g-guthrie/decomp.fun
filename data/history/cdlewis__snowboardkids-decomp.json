@@ -391,5 +391,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T14:11:45Z",
+  "commit_sha": "4422af6802b8120b9df5969943689fc694cecc57",
+  "commit_message": "Pin CI builds to Ubuntu 24.04 for MIPS binutils",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]
