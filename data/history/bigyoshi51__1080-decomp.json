@@ -1743,5 +1743,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T08:50:17Z",
+  "commit_sha": "8f533f64a67dbe8126d015b8c8cff26c4c0ddf6e",
+  "commit_message": "report.json: agent-c run 252 (post0b 46050 92.43->99.36 via no-code accessor schedule lever; 34890 99.57, gui 329C 99.37, 3714 97.94, 48AEC) \u2014 91.59% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.76546,
+   "matched_code_percent": 91.58917229189285,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
