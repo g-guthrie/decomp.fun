@@ -1687,5 +1687,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T05:03:43Z",
+  "commit_sha": "624586c1a7cd104b2f2ea70aa04c13d706590a65",
+  "commit_message": "report.json: agent-c run 250 (post0b 3C43C EXACT via int-zero clear) \u2014 91.59% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.72098,
+   "matched_code_percent": 91.58917229189285,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
