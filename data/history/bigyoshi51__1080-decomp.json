@@ -1673,5 +1673,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T04:08:47Z",
+  "commit_sha": "88f400b540074721272bdeb62104f0c1353d7a2e",
+  "commit_message": "report.json: agent-g run 248 (frame scan; post0b 3B6A0 / 3B9C0 frame homes via function-scope locals) \u2014 91.47% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.71884,
+   "matched_code_percent": 91.47483202995926,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
