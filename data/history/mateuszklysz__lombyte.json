@@ -537,5 +537,19 @@
    "matched_data_percent": 62.80740252925755,
    "complete_data_percent": 62.80740252925755
   }
+ },
+ {
+  "timestamp": "2026-10-31T05:55:32Z",
+  "commit_sha": "4dab9395dfd9f3319c649325f46ae0a55fba3789",
+  "commit_message": "decomp: clarify function, variable and state names (batch 35) (#268)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 62.80740252925755,
+   "complete_data_percent": 62.80740252925755
+  }
  }
 ]

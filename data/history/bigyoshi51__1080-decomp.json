@@ -1701,5 +1701,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T06:15:22Z",
+  "commit_sha": "f3355f7e16dd5a2ae13edb853651975c3f12e3c4",
+  "commit_message": "report.json: agent-g run 251 (post 2E354 97.93; variable sweep + function-typed base lever, NM only) \u2014 91.59% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.739265,
+   "matched_code_percent": 91.58917229189285,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -340,5 +340,19 @@
    "matched_data_percent": 16.031613501093613,
    "complete_data_percent": 16.031613501093613
   }
+ },
+ {
+  "timestamp": "2026-10-31T06:00:45Z",
+  "commit_sha": "4eabb375c6e2de6793f8f2574e0601d7f7472948",
+  "commit_message": "Mark renamed local symbols as scope:local in symbols.txt (#155)",
+  "source": "report",
+  "version": "RSBE01_02",
+  "measures": {
+   "fuzzy_match_percent": 1.8026938,
+   "matched_code_percent": 1.7067052817220751,
+   "complete_code_percent": 1.4718621499110622,
+   "matched_data_percent": 16.031613501093613,
+   "complete_data_percent": 16.031613501093613
+  }
  }
 ]
