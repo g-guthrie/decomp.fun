@@ -1628,5 +1628,19 @@
    "matched_data_percent": 99.98827276318389,
    "complete_data_percent": 99.98827276318389
   }
+ },
+ {
+  "timestamp": "2026-10-31T09:39:24Z",
+  "commit_sha": "adf0988cdf86536ba484ae5fefc630460614b867",
+  "commit_message": "port docs: final integration result (13/13 browser runs, Thanos crash fixed)",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 99.93284140369967,
+   "matched_code_percent": 99.93284140369967,
+   "complete_code_percent": 99.93284140369967,
+   "matched_data_percent": 99.98827276318389,
+   "complete_data_percent": 99.98827276318389
+  }
  }
 ]

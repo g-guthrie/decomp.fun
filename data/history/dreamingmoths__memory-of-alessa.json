@@ -543,5 +543,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T09:44:09Z",
+  "commit_sha": "c664d7943740cca363aa05fb87b0036c04f5e7c7",
+  "commit_message": "sh2: match 4 `Event/stage/stg_tgs_trial` funcs (#436)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

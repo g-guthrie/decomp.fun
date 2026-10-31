@@ -1757,5 +1757,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T09:56:26Z",
+  "commit_sha": "ed80dceea6ed8406a30d3fdbe40f380e2fe68f12",
+  "commit_message": "report.json: agent-g run 256 (post0b 4D688 EXACT \u2014 donor rebuilds the original file context so the dead-epilogue .align pad vanishes; clip 0x2eaf0) \u2014 91.71% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.76952,
+   "matched_code_percent": 91.71400248611396,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
