@@ -976,5 +976,19 @@
    "matched_data_percent": 22.030074301502456,
    "complete_data_percent": 22.030074301502456
   }
+ },
+ {
+  "timestamp": "2026-10-31T01:05:59Z",
+  "commit_sha": "f4e9a2a99fbf4a59e264b0b1124139e169f952bb",
+  "commit_message": "flowmanager is so close it hurts",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.297054,
+   "matched_code_percent": 52.84924768850387,
+   "complete_code_percent": 29.062572195851676,
+   "matched_data_percent": 22.059833931507317,
+   "complete_data_percent": 22.059833931507317
+  }
  }
 ]

@@ -1617,5 +1617,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T00:45:59Z",
+  "commit_sha": "dc2bd2af5ec11b0aa8ced15d5034b56c6141cca4",
+  "commit_message": "report.json: agent-c run 243 (NCC-port sweep: mgrproc 2B7C 98.24->99.88 as C++; 5A2C4 95.16) \u2014 91.08% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.71265,
+   "matched_code_percent": 91.08408205225035,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
