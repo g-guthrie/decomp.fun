@@ -1,0 +1,16 @@
+[
+ {
+  "timestamp": "2026-10-30T19:49:43Z",
+  "commit_sha": "a743d7bdf068e68d1c00136456448a5172987071",
+  "commit_message": "Publish repository-backed report unit paths",
+  "source": "report",
+  "version": "NBQE",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
+ }
+]

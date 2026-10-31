@@ -1,0 +1,33 @@
+{
+ "repo": "TheGh0stShip/BattleTanx-Global-Assault",
+ "by": "TheGh0stShip",
+ "submitted_at": "2026-10-31T18:12:31+00:00",
+ "status": "listed",
+ "reasons": [],
+ "repo_meta": {
+  "id": 1409315722,
+  "created_at": "2026-10-07T20:00:35Z",
+  "fork": false,
+  "parent": null
+ },
+ "source_proof": 1.0,
+ "game": {
+  "platform": "n64",
+  "key": "battletanx-global-assault",
+  "title": "BattleTanx - Global Assault",
+  "by": "code",
+  "builds": [
+   "NBQE"
+  ]
+ },
+ "project": {
+  "id": "thegh0stship__battletanx-global-assault",
+  "owner": "TheGh0stShip",
+  "repo": "BattleTanx-Global-Assault",
+  "name": "BattleTanx - Global Assault",
+  "submitted": true,
+  "platform": "n64",
+  "version": "NBQE"
+ },
+ "listed_at": "2026-10-31T18:12:31+00:00"
+}
