@@ -388,5 +388,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-31T21:17:35Z",
+  "commit_sha": "34e9c55efc4cc13b309125c56e22f308b041ad7c",
+  "commit_message": "Strict BYTE+SYM+SLD round and absolute-line anchors across game and frontend",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
