@@ -1729,5 +1729,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T07:56:13Z",
+  "commit_sha": "3972d9c41284d03f0143de1366f33b3a6fec26bc",
+  "commit_message": "report.json: agent-g run 253 (bootup E68 96.83->97.80: dead loop-counter copies reproduced in cfe) \u2014 91.59% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.74381,
+   "matched_code_percent": 91.58917229189285,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
