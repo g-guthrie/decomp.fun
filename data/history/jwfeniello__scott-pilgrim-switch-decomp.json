@@ -26,5 +26,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-31T21:20:49Z",
+  "commit_sha": "04d2676b60ce619f7e7b27dfb7224bfd5de4fb39",
+  "commit_message": "Match listener registration and 156 component factories (26.79%)",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 26.790669126353993,
+   "matched_code_percent": 26.790669126353993,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
