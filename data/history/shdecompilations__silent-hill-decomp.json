@@ -1221,5 +1221,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T17:35:57Z",
+  "commit_sha": "44f5fe081abaee5da553e5ae52b34abf6323f3e5",
+  "commit_message": "bodyprog: fix Demo_Update EUR mismatch",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99995,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]
