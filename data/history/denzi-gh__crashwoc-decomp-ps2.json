@@ -842,5 +842,19 @@
    "matched_data_percent": 93.01016755897142,
    "complete_data_percent": 93.00999609929231
   }
+ },
+ {
+  "timestamp": "2026-10-31T15:15:32Z",
+  "commit_sha": "15dead37cd05d3ca5b0bc91bad54ff8b860d9d59",
+  "commit_message": "Merge pull request #196 from denzi-gh:cleanup/slop-names",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 99.20162,
+   "matched_code_percent": 99.20162323032,
+   "complete_code_percent": 80.57342596812094,
+   "matched_data_percent": 93.01016755897142,
+   "complete_data_percent": 93.00999609929231
+  }
  }
 ]

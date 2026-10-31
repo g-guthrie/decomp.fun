@@ -557,5 +557,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T15:53:42Z",
+  "commit_sha": "a8906bca757b54d94477424c579688c4b45d0e3e",
+  "commit_message": "sh2: Match `Multi_thr/intc/th_vbs` (#438)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -649,5 +649,19 @@
    "matched_data_percent": 70.06211639429121,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-10-31T16:10:24Z",
+  "commit_sha": "599170af4da2caac34b0c8d0f5975f69fe64b459",
+  "commit_message": "Decomp func_800DAED0",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 95.05955,
+   "matched_code_percent": 95.0595484210953,
+   "complete_code_percent": 72.82078722283028,
+   "matched_data_percent": 70.06211639429121,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]
