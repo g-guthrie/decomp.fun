@@ -374,5 +374,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-31T14:05:00Z",
+  "commit_sha": "95d3c71c55d4f85cc55309035b98c15592730f1e",
+  "commit_message": "Strict SYM+SLD round: retail statement order/layout across game, frontend and libs",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

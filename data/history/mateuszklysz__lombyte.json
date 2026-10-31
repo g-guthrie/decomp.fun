@@ -551,5 +551,19 @@
    "matched_data_percent": 62.80740252925755,
    "complete_data_percent": 62.80740252925755
   }
+ },
+ {
+  "timestamp": "2026-10-31T12:32:20Z",
+  "commit_sha": "d29807486aeb11039de60a7c871553ce38318730",
+  "commit_message": "decomp: name moby updates <name>_update and their classes (#269)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 62.80740252925755,
+   "complete_data_percent": 62.80740252925755
+  }
  }
 ]
