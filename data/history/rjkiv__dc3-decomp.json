@@ -1018,5 +1018,19 @@
    "matched_data_percent": 22.15960187144165,
    "complete_data_percent": 22.15960187144165
   }
+ },
+ {
+  "timestamp": "2026-10-31T06:13:06Z",
+  "commit_sha": "648418aa438568e2bbd93bb7c9738b8aef664f5d",
+  "commit_message": "a lil more lightpreset",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.30705,
+   "matched_code_percent": 52.865108246671,
+   "complete_code_percent": 29.116150734288134,
+   "matched_data_percent": 22.15960187144165,
+   "complete_data_percent": 22.15960187144165
+  }
  }
 ]
