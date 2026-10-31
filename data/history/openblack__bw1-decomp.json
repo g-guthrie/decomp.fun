@@ -777,5 +777,19 @@
    "matched_data_percent": 30.826805251056026,
    "complete_data_percent": 6.3072721915536825
   }
+ },
+ {
+  "timestamp": "2026-10-31T00:17:16Z",
+  "commit_sha": "b6325e3aa94a15e8f9f847c28df24f98e1496f98",
+  "commit_message": "LH3DZSorter: Carve and set to Matching",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 51.130264,
+   "matched_code_percent": 39.515365048165776,
+   "complete_code_percent": 17.4248073529827,
+   "matched_data_percent": 31.531051227311725,
+   "complete_data_percent": 7.012027494471895
+  }
  }
 ]

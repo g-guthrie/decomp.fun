@@ -341,5 +341,19 @@
    "matched_data_percent": 90.0545672946998,
    "complete_data_percent": 90.0545672946998
   }
+ },
+ {
+  "timestamp": "2026-10-31T00:16:36Z",
+  "commit_sha": "90264c48a52a50fcbe0946335e0c4479fafe3519",
+  "commit_message": "Match ef_animcurve.cpp (#67)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 98.053215,
+   "matched_code_percent": 98.05321151919779,
+   "complete_code_percent": 98.03852669229519,
+   "matched_data_percent": 90.06533323479483,
+   "complete_data_percent": 90.06533323479483
+  }
  }
 ]

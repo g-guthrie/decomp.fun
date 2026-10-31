@@ -1603,5 +1603,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-31T00:14:41Z",
+  "commit_sha": "abc6f4586a17ca820bbb03100e88600303688f72",
+  "commit_message": "report.json: agent-g run 243 (bootup B75C 99.98) \u2014 91.08% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.71056,
+   "matched_code_percent": 91.08408205225035,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

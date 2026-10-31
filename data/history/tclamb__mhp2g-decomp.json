@@ -150,5 +150,19 @@
    "matched_data_percent": 83.6721472319497,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-10-30T23:44:31Z",
+  "commit_sha": "5b98acfd014090b07c81e6b17f376a5eba986083",
+  "commit_message": "Match player_manager.cpp",
+  "source": "report",
+  "version": "ULJM_05500",
+  "measures": {
+   "fuzzy_match_percent": 3.5476465,
+   "matched_code_percent": 3.5476466130521453,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 83.67261041802139,
+   "complete_data_percent": 0.0
+  }
  }
 ]
