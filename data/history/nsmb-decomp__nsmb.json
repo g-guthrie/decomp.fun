@@ -197,5 +197,19 @@
    "matched_data_percent": 0.5732139920595767,
    "complete_data_percent": 0.009396950689501258
   }
+ },
+ {
+  "timestamp": "2026-10-31T18:39:48Z",
+  "commit_sha": "08bed3049d3a6aa0e7e79eded86cad650171d918",
+  "commit_message": "main delink.",
+  "source": "report",
+  "version": "A2DE",
+  "measures": {
+   "fuzzy_match_percent": 4.9045,
+   "matched_code_percent": 3.4681646846298095,
+   "complete_code_percent": 0.02378027030240577,
+   "matched_data_percent": 0.5788521624732774,
+   "complete_data_percent": 0.01503512110320201
+  }
  }
 ]

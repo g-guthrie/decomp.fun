@@ -980,5 +980,19 @@
    "matched_data_percent": 91.50189511362092,
    "complete_data_percent": 22.544590219745725
   }
+ },
+ {
+  "timestamp": "2026-10-31T19:04:37Z",
+  "commit_sha": "3e70d1ba1f1aa82f3176786816f1c2abceee3069",
+  "commit_message": "TSpineEnemy goal stuff a lot better",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 96.64355,
+   "matched_code_percent": 51.84162616626667,
+   "complete_code_percent": 18.573472293715362,
+   "matched_data_percent": 91.50189511362092,
+   "complete_data_percent": 22.544590219745725
+  }
  }
 ]
