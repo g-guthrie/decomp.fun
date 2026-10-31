@@ -12,5 +12,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-31T20:11:50Z",
+  "commit_sha": "75dbdd32b0d92aa02f442f027433ed1e9bf85e40",
+  "commit_message": "Match 21 ControllablePlayer stat and state methods (26.59%)",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 26.586847178182097,
+   "matched_code_percent": 26.5868471781821,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
