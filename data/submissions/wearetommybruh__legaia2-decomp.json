@@ -1,18 +1,16 @@
 {
  "repo": "WeAreTommyBruh/Legaia2-Decomp",
  "by": "ooflegends",
- "submitted_at": "2026-10-31T21:41:57+00:00",
- "status": "rejected",
- "reasons": [
-  "Only 33% of the files the report counts as decompiled exist in the repository; at least half must."
- ],
+ "submitted_at": "2026-10-31T21:56:26+00:00",
+ "status": "listed",
+ "reasons": [],
  "repo_meta": {
   "id": 1419009138,
   "created_at": "2026-10-14T13:35:50Z",
   "fork": false,
   "parent": null
  },
- "source_proof": 0.3333333333333333,
+ "source_proof": 0.6666666666666666,
  "game": {
   "platform": "ps2",
   "key": "legaia-2-duel-saga",
@@ -30,5 +28,6 @@
   "submitted": true,
   "platform": "ps2",
   "version": "SLES_508.91"
- }
+ },
+ "listed_at": "2026-10-31T21:56:26+00:00"
 }

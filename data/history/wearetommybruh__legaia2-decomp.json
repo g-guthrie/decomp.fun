@@ -1,0 +1,16 @@
+[
+ {
+  "timestamp": "2026-10-31T21:55:36Z",
+  "commit_sha": "003bdf17e171179307967fc78c64650fb6414617",
+  "commit_message": "Give every report unit its own source file (src/units/); 135 of 135 units with code now point to a distinct existing file",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 12.844854,
+   "matched_code_percent": 12.566405987318088,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.007692064052269837,
+   "complete_data_percent": 0.0
+  }
+ }
+]
