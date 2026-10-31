@@ -819,5 +819,19 @@
    "matched_data_percent": 31.533546927958035,
    "complete_data_percent": 7.487993260589601
   }
+ },
+ {
+  "timestamp": "2026-10-31T02:31:49Z",
+  "commit_sha": "08ff6089450f8d32d7d73e4bf5934bf8b73ecc91",
+  "commit_message": "SRTextured: Set to Matching",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 51.32679,
+   "matched_code_percent": 39.680470737612104,
+   "complete_code_percent": 17.619875588066687,
+   "matched_data_percent": 31.533546927958035,
+   "complete_data_percent": 7.487993260589601
+  }
  }
 ]
