@@ -1,0 +1,31 @@
+{
+ "repo": "jwfeniello/scott-pilgrim-switch-decomp",
+ "by": "jwfeniello",
+ "submitted_at": "2026-10-31T19:42:54+00:00",
+ "status": "listed",
+ "reasons": [],
+ "repo_meta": {
+  "id": 1416379026,
+  "created_at": "2026-10-13T02:59:50Z",
+  "fork": false,
+  "parent": null
+ },
+ "source_proof": 1.0,
+ "game": {
+  "platform": "switch",
+  "key": "scott-pilgrim-vs-the-world-the-game-complete-edition",
+  "title": "Scott Pilgrim vs. The World: The Game \u2013 Complete Edition",
+  "by": "name",
+  "builds": []
+ },
+ "project": {
+  "id": "jwfeniello__scott-pilgrim-switch-decomp",
+  "owner": "jwfeniello",
+  "repo": "scott-pilgrim-switch-decomp",
+  "name": "Scott Pilgrim vs. The World: The Game \u2013 Complete Edition",
+  "submitted": true,
+  "platform": "switch",
+  "version": "switch"
+ },
+ "listed_at": "2026-10-31T19:42:54+00:00"
+}
