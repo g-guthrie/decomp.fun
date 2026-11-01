@@ -152,5 +152,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T08:15:18Z",
+  "commit_sha": "a798a9aa83b83ff017e799ca7c7b29903f09d422",
+  "commit_message": "Callback factories: a listener's constructor zeroes all three fields",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 28.614918254103397,
+   "matched_code_percent": 28.614918254103394,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
