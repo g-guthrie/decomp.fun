@@ -1130,5 +1130,19 @@
    "matched_data_percent": 22.15960187144165,
    "complete_data_percent": 22.15960187144165
   }
+ },
+ {
+  "timestamp": "2026-11-01T20:40:41Z",
+  "commit_sha": "22b6e1c9e8e36606aba70ca5ec79f0c9c6b45bd3",
+  "commit_message": "minor spotlightdrawer cleanup",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.362667,
+   "matched_code_percent": 52.96718601256064,
+   "complete_code_percent": 29.116150734288134,
+   "matched_data_percent": 22.15960187144165,
+   "complete_data_percent": 22.15960187144165
+  }
  }
 ]

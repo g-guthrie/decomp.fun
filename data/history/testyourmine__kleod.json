@@ -114,5 +114,19 @@
    "matched_data_percent": 76.30165998324249,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-01T20:37:59Z",
+  "commit_sha": "38d11c153e0b5fabed4a822e35daf7d6bc47b9be",
+  "commit_message": "Some code_0804B254 doc/cleanup",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 76.30165998324249,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -368,5 +368,19 @@
    "matched_data_percent": 16.034718953067443,
    "complete_data_percent": 16.034718953067443
   }
+ },
+ {
+  "timestamp": "2026-11-01T21:06:03Z",
+  "commit_sha": "f884182294ef016079d1fe3af0e7f9e1b0f7f597",
+  "commit_message": "Match soTeamModuleBuilder (#164)",
+  "source": "report",
+  "version": "RSBE01_02",
+  "measures": {
+   "fuzzy_match_percent": 1.8080642,
+   "matched_code_percent": 1.7112778513066054,
+   "complete_code_percent": 1.474438957080245,
+   "matched_data_percent": 16.034718953067443,
+   "complete_data_percent": 16.034718953067443
+  }
  }
 ]
