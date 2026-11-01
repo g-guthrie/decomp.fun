@@ -990,5 +990,19 @@
    "matched_data_percent": 10.874090223514873,
    "complete_data_percent": 2.249714556893627
   }
+ },
+ {
+  "timestamp": "2026-11-01T01:28:31Z",
+  "commit_sha": "09e6c3b0ed379a2dfb7709583896462a372ee884",
+  "commit_message": "link SpringValue",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.276918,
+   "matched_code_percent": 19.420282457578725,
+   "complete_code_percent": 2.008466708989578,
+   "matched_data_percent": 10.874090223514873,
+   "complete_data_percent": 2.250654287284978
+  }
  }
 ]

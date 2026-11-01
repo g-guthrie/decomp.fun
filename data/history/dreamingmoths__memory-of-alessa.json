@@ -613,5 +613,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-01T02:19:05Z",
+  "commit_sha": "771c9fc2d8169d503535bb9bff18dec35befc4dc",
+  "commit_message": "sh2: match `Effect2/hh_class_flame_03` \ud83d\udd25 (#446)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
