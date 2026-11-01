@@ -110,5 +110,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T04:50:44Z",
+  "commit_sha": "3e4fa7bd9da5f72ff8d8871f358195187f6a1b95",
+  "commit_message": "Match draw list pushes, HUD effects, flash screens and more destructors",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 27.60890873899715,
+   "matched_code_percent": 27.60890873899715,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
