@@ -250,5 +250,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T16:31:44Z",
+  "commit_sha": "82af3e1d79e55e603d4030f012e6739c1acd2479",
+  "commit_message": "More functions from the decompiler's text with cleanup pads",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 30.761598822784926,
+   "matched_code_percent": 30.76159882278493,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
