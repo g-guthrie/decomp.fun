@@ -565,5 +565,19 @@
    "matched_data_percent": 62.80740252925755,
    "complete_data_percent": 62.80740252925755
   }
+ },
+ {
+  "timestamp": "2026-11-01T07:05:38Z",
+  "commit_sha": "e4e4e92cc78c019b6d7f798b82a0a697121506fd",
+  "commit_message": "chore: help record types and one prototype header per folder (#272)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 62.80740252925755,
+   "complete_data_percent": 62.80740252925755
+  }
  }
 ]

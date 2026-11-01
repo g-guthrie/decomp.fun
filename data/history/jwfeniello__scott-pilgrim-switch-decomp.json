@@ -138,5 +138,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T07:06:08Z",
+  "commit_sha": "0c49496bc76c23abb2e2f250521490aafe630163",
+  "commit_message": "More library destructors: secondary bases, reset pointers",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 28.48530652332694,
+   "matched_code_percent": 28.48530652332694,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
