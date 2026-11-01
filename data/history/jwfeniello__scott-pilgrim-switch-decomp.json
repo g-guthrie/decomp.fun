@@ -264,5 +264,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T17:06:01Z",
+  "commit_sha": "8951cd919bae7e1100caf3b80b2e228e3d6ba54e",
+  "commit_message": "BaseCharacter: facing, turning, starting an attack",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 30.800143248651068,
+   "matched_code_percent": 30.800143248651068,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

@@ -416,5 +416,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T16:34:51Z",
+  "commit_sha": "78b0d8a1e032bdd87d902b4a79bd0492934557f0",
+  "commit_message": "Restore retail SYM/SLD source shapes and compiler-input provenance",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
