@@ -369,5 +369,19 @@
    "matched_data_percent": 90.06992220203645,
    "complete_data_percent": 90.06992220203645
   }
+ },
+ {
+  "timestamp": "2026-11-01T00:20:14Z",
+  "commit_sha": "77671d5b85d3d0ed8d0e2628e69292584475bc45",
+  "commit_message": "GlobeDotsTable: link the globe dot tables (100%) (#73)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 98.46229,
+   "matched_code_percent": 98.43947491254661,
+   "complete_code_percent": 98.39725603520164,
+   "matched_data_percent": 94.58491758578127,
+   "complete_data_percent": 94.58491758578127
+  }
  }
 ]

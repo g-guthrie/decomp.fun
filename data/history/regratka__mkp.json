@@ -108,5 +108,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-10-31T23:35:47Z",
+  "commit_sha": "1b2f7e933b0187351e23c1de7eea7ca5921a7c69",
+  "commit_message": "matched CRay (#43)",
+  "source": "report",
+  "version": "MKPVE01",
+  "measures": {
+   "fuzzy_match_percent": 28.882435,
+   "matched_code_percent": 19.10820622649394,
+   "complete_code_percent": 8.48033326368575,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

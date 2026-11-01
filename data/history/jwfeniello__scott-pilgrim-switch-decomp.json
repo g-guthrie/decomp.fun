@@ -82,5 +82,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T00:43:14Z",
+  "commit_sha": "de9cf63f51a029a932b266e6005b6259ee893023",
+  "commit_message": "Generate 71 class destructors from what the classes hold (27.25%)",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 27.245395770749465,
+   "matched_code_percent": 27.245395770749465,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
