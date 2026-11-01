@@ -222,5 +222,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T12:57:53Z",
+  "commit_sha": "b7960edde60cfd5c0fc88d5180bb248988b140e4",
+  "commit_message": "Last functions from this pass over the decompiler's text",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 30.451413775387483,
+   "matched_code_percent": 30.451413775387483,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
