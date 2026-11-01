@@ -967,5 +967,19 @@
    "matched_data_percent": 0.5698983795660533,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-11-01T19:09:29Z",
+  "commit_sha": "ce144ae710d1260bdffc1b0ea653ae593fc93b58",
+  "commit_message": "Merge pull request #192 from OpenRAC/refactor/phase6-game-folders",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 0.5698983795660533,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]
