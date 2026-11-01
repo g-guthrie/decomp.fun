@@ -124,5 +124,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T06:26:04Z",
+  "commit_sha": "6209056797f29578bef84c711a30bc600be83f57",
+  "commit_message": "Share listener types and virtual array elements in destructors",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 28.283411796448352,
+   "matched_code_percent": 28.28341179644835,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
