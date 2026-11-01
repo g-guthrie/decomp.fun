@@ -981,5 +981,19 @@
    "matched_data_percent": 0.5698983795660533,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-11-01T20:11:13Z",
+  "commit_sha": "3c08c16315d064d80bde27c8e65c925268dbc1aa",
+  "commit_message": "Merge pull request #196 from OpenRAC/refactor/phase8-data",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 24.171473038542523,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]
