@@ -334,5 +334,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T20:13:02Z",
+  "commit_sha": "a5aad8c9948a4b79d8e5a597db04cbcc8628d00b",
+  "commit_message": "Add a real NPC class and Ramona's healing",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 30.9759595000544,
+   "matched_code_percent": 30.9759595000544,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
