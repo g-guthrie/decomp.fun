@@ -397,5 +397,19 @@
    "matched_data_percent": 94.58491758578127,
    "complete_data_percent": 94.58491758578127
   }
+ },
+ {
+  "timestamp": "2026-11-01T17:50:14Z",
+  "commit_sha": "adca8d767f9bc7d4e1de339ddd3d6bf1c81b67e0",
+  "commit_message": "SoundManager: decompile and link (100%) (#74)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 99.27887,
+   "matched_code_percent": 99.27887010746147,
+   "complete_code_percent": 99.26418528055886,
+   "matched_data_percent": 99.88263370409243,
+   "complete_data_percent": 99.88263370409243
+  }
  }
 ]

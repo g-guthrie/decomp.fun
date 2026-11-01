@@ -306,5 +306,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T18:19:30Z",
+  "commit_sha": "f4fc9f500873c3ad4a75a3e5eca1412f48f7be55",
+  "commit_message": "Match UseItem, the sliding attacks and State235",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 30.86491252122993,
+   "matched_code_percent": 30.864912521229925,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
