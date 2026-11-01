@@ -376,5 +376,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T22:20:53Z",
+  "commit_sha": "49280ba980940d0ff864cf3a0381789bc59cbd86",
+  "commit_message": "Match Lynette's vanishing states and Boss's low-health effect",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 31.137260603742323,
+   "matched_code_percent": 31.137260603742323,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

@@ -305,5 +305,19 @@
    "matched_data_percent": 24.4217160511539,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-01T22:10:42Z",
+  "commit_sha": "16229b230909b47912ad00ce061980f7f793658f",
+  "commit_message": "main: match SysFadeInitPoly, SysFadeSetDrawMode, SysFadeCopyScreen and SysFadeSetPolyMonochrome (#388)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 68.288734,
+   "matched_code_percent": 68.28873459198003,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.4217160511539,
+   "complete_data_percent": 0.0
+  }
  }
 ]

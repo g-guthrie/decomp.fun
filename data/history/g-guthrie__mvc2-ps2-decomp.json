@@ -1642,5 +1642,19 @@
    "matched_data_percent": 99.98827276318389,
    "complete_data_percent": 99.98827276318389
   }
+ },
+ {
+  "timestamp": "2026-11-01T21:02:57Z",
+  "commit_sha": "e693d9cfecf8e1a84f0d69af19d35edc79117a85",
+  "commit_message": "oracle: pad injection at scePadRead, docs (BOOT_NOTES oracle pass, USER_GUIDE test options)",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 99.93284140369967,
+   "matched_code_percent": 99.93284140369967,
+   "complete_code_percent": 99.93284140369967,
+   "matched_data_percent": 99.98827276318389,
+   "complete_data_percent": 99.98827276318389
+  }
  }
 ]
