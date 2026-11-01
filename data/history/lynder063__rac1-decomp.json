@@ -1009,5 +1009,19 @@
    "matched_data_percent": 69.2523802984528,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-11-01T20:29:14Z",
+  "commit_sha": "d85955cd7c0ccdbd22b21ee8ec84b81546b8c4e0",
+  "commit_message": "Merge pull request #198 from OpenRAC/refactor/phase8-pointers",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 73.94317037443926,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]
