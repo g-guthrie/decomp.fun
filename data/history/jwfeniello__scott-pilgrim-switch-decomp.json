@@ -348,5 +348,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T20:19:49Z",
+  "commit_sha": "8ad58827e745647f5184418f27967ed028ad7c6b",
+  "commit_message": "Give the playable characters their own states",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 30.984424636621206,
+   "matched_code_percent": 30.984424636621206,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

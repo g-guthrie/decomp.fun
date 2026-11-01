@@ -1116,5 +1116,19 @@
    "matched_data_percent": 22.15960187144165,
    "complete_data_percent": 22.15960187144165
   }
+ },
+ {
+  "timestamp": "2026-11-01T20:12:41Z",
+  "commit_sha": "12c8b2e2db69eb3be40f71a6b28d43528ea785c6",
+  "commit_message": "match spotlight poll",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.362583,
+   "matched_code_percent": 52.96430227471207,
+   "complete_code_percent": 29.116150734288134,
+   "matched_data_percent": 22.15960187144165,
+   "complete_data_percent": 22.15960187144165
+  }
  }
 ]
