@@ -127,5 +127,19 @@
    "matched_data_percent": 65.582533226442,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-01T15:07:46Z",
+  "commit_sha": "cd3d7311e097341eb61f27b7c5f076b2c31d5f09",
+  "commit_message": "match AICombo3a (#19)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 57.650887,
+   "matched_code_percent": 57.650887831170806,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 65.582533226442,
+   "complete_data_percent": 0.0
+  }
  }
 ]
