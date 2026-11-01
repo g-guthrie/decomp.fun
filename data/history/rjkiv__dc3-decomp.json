@@ -1060,5 +1060,19 @@
    "matched_data_percent": 22.15960187144165,
    "complete_data_percent": 22.15960187144165
   }
+ },
+ {
+  "timestamp": "2026-11-01T03:20:42Z",
+  "commit_sha": "86a7b8b2f1413544543912a99ee32081dcde8c0f",
+  "commit_message": "worldcrowd drawshowing is close",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.343426,
+   "matched_code_percent": 52.893912855408395,
+   "complete_code_percent": 29.116150734288134,
+   "matched_data_percent": 22.15960187144165,
+   "complete_data_percent": 22.15960187144165
+  }
  }
 ]
