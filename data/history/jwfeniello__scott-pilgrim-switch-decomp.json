@@ -320,5 +320,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T19:20:56Z",
+  "commit_sha": "7d7c64eac88dab598e2eb8ebfbc5b9d9c0a70e59",
+  "commit_message": "Match seven more boss states with the exit case last and IsIn",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 30.922509603172937,
+   "matched_code_percent": 30.922509603172937,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

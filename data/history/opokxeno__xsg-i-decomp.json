@@ -400,5 +400,19 @@
    "matched_data_percent": 97.23750224402914,
    "complete_data_percent": 97.23750224402914
   }
+ },
+ {
+  "timestamp": "2026-11-01T18:55:05Z",
+  "commit_sha": "86419abbd44372560e901417987daba6f285a14e",
+  "commit_message": "Merge pull request #55 from mpetereit/recover-ov12-batch-3",
+  "source": "report",
+  "version": "SLUS_204.69",
+  "measures": {
+   "fuzzy_match_percent": 82.55571,
+   "matched_code_percent": 82.54703772607837,
+   "complete_code_percent": 64.52521145399797,
+   "matched_data_percent": 97.23750224402914,
+   "complete_data_percent": 97.23750224402914
+  }
  }
 ]

@@ -239,5 +239,19 @@
    "matched_data_percent": 13.371538624139795,
    "complete_data_percent": 0.06247504521220377
   }
+ },
+ {
+  "timestamp": "2026-11-01T15:29:35Z",
+  "commit_sha": "41aee21f593c16a8636cf769ec27379607698174",
+  "commit_message": "PlayerBase - 100%",
+  "source": "report",
+  "version": "A2DE",
+  "measures": {
+   "fuzzy_match_percent": 5.9124856,
+   "matched_code_percent": 4.486544330387223,
+   "complete_code_percent": 0.19330161239967264,
+   "matched_data_percent": 13.3705991497757,
+   "complete_data_percent": 12.10089954670362
+  }
  }
 ]
