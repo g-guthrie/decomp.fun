@@ -1018,5 +1018,19 @@
    "matched_data_percent": 10.87526488650406,
    "complete_data_percent": 2.250654287284978
   }
+ },
+ {
+  "timestamp": "2026-11-01T10:39:25Z",
+  "commit_sha": "d0d761d4e40a1bb5e675ec5bcef609a009dcc21d",
+  "commit_message": "link /Gravity/ except GravityCreator",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.323595,
+   "matched_code_percent": 19.4719631982084,
+   "complete_code_percent": 2.2853733933510494,
+   "matched_data_percent": 10.876204616895413,
+   "complete_data_percent": 2.2967010764611633
+  }
  }
 ]
