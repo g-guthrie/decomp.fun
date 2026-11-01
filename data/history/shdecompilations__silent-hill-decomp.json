@@ -1263,5 +1263,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-01T04:07:01Z",
+  "commit_sha": "ab434c9fad4ab61cf9567447657a41a17ef29f9e",
+  "commit_message": "Properly document unused DMS fields",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99995,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]
