@@ -411,5 +411,19 @@
    "matched_data_percent": 99.88263370409243,
    "complete_data_percent": 99.88263370409243
   }
+ },
+ {
+  "timestamp": "2026-11-01T19:07:25Z",
+  "commit_sha": "3d453f1d16fe0750f8fb385b348c9c91e6e58bbe",
+  "commit_message": "RSO, SO, NCD, NET and the last data: whole DOL 100% linked (#75)",
+  "source": "report",
+  "version": "HAFE",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
