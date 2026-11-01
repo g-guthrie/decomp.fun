@@ -96,5 +96,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T00:52:46Z",
+  "commit_sha": "02dd3ce9612c7ce2cf521f699f2f8f47c89aba50",
+  "commit_message": "Generate more class destructors, now 137 functions (27.47%)",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 27.472417560059778,
+   "matched_code_percent": 27.472417560059775,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

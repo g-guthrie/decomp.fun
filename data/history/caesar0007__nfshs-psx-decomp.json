@@ -402,5 +402,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T00:43:20Z",
+  "commit_sha": "8a2a9a0e72255f3aaae6d2bb7f124aabb701bacd",
+  "commit_message": "Anchor femenudefs/speech; frontend dialog/tourney and game-side exact fixes",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
