@@ -1065,5 +1065,19 @@
    "matched_data_percent": 73.94317037443926,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-11-01T22:48:46Z",
+  "commit_sha": "4edd59dcc2bbe67264998a63d3d1eed1342065eb",
+  "commit_message": "Merge pull request #210 from OpenRAC/refactor/stage2-docs",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 73.94317037443926,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]

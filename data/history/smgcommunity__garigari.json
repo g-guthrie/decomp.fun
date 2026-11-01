@@ -1032,5 +1032,19 @@
    "matched_data_percent": 10.876204616895413,
    "complete_data_percent": 2.2967010764611633
   }
+ },
+ {
+  "timestamp": "2026-11-01T22:57:29Z",
+  "commit_sha": "2cebaab2ef1ae355ded57d219704f5ac7eda3c71",
+  "commit_message": "More refining of splits",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.32889,
+   "matched_code_percent": 19.477258879038356,
+   "complete_code_percent": 2.2853733933510494,
+   "matched_data_percent": 10.887481381591622,
+   "complete_data_percent": 2.2967010764611633
+  }
  }
 ]

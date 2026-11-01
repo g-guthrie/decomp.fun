@@ -382,5 +382,19 @@
    "matched_data_percent": 16.034718953067443,
    "complete_data_percent": 16.034718953067443
   }
+ },
+ {
+  "timestamp": "2026-11-01T23:11:11Z",
+  "commit_sha": "50eb0104808e91b1e8e1db4f4d728695490af2c4",
+  "commit_message": "Match em_external_value_accesser.cpp (#139)",
+  "source": "report",
+  "version": "RSBE01_02",
+  "measures": {
+   "fuzzy_match_percent": 1.8081981,
+   "matched_code_percent": 1.715597792737294,
+   "complete_code_percent": 1.4884092939876774,
+   "matched_data_percent": 16.036483414416214,
+   "complete_data_percent": 16.036483414416214
+  }
  }
 ]

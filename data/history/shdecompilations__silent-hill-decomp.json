@@ -1333,5 +1333,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-01T22:33:57Z",
+  "commit_sha": "f5b30c1c6ec8349c6a643af5d350ea9990f64bf3",
+  "commit_message": "screens: setup EUR ports",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99995,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]
