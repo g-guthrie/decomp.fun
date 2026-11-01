@@ -166,5 +166,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-01T08:38:20Z",
+  "commit_sha": "3839879dd8e9da73e9d3982fb080e4343c9232af",
+  "commit_message": "Callback factories with vector and callback members",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 28.718402718992106,
+   "matched_code_percent": 28.71840271899211,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
