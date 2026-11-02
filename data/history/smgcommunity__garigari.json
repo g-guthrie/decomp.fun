@@ -1046,5 +1046,19 @@
    "matched_data_percent": 10.887481381591622,
    "complete_data_percent": 2.2967010764611633
   }
+ },
+ {
+  "timestamp": "2026-11-02T01:30:14Z",
+  "commit_sha": "7db0a63622e19d20db827b6a0244c1b2b342a8a6",
+  "commit_message": "BgmChangeArea 70%",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.343914,
+   "matched_code_percent": 19.480193834679053,
+   "complete_code_percent": 2.2853733933510494,
+   "matched_data_percent": 10.890770437961349,
+   "complete_data_percent": 2.2967010764611633
+  }
  }
 ]
