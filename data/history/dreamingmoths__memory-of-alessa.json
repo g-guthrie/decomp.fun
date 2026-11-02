@@ -655,5 +655,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-02T07:09:55Z",
+  "commit_sha": "63c1c475e2181149ba2b5b2a5314d9e9f89f3f71",
+  "commit_message": "alessastruct: update sh2 kaitai yaml (#454)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
