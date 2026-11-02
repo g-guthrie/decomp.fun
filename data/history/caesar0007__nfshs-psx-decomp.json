@@ -458,5 +458,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-02T19:46:26Z",
+  "commit_sha": "71b693b9911d932368b850d1986eb46f1ab7f76a",
+  "commit_message": "Restore car/dialog source shapes and legacy review visibility",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

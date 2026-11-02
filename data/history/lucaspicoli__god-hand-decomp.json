@@ -430,5 +430,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-02T20:12:32Z",
+  "commit_sha": "70bbd3d13b472e7472f837e401807fe8cf67216c",
+  "commit_message": "[cleanup] cEm00 is cGameObj plus its own fields, and cGameObj's 0x538 and 0x540",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 56.246933,
+   "matched_code_percent": 56.24693266242081,
+   "complete_code_percent": 54.85640629318952,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]

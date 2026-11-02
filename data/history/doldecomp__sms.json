@@ -1050,5 +1050,19 @@
    "matched_data_percent": 91.69367092956612,
    "complete_data_percent": 22.544590219745725
   }
+ },
+ {
+  "timestamp": "2026-11-02T20:02:48Z",
+  "commit_sha": "eaf1091872b63ad5028df8fa048061c79e4c840e",
+  "commit_message": "Remove fake TVec3 copy ctor (#386)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 96.813995,
+   "matched_code_percent": 52.0169979120289,
+   "complete_code_percent": 18.596424377341165,
+   "matched_data_percent": 91.69492028341593,
+   "complete_data_percent": 22.622050158433684
+  }
  }
 ]
