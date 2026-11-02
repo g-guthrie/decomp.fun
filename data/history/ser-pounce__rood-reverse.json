@@ -677,5 +677,19 @@
    "matched_data_percent": 70.06211639429121,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-11-02T06:08:41Z",
+  "commit_sha": "8a6c46c92a5d5ca796cd36283f4c05f51d706aee",
+  "commit_message": "Decomp func_8002ABB8 (#318)",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 95.46297,
+   "matched_code_percent": 95.46296971908063,
+   "complete_code_percent": 72.82078722283028,
+   "matched_data_percent": 70.06211639429121,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]

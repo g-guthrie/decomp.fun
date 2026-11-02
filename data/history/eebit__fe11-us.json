@@ -108,5 +108,19 @@
    "complete_code_percent": 0.34,
    "fuzzy_match_percent": 13.66
   }
+ },
+ {
+  "timestamp": "2026-11-02T06:10:34Z",
+  "commit_sha": "be854842fb6f59e964f104e03f10fd0fb99891f5",
+  "commit_message": "Merge pull request #69 from Eebit/sjiswrap",
+  "source": "report",
+  "version": "YFEE01",
+  "measures": {
+   "fuzzy_match_percent": 13.659686,
+   "matched_code_percent": 7.333631223621224,
+   "complete_code_percent": 0.341099126680057,
+   "matched_data_percent": 0.6653138034182032,
+   "complete_data_percent": 0.0
+  }
  }
 ]
