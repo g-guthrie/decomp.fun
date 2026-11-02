@@ -128,5 +128,19 @@
    "matched_data_percent": 0.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-02T00:57:44Z",
+  "commit_sha": "9915f9a09355954fb40cb355d09ae38f520c5081",
+  "commit_message": "camera: matched QuestClearCameraRequest",
+  "source": "report",
+  "version": "SLPM_654.95",
+  "measures": {
+   "fuzzy_match_percent": 0.8873251216759375,
+   "matched_code_percent": 0.8873251216759375,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]
