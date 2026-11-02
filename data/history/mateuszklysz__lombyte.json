@@ -593,5 +593,19 @@
    "matched_data_percent": 62.80740252925755,
    "complete_data_percent": 62.80740252925755
   }
+ },
+ {
+  "timestamp": "2026-11-02T13:32:21Z",
+  "commit_sha": "7ab55144f5b039474118849cb58a74bd7705f160",
+  "commit_message": "chore: fall back to the toolchain mirror for public downloads (#276)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 62.80740252925755,
+   "complete_data_percent": 62.80740252925755
+  }
  }
 ]

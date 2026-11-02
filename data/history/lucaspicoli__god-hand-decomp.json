@@ -388,5 +388,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-02T14:08:15Z",
+  "commit_sha": "f05a4017216c01146f86f500994a27f53ad2e0a6",
+  "commit_message": "[cleanup] names for _strtol_r, DIntr, _request_bind and _sceMpegError, and PR 25's loose ends",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 56.246933,
+   "matched_code_percent": 56.24693266242081,
+   "complete_code_percent": 54.85640629318952,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]
