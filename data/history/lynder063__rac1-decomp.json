@@ -1121,5 +1121,19 @@
    "matched_data_percent": 73.94317037443926,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-11-02T09:20:21Z",
+  "commit_sha": "0cc1b0082d746d78080b4d39c5d8619297b0ad20",
+  "commit_message": "Merge pull request #215 from OpenRAC/refactor/stage3-globals",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 73.94317037443926,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]
