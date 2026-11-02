@@ -1247,5 +1247,19 @@
    "matched_data_percent": 99.95408198297172,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-11-02T19:02:30Z",
+  "commit_sha": "0cf5f77473ad65e9893c082e8b4a22cd6037fc79",
+  "commit_message": "Merge pull request #230 from OpenRAC/refactor/hero-direct",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.95408198297172,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]
