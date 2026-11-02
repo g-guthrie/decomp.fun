@@ -1036,5 +1036,19 @@
    "matched_data_percent": 91.69367092956612,
    "complete_data_percent": 22.544590219745725
   }
+ },
+ {
+  "timestamp": "2026-11-02T11:25:14Z",
+  "commit_sha": "fbfd41152527b55021d2bd257f9204eb812503ed",
+  "commit_message": "Use member functions for operator overloads in TVec3 (#383)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 96.799355,
+   "matched_code_percent": 51.97321068452918,
+   "complete_code_percent": 18.573472293715362,
+   "matched_data_percent": 91.69367092956612,
+   "complete_data_percent": 22.544590219745725
+  }
  }
 ]
