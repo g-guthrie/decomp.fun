@@ -1275,5 +1275,19 @@
    "matched_data_percent": 99.95408198297172,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-11-02T21:00:29Z",
+  "commit_sha": "ebe2698070500b6991f9ba59799ec9ba1b6aba59",
+  "commit_message": "Merge pull request #233 from OpenRAC/refactor/fake-aliases",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.95408198297172,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]
