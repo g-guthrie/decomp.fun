@@ -697,5 +697,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-02T18:14:45Z",
+  "commit_sha": "40a917bbd0d01f6ee9416ada0054ea859e4e9822",
+  "commit_message": "sh2: update `Chacter/m3_oni` \ud83d\udd3a (#457)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
