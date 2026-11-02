@@ -1093,5 +1093,19 @@
    "matched_data_percent": 73.94317037443926,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-11-02T07:34:09Z",
+  "commit_sha": "ab2014ffaadcac3a5b147a049b03ae6e4784acfa",
+  "commit_message": "Merge pull request #212 from OpenRAC/refactor/stage3-moby2",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 73.94317037443926,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]
