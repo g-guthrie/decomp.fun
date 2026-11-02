@@ -1135,5 +1135,19 @@
    "matched_data_percent": 73.94317037443926,
    "complete_data_percent": 0.5698983795660533
   }
+ },
+ {
+  "timestamp": "2026-11-02T09:56:47Z",
+  "commit_sha": "27b4015c3f09165c77b50803f5957564b826ad2b",
+  "commit_message": "Merge pull request #217 from OpenRAC/refactor/data-tables",
+  "source": "report",
+  "version": "SCES_509.16",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 73.94317037443926,
+   "complete_data_percent": 0.5698983795660533
+  }
  }
 ]
