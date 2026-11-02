@@ -416,5 +416,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-02T18:54:30Z",
+  "commit_sha": "af0c339bb14157dbbd73a8d82e0071194a35ba61",
+  "commit_message": "[cleanup] cGameObj.h: why CGAMEOBJ_NO_TYPEDEF exists",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 56.246933,
+   "matched_code_percent": 56.24693266242081,
+   "complete_code_percent": 54.85640629318952,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]

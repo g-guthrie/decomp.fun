@@ -444,5 +444,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-02T18:42:05Z",
+  "commit_sha": "e1b120005b4f6b1b0b5462e1c3489d6829ef3fa8",
+  "commit_message": "Restore source ownership and native SYM/SLD origins",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
