@@ -472,5 +472,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-02T22:36:26Z",
+  "commit_sha": "d9ae99e2f5acbf6226accf81835e52d8be24c696",
+  "commit_message": "Restore renderer source owners and clarify SYM name diagnostics",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
