@@ -430,5 +430,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-02T08:12:39Z",
+  "commit_sha": "a1b99f288e95d71d3ba993a8cf2d9b4d456f3f4b",
+  "commit_message": "Restore SYM/SLD source phases and remove reconstruction carriers",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
