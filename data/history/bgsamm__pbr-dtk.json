@@ -193,5 +193,19 @@
    "matched_data_percent": 0.7551439372935653,
    "complete_data_percent": 0.44167586824725513
   }
+ },
+ {
+  "timestamp": "2026-11-02T14:53:50Z",
+  "commit_sha": "20b4d71a453fc99979624db2fb395dd00c52318f",
+  "commit_message": "tools: check function order across same-named sections in section index order (#36)",
+  "source": "report",
+  "version": "RPBP01",
+  "measures": {
+   "fuzzy_match_percent": 24.84131,
+   "matched_code_percent": 22.413008869683875,
+   "complete_code_percent": 2.940937991318191,
+   "matched_data_percent": 0.7551439372935653,
+   "complete_data_percent": 0.44167586824725513
+  }
  }
 ]

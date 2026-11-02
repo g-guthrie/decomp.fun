@@ -1684,5 +1684,19 @@
    "matched_data_percent": 99.98827276318389,
    "complete_data_percent": 99.98827276318389
   }
+ },
+ {
+  "timestamp": "2026-11-02T15:08:14Z",
+  "commit_sha": "aa12fe74a15aa78823552ccca3335ae881123ed7",
+  "commit_message": "README: the project is the decompilation and a native port; current status, what the port does, port docs; old coordination notes moved to docs/HISTORY.md",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 99.93284140369967,
+   "matched_code_percent": 99.93284140369967,
+   "complete_code_percent": 99.93284140369967,
+   "matched_data_percent": 99.98827276318389,
+   "complete_data_percent": 99.98827276318389
+  }
  }
 ]
