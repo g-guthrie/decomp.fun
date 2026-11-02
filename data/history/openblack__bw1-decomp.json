@@ -945,5 +945,19 @@
    "matched_data_percent": 31.818422589314345,
    "complete_data_percent": 7.665905143072806
   }
+ },
+ {
+  "timestamp": "2026-11-02T15:31:44Z",
+  "commit_sha": "0af4f002299f0de1fec00fcd1eb1b92925509344",
+  "commit_message": "Revert \"MagicVortex: Work on matching (#645)\"",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 54.864555,
+   "matched_code_percent": 42.93294588300858,
+   "complete_code_percent": 20.063861063801355,
+   "matched_data_percent": 31.818015130474684,
+   "complete_data_percent": 7.665905143072806
+  }
  }
 ]
