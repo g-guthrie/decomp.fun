@@ -1670,5 +1670,19 @@
    "matched_data_percent": 99.98827276318389,
    "complete_data_percent": 99.98827276318389
   }
+ },
+ {
+  "timestamp": "2026-11-02T02:28:15Z",
+  "commit_sha": "3b5e2dca81dee75efe74b2dae9e938bf357af587",
+  "commit_message": "Merge the second NAOMI comparison pass (tools and docs)",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 99.93284140369967,
+   "matched_code_percent": 99.93284140369967,
+   "complete_code_percent": 99.93284140369967,
+   "matched_data_percent": 99.98827276318389,
+   "complete_data_percent": 99.98827276318389
+  }
  }
 ]
