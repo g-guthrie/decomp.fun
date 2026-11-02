@@ -442,5 +442,19 @@
    "matched_data_percent": 97.23750224402914,
    "complete_data_percent": 97.23750224402914
   }
+ },
+ {
+  "timestamp": "2026-11-02T13:51:35Z",
+  "commit_sha": "40db501731a8a9535a0f548af9891b81385e0710",
+  "commit_message": "Added hardware asm macros",
+  "source": "report",
+  "version": "SLUS_204.69",
+  "measures": {
+   "fuzzy_match_percent": 82.55571,
+   "matched_code_percent": 82.54703772607837,
+   "complete_code_percent": 64.52521145399797,
+   "matched_data_percent": 97.23750224402914,
+   "complete_data_percent": 97.23750224402914
+  }
  }
 ]
