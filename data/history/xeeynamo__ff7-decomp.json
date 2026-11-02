@@ -319,5 +319,19 @@
    "matched_data_percent": 24.4217160511539,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-02T10:34:30Z",
+  "commit_sha": "8fb1cc0e6605f0a43a2d2bf36dc5d7e7a58fccb5",
+  "commit_message": "battle: match func_800A2BF4 (sans rodata alignment for jmptbl) (#386)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 68.288734,
+   "matched_code_percent": 68.28873459198003,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.4217160511539,
+   "complete_data_percent": 0.0
+  }
  }
 ]

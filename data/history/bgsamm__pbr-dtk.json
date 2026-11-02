@@ -179,5 +179,19 @@
    "matched_data_percent": 0.5474473025880346,
    "complete_data_percent": 0.23317793479671856
   }
+ },
+ {
+  "timestamp": "2026-11-02T11:03:59Z",
+  "commit_sha": "c2fa2600888e31e5b72ea91cc8fd9aa83bc0aa7e",
+  "commit_message": "nw4r/math: import math_triangular from ogws and link it (#39)",
+  "source": "report",
+  "version": "RPBP01",
+  "measures": {
+   "fuzzy_match_percent": 24.84131,
+   "matched_code_percent": 22.413008869683875,
+   "complete_code_percent": 2.940937991318191,
+   "matched_data_percent": 0.7551439372935653,
+   "complete_data_percent": 0.44167586824725513
+  }
  }
 ]
