@@ -635,5 +635,19 @@
    "matched_data_percent": 62.80740252925755,
    "complete_data_percent": 62.80740252925755
   }
+ },
+ {
+  "timestamp": "2026-11-03T14:17:14Z",
+  "commit_sha": "6513252ca63e0c3eb36a26f205cdbb70b2df921d",
+  "commit_message": "decomp: define 64 KB more boot data in C (#279)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 63.946385582286126,
+   "complete_data_percent": 63.946385582286126
+  }
  }
 ]
