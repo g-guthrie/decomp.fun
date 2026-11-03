@@ -1403,5 +1403,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-03T01:55:59Z",
+  "commit_sha": "ab0e74ad1c9d03d6524f39efe24dbe02b7b39073",
+  "commit_message": "options/credits: match 7 EUR funcs",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99995,
+   "matched_code_percent": 99.96191773396619,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]
