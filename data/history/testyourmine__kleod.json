@@ -142,5 +142,19 @@
    "matched_data_percent": 76.30165998324249,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-03T03:17:28Z",
+  "commit_sha": "f35f79071470392ae8d13174bd8e1256da2cd4df",
+  "commit_message": "Extract Entity Animation Data and associated gfx",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 87.79447002043675,
+   "complete_data_percent": 0.0
+  }
  }
 ]
