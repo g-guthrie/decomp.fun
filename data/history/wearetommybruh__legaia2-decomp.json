@@ -194,5 +194,19 @@
    "matched_data_percent": 0.008823150136080125,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-03T20:39:48Z",
+  "commit_sha": "1fc0994dc97a5040af8818e3113001998472a1e5",
+  "commit_message": "CLAUDE.md: reorganise by topic, update to 13.67%, drop all session references",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 13.938446,
+   "matched_code_percent": 13.671820918429912,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.008823150136080125,
+   "complete_data_percent": 0.0
+  }
  }
 ]
