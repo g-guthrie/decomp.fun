@@ -633,5 +633,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-03T05:10:45Z",
+  "commit_sha": "2e362e247fc97c1a31d66b00a2d2d997b5ff4771",
+  "commit_message": "Add CallbackList struct",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 62.67086,
+   "matched_code_percent": 26.160992133067733,
+   "complete_code_percent": 2.5768497912948374,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
