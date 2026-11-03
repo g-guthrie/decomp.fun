@@ -1148,5 +1148,19 @@
    "matched_data_percent": 91.92042865330586,
    "complete_data_percent": 22.622050158433684
   }
+ },
+ {
+  "timestamp": "2026-11-03T18:38:45Z",
+  "commit_sha": "7cdd94b7ce09e95405118981d537170a4f243bf5",
+  "commit_message": "Add J3DSysDrawBuf and J3DMaterialMode enums (#388)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 97.10405,
+   "matched_code_percent": 52.138443403058645,
+   "complete_code_percent": 18.606674822455606,
+   "matched_data_percent": 91.92042865330586,
+   "complete_data_percent": 22.6682762508765
+  }
  }
 ]
