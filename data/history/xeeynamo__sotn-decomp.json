@@ -591,5 +591,19 @@
    "matched_data_percent": 74.33646425772474,
    "complete_data_percent": 25.625839620538205
   }
+ },
+ {
+  "timestamp": "2026-11-02T23:55:02Z",
+  "commit_sha": "a0b1c60d0ff6cada88561ca8a710830c11a454f9",
+  "commit_message": "Decompile `sat/InitSpriteEngine` (#3798)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.92333,
+   "matched_code_percent": 82.8875096538043,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 74.33646425772474,
+   "complete_data_percent": 25.625839620538205
+  }
  }
 ]

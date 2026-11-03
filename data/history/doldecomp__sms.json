@@ -1078,5 +1078,19 @@
    "matched_data_percent": 91.69492028341593,
    "complete_data_percent": 22.622050158433684
   }
+ },
+ {
+  "timestamp": "2026-11-02T23:23:35Z",
+  "commit_sha": "b656d0485d2f5d06582ba208766b478b42e8ff38",
+  "commit_message": "EffectObj naming",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 96.81424,
+   "matched_code_percent": 52.0399499956547,
+   "complete_code_percent": 18.596424377341165,
+   "matched_data_percent": 91.69492028341593,
+   "complete_data_percent": 22.622050158433684
+  }
  }
 ]
