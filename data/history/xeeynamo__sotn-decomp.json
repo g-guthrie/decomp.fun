@@ -619,5 +619,19 @@
    "matched_data_percent": 74.33646425772474,
    "complete_data_percent": 25.625839620538205
   }
+ },
+ {
+  "timestamp": "2026-11-03T04:11:38Z",
+  "commit_sha": "56caa2a545aba5e660aef028ebbf6028f6aab235",
+  "commit_message": "RBO6 Dracula Final Boss (#3793)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 83.16697,
+   "matched_code_percent": 83.1312065820489,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 74.33983339037094,
+   "complete_data_percent": 25.62263088358952
+  }
  }
 ]
