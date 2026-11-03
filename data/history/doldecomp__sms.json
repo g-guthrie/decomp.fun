@@ -1120,5 +1120,19 @@
    "matched_data_percent": 91.69492028341593,
    "complete_data_percent": 22.622050158433684
   }
+ },
+ {
+  "timestamp": "2026-11-03T10:53:01Z",
+  "commit_sha": "96f7d5db84b34b540d98ffa1179fef0fe3acb427",
+  "commit_message": "Kukku TU (#379)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 97.10177,
+   "matched_code_percent": 52.109363335940515,
+   "complete_code_percent": 18.596424377341165,
+   "matched_data_percent": 91.80049068372452,
+   "complete_data_percent": 22.622050158433684
+  }
  }
 ]

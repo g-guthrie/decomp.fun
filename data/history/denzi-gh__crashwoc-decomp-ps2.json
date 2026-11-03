@@ -870,5 +870,19 @@
    "matched_data_percent": 93.021655357472,
    "complete_data_percent": 93.02148389779289
   }
+ },
+ {
+  "timestamp": "2026-11-03T10:24:16Z",
+  "commit_sha": "0e68faf6b0d7c9d7af8bbceb787c9a792d2fe4eb",
+  "commit_message": "Merge pull request #198 from denzi-gh/data/last-round",
+  "source": "report",
+  "version": "SLES_503.86",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

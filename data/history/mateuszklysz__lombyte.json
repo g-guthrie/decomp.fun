@@ -621,5 +621,19 @@
    "matched_data_percent": 62.80740252925755,
    "complete_data_percent": 62.80740252925755
   }
+ },
+ {
+  "timestamp": "2026-11-03T10:44:32Z",
+  "commit_sha": "cda8433c5b2b7f0df7e3a809e80364a5b8ea68f1",
+  "commit_message": "decomp: name hero control modes, levels, card states, the game camera and syscall stubs (#278)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 62.80740252925755,
+   "complete_data_percent": 62.80740252925755
+  }
  }
 ]
