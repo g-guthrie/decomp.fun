@@ -1057,5 +1057,19 @@
    "matched_data_percent": 31.818140146424827,
    "complete_data_percent": 7.665873907791932
   }
+ },
+ {
+  "timestamp": "2026-11-03T20:11:17Z",
+  "commit_sha": "78efbb3394e6b9cf22544188cc8bbda4e3e6c994",
+  "commit_message": "Safedisc: Provide better struct for the Safedisc markers (#666)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 55.3126,
+   "matched_code_percent": 43.234073882272035,
+   "complete_code_percent": 20.06391430880214,
+   "matched_data_percent": 31.818140146424827,
+   "complete_data_percent": 7.665873907791932
+  }
  }
 ]

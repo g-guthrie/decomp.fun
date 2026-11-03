@@ -705,5 +705,19 @@
    "matched_data_percent": 70.06211639429121,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-11-03T19:22:16Z",
+  "commit_sha": "d006e928fc6a7800f9f9993afcc6c2a6fc4da4eb",
+  "commit_message": "Decompile BATTLE 6E644 enemy AI routines (5 functions) (#320)",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 95.837204,
+   "matched_code_percent": 95.83720458875511,
+   "complete_code_percent": 72.82078722283028,
+   "matched_data_percent": 70.06211639429121,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]
