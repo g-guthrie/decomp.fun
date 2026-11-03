@@ -180,5 +180,19 @@
    "matched_data_percent": 0.008823150136080125,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-03T19:43:04Z",
+  "commit_sha": "69b5c99e666aa90014d12c27d9c2ffeed4589b07",
+  "commit_message": "Match 249e28 (particle update); code share now 13.67%",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 13.938446,
+   "matched_code_percent": 13.671820918429912,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.008823150136080125,
+   "complete_data_percent": 0.0
+  }
  }
 ]
