@@ -1085,5 +1085,19 @@
    "matched_data_percent": 31.818295257791394,
    "complete_data_percent": 7.668969050873244
   }
+ },
+ {
+  "timestamp": "2026-11-03T23:16:54Z",
+  "commit_sha": "68d00a89ef1fcdf25c8634d1321e3b34e8e039e4",
+  "commit_message": "Add new badges to README",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 55.425625,
+   "matched_code_percent": 43.29119490775229,
+   "complete_code_percent": 20.098512549592737,
+   "matched_data_percent": 31.818295257791394,
+   "complete_data_percent": 7.668969050873244
+  }
  }
 ]
