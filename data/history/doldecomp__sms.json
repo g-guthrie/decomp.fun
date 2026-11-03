@@ -1134,5 +1134,19 @@
    "matched_data_percent": 91.80049068372452,
    "complete_data_percent": 22.622050158433684
   }
+ },
+ {
+  "timestamp": "2026-11-03T11:58:57Z",
+  "commit_sha": "1a5918d512fa68992830c96ff857d35d8b44c191",
+  "commit_message": "Kukku fixes",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 97.10181,
+   "matched_code_percent": 52.12808154006253,
+   "complete_code_percent": 18.596424377341165,
+   "matched_data_percent": 91.92042865330586,
+   "complete_data_percent": 22.622050158433684
+  }
  }
 ]

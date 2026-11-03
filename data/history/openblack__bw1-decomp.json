@@ -973,5 +973,19 @@
    "matched_data_percent": 31.818015130474684,
    "complete_data_percent": 7.665905143072806
   }
+ },
+ {
+  "timestamp": "2026-11-03T12:18:15Z",
+  "commit_sha": "4a94d604d5a1a21410fe65000b1b916f1526cf47",
+  "commit_message": "LH3DBoundingBox: Carve and work on matching",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 54.908085,
+   "matched_code_percent": 43.0030053937862,
+   "complete_code_percent": 20.063861063801355,
+   "matched_data_percent": 31.818116995184603,
+   "complete_data_percent": 7.665905143072806
+  }
  }
 ]
