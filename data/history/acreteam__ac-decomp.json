@@ -191,5 +191,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-03T15:28:33Z",
+  "commit_sha": "a85df7f43b94c7fa9ec8927ba7998f11a80deaf5",
+  "commit_message": "Link all of foresta for GAFU01",
+  "source": "report",
+  "version": "GAFE01_00",
+  "measures": {
+   "fuzzy_match_percent": 100.00001,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
