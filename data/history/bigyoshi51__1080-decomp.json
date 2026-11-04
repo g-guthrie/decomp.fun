@@ -2023,5 +2023,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T14:43:11Z",
+  "commit_sha": "2cb8f57449b5acde09602092f0a06f86f981e9b6",
+  "commit_message": "report.json: agent-c run 278 (kernel 18F0 89.39, post0b 4F2DC 95.69 frame fix, 36694 95.88) \u2014 93.16% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.82444,
+   "matched_code_percent": 93.16056414855842,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

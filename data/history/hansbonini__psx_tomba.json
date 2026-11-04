@@ -253,5 +253,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-04T14:31:45Z",
+  "commit_sha": "15528aafb700ac18ccd1c05215e9833da93c9259",
+  "commit_message": "Rename `D_800915D0 ` to `sqrtbl` valid psyq obj",
+  "source": "report",
+  "version": "SCUS_942.36",
+  "measures": {
+   "fuzzy_match_percent": 67.2702,
+   "matched_code_percent": 67.27020408163266,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
