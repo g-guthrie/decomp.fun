@@ -239,5 +239,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-04T07:38:30Z",
+  "commit_sha": "dccae585dd1c152935bb263fc77f481cabb19c23",
+  "commit_message": "Dara migration on matched objects",
+  "source": "report",
+  "version": "SCUS_942.36",
+  "measures": {
+   "fuzzy_match_percent": 67.2702,
+   "matched_code_percent": 67.27020408163266,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

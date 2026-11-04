@@ -689,5 +689,19 @@
    "matched_data_percent": 74.3416416244831,
    "complete_data_percent": 25.620822709773872
   }
+ },
+ {
+  "timestamp": "2026-11-04T07:37:26Z",
+  "commit_sha": "b36e920eef32f3d78d72b193ae0a65f034b0eefa",
+  "commit_message": "Decompile `sat/func_0600AA18` (#3810)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 83.17918,
+   "matched_code_percent": 83.14340044694333,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 74.3416416244831,
+   "complete_data_percent": 25.620822709773872
+  }
  }
 ]

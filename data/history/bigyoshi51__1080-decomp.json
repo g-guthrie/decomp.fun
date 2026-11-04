@@ -1925,5 +1925,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T07:32:55Z",
+  "commit_sha": "0bc7871a845fd024bbff94970b48cc67eebb1c2a",
+  "commit_message": "report.json: agent-g run 271 (post 2E354 99.07->99.75 via FP ring-temp fix; game_libs 2840 95.23) \u2014 93.07% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.8161,
+   "matched_code_percent": 93.06877724104291,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -781,5 +781,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T08:02:21Z",
+  "commit_sha": "4fa797cd419af11966af8c39b6c5ffdc396737ac",
+  "commit_message": "alessatool/migrate: fix empty arrays (#465)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
