@@ -486,5 +486,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-04T03:12:44Z",
+  "commit_sha": "7d4e2d258473e74763c0921518dbbc8357afb373",
+  "commit_message": "sym/sld: advance covered_local_frame_SLD_exact to 2366/2581 (91.67%) and SYM CLEAN to 2449/2570 (rounds cm-co)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
