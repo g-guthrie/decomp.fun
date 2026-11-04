@@ -1176,5 +1176,19 @@
    "matched_data_percent": 91.92042865330586,
    "complete_data_percent": 22.798209051256304
   }
+ },
+ {
+  "timestamp": "2026-11-04T11:55:06Z",
+  "commit_sha": "61daf3040669e5018093d9b6986fa8494582dd7b",
+  "commit_message": "ADPCM filter table more readable",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 97.10407,
+   "matched_code_percent": 52.19448659754301,
+   "complete_code_percent": 18.691240994649714,
+   "matched_data_percent": 91.92042865330586,
+   "complete_data_percent": 22.798209051256304
+  }
  }
 ]
