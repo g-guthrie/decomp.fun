@@ -1162,5 +1162,19 @@
    "matched_data_percent": 91.92042865330586,
    "complete_data_percent": 22.6682762508765
   }
+ },
+ {
+  "timestamp": "2026-11-04T00:54:54Z",
+  "commit_sha": "fbde18b23c2e92351cdba0899710dd471e48bb10",
+  "commit_message": "Match exponentialsf.c (#391)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 97.10407,
+   "matched_code_percent": 52.19014130015754,
+   "complete_code_percent": 18.691240994649714,
+   "matched_data_percent": 91.92042865330586,
+   "complete_data_percent": 22.798209051256304
+  }
  }
 ]
