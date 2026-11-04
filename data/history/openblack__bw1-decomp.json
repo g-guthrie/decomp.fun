@@ -1169,5 +1169,19 @@
    "matched_data_percent": 31.847801146837995,
    "complete_data_percent": 7.670653715992957
   }
+ },
+ {
+  "timestamp": "2026-11-04T18:19:40Z",
+  "commit_sha": "9f2ee539c78d4ecaf8dea693a3cbb4dbebd05cfa",
+  "commit_message": "LHIlib: Carve, name statics and work on matching",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 55.74681,
+   "matched_code_percent": 43.44343758026559,
+   "complete_code_percent": 20.12760984597537,
+   "matched_data_percent": 31.847801146837995,
+   "complete_data_percent": 7.670653715992957
+  }
  }
 ]
