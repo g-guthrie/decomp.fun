@@ -1995,5 +1995,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T13:13:31Z",
+  "commit_sha": "bcfdfabd3a60c3b64dbd0d133f6d98bd30a921e2",
+  "commit_message": "report.json: agent-g run 275 (bootup 24B8 99.05->99.91 via folded field uses occupying v0/v1) \u2014 93.07% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.81999,
+   "matched_code_percent": 93.06877724104291,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

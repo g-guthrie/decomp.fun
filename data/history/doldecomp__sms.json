@@ -1190,5 +1190,19 @@
    "matched_data_percent": 91.92042865330586,
    "complete_data_percent": 22.798209051256304
   }
+ },
+ {
+  "timestamp": "2026-11-04T12:45:51Z",
+  "commit_sha": "359c91d537f5ea5439ee8315c9c2e9315c9d68c3",
+  "commit_message": "More JSystem matches (#392)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 97.10409,
+   "matched_code_percent": 52.203845699604024,
+   "complete_code_percent": 19.05078649882677,
+   "matched_data_percent": 91.92042865330586,
+   "complete_data_percent": 22.804455820505332
+  }
  }
 ]

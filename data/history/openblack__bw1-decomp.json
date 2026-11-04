@@ -1113,5 +1113,19 @@
    "matched_data_percent": 31.818295257791394,
    "complete_data_percent": 7.668969050873244
   }
+ },
+ {
+  "timestamp": "2026-11-04T13:15:08Z",
+  "commit_sha": "15f46caacedf07d567389f0d39c2cfdf244f5b35",
+  "commit_message": "LH3DCitadel: Carve and work on matching",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 55.551636,
+   "matched_code_percent": 43.32897353221609,
+   "complete_code_percent": 20.098512549592737,
+   "matched_data_percent": 31.840059468314763,
+   "complete_data_percent": 7.668972956839888
+  }
  }
 ]
