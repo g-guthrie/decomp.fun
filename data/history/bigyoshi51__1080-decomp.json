@@ -2009,5 +2009,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T13:31:34Z",
+  "commit_sha": "f93680444fa65d479f888847287c524f17ea148b",
+  "commit_message": "report.json: agent-c run 277 (post0b 5A2C4 98.89->99.26: target r,g,b,a order + removal of order-fitted casts) \u2014 93.07% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.820854,
+   "matched_code_percent": 93.06877724104291,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

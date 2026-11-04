@@ -1127,5 +1127,19 @@
    "matched_data_percent": 31.840059468314763,
    "complete_data_percent": 7.668972956839888
   }
+ },
+ {
+  "timestamp": "2026-11-04T14:05:00Z",
+  "commit_sha": "eb1d373517c382757cab99963ec1b5aa1253c1fc",
+  "commit_message": "TShadowInfo: Carve and work on matching",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 55.716736,
+   "matched_code_percent": 43.4134496455756,
+   "complete_code_percent": 20.098569696831838,
+   "matched_data_percent": 31.845101745773974,
+   "complete_data_percent": 7.668972956839888
+  }
  }
 ]
