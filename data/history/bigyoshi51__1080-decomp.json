@@ -2037,5 +2037,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T15:54:41Z",
+  "commit_sha": "f65dda25365aaa54f5386545f5a75175583f499e",
+  "commit_message": "report.json: agent-c run 279 (post0b 42938 97.60->98.11 via unnamed tail locals) \u2014 93.22% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.825615,
+   "matched_code_percent": 93.21825877613959,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
