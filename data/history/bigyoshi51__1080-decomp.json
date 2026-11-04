@@ -1855,5 +1855,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T01:53:03Z",
+  "commit_sha": "b82028d4d9a19fee69fc7e870bdd4fd15f45f462",
+  "commit_message": "report.json: agent-c run 266 (post0b 5A2C4 96.08->98.04 via (u16) expression-register lever, 3B9C0 95.52; clip 0x2eaf8) \u2014 92.57% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.80231,
+   "matched_code_percent": 92.57155445061602,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
