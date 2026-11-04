@@ -717,5 +717,19 @@
    "matched_data_percent": 74.35445692402583,
    "complete_data_percent": 25.609238839241637
   }
+ },
+ {
+  "timestamp": "2026-11-04T23:06:48Z",
+  "commit_sha": "ee365d3210c46bf87dbf3d2eecf03123bca72a77",
+  "commit_message": "ci: force picci trigger when yaml is changed",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 83.28211,
+   "matched_code_percent": 83.24626652567527,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 74.35445692402583,
+   "complete_data_percent": 25.609238839241637
+  }
  }
 ]

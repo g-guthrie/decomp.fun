@@ -1242,5 +1242,19 @@
    "matched_data_percent": 22.924408100473713,
    "complete_data_percent": 22.924408100473713
   }
+ },
+ {
+  "timestamp": "2026-11-04T22:23:13Z",
+  "commit_sha": "a90a1e0f5f63519a7af81a58439d7b70f61c1c0c",
+  "commit_message": "Match ChallengeSystemJobs (#361)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.407085,
+   "matched_code_percent": 53.339646971501786,
+   "complete_code_percent": 30.088003159003733,
+   "matched_data_percent": 23.0011651789562,
+   "complete_data_percent": 23.0011651789562
+  }
  }
 ]
