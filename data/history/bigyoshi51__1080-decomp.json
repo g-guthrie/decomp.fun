@@ -2051,5 +2051,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T17:06:15Z",
+  "commit_sha": "8a24873392396d42634af47d91eda49ae879e7d6",
+  "commit_message": "report.json: agent-c run 280 (post0b 4F2DC 95.72, 48AEC 97.48 via declaration-order frame homes) \u2014 93.30% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.826035,
+   "matched_code_percent": 93.29693326829576,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

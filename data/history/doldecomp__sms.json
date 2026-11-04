@@ -1204,5 +1204,19 @@
    "matched_data_percent": 91.92042865330586,
    "complete_data_percent": 22.804455820505332
   }
+ },
+ {
+  "timestamp": "2026-11-04T16:34:34Z",
+  "commit_sha": "86500c3107c7a0427585a1d42c57e068e370ac53",
+  "commit_message": "PollutionEvent OK",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 97.10409,
+   "matched_code_percent": 52.203845699604024,
+   "complete_code_percent": 19.076301193731187,
+   "matched_data_percent": 91.92042865330586,
+   "complete_data_percent": 22.8400624052248
+  }
  }
 ]

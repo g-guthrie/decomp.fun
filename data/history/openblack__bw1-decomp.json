@@ -1155,5 +1155,19 @@
    "matched_data_percent": 31.845101745773974,
    "complete_data_percent": 7.668972956839888
   }
+ },
+ {
+  "timestamp": "2026-11-04T16:30:42Z",
+  "commit_sha": "7565e41518bd849bddd474f8b343beba6fe78c1d",
+  "commit_message": "MPFEDownloads: Match and link the unit in every version",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 55.74482,
+   "matched_code_percent": 43.441447230618024,
+   "complete_code_percent": 20.12760984597537,
+   "matched_data_percent": 31.847801146837995,
+   "complete_data_percent": 7.670653715992957
+  }
  }
 ]
