@@ -240,5 +240,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-04T22:01:09Z",
+  "commit_sha": "2ab5c1fc1ad3db365480aae888ff746ed8026249",
+  "commit_message": "decompiled (jp) and revisited (us,eu) ingame/menu/ig_spd_menu.c",
+  "source": "report",
+  "version": "SLUS_203.88",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

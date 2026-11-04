@@ -1211,5 +1211,19 @@
    "matched_data_percent": 31.854896932485655,
    "complete_data_percent": 7.670657622819628
   }
+ },
+ {
+  "timestamp": "2026-11-04T22:15:34Z",
+  "commit_sha": "8c83c94177482745c223509b752cd775e9da66c7",
+  "commit_message": "ZipData: Carve out of ChallengeRoom, match every function and link the unit (#684)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 55.829994,
+   "matched_code_percent": 43.512849078138565,
+   "complete_code_percent": 20.13394728207123,
+   "matched_data_percent": 31.854896932485655,
+   "complete_data_percent": 7.670657622819628
+  }
  }
 ]

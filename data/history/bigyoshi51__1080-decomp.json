@@ -2079,5 +2079,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T21:29:04Z",
+  "commit_sha": "5d147fb1f56a63d247a9742a6d9bd5e11e4ae897",
+  "commit_message": "report.json: agent-c run 282 (kernel 18F0 EXACT via constrained-LR order + late found LR; expected/kernel_000 refreshed) \u2014 93.36% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.833755,
+   "matched_code_percent": 93.36144635186379,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
