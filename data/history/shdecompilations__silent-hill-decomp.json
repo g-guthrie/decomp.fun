@@ -1515,5 +1515,19 @@
    "matched_data_percent": 37.37511767028028,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T18:55:55Z",
+  "commit_sha": "6fe1561134aee34c227d78c2ed9a6f5db5ed2a77",
+  "commit_message": "bodyprog: match WorldMap_TexturesInit EUR",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.37511767028028,
+   "complete_data_percent": 0.0
+  }
  }
 ]
