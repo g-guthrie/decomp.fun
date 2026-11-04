@@ -267,5 +267,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-04T17:30:49Z",
+  "commit_sha": "d051f457b4ad91473c7edea808fda38260ba15be",
+  "commit_message": "Rollback msc00_data",
+  "source": "report",
+  "version": "SCUS_942.36",
+  "measures": {
+   "fuzzy_match_percent": 67.2702,
+   "matched_code_percent": 67.27020408163266,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

@@ -2065,5 +2065,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T18:17:58Z",
+  "commit_sha": "c13e3e92fdadc6814545f34b27573368f325f840",
+  "commit_message": "report.json: agent-c run 281 (kernel 18F0 89.39->94.76 via no parameter copy + decl init; post0b 36694 95.90) \u2014 93.30% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.830376,
+   "matched_code_percent": 93.29693326829576,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
