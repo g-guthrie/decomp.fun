@@ -1911,5 +1911,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T06:21:11Z",
+  "commit_sha": "5615972aa02a7ce6f64d0c183acd8992d8bc2965",
+  "commit_message": "report.json: agent-g run 270 (post 2E354 98.60->99.07 at target length; reloc-table-backed D_E354_GB decode fix) \u2014 93.07% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.812126,
+   "matched_code_percent": 93.06877724104291,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
