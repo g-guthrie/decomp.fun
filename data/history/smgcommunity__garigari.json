@@ -1186,5 +1186,19 @@
    "matched_data_percent": 11.009176467271539,
    "complete_data_percent": 2.345332124213563
   }
+ },
+ {
+  "timestamp": "2026-11-04T21:45:49Z",
+  "commit_sha": "c5e527b9479246b262836276af3dacaccf1bae32",
+  "commit_message": "Match and link `ActionBgmCtrl`",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.52152,
+   "matched_code_percent": 19.66190587086833,
+   "complete_code_percent": 2.401495551309086,
+   "matched_data_percent": 11.016224445206669,
+   "complete_data_percent": 2.353319832540044
+  }
  }
 ]
