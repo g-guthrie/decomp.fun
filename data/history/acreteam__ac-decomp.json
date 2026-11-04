@@ -289,5 +289,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T08:45:06Z",
+  "commit_sha": "10cc12b144ee4be4b4cd7db91a5b6fa289529c78",
+  "commit_message": "Link emu64 for Aus, shape mostly matches between US and Aus",
+  "source": "report",
+  "version": "GAFE01_00",
+  "measures": {
+   "fuzzy_match_percent": 100.00001,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
