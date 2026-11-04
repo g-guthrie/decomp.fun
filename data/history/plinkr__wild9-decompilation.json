@@ -117,5 +117,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-04T06:09:38Z",
+  "commit_sha": "ca8f66986523e0d5ddbdd0621a533b9230445d19",
+  "commit_message": "feat: allow `-mno-split-addresses` and match `toupper` and `tolower`",
+  "source": "report",
+  "version": "slus_004.25",
+  "measures": {
+   "fuzzy_match_percent": 6.956278,
+   "matched_code_percent": 6.956277712297244,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

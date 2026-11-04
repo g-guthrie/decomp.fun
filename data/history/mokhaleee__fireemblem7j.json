@@ -173,5 +173,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-04T09:13:27Z",
+  "commit_sha": "8649d1fed3b1a63a1451542b6a065dedbd53248f",
+  "commit_message": "Merge pull request #67 from kagnusdev/fix-ci",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 0.0,
+   "matched_code_percent": 19.014059495360012,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

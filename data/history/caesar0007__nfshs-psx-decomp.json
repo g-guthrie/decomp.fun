@@ -500,5 +500,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-04T08:23:29Z",
+  "commit_sha": "6f20d915c69eaeee58d37617e64ca7804d1861e9",
+  "commit_message": "sym/sld(2026-11-03cp): seal 12 TUs at 100% EXACT and advance 7 TUs (2480/2570 SYM CLEAN, 90 DIRTY)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
