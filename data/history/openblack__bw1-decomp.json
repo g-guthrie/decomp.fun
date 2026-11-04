@@ -1099,5 +1099,19 @@
    "matched_data_percent": 31.818295257791394,
    "complete_data_percent": 7.668969050873244
   }
+ },
+ {
+  "timestamp": "2026-11-03T23:20:15Z",
+  "commit_sha": "97a805e4cce54c4e959c6f5e5061dcab00a2e5b3",
+  "commit_message": "Fix links to badges",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 55.425625,
+   "matched_code_percent": 43.29119490775229,
+   "complete_code_percent": 20.098512549592737,
+   "matched_data_percent": 31.818295257791394,
+   "complete_data_percent": 7.668969050873244
+  }
  }
 ]

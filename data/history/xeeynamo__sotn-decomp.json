@@ -675,5 +675,19 @@
    "matched_data_percent": 74.33983339037094,
    "complete_data_percent": 25.62263088358952
   }
+ },
+ {
+  "timestamp": "2026-11-04T00:27:06Z",
+  "commit_sha": "c4d08235ee9f1242eeb40c23eb13c7aa2de273d5",
+  "commit_message": "Decompile `func_06006FA8` + split zero.c and move data (#3805)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 83.17931,
+   "matched_code_percent": 83.14340044694333,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 74.3416416244831,
+   "complete_data_percent": 25.620822709773872
+  }
  }
 ]
