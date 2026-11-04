@@ -1883,5 +1883,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T03:57:48Z",
+  "commit_sha": "2dbb7188fed1e15a459ad367e85b05364698e18f",
+  "commit_message": "report.json: agent-g run 268 (post 2E354 97.93->98.15: sp6B decode fix [length 3684->3688, flagged] + o->0x14 via selector) \u2014 92.81% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.80625,
+   "matched_code_percent": 92.81387188645698,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

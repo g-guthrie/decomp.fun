@@ -460,5 +460,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T04:07:46Z",
+  "commit_sha": "633b9b236eadeea6f5a67929dcb0f587d50ac99e",
+  "commit_message": "Analyze remaining unlabeled funcs and globals in menu (#1124)",
+  "source": "report",
+  "version": "SLUS_010.13",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

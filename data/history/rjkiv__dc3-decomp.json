@@ -1214,5 +1214,19 @@
    "matched_data_percent": 22.79357956310261,
    "complete_data_percent": 22.79357956310261
   }
+ },
+ {
+  "timestamp": "2026-11-04T03:57:10Z",
+  "commit_sha": "52f60770513290a17bdc0394825778f3ccbf8ac6",
+  "commit_message": "match friendslistjobs",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.403847,
+   "matched_code_percent": 53.32168914944479,
+   "complete_code_percent": 29.997329265515248,
+   "matched_data_percent": 22.924408100473713,
+   "complete_data_percent": 22.924408100473713
+  }
  }
 ]
