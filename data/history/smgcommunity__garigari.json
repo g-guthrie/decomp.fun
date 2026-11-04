@@ -1172,5 +1172,19 @@
    "matched_data_percent": 11.002598354532084,
    "complete_data_percent": 2.3382841462784327
   }
+ },
+ {
+  "timestamp": "2026-11-04T20:08:16Z",
+  "commit_sha": "2de5799422300207149bbb86d0e85500a99dd233",
+  "commit_message": "Import and match `ActorAnimKeeper` from Petari",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.50225,
+   "matched_code_percent": 19.64263724905332,
+   "complete_code_percent": 2.382226929494071,
+   "matched_data_percent": 11.009176467271539,
+   "complete_data_percent": 2.345332124213563
+  }
  }
 ]

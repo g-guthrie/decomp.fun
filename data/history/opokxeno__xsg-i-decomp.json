@@ -582,5 +582,19 @@
    "matched_data_percent": 98.26417679341378,
    "complete_data_percent": 98.26417679341378
   }
+ },
+ {
+  "timestamp": "2026-11-04T19:47:47Z",
+  "commit_sha": "9186844a14f4ed0c06573c5e6d4bd88cd178873d",
+  "commit_message": "Code cleanup in OV12",
+  "source": "report",
+  "version": "SLUS_204.69",
+  "measures": {
+   "fuzzy_match_percent": 92.60688,
+   "matched_code_percent": 92.60687776904045,
+   "complete_code_percent": 83.66712058152247,
+   "matched_data_percent": 98.26417679341378,
+   "complete_data_percent": 98.26417679341378
+  }
  }
 ]

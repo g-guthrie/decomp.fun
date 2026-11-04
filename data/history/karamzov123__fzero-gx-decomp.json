@@ -1367,5 +1367,19 @@
    "matched_data_percent": 54.3096646573109,
    "complete_data_percent": 54.3096646573109
   }
+ },
+ {
+  "timestamp": "2026-11-04T19:22:00Z",
+  "commit_sha": "36f5b8919faa9a17750ac1d07c8c51687495a574",
+  "commit_message": "data: import main_rel .bss/.data and replay .rodata (data 61.46% -> 65.03%)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 91.76822,
+   "matched_code_percent": 86.6670026053406,
+   "complete_code_percent": 86.31058983113634,
+   "matched_data_percent": 65.02964514024299,
+   "complete_data_percent": 65.02964514024299
+  }
  }
 ]
