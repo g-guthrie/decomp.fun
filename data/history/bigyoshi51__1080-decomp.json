@@ -1897,5 +1897,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T05:09:54Z",
+  "commit_sha": "caf2cded569f677cc842157131e45ac003cf45bb",
+  "commit_message": "report.json: agent-g run 269 (post 2E354 98.15->98.60 back at target length 3684; 59E80 98.50) \u2014 92.89% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.80901,
+   "matched_code_percent": 92.89359537184187,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
