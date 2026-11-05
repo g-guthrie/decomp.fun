@@ -387,5 +387,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T10:52:07Z",
+  "commit_sha": "492d015f4ac0bf013e4bb8e05bba2a6cfa914330",
+  "commit_message": "Link Aus dataobject",
+  "source": "report",
+  "version": "GAFE01_00",
+  "measures": {
+   "fuzzy_match_percent": 100.00001,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

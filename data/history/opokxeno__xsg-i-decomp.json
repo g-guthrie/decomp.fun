@@ -652,5 +652,19 @@
    "matched_data_percent": 98.58145785135758,
    "complete_data_percent": 97.82178143163361
   }
+ },
+ {
+  "timestamp": "2026-11-05T10:52:28Z",
+  "commit_sha": "c9bde9de3c809916090f2f0d9172da4e8d369794",
+  "commit_message": "Data recovery in OV10",
+  "source": "report",
+  "version": "SLUS_204.69",
+  "measures": {
+   "fuzzy_match_percent": 94.46441,
+   "matched_code_percent": 94.46441243598842,
+   "complete_code_percent": 88.91616640135024,
+   "matched_data_percent": 99.24989421547909,
+   "complete_data_percent": 98.65941502537522
+  }
  }
 ]

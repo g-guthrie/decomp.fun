@@ -2233,5 +2233,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T10:41:12Z",
+  "commit_sha": "ed763b03fd53349d34d558914faf246121f49461",
+  "commit_message": "report.json: agent-c run 293 (post0b 59E80 98.66->99.51 via in-place packets; 37540 97.75) \u2014 94.22% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.8541,
+   "matched_code_percent": 94.22424328250962,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
