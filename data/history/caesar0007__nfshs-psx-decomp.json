@@ -542,5 +542,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-05T17:23:16Z",
+  "commit_sha": "66cebac2a6a5c5fb93ebb019d1feccc492ce95c6",
+  "commit_message": "Eliminate __complex__/__real__ in recon/game/psx/overlays.cpp",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 99.9998550415039,
+   "matched_code_percent": 99.95351595684998,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

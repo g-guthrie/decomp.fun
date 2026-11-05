@@ -1246,5 +1246,19 @@
    "matched_data_percent": 91.92042865330586,
    "complete_data_percent": 22.842561112924407
   }
+ },
+ {
+  "timestamp": "2026-11-05T17:44:16Z",
+  "commit_sha": "ab8740490631b7d487c13d6b8377622cd6f61142",
+  "commit_message": "PacketUtil marked as matching",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 97.104126,
+   "matched_code_percent": 52.21509890565357,
+   "complete_code_percent": 19.243428016249183,
+   "matched_data_percent": 91.92042865330586,
+   "complete_data_percent": 22.858802712971883
+  }
  }
 ]

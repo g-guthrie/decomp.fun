@@ -1421,5 +1421,19 @@
    "matched_data_percent": 32.0905191677568,
    "complete_data_percent": 7.97429308400229
   }
+ },
+ {
+  "timestamp": "2026-11-05T17:34:27Z",
+  "commit_sha": "d34c9c550e22dec448562bcc0a8e38bbadd3c54a",
+  "commit_message": "MPFEFileTransfer: Decompile the lobby file transfer (#706)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 57.038445,
+   "matched_code_percent": 44.80933583044086,
+   "complete_code_percent": 21.402725320257073,
+   "matched_data_percent": 32.09082475379315,
+   "complete_data_percent": 7.97429308400229
+  }
  }
 ]
