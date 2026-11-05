@@ -134,5 +134,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T19:17:03Z",
+  "commit_sha": "3fc607741735bd66f6100051891523a0d9728041",
+  "commit_message": "Link exact xprintf puts override directly",
+  "source": "report",
+  "version": "SNES_EMU",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

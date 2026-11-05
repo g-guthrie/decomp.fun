@@ -843,5 +843,19 @@
    "matched_data_percent": 75.70498142920238,
    "complete_data_percent": 24.25871103148086
   }
+ },
+ {
+  "timestamp": "2026-11-05T18:25:11Z",
+  "commit_sha": "6c0e79ba0515570892c8d29a73c0774857c3eb1f",
+  "commit_message": "build: C version of maspsx for faster build time (#3821)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.57826,
+   "matched_code_percent": 82.54285380883658,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 75.70498142920238,
+   "complete_data_percent": 24.25871103148086
+  }
  }
 ]
