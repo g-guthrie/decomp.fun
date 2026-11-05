@@ -1309,5 +1309,19 @@
    "matched_data_percent": 32.079949638343926,
    "complete_data_percent": 7.749700328282821
   }
+ },
+ {
+  "timestamp": "2026-11-05T09:15:46Z",
+  "commit_sha": "cc2dbf5faeca2b6152d59495f32321e6f9758b17",
+  "commit_message": "Skills: Fix how skills talk about backporting to CI",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 56.32928,
+   "matched_code_percent": 43.97966986949696,
+   "complete_code_percent": 20.534428940654685,
+   "matched_data_percent": 32.079949638343926,
+   "complete_data_percent": 7.749700328282821
+  }
  }
 ]
