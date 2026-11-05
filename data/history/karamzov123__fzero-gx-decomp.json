@@ -1423,5 +1423,19 @@
    "matched_data_percent": 78.08982346289883,
    "complete_data_percent": 78.08982346289883
   }
+ },
+ {
+  "timestamp": "2026-11-05T14:28:08Z",
+  "commit_sha": "3f6f5733f4cdd7334837db9dc4143ffacef5e42d",
+  "commit_message": "Merge pull request #186 from jedgentry/decomp/fn-80060c54",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 92.532524,
+   "matched_code_percent": 87.396988264391,
+   "complete_code_percent": 86.98323893002625,
+   "matched_data_percent": 78.08982346289883,
+   "complete_data_percent": 78.08982346289883
+  }
  }
 ]
