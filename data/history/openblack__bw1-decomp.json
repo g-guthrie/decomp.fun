@@ -1337,5 +1337,19 @@
    "matched_data_percent": 32.09015240164052,
    "complete_data_percent": 7.760196292396217
   }
+ },
+ {
+  "timestamp": "2026-11-05T11:44:05Z",
+  "commit_sha": "0e624dba8a936324dc9f785b04792665829a0ad3",
+  "commit_message": "AnimalPig: Carve the code-less unit",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 56.43987,
+   "matched_code_percent": 44.22137016466499,
+   "complete_code_percent": 20.537171611241853,
+   "matched_data_percent": 32.09040706224797,
+   "complete_data_percent": 7.760450953003659
+  }
  }
 ]

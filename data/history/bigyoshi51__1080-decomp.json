@@ -2247,5 +2247,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T11:53:34Z",
+  "commit_sha": "101759ff18813cf64aa09217f2bf8c070c47ce24",
+  "commit_message": "report.json: agent-g run 292 (gui 0F04 98.84, post0b 4B620 99.69 via me() accessor depth grids) \u2014 94.22% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.85487,
+   "matched_code_percent": 94.22424328250962,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
