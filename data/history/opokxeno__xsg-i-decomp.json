@@ -624,5 +624,19 @@
    "matched_data_percent": 98.58145785135758,
    "complete_data_percent": 97.82178143163361
   }
+ },
+ {
+  "timestamp": "2026-11-05T01:11:55Z",
+  "commit_sha": "526b37cf6416cb22369715d0b0880e92b7ecfcb9",
+  "commit_message": "Merge pull request #64 from derwetterfrosch/ov10-tu002-card-fread",
+  "source": "report",
+  "version": "SLUS_204.69",
+  "measures": {
+   "fuzzy_match_percent": 94.306755,
+   "matched_code_percent": 94.30675693818446,
+   "complete_code_percent": 80.483515218934,
+   "matched_data_percent": 98.58145785135758,
+   "complete_data_percent": 97.82178143163361
+  }
  }
 ]
