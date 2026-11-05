@@ -675,5 +675,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-05T04:37:31Z",
+  "commit_sha": "9ef413193151bae7b38a893612e34a6e1e7d1092",
+  "commit_message": "Add types.h and the globals fn_802CCB84 uses",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 65.92066,
+   "matched_code_percent": 27.61124057286059,
+   "complete_code_percent": 2.5768497912948374,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
