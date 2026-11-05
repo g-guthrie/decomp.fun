@@ -1281,5 +1281,19 @@
    "matched_data_percent": 32.07981318097838,
    "complete_data_percent": 7.7495514790051425
   }
+ },
+ {
+  "timestamp": "2026-11-05T03:10:40Z",
+  "commit_sha": "36b95522fa370812182529781bc1510abf7724e4",
+  "commit_message": "Use the asm harvest skill to match dupes",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 56.31821,
+   "matched_code_percent": 43.96105731471997,
+   "complete_code_percent": 20.52342905975712,
+   "matched_data_percent": 32.07979684205728,
+   "complete_data_percent": 7.749547531996178
+  }
  }
 ]

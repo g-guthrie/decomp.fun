@@ -1242,5 +1242,19 @@
    "matched_data_percent": 11.021392962359098,
    "complete_data_percent": 2.3589582148881485
   }
+ },
+ {
+  "timestamp": "2026-11-05T02:33:57Z",
+  "commit_sha": "d969f2ca7f0c296574c53c0c6d6b64efcf86e647",
+  "commit_message": "Link and import `ActorPadAndCameraCtrl`",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.608185,
+   "matched_code_percent": 19.734195104366385,
+   "complete_code_percent": 2.4357579682450563,
+   "matched_data_percent": 11.021392962359098,
+   "complete_data_percent": 2.373524035954085
+  }
  }
 ]
