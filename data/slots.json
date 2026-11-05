@@ -1154,10 +1154,17 @@
   "history": []
  },
  "win32:plants-vs-zombies": {
-  "leader": "bluisblu/pvz",
+  "leader": null,
   "since": "2026-10-18T23:27:33+00:00",
   "challengers": {},
-  "history": []
+  "history": [
+   {
+    "from": "bluisblu/pvz",
+    "to": null,
+    "at": "2026-11-05T08:28:04+00:00",
+    "reason": "leader gone"
+   }
+  ]
  },
  "win32:snail-mail": {
   "leader": "banteg/snail",

@@ -359,5 +359,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T08:12:01Z",
+  "commit_sha": "143cdcf7743e4664cbe43dae65e4419f5e9ef488",
+  "commit_message": "Link famicom_nesinfo for Aus",
+  "source": "report",
+  "version": "GAFE01_00",
+  "measures": {
+   "fuzzy_match_percent": 100.00001,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

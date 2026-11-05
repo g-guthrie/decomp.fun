@@ -55,5 +55,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-05T08:01:43Z",
+  "commit_sha": "a4891aa5982bfc8a52d085ae09fd7a86ec61cc8d",
+  "commit_message": "Make an archive handle with one helper",
+  "source": "report",
+  "version": "YKGP",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.99787618137411,
+   "complete_data_percent": 99.99787618137411
+  }
  }
 ]

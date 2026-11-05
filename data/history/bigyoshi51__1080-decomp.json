@@ -2205,5 +2205,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T08:17:29Z",
+  "commit_sha": "462bcc8df5d47a4627e1c97e311ca71d53e46885",
+  "commit_message": "report.json: agent-g run 289 (post 33094 EXACT via named constant; post0b 37540 97.63 via literal decode fix) \u2014 94.22% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.85242,
+   "matched_code_percent": 94.22424328250962,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

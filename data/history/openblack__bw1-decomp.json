@@ -1295,5 +1295,19 @@
    "matched_data_percent": 32.07979684205728,
    "complete_data_percent": 7.749547531996178
   }
+ },
+ {
+  "timestamp": "2026-11-05T08:07:48Z",
+  "commit_sha": "87d5f6203748a7ea93b922c2ff57a8cd2ac3440b",
+  "commit_message": "LHPoint: Carve and Match",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 56.32928,
+   "matched_code_percent": 43.97966986949696,
+   "complete_code_percent": 20.534428940654685,
+   "matched_data_percent": 32.079949638343926,
+   "complete_data_percent": 7.749700328282821
+  }
  }
 ]
