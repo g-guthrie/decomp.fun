@@ -281,5 +281,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-05T05:36:29Z",
+  "commit_sha": "406404907e25d31fe3a02a2dd4766e64680b2c8f",
+  "commit_message": "Migrate data, rodata and cleanup code.",
+  "source": "report",
+  "version": "SCUS_942.36",
+  "measures": {
+   "fuzzy_match_percent": 67.2702,
+   "matched_code_percent": 67.27020408163266,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
