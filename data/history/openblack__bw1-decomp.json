@@ -1379,5 +1379,19 @@
    "matched_data_percent": 32.0907126549769,
    "complete_data_percent": 7.760450953003659
   }
+ },
+ {
+  "timestamp": "2026-11-05T15:00:07Z",
+  "commit_sha": "1c364c9ba404e19f2197c708a9e04b98cce34dad",
+  "commit_message": "libcpmt: Set partial matching for 4 TUs",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 56.993004,
+   "matched_code_percent": 44.77451880295897,
+   "complete_code_percent": 21.39587046551385,
+   "matched_data_percent": 32.0903279892087,
+   "complete_data_percent": 7.920538179673516
+  }
  }
 ]
