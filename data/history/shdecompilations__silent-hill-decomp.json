@@ -1627,5 +1627,19 @@
    "matched_data_percent": 37.29424389058735,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T20:58:09Z",
+  "commit_sha": "430892d38dcef7739aba40081a351dcd41c27d6b",
+  "commit_message": "misc: move some garbage from C to postbuild",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.46089280832667,
+   "complete_data_percent": 0.0
+  }
  }
 ]

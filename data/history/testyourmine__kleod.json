@@ -170,5 +170,19 @@
    "matched_data_percent": 87.79447002043675,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T21:04:28Z",
+  "commit_sha": "280007663a7adebb9a3aacf5cf9a59830b129247",
+  "commit_message": "Extract some data from code_0805769C",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 87.83738409643918,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -1435,5 +1435,19 @@
    "matched_data_percent": 32.09082475379315,
    "complete_data_percent": 7.97429308400229
   }
+ },
+ {
+  "timestamp": "2026-11-05T20:44:50Z",
+  "commit_sha": "2fa3a5981ed84002714799f5df8edd865a33e6e7",
+  "commit_message": "MPFEFindGame: Decompile the lobby-type screen (#707)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 57.951946,
+   "matched_code_percent": 45.675249874872975,
+   "complete_code_percent": 22.430118453581667,
+   "matched_data_percent": 32.11204662833092,
+   "complete_data_percent": 8.05430159238256
+  }
  }
 ]
