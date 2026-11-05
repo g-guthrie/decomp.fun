@@ -1323,5 +1323,19 @@
    "matched_data_percent": 32.079949638343926,
    "complete_data_percent": 7.749700328282821
   }
+ },
+ {
+  "timestamp": "2026-11-05T09:59:40Z",
+  "commit_sha": "9d3d79c656b9b7a741f958c9b807afe0c382508a",
+  "commit_message": "splits: fill .text gaps from Mac symbols",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 56.40352,
+   "matched_code_percent": 44.18504839932103,
+   "complete_code_percent": 20.536015229359815,
+   "matched_data_percent": 32.09015240164052,
+   "complete_data_percent": 7.760196292396217
+  }
  }
 ]
