@@ -1449,5 +1449,19 @@
    "matched_data_percent": 32.11204662833092,
    "complete_data_percent": 8.05430159238256
   }
+ },
+ {
+  "timestamp": "2026-11-05T22:12:06Z",
+  "commit_sha": "a1a6af506bf2ae0ff860640c423e3515a86fae4b",
+  "commit_message": "ScriptCreatureCurse: Match and link the unit in every version",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 57.955997,
+   "matched_code_percent": 45.67930702379688,
+   "complete_code_percent": 22.434877072179333,
+   "matched_data_percent": 32.11240314519175,
+   "complete_data_percent": 8.054658109243388
+  }
  }
 ]

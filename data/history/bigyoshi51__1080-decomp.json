@@ -2359,5 +2359,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T21:32:22Z",
+  "commit_sha": "6008744082af15eaee4e7e5a7f7a38a9218be7e5",
+  "commit_message": "report.json: agent-g run 300 (gui 3714 EXACT via variable reuse; 54E78 99.57, 4BAF4 98.02) \u2014 94.81% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.870094,
+   "matched_code_percent": 94.80643452446515,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
