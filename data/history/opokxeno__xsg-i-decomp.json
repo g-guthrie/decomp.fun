@@ -666,5 +666,19 @@
    "matched_data_percent": 99.24989421547909,
    "complete_data_percent": 98.65941502537522
   }
+ },
+ {
+  "timestamp": "2026-11-05T12:58:13Z",
+  "commit_sha": "3a7b38237fbbc9002901c54a2f35ef5eab826e54",
+  "commit_message": "Code cleanup in OV10",
+  "source": "report",
+  "version": "SLUS_204.69",
+  "measures": {
+   "fuzzy_match_percent": 94.46441,
+   "matched_code_percent": 94.46441243598842,
+   "complete_code_percent": 88.91616640135024,
+   "matched_data_percent": 99.24989421547909,
+   "complete_data_percent": 98.65941502537522
+  }
  }
 ]
