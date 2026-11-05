@@ -2303,5 +2303,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T16:39:12Z",
+  "commit_sha": "4b9a1b5c2bd3f0a6145964b73e303f89c711f351",
+  "commit_message": "report.json: agent-g run 296 (post0b 4FD00 98.65, 4BAF4 98.01 via deep accessor nesting) \u2014 94.63% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.86529,
+   "matched_code_percent": 94.63177715187848,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

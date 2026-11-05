@@ -1407,5 +1407,19 @@
    "matched_data_percent": 32.090213581720455,
    "complete_data_percent": 7.973987497965942
   }
+ },
+ {
+  "timestamp": "2026-11-05T16:21:20Z",
+  "commit_sha": "3686979e4c401b6432eb9bb86b0ad79a430862f7",
+  "commit_message": "Fill 7 more splits gaps and match sevral 7 TUs",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 56.999165,
+   "matched_code_percent": 44.78067985396982,
+   "complete_code_percent": 21.402031516524698,
+   "matched_data_percent": 32.0905191677568,
+   "complete_data_percent": 7.97429308400229
+  }
  }
 ]

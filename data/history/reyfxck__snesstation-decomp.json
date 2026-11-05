@@ -106,5 +106,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T17:18:54Z",
+  "commit_sha": "116d58179b5797113da52298680a0f6f8436b764",
+  "commit_message": "Refresh linkage status after numtestf and get_tree promotion",
+  "source": "report",
+  "version": "SNES_EMU",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
