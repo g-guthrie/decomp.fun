@@ -333,5 +333,19 @@
    "matched_data_percent": 24.4217160511539,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-04T23:58:19Z",
+  "commit_sha": "9411173034bde2ae4c9b0312167e79c3645ca1be",
+  "commit_message": "main: match four SysAddPair* materia functions in 17238 (#391)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 68.385925,
+   "matched_code_percent": 68.38592864201384,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.435228527673885,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -1239,5 +1239,19 @@
    "matched_data_percent": 31.946625683286246,
    "complete_data_percent": 7.670657622819628
   }
+ },
+ {
+  "timestamp": "2026-11-05T00:18:00Z",
+  "commit_sha": "25eb13fd2e01b418dafe173f000a4c2afa411d6f",
+  "commit_message": "MPFECreatureDownload: Match every function and link the unit (#686)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 56.247528,
+   "matched_code_percent": 43.90489091903114,
+   "complete_code_percent": 20.522205565552085,
+   "matched_data_percent": 31.947287800865592,
+   "complete_data_percent": 7.749500546883654
+  }
  }
 ]
