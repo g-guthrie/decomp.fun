@@ -1228,5 +1228,19 @@
    "matched_data_percent": 11.020923097163424,
    "complete_data_percent": 2.353319832540044
   }
+ },
+ {
+  "timestamp": "2026-11-05T01:27:54Z",
+  "commit_sha": "fc40d9811df6ecf67c96ca57d9d9630a182893bf",
+  "commit_message": "Import `FootPrint` from Petari and `DirectDraw` header from Petari and link `ActionFootPrintCtrl`",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.588152,
+   "matched_code_percent": 19.71416084194945,
+   "complete_code_percent": 2.4157237058281202,
+   "matched_data_percent": 11.021392962359098,
+   "complete_data_percent": 2.3589582148881485
+  }
  }
 ]

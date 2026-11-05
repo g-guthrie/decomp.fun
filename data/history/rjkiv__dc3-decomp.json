@@ -1256,5 +1256,19 @@
    "matched_data_percent": 23.0011651789562,
    "complete_data_percent": 23.0011651789562
   }
+ },
+ {
+  "timestamp": "2026-11-05T01:40:25Z",
+  "commit_sha": "8e1425114f4635cde89ff98bec3f437f7221132e",
+  "commit_message": "mark jsonutils as matching",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.42182,
+   "matched_code_percent": 53.3438742690298,
+   "complete_code_percent": 30.109827811357665,
+   "matched_data_percent": 23.019460033467386,
+   "complete_data_percent": 23.019460033467386
+  }
  }
 ]

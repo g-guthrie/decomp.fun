@@ -745,5 +745,19 @@
    "matched_data_percent": 74.35445005793352,
    "complete_data_percent": 25.609245695614195
   }
+ },
+ {
+  "timestamp": "2026-11-05T02:08:44Z",
+  "commit_sha": "281da6b5ebe5a2a470c1e2351ba4a9dbd048c471",
+  "commit_message": "Fix weapon1 progress not being handled correctly (#3820)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.57845,
+   "matched_code_percent": 82.54285380883658,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 74.35445005793352,
+   "complete_data_percent": 25.609245695614195
+  }
  }
 ]

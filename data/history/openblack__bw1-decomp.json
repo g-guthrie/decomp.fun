@@ -1267,5 +1267,19 @@
    "matched_data_percent": 32.079762248856895,
    "complete_data_percent": 7.749500546883654
   }
+ },
+ {
+  "timestamp": "2026-11-05T02:03:26Z",
+  "commit_sha": "270d1cf0d6d6a30b269d249de658f453a4ba0cc4",
+  "commit_message": "splits: fill in .text gaps and match LH3DLine",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 56.27225,
+   "matched_code_percent": 43.916413924415615,
+   "complete_code_percent": 20.52342905975712,
+   "matched_data_percent": 32.07981318097838,
+   "complete_data_percent": 7.7495514790051425
+  }
  }
 ]
