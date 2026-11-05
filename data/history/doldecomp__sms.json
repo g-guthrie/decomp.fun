@@ -1232,5 +1232,19 @@
    "matched_data_percent": 91.92042865330586,
    "complete_data_percent": 22.8400624052248
   }
+ },
+ {
+  "timestamp": "2026-11-05T09:55:31Z",
+  "commit_sha": "7d5cacad3171de0cda87d88d89345851036b0373",
+  "commit_message": "ModelUtil OK",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 97.104126,
+   "matched_code_percent": 52.21509890565357,
+   "complete_code_percent": 19.11518603443704,
+   "matched_data_percent": 91.92042865330586,
+   "complete_data_percent": 22.842561112924407
+  }
  }
 ]

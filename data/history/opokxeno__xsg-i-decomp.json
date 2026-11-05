@@ -638,5 +638,19 @@
    "matched_data_percent": 98.58145785135758,
    "complete_data_percent": 97.82178143163361
   }
+ },
+ {
+  "timestamp": "2026-11-05T09:48:07Z",
+  "commit_sha": "c8213eef96c87da5d3f6f6459aac08ff50bacb66",
+  "commit_message": "Recovered CardPlayDispBattle in OV10",
+  "source": "report",
+  "version": "SLUS_204.69",
+  "measures": {
+   "fuzzy_match_percent": 94.46441,
+   "matched_code_percent": 94.46441243598842,
+   "complete_code_percent": 80.483515218934,
+   "matched_data_percent": 98.58145785135758,
+   "complete_data_percent": 97.82178143163361
+  }
  }
 ]

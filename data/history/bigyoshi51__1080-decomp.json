@@ -2219,5 +2219,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T09:28:59Z",
+  "commit_sha": "e7125ba75179f716693ccc47aeafbb01a0e2224f",
+  "commit_message": "report.json: agent-c run 292 (post0b 3BE1C 99.17->99.27 via scratch address + stale fold removal) \u2014 94.22% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.85263,
+   "matched_code_percent": 94.22424328250962,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
