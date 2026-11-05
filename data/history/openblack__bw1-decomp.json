@@ -1365,5 +1365,19 @@
    "matched_data_percent": 32.09040706224797,
    "complete_data_percent": 7.760450953003659
   }
+ },
+ {
+  "timestamp": "2026-11-05T14:10:30Z",
+  "commit_sha": "035dd8431d3d3757c796054fb6da0d2d465892ec",
+  "commit_message": "MPFEGameStartMessages: Write StartGameNow and DisconnectNow, match Ready",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 56.480064,
+   "matched_code_percent": 44.26157813141579,
+   "complete_code_percent": 20.537171611241853,
+   "matched_data_percent": 32.0907126549769,
+   "complete_data_percent": 7.760450953003659
+  }
  }
 ]

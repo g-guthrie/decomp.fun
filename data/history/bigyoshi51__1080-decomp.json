@@ -2275,5 +2275,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T14:16:30Z",
+  "commit_sha": "847b7a8c0107954262573296bed519736bcc9715",
+  "commit_message": "report.json: agent-g run 294 (gui 0F04 EXACT; 329C 99.63, 4FD00 98.09, 48AEC 97.72) \u2014 94.53% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.86185,
+   "matched_code_percent": 94.53159829853298,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

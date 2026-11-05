@@ -829,5 +829,19 @@
    "matched_data_percent": 75.70498142920238,
    "complete_data_percent": 24.25871103148086
   }
+ },
+ {
+  "timestamp": "2026-11-05T14:07:35Z",
+  "commit_sha": "ae5525c93b1173df9679ff6c3cf1de0be03febf7",
+  "commit_message": "pc: build no1 (#3823)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.578384,
+   "matched_code_percent": 82.54285380883658,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 75.70498142920238,
+   "complete_data_percent": 24.25871103148086
+  }
  }
 ]
