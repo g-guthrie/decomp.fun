@@ -2345,5 +2345,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T20:20:26Z",
+  "commit_sha": "02d68ce84fb8f54172cc65542a5106c907aaec55",
+  "commit_message": "report.json: agent-g run 299 (gui 3714 99.14->99.92 via header-line join) \u2014 94.63% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.86915,
+   "matched_code_percent": 94.63177715187848,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
