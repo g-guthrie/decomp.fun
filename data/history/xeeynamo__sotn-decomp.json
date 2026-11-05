@@ -773,5 +773,19 @@
    "matched_data_percent": 75.70498142920238,
    "complete_data_percent": 24.25871103148086
   }
+ },
+ {
+  "timestamp": "2026-11-05T03:44:03Z",
+  "commit_sha": "bd7c6fd58fade11cea958305120ed95798c17c84",
+  "commit_message": "pc: import rare data build (#3816)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.57826,
+   "matched_code_percent": 82.54285380883658,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 75.70498142920238,
+   "complete_data_percent": 24.25871103148086
+  }
  }
 ]

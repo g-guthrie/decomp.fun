@@ -2149,5 +2149,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T03:28:49Z",
+  "commit_sha": "7515bd185bff55d835c56e7dc5b125176d930666",
+  "commit_message": "report.json: agent-c run 287 (post0b 3AE58 EXACT via phantom pk + named dst arg; 3B9C0 99.12) \u2014 93.89% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.84338,
+   "matched_code_percent": 93.89433491206815,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
