@@ -2471,5 +2471,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T08:08:55Z",
+  "commit_sha": "70c6507ef0a0faedc6b65acdb80bd61d90a92990",
+  "commit_message": "report.json: agent-c run 311 (gui 2DE0 97.49->97.77) \u2014 95.74% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.89218,
+   "matched_code_percent": 95.74370997435211,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

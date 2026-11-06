@@ -516,5 +516,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-06T08:20:05Z",
+  "commit_sha": "2b90da3b46136b93281f751d8f969cd2cee5f094",
+  "commit_message": "Match EnemyGiant's charge check and the player's item effect 10",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 31.467791253147592,
+   "matched_code_percent": 31.467791253147592,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
