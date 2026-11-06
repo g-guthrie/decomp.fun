@@ -1547,5 +1547,19 @@
    "matched_data_percent": 33.002926694093865,
    "complete_data_percent": 8.078309888283366
   }
+ },
+ {
+  "timestamp": "2026-11-06T13:50:02Z",
+  "commit_sha": "4eeed072006b0f6e247df9e38331bbbc597049e8",
+  "commit_message": "Use MAX_PATH for path buffers",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 59.77832,
+   "matched_code_percent": 46.98694807524693,
+   "complete_code_percent": 22.579389853239807,
+   "matched_data_percent": 33.002926694093865,
+   "complete_data_percent": 8.078309888283366
+  }
  }
 ]
