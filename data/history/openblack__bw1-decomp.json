@@ -1589,5 +1589,19 @@
    "matched_data_percent": 33.0100069531642,
    "complete_data_percent": 8.078239652392728
   }
+ },
+ {
+  "timestamp": "2026-11-06T18:53:34Z",
+  "commit_sha": "be5d74f2571be28e3568be5e27e6d0a3de319787",
+  "commit_message": "AudioTag: match adviser tag application across Windows versions",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 60.031654,
+   "matched_code_percent": 47.345351605780635,
+   "complete_code_percent": 22.580139201667173,
+   "matched_data_percent": 33.0100069531642,
+   "complete_data_percent": 8.078239652392728
+  }
  }
 ]

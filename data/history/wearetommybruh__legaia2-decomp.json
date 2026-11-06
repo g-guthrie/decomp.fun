@@ -264,5 +264,19 @@
    "matched_data_percent": 0.008823150136080125,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T19:22:10Z",
+  "commit_sha": "39d444568f1e6b06f38f7da22a85ff18977aa173",
+  "commit_message": "Match nayuki 1d953c/1d9410 (float pack) and 2cf338; asm_build: 4-mod-8 C functions, no local labels across C functions; code share now 14.2x%",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 14.477822,
+   "matched_code_percent": 14.212166882251257,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.008823150136080125,
+   "complete_data_percent": 0.0
+  }
  }
 ]

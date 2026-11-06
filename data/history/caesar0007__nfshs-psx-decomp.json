@@ -556,5 +556,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-06T18:51:23Z",
+  "commit_sha": "dec4bf201f08b3278e146e5701a4558181687364",
+  "commit_message": "fe3dmenu_externs.h: plain externs instead of asm-label array views",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

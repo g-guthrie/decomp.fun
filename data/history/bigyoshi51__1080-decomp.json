@@ -2597,5 +2597,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T18:48:17Z",
+  "commit_sha": "6a11bb07314632b7f08105458acf2a4459b50f7f",
+  "commit_message": "report.json: agent-g run 325 (post0b 3BE1C EXACT \u2014 1568 bytes; va alias carrier + edge split + tie-raising test) \u2014 96.38% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.89603,
+   "matched_code_percent": 96.37520389805884,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
