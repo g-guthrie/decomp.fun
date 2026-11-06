@@ -460,5 +460,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-06T06:17:55Z",
+  "commit_sha": "71d6a143e9389d254a07bae7a524f3d516dd5af9",
+  "commit_message": "Match 27 more engine functions as instances of matched templates",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 31.36625840475843,
+   "matched_code_percent": 31.36625840475843,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
