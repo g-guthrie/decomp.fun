@@ -502,5 +502,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-06T07:10:10Z",
+  "commit_sha": "ed108ff61e20af67c46853ebf38aaad199b1324b",
+  "commit_message": "Match four enemy states and six boss targeting helpers",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 31.42090366674587,
+   "matched_code_percent": 31.42090366674587,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
