@@ -2513,5 +2513,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T11:46:24Z",
+  "commit_sha": "3fa7dbd12f20c5ffd6089ae78b20ac2a08daafde",
+  "commit_message": "report.json: agent-g run 312 (post0b 493AC EXACT \u2014 1936 bytes; non-void virtual frees v0 + inline accessor depth) \u2014 96.00% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.89334,
+   "matched_code_percent": 95.99756633570931,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
