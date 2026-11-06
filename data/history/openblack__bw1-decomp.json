@@ -1533,5 +1533,19 @@
    "matched_data_percent": 32.14856139505469,
    "complete_data_percent": 8.078369057239836
   }
+ },
+ {
+  "timestamp": "2026-11-06T12:46:02Z",
+  "commit_sha": "9824a93b8b82e1bc8fb7e253b579bc00f2aa9aa2",
+  "commit_message": "LH3DPrimitive: Decompile the primitive unit",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 59.771156,
+   "matched_code_percent": 46.95706048747111,
+   "complete_code_percent": 22.579389853239807,
+   "matched_data_percent": 33.002926694093865,
+   "complete_data_percent": 8.078309888283366
+  }
  }
 ]
