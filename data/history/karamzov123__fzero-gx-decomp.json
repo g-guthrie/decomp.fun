@@ -1507,5 +1507,19 @@
    "matched_data_percent": 78.08982346289883,
    "complete_data_percent": 78.08982346289883
   }
+ },
+ {
+  "timestamp": "2026-11-06T17:13:47Z",
+  "commit_sha": "1d9fece44408ec86d4ce3865a44280d1a55baf8e",
+  "commit_message": "asm units: drop fn_12_7870.s (links from C)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 94.92396,
+   "matched_code_percent": 90.98808189458516,
+   "complete_code_percent": 90.98808189458516,
+   "matched_data_percent": 78.08982346289883,
+   "complete_data_percent": 78.08982346289883
+  }
  }
 ]
