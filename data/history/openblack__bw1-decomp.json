@@ -1463,5 +1463,19 @@
    "matched_data_percent": 32.11240314519175,
    "complete_data_percent": 8.054658109243388
   }
+ },
+ {
+  "timestamp": "2026-11-05T22:57:25Z",
+  "commit_sha": "649f9f79e6a35bce27605b902a3e968125bd697f",
+  "commit_message": "Link recompiled units as compiled, without dtk coff fold",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 57.955997,
+   "matched_code_percent": 45.67930702379688,
+   "complete_code_percent": 22.434877072179333,
+   "matched_data_percent": 32.145861630978416,
+   "complete_data_percent": 8.065838076810325
+  }
  }
 ]

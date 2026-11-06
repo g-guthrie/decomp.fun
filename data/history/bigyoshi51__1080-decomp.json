@@ -2373,5 +2373,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-05T23:47:11Z",
+  "commit_sha": "03f785f385a83e884188856c6663f1612dacc87f",
+  "commit_message": "report.json: agent-c run 304 (post0b 3B6A0 EXACT via Col::face inline copy + code-free tests; 469A8 98.79) \u2014 94.97% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.87524,
+   "matched_code_percent": 94.97060196476433,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

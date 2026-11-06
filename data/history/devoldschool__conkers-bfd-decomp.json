@@ -649,5 +649,19 @@
    "matched_data_percent": 96.79271563466823,
    "complete_data_percent": 96.79246993635431
   }
+ },
+ {
+  "timestamp": "2026-11-05T22:46:20Z",
+  "commit_sha": "78c1bf6ac15969c3319749cd60fffa26acac5249",
+  "commit_message": "Merge pull request #234 from DevOldSchool/claude/integrate-pr231-units",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 38.447784,
+   "matched_code_percent": 38.07262341029449,
+   "complete_code_percent": 8.198802668176688,
+   "matched_data_percent": 96.79271563466823,
+   "complete_data_percent": 96.79246993635431
+  }
  }
 ]

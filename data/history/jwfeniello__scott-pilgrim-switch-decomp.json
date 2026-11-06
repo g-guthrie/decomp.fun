@@ -404,5 +404,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-06T00:32:21Z",
+  "commit_sha": "fb93250d630055bbc88334654e4a01391fbf6939",
+  "commit_message": "Move the last boss AI methods onto the real classes",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 31.221131322810542,
+   "matched_code_percent": 31.221131322810542,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
