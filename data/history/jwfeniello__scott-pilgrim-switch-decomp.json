@@ -418,5 +418,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-06T01:13:27Z",
+  "commit_sha": "6eabbb56884e65d476c1d79499ad4fcad90bd918",
+  "commit_message": "Credit the one-hit enemies' shared methods to EnemyOneHitWonder",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 31.226864196277976,
+   "matched_code_percent": 31.226864196277976,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

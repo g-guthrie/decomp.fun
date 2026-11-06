@@ -1298,5 +1298,19 @@
    "matched_data_percent": 23.548953778253352,
    "complete_data_percent": 23.548953778253352
   }
+ },
+ {
+  "timestamp": "2026-11-06T00:48:39Z",
+  "commit_sha": "519c7309a7c50f65cc12fe28dddcdbf52d543c1f",
+  "commit_message": "charinit refactor (thank you charles)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.4751,
+   "matched_code_percent": 53.45840453926554,
+   "complete_code_percent": 30.760307314699364,
+   "matched_data_percent": 23.548953778253352,
+   "complete_data_percent": 23.548953778253352
+  }
  }
 ]
