@@ -1740,5 +1740,19 @@
    "matched_data_percent": 99.98827276318389,
    "complete_data_percent": 99.98827276318389
   }
+ },
+ {
+  "timestamp": "2026-11-06T15:23:28Z",
+  "commit_sha": "770560625a2e46df4a7ce908febedc18a9a8d18c",
+  "commit_message": "port: texture signatures sample every byte lane; no sound records while speculating",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 99.93284140369967,
+   "matched_code_percent": 99.93284140369967,
+   "complete_code_percent": 99.93284140369967,
+   "matched_data_percent": 99.98827276318389,
+   "complete_data_percent": 99.98827276318389
+  }
  }
 ]

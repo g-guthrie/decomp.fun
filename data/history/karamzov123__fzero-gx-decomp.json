@@ -1493,5 +1493,19 @@
    "matched_data_percent": 78.08982346289883,
    "complete_data_percent": 78.08982346289883
   }
+ },
+ {
+  "timestamp": "2026-11-06T16:08:24Z",
+  "commit_sha": "472f61777117f86dbdac64dffed359fcb2ddada0",
+  "commit_message": "Merge pull request #195 from nkhoit/contrib/asm-3",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 94.26403,
+   "matched_code_percent": 89.97195820014954,
+   "complete_code_percent": 89.97195820014954,
+   "matched_data_percent": 78.08982346289883,
+   "complete_data_percent": 78.08982346289883
+  }
  }
 ]

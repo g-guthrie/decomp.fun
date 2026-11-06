@@ -2555,5 +2555,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T16:13:47Z",
+  "commit_sha": "3e5b19a5cddf6d5a0c3f1e1b2fc1a312fecbda4b",
+  "commit_message": "report.json: agent-c run 320 (post0b 469A8 99.51->99.66)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.89382,
+   "matched_code_percent": 95.99756633570931,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

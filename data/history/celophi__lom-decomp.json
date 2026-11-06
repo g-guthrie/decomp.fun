@@ -544,5 +544,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T15:44:47Z",
+  "commit_sha": "4eaddb998a04b89c0b4076a71524f96516b60ccc",
+  "commit_message": "Replace some decompilation artifacts with more natural shapes (#1130)",
+  "source": "report",
+  "version": "SLUS_010.13",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
