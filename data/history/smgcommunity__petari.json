@@ -549,5 +549,19 @@
    "matched_data_percent": 88.00217878985475,
    "complete_data_percent": 74.97262940485619
   }
+ },
+ {
+  "timestamp": "2026-11-06T08:40:04Z",
+  "commit_sha": "a5ec34158855f5d1e233d4d9ac9796351a1336ad",
+  "commit_message": "Polta docs (#2178)",
+  "source": "report",
+  "version": "RMGK01",
+  "measures": {
+   "fuzzy_match_percent": 99.99983,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 68.78540320304313,
+   "matched_data_percent": 88.00217878985475,
+   "complete_data_percent": 74.97262940485619
+  }
  }
 ]

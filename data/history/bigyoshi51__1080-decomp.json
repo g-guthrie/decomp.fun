@@ -2485,5 +2485,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T09:21:45Z",
+  "commit_sha": "886807772e00aff8959e0a5e146949c4b93ed0b4",
+  "commit_message": "report.json: agent-c run 312 (post0b 36694 96.07 via F2 float pool entry) \u2014 95.74% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.89251,
+   "matched_code_percent": 95.74370997435211,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

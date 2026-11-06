@@ -337,5 +337,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-06T09:49:08Z",
+  "commit_sha": "6ea835afa852602b7b965d76cfe0b0a3d97e826c",
+  "commit_message": "Symbols renamed and relocs",
+  "source": "report",
+  "version": "SCUS_942.36",
+  "measures": {
+   "fuzzy_match_percent": 67.265144,
+   "matched_code_percent": 67.04761904761905,
+   "complete_code_percent": 27.921360544217688,
+   "matched_data_percent": 17.052058357377984,
+   "complete_data_percent": 17.052058357377984
+  }
  }
 ]
