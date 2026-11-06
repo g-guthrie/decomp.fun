@@ -306,5 +306,19 @@
    "matched_data_percent": 0.008823150136080125,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T22:15:41Z",
+  "commit_sha": "d6700e9badab13e600149575457373d1f9263b28",
+  "commit_message": "Match shuffle 178038 (index loop with block copies); code share now 14.4x%",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 14.661037,
+   "matched_code_percent": 14.40856642181004,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.008823150136080125,
+   "complete_data_percent": 0.0
+  }
  }
 ]

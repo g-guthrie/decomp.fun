@@ -649,5 +649,19 @@
    "matched_data_percent": 63.946385582286126,
    "complete_data_percent": 63.946385582286126
   }
+ },
+ {
+  "timestamp": "2026-11-06T21:22:59Z",
+  "commit_sha": "5497cf4394bb60bac5d8a82504df76c04656c186",
+  "commit_message": "decomp: name unknown fields from evidence and define more data in C (#280)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 77.18022110172525,
+   "complete_data_percent": 77.18022110172525
+  }
  }
 ]
