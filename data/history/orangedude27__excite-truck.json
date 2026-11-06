@@ -703,5 +703,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-06T04:35:33Z",
+  "commit_sha": "5ff0ef5fb7081f5783ccadc276b06abc52804aeb",
+  "commit_message": "add missing lbl_805637AC declaration",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 68.10106,
+   "matched_code_percent": 28.503368263963836,
+   "complete_code_percent": 2.5768497912948374,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

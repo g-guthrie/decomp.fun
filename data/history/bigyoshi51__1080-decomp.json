@@ -2429,5 +2429,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T04:31:44Z",
+  "commit_sha": "92d39c10255580923ec10c644c9bec07b4b74c27",
+  "commit_message": "report.json: agent-c run 308 (gui 4568 EXACT via unused DL* param separating edg temp slots) \u2014 95.36% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.88874,
+   "matched_code_percent": 95.35715596955822,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
