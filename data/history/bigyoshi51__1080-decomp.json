@@ -2569,5 +2569,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T16:26:42Z",
+  "commit_sha": "55e6b5c850c793812b401ce878bef85849ae8535",
+  "commit_message": "report.json: agent-g run 321 (post0b 34890 EXACT \u2014 336 bytes; block-scoped live call result holds v0; 4BAF4 99.01) \u2014 96.04% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.894,
+   "matched_code_percent": 96.04162405131676,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
