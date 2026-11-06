@@ -1382,5 +1382,19 @@
    "matched_data_percent": 23.75084766159235,
    "complete_data_percent": 23.75084766159235
   }
+ },
+ {
+  "timestamp": "2026-11-06T20:46:36Z",
+  "commit_sha": "b4e5d45942f0e40a79d385ade18987b465621df2",
+  "commit_message": "charbones context",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.495834,
+   "matched_code_percent": 53.50097244228018,
+   "complete_code_percent": 31.11621955075952,
+   "matched_data_percent": 23.75084766159235,
+   "complete_data_percent": 23.75084766159235
+  }
  }
 ]

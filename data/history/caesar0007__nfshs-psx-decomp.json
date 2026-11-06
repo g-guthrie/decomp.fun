@@ -584,5 +584,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-06T21:13:09Z",
+  "commit_sha": "2dd6bd124815c43036340f12f5d8161e85afed8d",
+  "commit_message": "sym-match: round 7 summary",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
