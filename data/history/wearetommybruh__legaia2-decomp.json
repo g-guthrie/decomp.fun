@@ -320,5 +320,19 @@
    "matched_data_percent": 0.008823150136080125,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T23:22:37Z",
+  "commit_sha": "2fc6ea1bdaa5b03f7e7b13f1ad9c6ff17e8a9c70",
+  "commit_message": "CLAUDE.md: recipes and permuter notes (14.51%)",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 14.758567,
+   "matched_code_percent": 14.511414116241628,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.008823150136080125,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -558,5 +558,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-06T23:10:04Z",
+  "commit_sha": "3d6538a9e820cbe18a314f1909a5a0f314627b12",
+  "commit_message": "Match 37 functions from five parallel branches: bosses, enemies, Gear, particles, Dare",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 31.662269837327887,
+   "matched_code_percent": 31.662269837327884,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

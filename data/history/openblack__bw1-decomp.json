@@ -1617,5 +1617,19 @@
    "matched_data_percent": 33.00999013822781,
    "complete_data_percent": 8.078235537425833
   }
+ },
+ {
+  "timestamp": "2026-11-06T22:38:01Z",
+  "commit_sha": "78920ad7dda1eb16649db4923b5586f21934e288",
+  "commit_message": "GameOSFile:Improve match of LoadInstance (#741)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 60.94196,
+   "matched_code_percent": 47.9563878692334,
+   "complete_code_percent": 22.580824424492622,
+   "matched_data_percent": 33.0102957716633,
+   "complete_data_percent": 8.078235537425833
+  }
  }
 ]
