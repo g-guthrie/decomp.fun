@@ -2583,5 +2583,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T18:10:32Z",
+  "commit_sha": "c2dcd828568727bb45dd426bc4c107b2104ea7c3",
+  "commit_message": "report.json: agent-c run 324 (post 31A74 EXACT \u2014 564 bytes; one-pass for step puts call on earlier line) \u2014 96.17% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.89603,
+   "matched_code_percent": 96.16960122522408,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
