@@ -278,5 +278,19 @@
    "matched_data_percent": 0.008823150136080125,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T19:42:21Z",
+  "commit_sha": "640fb35dd6b41903273faa26dc86430be38ea087",
+  "commit_message": "Match CD wrappers 2ed680, 2ed218, 2ed348; code share now 14.2x%",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 14.514084,
+   "matched_code_percent": 14.26161288918952,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.008823150136080125,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -254,5 +254,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-06T19:54:01Z",
+  "commit_sha": "da23cdd3d063dc88768478adecba1a84b3208ec9",
+  "commit_message": "decompiled (jp) and revisited (us,eu) ingame/menu/item_get.c",
+  "source": "report",
+  "version": "SLUS_203.88",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

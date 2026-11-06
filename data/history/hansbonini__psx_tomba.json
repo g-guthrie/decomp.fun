@@ -365,5 +365,19 @@
    "matched_data_percent": 18.247628785043315,
    "complete_data_percent": 18.247628785043315
   }
+ },
+ {
+  "timestamp": "2026-11-06T19:26:27Z",
+  "commit_sha": "7fcd9bf1f6c4c995cb0ecada398d9eaa8db8a050",
+  "commit_message": "Add JP main function matches",
+  "source": "report",
+  "version": "SCUS_942.36",
+  "measures": {
+   "fuzzy_match_percent": 67.2702,
+   "matched_code_percent": 67.27020408163266,
+   "complete_code_percent": 27.921360544217688,
+   "matched_data_percent": 18.247628785043315,
+   "complete_data_percent": 18.247628785043315
+  }
  }
 ]

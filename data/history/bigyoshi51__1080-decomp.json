@@ -2611,5 +2611,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T19:22:25Z",
+  "commit_sha": "ee7567a1aaee94a523051000f2f3c9fa289cb4e5",
+  "commit_message": "report.json: agent-c run 326 (post0b 51AD8 EXACT \u2014 960 bytes; folded zero-use keeps sll in bound-check slot; 76F0 97.90, 1ADC 95.66) \u2014 96.50% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.906746,
+   "matched_code_percent": 96.50108308550868,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
