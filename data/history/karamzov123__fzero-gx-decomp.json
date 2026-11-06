@@ -1563,5 +1563,19 @@
    "matched_data_percent": 78.08982346289883,
    "complete_data_percent": 78.08982346289883
   }
+ },
+ {
+  "timestamp": "2026-11-06T21:21:58Z",
+  "commit_sha": "97b293e7ac41633812424229316662abb872e52d",
+  "commit_message": "fn_800736C0: drop the assembly unit now that the C body links",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 95.61143,
+   "matched_code_percent": 91.86515421628005,
+   "complete_code_percent": 91.86515421628005,
+   "matched_data_percent": 78.08982346289883,
+   "complete_data_percent": 78.08982346289883
+  }
  }
 ]
