@@ -474,5 +474,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-06T06:24:03Z",
+  "commit_sha": "6ba956734a4f9c0691118b5fd511678cfa9c19fb",
+  "commit_message": "Match six more engine functions from shapes already credited",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 31.377407014012118,
+   "matched_code_percent": 31.37740701401212,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
