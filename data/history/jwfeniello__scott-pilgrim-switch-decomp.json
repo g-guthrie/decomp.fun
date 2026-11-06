@@ -488,5 +488,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-06T06:33:41Z",
+  "commit_sha": "15179500aaf1b1fb1043dfcc0a84899797389ecf",
+  "commit_message": "Match fifteen state handlers that no vtable lists",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 31.384603599854213,
+   "matched_code_percent": 31.384603599854216,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
