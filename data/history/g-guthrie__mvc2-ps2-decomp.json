@@ -1726,5 +1726,19 @@
    "matched_data_percent": 99.98827276318389,
    "complete_data_percent": 99.98827276318389
   }
+ },
+ {
+  "timestamp": "2026-11-06T15:12:20Z",
+  "commit_sha": "03a6cf2e88b76c684bd966b8f78fdf240c195367",
+  "commit_message": "Consolidate: NAOMI decompilation in naomi/, one README, tidy docs",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 99.93284140369967,
+   "matched_code_percent": 99.93284140369967,
+   "complete_code_percent": 99.93284140369967,
+   "matched_data_percent": 99.98827276318389,
+   "complete_data_percent": 99.98827276318389
+  }
  }
 ]

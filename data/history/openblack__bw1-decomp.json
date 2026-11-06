@@ -1561,5 +1561,19 @@
    "matched_data_percent": 33.002926694093865,
    "complete_data_percent": 8.078309888283366
   }
+ },
+ {
+  "timestamp": "2026-11-06T14:39:40Z",
+  "commit_sha": "34c8ddaafaf087f87e52039268529bbd6d96b209",
+  "commit_message": "PlayerProfile: Decompile the registry-backed player profile (#709)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 59.81684,
+   "matched_code_percent": 47.0225628530661,
+   "complete_code_percent": 22.579389853239807,
+   "matched_data_percent": 33.00435298309618,
+   "complete_data_percent": 8.078309888283366
+  }
  }
 ]
