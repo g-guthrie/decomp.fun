@@ -1491,5 +1491,19 @@
    "matched_data_percent": 32.145861630978416,
    "complete_data_percent": 8.065838076810325
   }
+ },
+ {
+  "timestamp": "2026-11-06T02:40:03Z",
+  "commit_sha": "380f5279d0fe9986f5fea006756ae3106cb42b75",
+  "commit_message": "libcmt: Match more libc",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 58.304573,
+   "matched_code_percent": 45.86584918660911,
+   "complete_code_percent": 22.57510010250102,
+   "matched_data_percent": 32.145861630978416,
+   "complete_data_percent": 8.078369057239836
+  }
  }
 ]

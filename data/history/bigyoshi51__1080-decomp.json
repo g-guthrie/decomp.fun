@@ -2415,5 +2415,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T03:19:45Z",
+  "commit_sha": "b90fc0ec43aa2656bac307c2d44fa27aa67d1ef2",
+  "commit_message": "report.json: agent-c run 307 (post0b 4F2DC EXACT via named set() result + inline ctor pads; 42938 98.86, 48AEC 97.73) \u2014 95.25% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.884705,
+   "matched_code_percent": 95.25278114329771,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
