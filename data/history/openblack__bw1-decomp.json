@@ -1477,5 +1477,19 @@
    "matched_data_percent": 32.145861630978416,
    "complete_data_percent": 8.065838076810325
   }
+ },
+ {
+  "timestamp": "2026-11-06T02:19:35Z",
+  "commit_sha": "4286c80bf32f3bd2ee5a424e159134c0eb070a4f",
+  "commit_message": "LH3DPolygonIsland: Work on matching",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 58.28687,
+   "matched_code_percent": 45.84813998385315,
+   "complete_code_percent": 22.437199640355292,
+   "matched_data_percent": 32.145861630978416,
+   "complete_data_percent": 8.065838076810325
+  }
  }
 ]

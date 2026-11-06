@@ -432,5 +432,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-06T01:41:35Z",
+  "commit_sha": "64dbcfc7821ec77385c0308a18fb73348652c774",
+  "commit_message": "Move the actor activation (slot 2) onto AnimatedAiActor",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 31.226864196277976,
+   "matched_code_percent": 31.226864196277976,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

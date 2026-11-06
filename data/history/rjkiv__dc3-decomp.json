@@ -1312,5 +1312,19 @@
    "matched_data_percent": 23.548953778253352,
    "complete_data_percent": 23.548953778253352
   }
+ },
+ {
+  "timestamp": "2026-11-06T01:43:04Z",
+  "commit_sha": "1a75ba64e01cdd56ef61be42c7b1082d7bd44a1f",
+  "commit_message": "waypoint is so close it hurts",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.480007,
+   "matched_code_percent": 53.463320001507405,
+   "complete_code_percent": 30.760307314699364,
+   "matched_data_percent": 23.548953778253352,
+   "complete_data_percent": 23.548953778253352
+  }
  }
 ]
