@@ -1522,5 +1522,19 @@
    "matched_data_percent": 23.965751219250414,
    "complete_data_percent": 23.965751219250414
   }
+ },
+ {
+  "timestamp": "2026-11-07T19:41:12Z",
+  "commit_sha": "4cdbb8818abfb593f99d3e59526ea7965b04af61",
+  "commit_message": "clipdistmap context",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.524616,
+   "matched_code_percent": 53.57588408684638,
+   "complete_code_percent": 31.451552384900356,
+   "matched_data_percent": 23.965751219250414,
+   "complete_data_percent": 23.965751219250414
+  }
  }
 ]

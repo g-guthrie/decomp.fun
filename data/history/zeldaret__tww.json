@@ -415,5 +415,19 @@
    "matched_data_percent": 91.22818241217946,
    "complete_data_percent": 52.30318322252874
   }
+ },
+ {
+  "timestamp": "2026-11-07T20:10:47Z",
+  "commit_sha": "d217e2b5e1c1514e6f3f640835f83f01dd67aa72",
+  "commit_message": "Move Libraries (#1261)",
+  "source": "report",
+  "version": "GZLE01",
+  "measures": {
+   "fuzzy_match_percent": 83.12279,
+   "matched_code_percent": 80.22733173523781,
+   "complete_code_percent": 69.56519067300783,
+   "matched_data_percent": 91.22818241217946,
+   "complete_data_percent": 52.30318322252874
+  }
  }
 ]

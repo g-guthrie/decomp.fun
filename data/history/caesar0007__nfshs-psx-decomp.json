@@ -794,5 +794,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T20:12:48Z",
+  "commit_sha": "c0b020c499ed6bb7d0b3a4cb52bd02a54810e116",
+  "commit_message": "types: audiocmn opens with SND structs (ORDERG set N)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
