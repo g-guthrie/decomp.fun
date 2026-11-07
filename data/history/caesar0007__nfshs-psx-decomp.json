@@ -654,5 +654,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T08:12:25Z",
+  "commit_sha": "fac7225233907657dadc31f6815b94b23bfd1809",
+  "commit_message": "femenudefs: revert MenuExtended_LoadGame Dialog_SetText struct-return device (lost retail's tMenuCommand typedef)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

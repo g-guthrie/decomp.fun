@@ -1687,5 +1687,19 @@
    "matched_data_percent": 33.19278108793576,
    "complete_data_percent": 8.290965178903893
   }
+ },
+ {
+  "timestamp": "2026-11-07T08:18:03Z",
+  "commit_sha": "5f65a833282fe161bc85c77f796bccc8a7a95e8d",
+  "commit_message": "AGENTS.md: Line numbers and __FILE__ as evidence",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 62.14734,
+   "matched_code_percent": 49.291046219886816,
+   "complete_code_percent": 23.08060124318226,
+   "matched_data_percent": 33.19278108793576,
+   "complete_data_percent": 8.290965178903893
+  }
  }
 ]
