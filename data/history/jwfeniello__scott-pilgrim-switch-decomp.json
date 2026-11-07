@@ -572,5 +572,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T00:31:53Z",
+  "commit_sha": "50c70580f2f3fc09131e4655bb182b1a05c50a94",
+  "commit_message": "Match 64 Dare and Gear functions from their parallel branches",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 31.778415414257438,
+   "matched_code_percent": 31.778415414257438,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

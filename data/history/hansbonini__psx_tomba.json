@@ -393,5 +393,19 @@
    "matched_data_percent": 18.247628785043315,
    "complete_data_percent": 18.247628785043315
   }
+ },
+ {
+  "timestamp": "2026-11-07T00:29:58Z",
+  "commit_sha": "6ac8442e364706b80fbd8c6fa867138a8ccb5abd",
+  "commit_message": "Add JP matches",
+  "source": "report",
+  "version": "SCUS_942.36",
+  "measures": {
+   "fuzzy_match_percent": 67.2702,
+   "matched_code_percent": 67.27020408163266,
+   "complete_code_percent": 27.921360544217688,
+   "matched_data_percent": 18.247628785043315,
+   "complete_data_percent": 18.247628785043315
+  }
  }
 ]

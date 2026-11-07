@@ -80,5 +80,19 @@
    "matched_data_percent": 99.99588258706858,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-06T23:20:38Z",
+  "commit_sha": "0871c7ecbe783c9d17f0e071f71ef3f8be35621b",
+  "commit_message": "misc audio emitter cleanup (#182)",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 99.99588258706858,
+   "complete_data_percent": 0.0
+  }
  }
 ]
