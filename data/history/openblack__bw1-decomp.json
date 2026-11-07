@@ -1715,5 +1715,19 @@
    "matched_data_percent": 33.20040475827842,
    "complete_data_percent": 8.293979004119405
   }
+ },
+ {
+  "timestamp": "2026-11-07T20:59:04Z",
+  "commit_sha": "d7018f2fb4fdfb4f6e80ebdedfe37d74b299b368",
+  "commit_message": "Serialise: Drop the buffer size defines",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 62.225025,
+   "matched_code_percent": 49.368626158972866,
+   "complete_code_percent": 23.151271956303905,
+   "matched_data_percent": 33.2015763465497,
+   "complete_data_percent": 8.295150592390687
+  }
  }
 ]
