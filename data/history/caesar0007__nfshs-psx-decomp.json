@@ -696,5 +696,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T12:18:52Z",
+  "commit_sha": "4717b75ae84ff17133a017ca7b7e9380678295c1",
+  "commit_message": "Revert struct _P_TAG (user ruling: '_'-prefix renames are not a valid method)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

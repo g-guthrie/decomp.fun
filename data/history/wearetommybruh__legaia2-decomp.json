@@ -348,5 +348,19 @@
    "matched_data_percent": 0.008823150136080125,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-07T12:12:48Z",
+  "commit_sha": "966e6cbb249434030d27a5877449ec4a95ce2cb9",
+  "commit_message": "Match 5 more functions (statement-order and do-while search); code share now 14.7x%",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 14.875084,
+   "matched_code_percent": 14.63324907733751,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.008823150136080125,
+   "complete_data_percent": 0.0
+  }
  }
 ]

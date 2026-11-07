@@ -955,5 +955,19 @@
    "matched_data_percent": 75.7051420820312,
    "complete_data_percent": 24.25871103148086
   }
+ },
+ {
+  "timestamp": "2026-11-07T12:01:20Z",
+  "commit_sha": "722309fe2ba8cbebd1930a48f4e068c8548270cf",
+  "commit_message": "rbo6: fix build after version refactor",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.62992,
+   "matched_code_percent": 82.59439094203893,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 75.7051420820312,
+   "complete_data_percent": 24.25871103148086
+  }
  }
 ]
