@@ -418,5 +418,19 @@
    "matched_data_percent": 0.009954210631096954,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-07T18:23:08Z",
+  "commit_sha": "3b98105f5eee729129b67120dc9d86fd96c08d3d",
+  "commit_message": "CLAUDE.md: session 20 lessons (tail calls, noreturn, switch handlers)",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 15.754487,
+   "matched_code_percent": 15.533561971669416,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.009954210631096954,
+   "complete_data_percent": 0.0
+  }
  }
 ]

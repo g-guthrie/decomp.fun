@@ -766,5 +766,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T18:10:28Z",
+  "commit_sha": "c84e746f229127877cd25ce1ccf78038543096ee",
+  "commit_message": "types: scheduler types before Group in 8 game TUs (TYPES4 set C, NFS4_COLOR_SCHED_FIRST)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

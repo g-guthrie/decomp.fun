@@ -513,5 +513,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-07T18:10:26Z",
+  "commit_sha": "3451e71ed7b5c092d5aa89b4c84caa48c6b2a25c",
+  "commit_message": "Link rest of NPC actors for PAL",
+  "source": "report",
+  "version": "GAFE01_00",
+  "measures": {
+   "fuzzy_match_percent": 100.00001,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
