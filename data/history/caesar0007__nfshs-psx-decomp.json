@@ -640,5 +640,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T06:52:51Z",
+  "commit_sha": "5ab2a9e105419861448fd27d666dc7f7508df7cb",
+  "commit_message": "front: retail main-input name replaces Front_DtorSynthesisPoint device",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
