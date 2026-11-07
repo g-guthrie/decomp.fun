@@ -969,5 +969,19 @@
    "matched_data_percent": 75.7051420820312,
    "complete_data_percent": 24.25871103148086
   }
+ },
+ {
+  "timestamp": "2026-11-07T12:59:58Z",
+  "commit_sha": "ac455c5a6222b9598ca5315bda84726d1a87be60",
+  "commit_message": "Sunset gcc-mipsel-linux-gnu deb package",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.62994,
+   "matched_code_percent": 82.59439094203893,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 75.7051420820312,
+   "complete_data_percent": 24.25871103148086
+  }
  }
 ]

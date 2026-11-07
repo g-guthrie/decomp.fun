@@ -710,5 +710,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T13:08:03Z",
+  "commit_sha": "09064cea3eb34d82ac5590d32b675f1029b0f11a",
+  "commit_message": "frontend: InitFrontEndStructure exact; Calibrate drops 5 non-retail PAD typedefs; screencarselect/fedialog type-record order = retail (FRONT24)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

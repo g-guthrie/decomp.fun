@@ -362,5 +362,19 @@
    "matched_data_percent": 0.008823150136080125,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-07T12:50:55Z",
+  "commit_sha": "635c07302c58764e110959c75817c96112592a50",
+  "commit_message": "Match 10 VU0 control-register accessors (inline cfc2/ctc2 in C); code share now 14.7x%",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 14.921761,
+   "matched_code_percent": 14.679926107887232,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.009954210631096954,
+   "complete_data_percent": 0.0
+  }
  }
 ]
