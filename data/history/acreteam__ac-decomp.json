@@ -499,5 +499,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-07T16:53:11Z",
+  "commit_sha": "cc7b3034f20345f5702f9b19cd368e0fea8de17d",
+  "commit_message": "Link a bunch of files that needed minor msg/handbill changes",
+  "source": "report",
+  "version": "GAFE01_00",
+  "measures": {
+   "fuzzy_match_percent": 100.00001,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

@@ -752,5 +752,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T16:36:57Z",
+  "commit_sha": "fa841cb3bc58c0f8677f1215d08218f81c438af2",
+  "commit_message": "asm: DAT_80148448 asm data block -> C, DrawC_PrimClip fence removed, sound-lib users reach sndpd/sndgs through the real objects (ASMC)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
