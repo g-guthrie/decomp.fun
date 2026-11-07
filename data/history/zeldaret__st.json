@@ -303,5 +303,19 @@
    "matched_data_percent": 33.87754859542259,
    "complete_data_percent": 7.219912575026401
   }
+ },
+ {
+  "timestamp": "2026-11-07T13:43:22Z",
+  "commit_sha": "72ce7ebb3ffbcc3f2e8353158799328cebf5768f",
+  "commit_message": "Decompiling Lokomos (#178)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 15.68605,
+   "matched_code_percent": 11.651027240634983,
+   "complete_code_percent": 6.076683252901792,
+   "matched_data_percent": 34.007067074828115,
+   "complete_data_percent": 7.219912575026401
+  }
  }
 ]

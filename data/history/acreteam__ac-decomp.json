@@ -471,5 +471,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-07T14:19:34Z",
+  "commit_sha": "a047c354ed8f0e6f169fd4dd2fcb1e1ed733bc10",
+  "commit_message": "Split jaudio per-language in PAL",
+  "source": "report",
+  "version": "GAFE01_00",
+  "measures": {
+   "fuzzy_match_percent": 100.00001,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
