@@ -682,5 +682,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T10:47:38Z",
+  "commit_sha": "54263ae7d8f86b301660dce2209841e3e64ec396",
+  "commit_message": "eaclib headers: public/private split, physadr size-4 restored, speech public header (EACHDR sets A+B+D)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
