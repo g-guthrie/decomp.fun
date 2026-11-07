@@ -1438,5 +1438,19 @@
    "matched_data_percent": 23.819555004089914,
    "complete_data_percent": 23.819555004089914
   }
+ },
+ {
+  "timestamp": "2026-11-07T01:46:48Z",
+  "commit_sha": "c1d3a28087179335c7b2af0032c1d37c52a63a6c",
+  "commit_message": "a lil math cleanup (#366)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.518116,
+   "matched_code_percent": 53.54829195879531,
+   "complete_code_percent": 31.328796907846552,
+   "matched_data_percent": 23.886392205904116,
+   "complete_data_percent": 23.886392205904116
+  }
  }
 ]
