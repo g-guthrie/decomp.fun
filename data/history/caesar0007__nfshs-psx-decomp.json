@@ -836,5 +836,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T23:02:49Z",
+  "commit_sha": "20a3754c3b52f0b9aee8d94f4f030309c5ed80b9",
+  "commit_message": "types+census: draww Trk_Line, audiocmn moves, Car_tObj/AnimScript/DRender_tView C-style typedef form (ORDERG AC/AE/AF)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
