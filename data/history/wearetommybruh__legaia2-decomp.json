@@ -390,5 +390,19 @@
    "matched_data_percent": 0.009954210631096954,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-07T15:26:43Z",
+  "commit_sha": "f5176b802322dc178552258ccc59d6267c22e3af",
+  "commit_message": "CLAUDE.md: newlib malloc recipes, progress 15.39%",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 15.616757,
+   "matched_code_percent": 15.387201791132155,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.009954210631096954,
+   "complete_data_percent": 0.0
+  }
  }
 ]
