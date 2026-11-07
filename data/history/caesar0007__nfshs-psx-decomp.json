@@ -626,5 +626,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T06:18:59Z",
+  "commit_sha": "3d2b901e7dd1d07c268622211c2a5ea54e4e675f",
+  "commit_message": "fedialog/fememcard: tDialogHelp::Draw tags 7 -> 0 (asm fences + goto ladder gone); SavePinkSlipsCars exact (DEVICE (void)result)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
