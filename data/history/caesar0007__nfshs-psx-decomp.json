@@ -822,5 +822,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T22:11:28Z",
+  "commit_sha": "fc488e3de4abe3893b2edd4d5c95c3d671d20d2c",
+  "commit_message": "GameSetup_gData word view in 13 more TUs (GSDATA K4b-K9)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
