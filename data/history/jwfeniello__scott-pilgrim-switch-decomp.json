@@ -628,5 +628,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T04:26:30Z",
+  "commit_sha": "092faac2d4d28f36eb0162951d81abcaf168a038",
+  "commit_message": "Match six Onyx graphics catalog destructors and PlatformPlayer slots",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 31.92568927435483,
+   "matched_code_percent": 31.925689274354834,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
