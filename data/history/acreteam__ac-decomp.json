@@ -485,5 +485,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-07T16:20:50Z",
+  "commit_sha": "086c5d65500d205a76cf5ccced303389b4a57e81",
+  "commit_message": "Link m_card for PAL",
+  "source": "report",
+  "version": "GAFE01_00",
+  "measures": {
+   "fuzzy_match_percent": 100.00001,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

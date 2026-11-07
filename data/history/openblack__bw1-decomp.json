@@ -1701,5 +1701,19 @@
    "matched_data_percent": 33.19278108793576,
    "complete_data_percent": 8.290965178903893
   }
+ },
+ {
+  "timestamp": "2026-11-07T16:01:42Z",
+  "commit_sha": "881648763f4fe08bc4927e8615f7f3d5f820ed74",
+  "commit_message": "Script: Carve the units around GetProperty",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 62.17864,
+   "matched_code_percent": 49.32231188011676,
+   "complete_code_percent": 23.104405072356972,
+   "matched_data_percent": 33.20040475827842,
+   "complete_data_percent": 8.293979004119405
+  }
  }
 ]

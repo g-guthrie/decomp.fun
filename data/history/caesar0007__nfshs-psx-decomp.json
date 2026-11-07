@@ -738,5 +738,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T16:05:41Z",
+  "commit_sha": "34815fb86271ccdadfc9786ca7b37ab065b4a7ff",
+  "commit_message": "screencarselect: both SetDialog SLD-exact (tags 33 -> 19 for the TU) (FRONT25)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

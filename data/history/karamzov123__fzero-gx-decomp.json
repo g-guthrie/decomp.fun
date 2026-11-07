@@ -1619,5 +1619,19 @@
    "matched_data_percent": 78.08982346289883,
    "complete_data_percent": 78.08982346289883
   }
+ },
+ {
+  "timestamp": "2026-11-07T16:09:46Z",
+  "commit_sha": "fa1cc146b25fc62f029f4085d063f9b4589d8c8c",
+  "commit_message": "fn_8003B9AC, fn_8003BB30: drop assembly units now that C links; import psvec_quant.h kernels",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 96.93329,
+   "matched_code_percent": 94.06341886604355,
+   "complete_code_percent": 94.06341886604355,
+   "matched_data_percent": 78.08982346289883,
+   "complete_data_percent": 78.08982346289883
+  }
  }
 ]

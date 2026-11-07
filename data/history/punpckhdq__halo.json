@@ -278,5 +278,19 @@
    "matched_data_percent": 55.00213359105645,
    "complete_data_percent": 53.54662219729707
   }
+ },
+ {
+  "timestamp": "2026-11-07T15:48:25Z",
+  "commit_sha": "c2d6835630276c9596d466eb9eeee6522445d775",
+  "commit_message": "rasterizer_xbox pt1 (#120)",
+  "source": "report",
+  "version": "2342",
+  "measures": {
+   "fuzzy_match_percent": 54.724735,
+   "matched_code_percent": 53.04000618840039,
+   "complete_code_percent": 47.781230945642186,
+   "matched_data_percent": 56.11172067054624,
+   "complete_data_percent": 54.389450529662184
+  }
  }
 ]
