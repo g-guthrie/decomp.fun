@@ -717,5 +717,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-07T04:18:09Z",
+  "commit_sha": "a5f007f8eb4b33253acfd34a2f4cb9c296518bfd",
+  "commit_message": "Restore original SWAP16_AT and SWAP32_AT macros",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 69.60966,
+   "matched_code_percent": 28.71948268920831,
+   "complete_code_percent": 2.5768497912948374,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
