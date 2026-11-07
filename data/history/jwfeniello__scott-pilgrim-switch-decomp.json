@@ -586,5 +586,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T01:04:08Z",
+  "commit_sha": "97e08edb1921b25c9136ed9c6c50806a388ece1a",
+  "commit_message": "Match 32 more Dare functions and park two FireVisualBase slots",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 31.812910235887006,
+   "matched_code_percent": 31.81291023588701,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
