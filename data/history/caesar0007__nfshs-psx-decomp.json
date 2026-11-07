@@ -598,5 +598,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T02:34:14Z",
+  "commit_sha": "fb52f5d3ee8ff68eed213ab34faa2505b7fb0df2",
+  "commit_message": "draww: DrawQuad fence-free -- addPrim asm reads prim (\"+r\")",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

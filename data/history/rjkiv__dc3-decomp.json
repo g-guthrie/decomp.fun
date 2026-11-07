@@ -1452,5 +1452,19 @@
    "matched_data_percent": 23.886392205904116,
    "complete_data_percent": 23.886392205904116
   }
+ },
+ {
+  "timestamp": "2026-11-07T02:46:30Z",
+  "commit_sha": "852f0ee7430e52d26391c0ed9c585cc066bf7507",
+  "commit_message": "match charclipdriver",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.51841,
+   "matched_code_percent": 53.554223283233846,
+   "complete_code_percent": 31.366056111639978,
+   "matched_data_percent": 23.904036576699347,
+   "complete_data_percent": 23.904036576699347
+  }
  }
 ]
