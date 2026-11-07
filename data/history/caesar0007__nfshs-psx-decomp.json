@@ -612,5 +612,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T04:05:56Z",
+  "commit_sha": "3b78df6b63de21453a2f7b96bf29a02abe7e9499",
+  "commit_message": "femenu: LeftRightSlider::Draw via tListIterator MinValue/MaxValue (LINK_STRIPPED)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

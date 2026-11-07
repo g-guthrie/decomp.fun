@@ -691,5 +691,19 @@
    "matched_data_percent": 96.79271563466823,
    "complete_data_percent": 96.79246993635431
   }
+ },
+ {
+  "timestamp": "2026-11-07T03:40:28Z",
+  "commit_sha": "355f58646172f5b1ca4381f1c199eb95e87c39d0",
+  "commit_message": "Merge pull request #238 from DevOldSchool/claude/proto-alignment-nov07",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 39.832253,
+   "matched_code_percent": 39.44820168737602,
+   "complete_code_percent": 8.293713117585677,
+   "matched_data_percent": 96.79271563466823,
+   "complete_data_percent": 96.79246993635431
+  }
  }
 ]
