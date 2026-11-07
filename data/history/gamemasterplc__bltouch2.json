@@ -92,5 +92,19 @@
    "matched_data_percent": 1.6341740061085963,
    "complete_data_percent": 1.6341740061085963
   }
+ },
+ {
+  "timestamp": "2026-11-07T15:05:42Z",
+  "commit_sha": "95916605315f5ccf174ce607c0c3bfa38c7839e9",
+  "commit_message": "Define linkicon filetbl",
+  "source": "report",
+  "version": "usa",
+  "measures": {
+   "fuzzy_match_percent": 2.6516938,
+   "matched_code_percent": 2.3806329771809147,
+   "complete_code_percent": 1.1580241935159963,
+   "matched_data_percent": 1.645907631478828,
+   "complete_data_percent": 1.645907631478828
+  }
  }
 ]
