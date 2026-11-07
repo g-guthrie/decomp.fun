@@ -1508,5 +1508,19 @@
    "matched_data_percent": 23.965751219250414,
    "complete_data_percent": 23.965751219250414
   }
+ },
+ {
+  "timestamp": "2026-11-07T19:08:00Z",
+  "commit_sha": "3f9d26c132d4820356ea628be5d614ac4ad61bd8",
+  "commit_message": "charclip is close",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.524418,
+   "matched_code_percent": 53.57342635572545,
+   "complete_code_percent": 31.451552384900356,
+   "matched_data_percent": 23.965751219250414,
+   "complete_data_percent": 23.965751219250414
+  }
  }
 ]

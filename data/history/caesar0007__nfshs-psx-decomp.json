@@ -780,5 +780,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T18:58:59Z",
+  "commit_sha": "db6fdf034dbd4422c62ca47f077acf51c1e0a0e4",
+  "commit_message": "asm-label aliases: 190 of 266 removed in 50 files (ASMALIAS)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
