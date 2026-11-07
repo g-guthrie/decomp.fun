@@ -334,5 +334,19 @@
    "matched_data_percent": 0.008823150136080125,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-07T10:10:00Z",
+  "commit_sha": "f64e468b0f2d2441a2b5eb6a4c73cabf17cf5203",
+  "commit_message": "Asset viewer: pair variant models with their motions, calibrate skeletons, two-sided lighting",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 14.758567,
+   "matched_code_percent": 14.511414116241628,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.008823150136080125,
+   "complete_data_percent": 0.0
+  }
  }
 ]

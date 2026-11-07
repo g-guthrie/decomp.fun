@@ -668,5 +668,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-07T10:10:53Z",
+  "commit_sha": "95647e33f3c10dc2b2879da7072965b252536a99",
+  "commit_message": "game: textnpixels + ColorClut SYM exact (record-neutral existing-type views); 6 speech fns blocks fixed (SetVoice same-file inline); speech_class.h bank typedefs",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
