@@ -1,0 +1,15 @@
+{
+ "repo": "cdlewis/snowboardkidsplus-decomp",
+ "by": "cdlewis",
+ "submitted_at": "2026-11-07T16:28:46+00:00",
+ "status": "rejected",
+ "reasons": [
+  "Couldn't identify the game from the repository. It must contain the game's disc ID, serial, title ID (Switch: 0100...000) or ROM hash (as decomp-toolkit and splat projects do). PC and DOS projects, and Switch projects without a title ID: pick the system and game name."
+ ],
+ "repo_meta": {
+  "id": 1440917806,
+  "created_at": "2026-10-31T14:06:21Z",
+  "fork": false,
+  "parent": null
+ }
+}
