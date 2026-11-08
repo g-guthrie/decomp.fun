@@ -745,5 +745,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-08T03:16:08Z",
+  "commit_sha": "bf2088ee33624b6ed1dd7517277b788f01cb0f7e",
+  "commit_message": "Tidy double2hex_80025D1C (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 71.113235,
+   "matched_code_percent": 28.958939570577492,
+   "complete_code_percent": 2.5768497912948374,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
