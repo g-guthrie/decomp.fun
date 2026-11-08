@@ -906,5 +906,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-08T11:01:34Z",
+  "commit_sha": "c261ce7f359e5c5e66a9b17b35922672c1b580a1",
+  "commit_message": "census: remove non-retail views PackedBuf32/PMenuTag/FileMgr, font coorddef alias (INV-A2 J)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
