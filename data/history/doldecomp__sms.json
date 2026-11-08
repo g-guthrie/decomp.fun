@@ -1302,5 +1302,19 @@
    "matched_data_percent": 91.93791960720314,
    "complete_data_percent": 22.858802712971883
   }
+ },
+ {
+  "timestamp": "2026-11-08T14:04:17Z",
+  "commit_sha": "bc3c57e88a9c40b4823dbcf68e1ac3a67df95a15",
+  "commit_message": "more kukku matching + naming (#394)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 98.22527,
+   "matched_code_percent": 52.770071374295,
+   "complete_code_percent": 19.243428016249183,
+   "matched_data_percent": 93.02360810268439,
+   "complete_data_percent": 22.858802712971883
+  }
  }
 ]

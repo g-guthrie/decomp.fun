@@ -871,5 +871,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-08T14:15:40Z",
+  "commit_sha": "74dd3f58e4c25df7b8a9c56418a5805df8cca41d",
+  "commit_message": "Add the conn_flags bits of stack/hid/hid_conn.h and the device state values so hidh_l2cif_config_cfm can name them",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 72.26886,
+   "matched_code_percent": 29.068177019745356,
+   "complete_code_percent": 2.5768497912948374,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
