@@ -759,5 +759,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-08T04:13:44Z",
+  "commit_sha": "4a578f603c82d17042dd938e33d98952074b1e57",
+  "commit_message": "Tidy EXIInit (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 71.113235,
+   "matched_code_percent": 28.958939570577492,
+   "complete_code_percent": 2.5768497912948374,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
