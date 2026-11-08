@@ -424,5 +424,19 @@
    "matched_data_percent": 16.045446878067956,
    "complete_data_percent": 16.045446878067956
   }
+ },
+ {
+  "timestamp": "2026-11-08T02:35:12Z",
+  "commit_sha": "70744045f8ceba62d5a77c052c8f7bcb76fc21d1",
+  "commit_message": "NW4R header migration (no `ef` or `g3d`) (#167)",
+  "source": "report",
+  "version": "RSBE01_02",
+  "measures": {
+   "fuzzy_match_percent": 1.818907,
+   "matched_code_percent": 1.7284313029524399,
+   "complete_code_percent": 1.5827911722628434,
+   "matched_data_percent": 16.045446878067956,
+   "complete_data_percent": 16.045446878067956
+  }
  }
 ]
