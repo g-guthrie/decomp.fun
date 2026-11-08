@@ -857,5 +857,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-08T13:13:25Z",
+  "commit_sha": "0390b32bf28309d8f84d136c1622eef7f14c2d04",
+  "commit_message": "Stop the Zero alias from leaking past __ieee754_fmod, the only user",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 72.256325,
+   "matched_code_percent": 29.068177019745356,
+   "complete_code_percent": 2.5768497912948374,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

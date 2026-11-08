@@ -934,5 +934,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-08T13:13:36Z",
+  "commit_sha": "7c20cd9c9a0e8a32906b210dc41ec2a31989d3fd",
+  "commit_message": "census: dialog-family inferred inline bodies (FRONTORD3 15, user ruling)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
