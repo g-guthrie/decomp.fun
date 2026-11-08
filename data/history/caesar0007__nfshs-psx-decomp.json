@@ -1032,5 +1032,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-08T21:05:08Z",
+  "commit_sha": "2ac4bd0572cc9918b8d1fee261b34fe06f462b84",
+  "commit_message": "SYM: fedialog.h dialog runs per retail (one SetChoices body per TU, no Tri ctor walk, inferred base bodies) (SLINK census 505->436)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

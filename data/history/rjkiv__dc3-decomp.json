@@ -1592,5 +1592,19 @@
    "matched_data_percent": 24.07413806842113,
    "complete_data_percent": 24.07413806842113
   }
+ },
+ {
+  "timestamp": "2026-11-08T21:12:34Z",
+  "commit_sha": "861620eae117068d3c1dc09a04180c5b25db73dd",
+  "commit_message": "chardriver context",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.559494,
+   "matched_code_percent": 53.65666151635457,
+   "complete_code_percent": 31.698996754156433,
+   "matched_data_percent": 24.07413806842113,
+   "complete_data_percent": 24.07413806842113
+  }
  }
 ]

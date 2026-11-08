@@ -969,5 +969,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-08T21:15:42Z",
+  "commit_sha": "9fa9e54f6797eaca07b459602d9ca397d46468fd",
+  "commit_message": "Forward decls for fn_80190388 callees",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 73.6252,
+   "matched_code_percent": 29.07447161465539,
+   "complete_code_percent": 2.5768497912948374,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
