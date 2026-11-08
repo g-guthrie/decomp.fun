@@ -656,5 +656,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-08T08:54:12Z",
+  "commit_sha": "b74d7ab8e22617bb6d20b5dc306d181b06bde670",
+  "commit_message": "Match TimerAction's start and AudioAction's slot 18",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 31.952914324523572,
+   "matched_code_percent": 31.952914324523572,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
