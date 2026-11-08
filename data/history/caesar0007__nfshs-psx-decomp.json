@@ -892,5 +892,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-08T09:55:19Z",
+  "commit_sha": "cb5e78a3ab58fe4dbdc190e1a8c02cdf95c079d3",
+  "commit_message": "types: screentrophyroom menu items, psxfront late tScreen (INV-B S3)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
