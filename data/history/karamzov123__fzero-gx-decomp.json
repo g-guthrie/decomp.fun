@@ -1717,5 +1717,19 @@
    "matched_data_percent": 78.08982346289883,
    "complete_data_percent": 78.08982346289883
   }
+ },
+ {
+  "timestamp": "2026-11-08T01:04:01Z",
+  "commit_sha": "977361f2bc70b0c90a28b9082667aacba8f1b4c5",
+  "commit_message": "Revert \"asm units: 1 assembly-only functions link from their own assembly (mathutil_mtxA_from_quat)\"",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 98.0094,
+   "matched_code_percent": 96.22818044264913,
+   "complete_code_percent": 96.22818044264913,
+   "matched_data_percent": 78.08982346289883,
+   "complete_data_percent": 78.08982346289883
+  }
  }
 ]
