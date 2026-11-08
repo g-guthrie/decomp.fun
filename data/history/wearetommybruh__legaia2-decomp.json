@@ -460,5 +460,19 @@
    "matched_data_percent": 0.013121043892154067,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-08T19:12:28Z",
+  "commit_sha": "57eb2af9fa039d110a9808b08139b13040a774be",
+  "commit_message": "CLAUDE.md: session 22 methods (libgcc EH runtime), progress 16.63%",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 16.846931,
+   "matched_code_percent": 16.625985061872964,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.023751088591560447,
+   "complete_data_percent": 0.0
+  }
  }
 ]

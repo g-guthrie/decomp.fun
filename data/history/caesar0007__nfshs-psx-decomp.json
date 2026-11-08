@@ -1004,5 +1004,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-08T19:17:28Z",
+  "commit_sha": "9e4daa2f4501f8ad6f92fef4cccbb4206e892587",
+  "commit_message": "SYM: frontend menu-item family inlines in all includers, tListIteratorCar, tMenu ALL_INLINES (SLINK census 1433->822 w/o speech)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
