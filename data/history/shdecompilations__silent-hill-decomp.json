@@ -1711,5 +1711,19 @@
    "matched_data_percent": 37.56517865278889,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-08T02:15:39Z",
+  "commit_sha": "64b223e2f9e0d68c2220a07d4836baddc3c12692",
+  "commit_message": "Switch button press/hold/pulse checks to `Pad_ButtonClicked` macros",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99026,
+   "matched_code_percent": 99.99027095393296,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.56517865278889,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -1564,5 +1564,19 @@
    "matched_data_percent": 24.005999899175023,
    "complete_data_percent": 24.005999899175023
   }
+ },
+ {
+  "timestamp": "2026-11-08T02:01:26Z",
+  "commit_sha": "6724682411eb8282552fedcd487e9ce6c17f78af",
+  "commit_message": "charlipsyncdriver context",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.547142,
+   "matched_code_percent": 53.6383432270665,
+   "complete_code_percent": 31.587284682272713,
+   "matched_data_percent": 24.005999899175023,
+   "complete_data_percent": 24.005999899175023
+  }
  }
 ]

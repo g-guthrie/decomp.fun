@@ -1729,5 +1729,19 @@
    "matched_data_percent": 33.2015763465497,
    "complete_data_percent": 8.295150592390687
   }
+ },
+ {
+  "timestamp": "2026-11-08T02:08:29Z",
+  "commit_sha": "d4359aef970e65092f8f58674824c2c652d92bbd",
+  "commit_message": "SoundMap: Decompile and carve in all versions",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 62.288303,
+   "matched_code_percent": 49.4094622976354,
+   "complete_code_percent": 23.151289520997665,
+   "matched_data_percent": 33.20278196040237,
+   "complete_data_percent": 8.29514636695756
+  }
  }
 ]
