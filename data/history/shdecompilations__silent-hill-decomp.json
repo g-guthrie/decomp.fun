@@ -1725,5 +1725,19 @@
    "matched_data_percent": 37.56517865278889,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-08T07:18:23Z",
+  "commit_sha": "a460663832eec8a9e594a8097d440abffacee036",
+  "commit_message": "Bodyprog: name `s_RayQuery` field",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99026,
+   "matched_code_percent": 99.99027095393296,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.56517865278889,
+   "complete_data_percent": 0.0
+  }
  }
 ]

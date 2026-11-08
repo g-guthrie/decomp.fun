@@ -864,5 +864,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-08T07:10:50Z",
+  "commit_sha": "ea50dd31bdfe0102642c2c104d22a7c989037192",
+  "commit_message": "census: frontend enums plain (INV-A2 E2)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
