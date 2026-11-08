@@ -963,5 +963,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-08T22:31:14Z",
+  "commit_sha": "9569a7d6c477410fe71be5050430cae535b6f560",
+  "commit_message": "sh2: match `cur_step` \u2194\ufe0f",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
