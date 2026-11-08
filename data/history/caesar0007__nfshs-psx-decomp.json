@@ -990,5 +990,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-08T16:39:16Z",
+  "commit_sha": "1e8cf34997727b6d16bcc05c6574f5856b0634b1",
+  "commit_message": "census: aistate synthesized-order destructors, RovingTraffic stripped ctor (GSDATA3 G1)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

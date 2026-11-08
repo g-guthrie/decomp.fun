@@ -913,5 +913,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-08T17:12:44Z",
+  "commit_sha": "46d24b2404a59a92ad70880beae7dc74ead5843c",
+  "commit_message": "Drop the VF_TYPES_MOVED flag now that only one copy of the types exists.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 72.59316,
+   "matched_code_percent": 29.0731602407158,
+   "complete_code_percent": 2.5768497912948374,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
