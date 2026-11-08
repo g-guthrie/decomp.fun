@@ -976,5 +976,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-08T16:14:30Z",
+  "commit_sha": "99caf95d3ec61ce347d49f7f219b845c51118de1",
+  "commit_message": "census: AI-class inferred bodies incl. aistate stripped owner copies (GSDATA3 D2, user rulings)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

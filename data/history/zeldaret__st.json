@@ -331,5 +331,19 @@
    "matched_data_percent": 34.007067074828115,
    "complete_data_percent": 7.219912575026401
   }
+ },
+ {
+  "timestamp": "2026-11-08T15:27:52Z",
+  "commit_sha": "8ec403d2a20e18ccf9eccf0c5a2b5cd8ebd38e2d",
+  "commit_message": "Match OverlayManager (#188)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 15.696802,
+   "matched_code_percent": 11.66175966000177,
+   "complete_code_percent": 6.090094473502818,
+   "matched_data_percent": 34.007067074828115,
+   "complete_data_percent": 7.219912575026401
+  }
  }
 ]
