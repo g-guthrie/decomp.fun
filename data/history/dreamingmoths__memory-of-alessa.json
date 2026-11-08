@@ -907,5 +907,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-08T05:49:00Z",
+  "commit_sha": "fe2b9cb8d01548ba486eb82e17188f84c89a3d3f",
+  "commit_message": "sh2: additional matches + clean up on `Multi_thr/sys/init_mt_sys` (#479)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

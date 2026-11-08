@@ -850,5 +850,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-08T06:10:07Z",
+  "commit_sha": "baf48d0c2944468d618bdfedb1d814dc41e5f662",
+  "commit_message": "census: owner C-style typedef aliases, 11 types (INV-A2 A)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
