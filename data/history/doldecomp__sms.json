@@ -1316,5 +1316,19 @@
    "matched_data_percent": 93.02360810268439,
    "complete_data_percent": 22.858802712971883
   }
+ },
+ {
+  "timestamp": "2026-11-08T15:07:42Z",
+  "commit_sha": "b849cef8f8c5b5adbe8a831c138389b5ebfe4dbb",
+  "commit_message": "Assemble DSP microcode as a build step",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 98.22527,
+   "matched_code_percent": 52.770071374295,
+   "complete_code_percent": 19.243428016249183,
+   "matched_data_percent": 93.02360810268439,
+   "complete_data_percent": 22.858802712971883
+  }
  }
 ]

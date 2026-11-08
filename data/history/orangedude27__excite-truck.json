@@ -885,5 +885,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-08T15:16:13Z",
+  "commit_sha": "a3fdc8907210a010fb1d03b6d9bb9d1fc26b1545",
+  "commit_message": "Describe nw4hbm::ut::FontCodeMap (the font code map FindGlyphIndex reads) with its three map types, from the offsets FindGlyphIndex/GetGlyph/SetAlternateChar use.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 72.26886,
+   "matched_code_percent": 29.068177019745356,
+   "complete_code_percent": 2.5768497912948374,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

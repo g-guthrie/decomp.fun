@@ -962,5 +962,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-08T14:59:59Z",
+  "commit_sha": "10c00b4db2acafd0842ded6ff243f93566014eec",
+  "commit_message": "census: real speech_class.h graph in 6 AI TUs (AI view key), AIState_None keep lifted (GSDATA2 SP4b)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

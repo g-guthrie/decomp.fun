@@ -122,5 +122,19 @@
    "matched_data_percent": 15.596986336355508,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-08T14:48:24Z",
+  "commit_sha": "b9d4ac1ef16d4a9bbfff72a5ddf22ee4582b1d9a",
+  "commit_message": "Implement non-matching setSramFullAlarm",
+  "source": "report",
+  "version": "SLUS-00708",
+  "measures": {
+   "fuzzy_match_percent": 86.192955,
+   "matched_code_percent": 85.05046313291729,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 15.596986336355508,
+   "complete_data_percent": 0.0
+  }
  }
 ]
