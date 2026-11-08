@@ -1018,5 +1018,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-08T20:14:26Z",
+  "commit_sha": "b701dee59e80e6aa3be5fab06e0769a34cd4b3b0",
+  "commit_message": "SYM: Speech own inlines first (CarBank walk), aih_cop Speaker view bodies (SLINK census 580->566)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

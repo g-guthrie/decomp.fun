@@ -347,5 +347,19 @@
    "matched_data_percent": 24.435228527673885,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-08T19:26:59Z",
+  "commit_sha": "d4db3de3c3aaf61269e048cf3f6a458996290de0",
+  "commit_message": "battle: importing remainder of battle.c data (#387)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 68.385925,
+   "matched_code_percent": 68.38592864201384,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.445237769540544,
+   "complete_data_percent": 0.0
+  }
  }
 ]
