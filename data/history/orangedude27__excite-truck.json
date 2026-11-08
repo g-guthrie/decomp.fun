@@ -815,5 +815,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-08T08:16:24Z",
+  "commit_sha": "42ac93a89705c8ef7380a8ae11f2703c80e4cb3a",
+  "commit_message": "Name __two_exp's .rodata table of power-of-two digit strings (alias, the label itself can't be renamed yet) and document its offsets",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 71.78243,
+   "matched_code_percent": 29.011919077736938,
+   "complete_code_percent": 2.5768497912948374,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

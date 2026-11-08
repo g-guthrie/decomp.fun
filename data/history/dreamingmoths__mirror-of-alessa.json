@@ -746,5 +746,19 @@
    "matched_data_percent": 77.80188041569194,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-08T07:35:21Z",
+  "commit_sha": "0b7a825518d25d460ab937c2cca9bfeeed68b432",
+  "commit_message": "update progress",
+  "source": "report",
+  "version": "SLUS_202.28",
+  "measures": {
+   "fuzzy_match_percent": 60.78069,
+   "matched_code_percent": 57.29445782877074,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 77.80188041569194,
+   "complete_data_percent": 0.0
+  }
  }
 ]

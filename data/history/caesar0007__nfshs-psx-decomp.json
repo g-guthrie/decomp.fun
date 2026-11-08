@@ -878,5 +878,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-08T08:04:09Z",
+  "commit_sha": "6bd873cb6798761761f499f0f416fd623eec8c16",
+  "commit_message": "census: PsyQ/EA anonymous typedef form (SLINK lane, user-approved) (INV-A2 F)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
