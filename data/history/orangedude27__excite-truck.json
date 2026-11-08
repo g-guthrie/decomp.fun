@@ -843,5 +843,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-08T12:04:42Z",
+  "commit_sha": "2bb1e1063f7132918a446db4df28300e7fc00b6c",
+  "commit_message": "Declare the SD device context and its command constants above fn_800BB4E0, which reads the card through them (the later copy is guarded out).",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 72.256325,
+   "matched_code_percent": 29.068177019745356,
+   "complete_code_percent": 2.5768497912948374,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

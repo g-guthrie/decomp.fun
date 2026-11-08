@@ -920,5 +920,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-08T12:18:22Z",
+  "commit_sha": "9966a7280d808685fed7bc74cc57f68c5875b998",
+  "commit_message": "census: tTournamentManager inferred inline bodies (INV-B I1, user ruling)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
