@@ -927,5 +927,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-08T18:07:25Z",
+  "commit_sha": "c32f7c3a9e4cb1e3d8704e27f9db2126ef247d4c",
+  "commit_message": "Tidy WUDStoredLinkKeyCallback (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 72.59316,
+   "matched_code_percent": 29.0731602407158,
+   "complete_code_percent": 2.5768497912948374,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
