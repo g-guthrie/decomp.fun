@@ -1879,5 +1879,19 @@
    "matched_data_percent": 37.56517865278889,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-09T08:38:48Z",
+  "commit_sha": "74ec2b015424ff585a0ac5a969adc83c8006de8d",
+  "commit_message": "bodyprog: add new PLAYER_IN_MAP_CHUNK macro, simplify chunk checks",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.56517865278889,
+   "complete_data_percent": 0.0
+  }
  }
 ]
