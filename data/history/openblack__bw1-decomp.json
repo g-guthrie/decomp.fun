@@ -1813,5 +1813,19 @@
    "matched_data_percent": 33.20582141021081,
    "complete_data_percent": 8.297393003259176
   }
+ },
+ {
+  "timestamp": "2026-11-09T12:53:38Z",
+  "commit_sha": "91eb563fa98a8e90afd539dcaf84d83bf9e3bfa5",
+  "commit_message": "SpookyVoices: match GetNextSoundexCode",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 62.505173,
+   "matched_code_percent": 49.592276159687536,
+   "complete_code_percent": 23.233582363022922,
+   "matched_data_percent": 33.20582141021081,
+   "complete_data_percent": 8.297393003259176
+  }
  }
 ]
