@@ -1137,5 +1137,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-09T11:16:08Z",
+  "commit_sha": "bd7e9fa783e514ae56b3056cb36fe09f2cb494d6",
+  "commit_message": "The two FSInfo fields are passed by address, so name them as pointers (taking the address of a value form costs an extra live register)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 74.82412,
+   "matched_code_percent": 29.485456207322976,
+   "complete_code_percent": 2.6294358862724065,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
