@@ -991,5 +991,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-09T02:06:31Z",
+  "commit_sha": "0a0bc2b025e891b0a038faa4c3a7a5bb007024f9",
+  "commit_message": "sh2: match `look_command` \ud83d\udc40",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
