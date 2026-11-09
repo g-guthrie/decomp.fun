@@ -1344,5 +1344,19 @@
    "matched_data_percent": 93.02360810268439,
    "complete_data_percent": 22.858802712971883
   }
+ },
+ {
+  "timestamp": "2026-11-09T19:20:11Z",
+  "commit_sha": "8c67e6a1bfc6b017136d51a7df8986a2495909f4",
+  "commit_message": "J3DModel better (#399)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 98.22531,
+   "matched_code_percent": 52.770071374295,
+   "complete_code_percent": 19.243428016249183,
+   "matched_data_percent": 93.02360810268439,
+   "complete_data_percent": 22.858802712971883
+  }
  }
 ]

@@ -1841,5 +1841,19 @@
    "matched_data_percent": 33.206534743666786,
    "complete_data_percent": 8.298348154518287
   }
+ },
+ {
+  "timestamp": "2026-11-09T19:14:35Z",
+  "commit_sha": "d2e72196de8efeb757ed92b76670e54f3669087a",
+  "commit_message": "SpookyVoices: match SoundExCode (#768)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 62.98523,
+   "matched_code_percent": 49.990525555677586,
+   "complete_code_percent": 23.439756285805384,
+   "matched_data_percent": 33.21887877490877,
+   "complete_data_percent": 8.311952960335338
+  }
  }
 ]
