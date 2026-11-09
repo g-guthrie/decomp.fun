@@ -1785,5 +1785,19 @@
    "matched_data_percent": 33.2046157989811,
    "complete_data_percent": 8.29739722983294
   }
+ },
+ {
+  "timestamp": "2026-11-09T03:41:49Z",
+  "commit_sha": "3042cd61eba61bd8125ac1914de7b87c81eb8135",
+  "commit_message": "Script: Name ScriptObjectDispatch's function types",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 62.503292,
+   "matched_code_percent": 49.590398384278586,
+   "complete_code_percent": 23.233582363022922,
+   "matched_data_percent": 33.20582141021081,
+   "complete_data_percent": 8.297393003259176
+  }
  }
 ]
