@@ -1075,5 +1075,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-09T21:39:14Z",
+  "commit_sha": "9d7e5f81249d218ccbd06f4e7da8c302e1c2dc4a",
+  "commit_message": "sh2: decompiled hh_class_raise_dust_phenomenon_00 (#483)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
