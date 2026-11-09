@@ -1869,5 +1869,19 @@
    "matched_data_percent": 33.221714408112156,
    "complete_data_percent": 8.311948726353565
   }
+ },
+ {
+  "timestamp": "2026-11-09T20:45:01Z",
+  "commit_sha": "f21d063b99cbc2e938b9d1475a76e0ce1def11d1",
+  "commit_message": "ServerLandscapeMap: Match in all versions (#749)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 63.335876,
+   "matched_code_percent": 50.34105467459249,
+   "complete_code_percent": 23.74506864910861,
+   "matched_data_percent": 33.23122301377706,
+   "complete_data_percent": 8.328763732044523
+  }
  }
 ]
