@@ -474,5 +474,19 @@
    "matched_data_percent": 0.023751088591560447,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-09T16:46:06Z",
+  "commit_sha": "d569b6b62409e2c74c552042df9420e898f66431",
+  "commit_message": "Add libgcc2_div.h (included by the libgcc2 division units)",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 17.12267,
+   "matched_code_percent": 16.90172326486692,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.04387413099820433,
+   "complete_data_percent": 0.0
+  }
  }
 ]
