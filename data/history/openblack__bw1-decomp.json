@@ -1771,5 +1771,19 @@
    "matched_data_percent": 33.2046157989811,
    "complete_data_percent": 8.29739722983294
   }
+ },
+ {
+  "timestamp": "2026-11-09T03:19:34Z",
+  "commit_sha": "a2411a925ad63c976b7296e9eff2c9dc50928577",
+  "commit_message": "Number HELP_TEXT for each game from its InfoScript2.txt (#747)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 62.367985,
+   "matched_code_percent": 49.48914396548405,
+   "complete_code_percent": 23.23343693910109,
+   "matched_data_percent": 33.2046157989811,
+   "complete_data_percent": 8.29739722983294
+  }
  }
 ]
