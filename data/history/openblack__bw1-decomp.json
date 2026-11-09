@@ -1799,5 +1799,19 @@
    "matched_data_percent": 33.20582141021081,
    "complete_data_percent": 8.297393003259176
   }
+ },
+ {
+  "timestamp": "2026-11-09T12:14:31Z",
+  "commit_sha": "406da9e6537c5a0bf5444f1706b737079d627c52",
+  "commit_message": "Script: Keep typedefs only for the dispatch types ScriptCreateOrCall names",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 62.503292,
+   "matched_code_percent": 49.590398384278586,
+   "complete_code_percent": 23.233582363022922,
+   "matched_data_percent": 33.20582141021081,
+   "complete_data_percent": 8.297393003259176
+  }
  }
 ]

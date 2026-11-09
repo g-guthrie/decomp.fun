@@ -1151,5 +1151,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-09T12:05:04Z",
+  "commit_sha": "4cbe539fc6044546f0a3480763e290e61921de87",
+  "commit_message": "Tidy nw4hbm::ut::detail::ResFontBase::SetLineFeed(int) (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 74.82412,
+   "matched_code_percent": 29.485456207322976,
+   "complete_code_percent": 2.6294358862724065,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
