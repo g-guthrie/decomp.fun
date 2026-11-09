@@ -1358,5 +1358,19 @@
    "matched_data_percent": 93.02360810268439,
    "complete_data_percent": 22.858802712971883
   }
+ },
+ {
+  "timestamp": "2026-11-09T19:55:28Z",
+  "commit_sha": "185e4c9af024619a411e235ffe8c682fe9ea7ae2",
+  "commit_message": "Small improvements on MarioMove + enum for flutterstate + name + enum for water type (#397)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 98.22727,
+   "matched_code_percent": 52.81408143755808,
+   "complete_code_percent": 19.243428016249183,
+   "matched_data_percent": 93.02360810268439,
+   "complete_data_percent": 22.858802712971883
+  }
  }
 ]

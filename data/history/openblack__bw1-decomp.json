@@ -1855,5 +1855,19 @@
    "matched_data_percent": 33.21887877490877,
    "complete_data_percent": 8.311952960335338
   }
+ },
+ {
+  "timestamp": "2026-11-09T19:51:11Z",
+  "commit_sha": "d7323906db72fa5b82df4dddd6419fbbb145fccd",
+  "commit_message": "villagernames: Match every function in all five versions (#766)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 63.029804,
+   "matched_code_percent": 50.035460407729246,
+   "complete_code_percent": 23.439756285805384,
+   "matched_data_percent": 33.221714408112156,
+   "complete_data_percent": 8.311948726353565
+  }
  }
 ]

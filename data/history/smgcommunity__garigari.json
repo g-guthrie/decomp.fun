@@ -1284,5 +1284,19 @@
    "matched_data_percent": 11.02844094029423,
    "complete_data_percent": 2.373524035954085
   }
+ },
+ {
+  "timestamp": "2026-11-09T19:31:16Z",
+  "commit_sha": "10ddbb92dae505c2fe9c69dec908d4922d64cb2f",
+  "commit_message": "ArrowSwitch .text is 99% matching (#49)",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.665022,
+   "matched_code_percent": 19.78664148559798,
+   "complete_code_percent": 2.4357579682450563,
+   "matched_data_percent": 11.051229402284484,
+   "complete_data_percent": 2.373524035954085
+  }
  }
 ]

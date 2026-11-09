@@ -1977,5 +1977,19 @@
    "matched_data_percent": 37.56517865278889,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-09T19:56:55Z",
+  "commit_sha": "403039cffc0c84a0604efef95b1adfb4338c4721",
+  "commit_message": "characters: use ANIM_TIME_RANGE_CHECK in cat/groaner",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.56517865278889,
+   "complete_data_percent": 0.0
+  }
  }
 ]
