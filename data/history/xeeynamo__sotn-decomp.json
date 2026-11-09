@@ -1123,5 +1123,19 @@
    "matched_data_percent": 75.70520062745489,
    "complete_data_percent": 24.258652573163463
   }
+ },
+ {
+  "timestamp": "2026-11-09T15:08:07Z",
+  "commit_sha": "94d5820d8a872775749a6ca92bb242c8168b99e6",
+  "commit_message": "Decompile `sat/LookupTblNoToVramAddr` (#3847)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.62988,
+   "matched_code_percent": 82.59439094203893,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 75.70520062745489,
+   "complete_data_percent": 24.258652573163463
+  }
  }
 ]
