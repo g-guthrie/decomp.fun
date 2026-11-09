@@ -1123,5 +1123,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-09T10:15:17Z",
+  "commit_sha": "500d10a24255b440b9e64fa339d4976fc6419067",
+  "commit_message": "Tidy l2c_csm_open (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 74.81994,
+   "matched_code_percent": 29.485456207322976,
+   "complete_code_percent": 2.6294358862724065,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
