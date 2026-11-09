@@ -1883,5 +1883,19 @@
    "matched_data_percent": 33.23122301377706,
    "complete_data_percent": 8.328763732044523
   }
+ },
+ {
+  "timestamp": "2026-11-09T22:51:20Z",
+  "commit_sha": "a29071355191d7afbd470e234359009ba38eef5f",
+  "commit_message": "ScriptProperty: Match and link the unit in every version (#757)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 63.46438,
+   "matched_code_percent": 50.46954768714475,
+   "complete_code_percent": 23.87502224063437,
+   "matched_data_percent": 33.23537033794432,
+   "complete_data_percent": 8.333086069944763
+  }
  }
 ]
