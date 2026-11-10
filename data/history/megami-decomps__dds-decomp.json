@@ -3378,5 +3378,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-10T15:31:59Z",
+  "commit_sha": "36b278d2506af772b8e022753bdfc96c04fcce5b",
+  "commit_message": "Name mdlHideAllNode and mdlPackCheck in symbol_addrs as mdlManager defines them",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.148409,
+   "matched_code_percent": 95.14840943690982,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.6309971016199799,
+   "complete_data_percent": 0.0
+  }
  }
 ]
