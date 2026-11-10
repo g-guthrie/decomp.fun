@@ -3364,5 +3364,19 @@
    "matched_data_percent": 0.16574190535884806,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-10T08:43:41Z",
+  "commit_sha": "6106ec995c74f87170b643d567016e34d7ff0f41",
+  "commit_message": "Merge pull request #663 from Artemis626/match-cam-normal2",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.047314,
+   "matched_code_percent": 95.04731390362093,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.16574190535884806,
+   "complete_data_percent": 0.0
+  }
  }
 ]
