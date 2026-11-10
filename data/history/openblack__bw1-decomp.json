@@ -1995,5 +1995,19 @@
    "matched_data_percent": 34.62822545614862,
    "complete_data_percent": 9.731467686891392
   }
+ },
+ {
+  "timestamp": "2026-11-10T21:54:06Z",
+  "commit_sha": "9d03ffa61ca3fa6070fe764ac038a808eab8767c",
+  "commit_message": "MPFELogin: Match and link the unit in every version (#777)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 63.754623,
+   "matched_code_percent": 50.77952886447712,
+   "complete_code_percent": 24.16896096076956,
+   "matched_data_percent": 34.62804906701386,
+   "complete_data_percent": 9.74155477187496
+  }
  }
 ]

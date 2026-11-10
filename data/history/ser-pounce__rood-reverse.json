@@ -873,5 +873,19 @@
    "matched_data_percent": 70.06211639429121,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-11-10T21:24:40Z",
+  "commit_sha": "39f9d4b314ee64c42d5b0cb7eca1263cdfd25dc4",
+  "commit_message": "Use volatile for D_80033558 and D_8003354C",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 95.920876,
+   "matched_code_percent": 95.92087234991284,
+   "complete_code_percent": 72.82078722283028,
+   "matched_data_percent": 70.06211639429121,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]
