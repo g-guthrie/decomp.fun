@@ -1911,5 +1911,19 @@
    "matched_data_percent": 34.30201565692801,
    "complete_data_percent": 9.399887375255107
   }
+ },
+ {
+  "timestamp": "2026-11-10T01:28:22Z",
+  "commit_sha": "f7b5c6f01dd122f89ed9ba11999387691bcac18c",
+  "commit_message": "ScriptDebug: Carve, match and link the unit in every version (#770)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 63.515327,
+   "matched_code_percent": 50.53307338821317,
+   "complete_code_percent": 23.926977121263338,
+   "matched_data_percent": 34.302168472049985,
+   "complete_data_percent": 9.40004019037708
+  }
  }
 ]

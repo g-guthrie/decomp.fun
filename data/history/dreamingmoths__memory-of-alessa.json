@@ -1089,5 +1089,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-10T02:16:58Z",
+  "commit_sha": "1a8498805b820b6e67031d202c82fa3a5f5dff04",
+  "commit_message": "sh2: add `sh2gfw_model_light` matches",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 7.658466,
+   "matched_code_percent": 6.789882809879293,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
