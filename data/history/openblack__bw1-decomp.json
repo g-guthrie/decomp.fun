@@ -1967,5 +1967,19 @@
    "matched_data_percent": 34.628260734191215,
    "complete_data_percent": 9.725976267092816
   }
+ },
+ {
+  "timestamp": "2026-11-10T16:39:49Z",
+  "commit_sha": "422398b9c408dd5f728792e13c6ee6390578e0bc",
+  "commit_message": "Living: Make IsInterestedInFoodObject return bool32_t (#775)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 63.666344,
+   "matched_code_percent": 50.678842809880955,
+   "complete_code_percent": 24.07981351479057,
+   "matched_data_percent": 34.628260734191215,
+   "complete_data_percent": 9.725976267092816
+  }
  }
 ]
