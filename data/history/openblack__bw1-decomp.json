@@ -1953,5 +1953,19 @@
    "matched_data_percent": 34.62664393799892,
    "complete_data_percent": 9.724400895597123
   }
+ },
+ {
+  "timestamp": "2026-11-10T14:07:02Z",
+  "commit_sha": "b1fa923f8cb1b96a5b2d4e1cbef80b0b1875abd6",
+  "commit_message": "Ball: Make IsBallFree return bool32_t (#774)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 63.666332,
+   "matched_code_percent": 50.67613028394835,
+   "complete_code_percent": 24.07981351479057,
+   "matched_data_percent": 34.628260734191215,
+   "complete_data_percent": 9.725976267092816
+  }
  }
 ]
