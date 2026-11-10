@@ -2089,5 +2089,19 @@
    "matched_data_percent": 37.56517865278889,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-10T13:00:57Z",
+  "commit_sha": "45868f4efeb6fb61639b19d54d7a2da72ed23fef",
+  "commit_message": "objdiff: build report by self-comparing built objects",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 48.725959250184204,
+   "complete_data_percent": 0.0
+  }
  }
 ]

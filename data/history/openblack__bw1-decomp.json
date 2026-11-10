@@ -1939,5 +1939,19 @@
    "matched_data_percent": 34.302168472049985,
    "complete_data_percent": 9.40004019037708
   }
+ },
+ {
+  "timestamp": "2026-11-10T13:09:33Z",
+  "commit_sha": "f0799789cdf849bdf02b4d45dbcdbe9ba1e34423",
+  "commit_message": "logo: Match and link the unit in every version (#754)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 63.658623,
+   "matched_code_percent": 50.66368680834146,
+   "complete_code_percent": 24.070651626500734,
+   "matched_data_percent": 34.62664393799892,
+   "complete_data_percent": 9.724400895597123
+  }
  }
 ]
