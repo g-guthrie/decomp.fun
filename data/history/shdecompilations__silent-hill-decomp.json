@@ -2033,5 +2033,19 @@
    "matched_data_percent": 37.56517865278889,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-10T07:11:34Z",
+  "commit_sha": "6a081621692567a230e4deb2d71c63d6db790323",
+  "commit_message": "bodyprog: paperMapFlags, misc fixups",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.56517865278889,
+   "complete_data_percent": 0.0
+  }
  }
 ]
