@@ -94,5 +94,19 @@
    "matched_data_percent": 99.99588258706858,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-10T18:58:22Z",
+  "commit_sha": "72ba33bd6b008cdd13c7e02e6aba5862ffb91867",
+  "commit_message": "README: organize version info into table and other cleanups (#184)",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 99.99588258706858,
+   "complete_data_percent": 0.0
+  }
  }
 ]

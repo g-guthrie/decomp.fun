@@ -1459,5 +1459,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-10T19:14:35Z",
+  "commit_sha": "1317da4748383bfd3916889f904f020438b16251",
+  "commit_message": "Tidy GKI_remove_from_timer_list (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 77.75834,
+   "matched_code_percent": 31.835962856644535,
+   "complete_code_percent": 2.7228057107712322,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

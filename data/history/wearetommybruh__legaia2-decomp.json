@@ -502,5 +502,19 @@
    "matched_data_percent": 0.04387413099820433,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-10T19:20:36Z",
+  "commit_sha": "aeffac936419ce443613f85e023bdcf0dca451cd",
+  "commit_message": "CLAUDE.md: record user approval of register-bound locals and empty-asm nudges",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 17.32889,
+   "matched_code_percent": 17.109219229673702,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.04387413099820433,
+   "complete_data_percent": 0.0
+  }
  }
 ]
