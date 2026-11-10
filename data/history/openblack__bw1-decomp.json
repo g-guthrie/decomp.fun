@@ -1897,5 +1897,19 @@
    "matched_data_percent": 33.23537033794432,
    "complete_data_percent": 8.333086069944763
   }
+ },
+ {
+  "timestamp": "2026-11-10T00:50:49Z",
+  "commit_sha": "0983dc7a4ca8fc99b96b04306c0cc7ed4d852fd2",
+  "commit_message": "ScriptSound: Match in every version (#759)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 63.51427,
+   "matched_code_percent": 50.53201114895971,
+   "complete_code_percent": 23.925914882009877,
+   "matched_data_percent": 34.30201565692801,
+   "complete_data_percent": 9.399887375255107
+  }
  }
 ]

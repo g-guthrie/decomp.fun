@@ -1333,5 +1333,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-10T01:17:01Z",
+  "commit_sha": "bc23357bdf452c013999da8a30eaf5ad0bcb857b",
+  "commit_message": "add Shutdown externs",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 76.82193,
+   "matched_code_percent": 30.705820795505662,
+   "complete_code_percent": 2.6665477687628103,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
