@@ -1165,5 +1165,19 @@
    "matched_data_percent": 75.70520062745489,
    "complete_data_percent": 24.258652573163463
   }
+ },
+ {
+  "timestamp": "2026-11-10T11:02:15Z",
+  "commit_sha": "4fe41d465e88ad5de248823326c6ba1e4c01d06d",
+  "commit_message": "Decompile `func_0600AEE4` + name bss symbols (#3850)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.62976,
+   "matched_code_percent": 82.59439094203893,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 75.70520062745489,
+   "complete_data_percent": 24.258652573163463
+  }
  }
 ]

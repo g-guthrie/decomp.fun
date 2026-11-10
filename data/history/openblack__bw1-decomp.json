@@ -1925,5 +1925,19 @@
    "matched_data_percent": 34.302168472049985,
    "complete_data_percent": 9.40004019037708
   }
+ },
+ {
+  "timestamp": "2026-11-10T10:16:12Z",
+  "commit_sha": "dcf393e2881d200a6606d1c7aee6850256e7fe6a",
+  "commit_message": "tools: Fix the build and verification tools on native Windows (#772)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 63.515327,
+   "matched_code_percent": 50.53307338821317,
+   "complete_code_percent": 23.926977121263338,
+   "matched_data_percent": 34.302168472049985,
+   "complete_data_percent": 9.40004019037708
+  }
  }
 ]
