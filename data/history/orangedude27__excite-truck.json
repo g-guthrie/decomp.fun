@@ -1389,5 +1389,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-10T05:16:12Z",
+  "commit_sha": "58f4746919a61d4673f671f3d29b854e212838d1",
+  "commit_message": "Tidy GetCellHeight__Q46nw4hbm2ut6detail11ResFontBaseCFv_80109F24 (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 77.350975,
+   "matched_code_percent": 31.34852516329884,
+   "complete_code_percent": 2.6665477687628103,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

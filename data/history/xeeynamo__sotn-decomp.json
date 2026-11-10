@@ -1151,5 +1151,19 @@
    "matched_data_percent": 75.70520062745489,
    "complete_data_percent": 24.258652573163463
   }
+ },
+ {
+  "timestamp": "2026-11-10T05:07:18Z",
+  "commit_sha": "ec94d9aec9bfdf508a057031ad03c8ad53846bbd",
+  "commit_message": "satz: add 3rd hand/holder and delicious meal item (#3848)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.62993,
+   "matched_code_percent": 82.59439094203893,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 75.70520062745489,
+   "complete_data_percent": 24.258652573163463
+  }
  }
 ]
