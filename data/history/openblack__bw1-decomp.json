@@ -1981,5 +1981,19 @@
    "matched_data_percent": 34.628260734191215,
    "complete_data_percent": 9.725976267092816
   }
+ },
+ {
+  "timestamp": "2026-11-10T17:57:45Z",
+  "commit_sha": "4a2cbae74a28d3af76938ba78e5dd59e91aa0a79",
+  "commit_message": "MPFEConditionMessages: Decompile and link the unit in 1.20 and 1.30 (#771)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 63.699608,
+   "matched_code_percent": 50.72467122004295,
+   "complete_code_percent": 24.113065668355958,
+   "matched_data_percent": 34.62822545614862,
+   "complete_data_percent": 9.731467686891392
+  }
  }
 ]

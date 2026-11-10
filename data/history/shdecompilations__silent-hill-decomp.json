@@ -2131,5 +2131,19 @@
    "matched_data_percent": 49.04763011274326,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-10T17:56:25Z",
+  "commit_sha": "f3907e6b30c45e3dce7cf3707900823860fa37bc",
+  "commit_message": "maps: .data/.bss for unused maps, M2S04",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 50.29721432359271,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -1445,5 +1445,19 @@
    "matched_data_percent": 3.449245057780839,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-10T18:16:24Z",
+  "commit_sha": "741a82afa04f7a56dcc098ab46ef4f37521491a8",
+  "commit_message": "Tidy __OSReadStateFlags (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 77.75836,
+   "matched_code_percent": 31.830717360886172,
+   "complete_code_percent": 2.7228057107712322,
+   "matched_data_percent": 3.449245057780839,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
