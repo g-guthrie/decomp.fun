@@ -136,5 +136,19 @@
    "matched_data_percent": 15.596986336355508,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-10T20:56:12Z",
+  "commit_sha": "c8b0be336a0e429a67c5be05474e1e815d1979dd",
+  "commit_message": "Untrack stray cd-dat-utils gitlink and ignore it",
+  "source": "report",
+  "version": "SLUS-00708",
+  "measures": {
+   "fuzzy_match_percent": 88.14362,
+   "matched_code_percent": 87.43183353816524,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 29.464139579036956,
+   "complete_data_percent": 0.0
+  }
  }
 ]

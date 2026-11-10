@@ -268,5 +268,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-10T21:00:26Z",
+  "commit_sha": "139b9c2cd109f971e477f8f3a98ff7ea2d405fd6",
+  "commit_message": "Removed ig_camera asm patches (thanks to @Mc-muffin)",
+  "source": "report",
+  "version": "SLUS_203.88",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
