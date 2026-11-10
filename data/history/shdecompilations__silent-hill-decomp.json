@@ -1991,5 +1991,19 @@
    "matched_data_percent": 37.56517865278889,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-10T04:37:45Z",
+  "commit_sha": "10c9a9396c3781bf92edbb5c1f3c4ed7bdb5fc79",
+  "commit_message": "Bodyprog: equipped player weapon info deobfuscation",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 37.56517865278889,
+   "complete_data_percent": 0.0
+  }
  }
 ]
