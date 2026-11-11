@@ -2051,5 +2051,19 @@
    "matched_data_percent": 34.62838601475543,
    "complete_data_percent": 9.760025367055047
   }
+ },
+ {
+  "timestamp": "2026-11-11T12:45:23Z",
+  "commit_sha": "d7ec43e50bde3781a1e942ceae0b4fe877a54c81",
+  "commit_message": "MPFENumberCodec: Match and link the unit in every version (#785)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 64.66828,
+   "matched_code_percent": 51.757332115883884,
+   "complete_code_percent": 24.553010473936222,
+   "matched_data_percent": 34.63152850542941,
+   "complete_data_percent": 9.763040647054126
+  }
  }
 ]
