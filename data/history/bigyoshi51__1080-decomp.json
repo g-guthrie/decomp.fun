@@ -2653,5 +2653,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-11T21:44:02Z",
+  "commit_sha": "349fd7e1aa655a3e1c52703114c21d4abd289014",
+  "commit_message": "report.json: agent-g run 343 (post0b 3B9C0 99.21->99.32; num op order + dx/dy in dead carriers, frame 232)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.92328,
+   "matched_code_percent": 96.79217870648645,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
