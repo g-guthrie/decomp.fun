@@ -1117,5 +1117,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-11T03:44:59Z",
+  "commit_sha": "2a56f0e30013f425bc70e9f9b496d5c868ef6079",
+  "commit_message": "sh3: match 14 `mall_f_01` funcs (#486)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 8.128407,
+   "matched_code_percent": 7.014000076156353,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
