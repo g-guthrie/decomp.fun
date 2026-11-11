@@ -2039,5 +2039,19 @@
    "matched_data_percent": 78.08982346289883,
    "complete_data_percent": 78.08982346289883
   }
+ },
+ {
+  "timestamp": "2026-11-11T04:17:45Z",
+  "commit_sha": "5efc8c38e3f23ce3968fa1d12543818eef01b642",
+  "commit_message": "match: fn_8003C6D0 links from C (was an asm unit)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.74213,
+   "matched_code_percent": 99.35036723998687,
+   "complete_code_percent": 99.35036723998687,
+   "matched_data_percent": 78.08982346289883,
+   "complete_data_percent": 78.08982346289883
+  }
  }
 ]

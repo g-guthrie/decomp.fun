@@ -1131,5 +1131,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-11T05:01:33Z",
+  "commit_sha": "cefd88578310e10fc1ff0d893180a3b4bb195b79",
+  "commit_message": "sh2: add mwcc 2.3.3 to dependencies",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 8.128407,
+   "matched_code_percent": 7.014000076156353,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
