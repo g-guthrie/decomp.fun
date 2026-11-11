@@ -2067,5 +2067,19 @@
    "matched_data_percent": 78.08982346289883,
    "complete_data_percent": 78.08982346289883
   }
+ },
+ {
+  "timestamp": "2026-11-11T16:42:43Z",
+  "commit_sha": "521fb6563c2fcda382b00e770b94bec2b52bd61e",
+  "commit_message": "docs: interior-slice folding for data import; README data 94.57%",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.74783,
+   "matched_code_percent": 99.36562067166852,
+   "complete_code_percent": 99.36562067166852,
+   "matched_data_percent": 94.57380782656956,
+   "complete_data_percent": 94.57380782656956
+  }
  }
 ]
