@@ -530,5 +530,19 @@
    "matched_data_percent": 0.04387413099820433,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-11T15:36:17Z",
+  "commit_sha": "5ba3b87b9ba9832e0e9d2bf8fb02628d7726353a",
+  "commit_message": "Match 254ce0, 255008, 18a798, 18a708 (early-return structure; one empty-asm nudge in 18a798)",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 17.495441,
+   "matched_code_percent": 17.27576985156819,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.04387413099820433,
+   "complete_data_percent": 0.0
+  }
  }
 ]
