@@ -220,5 +220,19 @@
    "matched_data_percent": 29.464139579036956,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-11T19:14:40Z",
+  "commit_sha": "5ec3896a62972ebfe829b923c9862408446baa43",
+  "commit_message": "Match FX_LightHouse + polish FX_SoulReaverBlade",
+  "source": "report",
+  "version": "SLUS-00708",
+  "measures": {
+   "fuzzy_match_percent": 90.938385,
+   "matched_code_percent": 90.22659196952527,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 29.464139579036956,
+   "complete_data_percent": 0.0
+  }
  }
 ]

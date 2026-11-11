@@ -684,5 +684,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-11T19:02:23Z",
+  "commit_sha": "45c09759d79fdc2eb08513a92e3ef1ca1b202a50",
+  "commit_message": "Fix a fake match and cleanup field_draw_timed_panel_image (#1141)",
+  "source": "report",
+  "version": "SLUS_010.13",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

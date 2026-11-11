@@ -2065,5 +2065,19 @@
    "matched_data_percent": 34.63152850542941,
    "complete_data_percent": 9.763040647054126
   }
+ },
+ {
+  "timestamp": "2026-11-11T18:53:50Z",
+  "commit_sha": "4914360c672129d8a587ed364f62a839660d5dfb",
+  "commit_message": "SoundTag: match GetBank (#789)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 64.72629,
+   "matched_code_percent": 51.815209761978984,
+   "complete_code_percent": 24.55318285759935,
+   "matched_data_percent": 34.63188507082344,
+   "complete_data_percent": 9.763040647054126
+  }
  }
 ]
