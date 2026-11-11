@@ -282,5 +282,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-11T10:12:55Z",
+  "commit_sha": "cb6e808eb4b300667f61a91cb1ada680d46eba91",
+  "commit_message": "decompiled (jp) and revisited (us,eu) ingame/menu/ig_file.c",
+  "source": "report",
+  "version": "SLUS_203.88",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
