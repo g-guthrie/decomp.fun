@@ -23,5 +23,19 @@
    "matched_data_percent": 6.162292878019633,
    "complete_data_percent": 6.162292878019633
   }
+ },
+ {
+  "timestamp": "2026-11-11T19:45:10Z",
+  "commit_sha": "4cfa786f533bab8d947acc166e5cb6b39ae2692b",
+  "commit_message": "libpress 3.3 (#15)",
+  "source": "report",
+  "version": "3.5",
+  "measures": {
+   "fuzzy_match_percent": 11.422128,
+   "matched_code_percent": 14.872109618214488,
+   "complete_code_percent": 14.872109618214488,
+   "matched_data_percent": 6.162292878019633,
+   "complete_data_percent": 6.162292878019633
+  }
  }
 ]

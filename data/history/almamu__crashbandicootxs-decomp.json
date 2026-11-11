@@ -201,6 +201,20 @@
   }
  },
  {
+  "timestamp": "2026-10-21T19:27:09Z",
+  "commit_sha": "d346225e1d97af060c40b9ec28ab0b31b94ac0a7",
+  "commit_message": "CI: bytematch.dev through its GitHub App only (#1217)",
+  "source": "report",
+  "version": "xs_europe",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
+ },
+ {
   "timestamp": "2026-10-21T19:46:18Z",
   "commit_sha": "273429229394b5aeeae1ddc61348f41aeac5b001",
   "commit_message": "CI: XS's progress artifact is europe_report again (#1218)",
