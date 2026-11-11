@@ -3406,5 +3406,19 @@
    "matched_data_percent": 0.6309971016199799,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-11T00:21:17Z",
+  "commit_sha": "1da2d2005bb4d3abda37572cfd4781b4f6323360",
+  "commit_message": "Merge origin/main into sdf-conform",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.02209,
+   "matched_code_percent": 95.022090257034,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.6461410320588594,
+   "complete_data_percent": 0.0
+  }
  }
 ]
