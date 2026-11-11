@@ -887,5 +887,19 @@
    "matched_data_percent": 70.06211639429121,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-11-11T02:18:26Z",
+  "commit_sha": "7161c72dc8eb90bfba467a15998dc9e3a137a4ad",
+  "commit_message": "[3/5] More battle script opcode renaming & refactoring (#343)",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 96.05136,
+   "matched_code_percent": 96.05136035348247,
+   "complete_code_percent": 75.03732780228763,
+   "matched_data_percent": 70.06211639429121,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]
