@@ -2023,5 +2023,19 @@
    "matched_data_percent": 34.62804906701386,
    "complete_data_percent": 9.74155477187496
   }
+ },
+ {
+  "timestamp": "2026-11-11T00:58:18Z",
+  "commit_sha": "d0a748c5e0b3a32bf6ea24b5d7950ed8f44c05a7",
+  "commit_message": "MPFEChooseConnection: Match and link the unit in every version (#781)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 63.81406,
+   "matched_code_percent": 50.838825695243386,
+   "complete_code_percent": 24.22807378623465,
+   "matched_data_percent": 34.62803142819922,
+   "complete_data_percent": 9.759530902328665
+  }
  }
 ]
