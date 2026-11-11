@@ -670,5 +670,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-11T17:20:52Z",
+  "commit_sha": "80275520fbbd06cc3fa2f0967a09523d6ed95035",
+  "commit_message": "Fix a fake match in field_grant_actor_pickup (#1139)",
+  "source": "report",
+  "version": "SLUS_010.13",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

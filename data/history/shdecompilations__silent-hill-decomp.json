@@ -2299,5 +2299,19 @@
    "matched_data_percent": 51.821057788173796,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-11T18:18:36Z",
+  "commit_sha": "55dfa2c431d392bfa45dee38209b98e91c2f6cc5",
+  "commit_message": "`s_AttackInfo` and fields, heavily based on SH2 `shBattleInfo`",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.821057788173796,
+   "complete_data_percent": 0.0
+  }
  }
 ]

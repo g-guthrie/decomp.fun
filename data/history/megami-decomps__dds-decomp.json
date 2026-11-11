@@ -3420,5 +3420,19 @@
    "matched_data_percent": 0.6461410320588594,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-11T11:28:20Z",
+  "commit_sha": "1a0a943c28641f566eb4a60d4785c22896f7820b",
+  "commit_message": "Split sdk/libc .rodata in both games",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.02209,
+   "matched_code_percent": 95.022090257034,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.6491009360407378,
+   "complete_data_percent": 0.0
+  }
  }
 ]

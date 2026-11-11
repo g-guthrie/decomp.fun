@@ -9,5 +9,19 @@
    "complete_code_percent": 1.1,
    "fuzzy_match_percent": 1.1
   }
+ },
+ {
+  "timestamp": "2026-11-11T17:53:00Z",
+  "commit_sha": "cbb1de23ca6b9800984a72ac9e8352b1e3b046cd",
+  "commit_message": "add libs for sotn (#14)",
+  "source": "report",
+  "version": "3.5",
+  "measures": {
+   "fuzzy_match_percent": 11.422128,
+   "matched_code_percent": 14.872109618214488,
+   "complete_code_percent": 14.872109618214488,
+   "matched_data_percent": 6.162292878019633,
+   "complete_data_percent": 6.162292878019633
+  }
  }
 ]
