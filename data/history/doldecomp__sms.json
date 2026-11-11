@@ -1442,5 +1442,19 @@
    "matched_data_percent": 93.02360810268439,
    "complete_data_percent": 22.858802712971883
   }
+ },
+ {
+  "timestamp": "2026-11-11T21:09:59Z",
+  "commit_sha": "009a6b4377bd1759e3641ca78f12a0d79ccc7dfe",
+  "commit_message": "Final cleanup of JASystem below logical channels",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 98.22727,
+   "matched_code_percent": 52.81408143755808,
+   "complete_code_percent": 19.243428016249183,
+   "matched_data_percent": 93.02360810268439,
+   "complete_data_percent": 22.858802712971883
+  }
  }
 ]
