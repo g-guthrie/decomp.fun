@@ -516,5 +516,19 @@
    "matched_data_percent": 0.04387413099820433,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-11T15:22:39Z",
+  "commit_sha": "b7529d27233a401e8178f7b7cedb6005270eecd2",
+  "commit_message": "Match 2a4020 and 12a958; clas_min.c no longer carries a stray -fno-gcse flag",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 17.459639,
+   "matched_code_percent": 17.239967401968542,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.04387413099820433,
+   "complete_data_percent": 0.0
+  }
  }
 ]
