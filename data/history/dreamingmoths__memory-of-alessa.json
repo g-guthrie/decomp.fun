@@ -1257,5 +1257,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T20:53:36Z",
+  "commit_sha": "723086e4d5be80b22c0d865e7dfc31ab3ef3e2ea",
+  "commit_message": "sh2: decompiled hh_class_smoke_00 (#494)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 8.128407,
+   "matched_code_percent": 7.014000076156353,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

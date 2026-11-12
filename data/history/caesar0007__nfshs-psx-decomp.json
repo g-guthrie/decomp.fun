@@ -1186,5 +1186,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-12T21:06:39Z",
+  "commit_sha": "7f4af3437bdb54ed7b4aa50de02fd4313b8e05d9",
+  "commit_message": "docs: header-truth plan: Group setter open mismatch",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

@@ -2751,5 +2751,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T20:56:29Z",
+  "commit_sha": "421243a8cdcca7a3584135077ffd8d18ceecb010",
+  "commit_message": "report.json: agent-g run 362 (post0b 4B620 99.77->99.82; K3 self-assign identity pool word)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.937355,
+   "matched_code_percent": 97.24377029146277,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

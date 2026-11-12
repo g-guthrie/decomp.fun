@@ -2193,5 +2193,19 @@
    "matched_data_percent": 98.01122434987457,
    "complete_data_percent": 98.01122434987457
   }
+ },
+ {
+  "timestamp": "2026-11-12T20:58:17Z",
+  "commit_sha": "748d1a67f0907dc1979ea514d166b98f249790bd",
+  "commit_message": "tu-finish: hoist only prologue-visible types; restore committed blocks self-contained",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.8039,
+   "matched_code_percent": 99.76915565446075,
+   "complete_code_percent": 99.76915565446075,
+   "matched_data_percent": 98.01122434987457,
+   "complete_data_percent": 98.01122434987457
+  }
  }
 ]
