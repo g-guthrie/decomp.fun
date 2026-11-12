@@ -276,5 +276,19 @@
    "matched_data_percent": 29.464139579036956,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T17:54:12Z",
+  "commit_sha": "7749f7bb7db23deee2d3daee49a87d37272ac758",
+  "commit_message": "Add current matching rate for all non-matchings + polish their code a bit",
+  "source": "report",
+  "version": "SLUS-00708",
+  "measures": {
+   "fuzzy_match_percent": 92.88798,
+   "matched_code_percent": 91.21404136008385,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 29.464139579036956,
+   "complete_data_percent": 0.0
+  }
  }
 ]

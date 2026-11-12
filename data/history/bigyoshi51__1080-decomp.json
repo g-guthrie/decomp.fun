@@ -2709,5 +2709,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T18:21:49Z",
+  "commit_sha": "4c47e30e202276ee63c2ea85db5548bc00c70458",
+  "commit_message": "report.json: agent-h run 355 (game_uso B3C EXACT via period MIPSpro 7.2.1 C++ front end; 116C/76F0 NM donors) \u2014 97.17% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.927345,
+   "matched_code_percent": 97.1734877451366,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
