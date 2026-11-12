@@ -1243,5 +1243,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T17:00:35Z",
+  "commit_sha": "7ac26cb558bd2203c52b72122e3b0b2257329c2e",
+  "commit_message": "alessastruct+sh2: add `Smoke_Initialize_Parameter`",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 8.128407,
+   "matched_code_percent": 7.014000076156353,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -256,5 +256,19 @@
    "matched_data_percent": 99.24299934019623,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T16:50:00Z",
+  "commit_sha": "8ffe2b424399bae406150d1635007458b52e0492",
+  "commit_message": "Build the PSY-Q libraries from psy-q-decomp (US, JP) (#430)",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 92.87288,
+   "matched_code_percent": 92.87288041671285,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 99.72223993651198,
+   "complete_data_percent": 0.0
+  }
  }
 ]
