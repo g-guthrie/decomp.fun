@@ -2191,5 +2191,19 @@
    "matched_data_percent": 34.72621116905112,
    "complete_data_percent": 11.189654843084446
   }
+ },
+ {
+  "timestamp": "2026-11-12T22:35:12Z",
+  "commit_sha": "3c6b65a747f660f31d37f6511403419b09f701d6",
+  "commit_message": "Alignment: Set to Matching (#807)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 66.971535,
+   "matched_code_percent": 53.83509225690942,
+   "complete_code_percent": 26.58904188872622,
+   "matched_data_percent": 34.75801093040355,
+   "complete_data_percent": 11.238695024218899
+  }
  }
 ]

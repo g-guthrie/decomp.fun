@@ -1484,5 +1484,19 @@
    "matched_data_percent": 93.02360810268439,
    "complete_data_percent": 22.858802712971883
   }
+ },
+ {
+  "timestamp": "2026-11-12T22:27:29Z",
+  "commit_sha": "24f56d5636f88b23423a8c939ac1f6baee80adcd",
+  "commit_message": "JASCmdStack naming",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 98.22727,
+   "matched_code_percent": 52.81408143755808,
+   "complete_code_percent": 19.243428016249183,
+   "matched_data_percent": 93.02360810268439,
+   "complete_data_percent": 22.858802712971883
+  }
  }
 ]
