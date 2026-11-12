@@ -2667,5 +2667,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T00:17:04Z",
+  "commit_sha": "67955bdd2cce09840493acb7180ed632fdb900c2",
+  "commit_message": "report.json: agent-c run 347 (post0b 4FD00 98.69->99.00; both face sums in one inline expansion)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.92374,
+   "matched_code_percent": 96.79217870648645,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

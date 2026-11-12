@@ -361,5 +361,19 @@
    "matched_data_percent": 24.445237769540544,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T00:38:36Z",
+  "commit_sha": "9935d954337021f2a68f5f0362fad7f966476832",
+  "commit_message": "battle: cleanup and doc pass for stateFlags (#393)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 68.385925,
+   "matched_code_percent": 68.38592864201384,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.445237769540544,
+   "complete_data_percent": 0.0
+  }
  }
 ]
