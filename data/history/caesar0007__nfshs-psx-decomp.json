@@ -1060,5 +1060,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-12T10:47:58Z",
+  "commit_sha": "a0c63a2f81c4b09400505bc446e61a94a6fe29c1",
+  "commit_message": "docs: header-truth plan log: phase 2 commit id",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
