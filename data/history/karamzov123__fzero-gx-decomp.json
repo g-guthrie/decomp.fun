@@ -2207,5 +2207,19 @@
    "matched_data_percent": 98.01122434987457,
    "complete_data_percent": 98.01122434987457
   }
+ },
+ {
+  "timestamp": "2026-11-12T21:52:25Z",
+  "commit_sha": "c62f43b6d982fb39156ea6a4902f0b59f336eb1a",
+  "commit_message": "tu-regroup: contiguous TUs from tus.json text ranges; first collapsed TU (title/name_entry.c)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.8039,
+   "matched_code_percent": 99.76915565446075,
+   "complete_code_percent": 99.76915565446075,
+   "matched_data_percent": 98.01122434987457,
+   "complete_data_percent": 98.01122434987457
+  }
  }
 ]
