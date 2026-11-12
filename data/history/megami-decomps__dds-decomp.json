@@ -3448,5 +3448,19 @@
    "matched_data_percent": 0.6491009360407378,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T14:50:10Z",
+  "commit_sha": "34c99953635fb4f301267e72895600434d7691b8",
+  "commit_message": "Stop reading mnuDrawMantraPulseAndSparks result under FIX_BUGS",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.02209,
+   "matched_code_percent": 95.022090257034,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.6491009360407378,
+   "complete_data_percent": 0.0
+  }
  }
 ]
