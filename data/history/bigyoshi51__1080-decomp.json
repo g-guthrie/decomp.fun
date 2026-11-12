@@ -2737,5 +2737,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T20:05:10Z",
+  "commit_sha": "eddf20f414f9be7600ff8dbfbd06abc3b3274006",
+  "commit_message": "report.json: agent-h run 361 (kernel 1ADC 95.66->96.26 tail masks; 8CD8 91.18->91.29 double phase store)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.93106,
+   "matched_code_percent": 97.1734877451366,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

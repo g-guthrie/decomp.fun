@@ -2177,5 +2177,19 @@
    "matched_data_percent": 34.72669940410927,
    "complete_data_percent": 10.21230437824455
   }
+ },
+ {
+  "timestamp": "2026-11-12T19:58:01Z",
+  "commit_sha": "15876f8463c3da10d7f17b015e4c4f0ea0bb244d",
+  "commit_message": "MPFEChannelMessages: Decompile the unit and link it in every version (#805)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 66.96861,
+   "matched_code_percent": 53.774406784324626,
+   "complete_code_percent": 26.385903056950035,
+   "matched_data_percent": 34.72621116905112,
+   "complete_data_percent": 11.189654843084446
+  }
  }
 ]

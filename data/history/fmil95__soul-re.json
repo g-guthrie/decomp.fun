@@ -304,5 +304,19 @@
    "matched_data_percent": 29.464139579036956,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T20:17:11Z",
+  "commit_sha": "4090ad0effc8facee3d35a6c234b9fdbee7db27b",
+  "commit_message": "Implement non-matching _FX_BuildSegmentedSplinters",
+  "source": "report",
+  "version": "SLUS-00708",
+  "measures": {
+   "fuzzy_match_percent": 93.657616,
+   "matched_code_percent": 91.21404136008385,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 29.464139579036956,
+   "complete_data_percent": 0.0
+  }
  }
 ]
