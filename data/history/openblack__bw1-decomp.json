@@ -2107,5 +2107,19 @@
    "matched_data_percent": 34.64109883781863,
    "complete_data_percent": 9.773641864558492
   }
+ },
+ {
+  "timestamp": "2026-11-12T14:13:43Z",
+  "commit_sha": "28cd95b969ba31649af6f4bcfdbad1b131682af6",
+  "commit_message": "HelpText: name WorldRoom tooltip resources (#788)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 64.99198,
+   "matched_code_percent": 52.10872322883093,
+   "complete_code_percent": 24.843872600877248,
+   "matched_data_percent": 34.64150633925794,
+   "complete_data_percent": 9.775271870315724
+  }
  }
 ]

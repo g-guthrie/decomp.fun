@@ -1102,5 +1102,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-12T13:42:18Z",
+  "commit_sha": "946cebe658cfbe3f9ac764ea04db56d35ddd7676",
+  "commit_message": "docs: header-truth plan: phase 3 done, open mismatches",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

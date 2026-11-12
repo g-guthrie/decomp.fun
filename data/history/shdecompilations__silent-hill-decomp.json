@@ -2411,5 +2411,19 @@
    "matched_data_percent": 51.821057788173796,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T14:05:12Z",
+  "commit_sha": "dc9b96a5f02b541feae579fe56d859c5d5c8cd63",
+  "commit_message": "bodyprog: `EquippedWeaponId` -> `AttackType`, add basic enemy attack names",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.821057788173796,
+   "complete_data_percent": 0.0
+  }
  }
 ]
