@@ -2221,5 +2221,19 @@
    "matched_data_percent": 98.01122434987457,
    "complete_data_percent": 98.01122434987457
   }
+ },
+ {
+  "timestamp": "2026-11-12T22:06:25Z",
+  "commit_sha": "003132bcfdef966ce70487728f30c53fc37649da",
+  "commit_message": "collapse sel/record.c and main_rel/avline.c into single compiled units",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.8039,
+   "matched_code_percent": 99.76915565446075,
+   "complete_code_percent": 99.76915565446075,
+   "matched_data_percent": 98.01122434987457,
+   "complete_data_percent": 98.01122434987457
+  }
  }
 ]

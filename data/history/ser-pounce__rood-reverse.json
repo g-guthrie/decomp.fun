@@ -915,5 +915,19 @@
    "matched_data_percent": 70.06211639429121,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-11-12T21:25:12Z",
+  "commit_sha": "a8cdb5914af8e52efdec778f7f20780071584bbd",
+  "commit_message": "Use memcpy in vs_battle_copyAligned and vs_battle_memcpy",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 96.05136,
+   "matched_code_percent": 96.05136035348247,
+   "complete_code_percent": 75.03732780228763,
+   "matched_data_percent": 70.06211639429121,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]

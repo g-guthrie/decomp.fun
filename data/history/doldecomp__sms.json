@@ -1470,5 +1470,19 @@
    "matched_data_percent": 93.02360810268439,
    "complete_data_percent": 22.858802712971883
   }
+ },
+ {
+  "timestamp": "2026-11-12T22:09:51Z",
+  "commit_sha": "ae3c1d6465f185adc64db870e60bb56cb75b8376",
+  "commit_message": "JASTrackMgr refactoring",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 98.22727,
+   "matched_code_percent": 52.81408143755808,
+   "complete_code_percent": 19.243428016249183,
+   "matched_data_percent": 93.02360810268439,
+   "complete_data_percent": 22.858802712971883
+  }
  }
 ]

@@ -332,5 +332,19 @@
    "matched_data_percent": 29.464139579036956,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T21:28:47Z",
+  "commit_sha": "70157d08545b7900acb58abf2559f9d942dfcda0",
+  "commit_message": "Remove report warnings for the EXE",
+  "source": "report",
+  "version": "SLUS-00708",
+  "measures": {
+   "fuzzy_match_percent": 93.84625,
+   "matched_code_percent": 91.21404136008385,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 29.464139579036956,
+   "complete_data_percent": 0.0
+  }
  }
 ]
