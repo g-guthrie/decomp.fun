@@ -2093,5 +2093,19 @@
    "matched_data_percent": 34.64124000137023,
    "complete_data_percent": 9.773681692452062
   }
+ },
+ {
+  "timestamp": "2026-11-12T12:06:50Z",
+  "commit_sha": "410a796e1903c7eee9baa496f2b365b55340b6ea",
+  "commit_message": "Abode: Get close to matching all versions (#793)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 64.913765,
+   "matched_code_percent": 52.0025222351193,
+   "complete_code_percent": 24.737847511797597,
+   "matched_data_percent": 34.64109883781863,
+   "complete_data_percent": 9.773641864558492
+  }
  }
 ]
