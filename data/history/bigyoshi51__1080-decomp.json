@@ -2695,5 +2695,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T16:14:44Z",
+  "commit_sha": "d0aab58dc6d59c0529c968a8a722ee85b135b099",
+  "commit_message": "report.json: agent-c run 349 (bootup 6204 + E9FC EXACT \u2014 NCC __sti__ static initializers, decode fix) \u2014 96.80% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.925865,
+   "matched_code_percent": 96.80319313538831,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

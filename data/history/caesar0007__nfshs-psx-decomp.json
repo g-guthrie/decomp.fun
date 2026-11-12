@@ -1116,5 +1116,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-12T16:03:31Z",
+  "commit_sha": "a5a57d1a9453fa30843dd051b44e520b23965cea",
+  "commit_message": "docs: header-truth plan log: duplicated-class count for 4c",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
