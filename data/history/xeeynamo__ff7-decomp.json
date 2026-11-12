@@ -375,5 +375,19 @@
    "matched_data_percent": 24.445237769540544,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T00:56:21Z",
+  "commit_sha": "2c9239a4da08f039b1dcd4a3c9c34fe3fe7287fe",
+  "commit_message": "battle: cleanup and doc pass for miscFlags (formerly turnFlags) (#394)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 68.385925,
+   "matched_code_percent": 68.38592864201384,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.445237769540544,
+   "complete_data_percent": 0.0
+  }
  }
 ]
