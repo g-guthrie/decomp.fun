@@ -2163,5 +2163,19 @@
    "matched_data_percent": 34.726528903245296,
    "complete_data_percent": 10.212299176368743
   }
+ },
+ {
+  "timestamp": "2026-11-12T18:28:40Z",
+  "commit_sha": "f73d877aceefaf204028c96aceaccfcc2dc2d60e",
+  "commit_message": "CameraEditor: Work on Matching (#804)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 66.859695,
+   "matched_code_percent": 53.67049382376354,
+   "complete_code_percent": 25.87256240517895,
+   "matched_data_percent": 34.72669940410927,
+   "complete_data_percent": 10.21230437824455
+  }
  }
 ]

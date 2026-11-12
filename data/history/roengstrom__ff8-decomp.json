@@ -592,5 +592,19 @@
    "matched_data_percent": 91.8948805052749,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-12T19:13:45Z",
+  "commit_sha": "bf719aa4c9a204cb526144789aaa449c772e8297",
+  "commit_message": "Merge pull request #218 from dargor123/decomp-menumain2",
+  "source": "report",
+  "version": "SLUS_008.92",
+  "measures": {
+   "fuzzy_match_percent": 70.96926,
+   "matched_code_percent": 70.96926114442009,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 92.07419730825555,
+   "complete_data_percent": 0.0
+  }
  }
 ]
