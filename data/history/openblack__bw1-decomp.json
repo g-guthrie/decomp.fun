@@ -2079,5 +2079,19 @@
    "matched_data_percent": 34.63188507082344,
    "complete_data_percent": 9.763040647054126
   }
+ },
+ {
+  "timestamp": "2026-11-12T02:52:23Z",
+  "commit_sha": "bafd8e8352c302967bcca925aeb5cfe433ad7081",
+  "commit_message": "Settings: Match and link the unit in every version that has it (#792)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 64.90931,
+   "matched_code_percent": 51.99806297200589,
+   "complete_code_percent": 24.737847511797597,
+   "matched_data_percent": 34.64124000137023,
+   "complete_data_percent": 9.773681692452062
+  }
  }
 ]
