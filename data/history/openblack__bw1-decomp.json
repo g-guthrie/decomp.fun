@@ -2219,5 +2219,19 @@
    "matched_data_percent": 34.76223426973346,
    "complete_data_percent": 11.23866067692502
   }
+ },
+ {
+  "timestamp": "2026-11-13T01:27:44Z",
+  "commit_sha": "492d7c8a7ea3284253a0252137515a9d7a88bd8b",
+  "commit_message": "AnimalAnimation: Set to Matching (#809)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 67.48141,
+   "matched_code_percent": 54.21699940521174,
+   "complete_code_percent": 26.635088863339522,
+   "matched_data_percent": 34.76223426973346,
+   "complete_data_percent": 11.239220973637785
+  }
  }
 ]
