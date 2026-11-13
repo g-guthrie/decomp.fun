@@ -929,5 +929,19 @@
    "matched_data_percent": 70.06211639429121,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-11-13T02:26:09Z",
+  "commit_sha": "138eec6cf10a1ac3afa6f02c419b5d2f481d9b7e",
+  "commit_message": "Battle script opcode refactoring (#347)",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 96.05131,
+   "matched_code_percent": 96.05130699745288,
+   "complete_code_percent": 75.03834174487032,
+   "matched_data_percent": 70.06211639429121,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]
