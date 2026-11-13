@@ -2233,5 +2233,19 @@
    "matched_data_percent": 34.76223426973346,
    "complete_data_percent": 11.239220973637785
   }
+ },
+ {
+  "timestamp": "2026-11-13T12:14:51Z",
+  "commit_sha": "73eb10c89ba1b5ef304a13fcd03891a71950ac4e",
+  "commit_message": "WinCondition: Carve the unit out of Whale.cpp and match its code in 1.20 and 1.30 (#810)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 67.96321,
+   "matched_code_percent": 54.68610268875895,
+   "complete_code_percent": 26.84572241513078,
+   "matched_data_percent": 34.773756929505026,
+   "complete_data_percent": 12.320288745187517
+  }
  }
 ]
