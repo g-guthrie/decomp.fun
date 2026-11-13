@@ -1676,5 +1676,19 @@
    "matched_data_percent": 24.94505445361807,
    "complete_data_percent": 24.94505445361807
   }
+ },
+ {
+  "timestamp": "2026-11-13T00:24:49Z",
+  "commit_sha": "530b7303433267fc5f8515f51fc6bae7fd1d7327",
+  "commit_message": "some binkmovieimpl improvements",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.62167,
+   "matched_code_percent": 53.79596571628935,
+   "complete_code_percent": 32.84538085820694,
+   "matched_data_percent": 24.96261751394881,
+   "complete_data_percent": 24.96261751394881
+  }
  }
 ]

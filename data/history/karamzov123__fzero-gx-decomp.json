@@ -2235,5 +2235,19 @@
    "matched_data_percent": 98.01122434987457,
    "complete_data_percent": 98.01122434987457
   }
+ },
+ {
+  "timestamp": "2026-11-12T23:55:17Z",
+  "commit_sha": "0e25c34986c1e07d591be7b74257e5be2fad95d2",
+  "commit_message": "tu-finish: put back only the blocks that differ on a hash mismatch; race-safe atomic writes",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.8039,
+   "matched_code_percent": 99.76915565446075,
+   "complete_code_percent": 99.76915565446075,
+   "matched_data_percent": 98.01122434987457,
+   "complete_data_percent": 98.01122434987457
+  }
  }
 ]
