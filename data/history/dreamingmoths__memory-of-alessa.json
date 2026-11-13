@@ -1299,5 +1299,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-13T17:18:46Z",
+  "commit_sha": "8bb74c1880e6df914268db1af6c899649d32492c",
+  "commit_message": "sh2: match `Chacter/m3_bgobj` (#497)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 8.128407,
+   "matched_code_percent": 7.014000076156353,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
