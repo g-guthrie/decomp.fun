@@ -2205,5 +2205,19 @@
    "matched_data_percent": 34.75801093040355,
    "complete_data_percent": 11.238695024218899
   }
+ },
+ {
+  "timestamp": "2026-11-13T00:53:42Z",
+  "commit_sha": "2ca7238eba4b418b8339e86298fb12801571c084",
+  "commit_message": "MPFEChannelSelector: Decompile the unit and match its code in every version (#808)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 67.45255,
+   "matched_code_percent": 54.18946240207559,
+   "complete_code_percent": 26.58989461491195,
+   "matched_data_percent": 34.76223426973346,
+   "complete_data_percent": 11.23866067692502
+  }
  }
 ]
