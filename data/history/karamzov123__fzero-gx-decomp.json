@@ -2305,5 +2305,19 @@
    "matched_data_percent": 98.01122434987457,
    "complete_data_percent": 98.01122434987457
   }
+ },
+ {
+  "timestamp": "2026-11-13T18:03:09Z",
+  "commit_sha": "7994f9ed8f6461577e83c4aa52f6773c0c63ba5f",
+  "commit_message": "devices: archive fn_1_977BC stock allocator evidence",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.83358,
+   "matched_code_percent": 99.82839889358144,
+   "complete_code_percent": 99.82839889358144,
+   "matched_data_percent": 98.01122434987457,
+   "complete_data_percent": 98.01122434987457
+  }
  }
 ]

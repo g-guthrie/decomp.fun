@@ -1270,5 +1270,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-13T17:56:17Z",
+  "commit_sha": "dbb5a47503046f9dca57ed76ac76050a3c1dd9b0",
+  "commit_message": "Header-truth phase 6: tools/prototype_audit.py (retail mangled names vs tree prototypes); plan phase 6 rewritten from the audit (C++ prototypes compatible, C-linkage group is the real scope)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

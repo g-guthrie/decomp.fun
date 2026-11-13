@@ -2765,5 +2765,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-13T18:08:00Z",
+  "commit_sha": "fe8a481b6d48e25aeed8f95708095a3a919954b8",
+  "commit_message": "report.json: agent-h run 368 (game_libs 76F0 EXACT \u2014 jtbl jr reads all regs, fix t6/t7 rotation; 8CD8 92.25->94.56) \u2014 97.86% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.94988,
+   "matched_code_percent": 97.86057830996701,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
