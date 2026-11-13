@@ -1732,5 +1732,19 @@
    "matched_data_percent": 25.243219926918155,
    "complete_data_percent": 25.243219926918155
   }
+ },
+ {
+  "timestamp": "2026-11-13T04:56:24Z",
+  "commit_sha": "e4730715b7a3c26a1ab904ac7b285d09a6f43bd0",
+  "commit_message": "simplify objptr loading",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.64506,
+   "matched_code_percent": 53.82519633175438,
+   "complete_code_percent": 32.88568764859033,
+   "matched_data_percent": 25.258099741920585,
+   "complete_data_percent": 25.258099741920585
+  }
  }
 ]

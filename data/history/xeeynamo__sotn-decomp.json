@@ -1207,5 +1207,19 @@
    "matched_data_percent": 75.71170283478914,
    "complete_data_percent": 24.25215024000889
   }
+ },
+ {
+  "timestamp": "2026-11-13T05:15:34Z",
+  "commit_sha": "d5d1ef545998637d84c0f001873b7a70418d89e3",
+  "commit_message": "Light documentation improvements in DRA/Weapon (#3857)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 82.706764,
+   "matched_code_percent": 82.67132573125005,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 75.71581975960146,
+   "complete_data_percent": 24.248033305518042
+  }
  }
 ]

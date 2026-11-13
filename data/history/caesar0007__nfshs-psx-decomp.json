@@ -1256,5 +1256,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-13T04:48:22Z",
+  "commit_sha": "ddcbd7fb4a3abf13319ba503dbc873d7737cfb1a",
+  "commit_message": "Header-truth plan: deep analysis 2026-11-13 and revised roadmap (phases 6-11); counters tool tracks prototypes, conditionals by kind and body devices",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
