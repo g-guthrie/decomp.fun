@@ -600,5 +600,19 @@
    "matched_data_percent": 0.04387413099820433,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-13T19:10:42Z",
+  "commit_sha": "35ab53755424d990e47923874993fce8f5c4578f",
+  "commit_message": "Match the 0x2c2100 stream header reader",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 17.917152,
+   "matched_code_percent": 17.72933348102668,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.04387413099820433,
+   "complete_data_percent": 0.0
+  }
  }
 ]

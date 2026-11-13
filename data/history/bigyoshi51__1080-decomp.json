@@ -2779,5 +2779,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-13T19:01:24Z",
+  "commit_sha": "4f1047944007276312bed23f2cc0379dcc6333ad",
+  "commit_message": "report.json: agent-g run 372 (post0b 4BAF4 99.54->99.59; counted use breaks count/ctx tie)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.95182,
+   "matched_code_percent": 97.94082629196629,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

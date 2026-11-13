@@ -1774,5 +1774,19 @@
    "matched_data_percent": 25.348354357509102,
    "complete_data_percent": 25.348354357509102
   }
+ },
+ {
+  "timestamp": "2026-11-13T19:06:52Z",
+  "commit_sha": "b99b15620f2b698b6555aedb82e2a61037f69206",
+  "commit_message": "ui register refactor (thanks charles)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.64781,
+   "matched_code_percent": 53.83614142767962,
+   "complete_code_percent": 33.015980167748346,
+   "matched_data_percent": 25.348354357509102,
+   "complete_data_percent": 25.348354357509102
+  }
  }
 ]
