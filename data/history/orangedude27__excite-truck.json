@@ -2019,5 +2019,19 @@
    "matched_data_percent": 3.471946603493567,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-13T11:12:00Z",
+  "commit_sha": "2f2d0b3ffda9f48bd0757afc0ca798105d0aebd4",
+  "commit_message": "Revert helper, new order worse",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 79.91012,
+   "matched_code_percent": 34.950607100565335,
+   "complete_code_percent": 2.7877187207809495,
+   "matched_data_percent": 3.471946603493567,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
