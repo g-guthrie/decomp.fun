@@ -726,5 +726,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-13T07:57:37Z",
+  "commit_sha": "8fe67ccb1873e5c6002d4cffe29d9e9e4850d29c",
+  "commit_message": "Cleanup and refactor field_render_effect_fan (#1146)",
+  "source": "report",
+  "version": "SLPS_021.70",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
