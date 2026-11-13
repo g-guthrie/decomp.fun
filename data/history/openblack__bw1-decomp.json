@@ -2261,5 +2261,19 @@
    "matched_data_percent": 34.77396067293398,
    "complete_data_percent": 12.320288745187517
   }
+ },
+ {
+  "timestamp": "2026-11-13T22:24:37Z",
+  "commit_sha": "844d8bbbbb9d5f43639137ba14356e2120f90757",
+  "commit_message": "HandState: Decompile the hand states; match and link Camera, Citadel, Creature, Holding, MultiPickUp, PlayAnim, Totem and Tug in every version (#797)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 68.91433,
+   "matched_code_percent": 55.54275105565954,
+   "complete_code_percent": 27.32279733026177,
+   "matched_data_percent": 34.784065344317945,
+   "complete_data_percent": 12.340165543387172
+  }
  }
 ]
