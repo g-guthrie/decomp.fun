@@ -2047,5 +2047,19 @@
    "matched_data_percent": 3.471946603493567,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-13T13:12:57Z",
+  "commit_sha": "e58d6d5aab363bd49a2cc3c8ca0e16b94098d019",
+  "commit_message": "Document the two globals fn_8013126C uses: lbl_8032B328 is its panic message and fn_802E317C is the panic/exit reporter matched in src/game/abend.c.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 79.99557,
+   "matched_code_percent": 34.95152506232305,
+   "complete_code_percent": 2.7877187207809495,
+   "matched_data_percent": 3.471946603493567,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
