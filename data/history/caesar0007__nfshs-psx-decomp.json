@@ -1298,5 +1298,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-13T19:59:37Z",
+  "commit_sha": "e068d1c5280118b55b4dc6936ca0f17a4ab81bc1",
+  "commit_message": "docs: header-truth plan: record-order ruling (phase 9)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

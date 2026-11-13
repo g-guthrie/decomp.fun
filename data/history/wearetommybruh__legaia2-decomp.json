@@ -614,5 +614,19 @@
    "matched_data_percent": 0.04387413099820433,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-13T19:43:20Z",
+  "commit_sha": "0fe8d003d773e3779e20466bd82c625adc36a5a7",
+  "commit_message": "Match 0x217f48 and 0x2a4758",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 17.958889,
+   "matched_code_percent": 17.771070038294777,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.04387413099820433,
+   "complete_data_percent": 0.0
+  }
  }
 ]

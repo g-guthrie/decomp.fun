@@ -221,5 +221,19 @@
    "matched_data_percent": 4.114974679444847,
    "complete_data_percent": 4.114974679444847
   }
+ },
+ {
+  "timestamp": "2026-11-13T20:20:37Z",
+  "commit_sha": "7599d6a112d0601ec7565600b32b3d64a7bdd69c",
+  "commit_message": "Decompile `dEnCastleDoor_c`, `dEnTorideDoor_c`, `dEnDoor_c`, `dEnSwitchDoor_c`, `dEnObakeDoor_c` (#144)",
+  "source": "report",
+  "version": "SMNP01",
+  "measures": {
+   "fuzzy_match_percent": 9.187125,
+   "matched_code_percent": 9.18718933393963,
+   "complete_code_percent": 9.18718933393963,
+   "matched_data_percent": 4.2955385525580185,
+   "complete_data_percent": 4.2955385525580185
+  }
  }
 ]
