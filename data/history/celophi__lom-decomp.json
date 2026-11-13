@@ -768,5 +768,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-13T20:46:35Z",
+  "commit_sha": "54b2ea398dcb2bc3c1e3b8d4fae1524e6a5f434f",
+  "commit_message": "Remove decompilation artifact in field_collision_dilate_tiles (#1150)",
+  "source": "report",
+  "version": "SLPS_021.70",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

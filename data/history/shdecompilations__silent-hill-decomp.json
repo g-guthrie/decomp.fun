@@ -2593,5 +2593,19 @@
    "matched_data_percent": 51.821021644605956,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-13T21:12:22Z",
+  "commit_sha": "5b27d925e933d2b0ed32029bf35d1c90e7562f72",
+  "commit_message": "misc: warning fixups",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.821021644605956,
+   "complete_data_percent": 0.0
+  }
  }
 ]

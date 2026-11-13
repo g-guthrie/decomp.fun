@@ -1754,5 +1754,19 @@
    "matched_data_percent": 99.98827276318389,
    "complete_data_percent": 99.98827276318389
   }
+ },
+ {
+  "timestamp": "2026-11-13T20:38:26Z",
+  "commit_sha": "0e155d77064bcfbaebd4d0c6225384fd7b3f876b",
+  "commit_message": "Merge #11: universal build (mvc2g), software renderer, raw .bin discs, roadmap and repository map",
+  "source": "report",
+  "version": "SLUS_204.86",
+  "measures": {
+   "fuzzy_match_percent": 99.93284140369967,
+   "matched_code_percent": 99.93284140369967,
+   "complete_code_percent": 99.93284140369967,
+   "matched_data_percent": 99.98827276318389,
+   "complete_data_percent": 99.98827276318389
+  }
  }
 ]

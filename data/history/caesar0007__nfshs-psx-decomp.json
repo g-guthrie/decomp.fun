@@ -1340,5 +1340,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-13T21:11:52Z",
+  "commit_sha": "b6b70c06800dc1e6fc8c8ff88d3835a8234aa542",
+  "commit_message": "docs: header-truth plan log efbf1f126",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
