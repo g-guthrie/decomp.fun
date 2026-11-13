@@ -2807,5 +2807,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-13T22:14:22Z",
+  "commit_sha": "18e81f15e308e565ec26cf0cf879246f2d9c5d04",
+  "commit_message": "report.json: agent-h run 378 (post0b 4FD00 99.02->99.78; depth-7 -100 spill keeps dead store, shared normal LR)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.95439,
+   "matched_code_percent": 97.94082629196629,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

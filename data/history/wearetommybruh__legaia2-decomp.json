@@ -628,5 +628,19 @@
    "matched_data_percent": 0.04387413099820433,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-13T22:14:57Z",
+  "commit_sha": "e6b0ca2ad87b4bba2e643cadca8008ed787c9c99",
+  "commit_message": "Match sceGsSetDefLoadImage, 0x2c0838 store-image packet and 0x2056a8",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 17.815378,
+   "matched_code_percent": 17.815378042219198,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.05720966097057434,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -80,5 +80,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-13T22:00:27Z",
+  "commit_sha": "490c71dfd9969cd03b76bcde6d2f29b8515cb793",
+  "commit_message": "Implement NuPower2 (#55)",
+  "source": "report",
+  "version": "1.0.3",
+  "measures": {
+   "fuzzy_match_percent": 1.5979679,
+   "matched_code_percent": 1.5692085813172318,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
