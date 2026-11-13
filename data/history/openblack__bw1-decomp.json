@@ -2247,5 +2247,19 @@
    "matched_data_percent": 34.773756929505026,
    "complete_data_percent": 12.320288745187517
   }
+ },
+ {
+  "timestamp": "2026-11-13T18:21:59Z",
+  "commit_sha": "2a6f65dd2e705c1c8a9517b6ad2b9be22d9f6918",
+  "commit_message": "MPFEChannelData: Decompile MPFEData's lobby logic and match all but two of its functions (#811)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 68.27118,
+   "matched_code_percent": 54.968955121337416,
+   "complete_code_percent": 26.846043403046316,
+   "matched_data_percent": 34.77396067293398,
+   "complete_data_percent": 12.320288745187517
+  }
  }
 ]
