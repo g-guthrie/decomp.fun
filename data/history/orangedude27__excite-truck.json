@@ -2397,5 +2397,19 @@
    "matched_data_percent": 3.471946603493567,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-14T16:15:55Z",
+  "commit_sha": "350165bda5ca22a32ffd411b4ffd4184b329fef0",
+  "commit_message": "Remove the duplicated #pragma push/processor/use_lmw_stmw block the make_readable splice re-inserted after fn_801BD790 (one push, two pops would unbalance the file's pragma state)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 81.73605,
+   "matched_code_percent": 35.83486654803104,
+   "complete_code_percent": 2.8427964262437397,
+   "matched_data_percent": 3.471946603493567,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

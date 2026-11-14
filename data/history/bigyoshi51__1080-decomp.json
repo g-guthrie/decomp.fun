@@ -2863,5 +2863,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-14T16:08:43Z",
+  "commit_sha": "aec448d36254786ec06efc5893f9dd1959cbda05",
+  "commit_message": "report.json: agent-h run 393 (bootup E68 99.26->99.31; 1824 as1 survey of 16 builds)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.9664,
+   "matched_code_percent": 98.49941518627497,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
