@@ -2481,5 +2481,19 @@
    "matched_data_percent": 3.471946603493567,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-14T22:16:58Z",
+  "commit_sha": "c5df3db99c7533ff002c452e72129e10aed42121",
+  "commit_message": "Remove the out-parameter Alloc experiment (no effect on register allocation)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 82.09074,
+   "matched_code_percent": 35.98960867290268,
+   "complete_code_percent": 2.8427964262437397,
+   "matched_data_percent": 3.471946603493567,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

@@ -2947,5 +2947,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-14T22:15:45Z",
+  "commit_sha": "e632ddd2aabae14d6284b6d4d4305c30f3c58680",
+  "commit_message": "agent-g run 417 (post0b 48AEC NM 98.484 -> 99.505; loop packet inline decode)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.98926,
+   "matched_code_percent": 99.3559181575483,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
