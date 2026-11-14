@@ -2361,5 +2361,19 @@
    "matched_data_percent": 98.01122434987457,
    "complete_data_percent": 98.01122434987457
   }
+ },
+ {
+  "timestamp": "2026-11-14T07:29:13Z",
+  "commit_sha": "683032fe4d046314af55b509456e0ea34dc41ced",
+  "commit_message": "Merge pull request #342: devices: remove optimizer pragmas that do not change the code (227 functions)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.98912,
+   "matched_code_percent": 99.98392942019255,
+   "complete_code_percent": 99.98392942019255,
+   "matched_data_percent": 98.01122434987457,
+   "complete_data_percent": 98.01122434987457
+  }
  }
 ]

@@ -1494,5 +1494,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-14T08:10:51Z",
+  "commit_sha": "c91c82de4fc9eb7b4532d028e424a88f45cbd1c1",
+  "commit_message": "docs: header-truth plan log - phase 9p commit reference",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
