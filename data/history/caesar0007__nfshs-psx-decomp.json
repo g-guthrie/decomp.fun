@@ -1438,5 +1438,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-14T03:13:55Z",
+  "commit_sha": "fa29fac6125fc90684b27691672347cc5001a48d",
+  "commit_message": "docs: header-truth plan - phase 9 status after 9i (42 computed includes left), pitfalls, remaining order",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
