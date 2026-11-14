@@ -70,5 +70,19 @@
    "matched_data_percent": 8.196916067788427,
    "complete_data_percent": 8.064537419596943
   }
+ },
+ {
+  "timestamp": "2026-11-14T06:36:16Z",
+  "commit_sha": "39bd9a2212ada10ec91cd15b4f7f613144631cca",
+  "commit_message": "match msl and runtime (#14)",
+  "source": "report",
+  "version": "GXXE01",
+  "measures": {
+   "fuzzy_match_percent": 13.370402,
+   "matched_code_percent": 13.234574912837015,
+   "complete_code_percent": 11.451874990139935,
+   "matched_data_percent": 8.492599430130662,
+   "complete_data_percent": 8.326654685959001
+  }
  }
 ]
