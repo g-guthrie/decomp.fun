@@ -2877,5 +2877,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-14T17:20:15Z",
+  "commit_sha": "45fce0fc5a1aa8a4a22a1918979f136308e6511d",
+  "commit_message": "report.json: agent-h run 397 (bootup E68 99.31->99.59; c3 counter + explicit phase-2 increments)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.96752,
+   "matched_code_percent": 98.49941518627497,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
