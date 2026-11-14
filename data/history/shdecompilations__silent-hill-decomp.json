@@ -2677,5 +2677,19 @@
    "matched_data_percent": 51.821021644605956,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-14T13:43:24Z",
+  "commit_sha": "322c0f0ab84cb07e89af2691138d688740c6e548",
+  "commit_message": "bodyprog: s_SubCharacter_44 -> s_CharaAttack, field names",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.821021644605956,
+   "complete_data_percent": 0.0
+  }
  }
 ]
