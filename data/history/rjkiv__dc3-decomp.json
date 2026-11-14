@@ -1802,5 +1802,19 @@
    "matched_data_percent": 25.348354357509102,
    "complete_data_percent": 25.348354357509102
   }
+ },
+ {
+  "timestamp": "2026-11-14T00:16:14Z",
+  "commit_sha": "97ebf523fade21a6d6551928d9d27dd570d33ab9",
+  "commit_message": "obj register cleanup",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.64781,
+   "matched_code_percent": 53.83614142767962,
+   "complete_code_percent": 33.015980167748346,
+   "matched_data_percent": 25.348354357509102,
+   "complete_data_percent": 25.348354357509102
+  }
  }
 ]

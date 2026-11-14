@@ -2835,5 +2835,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-14T00:07:48Z",
+  "commit_sha": "ae4f45289d4d491c630eee0121fb8094eba278f1",
+  "commit_message": "report.json: agent-h run 383 (post0b 4FD00 EXACT \u2014 drop &s fold freeing t2; global-address phantom LR on t1) \u2014 98.28% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.95544,
+   "matched_code_percent": 98.27650412516587,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
