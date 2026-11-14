@@ -22,5 +22,19 @@
    "matched_data_percent": 99.64112927154551,
    "complete_data_percent": 68.8878755415075
   }
+ },
+ {
+  "timestamp": "2026-11-14T22:23:25Z",
+  "commit_sha": "a4c151f53e1c1276461d2ee658431553a362ca10",
+  "commit_message": "Add combo storage catalog site",
+  "source": "report",
+  "version": "GQPP78",
+  "measures": {
+   "fuzzy_match_percent": 99.71854,
+   "matched_code_percent": 93.91391447645714,
+   "complete_code_percent": 62.149774463928274,
+   "matched_data_percent": 99.61304104763124,
+   "complete_data_percent": 68.889624565491
+  }
  }
 ]
