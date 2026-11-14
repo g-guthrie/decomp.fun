@@ -2445,5 +2445,19 @@
    "matched_data_percent": 98.63216430285817,
    "complete_data_percent": 98.63216430285817
   }
+ },
+ {
+  "timestamp": "2026-11-14T20:17:28Z",
+  "commit_sha": "875d32594d0a1c686beddb816f34715efae42a75",
+  "commit_message": "tools: verify linked worktrees and record ordinary stream-read cleanup",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.999756,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 98.63216430285817,
+   "complete_data_percent": 98.63216430285817
+  }
  }
 ]

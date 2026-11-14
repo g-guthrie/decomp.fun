@@ -985,5 +985,19 @@
    "matched_data_percent": 70.06211639429121,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-11-14T21:18:27Z",
+  "commit_sha": "c9a869b8919efc561894fb6a851b300791553bd3",
+  "commit_message": "Battle script refactoring: revengeance (#353)",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 96.05131,
+   "matched_code_percent": 96.05130699745288,
+   "complete_code_percent": 75.03834174487032,
+   "matched_data_percent": 70.06211639429121,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]

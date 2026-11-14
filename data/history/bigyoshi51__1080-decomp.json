@@ -2933,5 +2933,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-14T21:06:28Z",
+  "commit_sha": "f92b0c8c2d261baf98f9978ded07db876073b337",
+  "commit_message": "agent-h run 414 (game_uso 8CD8 NM 96.683 -> 97.289; uopt priority block-count rule fixes a2/a3 swap)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.98571,
+   "matched_code_percent": 99.3559181575483,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
