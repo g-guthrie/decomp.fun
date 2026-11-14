@@ -296,5 +296,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-14T18:54:49Z",
+  "commit_sha": "e82916f4f7eef532a6ffff4ef13d2522a91d303c",
+  "commit_message": "decompiled (jp) and revisited (us,eu) ingame/menu/ig_rank.c",
+  "source": "report",
+  "version": "SLUS_203.88",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

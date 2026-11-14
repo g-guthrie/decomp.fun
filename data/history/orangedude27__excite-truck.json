@@ -2439,5 +2439,19 @@
    "matched_data_percent": 3.471946603493567,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-14T19:12:01Z",
+  "commit_sha": "3d05e7338c4685e2a4dfd0be30c95a76f4084773",
+  "commit_message": "restore the blank line between functions that make_readable's replaced range consumed",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 81.881996,
+   "matched_code_percent": 35.95013631732102,
+   "complete_code_percent": 2.8427964262437397,
+   "matched_data_percent": 3.471946603493567,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

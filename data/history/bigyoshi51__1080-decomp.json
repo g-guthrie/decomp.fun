@@ -2905,5 +2905,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-14T18:55:34Z",
+  "commit_sha": "dc4d7043d5c3a887f6182f427af455141c321d94",
+  "commit_message": "report.json: agent-g run 401 (post0b 36694 EXACT \u2014 f32 inline lsq2 removes sum LR; zero-code test uses order FP colours) \u2014 98.59% code",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.97166,
+   "matched_code_percent": 98.59277558363361,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

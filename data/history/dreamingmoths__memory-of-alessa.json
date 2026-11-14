@@ -1369,5 +1369,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-14T19:17:50Z",
+  "commit_sha": "15bbca0b9df3cd464060620cb40bdfaa3f49bce1",
+  "commit_message": "alessastruct+documentation: add `migrate --update` (#503)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 8.128407,
+   "matched_code_percent": 7.014000076156353,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

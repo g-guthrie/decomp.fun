@@ -2417,5 +2417,19 @@
    "matched_data_percent": 98.63090158815967,
    "complete_data_percent": 98.63090158815967
   }
+ },
+ {
+  "timestamp": "2026-11-14T18:59:53Z",
+  "commit_sha": "875524dda938021729c3f483d214d2b9a755d211",
+  "commit_message": "docs: refresh verified progress and record ADX cleanup frontier",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.999756,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 98.63090158815967,
+   "complete_data_percent": 98.63090158815967
+  }
  }
 ]
