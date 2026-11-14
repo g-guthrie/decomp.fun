@@ -2919,5 +2919,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-14T20:07:48Z",
+  "commit_sha": "849a7f84a664563fe027fa78ccd24a854e5d60f3",
+  "commit_message": "agent-h run 408 (bootup E2D0 EXACT \u2014 524 bytes; code-free tests rotate FP ring)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.974045,
+   "matched_code_percent": 99.28143963830713,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
