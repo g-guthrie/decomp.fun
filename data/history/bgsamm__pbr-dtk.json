@@ -221,5 +221,19 @@
    "matched_data_percent": 0.7612338077556102,
    "complete_data_percent": 0.44776573870930003
   }
+ },
+ {
+  "timestamp": "2026-11-14T10:51:27Z",
+  "commit_sha": "513270a640b3f43252612e653d39dc6186ed2055",
+  "commit_message": "github: add CODEOWNERS so only non-decomp paths need review (#42)",
+  "source": "report",
+  "version": "RPBP01",
+  "measures": {
+   "fuzzy_match_percent": 24.958584,
+   "matched_code_percent": 22.530282504869923,
+   "complete_code_percent": 3.058804916395566,
+   "matched_data_percent": 0.7612338077556102,
+   "complete_data_percent": 0.44776573870930003
+  }
  }
 ]
