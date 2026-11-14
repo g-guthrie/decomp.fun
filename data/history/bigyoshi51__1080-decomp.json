@@ -2849,5 +2849,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-14T14:54:07Z",
+  "commit_sha": "99a9c5065c2aca952706db01d35feaf9203972e4",
+  "commit_message": "report.json: agent-h run 389 (bootup E68 98.78->99.26 via priority fold counts; 1824 toolchain evidence)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.9648,
+   "matched_code_percent": 98.42283868057632,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

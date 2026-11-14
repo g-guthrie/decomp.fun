@@ -2383,5 +2383,19 @@
    "matched_data_percent": 3.471946603493567,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-14T15:16:46Z",
+  "commit_sha": "1c440b832a8524d7ac8f716a75dcdb525f1db353",
+  "commit_message": "Read vprintf against the MSL FILE type (stdout is __files._stdout) instead of an anonymous FileNode; same code, readable names.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 81.72934,
+   "matched_code_percent": 35.83486654803104,
+   "complete_code_percent": 2.8427964262437397,
+   "matched_data_percent": 3.471946603493567,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

@@ -2691,5 +2691,19 @@
    "matched_data_percent": 51.821021644605956,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-14T15:10:21Z",
+  "commit_sha": "b303a7e9783dd456848760eb145dc3a2bb0c0f9c",
+  "commit_message": "bodyprog: name func_8008B714 locals",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.821021644605956,
+   "complete_data_percent": 0.0
+  }
  }
 ]
