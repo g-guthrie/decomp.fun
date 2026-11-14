@@ -1263,5 +1263,19 @@
    "matched_data_percent": 75.73568532003111,
    "complete_data_percent": 24.230737820690468
   }
+ },
+ {
+  "timestamp": "2026-11-14T10:41:38Z",
+  "commit_sha": "3a0957bee537554b08e830413f3ae2572b552e6e",
+  "commit_message": "rbo2: decompile func_us_8019B52C (#3863)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 83.149765,
+   "matched_code_percent": 83.11427951198962,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 75.73580945365688,
+   "complete_data_percent": 24.230640449394578
+  }
  }
 ]
