@@ -296,5 +296,19 @@
    "matched_data_percent": 10.007106995297999,
    "complete_data_percent": 10.007106995297999
   }
+ },
+ {
+  "timestamp": "2026-11-14T01:08:01Z",
+  "commit_sha": "d5688e0d9c78a2f486a8e8451f9e2052e689b2d8",
+  "commit_message": "Merge pull request #673 from vwintuhs/decomp/cri-adx-batch2-v2-20261113",
+  "source": "report",
+  "version": "G9SE8P",
+  "measures": {
+   "fuzzy_match_percent": 42.28118,
+   "matched_code_percent": 41.679814342444935,
+   "complete_code_percent": 41.493972725027724,
+   "matched_data_percent": 10.007106995297999,
+   "complete_data_percent": 10.007106995297999
+  }
  }
 ]

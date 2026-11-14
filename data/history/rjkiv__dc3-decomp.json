@@ -1816,5 +1816,19 @@
    "matched_data_percent": 25.348354357509102,
    "complete_data_percent": 25.348354357509102
   }
+ },
+ {
+  "timestamp": "2026-11-14T01:00:32Z",
+  "commit_sha": "27b45e9e2e19e2c002182e36502005e9193bd07b",
+  "commit_message": "remove remaining register obj factory calls",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.64781,
+   "matched_code_percent": 53.83614142767962,
+   "complete_code_percent": 33.015980167748346,
+   "matched_data_percent": 25.348354357509102,
+   "complete_data_percent": 25.348354357509102
+  }
  }
 ]
