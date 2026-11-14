@@ -1508,5 +1508,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-14T08:40:12Z",
+  "commit_sha": "78c80b4c34b1ea8231c483310665f20610db159b",
+  "commit_message": "Header-truth phase 9q: delete 4 orphan headers (screenmain_tv.h, fe3dmenu_after_bo.h, fe3dmenu_after_save.h, skidmark_after_save.h)",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

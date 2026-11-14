@@ -2375,5 +2375,19 @@
    "matched_data_percent": 98.01122434987457,
    "complete_data_percent": 98.01122434987457
   }
+ },
+ {
+  "timestamp": "2026-11-14T09:05:14Z",
+  "commit_sha": "bb83166bd21c79209f74a4f0c2a0fc8c36164682",
+  "commit_message": "Merge pull request #368: devices: fn_1_2C908 natural C (no optimizer pragmas)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.999756,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 98.63090158815967,
+   "complete_data_percent": 98.63090158815967
+  }
  }
 ]
