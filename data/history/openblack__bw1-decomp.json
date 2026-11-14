@@ -2275,5 +2275,19 @@
    "matched_data_percent": 34.784065344317945,
    "complete_data_percent": 12.340165543387172
   }
+ },
+ {
+  "timestamp": "2026-11-14T13:54:03Z",
+  "commit_sha": "c49923480eec6a85608ca1adc4cfc8901fad1d52",
+  "commit_message": "MPFEAlexDialog: Decompile ChannelBox and link the unit in every version; carve out CMouse (#814)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 69.54496,
+   "matched_code_percent": 56.19854553350178,
+   "complete_code_percent": 27.951239158690054,
+   "matched_data_percent": 34.784111846180934,
+   "complete_data_percent": 12.343998927298633
+  }
  }
 ]
