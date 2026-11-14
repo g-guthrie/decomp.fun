@@ -2459,5 +2459,19 @@
    "matched_data_percent": 98.63216430285817,
    "complete_data_percent": 98.63216430285817
   }
+ },
+ {
+  "timestamp": "2026-11-14T23:07:49Z",
+  "commit_sha": "3d6acd541a9c135cfc7bfca4ab60b404367c2ef3",
+  "commit_message": "tools: retain accepted revisions and refresh literal bindings; record native scaling",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.999756,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 98.63216430285817,
+   "complete_data_percent": 98.63216430285817
+  }
  }
 ]

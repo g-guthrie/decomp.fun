@@ -2961,5 +2961,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-14T23:12:21Z",
+  "commit_sha": "ad86b44cecc1ced10b9d569d37453230b111bb6b",
+  "commit_message": "agent-h run 422 (game_uso 8CD8 NM 97.537 -> 98.508; FP ring: code-free e.f test, operand order)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.99359,
+   "matched_code_percent": 99.3559181575483,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
