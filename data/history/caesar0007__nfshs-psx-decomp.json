@@ -1522,5 +1522,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-14T09:46:09Z",
+  "commit_sha": "ccd6da77af9abb57d8ed08cfdd3ec83d02108eab",
+  "commit_message": "docs: header-truth plan - flattening method, tools and state after 9r",
+  "source": "report",
+  "version": "nfs4-f",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

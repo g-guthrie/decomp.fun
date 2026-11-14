@@ -1249,5 +1249,19 @@
    "matched_data_percent": 75.71768890450208,
    "complete_data_percent": 24.247502698320172
   }
+ },
+ {
+  "timestamp": "2026-11-14T09:54:27Z",
+  "commit_sha": "8c5047c38021a3608c3c7ddd64c50d2a4601c9ac",
+  "commit_message": "bo6: decompile EntityCutsceneDialogue (PSX + PSP) (#3862)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 83.07612,
+   "matched_code_percent": 83.04058970302059,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 75.73568532003111,
+   "complete_data_percent": 24.230737820690468
+  }
  }
 ]

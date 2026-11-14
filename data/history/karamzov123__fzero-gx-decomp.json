@@ -2389,5 +2389,19 @@
    "matched_data_percent": 98.63090158815967,
    "complete_data_percent": 98.63090158815967
   }
+ },
+ {
+  "timestamp": "2026-11-14T09:30:23Z",
+  "commit_sha": "15729eaa6070e12291941704a8b7e51fb2495012",
+  "commit_message": "devices: reduce serializer volatile staging and fix explicit repair probes",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.999756,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 98.63090158815967,
+   "complete_data_percent": 98.63090158815967
+  }
  }
 ]
