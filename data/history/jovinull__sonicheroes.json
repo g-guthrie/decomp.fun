@@ -338,5 +338,19 @@
    "matched_data_percent": 10.01798932025371,
    "complete_data_percent": 10.01798932025371
   }
+ },
+ {
+  "timestamp": "2026-11-15T03:25:07Z",
+  "commit_sha": "fa095ceffc8298bdd0b81f5c58e86226f5001ccd",
+  "commit_message": "Merge pull request #680 from vwintuhs/decomp/fire-spawners-v2-20261114",
+  "source": "report",
+  "version": "G9SE8P",
+  "measures": {
+   "fuzzy_match_percent": 43.036446,
+   "matched_code_percent": 42.35293034927364,
+   "complete_code_percent": 42.16708873185644,
+   "matched_data_percent": 10.030211008280892,
+   "complete_data_percent": 10.030211008280892
+  }
  }
 ]

@@ -78,5 +78,19 @@
    "matched_data_percent": 99.61304104763124,
    "complete_data_percent": 68.889624565491
   }
+ },
+ {
+  "timestamp": "2026-11-15T03:36:48Z",
+  "commit_sha": "cc0ee4a83b15f082bcb7e6b32f2e164132445f33",
+  "commit_message": "Document persisted PS2 combo wrong warp",
+  "source": "report",
+  "version": "GQPP78",
+  "measures": {
+   "fuzzy_match_percent": 99.71854,
+   "matched_code_percent": 93.91391447645714,
+   "complete_code_percent": 62.149774463928274,
+   "matched_data_percent": 99.61304104763124,
+   "complete_data_percent": 68.889624565491
+  }
  }
 ]
