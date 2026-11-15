@@ -2989,5 +2989,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T01:13:30Z",
+  "commit_sha": "e308f11ebca4d107ee725b440be1ae0492d76262",
+  "commit_message": "agent-h run 428 (game_uso 8CD8 EXACT \u2014 2836 bytes; MIPSpro 7.2.1 donor, type-selected block-split ctors)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.99969,
+   "matched_code_percent": 99.72778625713971,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -1942,5 +1942,19 @@
    "matched_data_percent": 26.19420679202572,
    "complete_data_percent": 26.19420679202572
   }
+ },
+ {
+  "timestamp": "2026-11-15T01:05:33Z",
+  "commit_sha": "460e3d99f87e040751d9d96a8c621c28b0c5ff39",
+  "commit_message": "match fxsend360",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.72372,
+   "matched_code_percent": 53.966663335075594,
+   "complete_code_percent": 34.16039808690209,
+   "matched_data_percent": 26.217542895335544,
+   "complete_data_percent": 26.217542895335544
+  }
  }
 ]
