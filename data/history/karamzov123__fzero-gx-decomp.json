@@ -2501,5 +2501,19 @@
    "matched_data_percent": 98.63216430285817,
    "complete_data_percent": 98.63216430285817
   }
+ },
+ {
+  "timestamp": "2026-11-15T07:16:50Z",
+  "commit_sha": "59dd89d0f9b626afd349a9138efb30527c98b672",
+  "commit_message": "docs: streamline near-match PR guidance in README",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.999756,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 98.63216430285817,
+   "complete_data_percent": 98.63216430285817
+  }
  }
 ]
