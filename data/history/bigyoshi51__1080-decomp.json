@@ -3003,5 +3003,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T01:46:28Z",
+  "commit_sha": "eab320f84c986268decf6fcebf74f0922de4ea68",
+  "commit_message": "agent-g run 430 (post0b 48AEC NM 99.886 -> 99.919; B + arm-1 g home fixed)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.99978,
+   "matched_code_percent": 99.72778625713971,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]

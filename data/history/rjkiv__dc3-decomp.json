@@ -1956,5 +1956,19 @@
    "matched_data_percent": 26.217542895335544,
    "complete_data_percent": 26.217542895335544
   }
+ },
+ {
+  "timestamp": "2026-11-15T02:01:32Z",
+  "commit_sha": "de4b062386fe8f8a4046ee9f6cd592d6bf6940f5",
+  "commit_message": "synth360 context",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.723984,
+   "matched_code_percent": 53.966663335075594,
+   "complete_code_percent": 34.16039808690209,
+   "matched_data_percent": 26.217542895335544,
+   "complete_data_percent": 26.217542895335544
+  }
  }
 ]

@@ -838,5 +838,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T02:17:17Z",
+  "commit_sha": "31c91452c264840bf8c8584753e7dbf274847f13",
+  "commit_message": "Fix fake match in gosub element width (#1155)",
+  "source": "report",
+  "version": "SLPS_021.70",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
