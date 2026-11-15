@@ -3115,5 +3115,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T22:01:34Z",
+  "commit_sha": "00736137f94bea4d003c706f905ba297da1ac28a",
+  "commit_message": "bootup_uso: delete the dead BOOTUP_8BD4_OLD_DECODE block (agent-h run 505)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
