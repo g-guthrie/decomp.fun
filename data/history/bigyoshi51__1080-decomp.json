@@ -3031,5 +3031,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T16:11:34Z",
+  "commit_sha": "b897e078804552dd1f59ef21cef79971d551823d",
+  "commit_message": "game_libs_post.c: drop unmatched #endif after the 230D0 audio-loader #undef block",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]
