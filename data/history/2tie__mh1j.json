@@ -184,5 +184,19 @@
    "matched_data_percent": 0.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T18:12:05Z",
+  "commit_sha": "facfba04ed1c7cf432ff861c0c9c548d098ddb3b",
+  "commit_message": "added a struct for ui button glyphs",
+  "source": "report",
+  "version": "SLPM_654.95",
+  "measures": {
+   "fuzzy_match_percent": 1.0662601859048035,
+   "matched_code_percent": 1.0662601859048035,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]
