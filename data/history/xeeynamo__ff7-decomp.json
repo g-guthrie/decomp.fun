@@ -389,5 +389,19 @@
    "matched_data_percent": 24.445237769540544,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T10:08:34Z",
+  "commit_sha": "33ce78c94021b2e1705785347da58a2ca30ba705",
+  "commit_message": "battle: big cleanup and doc pass (#395)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 68.385925,
+   "matched_code_percent": 68.38592864201384,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 24.445237769540544,
+   "complete_data_percent": 0.0
+  }
  }
 ]
