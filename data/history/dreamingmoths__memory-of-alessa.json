@@ -1481,5 +1481,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T18:43:42Z",
+  "commit_sha": "ae1725098079ac7ec7bcab48088a23670d50805d",
+  "commit_message": "sh2: match `result.c` \ud83c\udfac and `fontSetColor` \ud83d\udd8d\ufe0f (#510)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 8.128407,
+   "matched_code_percent": 7.014000076156353,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

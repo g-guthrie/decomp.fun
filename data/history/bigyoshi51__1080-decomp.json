@@ -3073,5 +3073,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T19:10:59Z",
+  "commit_sha": "42f08ef0b74e0afaa1c3e72f50d5f1310b53b03c",
+  "commit_message": "agent-b run 458 (99 names: vtables, RcpTask/ucode, libultra tail; os_pi/os_timer/os_cont headers)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

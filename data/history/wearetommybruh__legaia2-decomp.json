@@ -726,5 +726,19 @@
    "matched_data_percent": 0.08816149377218166,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T19:00:47Z",
+  "commit_sha": "669da2456b86d886b10e9440a8c4c1d6c3545bfc",
+  "commit_message": "Match sceCdSearchFile (0x2cb640) and 0x2cfc00, reach 20.01%",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 20.166456,
+   "matched_code_percent": 20.006844004177612,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.08816149377218166,
+   "complete_data_percent": 0.0
+  }
  }
 ]
