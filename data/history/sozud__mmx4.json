@@ -298,5 +298,19 @@
    "matched_data_percent": 99.9723657079693,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T11:05:03Z",
+  "commit_sha": "108327ffece12db37e05bb4100861b952a8d6684",
+  "commit_message": "msvc build (#433)",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 98.852264,
+   "matched_code_percent": 98.85226643023385,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 99.9723657079693,
+   "complete_data_percent": 0.0
+  }
  }
 ]

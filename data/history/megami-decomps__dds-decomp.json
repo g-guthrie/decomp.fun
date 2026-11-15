@@ -3462,5 +3462,19 @@
    "matched_data_percent": 0.6491009360407378,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T10:35:48Z",
+  "commit_sha": "18d1fa88fdf086b8dad3f4c5cc331b5fcf917f36",
+  "commit_message": "Compile IRX drafts as gnu17 so C23 hosts accept unprototyped declarations",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.02209,
+   "matched_code_percent": 95.022090257034,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.6491009360407378,
+   "complete_data_percent": 0.0
+  }
  }
 ]
