@@ -2487,5 +2487,19 @@
    "matched_data_percent": 98.63216430285817,
    "complete_data_percent": 98.63216430285817
   }
+ },
+ {
+  "timestamp": "2026-11-15T07:04:53Z",
+  "commit_sha": "a0ecd9251f39ac21297ebe8173b056db6fcd96b9",
+  "commit_message": "docs: clarify that near-match PRs are welcomed and encouraged",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.999756,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 98.63216430285817,
+   "complete_data_percent": 98.63216430285817
+  }
  }
 ]
