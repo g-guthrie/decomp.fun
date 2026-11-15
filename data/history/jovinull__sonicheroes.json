@@ -324,5 +324,19 @@
    "matched_data_percent": 10.013636390271424,
    "complete_data_percent": 10.013636390271424
   }
+ },
+ {
+  "timestamp": "2026-11-15T03:19:52Z",
+  "commit_sha": "f453cd7370142d42e3817da646df556e934935d8",
+  "commit_message": "Merge pull request #678 from vwintuhs/decomp/small-enemy-base-20261114",
+  "source": "report",
+  "version": "G9SE8P",
+  "measures": {
+   "fuzzy_match_percent": 42.983086,
+   "matched_code_percent": 42.29955226833837,
+   "complete_code_percent": 42.113710650921156,
+   "matched_data_percent": 10.01798932025371,
+   "complete_data_percent": 10.01798932025371
+  }
  }
 ]

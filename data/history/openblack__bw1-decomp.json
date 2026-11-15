@@ -2289,5 +2289,19 @@
    "matched_data_percent": 34.784111846180934,
    "complete_data_percent": 12.343998927298633
   }
+ },
+ {
+  "timestamp": "2026-11-15T02:42:13Z",
+  "commit_sha": "ef93ef66d3a4f71d673686fc9656c4793d2d7d55",
+  "commit_message": "MPFEChannelData, MPFEFileTransfer, MPFEPlayerDetails: Link the units in every version (#815)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 69.55787,
+   "matched_code_percent": 56.25165008593258,
+   "complete_code_percent": 28.379997589522205,
+   "matched_data_percent": 34.78439530687184,
+   "complete_data_percent": 12.432633282733352
+  }
  }
 ]
