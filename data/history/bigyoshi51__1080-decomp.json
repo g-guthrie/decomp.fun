@@ -2975,5 +2975,19 @@
    "matched_data_percent": 78.0952380952381,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T00:06:53Z",
+  "commit_sha": "c84f29ec74713aae0f21c79577ff3f514878ac3b",
+  "commit_message": "agent-g run 424 (post0b 48AEC NM 99.684 -> 99.742; me() receiver depth picks pool slots)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.995445,
+   "matched_code_percent": 99.3559181575483,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 78.0952380952381,
+   "complete_data_percent": 0.0
+  }
  }
 ]
