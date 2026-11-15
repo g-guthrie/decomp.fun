@@ -235,5 +235,19 @@
    "matched_data_percent": 4.2955385525580185,
    "complete_data_percent": 4.2955385525580185
   }
+ },
+ {
+  "timestamp": "2026-11-15T19:37:02Z",
+  "commit_sha": "131a4d08c4d47fc1ef87e83b43db96e09cbfa531",
+  "commit_message": "Decompile `daIce_c` (#145)",
+  "source": "report",
+  "version": "SMNP01",
+  "measures": {
+   "fuzzy_match_percent": 9.685149,
+   "matched_code_percent": 9.685213014014021,
+   "complete_code_percent": 9.685213014014021,
+   "matched_data_percent": 4.471941134006256,
+   "complete_data_percent": 4.471941134006256
+  }
  }
 ]

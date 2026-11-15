@@ -116,5 +116,19 @@
    "matched_data_percent": 32.63445614426696,
    "complete_data_percent": 32.63445614426696
   }
+ },
+ {
+  "timestamp": "2026-11-15T20:02:24Z",
+  "commit_sha": "0c3baef1ba96867f4ebbcdde02f7a43624224a85",
+  "commit_message": "Merge pull request #86 from joakim-d/add_contribution_guide",
+  "source": "report",
+  "version": "MarioClub_us",
+  "measures": {
+   "fuzzy_match_percent": 48.73211,
+   "matched_code_percent": 47.901232116194,
+   "complete_code_percent": 42.757795521089456,
+   "matched_data_percent": 32.63445614426696,
+   "complete_data_percent": 32.63445614426696
+  }
  }
 ]

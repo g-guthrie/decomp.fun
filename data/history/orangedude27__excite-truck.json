@@ -2789,5 +2789,19 @@
    "matched_data_percent": 3.471946603493567,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-15T20:17:05Z",
+  "commit_sha": "3fa97e7a0eab69a8a160dfb0adf21297b7298d3e",
+  "commit_message": "Name the vtable view of the arena-event master object (lbl_8055E744) ArenaMaster, keeping the placeholder name as a typedef so nothing else breaks; only fn_801B851C uses it.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 82.26081,
+   "matched_code_percent": 36.503142707646234,
+   "complete_code_percent": 2.852500593396708,
+   "matched_data_percent": 3.471946603493567,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

@@ -3087,5 +3087,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T20:12:36Z",
+  "commit_sha": "8ed0f318382b25da0dde490464cb929876179fcd",
+  "commit_message": "agent-b run 476 (graphics: 53 gfx names; window/light/material/sprite/polyshape headers)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
