@@ -3101,5 +3101,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T21:18:01Z",
+  "commit_sha": "9306a6ed344e3a03ee7e0f775cc4b21ea7a47de9",
+  "commit_message": "mode modules + game_libs_tail: race / DataManager field conversions (agent-h run 492)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
