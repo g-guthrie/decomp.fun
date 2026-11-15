@@ -3143,5 +3143,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-15T22:14:28Z",
+  "commit_sha": "b798f8905b9c3bc14a6a53e29b2546f7b426f2a9",
+  "commit_message": "game_uso: field conversions + SnowAI / RiderAnim meanings (agent-g run 506)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

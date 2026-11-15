@@ -1554,5 +1554,19 @@
    "matched_data_percent": 93.02360810268439,
    "complete_data_percent": 22.858802712971883
   }
+ },
+ {
+  "timestamp": "2026-11-15T22:04:04Z",
+  "commit_sha": "b86a13db001bed515281bac87412f66bc8ffbc48",
+  "commit_message": "More JAI naming",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 98.238594,
+   "matched_code_percent": 52.8374791927106,
+   "complete_code_percent": 19.243428016249183,
+   "matched_data_percent": 93.02360810268439,
+   "complete_data_percent": 22.858802712971883
+  }
  }
 ]
