@@ -163,5 +163,19 @@
    "matched_data_percent": 2.41644975878636,
    "complete_data_percent": 2.0381684542291483
   }
+ },
+ {
+  "timestamp": "2026-11-15T23:13:20Z",
+  "commit_sha": "aec42abc6aa8f3aee1906997fc88c87e91a09097",
+  "commit_message": "nandmgr fixes",
+  "source": "report",
+  "version": "EU0",
+  "measures": {
+   "fuzzy_match_percent": 2.48938,
+   "matched_code_percent": 2.4448202778788723,
+   "complete_code_percent": 2.0761479601896995,
+   "matched_data_percent": 2.41644975878636,
+   "complete_data_percent": 2.0381684542291483
+  }
  }
 ]
