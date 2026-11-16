@@ -2655,5 +2655,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T22:05:02Z",
+  "commit_sha": "09f46529912ea270ff9611a5d995a8025ac5c99e",
+  "commit_message": "source: share ranking archive layout and replace two offset carriers with typed indexing",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.9998,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

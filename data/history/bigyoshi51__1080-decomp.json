@@ -3325,5 +3325,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T22:18:29Z",
+  "commit_sha": "965081356dee7bb00fb762a885433f0f5eb38b19",
+  "commit_message": "agent-g run 647 (viewrec 5318 exact; heli B08 needs MIPSpro 7.2.1; 3524/3579)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 94.12876,
+   "matched_code_percent": 93.67930149525432,
+   "complete_code_percent": 89.47175813194083,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

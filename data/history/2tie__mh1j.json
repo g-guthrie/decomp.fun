@@ -212,5 +212,19 @@
    "matched_data_percent": 0.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T22:18:08Z",
+  "commit_sha": "f2e5a8f52b344acb88f5623a850f05d1478ea297",
+  "commit_message": "plaan: matched the rest of the getters, plus some fbms work",
+  "source": "report",
+  "version": "SLPM_654.95",
+  "measures": {
+   "fuzzy_match_percent": 1.0872026967212884,
+   "matched_code_percent": 1.0872026967212884,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]
