@@ -3227,5 +3227,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T14:24:14Z",
+  "commit_sha": "8546b1c488e27a557ec053d066d16ad636f3ffe5",
+  "commit_message": "owner-a unknown-object sites typed: ImageFile, SelectWin / SelectionMgr / SelItemsMgr, LightTarget, BasePolyShape.shapeFlags, GfxLib / MNode, GameFlow; VI donors on os_vi.h (agent-a run 586)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
