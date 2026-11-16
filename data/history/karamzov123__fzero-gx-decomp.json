@@ -2599,5 +2599,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T17:03:29Z",
+  "commit_sha": "fc1173ec1fb8962f4cad3a0a57f7a948bb1de259",
+  "commit_message": "device: remove 30 opt pragma lines, 24 inline helpers, and 3 scalar carriers across 15 multi-symbol units",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.9998,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

@@ -3269,5 +3269,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T17:20:35Z",
+  "commit_sha": "af2cb72a76d7a09617bb634ece545499ba877b8e",
+  "commit_message": "scripts/port-gbi-census.py: static F3DEX 1.x GBI command census (PC port M0)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
