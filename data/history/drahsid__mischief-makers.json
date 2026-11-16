@@ -178,5 +178,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-16T18:23:29Z",
+  "commit_sha": "3bbe616f645528404455de378a1cf21dbc4d6944",
+  "commit_message": "Match overlay_5AAA80 functions (#79)",
+  "source": "report",
+  "version": "us1",
+  "measures": {
+   "fuzzy_match_percent": 88.48661,
+   "matched_code_percent": 88.48660986489523,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

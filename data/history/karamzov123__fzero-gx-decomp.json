@@ -2613,5 +2613,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T18:08:33Z",
+  "commit_sha": "a05b58f2d10c41d70fb314a74dd89b2f016f0bc4",
+  "commit_message": "device: remove stream halfword volatility and replay all fixed probes",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.9998,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
