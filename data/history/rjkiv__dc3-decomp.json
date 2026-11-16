@@ -2054,5 +2054,19 @@
    "matched_data_percent": 26.267711451928438,
    "complete_data_percent": 26.267711451928438
   }
+ },
+ {
+  "timestamp": "2026-11-16T01:42:22Z",
+  "commit_sha": "f7bf0ec573d599e879a837b233e43ffda41fbe0a",
+  "commit_message": "mark synapseapo as matching",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.74028,
+   "matched_code_percent": 54.02122496596042,
+   "complete_code_percent": 34.278238101714024,
+   "matched_data_percent": 26.34219183740509,
+   "complete_data_percent": 26.34219183740509
+  }
  }
 ]
