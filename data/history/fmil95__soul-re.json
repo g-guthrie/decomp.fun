@@ -472,5 +472,19 @@
    "matched_data_percent": 55.90682400225465,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T18:35:31Z",
+  "commit_sha": "ac94e16af2637599a59a9becd6e322ac7ff6bbe8",
+  "commit_message": "Remove unused parameter from FX_MakeHitFlame",
+  "source": "report",
+  "version": "SLUS-00708",
+  "measures": {
+   "fuzzy_match_percent": 95.01154,
+   "matched_code_percent": 91.94611590825659,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 55.90682400225465,
+   "complete_data_percent": 0.0
+  }
  }
 ]

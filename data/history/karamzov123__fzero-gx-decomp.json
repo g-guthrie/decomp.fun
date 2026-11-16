@@ -2627,5 +2627,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T18:51:20Z",
+  "commit_sha": "9244317f5f4bb77779e5d1f6884672499c7bd896",
+  "commit_message": "source: count marked debt and remove a movie-resource scalar carrier",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.9998,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

@@ -1610,5 +1610,19 @@
    "matched_data_percent": 93.02360810268439,
    "complete_data_percent": 22.862550774521303
   }
+ },
+ {
+  "timestamp": "2026-11-16T19:20:22Z",
+  "commit_sha": "4b5027ad8dbde2b197cfdb9c5148e0ff94351c50",
+  "commit_message": "fix(BWanwan): naming + using proper enums + more matching (#404)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 98.24583,
+   "matched_code_percent": 52.898759027633865,
+   "complete_code_percent": 19.294903077584728,
+   "matched_data_percent": 93.02360810268439,
+   "complete_data_percent": 23.10055268290931
+  }
  }
 ]
