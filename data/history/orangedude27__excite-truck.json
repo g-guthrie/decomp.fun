@@ -2971,5 +2971,19 @@
    "matched_data_percent": 3.4725643326286075,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-16T09:17:01Z",
+  "commit_sha": "8e4f10bb958c9df781e645c80f9b8fd1cbf9c815",
+  "commit_message": "Update Excite Truck README progress",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 82.92662,
+   "matched_code_percent": 37.55735621768283,
+   "complete_code_percent": 2.852500593396708,
+   "matched_data_percent": 3.4725643326286075,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
