@@ -3311,5 +3311,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T21:18:42Z",
+  "commit_sha": "5a05af6f7ca668c4c280f765b2170648e1d570da",
+  "commit_message": "agent-a run 630 (+15 exact viewrec incl NCC donor, 9 NM; 3465/3577)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 91.58455,
+   "matched_code_percent": 91.34362256749084,
+   "complete_code_percent": 89.46988076188511,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
