@@ -444,5 +444,19 @@
    "matched_data_percent": 29.464139579036956,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T03:53:21Z",
+  "commit_sha": "41712163c22c10725831df6e60c06301fec324b0",
+  "commit_message": "Migrata mcardx and cinemax segments to C + match two mcardx functions",
+  "source": "report",
+  "version": "SLUS-00708",
+  "measures": {
+   "fuzzy_match_percent": 95.01154,
+   "matched_code_percent": 91.94611590825659,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 55.90682400225465,
+   "complete_data_percent": 0.0
+  }
  }
 ]
