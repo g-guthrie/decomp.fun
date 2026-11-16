@@ -3125,5 +3125,19 @@
    "matched_data_percent": 3.472718764912367,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-16T20:17:02Z",
+  "commit_sha": "a8814436fa9ba5f1c077ab889182cdd6948f3e7f",
+  "commit_message": "Restore dont_inline reset after FA44/FAB8",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 83.32582,
+   "matched_code_percent": 39.08510685730547,
+   "complete_code_percent": 2.8713843781268076,
+   "matched_data_percent": 3.472718764912367,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]

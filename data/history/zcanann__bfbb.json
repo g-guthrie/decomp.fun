@@ -316,5 +316,19 @@
    "matched_data_percent": 99.61304104763124,
    "complete_data_percent": 68.889624565491
   }
+ },
+ {
+  "timestamp": "2026-11-16T19:50:39Z",
+  "commit_sha": "b344ffa6bce7a27a0feeece7418103ac5d9fec20",
+  "commit_message": "Correct PS2 combo load outcomes",
+  "source": "report",
+  "version": "GQPP78",
+  "measures": {
+   "fuzzy_match_percent": 99.71854,
+   "matched_code_percent": 93.91391447645714,
+   "complete_code_percent": 62.149774463928274,
+   "matched_data_percent": 99.61304104763124,
+   "complete_data_percent": 68.889624565491
+  }
  }
 ]

@@ -3297,5 +3297,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T20:15:44Z",
+  "commit_sha": "2a1ec167d9d56b595809a31a2955adcecae67597",
+  "commit_message": "port M1: Text-address data tokens bound per addend; GenCourse_ctor sentinel; _Znwj",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

@@ -2641,5 +2641,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T19:12:01Z",
+  "commit_sha": "8341d74455ebdddf8f307679685409c697ec3e1e",
+  "commit_message": "source: recover shared Mota layouts and count synthetic pool primers",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.9998,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
