@@ -3241,5 +3241,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T15:22:03Z",
+  "commit_sha": "c6fbe832fcf91253817e3f0c10e1df86d5519e18",
+  "commit_message": "rcp.h: RcpMgr +0x48 unk48[2] -> preNmi + unk4C (agent-b run 597)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

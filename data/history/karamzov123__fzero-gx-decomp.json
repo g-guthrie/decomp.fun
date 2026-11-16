@@ -2571,5 +2571,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T15:10:33Z",
+  "commit_sha": "2cb18a1cd1e7651d172ea11ae4cd1cf6f1985386",
+  "commit_message": "device: remove 13 redundant opt pragmas, 3 operand helpers and 2 scalar carriers across 7 functions",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.9998,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
