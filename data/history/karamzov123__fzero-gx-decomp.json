@@ -2543,5 +2543,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T07:08:43Z",
+  "commit_sha": "43f969c4d8766e0a40134d4caab500cded51738d",
+  "commit_message": "docs: align agent contract with reviewed reconstruction policy",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.9998,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

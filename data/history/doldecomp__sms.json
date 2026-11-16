@@ -1582,5 +1582,19 @@
    "matched_data_percent": 93.02360810268439,
    "complete_data_percent": 22.858802712971883
   }
+ },
+ {
+  "timestamp": "2026-11-16T07:08:01Z",
+  "commit_sha": "d3b2cdf33bed7ae3edc8c9abbacd0d42bc49c959",
+  "commit_message": "NPC/NpcThrow: match throwMario (#407)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 98.23948,
+   "matched_code_percent": 52.898759027633865,
+   "complete_code_percent": 19.252452864665155,
+   "matched_data_percent": 93.02360810268439,
+   "complete_data_percent": 22.862550774521303
+  }
  }
 ]
