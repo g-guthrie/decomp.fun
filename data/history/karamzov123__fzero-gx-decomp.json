@@ -2529,5 +2529,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T05:48:33Z",
+  "commit_sha": "27a4323b999436af79541576ebb07478f0fa87b8",
+  "commit_message": "fix: replay saved data layouts and keep OS assembly policy-compliant",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.9998,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
