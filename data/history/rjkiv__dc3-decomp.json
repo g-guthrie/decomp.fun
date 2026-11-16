@@ -2040,5 +2040,19 @@
    "matched_data_percent": 26.2557588136478,
    "complete_data_percent": 26.2557588136478
   }
+ },
+ {
+  "timestamp": "2026-11-16T00:33:16Z",
+  "commit_sha": "493f4aabc1d242c77634471312a156a9dece6c55",
+  "commit_message": "match sampleinst (lol)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.73702,
+   "matched_code_percent": 54.01745644490832,
+   "complete_code_percent": 34.26005089141908,
+   "matched_data_percent": 26.267711451928438,
+   "complete_data_percent": 26.267711451928438
+  }
  }
 ]

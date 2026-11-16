@@ -198,5 +198,19 @@
    "matched_data_percent": 0.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T00:38:45Z",
+  "commit_sha": "277a5341b5cf4ec5a7fec1a64301c4db78b0b6e6",
+  "commit_message": "plaan: started matches and structs",
+  "source": "report",
+  "version": "SLPM_654.95",
+  "measures": {
+   "fuzzy_match_percent": 1.0779900574188759,
+   "matched_code_percent": 1.0779900574188759,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

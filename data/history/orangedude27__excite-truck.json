@@ -2845,5 +2845,19 @@
    "matched_data_percent": 3.471946603493567,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-16T00:16:52Z",
+  "commit_sha": "672c4cf7f5ddc3616d90cd979cf4800c7c159bf2",
+  "commit_message": "Tidy ebi::title::TBlackPlane::updateAfterCamera() (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 82.39317,
+   "matched_code_percent": 36.510224126920015,
+   "complete_code_percent": 2.852500593396708,
+   "matched_data_percent": 3.471946603493567,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
