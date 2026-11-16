@@ -2915,5 +2915,19 @@
    "matched_data_percent": 3.4725643326286075,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-16T05:11:33Z",
+  "commit_sha": "226c51d12e407d827782600c79dce2f3eeba058c",
+  "commit_message": "fn_80285CB8: end dont_inline region",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 82.62399,
+   "matched_code_percent": 36.88488366146095,
+   "complete_code_percent": 2.852500593396708,
+   "matched_data_percent": 3.4725643326286075,
+   "complete_data_percent": 3.449245057780839
+  }
  }
 ]
