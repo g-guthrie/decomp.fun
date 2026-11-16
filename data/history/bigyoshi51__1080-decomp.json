@@ -3199,5 +3199,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T12:33:39Z",
+  "commit_sha": "4731bbcb0bd57c08c382f7d033aa7d2c25fea35c",
+  "commit_message": "SnowBoarder_ctor: world-root parents via GameFlow.game, the 0x814 / 0x818 / 0x81C and bodyNodes[3] loads as struct reads (agent-h run 559)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
