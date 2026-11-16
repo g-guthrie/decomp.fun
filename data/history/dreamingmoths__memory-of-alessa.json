@@ -1523,5 +1523,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T03:14:51Z",
+  "commit_sha": "eb7e9d50d3a66b4854f6aefeb5ef573b2dfd38c7",
+  "commit_message": "sh2: match `enSCUCtrlCrawl`",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 8.128407,
+   "matched_code_percent": 7.014000076156353,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
