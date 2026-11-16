@@ -3185,5 +3185,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T01:04:41Z",
+  "commit_sha": "acc2e173bf965219b4edad5fe2c5453c36a2f945",
+  "commit_message": "agent-h run 541 (GfxLib sites in env objects, RaceColourParms, EnvSettings/FallingSnow, CourseCamItem, pause Bss; EnvSettings_setSnow)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
