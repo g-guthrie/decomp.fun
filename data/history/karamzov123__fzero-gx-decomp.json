@@ -2557,5 +2557,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T08:12:37Z",
+  "commit_sha": "6a055560efa82d8d3e9a8ed303ce3031502a8967",
+  "commit_message": "docs: shorten device-census summary and next steps",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.9998,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
