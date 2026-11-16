@@ -3339,5 +3339,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T23:15:02Z",
+  "commit_sha": "d4f12c302ad5a272b3b4d7ab304b825c5c569ff9",
+  "commit_message": "agent-b run 662 (viewrec 319C exact; 3555/3579)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 97.15501,
+   "matched_code_percent": 95.79667919358546,
+   "complete_code_percent": 89.47175813194083,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
