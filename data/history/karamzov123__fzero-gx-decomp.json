@@ -2585,5 +2585,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T16:07:36Z",
+  "commit_sha": "bd8f657a0a797d73cfdf12a440ed7200641fd361",
+  "commit_message": "device: extend operand and access helper generators; remove 15 helpers across 13 functions",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.9998,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
