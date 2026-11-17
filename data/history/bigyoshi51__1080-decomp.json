@@ -3549,5 +3549,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T18:12:00Z",
+  "commit_sha": "1d727331e55f276c874f694b106f2dc1bb8bcc56",
+  "commit_message": "src (PORT only): past the goal -- name entry / viewrec cfront vptrs, the N64 boot-word checks",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
