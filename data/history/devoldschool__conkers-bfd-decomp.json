@@ -887,5 +887,19 @@
    "matched_data_percent": 96.79271563466823,
    "complete_data_percent": 96.79246993635431
   }
+ },
+ {
+  "timestamp": "2026-11-17T11:41:17Z",
+  "commit_sha": "679077bfc4b31e24ef36d2e6c62196e95b949d0f",
+  "commit_message": "Merge pull request #253 from DevOldSchool/claude/fix-game-data-report",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 59.274628,
+   "matched_code_percent": 58.87777742164101,
+   "complete_code_percent": 20.99800207271601,
+   "matched_data_percent": 96.83107528392897,
+   "complete_data_percent": 96.83107528392897
+  }
  }
 ]

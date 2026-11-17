@@ -3465,5 +3465,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T12:25:31Z",
+  "commit_sha": "4f41056fa1ea2502e0b5e56253045489406092c5",
+  "commit_message": "name-placeholder-calls: name 8 calls in arcproc B4 / 12C and gui 2DE0 / 329C donors (tool output)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
