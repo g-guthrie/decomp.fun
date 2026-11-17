@@ -2873,5 +2873,19 @@
    "matched_data_percent": 51.821021644605956,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T19:42:02Z",
+  "commit_sha": "f72dcea79dd64e73ad19d722f56dfc3178c8c890",
+  "commit_message": "bodyprog: name `CharaFlag_AttackTicked`, `Combat_AttackPerform`",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.821021644605956,
+   "complete_data_percent": 0.0
+  }
  }
 ]

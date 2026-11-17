@@ -89,5 +89,19 @@
    "matched_data_percent": 38.64227349991798,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T20:18:42Z",
+  "commit_sha": "69d4e9e3a15229a300f1112f990bf74aa884a07c",
+  "commit_message": "fix: protect saved games and address project review findings (#41)",
+  "source": "report",
+  "version": "1.18-linux-amd64",
+  "measures": {
+   "fuzzy_match_percent": 78.94473060555649,
+   "matched_code_percent": 64.58504955222327,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 38.64227349991798,
+   "complete_data_percent": 0.0
+  }
  }
 ]
