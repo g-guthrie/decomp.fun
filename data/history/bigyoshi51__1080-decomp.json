@@ -3521,5 +3521,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T16:16:54Z",
+  "commit_sha": "853081eb596aa8b016d8ce42ed76387ba5c612c7",
+  "commit_message": "game_uso: restore main's RiderAnim_init ROM-word swap (run 830), dropped by the run 834 merge",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
