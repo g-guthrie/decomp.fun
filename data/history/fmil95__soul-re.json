@@ -486,5 +486,19 @@
    "matched_data_percent": 55.90682400225465,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T07:20:13Z",
+  "commit_sha": "6c6952491b8eb8991636cd5ccc1066f3e6a23fd4",
+  "commit_message": "Migrate aluka, walboss and wallcr data to C + decompile rest of the overlays",
+  "source": "report",
+  "version": "SLUS-00708",
+  "measures": {
+   "fuzzy_match_percent": 96.70084,
+   "matched_code_percent": 93.69429258227147,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 56.753299467411225,
+   "complete_data_percent": 0.0
+  }
  }
 ]
