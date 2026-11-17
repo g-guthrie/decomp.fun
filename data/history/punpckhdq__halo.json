@@ -418,5 +418,19 @@
    "matched_data_percent": 63.45110628252768,
    "complete_data_percent": 61.47021904389259
   }
+ },
+ {
+  "timestamp": "2026-11-17T01:36:12Z",
+  "commit_sha": "41037c9baae71489b375f0a278a78eaf6dcfa470",
+  "commit_message": "physics match fixes (#137)",
+  "source": "report",
+  "version": "2342",
+  "measures": {
+   "fuzzy_match_percent": 80.52858,
+   "matched_code_percent": 79.73148712721712,
+   "complete_code_percent": 72.41338514601895,
+   "matched_data_percent": 63.465761251400245,
+   "complete_data_percent": 61.516482769156944
+  }
  }
 ]
