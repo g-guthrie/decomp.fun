@@ -2110,5 +2110,19 @@
    "matched_data_percent": 26.34219183740509,
    "complete_data_percent": 26.34219183740509
   }
+ },
+ {
+  "timestamp": "2026-11-17T02:52:08Z",
+  "commit_sha": "ebff60c00e2cc91ae629acf1c2a76000169c7962",
+  "commit_message": "more mic360",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.751984,
+   "matched_code_percent": 54.047342455338935,
+   "complete_code_percent": 34.278238101714024,
+   "matched_data_percent": 26.34219183740509,
+   "complete_data_percent": 26.34219183740509
+  }
  }
 ]

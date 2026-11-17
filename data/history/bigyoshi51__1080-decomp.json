@@ -3395,5 +3395,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T03:14:59Z",
+  "commit_sha": "cc30232b13b3a922bf457fb1248e71b150009053",
+  "commit_message": "agent-g run 742 (heli B08 NM 96.4%, vtable-slot jtbl edge)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.94702,
+   "matched_code_percent": 98.34288100365485,
+   "complete_code_percent": 89.47175813194083,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
