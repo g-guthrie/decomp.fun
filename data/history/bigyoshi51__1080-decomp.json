@@ -3535,5 +3535,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T17:03:55Z",
+  "commit_sha": "cd860366bbf9cde383ddfb023cde82d6810c8924",
+  "commit_message": "port/audio: the DAC timing model is the default for tenshoe --audio-out",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
