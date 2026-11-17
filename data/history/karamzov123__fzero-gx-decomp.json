@@ -2683,5 +2683,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-16T23:38:32Z",
+  "commit_sha": "8883879a0e865683863ef45ffe0f689fcb4580cf",
+  "commit_message": "source: bg_tow.c compiles as one TU with all 16 functions matching",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.9998,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

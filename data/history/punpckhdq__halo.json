@@ -404,5 +404,19 @@
    "matched_data_percent": 63.371605470996805,
    "complete_data_percent": 61.39684841541951
   }
+ },
+ {
+  "timestamp": "2026-11-17T00:35:27Z",
+  "commit_sha": "ec094028e4ac7d336a710b6913d8aebd41dcd8c6",
+  "commit_message": "Ai larger units (#135)",
+  "source": "report",
+  "version": "2342",
+  "measures": {
+   "fuzzy_match_percent": 80.52597,
+   "matched_code_percent": 79.06800870016289,
+   "complete_code_percent": 70.94623372132178,
+   "matched_data_percent": 63.45110628252768,
+   "complete_data_percent": 61.47021904389259
+  }
  }
 ]
