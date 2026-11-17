@@ -3423,5 +3423,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T05:21:24Z",
+  "commit_sha": "96b5dc8376304ad9e811e21d871d56263ea204a9",
+  "commit_message": "agent-g run 774 (heli B08 NM 99.08%)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.9857,
+   "matched_code_percent": 98.90776528213718,
+   "complete_code_percent": 89.47175813194083,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
