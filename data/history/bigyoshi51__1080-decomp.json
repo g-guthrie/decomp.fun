@@ -3619,5 +3619,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T23:10:27Z",
+  "commit_sha": "9f168b4ac18b22fcebd93c3a0e2e59d666e61b97",
+  "commit_message": "port64: the remaining abi-scan --x64 float findings; build64 compares race gfx + audio (run 870)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

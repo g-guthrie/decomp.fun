@@ -219,5 +219,19 @@
    "matched_data_percent": 2.438447873418535,
    "complete_data_percent": 2.0381684542291483
   }
+ },
+ {
+  "timestamp": "2026-11-17T22:34:48Z",
+  "commit_sha": "407f7f622947c47c1930f88f73ea6ed6564521b7",
+  "commit_message": "nandmgr US2",
+  "source": "report",
+  "version": "EU0",
+  "measures": {
+   "fuzzy_match_percent": 2.48938,
+   "matched_code_percent": 2.4448202778788723,
+   "complete_code_percent": 2.0761479601896995,
+   "matched_data_percent": 2.438447873418535,
+   "complete_data_percent": 2.0381684542291483
+  }
  }
 ]
