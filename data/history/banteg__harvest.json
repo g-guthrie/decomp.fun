@@ -103,5 +103,19 @@
    "matched_data_percent": 38.64227349991798,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T20:31:45Z",
+  "commit_sha": "b1a11772c11f23be2189949ba7d2aa68dbc994b3",
+  "commit_message": "feat(src): restore six X-file parsers and improve scene matching (#40)",
+  "source": "report",
+  "version": "1.18-linux-amd64",
+  "measures": {
+   "fuzzy_match_percent": 80.22042484488497,
+   "matched_code_percent": 65.33566488863887,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 39.088694280299194,
+   "complete_data_percent": 0.0
+  }
  }
 ]

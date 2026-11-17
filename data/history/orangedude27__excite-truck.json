@@ -3475,5 +3475,19 @@
    "matched_data_percent": 3.4731820617636475,
    "complete_data_percent": 3.449245057780839
   }
+ },
+ {
+  "timestamp": "2026-11-17T20:59:58Z",
+  "commit_sha": "004015b261210c4140f4fd328d0924cdbfb4913a",
+  "commit_message": "Link OSCache, text_802ECCE4_, vmem and quat",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 85.90962,
+   "matched_code_percent": 41.6146160493811,
+   "complete_code_percent": 3.1015305045248955,
+   "matched_data_percent": 3.4731820617636475,
+   "complete_data_percent": 3.471174442074767
+  }
  }
 ]

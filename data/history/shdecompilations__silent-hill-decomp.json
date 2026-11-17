@@ -2887,5 +2887,19 @@
    "matched_data_percent": 51.821021644605956,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T20:22:18Z",
+  "commit_sha": "ecbb0d8e3881cf2f0cb9fa700f3bb1a74b6d34ce",
+  "commit_message": "maps: npc `xxxProps.flags` fixups",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.821021644605956,
+   "complete_data_percent": 0.0
+  }
  }
 ]

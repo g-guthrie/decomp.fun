@@ -1368,5 +1368,19 @@
    "matched_data_percent": 11.09732833394416,
    "complete_data_percent": 2.383637337543345
   }
+ },
+ {
+  "timestamp": "2026-11-17T21:18:31Z",
+  "commit_sha": "2623d4bc4d6b76ea59034d3952096fc2196526ff",
+  "commit_message": "Merge pull request #61 from not-aoyama/FixedPosition",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.84758,
+   "matched_code_percent": 19.98124180525293,
+   "complete_code_percent": 2.5743389171927786,
+   "matched_data_percent": 11.1358575918346,
+   "complete_data_percent": 2.4254096237575613
+  }
  }
 ]
