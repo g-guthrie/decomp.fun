@@ -3479,5 +3479,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T12:38:07Z",
+  "commit_sha": "ed68143d609336a52282048c25487dd3265fba4c",
+  "commit_message": "bootup / mgrproc: replace 7 stale UNNAMED comments on now-named calls (comments only)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
