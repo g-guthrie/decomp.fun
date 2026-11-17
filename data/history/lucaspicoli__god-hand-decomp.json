@@ -542,5 +542,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T14:32:24Z",
+  "commit_sha": "8141791309268e860a44d218340f5217347bcc71",
+  "commit_message": "cleanup: review fixes for PRs 47-52, regen report",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 56.825848,
+   "matched_code_percent": 56.82584855955006,
+   "complete_code_percent": 55.48510472666144,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]

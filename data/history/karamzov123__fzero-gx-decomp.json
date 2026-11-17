@@ -2739,5 +2739,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T14:29:05Z",
+  "commit_sha": "4720b2358915cb45b4af832ecfa57955e62dbc2c",
+  "commit_message": "device: three more sel pad loops use PAD_BIT; drop an inert opt_common_subs pair",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99982,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
