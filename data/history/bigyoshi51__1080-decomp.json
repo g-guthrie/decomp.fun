@@ -3605,5 +3605,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T21:37:08Z",
+  "commit_sha": "fe68e3518cc18c71a605906b5b9c523c21aeb591",
+  "commit_message": "port-gate: restore the soak step (run 864) dropped by the build64 merge (run 866)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

@@ -3489,5 +3489,19 @@
    "matched_data_percent": 3.4731820617636475,
    "complete_data_percent": 3.471174442074767
   }
+ },
+ {
+  "timestamp": "2026-11-17T22:14:29Z",
+  "commit_sha": "6f848f8f44827922b3a871b4d9af07beececdcb2",
+  "commit_message": "Expand the mesh state struct with the interpolation fields used by fn_801E53A8 (offsets unchanged for existing users).",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 85.911224,
+   "matched_code_percent": 41.6146160493811,
+   "complete_code_percent": 3.1015305045248955,
+   "matched_data_percent": 3.4731820617636475,
+   "complete_data_percent": 3.471174442074767
+  }
  }
 ]
