@@ -3563,5 +3563,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T19:12:53Z",
+  "commit_sha": "384c40ad661caefaea305d7b57ddbf5121646281",
+  "commit_message": "port: every mode headless -- race= for Match Race / Contest / 2P VS, steer-search match / contest, mode scripts",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
