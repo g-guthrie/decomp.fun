@@ -3437,5 +3437,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T06:22:26Z",
+  "commit_sha": "7e101008ffc941f3b53646dd362e105174b68ae9",
+  "commit_message": "agent-c run 791 (snoweffects 28E0 NM 99.81%)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 99.9993,
+   "matched_code_percent": 99.62794581990325,
+   "complete_code_percent": 89.47175813194083,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

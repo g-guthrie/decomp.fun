@@ -2697,5 +2697,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T06:10:23Z",
+  "commit_sha": "94c20efe6d4caa9a48de448114a38e9ea0b1cd59",
+  "commit_message": "merge: PR #389 build: link the RELs with dead-stripping, with a guard.",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.9998,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
