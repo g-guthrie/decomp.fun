@@ -2957,5 +2957,19 @@
    "matched_data_percent": 51.821021644605956,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T13:32:06Z",
+  "commit_sha": "d99d7134f417b88e8ea6830189448fe701b6116c",
+  "commit_message": "bodyprog: name `Combat_HitSfxPlay`, fixups",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.821021644605956,
+   "complete_data_percent": 0.0
+  }
  }
 ]
