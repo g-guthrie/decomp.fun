@@ -3647,5 +3647,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T18:14:39Z",
+  "commit_sha": "5783065adfe0b4f8e038e7d73a94aaa506a4df07",
+  "commit_message": "port: presenter applies the plan-25 N64 render settings (clipping, shading, filtering)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
