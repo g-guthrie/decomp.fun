@@ -298,5 +298,19 @@
    "matched_data_percent": 63.026719888128724,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T12:16:58Z",
+  "commit_sha": "fb857d460083e4bb868e56a3b0b7045df842ad12",
+  "commit_message": "ci: verify packaged solo play and gate releases on replay compatibility (#1000)",
+  "source": "report",
+  "version": "1.4.0",
+  "measures": {
+   "fuzzy_match_percent": 38.52777815685686,
+   "matched_code_percent": 38.527778156856854,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 63.026719888128724,
+   "complete_data_percent": 0.0
+  }
  }
 ]
