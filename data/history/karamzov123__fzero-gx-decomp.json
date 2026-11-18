@@ -2879,5 +2879,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T19:36:15Z",
+  "commit_sha": "77772c8af02b64d1eb22168c93d8c664e9f119eb",
+  "commit_message": "bg_lig: remove redundant spawn pool bindings and zero primer",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99982,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
