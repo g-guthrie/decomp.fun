@@ -1624,5 +1624,19 @@
    "matched_data_percent": 93.02360810268439,
    "complete_data_percent": 23.10055268290931
   }
+ },
+ {
+  "timestamp": "2026-11-18T21:46:57Z",
+  "commit_sha": "0eb067f7bb97819caabeea2d7b4b49cfbc19f2f1",
+  "commit_message": "Enemy/feetinv: bring FeetInvCalc closer to the original (#409)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 98.25899,
+   "matched_code_percent": 52.898759027633865,
+   "complete_code_percent": 19.294903077584728,
+   "matched_data_percent": 93.02360810268439,
+   "complete_data_percent": 23.10055268290931
+  }
  }
 ]

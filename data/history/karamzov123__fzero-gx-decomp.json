@@ -2921,5 +2921,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T22:07:10Z",
+  "commit_sha": "cf69ca45b2de3c6c7120f4fcf546ef1d4d8c70c9",
+  "commit_message": "main_rel: realign bg_lig/bg_san boundary and consolidate bg_san to 4 primer-free units",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99982,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
