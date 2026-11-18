@@ -2166,5 +2166,19 @@
    "matched_data_percent": 26.34219183740509,
    "complete_data_percent": 26.34219183740509
   }
+ },
+ {
+  "timestamp": "2026-11-18T14:45:00Z",
+  "commit_sha": "769b8542f65794a95c20b5d6f99f78ede8d7dd12",
+  "commit_message": "datafunc and hamnavprovider matched (#373)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.79955,
+   "matched_code_percent": 54.09325287267806,
+   "complete_code_percent": 34.7592324669558,
+   "matched_data_percent": 26.632307574720247,
+   "complete_data_percent": 26.632307574720247
+  }
  }
 ]

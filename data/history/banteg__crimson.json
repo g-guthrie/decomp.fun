@@ -312,5 +312,19 @@
    "matched_data_percent": 63.026719888128724,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T15:10:50Z",
+  "commit_sha": "c612382cbedc9d546520de2ee7b7c31ee2769aab",
+  "commit_message": "build(deps): keep NumPy out of the base install (#1004)",
+  "source": "report",
+  "version": "1.4.0",
+  "measures": {
+   "fuzzy_match_percent": 38.52777815685686,
+   "matched_code_percent": 38.527778156856854,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 63.026719888128724,
+   "complete_data_percent": 0.0
+  }
  }
 ]
