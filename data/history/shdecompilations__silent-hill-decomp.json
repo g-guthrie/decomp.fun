@@ -3013,5 +3013,19 @@
    "matched_data_percent": 51.821021644605956,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T19:46:11Z",
+  "commit_sha": "0f78743eb653207b4d345fffb7def3220f44206e",
+  "commit_message": "maps: rename Chara_Unknown23 -> Chara_MonsterIncubator",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 100.00001,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.821021644605956,
+   "complete_data_percent": 0.0
+  }
  }
 ]
