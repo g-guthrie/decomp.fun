@@ -1635,5 +1635,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T10:18:07Z",
+  "commit_sha": "9acff5e14af5602a524f30a1ac40b468766fd7f4",
+  "commit_message": "sh2: match `enCheckForbiddenAreaSub`",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 8.128407,
+   "matched_code_percent": 7.014000076156353,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -2929,5 +2929,19 @@
    "matched_data_percent": 51.821021644605956,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T09:55:32Z",
+  "commit_sha": "a3b574d6fb634ac022ab487313cd1f8a4c76362b",
+  "commit_message": "Maps: `sharedData_800D8610_1_s05` -> `g_SplitHead_BoneCoords`, demagicking",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.821021644605956,
+   "complete_data_percent": 0.0
+  }
  }
 ]
