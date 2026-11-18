@@ -432,5 +432,19 @@
    "matched_data_percent": 63.465761251400245,
    "complete_data_percent": 61.516482769156944
   }
+ },
+ {
+  "timestamp": "2026-11-18T02:31:47Z",
+  "commit_sha": "31d0e6d924c1d4b4fc3def2cf3a6a71c890331fb",
+  "commit_message": "fix some float constants (#138)",
+  "source": "report",
+  "version": "2342",
+  "measures": {
+   "fuzzy_match_percent": 80.52858,
+   "matched_code_percent": 79.73148712721712,
+   "complete_code_percent": 72.41338514601895,
+   "matched_data_percent": 63.465761251400245,
+   "complete_data_percent": 61.516482769156944
+  }
  }
 ]
