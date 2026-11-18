@@ -1382,5 +1382,19 @@
    "matched_data_percent": 11.1358575918346,
    "complete_data_percent": 2.4254096237575613
   }
+ },
+ {
+  "timestamp": "2026-11-18T17:13:08Z",
+  "commit_sha": "f4ccf58e9c4151f11b64470e2ed55776702524aa",
+  "commit_message": "Fix symbol",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.84758,
+   "matched_code_percent": 19.98124180525293,
+   "complete_code_percent": 2.5743389171927786,
+   "matched_data_percent": 11.1358575918346,
+   "complete_data_percent": 2.4254096237575613
+  }
  }
 ]

@@ -466,5 +466,19 @@
    "matched_data_percent": 16.045446878067956,
    "complete_data_percent": 16.045446878067956
   }
+ },
+ {
+  "timestamp": "2026-11-18T17:16:40Z",
+  "commit_sha": "5e10ea3a27e0a161d2f8f810a9ada6bda7f68736",
+  "commit_message": "LST map symbols update (#174)",
+  "source": "report",
+  "version": "RSBE01_02",
+  "measures": {
+   "fuzzy_match_percent": 1.818907,
+   "matched_code_percent": 1.7284313029524399,
+   "complete_code_percent": 1.5827911722628434,
+   "matched_data_percent": 16.045446878067956,
+   "complete_data_percent": 16.045446878067956
+  }
  }
 ]

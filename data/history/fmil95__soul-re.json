@@ -514,5 +514,19 @@
    "matched_data_percent": 56.817259320303556,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T16:25:50Z",
+  "commit_sha": "d484fc5b8eee57797ad802cc4d8a8349adbbf1c3",
+  "commit_message": "Add link to PC port",
+  "source": "report",
+  "version": "SLUS-00708",
+  "measures": {
+   "fuzzy_match_percent": 99.76691,
+   "matched_code_percent": 95.07913378289263,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 56.817259320303556,
+   "complete_data_percent": 0.0
+  }
  }
 ]

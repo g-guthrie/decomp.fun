@@ -2837,5 +2837,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T17:05:16Z",
+  "commit_sha": "fb6b605cd9bde4923987b68925281d8ecefaf33d",
+  "commit_message": "bg_lig: reconcile viewport count callers",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99982,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
