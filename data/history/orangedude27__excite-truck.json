@@ -3629,5 +3629,19 @@
    "matched_data_percent": 3.473954223182448,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-18T08:17:02Z",
+  "commit_sha": "dcee492ba5e8be715c9826973405ebc43a32790b",
+  "commit_message": "IOS_IoctlvReboot has no fixed prototype here; call it with its five real arguments.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 86.473755,
+   "matched_code_percent": 43.52699266548555,
+   "complete_code_percent": 3.135757364348201,
+   "matched_data_percent": 3.473954223182448,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
