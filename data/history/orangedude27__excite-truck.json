@@ -3811,5 +3811,19 @@
    "matched_data_percent": 3.473954223182448,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-18T20:52:29Z",
+  "commit_sha": "fa3c7e33132a59a17033046e6eea64d58a7706e2",
+  "commit_message": "restore invalid_target scheduling pragma",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 86.97306,
+   "matched_code_percent": 44.939604673212166,
+   "complete_code_percent": 3.1453303941072104,
+   "matched_data_percent": 3.473954223182448,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]

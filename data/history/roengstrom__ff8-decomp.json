@@ -648,5 +648,19 @@
    "matched_data_percent": 92.25351411123619,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T20:55:34Z",
+  "commit_sha": "1224da4c039c9a78138a3aad174b392eb27976fa",
+  "commit_message": "Merge branch 'decomp-fe_object1b-setup'",
+  "source": "report",
+  "version": "SLUS_008.92",
+  "measures": {
+   "fuzzy_match_percent": 72.8391,
+   "matched_code_percent": 72.83910684204126,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 92.25351411123619,
+   "complete_data_percent": 0.0
+  }
  }
 ]

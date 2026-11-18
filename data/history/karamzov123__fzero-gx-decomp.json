@@ -2907,5 +2907,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T20:55:01Z",
+  "commit_sha": "82a5a8d1981623c8eab9b41c49142cf86f9d5c99",
+  "commit_message": "bg_lig: consolidate 24-function 0x6490 group primer-free and complete US assembly origin audit",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99982,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

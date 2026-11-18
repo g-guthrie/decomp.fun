@@ -310,5 +310,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-18T20:48:03Z",
+  "commit_sha": "44b98218c34ea7af66208d473f5547f26df3fa92",
+  "commit_message": "decompiled (jp) and revisited (us,eu) ingame/menu/ig_glst.c",
+  "source": "report",
+  "version": "SLUS_203.88",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

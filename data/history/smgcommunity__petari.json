@@ -619,5 +619,19 @@
    "matched_data_percent": 88.00073108895458,
    "complete_data_percent": 74.97262940485619
   }
+ },
+ {
+  "timestamp": "2026-11-18T20:35:08Z",
+  "commit_sha": "1a7b6fb4758a0bf4f61f957b3136d372bac2f02e",
+  "commit_message": "Move some tools over from Garigari",
+  "source": "report",
+  "version": "RMGK01",
+  "measures": {
+   "fuzzy_match_percent": 99.99983,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 68.78540320304313,
+   "matched_data_percent": 88.31922528699162,
+   "complete_data_percent": 75.20426154888314
+  }
  }
 ]
