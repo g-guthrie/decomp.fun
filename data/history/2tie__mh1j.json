@@ -240,5 +240,19 @@
    "matched_data_percent": 0.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-17T23:43:44Z",
+  "commit_sha": "2826a91bf3e0e87740d18703591f096f9ba00959",
+  "commit_message": "plaan: all funcs matched!",
+  "source": "report",
+  "version": "SLPM_654.95",
+  "measures": {
+   "fuzzy_match_percent": 1.166533376312033,
+   "matched_code_percent": 1.166533376312033,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]

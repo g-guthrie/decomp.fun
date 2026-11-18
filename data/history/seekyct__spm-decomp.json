@@ -233,5 +233,19 @@
    "matched_data_percent": 2.438447873418535,
    "complete_data_percent": 2.0381684542291483
   }
+ },
+ {
+  "timestamp": "2026-11-17T23:50:32Z",
+  "commit_sha": "fdd9bea91b3d311bf163dad01fabcebb95263210",
+  "commit_message": "ninja apply",
+  "source": "report",
+  "version": "EU0",
+  "measures": {
+   "fuzzy_match_percent": 2.48938,
+   "matched_code_percent": 2.4448202778788723,
+   "complete_code_percent": 2.0761479601896995,
+   "matched_data_percent": 2.438447873418535,
+   "complete_data_percent": 2.0381684542291483
+  }
  }
 ]
