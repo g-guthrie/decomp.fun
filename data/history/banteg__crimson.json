@@ -284,5 +284,19 @@
    "matched_data_percent": 69.74106594455111,
    "complete_data_percent": 0.1977834348647385
   }
+ },
+ {
+  "timestamp": "2026-11-18T11:00:53Z",
+  "commit_sha": "9d909b52ceb76d4299adddc04a4fe1b2719b9f79",
+  "commit_message": "feat(web): back up profiles and safely resume play across tabs (#995)",
+  "source": "report",
+  "version": "1.4.0",
+  "measures": {
+   "fuzzy_match_percent": 38.52777815685686,
+   "matched_code_percent": 38.527778156856854,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 63.026719888128724,
+   "complete_data_percent": 0.0
+  }
  }
 ]
