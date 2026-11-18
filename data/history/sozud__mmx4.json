@@ -368,5 +368,19 @@
    "matched_data_percent": 99.9723657079693,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T18:23:26Z",
+  "commit_sha": "f6051b2ca61e1190bce8b410e6f9d979f1dfaf91",
+  "commit_message": "build gamecube version (#439)",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 98.852264,
+   "matched_code_percent": 98.85226643023385,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 99.9723657079693,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -2865,5 +2865,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T19:00:28Z",
+  "commit_sha": "2115efb9b58aaf597bc4ae719b92324ea4fc4b3c",
+  "commit_message": "bg_lig: scope codegen pragmas to their functions",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99982,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

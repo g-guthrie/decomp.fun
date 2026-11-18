@@ -2999,5 +2999,19 @@
    "matched_data_percent": 51.821021644605956,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T19:15:45Z",
+  "commit_sha": "c125eaa0b15aa5b8c1a07f26820efa2227609b02",
+  "commit_message": "maps: move BGM code to maps/common/bgm/, grouped by map type",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.821021644605956,
+   "complete_data_percent": 0.0
+  }
  }
 ]
