@@ -2753,5 +2753,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T00:53:29Z",
+  "commit_sha": "9a983c0d862aa48c6920b3ac9ed3811f85e99233",
+  "commit_message": "regions: direct units.json writers keep matching_for on one line; document region build inputs",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99982,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
