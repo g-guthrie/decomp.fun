@@ -2317,5 +2317,19 @@
    "matched_data_percent": 34.7933599207141,
    "complete_data_percent": 12.432633282733352
   }
+ },
+ {
+  "timestamp": "2026-11-18T15:57:07Z",
+  "commit_sha": "b41c070e417ce23514357966c8e453f0a4b30435",
+  "commit_message": "AudioMusicThing: match IsSamplePlaying (#822)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 69.60103,
+   "matched_code_percent": 56.294962765710096,
+   "complete_code_percent": 28.379997589522205,
+   "matched_data_percent": 34.7933599207141,
+   "complete_data_percent": 12.432633282733352
+  }
  }
 ]
