@@ -2415,5 +2415,19 @@
    "matched_data_percent": 34.794090602961575,
    "complete_data_percent": 12.710037338980976
   }
+ },
+ {
+  "timestamp": "2026-11-19T17:44:02Z",
+  "commit_sha": "ae89ba278a2b2e58baea19aa2094dff19200921e",
+  "commit_message": "AnimalSpellWolf: Set to Matching in every version (#828)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 70.28688,
+   "matched_code_percent": 56.82827853372534,
+   "complete_code_percent": 28.744939348098825,
+   "matched_data_percent": 34.79375388294012,
+   "complete_data_percent": 13.129969033254074
+  }
  }
 ]

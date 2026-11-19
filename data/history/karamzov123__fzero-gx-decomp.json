@@ -3047,5 +3047,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-19T18:11:17Z",
+  "commit_sha": "b9246d2b83b041c4d07d81e36d58c4e9e93f4efb",
+  "commit_message": "effect_car: remove unused types duplicated in the render block",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99982,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

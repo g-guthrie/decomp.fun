@@ -633,5 +633,19 @@
    "matched_data_percent": 88.31922528699162,
    "complete_data_percent": 75.20426154888314
   }
+ },
+ {
+  "timestamp": "2026-11-19T17:55:35Z",
+  "commit_sha": "3c6c3b29764a54b3f51ecce784233e5ff26532dd",
+  "commit_message": "small `GamePadUtil`/`ScenarioProgressTestRun` fixes",
+  "source": "report",
+  "version": "RMGK01",
+  "measures": {
+   "fuzzy_match_percent": 99.99983,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 68.78540320304313,
+   "matched_data_percent": 88.31922528699162,
+   "complete_data_percent": 75.20426154888314
+  }
  }
 ]
