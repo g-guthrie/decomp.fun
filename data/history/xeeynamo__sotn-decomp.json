@@ -1291,5 +1291,19 @@
    "matched_data_percent": 75.73580945365688,
    "complete_data_percent": 24.230640449394578
   }
+ },
+ {
+  "timestamp": "2026-11-19T01:32:01Z",
+  "commit_sha": "396086ffbb40b230ffe74863fb9b53f5f2e5fb07",
+  "commit_message": "Decompile some `lib/cdc` functions (#3869)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 83.14979,
+   "matched_code_percent": 83.11427951198962,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 75.73580945365688,
+   "complete_data_percent": 24.230640449394578
+  }
  }
 ]

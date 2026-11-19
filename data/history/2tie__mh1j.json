@@ -268,5 +268,19 @@
    "matched_data_percent": 0.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-19T02:00:50Z",
+  "commit_sha": "1790be2290a229e7a295e4d07e0dda1c0434c910",
+  "commit_message": "plahi: more matches, another struct",
+  "source": "report",
+  "version": "SLPM_654.95",
+  "measures": {
+   "fuzzy_match_percent": 1.1814723483595464,
+   "matched_code_percent": 1.1814723483595464,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]
