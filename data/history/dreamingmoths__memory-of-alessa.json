@@ -1705,5 +1705,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-19T01:16:18Z",
+  "commit_sha": "f22e843a523c14f95e459381914444d814a9383c",
+  "commit_message": "sh2: match `sh2shd/sh2shd_outdoor` \ud83d\udc65 (#521)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 8.128407,
+   "matched_code_percent": 7.014000076156353,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
