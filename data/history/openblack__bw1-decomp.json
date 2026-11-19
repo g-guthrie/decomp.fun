@@ -2457,5 +2457,19 @@
    "matched_data_percent": 34.79400855415131,
    "complete_data_percent": 13.141429237757604
   }
+ },
+ {
+  "timestamp": "2026-11-19T19:43:15Z",
+  "commit_sha": "8612710c411aa4e44eb88cff3c6aebe753d3ff74",
+  "commit_message": "AnimalTiger: Set to Matching in every version (#835)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 70.32687,
+   "matched_code_percent": 56.87214226197141,
+   "complete_code_percent": 28.797192417705688,
+   "matched_data_percent": 34.79393766603734,
+   "complete_data_percent": 13.183881535343389
+  }
  }
 ]
