@@ -3476,5 +3476,19 @@
    "matched_data_percent": 0.6491009360407378,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-19T14:42:53Z",
+  "commit_sha": "ccdcc6c5efa010ea3ee0c5940c5cbe3c88227035",
+  "commit_message": "Type D_00391230, DDS1's profile requirement rows, s32",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.02209,
+   "matched_code_percent": 95.022090257034,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.6491009360407378,
+   "complete_data_percent": 0.0
+  }
  }
 ]

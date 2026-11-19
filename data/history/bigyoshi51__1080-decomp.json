@@ -3689,5 +3689,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-19T15:01:00Z",
+  "commit_sha": "5f0f5b98858a78f33c2bdd51d696d32d7f5584cb",
+  "commit_message": "port: no weak undefined hook in the wasm host (Mach-O links no weak undefined symbol)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

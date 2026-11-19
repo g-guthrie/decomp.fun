@@ -2387,5 +2387,19 @@
    "matched_data_percent": 34.79294351678378,
    "complete_data_percent": 12.560862543385474
   }
+ },
+ {
+  "timestamp": "2026-11-19T14:34:11Z",
+  "commit_sha": "c8f3d07d4e3a998e230f7bf3b865d70d1943bc60",
+  "commit_message": "Arena: Set to Matching in every version (#830)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 70.09874,
+   "matched_code_percent": 56.63257152293119,
+   "complete_code_percent": 28.535908089261074,
+   "matched_data_percent": 34.792903612664375,
+   "complete_data_percent": 12.626568170673302
+  }
  }
 ]
