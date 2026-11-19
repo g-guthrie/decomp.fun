@@ -2194,5 +2194,19 @@
    "matched_data_percent": 26.632307574720247,
    "complete_data_percent": 26.632307574720247
   }
+ },
+ {
+  "timestamp": "2026-11-18T23:57:01Z",
+  "commit_sha": "9377cce6c8b5caaf090d25ca3fa3b03f8ad3ab3b",
+  "commit_message": "hamnavlist matched and a hamdirector function (#375)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.84595,
+   "matched_code_percent": 54.27892626642789,
+   "complete_code_percent": 35.38116951954633,
+   "matched_data_percent": 27.00942550904416,
+   "complete_data_percent": 27.00942550904416
+  }
  }
 ]

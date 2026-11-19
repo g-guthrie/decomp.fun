@@ -3661,5 +3661,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-18T19:03:14Z",
+  "commit_sha": "82978df50dcc5bcbf27dec07a32208e4e27c945b",
+  "commit_message": "port: n64ref --log-steps also logs VI_ORIGIN (the framebuffer scanned out)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
