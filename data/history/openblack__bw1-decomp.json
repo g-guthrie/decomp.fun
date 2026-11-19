@@ -2331,5 +2331,19 @@
    "matched_data_percent": 34.7933599207141,
    "complete_data_percent": 12.432633282733352
   }
+ },
+ {
+  "timestamp": "2026-11-19T01:42:21Z",
+  "commit_sha": "aa5a8ec48c27446c088ee9dfde8b1e1b527b5425",
+  "commit_message": "GameStatsFrontEnd: Decompile StatsBox, EndGameBox and MultiplayerConditionBox in every version (#818)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 69.98592,
+   "matched_code_percent": 56.51737533374318,
+   "complete_code_percent": 28.38009454799306,
+   "matched_data_percent": 34.7931384574989,
+   "complete_data_percent": 12.432626950136779
+  }
  }
 ]
