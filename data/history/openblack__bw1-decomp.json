@@ -2345,5 +2345,19 @@
    "matched_data_percent": 34.7931384574989,
    "complete_data_percent": 12.432626950136779
   }
+ },
+ {
+  "timestamp": "2026-11-19T04:14:45Z",
+  "commit_sha": "a80247898311a9d31cc0d6d395ff91cd9044f1bf",
+  "commit_message": "AnimalLeopard: Set to Matching in every version (#823)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 69.98604,
+   "matched_code_percent": 56.517489214973025,
+   "complete_code_percent": 28.384118351447725,
+   "matched_data_percent": 34.793085291632686,
+   "complete_data_percent": 12.475699133401205
+  }
  }
 ]
