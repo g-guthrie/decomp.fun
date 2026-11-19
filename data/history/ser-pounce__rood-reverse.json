@@ -1041,5 +1041,19 @@
    "matched_data_percent": 70.06211639429121,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-11-19T07:42:35Z",
+  "commit_sha": "96f420a07c98a41ec0c85fa37c742fc95bb364c5",
+  "commit_message": "Decomp SetVideoMode (#359)",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 96.052155,
+   "matched_code_percent": 96.05215152927823,
+   "complete_code_percent": 75.03834174487032,
+   "matched_data_percent": 70.06211639429121,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]
