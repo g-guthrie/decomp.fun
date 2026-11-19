@@ -1410,5 +1410,19 @@
    "matched_data_percent": 11.1358575918346,
    "complete_data_percent": 2.4254096237575613
   }
+ },
+ {
+  "timestamp": "2026-11-19T18:25:08Z",
+  "commit_sha": "7c4c9dbff5fa1e17b70160eb41f6cbfad68183e4",
+  "commit_message": "Move `SledRopePoint` from Petari",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 23.191708,
+   "matched_code_percent": 20.256170584726107,
+   "complete_code_percent": 2.781699913546415,
+   "matched_data_percent": 11.176971206960653,
+   "complete_data_percent": 2.47686037640102
+  }
  }
 ]
