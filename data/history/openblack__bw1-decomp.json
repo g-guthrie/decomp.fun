@@ -2429,5 +2429,19 @@
    "matched_data_percent": 34.79375388294012,
    "complete_data_percent": 13.129969033254074
   }
+ },
+ {
+  "timestamp": "2026-11-19T18:51:59Z",
+  "commit_sha": "695afb93fc6eb919e57a751d16b1c46c2e61295a",
+  "commit_message": "AudioAnalyse: Set to Matching in every version (#833)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 70.319405,
+   "matched_code_percent": 56.85948232828897,
+   "complete_code_percent": 28.77614314266246,
+   "matched_data_percent": 34.79405948839355,
+   "complete_data_percent": 13.130274638707503
+  }
  }
 ]
