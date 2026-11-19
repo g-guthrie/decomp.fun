@@ -3097,5 +3097,19 @@
    "matched_data_percent": 51.82132172232608,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-19T14:21:47Z",
+  "commit_sha": "1d63e7bfe97af8083cf1477c7f257f386181d352",
+  "commit_message": "Maps: BGM flag demagicking, world object macro doc fixups, add `Q7_TO_Q12`",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.82132172232608,
+   "complete_data_percent": 0.0
+  }
  }
 ]
