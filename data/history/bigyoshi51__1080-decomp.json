@@ -3717,5 +3717,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-19T23:05:54Z",
+  "commit_sha": "79c59c6976d4d689fcbc8a8fb64780786b14f711",
+  "commit_message": "port: LUS depth read-back rows for the framebuffer path; screen-linear shade without noperspective (plan 32)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

@@ -1438,5 +1438,19 @@
    "matched_data_percent": 11.213802759988159,
    "complete_data_percent": 2.5187123814177714
   }
+ },
+ {
+  "timestamp": "2026-11-19T22:23:16Z",
+  "commit_sha": "befdddaf0f9d3aa791f27ca1eab7d251e3a32d0e",
+  "commit_message": "Move `SphereAccelSensorController` from Petari",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 23.344517,
+   "matched_code_percent": 20.408979688192865,
+   "complete_code_percent": 2.934509017013172,
+   "matched_data_percent": 11.22085073792329,
+   "complete_data_percent": 2.5309288765053304
+  }
  }
 ]
