@@ -1396,5 +1396,19 @@
    "matched_data_percent": 11.1358575918346,
    "complete_data_percent": 2.4254096237575613
   }
+ },
+ {
+  "timestamp": "2026-11-19T15:54:15Z",
+  "commit_sha": "4b2a52616938a4805dade352803da14354b27b4f",
+  "commit_message": "More Ride symbols (#65)",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 22.984346,
+   "matched_code_percent": 20.04880958837247,
+   "complete_code_percent": 2.5743389171927786,
+   "matched_data_percent": 11.1358575918346,
+   "complete_data_percent": 2.4254096237575613
+  }
  }
 ]

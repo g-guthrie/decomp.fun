@@ -382,5 +382,19 @@
    "matched_data_percent": 99.9723657079693,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-19T15:38:39Z",
+  "commit_sha": "2a2ab38b77282c3a89f259a9a99bff17364e8026",
+  "commit_message": "more gamecube progress (#440)",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 98.852264,
+   "matched_code_percent": 98.85226643023385,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 99.9723657079693,
+   "complete_data_percent": 0.0
+  }
  }
 ]

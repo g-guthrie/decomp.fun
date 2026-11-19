@@ -2401,5 +2401,19 @@
    "matched_data_percent": 34.792903612664375,
    "complete_data_percent": 12.626568170673302
   }
+ },
+ {
+  "timestamp": "2026-11-19T15:15:57Z",
+  "commit_sha": "ec46468139596e85b75af3bd00e40cd169ead51e",
+  "commit_message": "AnimalLion: Set to Matching in every version (#825)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 70.11028,
+   "matched_code_percent": 56.644111612404835,
+   "complete_code_percent": 28.55357885126761,
+   "matched_data_percent": 34.794090602961575,
+   "complete_data_percent": 12.710037338980976
+  }
  }
 ]

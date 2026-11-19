@@ -3019,5 +3019,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-19T16:07:14Z",
+  "commit_sha": "f6523148e9cc0bbb1ccc77f13449fd52aded4487",
+  "commit_message": "bg_for: share matrix angle results and document pool probes",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99982,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
