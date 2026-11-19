@@ -2471,5 +2471,19 @@
    "matched_data_percent": 34.79393766603734,
    "complete_data_percent": 13.183881535343389
   }
+ },
+ {
+  "timestamp": "2026-11-19T20:44:33Z",
+  "commit_sha": "31201d8ddfa9bd2dca77d83ed0bc917655adb508",
+  "commit_message": "Animal: Remove source files without splits (#836)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 70.32687,
+   "matched_code_percent": 56.87214226197141,
+   "complete_code_percent": 28.797192417705688,
+   "matched_data_percent": 34.79393766603734,
+   "complete_data_percent": 13.183881535343389
+  }
  }
 ]

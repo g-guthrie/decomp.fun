@@ -110,5 +110,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-19T21:13:49Z",
+  "commit_sha": "e485fef78db990ffd15615cdf07992bb2adb90b8",
+  "commit_message": "Fix Layer::getDefaultLayers mismatch (#127)",
+  "source": "report",
+  "version": "1.12.1920.0",
+  "measures": {
+   "fuzzy_match_percent": 11.486064,
+   "matched_code_percent": 9.487616782000178,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

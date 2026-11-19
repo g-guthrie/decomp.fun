@@ -3703,5 +3703,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-19T20:44:14Z",
+  "commit_sha": "c671558efab7bfa53fd035d65cf5e5ecfce757f6",
+  "commit_message": "port: GLES noperspective emulated by default (LUS patch 20), checks updated (plan 31)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
