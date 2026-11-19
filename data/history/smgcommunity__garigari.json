@@ -1424,5 +1424,19 @@
    "matched_data_percent": 11.176971206960653,
    "complete_data_percent": 2.47686037640102
   }
+ },
+ {
+  "timestamp": "2026-11-19T21:38:31Z",
+  "commit_sha": "b07ae2dc717b5ee6f1c363b659f5e56f1b07e9d7",
+  "commit_message": "move `Creeper` from Petari",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 23.308086,
+   "matched_code_percent": 20.372547956218117,
+   "complete_code_percent": 2.8980772850384255,
+   "matched_data_percent": 11.213802759988159,
+   "complete_data_percent": 2.5187123814177714
+  }
  }
 ]

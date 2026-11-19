@@ -3103,5 +3103,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-19T21:45:54Z",
+  "commit_sha": "e099b7c313457efbaac1864807aa506a828e85db",
+  "commit_message": "bg_cas: consolidate 17-function fn_1_FE5E0..fn_1_10069C TU primer-free with native rodata",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99982,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

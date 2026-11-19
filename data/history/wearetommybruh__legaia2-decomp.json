@@ -824,5 +824,19 @@
    "matched_data_percent": 0.1129994576026035,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-19T21:55:48Z",
+  "commit_sha": "42f59fe7e5c2db446e1a85f5a0285c9ee0b26a86",
+  "commit_message": "Match five more Battle functions",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 21.385124,
+   "matched_code_percent": 21.22748995157768,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.11525684196253022,
+   "complete_data_percent": 0.0
+  }
  }
 ]
