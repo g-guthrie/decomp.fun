@@ -2222,5 +2222,19 @@
    "matched_data_percent": 27.00942550904416,
    "complete_data_percent": 27.00942550904416
   }
+ },
+ {
+  "timestamp": "2026-11-19T02:31:08Z",
+  "commit_sha": "38d192c2e89e097d4cc0100408b8624506bff815",
+  "commit_message": "match propanim foreachkeyframe",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.873466,
+   "matched_code_percent": 54.31169601470707,
+   "complete_code_percent": 35.38116951954633,
+   "matched_data_percent": 27.00942550904416,
+   "complete_data_percent": 27.00942550904416
+  }
  }
 ]
