@@ -2334,5 +2334,19 @@
    "matched_data_percent": 27.460698586986748,
    "complete_data_percent": 27.460698586986748
   }
+ },
+ {
+  "timestamp": "2026-11-20T04:38:30Z",
+  "commit_sha": "cb7cf63d1ad6871e71a1076cdddc9531042d7038",
+  "commit_message": "some improvement to PlatformMgr::UpdateSigninState (#378)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.89595,
+   "matched_code_percent": 54.41731291341085,
+   "complete_code_percent": 36.06992408887811,
+   "matched_data_percent": 27.460698586986748,
+   "complete_data_percent": 27.460698586986748
+  }
  }
 ]
