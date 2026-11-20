@@ -852,5 +852,19 @@
    "matched_data_percent": 0.11525684196253022,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-20T20:05:44Z",
+  "commit_sha": "919249479c61b68d8afbaee909928ea3111196df",
+  "commit_message": "Match BatPlayerRevive",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 21.410854,
+   "matched_code_percent": 21.410853878532773,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.11525684196253022,
+   "complete_data_percent": 0.0
+  }
  }
 ]

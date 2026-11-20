@@ -3257,5 +3257,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-20T20:01:57Z",
+  "commit_sha": "749cef7eaac13c51c8b1acccf48ee290df66fffd",
+  "commit_message": "rels: drop 128 redundant volatile qualifiers (steering that no longer changes any object)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
