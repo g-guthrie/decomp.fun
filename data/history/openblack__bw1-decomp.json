@@ -2569,5 +2569,19 @@
    "matched_data_percent": 34.86186348965872,
    "complete_data_percent": 13.369106251321874
   }
+ },
+ {
+  "timestamp": "2026-11-20T20:48:57Z",
+  "commit_sha": "2c2945e72fbc2d3305737b7ea25049cb71e07591",
+  "commit_message": "audiotag: Set to Matching in every version (#841)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 70.70294,
+   "matched_code_percent": 57.36557085587051,
+   "complete_code_percent": 30.118539954017436,
+   "matched_data_percent": 34.862049466023194,
+   "complete_data_percent": 13.488283019230703
+  }
  }
 ]
