@@ -598,5 +598,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-20T17:58:12Z",
+  "commit_sha": "2c1d46efc90d0826ce8ca9f41437a32412eed4ba",
+  "commit_message": "names: correct the three mislabels from issue 53",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 57.024273,
+   "matched_code_percent": 57.02427356984504,
+   "complete_code_percent": 55.683529736956416,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -2541,5 +2541,19 @@
    "matched_data_percent": 34.856946545270304,
    "complete_data_percent": 13.352738109502479
   }
+ },
+ {
+  "timestamp": "2026-11-20T19:03:52Z",
+  "commit_sha": "ae6cf82939b25d34a71fa2b26bba61a0c5c74427",
+  "commit_message": "UniverseRoom: Set to Matching in every version (#846)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 70.46593,
+   "matched_code_percent": 57.12368420603096,
+   "complete_code_percent": 29.856695922455113,
+   "matched_data_percent": 34.86086608292836,
+   "complete_data_percent": 13.358727838434412
+  }
  }
 ]

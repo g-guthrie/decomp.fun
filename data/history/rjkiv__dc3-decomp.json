@@ -2376,5 +2376,19 @@
    "matched_data_percent": 27.624132620620006,
    "complete_data_percent": 27.624132620620006
   }
+ },
+ {
+  "timestamp": "2026-11-20T18:55:55Z",
+  "commit_sha": "2db960fd3cee47613532ad0320325fa3b945ad87",
+  "commit_message": "cursorpanel improvements",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.897533,
+   "matched_code_percent": 54.46541890388469,
+   "complete_code_percent": 36.23908152949523,
+   "matched_data_percent": 27.624132620620006,
+   "complete_data_percent": 27.624132620620006
+  }
  }
 ]
