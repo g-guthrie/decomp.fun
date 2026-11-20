@@ -2390,5 +2390,19 @@
    "matched_data_percent": 27.624132620620006,
    "complete_data_percent": 27.624132620620006
   }
+ },
+ {
+  "timestamp": "2026-11-20T23:09:07Z",
+  "commit_sha": "263a0036e8a9ec5f4f40cd0313560853767372e2",
+  "commit_message": "match PlatformMgr::UpdateSigninState(void) (#379)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.89829,
+   "matched_code_percent": 54.468204332488426,
+   "complete_code_percent": 36.23908152949523,
+   "matched_data_percent": 27.624132620620006,
+   "complete_data_percent": 27.624132620620006
+  }
  }
 ]

@@ -1305,5 +1305,19 @@
    "matched_data_percent": 75.73580945365688,
    "complete_data_percent": 24.230640449394578
   }
+ },
+ {
+  "timestamp": "2026-11-20T22:30:20Z",
+  "commit_sha": "32a9a3fcf20f9d936da101053202c8645d922d57",
+  "commit_message": "RBO6 cutscene conclusion entities (#3870)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 83.20698,
+   "matched_code_percent": 83.1714881307083,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 75.73642771034616,
+   "complete_data_percent": 24.23039702081266
+  }
  }
 ]
