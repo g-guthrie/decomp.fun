@@ -2292,5 +2292,19 @@
    "matched_data_percent": 27.1272443720962,
    "complete_data_percent": 27.1272443720962
   }
+ },
+ {
+  "timestamp": "2026-11-20T00:56:02Z",
+  "commit_sha": "bc64b973c9e8ad4f81247df6c5508a7f8e5670e4",
+  "commit_message": "match playlistsongprovider",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.895256,
+   "matched_code_percent": 54.35049539666961,
+   "complete_code_percent": 35.621830550908626,
+   "matched_data_percent": 27.150173923083553,
+   "complete_data_percent": 27.150173923083553
+  }
  }
 ]
