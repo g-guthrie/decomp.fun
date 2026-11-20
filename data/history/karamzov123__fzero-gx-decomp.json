@@ -3173,5 +3173,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-20T10:44:27Z",
+  "commit_sha": "949090a03806a6100372064007b775e64973f074",
+  "commit_message": "dol: cross-compiler consolidate 107 runs (retire 184 units & files -> 8502 units)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
