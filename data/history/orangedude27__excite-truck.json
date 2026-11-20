@@ -4399,5 +4399,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-20T15:15:24Z",
+  "commit_sha": "32393111ce5a62999ce6dca833a09dd02f41b6ea",
+  "commit_message": "Add pair and word union types for explicit double/word copies of vertex fields",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 87.99337,
+   "matched_code_percent": 47.908555272444495,
+   "complete_code_percent": 3.320529952436467,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]

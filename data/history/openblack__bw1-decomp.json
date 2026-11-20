@@ -2499,5 +2499,19 @@
    "matched_data_percent": 34.79426985411051,
    "complete_data_percent": 13.183993476350562
   }
+ },
+ {
+  "timestamp": "2026-11-20T14:21:36Z",
+  "commit_sha": "5965e161ebbdc2787001e4b7574c9867c7f167c1",
+  "commit_message": "config: refactor in a way that avoids conflicts (#839)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 70.33396,
+   "matched_code_percent": 56.8786607273178,
+   "complete_code_percent": 28.797205932288154,
+   "matched_data_percent": 34.796205352850976,
+   "complete_data_percent": 13.183993476350562
+  }
  }
 ]

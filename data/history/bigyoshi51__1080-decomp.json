@@ -3745,5 +3745,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-20T14:40:14Z",
+  "commit_sha": "b712ca8337f06e204dba465cad3cae99f4506e8b",
+  "commit_message": "port: the depth grid follows the frames with depth requests (+2), not 60 frames after a read (plan 33)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
