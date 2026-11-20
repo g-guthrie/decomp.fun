@@ -866,5 +866,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-20T22:10:07Z",
+  "commit_sha": "5db075bb490639163c55f023ebf69ae2f68c56c9",
+  "commit_message": "Refactor field render effect sprit frames (#1157)",
+  "source": "report",
+  "version": "SLPS_021.70",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
