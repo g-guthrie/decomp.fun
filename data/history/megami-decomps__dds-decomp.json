@@ -3490,5 +3490,19 @@
    "matched_data_percent": 0.6491009360407378,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-20T17:43:49Z",
+  "commit_sha": "e7149122a6c6c5cc86e3b9cb950669374a7de1f7",
+  "commit_message": "Name the poseset rotation field rot",
+  "source": "report",
+  "version": "dds1",
+  "measures": {
+   "fuzzy_match_percent": 95.02209,
+   "matched_code_percent": 95.022090257034,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.6491009360407378,
+   "complete_data_percent": 0.0
+  }
  }
 ]

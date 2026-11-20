@@ -3773,5 +3773,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-20T17:29:25Z",
+  "commit_sha": "0a733bf05abcf3df52b52d1243f85c99ee39e1ea",
+  "commit_message": "port gate: modes-check matchlose: a lost Match Race against the N64's map markers, and a CPU-pin freeze detector (plan 35)",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
