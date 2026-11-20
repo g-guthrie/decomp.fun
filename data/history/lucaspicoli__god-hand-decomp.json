@@ -584,5 +584,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-20T16:16:41Z",
+  "commit_sha": "0317e6803725e27356bed0653572d48bda2324e5",
+  "commit_message": "cleanup: the cDamageUnit head holds the vtable at 0x50",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 57.024273,
+   "matched_code_percent": 57.02427356984504,
+   "complete_code_percent": 55.683529736956416,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]

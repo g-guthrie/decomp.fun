@@ -3187,5 +3187,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-20T16:08:54Z",
+  "commit_sha": "b1a7d65d4712304fb8f25f7e7769b533df018abb",
+  "commit_message": "dol, movie_module, multi-ver: consolidate 143 cross-profile runs (-208 units -> 8294) and fix GFZJ01/GFZP01 matching_for",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000015,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

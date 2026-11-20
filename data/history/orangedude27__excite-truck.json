@@ -4413,5 +4413,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-20T16:16:42Z",
+  "commit_sha": "62b06b326efbadd29d8d6b3e19f41850ab2ca3aa",
+  "commit_message": "Restore volatile B8 declaration after rejected experiment",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 88.0029,
+   "matched_code_percent": 47.908555272444495,
+   "complete_code_percent": 3.320529952436467,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]

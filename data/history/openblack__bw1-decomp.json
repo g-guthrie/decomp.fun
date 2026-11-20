@@ -2513,5 +2513,19 @@
    "matched_data_percent": 34.796205352850976,
    "complete_data_percent": 13.183993476350562
   }
+ },
+ {
+  "timestamp": "2026-11-20T15:49:55Z",
+  "commit_sha": "e4aa545b563bf62bba9a162c7c8dd6208b86a3a6",
+  "commit_message": "alexmfc: Set to Matching in every version (#840)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 70.36345,
+   "matched_code_percent": 57.04124689124663,
+   "complete_code_percent": 29.74480273758202,
+   "matched_data_percent": 34.79576227946896,
+   "complete_data_percent": 13.22421588787391
+  }
  }
 ]

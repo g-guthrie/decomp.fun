@@ -2348,5 +2348,19 @@
    "matched_data_percent": 27.460698586986748,
    "complete_data_percent": 27.460698586986748
   }
+ },
+ {
+  "timestamp": "2026-11-20T15:19:44Z",
+  "commit_sha": "967ff44d1d2d553780df599f7371652c528795bf",
+  "commit_message": "kinectsharepanel matched (#377)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.89618,
+   "matched_code_percent": 54.45031204992799,
+   "complete_code_percent": 36.152667703283036,
+   "matched_data_percent": 27.549164372356394,
+   "complete_data_percent": 27.549164372356394
+  }
  }
 ]
