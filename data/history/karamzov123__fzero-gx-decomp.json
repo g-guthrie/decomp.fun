@@ -3215,5 +3215,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-20T17:55:52Z",
+  "commit_sha": "801a08223b1e5d0f1394c5878f87306670d2a7d0",
+  "commit_message": "main_rel: replace two __fzgx_pN parameter copies with natural signatures (font, spline)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00004,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
