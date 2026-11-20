@@ -2485,5 +2485,19 @@
    "matched_data_percent": 34.79393766603734,
    "complete_data_percent": 13.183881535343389
   }
+ },
+ {
+  "timestamp": "2026-11-20T03:03:06Z",
+  "commit_sha": "4a45bbecded1233ffa3025bf0809456ce049cab6",
+  "commit_message": "Eliminate gaps in splits (#838)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 70.32694,
+   "matched_code_percent": 56.87221818361269,
+   "complete_code_percent": 28.797192417705688,
+   "matched_data_percent": 34.79426985411051,
+   "complete_data_percent": 13.183993476350562
+  }
  }
 ]
