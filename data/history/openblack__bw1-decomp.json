@@ -2527,5 +2527,19 @@
    "matched_data_percent": 34.79576227946896,
    "complete_data_percent": 13.22421588787391
   }
+ },
+ {
+  "timestamp": "2026-11-20T16:35:23Z",
+  "commit_sha": "c7e60aac24ada45860f7a319cd1edac7e5671ead",
+  "commit_message": "AnimatedStatic: Set to Matching in every version (#829)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 70.44913,
+   "matched_code_percent": 57.10688653333427,
+   "complete_code_percent": 29.839195974176757,
+   "matched_data_percent": 34.856946545270304,
+   "complete_data_percent": 13.352738109502479
+  }
  }
 ]

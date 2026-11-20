@@ -3201,5 +3201,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-20T17:11:44Z",
+  "commit_sha": "38b13be333fdcbf0d8be8006945e75ce27b51c16",
+  "commit_message": "rels: retire 36 noprologue blocks + 17 multi-primer REL merges (7901 units, 1216 mwcc_pool, -3 primers; 3-ver OK)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00004,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
