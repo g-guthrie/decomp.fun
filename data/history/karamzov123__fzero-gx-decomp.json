@@ -3159,5 +3159,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-20T10:08:43Z",
+  "commit_sha": "e17b05a97fc977050b901a43d47c556bb05507af",
+  "commit_message": "dol, rels: greedy-bisect consolidate 14 SDK (-26) and 33 REL (-90) subruns (8903 units)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000015,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
