@@ -1452,5 +1452,19 @@
    "matched_data_percent": 11.22085073792329,
    "complete_data_percent": 2.5309288765053304
   }
+ },
+ {
+  "timestamp": "2026-11-20T01:58:39Z",
+  "commit_sha": "93fd14c7dbcfae061428566ce5509a7e6326c441",
+  "commit_message": "Move `Plant` from Petari",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 23.597319,
+   "matched_code_percent": 20.66546928983644,
+   "complete_code_percent": 3.1282798926827087,
+   "matched_data_percent": 11.273005774643256,
+   "complete_data_percent": 2.6082217011939273
+  }
  }
 ]
