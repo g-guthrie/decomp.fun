@@ -3731,5 +3731,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-20T12:55:32Z",
+  "commit_sha": "fae812aa9118a4a33ee7c91e9c9770da12af776f",
+  "commit_message": "port: macOS launcher validates the ROM (header magic, regular file); a wrong dialog pick asks again; README: Sequoia's Open Anyway",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
