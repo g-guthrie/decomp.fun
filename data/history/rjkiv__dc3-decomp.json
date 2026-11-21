@@ -2404,5 +2404,19 @@
    "matched_data_percent": 27.624132620620006,
    "complete_data_percent": 27.624132620620006
   }
+ },
+ {
+  "timestamp": "2026-11-21T07:20:29Z",
+  "commit_sha": "4d3ddd4f73e1fd1b6508029b37567cf10c39551a",
+  "commit_message": "hamdirector matched (#380)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.91403,
+   "matched_code_percent": 54.50294026566434,
+   "complete_code_percent": 37.048035535515034,
+   "matched_data_percent": 28.196639601123387,
+   "complete_data_percent": 28.196639601123387
+  }
  }
 ]
