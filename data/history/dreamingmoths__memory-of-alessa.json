@@ -1789,5 +1789,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-21T09:14:57Z",
+  "commit_sha": "d3a1b988f29def7cf00b6fa22b8877cb11462a7f",
+  "commit_message": "sh2: match `taskman/shtskman` \ud83d\udd03 (#527)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 8.128407,
+   "matched_code_percent": 7.014000076156353,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
