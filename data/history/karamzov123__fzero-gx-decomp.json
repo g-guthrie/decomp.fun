@@ -3355,5 +3355,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-21T17:34:54Z",
+  "commit_sha": "91cbddb7fb0590485558523c9414a28b27e8bce1",
+  "commit_message": "dol: GX units share GXPriv.h and dolphin/gx.h; 13 merges retire 42 units (7750 -> 7708)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

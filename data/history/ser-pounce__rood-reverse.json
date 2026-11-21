@@ -1111,5 +1111,19 @@
    "matched_data_percent": 70.06211639429121,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-11-21T18:17:11Z",
+  "commit_sha": "f6bf8402ca78ae7cadd511d54defad64111a3fd6",
+  "commit_message": "review: merge cdk rules, drop the D_80039DB4 alias",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 96.08154,
+   "matched_code_percent": 96.08154123679998,
+   "complete_code_percent": 75.03834174487032,
+   "matched_data_percent": 70.06211639429121,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]
