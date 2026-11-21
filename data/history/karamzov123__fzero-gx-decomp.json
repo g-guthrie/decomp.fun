@@ -3425,5 +3425,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-21T22:44:45Z",
+  "commit_sha": "a87c92c32591bd0e25827f80ce3c30fe6fe186fd",
+  "commit_message": "Collapse dol/pad/Pad.c (14->1; 100% of pad) and rel/sample (4->1; 100% of sample.rel)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
