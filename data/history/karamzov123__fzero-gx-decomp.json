@@ -3369,5 +3369,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-21T19:11:01Z",
+  "commit_sha": "cad74f099c01c90f6910efd14a143298d1c3e007",
+  "commit_message": "dol: GXFifo, GXFrameBuf, GXPixel and GXTev are single translation units (7699 -> 7683)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

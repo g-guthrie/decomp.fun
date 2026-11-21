@@ -866,5 +866,19 @@
    "matched_data_percent": 0.11525684196253022,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-21T19:15:19Z",
+  "commit_sha": "b02bcacbcb78edfef368bc9c1fa6df66391fc022",
+  "commit_message": "Match Battle transition and packet routines",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 21.734049,
+   "matched_code_percent": 21.576415482482513,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.11525684196253022,
+   "complete_data_percent": 0.0
+  }
  }
 ]
