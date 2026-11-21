@@ -1,10 +1,10 @@
 {
  "repo": "cdlewis/snowboardkidsplus-decomp",
  "by": "cdlewis",
- "submitted_at": "2026-11-07T16:55:54+00:00",
+ "submitted_at": "2026-11-21T04:15:35+00:00",
  "status": "rejected",
  "reasons": [
-  "Only 29% of the files the report counts as decompiled exist in the repository; at least half must."
+  "Only 31% of the files the report counts as decompiled exist in the repository; at least half must."
  ],
  "repo_meta": {
   "id": 1440917806,
@@ -12,7 +12,7 @@
   "fork": false,
   "parent": null
  },
- "source_proof": 0.28921568627450983,
+ "source_proof": 0.30787589498806683,
  "game": {
   "platform": "ps",
   "key": "snobow-kids-plus",
