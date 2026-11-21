@@ -3341,5 +3341,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-21T02:23:56Z",
+  "commit_sha": "6d865dbce35710ece556c22b41a72302356f43ea",
+  "commit_message": "dol: OSRtc.c is one natural translation unit (9 units -> 1, SramControlBlock)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

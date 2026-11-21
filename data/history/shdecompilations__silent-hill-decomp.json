@@ -3209,5 +3209,19 @@
    "matched_data_percent": 51.82132172232608,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-21T03:14:42Z",
+  "commit_sha": "f4bc4b288b004d1084745b2103ed7cc559deec05",
+  "commit_message": "bodyprog: lighting.c deobfuscation",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 100.00001,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.82132172232608,
+   "complete_data_percent": 0.0
+  }
  }
 ]
