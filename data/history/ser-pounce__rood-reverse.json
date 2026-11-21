@@ -1083,5 +1083,19 @@
    "matched_data_percent": 70.06211639429121,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-11-21T14:23:04Z",
+  "commit_sha": "f46b54e061d2ad39588cbaaa04cbe9f99be44e8c",
+  "commit_message": "Decomp SpuSetIRQCallback",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 96.070564,
+   "matched_code_percent": 96.07056232307059,
+   "complete_code_percent": 75.03834174487032,
+   "matched_data_percent": 70.06211639429121,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]

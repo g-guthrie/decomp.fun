@@ -324,5 +324,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-21T15:19:48Z",
+  "commit_sha": "5f40e530e3c2d2fc36af05da8b611f1ffed2b3a8",
+  "commit_message": "decompiled (jp) and revisited (us,eu) ingame/menu/ig_map.c",
+  "source": "report",
+  "version": "SLUS_203.88",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
