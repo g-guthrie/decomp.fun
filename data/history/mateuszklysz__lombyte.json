@@ -677,5 +677,19 @@
    "matched_data_percent": 77.18022110172525,
    "complete_data_percent": 77.18022110172525
   }
+ },
+ {
+  "timestamp": "2026-11-21T13:51:22Z",
+  "commit_sha": "1901ffd94eba6f53f2de2a7c6101bb44f2b5f25e",
+  "commit_message": "decomp: name libmpeg and SDK fields, define the Hoven colour tables (#282)",
+  "source": "report",
+  "version": "SCUS_971.99",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 77.19141677736337,
+   "complete_data_percent": 77.19141677736337
+  }
  }
 ]
