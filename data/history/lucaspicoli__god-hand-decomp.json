@@ -626,5 +626,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-21T03:11:33Z",
+  "commit_sha": "75cb123af58982e70088c9c3ff03db9c258f7b77",
+  "commit_message": "names: D_003BD6E8 is Cockpit",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 57.91091,
+   "matched_code_percent": 57.910910413998906,
+   "complete_code_percent": 56.57016658111028,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]
