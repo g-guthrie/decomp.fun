@@ -4749,5 +4749,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-21T15:38:41Z",
+  "commit_sha": "8ac6c7a61defd66e1ce0f9ca8915b5654e396b76",
+  "commit_message": "Introduce name/zero/type locals in fn_802640A0",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.33498,
+   "matched_code_percent": 49.7381841929608,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
