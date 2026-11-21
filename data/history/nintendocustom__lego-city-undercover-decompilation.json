@@ -94,5 +94,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-21T12:49:15Z",
+  "commit_sha": "03ca32ec1fa0d807cba222f3fd533b831371f1af",
+  "commit_message": "Implement scalar functions (#56)",
+  "source": "report",
+  "version": "1.0.3",
+  "measures": {
+   "fuzzy_match_percent": 1.6018213,
+   "matched_code_percent": 1.573062042135894,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
