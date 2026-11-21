@@ -3411,5 +3411,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-21T22:09:59Z",
+  "commit_sha": "4a9a7e73d7c0de9bcd46a280bd378c1f66e136b7",
+  "commit_message": "Collapse OSLink, dvdfs, dvdlow, and OSInterrupt C units (14 units retired)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

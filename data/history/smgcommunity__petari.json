@@ -675,5 +675,19 @@
    "matched_data_percent": 88.3211555548585,
    "complete_data_percent": 75.24045407138735
   }
+ },
+ {
+  "timestamp": "2026-11-21T21:29:54Z",
+  "commit_sha": "6fc8ce74338f71e94a9edac6dcb23bcad789c383",
+  "commit_message": "851 Shield symbols (#2182)",
+  "source": "report",
+  "version": "RMGK01",
+  "measures": {
+   "fuzzy_match_percent": 99.99983,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 68.96976217323389,
+   "matched_data_percent": 88.3211555548585,
+   "complete_data_percent": 75.24045407138735
+  }
  }
 ]
