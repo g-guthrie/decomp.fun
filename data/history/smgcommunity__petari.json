@@ -661,5 +661,19 @@
    "matched_data_percent": 88.3211555548585,
    "complete_data_percent": 75.24045407138735
   }
+ },
+ {
+  "timestamp": "2026-11-21T20:19:32Z",
+  "commit_sha": "95cb18a49019ede497cabec0d74a1709473a931d",
+  "commit_message": "`GameDataFunction::makeGameDataComplete`",
+  "source": "report",
+  "version": "RMGK01",
+  "measures": {
+   "fuzzy_match_percent": 99.99983,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 68.96976217323389,
+   "matched_data_percent": 88.3211555548585,
+   "complete_data_percent": 75.24045407138735
+  }
  }
 ]

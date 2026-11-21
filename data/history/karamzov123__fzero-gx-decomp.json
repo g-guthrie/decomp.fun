@@ -3397,5 +3397,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-21T21:13:21Z",
+  "commit_sha": "6231f49e43dab0afd9a40e66e865a20db4cc0677",
+  "commit_message": "dol: collapse 11 whole SDK TUs across CARD, OS, SI, and AR (7643 -> 7632)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
