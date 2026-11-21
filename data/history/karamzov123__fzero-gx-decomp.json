@@ -3327,5 +3327,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-21T02:15:47Z",
+  "commit_sha": "70ba26c638f9100dccc9ff2958d58c1dc9e37f4a",
+  "commit_message": "dol: 6 more same-TU merges after the shared GX header (7764 -> 7758 units)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
