@@ -1480,5 +1480,19 @@
    "matched_data_percent": 11.27347563983893,
    "complete_data_percent": 2.6082217011939273
   }
+ },
+ {
+  "timestamp": "2026-11-22T03:39:59Z",
+  "commit_sha": "ab84bc8fedf9611a04a1b791b45399693d39fa7c",
+  "commit_message": "ExterminationCheckerWoodBox is 100% matching (#64)",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 23.65487,
+   "matched_code_percent": 20.723019941747513,
+   "complete_code_percent": 3.148186548332658,
+   "matched_data_percent": 11.291330517274593,
+   "complete_data_percent": 2.626076578629591
+  }
  }
 ]
