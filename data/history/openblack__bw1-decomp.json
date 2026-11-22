@@ -2667,5 +2667,19 @@
    "matched_data_percent": 35.28987300042745,
    "complete_data_percent": 13.597991008075264
   }
+ },
+ {
+  "timestamp": "2026-11-22T19:10:24Z",
+  "commit_sha": "963004044a41f871c357bba7e9541dd36f421f10",
+  "commit_message": "BigForest: Set to Matching in every version (#861)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 71.834366,
+   "matched_code_percent": 58.35853060412517,
+   "complete_code_percent": 30.837681994086292,
+   "matched_data_percent": 35.2898999798689,
+   "complete_data_percent": 13.647907390304907
+  }
  }
 ]
