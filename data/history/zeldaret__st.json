@@ -429,5 +429,19 @@
    "matched_data_percent": 34.11371187782486,
    "complete_data_percent": 7.278730600077534
   }
+ },
+ {
+  "timestamp": "2026-11-22T22:52:54Z",
+  "commit_sha": "a28555725465deddee67a690b99ef26eada06316",
+  "commit_message": "Decompiling ActorWhipBird (#189)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 16.043535,
+   "matched_code_percent": 11.980290008235748,
+   "complete_code_percent": 6.249228852240023,
+   "matched_data_percent": 34.15886510917724,
+   "complete_data_percent": 7.278730600077534
+  }
  }
 ]
