@@ -3523,5 +3523,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-22T13:00:48Z",
+  "commit_sha": "e8e1fbbfdeb1e2a9773fc5783d6841067df35f98",
+  "commit_message": "Collapse 11 units into 4 (7 retired, 50 fns): avdisp_mtx, UDP_Stubs, AXRNA_SetOutPan, MPV_GoNextDelimSj",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
