@@ -3537,5 +3537,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-22T14:00:31Z",
+  "commit_sha": "0cb1d9e394a578cce6e70e17ee548c3b52cb92e4",
+  "commit_message": "Collapse 4 REL TUs to 1 unit each (18->4, 14 retired, 52 fns, 0 noprologue): title/_prolog, main_rel/bitmap, som, custom_memcard",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
