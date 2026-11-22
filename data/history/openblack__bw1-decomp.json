@@ -2681,5 +2681,19 @@
    "matched_data_percent": 35.2898999798689,
    "complete_data_percent": 13.647907390304907
   }
+ },
+ {
+  "timestamp": "2026-11-22T20:27:11Z",
+  "commit_sha": "1f02bb34cc8c4ec8ba8b9aa44cd397aa22d66272",
+  "commit_message": "GameSpy: Fix match from peerRand (#862)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 71.84163,
+   "matched_code_percent": 58.365781799386006,
+   "complete_code_percent": 30.844933189347124,
+   "matched_data_percent": 35.2884379209494,
+   "complete_data_percent": 13.648046285446016
+  }
  }
 ]

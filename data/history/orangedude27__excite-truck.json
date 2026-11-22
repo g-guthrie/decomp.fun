@@ -4847,5 +4847,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-22T20:51:03Z",
+  "commit_sha": "4a086a3df4478af021334281916d86a712f40be7",
+  "commit_message": "Remove illegal register storage class on struct member in text_800D58C4.cpp",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.32661,
+   "matched_code_percent": 49.877320967951334,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]

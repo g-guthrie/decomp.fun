@@ -2474,5 +2474,19 @@
    "matched_data_percent": 28.385686431072305,
    "complete_data_percent": 28.385686431072305
   }
+ },
+ {
+  "timestamp": "2026-11-22T21:15:56Z",
+  "commit_sha": "bfa919d0fd9b217660cd4dd56067bde1436265f1",
+  "commit_message": "minigamemgr context",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.94618,
+   "matched_code_percent": 54.5680209857468,
+   "complete_code_percent": 37.33001921945737,
+   "matched_data_percent": 28.385686431072305,
+   "complete_data_percent": 28.385686431072305
+  }
  }
 ]

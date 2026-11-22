@@ -3237,5 +3237,19 @@
    "matched_data_percent": 51.82132172232608,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-22T20:52:58Z",
+  "commit_sha": "f56864cb56f7a213782c9491d6742f3b262fd5de",
+  "commit_message": "deps: update splat/spimdisasm/objdiff",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 100.00003,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.82132172232608,
+   "complete_data_percent": 0.0
+  }
  }
 ]
