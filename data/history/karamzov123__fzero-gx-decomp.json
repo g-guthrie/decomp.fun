@@ -3453,5 +3453,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-22T01:56:17Z",
+  "commit_sha": "2c83d7188fc372a4f65658d397e2b8edd7ad867c",
+  "commit_message": "Collapse dol/ax/{AXAux,AXSPB,AXVPB}.c (13 units retired, 40 fns)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

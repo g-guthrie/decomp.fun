@@ -2625,5 +2625,19 @@
    "matched_data_percent": 34.87904932978213,
    "complete_data_percent": 13.593305193830362
   }
+ },
+ {
+  "timestamp": "2026-11-22T01:19:46Z",
+  "commit_sha": "f83e92a247542f8b869b622b95a9148f60c85d77",
+  "commit_message": "Lobbybox: Decompile in every version (#857)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 71.56607,
+   "matched_code_percent": 58.03627408308275,
+   "complete_code_percent": 30.7526960505633,
+   "matched_data_percent": 34.87991518676217,
+   "complete_data_percent": 13.593305193830362
+  }
  }
 ]
