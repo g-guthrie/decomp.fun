@@ -3481,5 +3481,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-22T08:02:28Z",
+  "commit_sha": "8c297ba2f650828abf58f8eb587e63ad57fd4124",
+  "commit_message": "Consolidate 10 DOL TUs (perf, adx_sjd, game_main, THPDec, os, mtx)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

@@ -4805,5 +4805,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-22T07:18:20Z",
+  "commit_sha": "e0dc0dc355b5d766c2120ac48f2e9d59ec26d858",
+  "commit_message": "describe the pointer-array container fn_801584A8 builds, and read the count through it",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.32375,
+   "matched_code_percent": 49.80217924121281,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
