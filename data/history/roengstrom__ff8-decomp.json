@@ -690,5 +690,19 @@
    "matched_data_percent": 92.25351411123619,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-22T15:52:26Z",
+  "commit_sha": "40d64ce6733e277e27aac9698ba544321c1bb51f",
+  "commit_message": "Merge pull request #225 from roengstrom/decomp-battle-render",
+  "source": "report",
+  "version": "SLUS_008.92",
+  "measures": {
+   "fuzzy_match_percent": 73.90497,
+   "matched_code_percent": 73.90496546762962,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 92.7907138665367,
+   "complete_data_percent": 0.0
+  }
  }
 ]

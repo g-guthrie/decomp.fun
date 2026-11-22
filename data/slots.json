@@ -202,7 +202,14 @@
  "gc:nickelodeon-spongebob-squarepants-battle-for-bikini-bottom": {
   "leader": "zcanann/bfbb",
   "since": "2026-10-18T22:55:17+00:00",
-  "challengers": {},
+  "challengers": {
+   "bfbbdecomp/bfbb": {
+    "since": "2026-11-22T16:22:50+00:00",
+    "runs": 1,
+    "ahead": 1,
+    "misses": 0
+   }
+  },
   "history": []
  },
  "gc:nickelodeon-the-spongebob-squarepants-movie": {

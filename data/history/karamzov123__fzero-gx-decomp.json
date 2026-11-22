@@ -3551,5 +3551,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-22T15:59:56Z",
+  "commit_sha": "3094aa53ae361a5fc01597ef870b390399540217",
+  "commit_message": "Collapse 4 REL TUs (27->8 units, 19 retired, 65 fns, 11 noprologue retired): customize/customize (8->1), main_rel/car_test (9->2), background (7->3), bg_lig (3->2)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
