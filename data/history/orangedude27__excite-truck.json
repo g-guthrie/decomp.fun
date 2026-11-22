@@ -4833,5 +4833,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-22T16:21:46Z",
+  "commit_sha": "1a730cff74bf51d3db3802e7b79def0cf64865f8",
+  "commit_message": "Remove invalid scheduling pragma from AX coefficient unit",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.33051,
+   "matched_code_percent": 49.9030238971673,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
