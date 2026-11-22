@@ -494,5 +494,19 @@
    "matched_data_percent": 16.04572919188376,
    "complete_data_percent": 16.04572919188376
   }
+ },
+ {
+  "timestamp": "2026-11-22T03:23:43Z",
+  "commit_sha": "dcab9fdeefc80dea56be0541b2e6d61b612cdf3b",
+  "commit_message": "RSBE01.lst generation - CI check and hook/script (#151)",
+  "source": "report",
+  "version": "RSBE01_02",
+  "measures": {
+   "fuzzy_match_percent": 1.8199176,
+   "matched_code_percent": 1.7294418155678055,
+   "complete_code_percent": 1.5838016848782093,
+   "matched_data_percent": 16.04572919188376,
+   "complete_data_percent": 16.04572919188376
+  }
  }
 ]

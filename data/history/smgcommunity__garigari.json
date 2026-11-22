@@ -1466,5 +1466,19 @@
    "matched_data_percent": 11.273005774643256,
    "complete_data_percent": 2.6082217011939273
   }
+ },
+ {
+  "timestamp": "2026-11-22T02:56:18Z",
+  "commit_sha": "4b1be7932c9dc8ddedaf6b1aafae78e3d77d5aba",
+  "commit_message": "CoinHolder .text is matching (#66)",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 23.637005,
+   "matched_code_percent": 20.70515499436935,
+   "complete_code_percent": 3.1303216009544985,
+   "matched_data_percent": 11.27347563983893,
+   "complete_data_percent": 2.6082217011939273
+  }
  }
 ]
