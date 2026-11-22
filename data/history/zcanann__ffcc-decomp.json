@@ -292,5 +292,19 @@
    "matched_data_percent": 98.97217697308493,
    "complete_data_percent": 85.0761520727072
   }
+ },
+ {
+  "timestamp": "2026-11-22T17:40:27Z",
+  "commit_sha": "8178fe101a337950af7afad84afa9480a86ae1ad",
+  "commit_message": "Merge staging into main",
+  "source": "report",
+  "version": "GCCE01",
+  "measures": {
+   "fuzzy_match_percent": 99.96881103515625,
+   "matched_code_percent": 94.93800186152171,
+   "complete_code_percent": 75.83255769928536,
+   "matched_data_percent": 98.97217697308493,
+   "complete_data_percent": 85.0761520727072
+  }
  }
 ]
