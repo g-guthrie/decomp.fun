@@ -3439,5 +3439,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-22T01:10:11Z",
+  "commit_sha": "b50d59529f8cf2298676af1bdb390625e3b90f2f",
+  "commit_message": "Collapse dol/dvd/dvd.c (27 text + 1 data unit -> 1, 45 fns; 100% of dvd)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
