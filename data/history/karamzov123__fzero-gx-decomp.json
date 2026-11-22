@@ -3467,5 +3467,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-22T07:06:19Z",
+  "commit_sha": "a3021776b2b0b29b96ff88d82b2d05be05702ad4",
+  "commit_message": "Collapse 9 DOL TUs (av, arc, axfx, runtime, trk; 27 units retired)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
