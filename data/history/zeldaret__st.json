@@ -415,5 +415,19 @@
    "matched_data_percent": 34.104502995114835,
    "complete_data_percent": 7.278730600077534
   }
+ },
+ {
+  "timestamp": "2026-11-22T19:54:53Z",
+  "commit_sha": "7e83f270233564b3b11eda2b6ee3fef40de41997",
+  "commit_message": "Decompiling MapObjectUnkSTNE (#176)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 15.828759,
+   "matched_code_percent": 11.817406161944735,
+   "complete_code_percent": 6.249228852240023,
+   "matched_data_percent": 34.11371187782486,
+   "complete_data_percent": 7.278730600077534
+  }
  }
 ]
