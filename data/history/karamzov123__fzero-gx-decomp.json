@@ -3495,5 +3495,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-22T08:37:14Z",
+  "commit_sha": "ac1ef6a4b23ec720f1e77c628009e572404070e3",
+  "commit_message": "Collapse 8 DOL TUs (38->8 units, 76 fns): adx_mgc, perfdraw, __init_user, buffer_io, lsc_crs, avdisp_{head,draw,tail}",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

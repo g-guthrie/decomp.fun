@@ -1680,5 +1680,19 @@
    "matched_data_percent": 93.02360810268439,
    "complete_data_percent": 23.10055268290931
   }
+ },
+ {
+  "timestamp": "2026-11-22T09:00:47Z",
+  "commit_sha": "3cd8c98af3d299a3a6eb6ab414502f6c33930aad",
+  "commit_message": "Camera/CubeManagerBase: match isInAreaCube (#412)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 98.269035,
+   "matched_code_percent": 52.88928850769118,
+   "complete_code_percent": 19.294903077584728,
+   "matched_data_percent": 93.02360810268439,
+   "complete_data_percent": 23.10055268290931
+  }
  }
 ]
