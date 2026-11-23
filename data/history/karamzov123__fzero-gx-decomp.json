@@ -3607,5 +3607,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-23T16:12:40Z",
+  "commit_sha": "cf224d9fd9edcbf10ea8afae4211d7893b316ea4",
+  "commit_message": "Reconcile CRI ADX SPSD decoder declarations",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
