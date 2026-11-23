@@ -2558,5 +2558,19 @@
    "matched_data_percent": 29.053245344569355,
    "complete_data_percent": 29.053245344569355
   }
+ },
+ {
+  "timestamp": "2026-11-23T02:43:59Z",
+  "commit_sha": "69735f6eb783c9b0a9f82be15661030b83a0f838",
+  "commit_message": "matanim stuff (#381)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.968357,
+   "matched_code_percent": 54.66328264399437,
+   "complete_code_percent": 38.46762103096905,
+   "matched_data_percent": 29.098372652363615,
+   "complete_data_percent": 29.098372652363615
+  }
  }
 ]
