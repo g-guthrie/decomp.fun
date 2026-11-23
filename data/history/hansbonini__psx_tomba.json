@@ -421,5 +421,19 @@
    "matched_data_percent": 18.247628785043315,
    "complete_data_percent": 18.247628785043315
   }
+ },
+ {
+  "timestamp": "2026-11-23T19:56:49Z",
+  "commit_sha": "a95a0de582e6fa2410ada43e1b6218f7b5870d12",
+  "commit_message": "Revert \"Match small object transition initializer for US and EU2 (#30)\" (#37)",
+  "source": "report",
+  "version": "SCUS_942.36",
+  "measures": {
+   "fuzzy_match_percent": 67.2702,
+   "matched_code_percent": 67.27020408163266,
+   "complete_code_percent": 27.921360544217688,
+   "matched_data_percent": 18.247628785043315,
+   "complete_data_percent": 18.247628785043315
+  }
  }
 ]

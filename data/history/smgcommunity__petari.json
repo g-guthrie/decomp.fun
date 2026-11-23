@@ -689,5 +689,19 @@
    "matched_data_percent": 88.3211555548585,
    "complete_data_percent": 75.24045407138735
   }
+ },
+ {
+  "timestamp": "2026-11-23T19:21:46Z",
+  "commit_sha": "f7ada3c67f99debb1fe5a199359a207636280933",
+  "commit_message": "Accurate parameter name",
+  "source": "report",
+  "version": "RMGK01",
+  "measures": {
+   "fuzzy_match_percent": 99.99983,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 68.96976217323389,
+   "matched_data_percent": 88.3211555548585,
+   "complete_data_percent": 75.24045407138735
+  }
  }
 ]
