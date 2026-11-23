@@ -3649,5 +3649,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-23T18:58:31Z",
+  "commit_sha": "79b690d7f84d6cae2485214e34cf440be29a00de",
+  "commit_message": "main: rna_res.c is one matching unit (six functions)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

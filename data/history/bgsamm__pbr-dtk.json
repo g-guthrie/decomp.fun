@@ -319,5 +319,19 @@
    "matched_data_percent": 4.968212478785616,
    "complete_data_percent": 4.642885188313218
   }
+ },
+ {
+  "timestamp": "2026-11-23T18:41:00Z",
+  "commit_sha": "20f1c641536cdaf54cf338943ac76e9674f383d5",
+  "commit_message": "unsorted: match 801E0810 (#54)",
+  "source": "report",
+  "version": "RPBP01",
+  "measures": {
+   "fuzzy_match_percent": 26.417465,
+   "matched_code_percent": 24.018451315620336,
+   "complete_code_percent": 3.39994660390978,
+   "matched_data_percent": 4.968532998283618,
+   "complete_data_percent": 4.6433659675602215
+  }
  }
 ]
