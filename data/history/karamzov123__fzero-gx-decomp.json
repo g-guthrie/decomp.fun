@@ -3579,5 +3579,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-23T03:30:09Z",
+  "commit_sha": "abccfeff186274f455f3580cc10b5b3055bc8a6f",
+  "commit_message": "Merge pull request #425 from jedgentry/decomp/tu-main_rel-enemy_ctrl-fn-1-c47b4_r2",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
