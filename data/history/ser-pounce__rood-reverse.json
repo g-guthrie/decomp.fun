@@ -1139,5 +1139,19 @@
    "matched_data_percent": 70.06211639429121,
    "complete_data_percent": 45.384483842342675
   }
+ },
+ {
+  "timestamp": "2026-11-23T06:43:37Z",
+  "commit_sha": "8418ea91c4772c0963312b8e74745dd931ce1e41",
+  "commit_message": "[5 / 5] Battle script refactoring (#370)",
+  "source": "report",
+  "version": "SLUS_010.40",
+  "measures": {
+   "fuzzy_match_percent": 96.08154,
+   "matched_code_percent": 96.08154123679998,
+   "complete_code_percent": 75.03834174487032,
+   "matched_data_percent": 70.06211639429121,
+   "complete_data_percent": 45.384483842342675
+  }
  }
 ]
