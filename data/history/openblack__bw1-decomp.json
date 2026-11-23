@@ -2723,5 +2723,19 @@
    "matched_data_percent": 38.633435011783256,
    "complete_data_percent": 13.648065401534804
   }
+ },
+ {
+  "timestamp": "2026-11-23T01:25:55Z",
+  "commit_sha": "5af5fd76e07950110d2a0847fafe9ae11f0fa635",
+  "commit_message": "Arrow: Set to Matching in every version (#860)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 71.9063,
+   "matched_code_percent": 58.40808017609705,
+   "complete_code_percent": 30.85804414727096,
+   "matched_data_percent": 38.63741122470184,
+   "complete_data_percent": 13.685618809158065
+  }
  }
 ]
