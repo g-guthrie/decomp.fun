@@ -3663,5 +3663,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-23T21:12:51Z",
+  "commit_sha": "473c730e7612f2ea0dfef7bb22120a6bcfa4c859",
+  "commit_message": "main: sasnd_mix.c is one typed unit that owns its literals",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

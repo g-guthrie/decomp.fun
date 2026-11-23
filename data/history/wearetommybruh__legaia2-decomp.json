@@ -950,5 +950,19 @@
    "matched_data_percent": 0.1394044695287135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-23T20:59:56Z",
+  "commit_sha": "fc39a9ee52b3d95ad11dfaba6ea44f7ea332b012",
+  "commit_message": "Drop the no-agents rule from AI.md",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 23.068384,
+   "matched_code_percent": 22.930818256985628,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.1394044695287135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
