@@ -722,5 +722,19 @@
    "matched_data_percent": 99.61304104763124,
    "complete_data_percent": 68.889624565491
   }
+ },
+ {
+  "timestamp": "2026-11-23T17:13:20Z",
+  "commit_sha": "ec3d1333da0554a833f2178958a062f09acdc88b",
+  "commit_message": "Keep combo result links stable",
+  "source": "report",
+  "version": "GQPP78",
+  "measures": {
+   "fuzzy_match_percent": 99.71854,
+   "matched_code_percent": 93.91391447645714,
+   "complete_code_percent": 62.149774463928274,
+   "matched_data_percent": 99.61304104763124,
+   "complete_data_percent": 68.889624565491
+  }
  }
 ]

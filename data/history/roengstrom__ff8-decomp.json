@@ -746,5 +746,19 @@
    "matched_data_percent": 92.01449031504558,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-23T16:20:55Z",
+  "commit_sha": "cbfb5feb7d23a6dbfd23f08a97b05dd2bb9d0b1f",
+  "commit_message": "Merge branch 'decomp-menutmag'",
+  "source": "report",
+  "version": "SLUS_008.92",
+  "measures": {
+   "fuzzy_match_percent": 74.73871,
+   "matched_code_percent": 74.73871067074828,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 92.08179505706056,
+   "complete_data_percent": 0.0
+  }
  }
 ]

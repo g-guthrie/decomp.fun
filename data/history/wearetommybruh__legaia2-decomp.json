@@ -908,5 +908,19 @@
    "matched_data_percent": 0.1394044695287135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-23T17:02:48Z",
+  "commit_sha": "1ee47ada1bb98f9b8477d6f9b42388fceb7efb81",
+  "commit_message": "Restore combined progress report after concurrent publish",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 22.917852,
+   "matched_code_percent": 22.780285557168796,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.1394044695287135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
