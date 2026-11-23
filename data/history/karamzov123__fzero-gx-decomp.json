@@ -3677,5 +3677,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-23T22:10:53Z",
+  "commit_sha": "7124b2161465366390c2e3356c1fc6bc41237056",
+  "commit_message": "main: sasnd_core.c is one typed unit that owns its BSS",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

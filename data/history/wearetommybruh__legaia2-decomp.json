@@ -964,5 +964,19 @@
    "matched_data_percent": 0.1394044695287135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-23T22:02:38Z",
+  "commit_sha": "794e1384cc72025d2cae1ff9b1d284a36712189c",
+  "commit_message": "Collect 47 verified Claude function drafts",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 23.511961,
+   "matched_code_percent": 23.377471129766704,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.14053257780127518,
+   "complete_data_percent": 0.0
+  }
  }
 ]
