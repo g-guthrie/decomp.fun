@@ -452,5 +452,19 @@
    "matched_data_percent": 99.9723657079693,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-23T12:40:21Z",
+  "commit_sha": "eb403701f4dff38387939bdef8cccd796c17235b",
+  "commit_message": "try fixing gamecube again (#448)",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 99.21667,
+   "matched_code_percent": 99.21666851379807,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 99.9723657079693,
+   "complete_data_percent": 0.0
+  }
  }
 ]

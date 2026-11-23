@@ -2751,5 +2751,19 @@
    "matched_data_percent": 40.453230239219636,
    "complete_data_percent": 40.453230239219636
   }
+ },
+ {
+  "timestamp": "2026-11-23T13:15:55Z",
+  "commit_sha": "d742d8811707e154c2fa5d4d89f1031e515343a7",
+  "commit_message": "LHFile: Set to Matching in every version (#869)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 72.06395,
+   "matched_code_percent": 58.59577002066641,
+   "complete_code_percent": 31.113508830443003,
+   "matched_data_percent": 40.45634470175668,
+   "complete_data_percent": 40.45634470175668
+  }
  }
 ]
