@@ -922,5 +922,19 @@
    "matched_data_percent": 0.1394044695287135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-23T17:50:41Z",
+  "commit_sha": "49616dc4cc317b0f4a09161a18c7ac9b2725bbac",
+  "commit_message": "Update progress badges",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 23.068384,
+   "matched_code_percent": 22.930818256985628,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.1394044695287135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

@@ -305,5 +305,19 @@
    "matched_data_percent": 4.961481569327566,
    "complete_data_percent": 4.642885188313218
   }
+ },
+ {
+  "timestamp": "2026-11-23T18:16:02Z",
+  "commit_sha": "7b141e93978884ba9ca46499500b5a2d7020fa91",
+  "commit_message": "GSsceneData: decompile the unit (#53)",
+  "source": "report",
+  "version": "RPBP01",
+  "measures": {
+   "fuzzy_match_percent": 26.403917,
+   "matched_code_percent": 24.00490452976832,
+   "complete_code_percent": 3.385608764869328,
+   "matched_data_percent": 4.968212478785616,
+   "complete_data_percent": 4.642885188313218
+  }
  }
 ]
