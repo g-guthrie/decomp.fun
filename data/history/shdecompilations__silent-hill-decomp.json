@@ -3279,5 +3279,19 @@
    "matched_data_percent": 49.298229824403506,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-23T00:36:12Z",
+  "commit_sha": "109908415efbfdc6822ba7475ff3d4530d990e06",
+  "commit_message": "Makefile: make report-self build without common",
+  "source": "report",
+  "version": "SLUS-00707",
+  "measures": {
+   "fuzzy_match_percent": 100.00003,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 51.88120178473375,
+   "complete_data_percent": 0.0
+  }
  }
 ]

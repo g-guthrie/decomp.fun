@@ -4889,5 +4889,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-23T00:15:00Z",
+  "commit_sha": "89dc5082e975cbee28a316cbd5a9a88a8a92ba99",
+  "commit_message": "Tidy CpuLight_BeginIndirectPass (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.346306,
+   "matched_code_percent": 49.90853166771358,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]

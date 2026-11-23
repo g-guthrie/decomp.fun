@@ -205,9 +205,9 @@
   "challengers": {
    "bfbbdecomp/bfbb": {
     "since": "2026-11-22T16:22:50+00:00",
-    "runs": 8,
+    "runs": 9,
     "ahead": 4,
-    "misses": 4
+    "misses": 5
    }
   },
   "history": []
