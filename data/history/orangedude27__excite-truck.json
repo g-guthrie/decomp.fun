@@ -4903,5 +4903,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-23T00:44:21Z",
+  "commit_sha": "04c2e0880c9a6b265cdb9d04a5b77e537cb2f4fb",
+  "commit_message": "Tidy fn_802E1BB4 (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.347275,
+   "matched_code_percent": 49.90853166771358,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
