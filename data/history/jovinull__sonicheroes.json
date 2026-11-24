@@ -380,5 +380,19 @@
    "matched_data_percent": 10.112358609997843,
    "complete_data_percent": 10.112358609997843
   }
+ },
+ {
+  "timestamp": "2026-11-24T18:00:17Z",
+  "commit_sha": "c1a87472d74ce6a82051d9340e4c4f1e32276c53",
+  "commit_message": "Merge pull request #694 from Jovinull/decomp/loop-c-20261124",
+  "source": "report",
+  "version": "G9SE8P",
+  "measures": {
+   "fuzzy_match_percent": 44.603813,
+   "matched_code_percent": 43.56430601592446,
+   "complete_code_percent": 43.378464398507255,
+   "matched_data_percent": 10.143498801409569,
+   "complete_data_percent": 10.143498801409569
+  }
  }
 ]
