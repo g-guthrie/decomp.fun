@@ -1508,5 +1508,19 @@
    "matched_data_percent": 11.311299788090796,
    "complete_data_percent": 2.626076578629591
   }
+ },
+ {
+  "timestamp": "2026-11-24T01:38:18Z",
+  "commit_sha": "fd5897d7b03568c74ee6f4cbc18f473864ddf1c0",
+  "commit_message": "Linked NerveExecutor",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 23.698,
+   "matched_code_percent": 20.766151028989064,
+   "complete_code_percent": 3.1532270156286386,
+   "matched_data_percent": 11.312031161532985,
+   "complete_data_percent": 2.6267875476033296
+  }
  }
 ]
