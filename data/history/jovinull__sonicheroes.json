@@ -366,5 +366,19 @@
    "matched_data_percent": 10.110126338212057,
    "complete_data_percent": 10.110126338212057
   }
+ },
+ {
+  "timestamp": "2026-11-24T13:22:45Z",
+  "commit_sha": "f0e93bc9ce64f5ce122025f726814f6f4eacb135",
+  "commit_message": "Merge pull request #692 from vwintuhs/decomp/stage40d-small-20261116",
+  "source": "report",
+  "version": "G9SE8P",
+  "measures": {
+   "fuzzy_match_percent": 44.492786,
+   "matched_code_percent": 43.450187360131785,
+   "complete_code_percent": 43.26434574271458,
+   "matched_data_percent": 10.112358609997843,
+   "complete_data_percent": 10.112358609997843
+  }
  }
 ]

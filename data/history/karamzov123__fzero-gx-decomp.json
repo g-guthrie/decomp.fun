@@ -3761,5 +3761,19 @@
    "matched_data_percent": 99.99976323735041,
    "complete_data_percent": 99.99976323735041
   }
+ },
+ {
+  "timestamp": "2026-11-24T14:02:43Z",
+  "commit_sha": "213cb4d39343751800f5940e37101e2297599b61",
+  "commit_message": "state: snapshot the ledger after the TRK, ADXF and AX articulation collapses",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.99976323735041,
+   "complete_data_percent": 99.99976323735041
+  }
  }
 ]

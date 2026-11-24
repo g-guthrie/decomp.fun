@@ -536,5 +536,19 @@
    "matched_data_percent": 99.9723657079693,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-24T14:04:08Z",
+  "commit_sha": "90494dfd3678debd4544b6729d612155a0b3af35",
+  "commit_message": "Match func_80024334 and func_800154E8 on more versions, sdk and string splits (#453)",
+  "source": "report",
+  "version": "jp",
+  "measures": {
+   "fuzzy_match_percent": 99.67771,
+   "matched_code_percent": 99.67771251246815,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 99.99433139715117,
+   "complete_data_percent": 0.0
+  }
  }
 ]

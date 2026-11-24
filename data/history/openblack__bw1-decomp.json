@@ -2779,5 +2779,19 @@
    "matched_data_percent": 40.46185998202851,
    "complete_data_percent": 40.46185998202851
   }
+ },
+ {
+  "timestamp": "2026-11-24T14:07:52Z",
+  "commit_sha": "fb2966cb6e55ecf35e2645bbf0d7c48b412239f6",
+  "commit_message": "WinCondition: Match in versions that have it (#876)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 72.64942,
+   "matched_code_percent": 59.06484727423358,
+   "complete_code_percent": 31.433726444913816,
+   "matched_data_percent": 40.4837554457822,
+   "complete_data_percent": 40.4837554457822
+  }
  }
 ]
