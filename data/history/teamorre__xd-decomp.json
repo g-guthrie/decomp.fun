@@ -112,5 +112,19 @@
    "matched_data_percent": 8.49410801871404,
    "complete_data_percent": 8.35795789906411
   }
+ },
+ {
+  "timestamp": "2026-11-24T22:12:23Z",
+  "commit_sha": "e8fb1c9f9d78af1b81528c2844f2317d7f661609",
+  "commit_message": "organize game TUs paths to better match symbol map",
+  "source": "report",
+  "version": "GXXE01",
+  "measures": {
+   "fuzzy_match_percent": 13.393125,
+   "matched_code_percent": 13.393124773218485,
+   "complete_code_percent": 11.932783273121197,
+   "matched_data_percent": 8.49410801871404,
+   "complete_data_percent": 8.35795789906411
+  }
  }
 ]

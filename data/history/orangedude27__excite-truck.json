@@ -5393,5 +5393,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-24T22:15:23Z",
+  "commit_sha": "91aa65f8a7812725e540e2db8f3ee9fc77e7f0ac",
+  "commit_message": "Rename fn_8020F240 to CarSound_ResetBackfire",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.69979,
+   "matched_code_percent": 50.197427346605316,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
