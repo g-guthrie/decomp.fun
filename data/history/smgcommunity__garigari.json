@@ -1522,5 +1522,19 @@
    "matched_data_percent": 11.312031161532985,
    "complete_data_percent": 2.6267875476033296
   }
+ },
+ {
+  "timestamp": "2026-11-24T14:43:24Z",
+  "commit_sha": "b0a4c5663e026cf60ec27905eee221c8c43b710d",
+  "commit_message": "Mostly match `FireBall` and co",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 23.81397,
+   "matched_code_percent": 20.85541196249637,
+   "complete_code_percent": 3.1532270156286386,
+   "matched_data_percent": 11.350325264945859,
+   "complete_data_percent": 2.6267875476033296
+  }
  }
 ]

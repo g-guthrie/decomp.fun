@@ -457,5 +457,19 @@
    "matched_data_percent": 34.161835716503056,
    "complete_data_percent": 7.281701207403348
   }
+ },
+ {
+  "timestamp": "2026-11-24T14:40:57Z",
+  "commit_sha": "b24b933ced248fd1a60d462bf5b46bdf969109d6",
+  "commit_message": "Link `UnkStruct_ov031_02112b40_031` and fix `UnkStruct_027e09bc` array (#198)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 16.131626,
+   "matched_code_percent": 12.08170002602828,
+   "complete_code_percent": 6.337036150535018,
+   "matched_data_percent": 34.16391514163113,
+   "complete_data_percent": 7.2837806325314185
+  }
  }
 ]
