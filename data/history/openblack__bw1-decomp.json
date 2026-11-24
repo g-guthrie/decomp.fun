@@ -2835,5 +2835,19 @@
    "matched_data_percent": 40.64970837457165,
    "complete_data_percent": 40.64970837457165
   }
+ },
+ {
+  "timestamp": "2026-11-24T19:28:04Z",
+  "commit_sha": "309e838d1efa068a1f22d8aee64e6a7e31c24636",
+  "commit_message": "Improve LHLobbyServer CreatureMental (#884)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 73.820015,
+   "matched_code_percent": 60.1595936952289,
+   "complete_code_percent": 32.01510581359675,
+   "matched_data_percent": 40.64970837457165,
+   "complete_data_percent": 40.64970837457165
+  }
  }
 ]
