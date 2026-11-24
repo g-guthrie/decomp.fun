@@ -212,5 +212,19 @@
    "matched_data_percent": 87.83738409643918,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-23T23:42:16Z",
+  "commit_sha": "18e6e1d8017da139ff0f712793aa6fdca75268bb",
+  "commit_message": "Extract struct Unk_0300466C related data",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 88.99000423575534,
+   "complete_data_percent": 0.0
+  }
  }
 ]
