@@ -2807,5 +2807,19 @@
    "matched_data_percent": 40.55090493459583,
    "complete_data_percent": 40.55090493459583
   }
+ },
+ {
+  "timestamp": "2026-11-24T17:06:59Z",
+  "commit_sha": "b79077413e97b25ebfa18eb37a69229b8141aa7b",
+  "commit_message": "LHDrawScaledSprite: Work on Matching (#882)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 73.74159,
+   "matched_code_percent": 60.06560002551555,
+   "complete_code_percent": 31.683365683406688,
+   "matched_data_percent": 40.550150393947725,
+   "complete_data_percent": 40.550150393947725
+  }
  }
 ]

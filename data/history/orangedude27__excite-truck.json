@@ -5323,5 +5323,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-24T17:14:39Z",
+  "commit_sha": "f5cb68b8fb089222a3a541c3a8c02d787b2de0be",
+  "commit_message": "Tidy parseHexString (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.63702,
+   "matched_code_percent": 50.189034553391934,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
