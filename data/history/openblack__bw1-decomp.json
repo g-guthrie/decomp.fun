@@ -2765,5 +2765,19 @@
    "matched_data_percent": 40.45634470175668,
    "complete_data_percent": 40.45634470175668
   }
+ },
+ {
+  "timestamp": "2026-11-24T12:56:11Z",
+  "commit_sha": "856c9e42b6817fc15a8f407d4c0b8f49e7ff216f",
+  "commit_message": "BWLan: Set to Matching in every version (#874)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 72.49344,
+   "matched_code_percent": 58.89555667813866,
+   "complete_code_percent": 31.266135154575707,
+   "matched_data_percent": 40.46185998202851,
+   "complete_data_percent": 40.46185998202851
+  }
  }
 ]
