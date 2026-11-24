@@ -2793,5 +2793,19 @@
    "matched_data_percent": 40.4837554457822,
    "complete_data_percent": 40.4837554457822
   }
+ },
+ {
+  "timestamp": "2026-11-24T15:43:56Z",
+  "commit_sha": "7f39d5d908b28cb2d9d183612afbe476d79a9321",
+  "commit_message": "Camera: Set to Matching (#867)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 72.899414,
+   "matched_code_percent": 59.32224433710164,
+   "complete_code_percent": 31.682254239437572,
+   "matched_data_percent": 40.55090493459583,
+   "complete_data_percent": 40.55090493459583
+  }
  }
 ]
