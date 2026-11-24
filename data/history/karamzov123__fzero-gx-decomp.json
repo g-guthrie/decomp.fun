@@ -3747,5 +3747,19 @@
    "matched_data_percent": 99.99976323735041,
    "complete_data_percent": 99.99976323735041
   }
+ },
+ {
+  "timestamp": "2026-11-24T04:19:51Z",
+  "commit_sha": "0073e7f06481f4f9d2e4d68937b7ed7b09e328e5",
+  "commit_message": "main: OdemuExi2 DebuggerDriver.c is one unit in every region",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.99976323735041,
+   "complete_data_percent": 99.99976323735041
+  }
  }
 ]
