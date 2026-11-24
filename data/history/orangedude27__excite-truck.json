@@ -5281,5 +5281,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-24T06:11:56Z",
+  "commit_sha": "4ca311d9b8b340445d1cc7766f7559c40884106e",
+  "commit_message": "Tidy VisitGroupIds (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.47957,
+   "matched_code_percent": 50.17251124175309,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]

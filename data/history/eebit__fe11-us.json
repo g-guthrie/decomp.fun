@@ -122,5 +122,19 @@
    "matched_data_percent": 0.6653138034182032,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-24T05:39:59Z",
+  "commit_sha": "306cb7e856e776b5df4d1860cb7b96a9fc8ea412",
+  "commit_message": "Merge pull request #70 from ThatMazes/decomp/event_funcs",
+  "source": "report",
+  "version": "YFEE01",
+  "measures": {
+   "fuzzy_match_percent": 14.783842,
+   "matched_code_percent": 8.441871576842422,
+   "complete_code_percent": 0.341099126680057,
+   "matched_data_percent": 0.6653138034182032,
+   "complete_data_percent": 0.0
+  }
  }
 ]
