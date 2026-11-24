@@ -2863,5 +2863,19 @@
    "matched_data_percent": 41.46001010148956,
    "complete_data_percent": 41.46001010148956
   }
+ },
+ {
+  "timestamp": "2026-11-24T20:56:39Z",
+  "commit_sha": "82015c4e3c8e90db87056d9533f43cc6bc054d52",
+  "commit_message": "LHDrawScaledSprite: Match ScaledSprite24 and OneColorScaledSprite24; improve ScaledSprite24To16 (#890)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 74.17031,
+   "matched_code_percent": 60.639313964382566,
+   "complete_code_percent": 32.776653981639775,
+   "matched_data_percent": 42.93535158797573,
+   "complete_data_percent": 42.93535158797573
+  }
  }
 ]
