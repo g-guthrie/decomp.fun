@@ -5309,5 +5309,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-24T16:17:00Z",
+  "commit_sha": "529567a0be0386b8f05076e435a8eb78175d2502",
+  "commit_message": "Place comment directly above OSSetCurrentContext",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.635925,
+   "matched_code_percent": 50.189034553391934,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
