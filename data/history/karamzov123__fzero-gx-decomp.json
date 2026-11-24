@@ -3719,5 +3719,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-24T03:09:09Z",
+  "commit_sha": "d33aebe2b4c71448f922dc2c17731c649204f4c8",
+  "commit_message": "main: split three more DOL units at TU boundaries and record the full map",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.99976323735041,
+   "complete_data_percent": 99.99976323735041
+  }
  }
 ]
