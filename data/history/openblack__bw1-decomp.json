@@ -2849,5 +2849,19 @@
    "matched_data_percent": 40.64970837457165,
    "complete_data_percent": 40.64970837457165
   }
+ },
+ {
+  "timestamp": "2026-11-24T20:04:56Z",
+  "commit_sha": "90f763a8b6d07190897018768c2c687858274c26",
+  "commit_message": "LH3DText: Set to Matching (#888)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 74.06095,
+   "matched_code_percent": 60.476424170339435,
+   "complete_code_percent": 32.60421482088292,
+   "matched_data_percent": 41.46001010148956,
+   "complete_data_percent": 41.46001010148956
+  }
  }
 ]

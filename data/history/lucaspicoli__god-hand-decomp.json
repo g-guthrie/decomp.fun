@@ -682,5 +682,19 @@
    "matched_data_percent": 83.0149681769012,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-24T19:18:13Z",
+  "commit_sha": "eed8dc086b7f58c57f9ed0f8d8ef805ef7440a66",
+  "commit_message": "report: regen after PRs 85 to 87",
+  "source": "report",
+  "version": "SLUS_215.03",
+  "measures": {
+   "fuzzy_match_percent": 58.38194,
+   "matched_code_percent": 58.38194064454987,
+   "complete_code_percent": 56.99747843696939,
+   "matched_data_percent": 83.0149681769012,
+   "complete_data_percent": 0.0
+  }
  }
 ]

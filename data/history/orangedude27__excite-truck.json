@@ -5365,5 +5365,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-24T20:14:21Z",
+  "commit_sha": "7f7cc966de504e6236b3bc279ba54f92076cf5ac",
+  "commit_message": "Tidy drTexRecordFree (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.688965,
+   "matched_code_percent": 50.197427346605316,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
