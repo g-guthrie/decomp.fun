@@ -1,0 +1,16 @@
+[
+ {
+  "timestamp": "2026-11-24T08:14:53Z",
+  "commit_sha": "9eab914bbfa2fbcb0a25af7d88933cc6ccd85724",
+  "commit_message": "Add the verification workflow; libraries.tsv says what each link takes",
+  "source": "report",
+  "version": "SCES_008.99",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
+ }
+]

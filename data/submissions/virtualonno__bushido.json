@@ -1,0 +1,35 @@
+{
+ "repo": "virtualonno/bushido",
+ "by": "virtualonno",
+ "submitted_at": "2026-11-24T11:15:34+00:00",
+ "status": "listed",
+ "reasons": [],
+ "repo_meta": {
+  "id": 1466997511,
+  "created_at": "2026-11-21T22:11:18Z",
+  "fork": false,
+  "parent": null
+ },
+ "source_proof": 1.0,
+ "game": {
+  "platform": "ps",
+  "key": "bushido-blade",
+  "title": "Bushido Blade",
+  "by": "serial",
+  "builds": [
+   "SCES00899",
+   "SCUS94180",
+   "SLPM86020"
+  ]
+ },
+ "project": {
+  "id": "virtualonno__bushido",
+  "owner": "virtualonno",
+  "repo": "bushido",
+  "name": "Bushido Blade",
+  "submitted": true,
+  "platform": "ps",
+  "version": "SCES_008.99"
+ },
+ "listed_at": "2026-11-24T11:15:34+00:00"
+}
