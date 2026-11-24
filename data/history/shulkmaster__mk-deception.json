@@ -117,5 +117,19 @@
    "matched_data_percent": 98.85339914172155,
    "complete_data_percent": 81.35180615158225
   }
+ },
+ {
+  "timestamp": "2026-11-24T22:53:19Z",
+  "commit_sha": "efe33c252967a8fd0ea0a8efba9271f53d1b263a",
+  "commit_message": "Leads 2026 11 23 (#123)",
+  "source": "report",
+  "version": "GQNE5D",
+  "measures": {
+   "fuzzy_match_percent": 89.923134,
+   "matched_code_percent": 88.10484374527582,
+   "complete_code_percent": 50.92025507648745,
+   "matched_data_percent": 98.85339914172155,
+   "complete_data_percent": 81.47361269041072
+  }
  }
 ]
