@@ -5253,5 +5253,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-24T04:15:08Z",
+  "commit_sha": "39313fda0758a4989183720c0b4409406b6fa140",
+  "commit_message": "Tidy RFCOMM_ConnectInd (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.4402,
+   "matched_code_percent": 50.13998916805126,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]

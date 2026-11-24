@@ -3733,5 +3733,19 @@
    "matched_data_percent": 99.99976323735041,
    "complete_data_percent": 99.99976323735041
   }
+ },
+ {
+  "timestamp": "2026-11-24T03:52:34Z",
+  "commit_sha": "25172a970a1fb66e1f23e77d18fed9ab9284a1cb",
+  "commit_message": "state: snapshot the ledger after the ADX and MSL collapses",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.99976323735041,
+   "complete_data_percent": 99.99976323735041
+  }
  }
 ]
