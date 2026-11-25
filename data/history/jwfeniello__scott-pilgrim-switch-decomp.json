@@ -726,5 +726,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-25T11:16:04Z",
+  "commit_sha": "2eb56374bd086e839545b948257ade68b373690d",
+  "commit_message": "Match Dare's stack and counted-array destructors, a color sender and a Sphere factory copy",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 32.10838497391909,
+   "matched_code_percent": 32.10838497391909,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
