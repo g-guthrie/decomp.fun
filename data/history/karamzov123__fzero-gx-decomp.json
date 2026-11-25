@@ -3831,5 +3831,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-25T08:22:25Z",
+  "commit_sha": "d23373c1fdd9e13e02452f37423101372efd9da4",
+  "commit_message": "main_rel: merge accessory fn_1_10C7B4..fn_1_10CC38 into one unit",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

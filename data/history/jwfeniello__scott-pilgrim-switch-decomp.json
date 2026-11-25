@@ -684,5 +684,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-25T08:22:25Z",
+  "commit_sha": "3b9c3bcba8ec97c08297383e1cf8cf2c6f703cf1",
+  "commit_message": "Match more Gear game-pad slots and pad destructors",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 32.002631754849645,
+   "matched_code_percent": 32.002631754849645,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
