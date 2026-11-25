@@ -5729,5 +5729,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-25T22:15:30Z",
+  "commit_sha": "1445a194f0a043fb41ddc510843ed2c3e837edeb",
+  "commit_message": "Test whether routing the float store through a static inline setter changes MWCC's scheduling of the lfs/stfs pair (target keeps the load after the int store's lis and sinks the store past the LR reload).",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.928055,
+   "matched_code_percent": 50.45537460052272,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]

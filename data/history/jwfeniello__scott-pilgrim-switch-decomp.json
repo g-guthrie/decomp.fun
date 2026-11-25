@@ -796,5 +796,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-25T21:48:04Z",
+  "commit_sha": "94c72f3abf7e31a5a0ec574c81d10e010df40529",
+  "commit_message": "Update counts after merging the Dare, Fire and game-state agents' work",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 32.63563856647913,
+   "matched_code_percent": 32.63563856647913,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
