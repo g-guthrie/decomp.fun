@@ -3845,5 +3845,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-25T14:05:11Z",
+  "commit_sha": "309d75813bba2f0126bf0ec26c354c5bee9879bf",
+  "commit_message": "main: Dolphin SDK OSSync.c is one mixed C/asm unit in all regions",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

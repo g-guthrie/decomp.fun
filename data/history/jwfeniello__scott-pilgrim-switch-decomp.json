@@ -768,5 +768,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-25T14:18:15Z",
+  "commit_sha": "361acca271a472cca396f731a02497b132ad3b32",
+  "commit_message": "Match the zlib copies' adler32 in Gear and Fire, and Fire's inflate_flush",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 32.2836401355788,
+   "matched_code_percent": 32.2836401355788,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

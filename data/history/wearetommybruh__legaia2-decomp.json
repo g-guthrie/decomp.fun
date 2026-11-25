@@ -1034,5 +1034,19 @@
    "matched_data_percent": 0.152545349908309,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-25T14:03:07Z",
+  "commit_sha": "fd7557f543985f414203ae7259fd4c9ec5455367",
+  "commit_message": "Refresh README progress badge URLs",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 24.970959,
+   "matched_code_percent": 24.844423168980374,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.1559287076554162,
+   "complete_data_percent": 0.0
+  }
  }
 ]

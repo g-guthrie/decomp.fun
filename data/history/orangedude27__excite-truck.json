@@ -5617,5 +5617,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-25T14:16:05Z",
+  "commit_sha": "bfc2ee244e319eec0e7b4580ec0ba94fa6b1856d",
+  "commit_message": "Tidy DrawList_distanceToCamera (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.94438,
+   "matched_code_percent": 50.28410916401222,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
