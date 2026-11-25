@@ -5463,5 +5463,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-25T03:16:56Z",
+  "commit_sha": "ccd377928ad2aa790ac0d54f7132269fc4963fe2",
+  "commit_message": "Remove leftover dangling scheduling pragma so the unit uses default scheduling.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.71626,
+   "matched_code_percent": 50.21958956618439,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]

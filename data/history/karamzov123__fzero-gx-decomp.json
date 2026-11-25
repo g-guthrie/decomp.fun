@@ -3789,5 +3789,19 @@
    "matched_data_percent": 99.99976323735041,
    "complete_data_percent": 99.99976323735041
   }
+ },
+ {
+  "timestamp": "2026-11-25T03:21:15Z",
+  "commit_sha": "6a6a15773d588307c92169d0cc353b50328444f0",
+  "commit_message": "main: eleven MSL TUs are written in MSL's source order under -inline deferred",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.99976323735041,
+   "complete_data_percent": 99.99976323735041
+  }
  }
 ]
