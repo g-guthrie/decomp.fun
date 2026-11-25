@@ -5589,5 +5589,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-25T12:16:57Z",
+  "commit_sha": "e6f5514bb14237cc4f23b1cdfa60b49a527d5c55",
+  "commit_message": "Tidy gxLoadTexMtx (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.94335,
+   "matched_code_percent": 50.28410916401222,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]

@@ -740,5 +740,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-25T12:25:16Z",
+  "commit_sha": "dece9211b589b4a8ba16c3fa01ee0a85e894650e",
+  "commit_message": "Match SPTGSavegame's serializer and 15 out-of-line destructors",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 32.18627886745743,
+   "matched_code_percent": 32.18627886745743,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
