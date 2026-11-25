@@ -3873,5 +3873,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-25T15:38:49Z",
+  "commit_sha": "a6726c2671b02527c91c2100404ff44f1e5955e0",
+  "commit_message": "main_rel: enemy_ctrl_c.c compiles as one unit",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
