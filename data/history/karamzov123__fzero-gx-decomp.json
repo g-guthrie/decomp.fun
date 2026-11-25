@@ -3817,5 +3817,19 @@
    "matched_data_percent": 99.99976323735041,
    "complete_data_percent": 99.99976323735041
   }
+ },
+ {
+  "timestamp": "2026-11-25T06:33:07Z",
+  "commit_sha": "f62a8c13d3bb0d50342e63972a4ec99cdd8cd8f2",
+  "commit_message": "Merge pull request #430 from jedgentry/decomp/tu-main_rel-car-fn-1-7f3ac",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
