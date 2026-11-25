@@ -782,5 +782,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-25T15:18:06Z",
+  "commit_sha": "02db0c925aed655d120f5d4b1266f1489d6a00e0",
+  "commit_message": "Match ControllableStephen's and ControllableWallace's factories",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 32.48397356925775,
+   "matched_code_percent": 32.48397356925775,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
