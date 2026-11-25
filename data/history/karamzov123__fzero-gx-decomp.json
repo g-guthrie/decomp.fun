@@ -3915,5 +3915,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-25T22:59:43Z",
+  "commit_sha": "dab749454019c421a4072b086f4ab668ba04872d",
+  "commit_message": "main_rel: motasglist.c is two retail TUs, font.c is three",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

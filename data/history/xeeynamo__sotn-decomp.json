@@ -1319,5 +1319,19 @@
    "matched_data_percent": 75.73642771034616,
    "complete_data_percent": 24.23039702081266
   }
+ },
+ {
+  "timestamp": "2026-11-25T22:55:57Z",
+  "commit_sha": "c0089297e42f5abfde29279656450c42ba5274d8",
+  "commit_message": "Decompile `func_06010400` (#3871)",
+  "source": "report",
+  "version": "pspeu",
+  "measures": {
+   "fuzzy_match_percent": 83.20702,
+   "matched_code_percent": 83.1714881307083,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 75.73642771034616,
+   "complete_data_percent": 24.23039702081266
+  }
  }
 ]
