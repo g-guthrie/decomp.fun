@@ -296,5 +296,19 @@
    "matched_data_percent": 0.0,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-25T01:48:40Z",
+  "commit_sha": "b21c57c7388abd60ac86b12f36781bc6101e64c4",
+  "commit_message": "started plfcv, migrated some sbss, mapped more sbss in config, declared vram bounds in configs",
+  "source": "report",
+  "version": "SLPM_654.95",
+  "measures": {
+   "fuzzy_match_percent": 1.197914855666625,
+   "matched_code_percent": 1.197914855666625,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.0,
+   "complete_data_percent": 0.0
+  }
  }
 ]
