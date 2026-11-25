@@ -2572,5 +2572,19 @@
    "matched_data_percent": 29.098372652363615,
    "complete_data_percent": 29.098372652363615
   }
+ },
+ {
+  "timestamp": "2026-11-25T00:46:56Z",
+  "commit_sha": "14fe031f4acc623c223f5b8808127dba9a0fbe48",
+  "commit_message": "match texblendcontroller",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 56.97189,
+   "matched_code_percent": 54.66773932976034,
+   "complete_code_percent": 38.50474915576936,
+   "matched_data_percent": 29.122196618460407,
+   "complete_data_percent": 29.122196618460407
+  }
  }
 ]
