@@ -5659,5 +5659,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-25T17:09:52Z",
+  "commit_sha": "1083ea13eebed46475a8f7f8c7ae8a9308c607a1",
+  "commit_message": "Restore C mode after fn_80190388 so the following functions keep C linkage.",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.953636,
+   "matched_code_percent": 50.28410916401222,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]

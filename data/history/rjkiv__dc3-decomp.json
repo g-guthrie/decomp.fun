@@ -2600,5 +2600,19 @@
    "matched_data_percent": 29.122196618460407,
    "complete_data_percent": 29.122196618460407
   }
+ },
+ {
+  "timestamp": "2026-11-25T16:23:54Z",
+  "commit_sha": "4cc2254555be64b49152c4dabdafb7840f4de505",
+  "commit_message": "DetectFrame, HamIKSkeleton, Object matched, updatechase partial and some of geo (#382)",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 57.016132,
+   "matched_code_percent": 54.71561593199622,
+   "complete_code_percent": 38.73574311138929,
+   "matched_data_percent": 29.27579208588987,
+   "complete_data_percent": 29.27579208588987
+  }
  }
 ]
