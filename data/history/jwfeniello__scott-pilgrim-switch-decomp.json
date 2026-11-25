@@ -754,5 +754,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-25T13:14:21Z",
+  "commit_sha": "05b23c5601bd651ec8d0f1474797d0906852ef92",
+  "commit_message": "Match four factories that bind listener callbacks",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 32.222847281617774,
+   "matched_code_percent": 32.222847281617774,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]

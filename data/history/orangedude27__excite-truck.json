@@ -5603,5 +5603,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-25T13:15:54Z",
+  "commit_sha": "9a4b1ef7373b5136080055fc93a439b63752d763",
+  "commit_message": "Tidy gxInitRenderState (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.94377,
+   "matched_code_percent": 50.28410916401222,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
