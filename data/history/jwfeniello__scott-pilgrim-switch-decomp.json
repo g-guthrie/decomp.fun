@@ -712,5 +712,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-25T10:21:57Z",
+  "commit_sha": "3237e69ca56c3de6686a0805bb6b0e2e1b4f752f",
+  "commit_message": "Model SndGear's binary reader stream (read slot not matched yet)",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 32.057033064774636,
+   "matched_code_percent": 32.057033064774636,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
