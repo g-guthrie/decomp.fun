@@ -3803,5 +3803,19 @@
    "matched_data_percent": 99.99976323735041,
    "complete_data_percent": 99.99976323735041
   }
+ },
+ {
+  "timestamp": "2026-11-25T03:40:41Z",
+  "commit_sha": "b7e084acfa818666b4895b5be8ac2d563f066d43",
+  "commit_message": "main: the modified OSAlloc heap.c is one typed unit in every region",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 99.99976323735041,
+   "complete_data_percent": 99.99976323735041
+  }
  }
 ]

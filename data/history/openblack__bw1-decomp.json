@@ -2877,5 +2877,19 @@
    "matched_data_percent": 42.93535158797573,
    "complete_data_percent": 42.93535158797573
   }
+ },
+ {
+  "timestamp": "2026-11-25T03:24:30Z",
+  "commit_sha": "29773ec8c435970d49a177028ae74b4e7cf926e2",
+  "commit_message": "LH3DPrimitive: Match five functions (#891)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 74.17689,
+   "matched_code_percent": 60.74133841114106,
+   "complete_code_percent": 32.776653981639775,
+   "matched_data_percent": 42.93535158797573,
+   "complete_data_percent": 42.93535158797573
+  }
  }
 ]
