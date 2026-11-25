@@ -5701,5 +5701,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-25T20:09:41Z",
+  "commit_sha": "1daa9d06c0cd3d8f3c6cc2962f409458f52d4a42",
+  "commit_message": "remove invalid #pragma scheduling invalid_target (not a valid MWCC target; default scheduling should be restored)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.970505,
+   "matched_code_percent": 50.28410916401222,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
