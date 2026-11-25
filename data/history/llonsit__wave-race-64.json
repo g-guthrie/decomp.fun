@@ -100,5 +100,19 @@
    "matched_data_percent": 82.81269130653058,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-25T06:05:17Z",
+  "commit_sha": "28f6c6a6f2e6efd1ef123b8434f75c9bdf6a065a",
+  "commit_message": "mips2c comment clean up",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 38.235462,
+   "matched_code_percent": 38.23546218167273,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 82.81269130653058,
+   "complete_data_percent": 0.0
+  }
  }
 ]

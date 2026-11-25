@@ -226,5 +226,19 @@
    "matched_data_percent": 88.99000423575534,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-25T05:11:34Z",
+  "commit_sha": "53345db0bdb29292c1830d10b8c7b4c82209add1",
+  "commit_message": "Extract 080D2E88 data",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 100.0,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 89.7462566125706,
+   "complete_data_percent": 0.0
+  }
  }
 ]
