@@ -698,5 +698,19 @@
    "matched_data_percent": null,
    "complete_data_percent": null
   }
+ },
+ {
+  "timestamp": "2026-11-25T09:21:37Z",
+  "commit_sha": "27b76ec43d09d1f47716e8aa6a3290654e243610",
+  "commit_message": "Match component factories: sampled tracks, render regions, effectors",
+  "source": "report",
+  "version": "switch",
+  "measures": {
+   "fuzzy_match_percent": 32.05142216733843,
+   "matched_code_percent": 32.05142216733843,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": null,
+   "complete_data_percent": null
+  }
  }
 ]
