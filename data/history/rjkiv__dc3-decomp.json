@@ -2642,5 +2642,19 @@
    "matched_data_percent": 29.27579208588987,
    "complete_data_percent": 29.27579208588987
   }
+ },
+ {
+  "timestamp": "2026-11-26T16:11:23Z",
+  "commit_sha": "d81d14d7cae360b35f1da5fca6a0b49c576110e4",
+  "commit_message": "match softparticlebuffer",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 57.027596,
+   "matched_code_percent": 54.72495531025579,
+   "complete_code_percent": 38.75769884273634,
+   "matched_data_percent": 29.28945224392489,
+   "complete_data_percent": 29.28945224392489
+  }
  }
 ]

@@ -5981,5 +5981,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-26T16:16:50Z",
+  "commit_sha": "2d96e14a54acdeaecbc1f77bb6947ae545f4590a",
+  "commit_message": "Rename fn_802481A0 to warpTextPosition",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.97491,
+   "matched_code_percent": 50.485536201133286,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
