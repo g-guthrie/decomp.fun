@@ -5897,5 +5897,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-26T10:14:41Z",
+  "commit_sha": "3dfc1a3eb5e1acc5f51dca61ccc989c1e588a8a8",
+  "commit_message": "Rename fn_802712F8 to loadCameraRegionDefs",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.93846,
+   "matched_code_percent": 50.485536201133286,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
