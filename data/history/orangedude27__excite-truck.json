@@ -5855,5 +5855,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-26T07:16:39Z",
+  "commit_sha": "1edb81cdcf0df44a0c881c10c0a407b6a17a0253",
+  "commit_message": "Rename fn_80223CF0 to MovieWidget_construct",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.926605,
+   "matched_code_percent": 50.460357821493155,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
