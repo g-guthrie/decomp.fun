@@ -3943,5 +3943,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-26T01:02:53Z",
+  "commit_sha": "508dcc7cd3ac9e3e82f94dfc5c04df23e2ae89dc",
+  "commit_message": "main_rel: bg_cas.c is four retail TUs",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
