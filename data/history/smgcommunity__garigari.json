@@ -1536,5 +1536,19 @@
    "matched_data_percent": 11.350325264945859,
    "complete_data_percent": 2.6267875476033296
   }
+ },
+ {
+  "timestamp": "2026-11-26T22:20:22Z",
+  "commit_sha": "543b64f6e8f7083f196d19d5fd00a4719a97c36b",
+  "commit_message": "ParabolicPath is 100% matching except for .sdata2-0 (#71)",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 23.836302,
+   "matched_code_percent": 20.877743146719073,
+   "complete_code_percent": 3.1755581998513382,
+   "matched_data_percent": 11.350795131245404,
+   "complete_data_percent": 2.6300766117001406
+  }
  }
 ]

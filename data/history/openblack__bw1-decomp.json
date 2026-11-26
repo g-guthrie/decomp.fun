@@ -2975,5 +2975,19 @@
    "matched_data_percent": 43.44583385663745,
    "complete_data_percent": 43.44583385663745
   }
+ },
+ {
+  "timestamp": "2026-11-26T21:23:11Z",
+  "commit_sha": "f3f3aa209623f0722a4a4dcfd86730f5d217a7b1",
+  "commit_message": "WorshipSpellIcon.cpp: Match charge audio in Creature Isle (#909)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 75.11137,
+   "matched_code_percent": 61.64960831513711,
+   "complete_code_percent": 33.44112158511003,
+   "matched_data_percent": 43.44583385663745,
+   "complete_data_percent": 43.44583385663745
+  }
  }
 ]
