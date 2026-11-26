@@ -164,5 +164,19 @@
    "matched_data_percent": 0.6653138034182032,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-26T17:31:57Z",
+  "commit_sha": "03795e54ffb710f512cbaeea17808b25ce9ef753",
+  "commit_message": "Merge pull request #73 from ThatMazes/decomp/font",
+  "source": "report",
+  "version": "YFEE01",
+  "measures": {
+   "fuzzy_match_percent": 15.381985,
+   "matched_code_percent": 9.127166709433094,
+   "complete_code_percent": 0.341099126680057,
+   "matched_data_percent": 0.667069248809808,
+   "complete_data_percent": 0.0
+  }
  }
 ]

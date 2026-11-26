@@ -6009,5 +6009,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-26T18:16:37Z",
+  "commit_sha": "a317df7ffb714d5d0b9562ee21cf2e2d6d35f647",
+  "commit_message": "Tidy resetStatHandler (still matches)",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.99719,
+   "matched_code_percent": 50.485536201133286,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
