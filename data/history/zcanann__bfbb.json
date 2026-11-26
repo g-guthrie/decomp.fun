@@ -862,5 +862,19 @@
    "matched_data_percent": 99.61304104763124,
    "complete_data_percent": 68.889624565491
   }
+ },
+ {
+  "timestamp": "2026-11-26T04:09:35Z",
+  "commit_sha": "ec3a3a08a695a5b5ac18d025d848bddab90a21a8",
+  "commit_message": "Publish completed combo consumer closure",
+  "source": "report",
+  "version": "GQPP78",
+  "measures": {
+   "fuzzy_match_percent": 99.71854,
+   "matched_code_percent": 93.91391447645714,
+   "complete_code_percent": 62.149774463928274,
+   "matched_data_percent": 99.61304104763124,
+   "complete_data_percent": 68.889624565491
+  }
  }
 ]
