@@ -3985,5 +3985,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-26T18:53:17Z",
+  "commit_sha": "007b881bc3873f557048dffec7d2888e1cc05932",
+  "commit_message": "DOL: own boot debug state and build the full entry unit in all regions",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

@@ -6023,5 +6023,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-26T19:15:45Z",
+  "commit_sha": "ccce0068fb1fdfd3f23bf7ff254868525019c90b",
+  "commit_message": "Rename fn_800B0F1C to VFiPFStream_Open",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 90.00015,
+   "matched_code_percent": 50.485536201133286,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
