@@ -3971,5 +3971,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-26T17:00:14Z",
+  "commit_sha": "a353175de177c6832f3412389d3c6b7eac6f5542",
+  "commit_message": "MetroTRK: share the memory wrapper ABI and return the copy destination",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

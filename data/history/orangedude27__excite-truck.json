@@ -5995,5 +5995,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-26T17:16:36Z",
+  "commit_sha": "e765c02a784c1eeeefa55748fe20b6d3b44e7e84",
+  "commit_message": "Rename fn_80233BF0 to applyTextAlignmentOffset",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.986404,
+   "matched_code_percent": 50.485536201133286,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
