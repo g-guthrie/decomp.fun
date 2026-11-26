@@ -2905,5 +2905,19 @@
    "matched_data_percent": 42.93666008552724,
    "complete_data_percent": 42.93666008552724
   }
+ },
+ {
+  "timestamp": "2026-11-26T01:48:14Z",
+  "commit_sha": "2374acfe4bd92887f62c04b14f548c2c0c91df64",
+  "commit_message": "PSysLightning: Work on Matching (#896)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 74.454834,
+   "matched_code_percent": 60.903334230703656,
+   "complete_code_percent": 32.90129825058351,
+   "matched_data_percent": 42.93666008552724,
+   "complete_data_percent": 42.93666008552724
+  }
  }
 ]
