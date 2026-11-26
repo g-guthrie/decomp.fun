@@ -816,5 +816,19 @@
    "matched_data_percent": 92.15701800401848,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-26T20:14:12Z",
+  "commit_sha": "a92c0a09201074bb957af4efb92cc16e5901cd31",
+  "commit_message": "Merge pull request #234 from roengstrom/menusav-hand-pointers",
+  "source": "report",
+  "version": "SLUS_008.92",
+  "measures": {
+   "fuzzy_match_percent": 75.19259,
+   "matched_code_percent": 75.19258686139698,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 92.15701800401848,
+   "complete_data_percent": 0.0
+  }
  }
 ]
