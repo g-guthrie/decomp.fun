@@ -5925,5 +5925,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-26T12:16:37Z",
+  "commit_sha": "6d0d9a95b954069d2569aedc77d6711393a737a3",
+  "commit_message": "Rename lbl_8055C6E0 to maxBoundKeyFormat",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 89.94769,
+   "matched_code_percent": 50.485536201133286,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
