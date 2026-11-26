@@ -848,5 +848,19 @@
    "matched_data_percent": 99.61304104763124,
    "complete_data_percent": 68.889624565491
   }
+ },
+ {
+  "timestamp": "2026-11-26T03:13:15Z",
+  "commit_sha": "4f3c6120bf9704968b5b468b89bb5ccc1393296b",
+  "commit_message": "Publish remaining combo consumer results",
+  "source": "report",
+  "version": "GQPP78",
+  "measures": {
+   "fuzzy_match_percent": 99.71854,
+   "matched_code_percent": 93.91391447645714,
+   "complete_code_percent": 62.149774463928274,
+   "matched_data_percent": 99.61304104763124,
+   "complete_data_percent": 68.889624565491
+  }
  }
 ]
