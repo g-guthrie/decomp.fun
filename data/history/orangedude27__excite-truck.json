@@ -6177,5 +6177,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-27T06:16:32Z",
+  "commit_sha": "96453d5cbe92a1b9053fb1a7355c3735c3542e0b",
+  "commit_message": "Rename fn_8016C5F0 to countAvailableRingSets",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 90.03015,
+   "matched_code_percent": 50.485536201133286,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
