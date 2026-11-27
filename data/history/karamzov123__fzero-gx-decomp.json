@@ -4069,5 +4069,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-27T14:50:30Z",
+  "commit_sha": "977ebcd4b3c31eafd10fa238a7140f7f3e01bc60",
+  "commit_message": "movie_module: sfd_hds.c is two units (12 -> 2)",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000084,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
