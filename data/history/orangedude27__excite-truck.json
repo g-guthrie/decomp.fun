@@ -6135,5 +6135,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-27T03:15:08Z",
+  "commit_sha": "7c86a347e36a7e8364c64f59b1377d3a06def163",
+  "commit_message": "Rename fn_80243528 to getMenuTableEntryOffset",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 90.02243,
+   "matched_code_percent": 50.485536201133286,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
