@@ -6093,5 +6093,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-27T00:06:58Z",
+  "commit_sha": "fba64445685ee801b10ef6241927267e30302132",
+  "commit_message": "Rename fn_80257558 to buildProfileSelectorTable",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 90.02123,
+   "matched_code_percent": 50.485536201133286,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]
