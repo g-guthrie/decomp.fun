@@ -4097,5 +4097,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-27T17:11:39Z",
+  "commit_sha": "9f0184c3c3d0feb5330839603168a3bd62ca2785",
+  "commit_message": "Share Sofdec sound declarations across the existing units",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000084,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
