@@ -1696,6 +1696,20 @@
   }
  },
  {
+  "timestamp": "2026-11-25T20:11:06Z",
+  "commit_sha": "996bbc88b97736fd7ca5832bfbfae8f0a774474c",
+  "commit_message": "First pass on koopajr (#413)",
+  "source": "report",
+  "version": "GMSP01_NX",
+  "measures": {
+   "fuzzy_match_percent": 98.41706,
+   "matched_code_percent": 52.383316057637565,
+   "complete_code_percent": 19.405903234392074,
+   "matched_data_percent": 82.52911264744831,
+   "complete_data_percent": 23.49983269947642
+  }
+ },
+ {
   "timestamp": "2026-11-25T20:12:40Z",
   "commit_sha": "12eb1834a714c118174511641e5f036780af80e7",
   "commit_message": "Improve AnimalBase and AnimalNerve slightly (#410)",

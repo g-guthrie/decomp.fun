@@ -1550,5 +1550,19 @@
    "matched_data_percent": 11.350795131245404,
    "complete_data_percent": 2.6300766117001406
   }
+ },
+ {
+  "timestamp": "2026-11-27T11:50:19Z",
+  "commit_sha": "76694c6caa8a2ccf84db34a912b1518e05a4421f",
+  "commit_message": "CoinRotater is matching except .sdata2-0 (#68)",
+  "source": "report",
+  "version": "SB4E01",
+  "measures": {
+   "fuzzy_match_percent": 23.8504,
+   "matched_code_percent": 20.891843694471117,
+   "complete_code_percent": 3.1896587476033855,
+   "matched_data_percent": 11.356903393139483,
+   "complete_data_percent": 2.6375944724928524
+  }
  }
 ]
