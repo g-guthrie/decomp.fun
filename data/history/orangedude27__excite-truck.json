@@ -6205,5 +6205,19 @@
    "matched_data_percent": 3.474263087749968,
    "complete_data_percent": 3.471946603493567
   }
+ },
+ {
+  "timestamp": "2026-11-27T08:15:42Z",
+  "commit_sha": "d015a7eeb779608906dae96f7671677e5741d741",
+  "commit_message": "Rename fn_800057D0 to selectPlayerHudOverlays",
+  "source": "report",
+  "version": "REXE01",
+  "measures": {
+   "fuzzy_match_percent": 90.03106,
+   "matched_code_percent": 50.485536201133286,
+   "complete_code_percent": 3.3968519157206196,
+   "matched_data_percent": 3.474263087749968,
+   "complete_data_percent": 3.471946603493567
+  }
  }
 ]

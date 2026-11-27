@@ -4041,5 +4041,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-27T07:48:15Z",
+  "commit_sha": "40af202c5e110c957fc28d28d43f02867e98a268",
+  "commit_message": "movie_module: prune dead declarations; 35 Sofdec TUs become block-format TU files",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00004,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
