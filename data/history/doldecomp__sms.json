@@ -1722,5 +1722,19 @@
    "matched_data_percent": 93.2840983803689,
    "complete_data_percent": 23.10055268290931
   }
+ },
+ {
+  "timestamp": "2026-11-27T18:14:04Z",
+  "commit_sha": "283439562934723525182b4c585cbad30c76c4e2",
+  "commit_message": "Fix wrong rollout param + minor cleanup (#415)",
+  "source": "report",
+  "version": "GMSJ01",
+  "measures": {
+   "fuzzy_match_percent": 98.826164,
+   "matched_code_percent": 53.150674858109326,
+   "complete_code_percent": 19.294903077584728,
+   "matched_data_percent": 93.2840983803689,
+   "complete_data_percent": 23.10055268290931
+  }
  }
 ]

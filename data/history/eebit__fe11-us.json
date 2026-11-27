@@ -192,5 +192,19 @@
    "matched_data_percent": 0.667069248809808,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-27T18:19:25Z",
+  "commit_sha": "88c3137d941cd6255e00e68d8770a79e0e9810b2",
+  "commit_message": "Merge pull request #88 from ThatMazes/decomp/map_menu_base",
+  "source": "report",
+  "version": "YFEE01",
+  "measures": {
+   "fuzzy_match_percent": 15.509839,
+   "matched_code_percent": 9.275374501181238,
+   "complete_code_percent": 0.341099126680057,
+   "matched_data_percent": 0.667069248809808,
+   "complete_data_percent": 0.0
+  }
  }
 ]

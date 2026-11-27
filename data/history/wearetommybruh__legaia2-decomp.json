@@ -1132,5 +1132,19 @@
    "matched_data_percent": 0.17351847240502927,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-27T17:35:08Z",
+  "commit_sha": "0138d726095410e8e0fad62938acf23175707bd8",
+  "commit_message": "Match five PAL functions covering 672 bytes",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 27.17281,
+   "matched_code_percent": 27.064129445741187,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.17351847240502927,
+   "complete_data_percent": 0.0
+  }
  }
 ]
