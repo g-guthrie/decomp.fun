@@ -334,5 +334,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-27T20:57:51Z",
+  "commit_sha": "18a0aaad565d8c6433df1d2e0907b2a04698a6ad",
+  "commit_message": "Fix two stage allocation sizes (#3692)",
+  "source": "report",
+  "version": "GALE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99997,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

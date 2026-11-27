@@ -1999,5 +1999,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-27T21:17:37Z",
+  "commit_sha": "4983038973ffc9c8b932fb83e9a357cf26fc510b",
+  "commit_message": "alessastruct: handle negative zero (#542)",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 8.195388,
+   "matched_code_percent": 7.15887847078044,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]

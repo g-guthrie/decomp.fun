@@ -2989,5 +2989,19 @@
    "matched_data_percent": 43.44583385663745,
    "complete_data_percent": 43.44583385663745
   }
+ },
+ {
+  "timestamp": "2026-11-27T21:02:41Z",
+  "commit_sha": "f74e4f8121d3d8eab17a1e471c363a2bc9b52338",
+  "commit_message": "LH3DCamera: Set to Matching in every version (#886)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 75.35356,
+   "matched_code_percent": 61.80581239135371,
+   "complete_code_percent": 33.49747830491664,
+   "matched_data_percent": 43.445822799918716,
+   "complete_data_percent": 43.445822799918716
+  }
  }
 ]
