@@ -1090,5 +1090,19 @@
    "matched_data_percent": 0.17351847240502927,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-27T10:29:53Z",
+  "commit_sha": "3543846cfa5cee11e2066098ecce87b495ed13ad",
+  "commit_message": "Match four file, texture and table routines",
+  "source": "report",
+  "version": "SLES_508.91",
+  "measures": {
+   "fuzzy_match_percent": 26.721031,
+   "matched_code_percent": 26.599873402698105,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 0.17351847240502927,
+   "complete_data_percent": 0.0
+  }
  }
 ]
