@@ -4027,5 +4027,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-27T07:15:39Z",
+  "commit_sha": "385504b87705d7d8244d59068ae1a0fccdaf351e",
+  "commit_message": "docs: movie_module Sofdec TU map, recut results and the remaining blocker",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00004,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
