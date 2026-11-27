@@ -4083,5 +4083,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-27T16:03:53Z",
+  "commit_sha": "df39b67f157b5aa19f30da32df9c0aecc0676ff6",
+  "commit_message": "docs: the REL TU pipeline on the older game TUs, and the three tutruth limits it hit",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000084,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
