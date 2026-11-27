@@ -513,5 +513,19 @@
    "matched_data_percent": 34.265509912174,
    "complete_data_percent": 7.320616163371521
   }
+ },
+ {
+  "timestamp": "2026-11-27T01:24:33Z",
+  "commit_sha": "52f84c6a388c981ff646f2485c1ee9b47f08e6fe",
+  "commit_message": "Misc stuff 8 (#204)",
+  "source": "report",
+  "version": "eur",
+  "measures": {
+   "fuzzy_match_percent": 16.512434,
+   "matched_code_percent": 12.405941772512827,
+   "complete_code_percent": 6.528651381918585,
+   "matched_data_percent": 34.265509912174,
+   "complete_data_percent": 7.320616163371521
+  }
  }
 ]
