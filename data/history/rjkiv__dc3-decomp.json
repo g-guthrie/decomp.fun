@@ -2726,5 +2726,19 @@
    "matched_data_percent": 29.28945224392489,
    "complete_data_percent": 29.28945224392489
   }
+ },
+ {
+  "timestamp": "2026-11-27T22:51:23Z",
+  "commit_sha": "ad24a9b676383b712a9adcdaa6e3afe6e37f4689",
+  "commit_message": "remove explicit blkmov calls",
+  "source": "report",
+  "version": "373307D9",
+  "measures": {
+   "fuzzy_match_percent": 57.08942,
+   "matched_code_percent": 54.78921678663126,
+   "complete_code_percent": 38.75769884273634,
+   "matched_data_percent": 29.28945224392489,
+   "complete_data_percent": 29.28945224392489
+  }
  }
 ]
