@@ -3003,5 +3003,19 @@
    "matched_data_percent": 43.445822799918716,
    "complete_data_percent": 43.445822799918716
   }
+ },
+ {
+  "timestamp": "2026-11-27T21:36:44Z",
+  "commit_sha": "526ddc0fae816b4fa60fb4495dd652e13d1334fe",
+  "commit_message": "ControlMap: Work on Matching (#904)",
+  "source": "report",
+  "version": "BW1W120",
+  "measures": {
+   "fuzzy_match_percent": 75.54863,
+   "matched_code_percent": 61.93378041200042,
+   "complete_code_percent": 33.49754190270818,
+   "matched_data_percent": 43.44584491336182,
+   "complete_data_percent": 43.44584491336182
+  }
  }
 ]

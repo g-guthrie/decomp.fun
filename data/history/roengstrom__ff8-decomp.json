@@ -830,5 +830,19 @@
    "matched_data_percent": 92.15701800401848,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-27T21:30:27Z",
+  "commit_sha": "ae4cd0ed6b01b493848938fa782ac44fffb4b2ea",
+  "commit_message": "Merge pull request #235 from dargor123/world-decomp-func_800ACDC4",
+  "source": "report",
+  "version": "SLUS_008.92",
+  "measures": {
+   "fuzzy_match_percent": 75.33775,
+   "matched_code_percent": 75.33775478782452,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 92.15701800401848,
+   "complete_data_percent": 0.0
+  }
  }
 ]
