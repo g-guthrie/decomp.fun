@@ -4139,5 +4139,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-28T00:03:57Z",
+  "commit_sha": "a9b3894d40ec28054409a59436e8b3ad4d2d1ef2",
+  "commit_message": "Give Sofdec server state and sparse DCT table native BSS ownership",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000084,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
