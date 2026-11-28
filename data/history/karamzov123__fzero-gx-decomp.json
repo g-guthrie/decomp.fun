@@ -4181,5 +4181,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-28T03:57:04Z",
+  "commit_sha": "b8b0061dd90d783152d81ab30735d8496471a60e",
+  "commit_message": "rel: transfer 5 more exclusive .bss/.data imports into owning one-unit REL TUs",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000015,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
