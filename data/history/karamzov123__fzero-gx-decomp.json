@@ -4195,5 +4195,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-28T04:08:27Z",
+  "commit_sha": "e5a23aec57e051d5a99b51fb7257c7c66929105b",
+  "commit_message": "rel: migrate profile.c to block format (20 files -> 1 TU) and merge 20 -> 19 units",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000015,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

@@ -215,5 +215,19 @@
    "matched_data_percent": 99.34801817944991,
    "complete_data_percent": 86.13605719978736
   }
+ },
+ {
+  "timestamp": "2026-11-28T03:39:38Z",
+  "commit_sha": "5c4206f2a87ed58bb5f349f7ccec2ac49e49fc92",
+  "commit_message": "Gcpipemanager (#130)",
+  "source": "report",
+  "version": "GQNE5D",
+  "measures": {
+   "fuzzy_match_percent": 89.93323,
+   "matched_code_percent": 89.51601983928235,
+   "complete_code_percent": 79.89583456572979,
+   "matched_data_percent": 99.34801817944991,
+   "complete_data_percent": 86.16175626722806
+  }
  }
 ]
