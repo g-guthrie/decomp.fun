@@ -4209,5 +4209,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-28T05:15:49Z",
+  "commit_sha": "6ea248dadb1d7dd6b40cf037b6217ab6f082b16b",
+  "commit_message": "headers: guard 40 duplicate Obj_* typedefs; collapse 18 main_rel code units",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 99.99999,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

@@ -2027,5 +2027,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-28T04:56:18Z",
+  "commit_sha": "02e5fb618699fb68fcc83314cf89b412968c1798",
+  "commit_message": "sh2: rebuild `sh2_DrawEnvData`",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 8.195388,
+   "matched_code_percent": 7.15887847078044,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
