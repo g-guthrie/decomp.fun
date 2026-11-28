@@ -249,5 +249,19 @@
    "matched_data_percent": 4.471941134006256,
    "complete_data_percent": 4.471941134006256
   }
+ },
+ {
+  "timestamp": "2026-11-28T09:35:24Z",
+  "commit_sha": "1b1c60f0fd18062aac6ea26b5340e19068fd0882",
+  "commit_message": "Decompile `daWmSandPillar_c` (#146)",
+  "source": "report",
+  "version": "SMNP01",
+  "measures": {
+   "fuzzy_match_percent": 9.798191,
+   "matched_code_percent": 9.79825506501834,
+   "complete_code_percent": 9.79825506501834,
+   "matched_data_percent": 4.571269356790957,
+   "complete_data_percent": 4.571269356790957
+  }
  }
 ]
