@@ -4153,5 +4153,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-28T01:56:06Z",
+  "commit_sha": "f92c3605b6b97176c96c267bf259e18614ea02a7",
+  "commit_message": "docs: record tutruth helper fixes and 4 verified REL TU collapses",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.00006,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]

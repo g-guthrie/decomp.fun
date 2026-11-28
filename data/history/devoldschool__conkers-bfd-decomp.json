@@ -957,5 +957,19 @@
    "matched_data_percent": 96.83170795708732,
    "complete_data_percent": 96.83170795708732
   }
+ },
+ {
+  "timestamp": "2026-11-28T02:10:26Z",
+  "commit_sha": "298fb1a4ee4b71f88aba83fb9f0bad9b0d374a96",
+  "commit_message": "Merge pull request #281 from DevOldSchool/claude/game-data-owners",
+  "source": "report",
+  "version": "us",
+  "measures": {
+   "fuzzy_match_percent": 63.23642,
+   "matched_code_percent": 62.81433521729684,
+   "complete_code_percent": 24.931710774205726,
+   "matched_data_percent": 97.16340528772255,
+   "complete_data_percent": 97.16340528772255
+  }
  }
 ]

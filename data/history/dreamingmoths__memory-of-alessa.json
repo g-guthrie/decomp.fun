@@ -2013,5 +2013,19 @@
    "matched_data_percent": 11.458802125724135,
    "complete_data_percent": 0.0
   }
+ },
+ {
+  "timestamp": "2026-11-28T01:24:36Z",
+  "commit_sha": "830af6c778471e8b41661182471c5da9b0d4e7f2",
+  "commit_message": "alessastruct: replace rust file with link to repo",
+  "source": "report",
+  "version": "SLUS_206.22",
+  "measures": {
+   "fuzzy_match_percent": 8.195388,
+   "matched_code_percent": 7.15887847078044,
+   "complete_code_percent": 0.0,
+   "matched_data_percent": 11.458802125724135,
+   "complete_data_percent": 0.0
+  }
  }
 ]
