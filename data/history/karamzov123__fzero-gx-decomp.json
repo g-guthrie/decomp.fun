@@ -4167,5 +4167,19 @@
    "matched_data_percent": 100.0,
    "complete_data_percent": 100.0
   }
+ },
+ {
+  "timestamp": "2026-11-28T03:07:36Z",
+  "commit_sha": "021c91274d7491c85abf79c0049cfafcda699152",
+  "commit_message": "rel: collapse 10 main_rel units across 6 TUs and record wave in TU_COLLAPSE.md",
+  "source": "report",
+  "version": "GFZE01",
+  "measures": {
+   "fuzzy_match_percent": 100.000015,
+   "matched_code_percent": 100.0,
+   "complete_code_percent": 100.0,
+   "matched_data_percent": 100.0,
+   "complete_data_percent": 100.0
+  }
  }
 ]
